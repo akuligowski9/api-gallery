@@ -1,0 +1,16 @@
+{
+  "id": "zuplo",
+  "previewType": "card",
+  "sampleResponse": {
+    "gateway_url": "https://my-api.zuplo.app",
+    "environment": "production",
+    "requests_per_second": 1200,
+    "latency_ms": 18,
+    "status": "healthy"
+  },
+  "previewConfig": {
+    "title": "gateway_url",
+    "subtitle": "environment",
+    "displayFields": ["gateway_url", "environment", "requests_per_second", "latency_ms", "status"]
+  }
+}

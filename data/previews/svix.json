@@ -1,0 +1,16 @@
+{
+  "id": "svix",
+  "previewType": "card",
+  "sampleResponse": {
+    "message_id": "msg_2Cjoe3bZ9MCqLMdWbdYsAhXPFEC",
+    "event_type": "invoice.paid",
+    "endpoint_url": "https://myapp.com/webhooks/svix",
+    "status": "delivered",
+    "timestamp": "2026-02-25T10:42:00Z"
+  },
+  "previewConfig": {
+    "title": "event_type",
+    "subtitle": "endpoint_url",
+    "displayFields": ["message_id", "event_type", "endpoint_url", "status", "timestamp"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-government-poland",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Air Quality Monitoring Stations", "publisher": "Chief Inspectorate for Environmental Protection", "format": "JSON", "updated": "2024-12-08", "license": "CC0" },
+      { "title": "Public Procurement Register", "publisher": "Public Procurement Office", "format": "XML", "updated": "2024-11-20", "license": "CC0" },
+      { "title": "National Registry of Boundaries", "publisher": "Head Office of Geodesy and Cartography", "format": "GeoJSON", "updated": "2024-10-11", "license": "CC BY 4.0" },
+      { "title": "Railway Infrastructure Data", "publisher": "PKP Polish Railway Lines", "format": "CSV", "updated": "2024-09-14", "license": "CC BY 4.0" },
+      { "title": "Cultural Heritage Sites", "publisher": "National Heritage Board of Poland", "format": "CSV", "updated": "2024-08-25", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Poland",
+    "subtitle": "Polish government open data catalogue",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

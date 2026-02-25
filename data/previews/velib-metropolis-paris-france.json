@@ -1,0 +1,16 @@
+{
+  "id": "velib-metropolis-paris-france",
+  "previewType": "card",
+  "sampleResponse": {
+    "stationName": "Rivoli - Hôtel de Ville",
+    "stationCode": "16107",
+    "availableBikes": 12,
+    "availableDocks": 8,
+    "status": "Operational"
+  },
+  "previewConfig": {
+    "title": "Rivoli - Hôtel de Ville",
+    "subtitle": "Vélib' Métropolis Bike Station",
+    "displayFields": ["stationName", "stationCode", "availableBikes", "availableDocks", "status"]
+  }
+}

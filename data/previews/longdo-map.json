@@ -1,0 +1,16 @@
+{
+  "id": "longdo-map",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "วัดพระแก้ว (Temple of the Emerald Buddha)",
+    "address": "Na Phra Lan Rd, Phra Nakhon, Bangkok 10200",
+    "province": "Bangkok",
+    "lat": 13.7516,
+    "lon": 100.4927
+  },
+  "previewConfig": {
+    "title": "วัดพระแก้ว",
+    "subtitle": "Longdo Map Place Search",
+    "displayFields": ["name", "address", "province", "lat", "lon"]
+  }
+}

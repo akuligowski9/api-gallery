@@ -1,0 +1,16 @@
+{
+  "id": "web-scraping-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com/products/widget-pro",
+    "status_code": 200,
+    "title": "Widget Pro - Best Widget Ever",
+    "word_count": 1340,
+    "scraped_at": "2026-02-25T11:00:00Z"
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "url",
+    "displayFields": ["url", "status_code", "title", "word_count", "scraped_at"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "zenrows",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://www.amazon.com/dp/B09X7CRKRZ",
+    "status_code": 200,
+    "content_length_kb": 412,
+    "proxy_used": "residential-us",
+    "js_rendered": true
+  },
+  "previewConfig": {
+    "title": "url",
+    "subtitle": "proxy_used",
+    "displayFields": ["url", "status_code", "content_length_kb", "proxy_used", "js_rendered"]
+  }
+}

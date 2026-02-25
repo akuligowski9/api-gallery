@@ -1,0 +1,16 @@
+{
+  "id": "pusher-channels",
+  "previewType": "card",
+  "sampleResponse": {
+    "channel": "presence-chat-room-42",
+    "occupied": true,
+    "subscription_count": 17,
+    "user_count": 17,
+    "created_at": "2026-02-25T14:30:00Z"
+  },
+  "previewConfig": {
+    "title": "Pusher Channels",
+    "subtitle": "Realtime channel info",
+    "displayFields": ["channel", "occupied", "subscription_count", "user_count", "created_at"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-government-slovakia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Register of Legal Entities", "publisher": "Ministry of Justice SR", "format": "XML" },
+      { "name": "Public Procurement Data", "publisher": "Public Procurement Office", "format": "CSV" },
+      { "name": "Slovak Population Census 2021", "publisher": "Statistical Office of SR", "format": "CSV" },
+      { "name": "Real Estate Cadastre", "publisher": "Geodesy and Cartography Authority", "format": "JSON" },
+      { "name": "Air Quality Monitoring Stations", "publisher": "Slovak Hydrometeorological Institute", "format": "JSON" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Slovakia Open Datasets",
+    "subtitle": "Public datasets from Slovak government publishers",
+    "itemKey": "name",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

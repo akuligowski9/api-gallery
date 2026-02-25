@@ -1,0 +1,16 @@
+{
+  "id": "openapihub",
+  "previewType": "card",
+  "sampleResponse": {
+    "api_id": "openweathermap-v2.5",
+    "api_name": "OpenWeatherMap",
+    "category": "Weather",
+    "version": "2.5",
+    "openapi_spec_url": "https://openapihub.com/specs/openweathermap-v2.5.yaml"
+  },
+  "previewConfig": {
+    "title": "OpenWeatherMap",
+    "subtitle": "API listing from OpenAPIHub",
+    "displayFields": ["api_id", "api_name", "category", "version", "openapi_spec_url"]
+  }
+}

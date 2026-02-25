@@ -1,0 +1,16 @@
+{
+  "id": "markdown-to-html-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "status": "success",
+    "input_length": 342,
+    "output_length": 518,
+    "html_preview": "<h1>Hello World</h1><p>This is a <strong>bold</strong> statement.</p>",
+    "processing_time_ms": 8
+  },
+  "previewConfig": {
+    "title": "Markdown to HTML",
+    "subtitle": "Conversion completed successfully",
+    "displayFields": ["status", "input_length", "output_length", "html_preview", "processing_time_ms"]
+  }
+}

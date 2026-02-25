@@ -1,0 +1,16 @@
+{
+  "id": "mocky",
+  "previewType": "card",
+  "sampleResponse": {
+    "mock_id": "m2xcv891",
+    "url": "https://run.mocky.io/v3/m2xcv891",
+    "http_status": 200,
+    "content_type": "application/json",
+    "expiration": "never"
+  },
+  "previewConfig": {
+    "title": "Mock Endpoint Created",
+    "subtitle": "https://run.mocky.io/v3/m2xcv891",
+    "displayFields": ["mock_id", "url", "http_status", "content_type", "expiration"]
+  }
+}

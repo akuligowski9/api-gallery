@@ -1,0 +1,16 @@
+{
+  "id": "screenshot-scout",
+  "previewType": "card",
+  "sampleResponse": {
+    "website": "https://stripe.com",
+    "thumbnail_url": "https://cdn.screenshot-scout.com/thumb/stripe_1280x800_abc9d2.jpg",
+    "device": "desktop",
+    "resolution": "1280x800",
+    "timestamp": "2024-03-15T11:05:22Z"
+  },
+  "previewConfig": {
+    "title": "Screenshot Scout",
+    "subtitle": "Website screenshot result",
+    "displayFields": ["website", "thumbnail_url", "device", "resolution", "timestamp"]
+  }
+}

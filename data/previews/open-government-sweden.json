@@ -1,0 +1,20 @@
+{
+  "id": "open-government-sweden",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Population Statistics by Municipality 2023", "organization": "Statistics Sweden (SCB)", "category": "Demographics", "format": "CSV", "updated": "2024-01-15" },
+      { "title": "National Road Network GIS Data", "organization": "Swedish Transport Administration", "category": "Transport", "format": "GeoJSON", "updated": "2024-02-03" },
+      { "title": "Air Quality Measurements Stockholm 2023", "organization": "Swedish Environmental Protection Agency", "category": "Environment", "format": "JSON", "updated": "2024-01-28" },
+      { "title": "Primary School Results by County", "organization": "Swedish National Agency for Education", "category": "Education", "format": "XLSX", "updated": "2023-12-10" },
+      { "title": "Hospital Admissions and Diagnoses 2022", "organization": "National Board of Health and Welfare", "category": "Health", "format": "XML", "updated": "2023-11-20" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Sweden",
+    "subtitle": "Swedish public sector open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

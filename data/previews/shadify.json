@@ -1,0 +1,16 @@
+{
+  "id": "shadify",
+  "previewType": "card",
+  "sampleResponse": {
+    "game": "sudoku",
+    "difficulty": "medium",
+    "grid": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+    "solution_exists": true,
+    "generated_at": "2024-03-15T16:10:33Z"
+  },
+  "previewConfig": {
+    "title": "Shadify",
+    "subtitle": "Puzzle / game generation",
+    "displayFields": ["game", "difficulty", "grid", "solution_exists", "generated_at"]
+  }
+}

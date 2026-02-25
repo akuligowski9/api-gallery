@@ -1,0 +1,16 @@
+{
+  "id": "scrapingant",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://www.etsy.com/search?q=handmade+candles",
+    "status_code": 200,
+    "credits_used": 10,
+    "cookies_count": 8,
+    "js_rendering": true
+  },
+  "previewConfig": {
+    "title": "ScrapingAnt",
+    "subtitle": "Web scraping result",
+    "displayFields": ["url", "status_code", "credits_used", "cookies_count", "js_rendering"]
+  }
+}

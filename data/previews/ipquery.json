@@ -1,0 +1,16 @@
+{
+  "id": "ipquery",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "185.220.101.45",
+    "country_code": "DE",
+    "city": "Frankfurt am Main",
+    "asn": "AS24940",
+    "is_vpn": "true"
+  },
+  "previewConfig": {
+    "title": "IP Query Result",
+    "subtitle": "Detailed IP metadata including VPN and proxy detection",
+    "displayFields": ["ip", "country_code", "city", "asn", "is_vpn"]
+  }
+}

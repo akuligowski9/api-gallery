@@ -1,0 +1,20 @@
+{
+  "id": "open-government-thailand",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Bangkok Traffic Congestion Index 2023", "organization": "Department of Highways", "category": "Transport", "format": "JSON", "updated": "2024-01-30" },
+      { "title": "Thailand Rice Export Statistics", "organization": "Ministry of Commerce", "category": "Agriculture", "format": "CSV", "updated": "2024-02-05" },
+      { "title": "Provincial Population Census 2020", "organization": "National Statistical Office", "category": "Demographics", "format": "XLSX", "updated": "2023-08-15" },
+      { "title": "Tourism Arrivals by Nationality 2023", "organization": "Tourism Authority of Thailand", "category": "Tourism", "format": "CSV", "updated": "2024-01-20" },
+      { "title": "Public Hospital Bed Capacity by Province", "organization": "Ministry of Public Health", "category": "Health", "format": "JSON", "updated": "2023-11-10" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Thailand",
+    "subtitle": "Thailand open government data portal datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

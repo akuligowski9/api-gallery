@@ -1,0 +1,16 @@
+{
+  "id": "qr-code",
+  "previewType": "card",
+  "sampleResponse": {
+    "data": "https://example.com/promo/summer2026",
+    "format": "PNG",
+    "size": 300,
+    "error_correction": "M",
+    "image_url": "https://api.qr-code.dev/v1/images/qr_a7c3d9f1.png"
+  },
+  "previewConfig": {
+    "title": "QR Code",
+    "subtitle": "QR code generation result",
+    "displayFields": ["data", "format", "size", "error_correction", "image_url"]
+  }
+}

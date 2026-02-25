@@ -1,0 +1,16 @@
+{
+  "id": "sonar",
+  "previewType": "card",
+  "sampleResponse": {
+    "component": "com.example:my-project",
+    "metric": "code_smells",
+    "value": "42",
+    "status": "WARN",
+    "rating": "B"
+  },
+  "previewConfig": {
+    "title": "component",
+    "subtitle": "metric",
+    "displayFields": ["component", "metric", "value", "status", "rating"]
+  }
+}

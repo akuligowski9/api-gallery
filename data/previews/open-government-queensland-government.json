@@ -1,0 +1,50 @@
+{
+  "id": "open-government-queensland-government",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Queensland Road Crash Data",
+        "organization": "Department of Transport and Main Roads",
+        "format": "CSV",
+        "license": "CC BY 4.0",
+        "updated": "2024-03-28"
+      },
+      {
+        "title": "School Locations Queensland",
+        "organization": "Department of Education",
+        "format": "GeoJSON",
+        "license": "CC BY 4.0",
+        "updated": "2024-01-15"
+      },
+      {
+        "title": "Queensland Flood Mapping",
+        "organization": "Queensland Reconstruction Authority",
+        "format": "WMS",
+        "license": "CC BY 4.0",
+        "updated": "2023-12-05"
+      },
+      {
+        "title": "Electoral Boundaries Queensland",
+        "organization": "Electoral Commission of Queensland",
+        "format": "Shapefile",
+        "license": "CC BY 4.0",
+        "updated": "2024-02-10"
+      },
+      {
+        "title": "Public Hospital Locations",
+        "organization": "Queensland Health",
+        "format": "JSON",
+        "license": "CC BY 4.0",
+        "updated": "2024-04-01"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Queensland",
+    "subtitle": "Queensland Government Data Portal",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sqlable",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "SELECT * FROM users WHERE active = true",
+    "rows_returned": 128,
+    "execution_time_ms": 14,
+    "database": "production_db",
+    "status": "success"
+  },
+  "previewConfig": {
+    "title": "database",
+    "subtitle": "query",
+    "displayFields": ["database", "query", "rows_returned", "execution_time_ms", "status"]
+  }
+}

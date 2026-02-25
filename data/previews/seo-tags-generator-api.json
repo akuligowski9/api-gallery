@@ -1,0 +1,16 @@
+{
+  "id": "seo-tags-generator-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "page_title": "Best Running Shoes 2024 | Expert Reviews & Buyer's Guide",
+    "meta_description": "Discover the top-rated running shoes of 2024. Our experts tested 50+ models to help you find the perfect pair for your stride and budget.",
+    "og_title": "Best Running Shoes 2024 — Tested & Reviewed",
+    "canonical_url": "https://example.com/best-running-shoes",
+    "robots": "index, follow"
+  },
+  "previewConfig": {
+    "title": "SEO Tags Generator API",
+    "subtitle": "Generated SEO meta tags",
+    "displayFields": ["page_title", "meta_description", "og_title", "canonical_url", "robots"]
+  }
+}

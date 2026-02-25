@@ -1,0 +1,16 @@
+{
+  "id": "rwanda-locations",
+  "previewType": "card",
+  "sampleResponse": {
+    "province": "Kigali City",
+    "district": "Gasabo",
+    "sector": "Kimironko",
+    "latitude": -1.9441,
+    "longitude": 30.1062
+  },
+  "previewConfig": {
+    "title": "district",
+    "subtitle": "province",
+    "displayFields": ["province", "district", "sector", "latitude", "longitude"]
+  }
+}

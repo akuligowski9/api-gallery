@@ -1,0 +1,20 @@
+{
+  "id": "open-government-taiwan",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Taiwan Bus Real-Time Location Data", "organization": "Ministry of Transportation and Communications", "category": "Transport", "format": "JSON", "updated": "2024-02-20" },
+      { "title": "Agricultural Production Statistics 2023", "organization": "Council of Agriculture", "category": "Agriculture", "format": "CSV", "updated": "2024-01-15" },
+      { "title": "Air Quality Index by Station", "organization": "Environmental Protection Administration", "category": "Environment", "format": "JSON", "updated": "2024-02-22" },
+      { "title": "National Health Insurance Claims Data", "organization": "National Health Insurance Administration", "category": "Health", "format": "XML", "updated": "2023-12-31" },
+      { "title": "Typhoon Warning and Track Records", "organization": "Central Weather Bureau", "category": "Weather", "format": "JSON", "updated": "2024-02-10" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Taiwan",
+    "subtitle": "Taiwan government open data platform datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

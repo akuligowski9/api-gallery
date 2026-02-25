@@ -1,0 +1,16 @@
+{
+  "id": "tolgee",
+  "previewType": "card",
+  "sampleResponse": {
+    "key": "welcome.greeting",
+    "language": "fr",
+    "translation": "Bienvenue sur notre plateforme !",
+    "project": "my-saas-app",
+    "state": "REVIEWED"
+  },
+  "previewConfig": {
+    "title": "key",
+    "subtitle": "translation",
+    "displayFields": ["key", "language", "translation", "project", "state"]
+  }
+}

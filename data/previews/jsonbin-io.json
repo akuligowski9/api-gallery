@@ -1,0 +1,16 @@
+{
+  "id": "jsonbin-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "binId": "63f1a2b4e786935d7a1c9f0e",
+    "name": "my-config-store",
+    "private": true,
+    "createdAt": "2024-02-19T14:32:10.000Z",
+    "recordCount": 128
+  },
+  "previewConfig": {
+    "title": "my-config-store",
+    "subtitle": "JSONbin.io Storage Bin",
+    "displayFields": ["binId", "name", "private", "createdAt", "recordCount"]
+  }
+}

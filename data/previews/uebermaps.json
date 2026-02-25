@@ -1,0 +1,16 @@
+{
+  "id": "uebermaps",
+  "previewType": "card",
+  "sampleResponse": {
+    "map_name": "Berlin Street Art Tour",
+    "marker_title": "East Side Gallery",
+    "latitude": 52.5051,
+    "longitude": 13.4397,
+    "created_by": "cityexplorer_de"
+  },
+  "previewConfig": {
+    "title": "Custom Map Marker",
+    "subtitle": "User-created map and marker details",
+    "displayFields": ["map_name", "marker_title", "latitude", "longitude", "created_by"]
+  }
+}

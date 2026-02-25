@@ -1,0 +1,16 @@
+{
+  "id": "wav-to-mp3-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "conversion_id": "conv_b8e21f3c77da",
+    "input_file": "recording.wav",
+    "output_file": "recording.mp3",
+    "bitrate_kbps": 192,
+    "status": "completed"
+  },
+  "previewConfig": {
+    "title": "Audio Conversion Result",
+    "subtitle": "Convert WAV audio files to MP3 format via the WAV to MP3 API",
+    "displayFields": ["conversion_id", "input_file", "output_file", "bitrate_kbps", "status"]
+  }
+}

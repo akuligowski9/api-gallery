@@ -1,0 +1,16 @@
+{
+  "id": "serialif-color",
+  "previewType": "card",
+  "sampleResponse": {
+    "hex": "#3B82F6",
+    "rgb": "rgb(59, 130, 246)",
+    "hsl": "hsl(217, 91%, 60%)",
+    "name": "Cornflower Blue",
+    "luminance": 0.2126
+  },
+  "previewConfig": {
+    "title": "Serialif Color",
+    "subtitle": "Color information and conversion",
+    "displayFields": ["hex", "rgb", "hsl", "name", "luminance"]
+  }
+}

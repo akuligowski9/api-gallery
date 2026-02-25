@@ -1,0 +1,16 @@
+{
+  "id": "scrapfly",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://www.zillow.com/homes/for-sale/",
+    "status": "DONE",
+    "success": true,
+    "response_status_code": 200,
+    "cost": 2
+  },
+  "previewConfig": {
+    "title": "Scrapfly",
+    "subtitle": "Web scraping result",
+    "displayFields": ["url", "status", "success", "response_status_code", "cost"]
+  }
+}

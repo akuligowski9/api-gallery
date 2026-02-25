@@ -1,0 +1,20 @@
+{
+  "id": "open-government-luxembourg",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "datasetId": "lux-od-1042", "title": "Luxembourg City Public Transport Network Map", "organization": "Ville de Luxembourg", "theme": "Mobility", "lastModified": "2024-10-08" },
+      { "datasetId": "lux-od-0877", "title": "Charging Stations for Electric Vehicles", "organization": "Ministry of Energy", "theme": "Energy", "lastModified": "2024-11-12" },
+      { "datasetId": "lux-od-1318", "title": "Population by Canton and Nationality", "organization": "STATEC", "theme": "Demographics", "lastModified": "2024-08-01" },
+      { "datasetId": "lux-od-0634", "title": "Building Permits Issued by Municipality", "organization": "Ministry of Housing", "theme": "Construction", "lastModified": "2024-09-17" },
+      { "datasetId": "lux-od-1501", "title": "Wine Production and Export Volume Data", "organization": "Institut Viti-Vinicole", "theme": "Agriculture", "lastModified": "2024-07-25" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Luxembourg",
+    "subtitle": "Luxembourg open data portal datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "theme"
+  }
+}

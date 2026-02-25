@@ -1,0 +1,16 @@
+{
+  "id": "rejax",
+  "previewType": "card",
+  "sampleResponse": {
+    "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+    "input": "user@example.com",
+    "is_valid": true,
+    "match_count": 1,
+    "execution_time_us": 42
+  },
+  "previewConfig": {
+    "title": "Rejax",
+    "subtitle": "Regex validation result",
+    "displayFields": ["pattern", "input", "is_valid", "match_count", "execution_time_us"]
+  }
+}

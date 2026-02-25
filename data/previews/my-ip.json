@@ -1,0 +1,16 @@
+{
+  "id": "my-ip",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "203.0.113.47",
+    "type": "IPv4",
+    "country": "United States",
+    "region": "California",
+    "isp": "Comcast Cable Communications"
+  },
+  "previewConfig": {
+    "title": "203.0.113.47",
+    "subtitle": "Your current IP address info",
+    "displayFields": ["ip", "type", "country", "region", "isp"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "useragent",
+  "previewType": "card",
+  "sampleResponse": {
+    "ua_string": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    "browser": "Chrome 121",
+    "os": "macOS Ventura",
+    "device_type": "desktop",
+    "is_bot": false
+  },
+  "previewConfig": {
+    "title": "browser",
+    "subtitle": "os",
+    "displayFields": ["ua_string", "browser", "os", "device_type", "is_bot"]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "open-government-portugal",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "População Residente em Portugal",
+        "organization": "INE - Instituto Nacional de Estatística",
+        "format": "CSV",
+        "license": "CC BY 4.0",
+        "updated": "2024-03-15"
+      },
+      {
+        "title": "Orçamento do Estado 2024",
+        "organization": "DGO - Direção-Geral do Orçamento",
+        "format": "XLSX",
+        "license": "CC BY 4.0",
+        "updated": "2024-01-10"
+      },
+      {
+        "title": "Dados de Saúde - SNS",
+        "organization": "Ministério da Saúde",
+        "format": "JSON",
+        "license": "CC BY 4.0",
+        "updated": "2024-04-02"
+      },
+      {
+        "title": "Rede Ferroviária Nacional",
+        "organization": "IP - Infraestruturas de Portugal",
+        "format": "GeoJSON",
+        "license": "ODbL",
+        "updated": "2023-11-20"
+      },
+      {
+        "title": "Qualidade do Ar - Estações de Monitorização",
+        "organization": "APA - Agência Portuguesa do Ambiente",
+        "format": "CSV",
+        "license": "CC BY 4.0",
+        "updated": "2024-04-18"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Portugal",
+    "subtitle": "Public Datasets Portal",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

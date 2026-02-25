@@ -1,0 +1,16 @@
+{
+  "id": "mexico",
+  "previewType": "card",
+  "sampleResponse": {
+    "state": "Jalisco",
+    "municipality": "Guadalajara",
+    "postal_code": "44100",
+    "latitude": 20.6597,
+    "longitude": -103.3496
+  },
+  "previewConfig": {
+    "title": "municipality",
+    "subtitle": "state",
+    "displayFields": ["state", "municipality", "postal_code", "latitude", "longitude"]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "transport-for-toronto-canada",
+  "previewType": "card",
+  "sampleResponse": {
+    "route": "Line 1 Yonge-University",
+    "vehicle": "Train 5842",
+    "currentStation": "Bloor-Yonge",
+    "direction": "Northbound",
+    "nextStation": "Rosedale",
+    "eta": "2 min",
+    "status": "In Service",
+    "operator": "TTC"
+  },
+  "previewConfig": {
+    "title": "Line 1 Yonge-University",
+    "subtitle": "TTC transit vehicle position",
+    "displayFields": ["currentStation", "direction", "nextStation", "eta", "status"]
+  }
+}

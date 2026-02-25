@@ -1,0 +1,16 @@
+{
+  "id": "proxykingdom",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "185.220.101.42",
+    "port": 8080,
+    "country": "Germany",
+    "type": "elite",
+    "latency_ms": 143
+  },
+  "previewConfig": {
+    "title": "ProxyKingdom",
+    "subtitle": "Proxy server information",
+    "displayFields": ["ip", "port", "country", "type", "latency_ms"]
+  }
+}

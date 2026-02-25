@@ -1,0 +1,16 @@
+{
+  "id": "pusher-beams",
+  "previewType": "card",
+  "sampleResponse": {
+    "publish_id": "pn_9f3a2c1e4d8b7a6f",
+    "title": "Your order has shipped!",
+    "devices_targeted": 1842,
+    "devices_reached": 1791,
+    "status": "delivered"
+  },
+  "previewConfig": {
+    "title": "Pusher Beams",
+    "subtitle": "Push notification delivery",
+    "displayFields": ["publish_id", "title", "devices_targeted", "devices_reached", "status"]
+  }
+}

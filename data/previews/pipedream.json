@@ -1,0 +1,16 @@
+{
+  "id": "pipedream",
+  "previewType": "card",
+  "sampleResponse": {
+    "run_id": "run_abc123xyz",
+    "workflow_name": "Slack Notify on GitHub PR",
+    "status": "success",
+    "steps_completed": 4,
+    "duration_ms": 1342
+  },
+  "previewConfig": {
+    "title": "Slack Notify on GitHub PR",
+    "subtitle": "Workflow execution result",
+    "displayFields": ["run_id", "workflow_name", "status", "steps_completed", "duration_ms"]
+  }
+}

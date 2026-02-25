@@ -1,0 +1,16 @@
+{
+  "id": "scrapingdog",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com/products/widget",
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8",
+    "html_length": 48321,
+    "scraped_at": "2024-03-15T10:42:07Z"
+  },
+  "previewConfig": {
+    "title": "ScrapingDog",
+    "subtitle": "Web scraping result",
+    "displayFields": ["url", "status_code", "content_type", "html_length", "scraped_at"]
+  }
+}

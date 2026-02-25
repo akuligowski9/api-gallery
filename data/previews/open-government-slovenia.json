@@ -1,0 +1,20 @@
+{
+  "id": "open-government-slovenia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Slovenian Demographic Statistics", "publisher": "Statistical Office of Slovenia", "format": "CSV" },
+      { "name": "Public Spending Transactions", "publisher": "Ministry of Finance", "format": "CSV" },
+      { "name": "National Road Network", "publisher": "Directorate of Infrastructure", "format": "GeoJSON" },
+      { "name": "Environmental Monitoring Data", "publisher": "Slovenian Environment Agency", "format": "JSON" },
+      { "name": "Business Register of Slovenia", "publisher": "Agency of the Republic of Slovenia", "format": "XML" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Slovenia Open Datasets",
+    "subtitle": "Public datasets from Slovenian government publishers",
+    "itemKey": "name",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

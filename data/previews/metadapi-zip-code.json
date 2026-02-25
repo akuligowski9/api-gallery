@@ -1,0 +1,16 @@
+{
+  "id": "metadapi-zip-code",
+  "previewType": "card",
+  "sampleResponse": {
+    "zipCode": "10001",
+    "city": "New York",
+    "state": "New York",
+    "latitude": 40.7484,
+    "longitude": -73.9967
+  },
+  "previewConfig": {
+    "title": "10001 - New York",
+    "subtitle": "Metadapi Zip Code Lookup",
+    "displayFields": ["zipCode", "city", "state", "latitude", "longitude"]
+  }
+}

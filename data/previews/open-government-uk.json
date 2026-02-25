@@ -1,0 +1,20 @@
+{
+  "id": "open-government-uk",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "UK House Price Index by Local Authority", "organization": "HM Land Registry", "category": "Housing", "format": "CSV", "updated": "2024-02-14" },
+      { "title": "National Rail Live Departure Boards", "organization": "Network Rail", "category": "Transport", "format": "JSON", "updated": "2024-02-22" },
+      { "title": "NHS Hospital Activity Statistics 2022-23", "organization": "NHS England", "category": "Health", "format": "XLSX", "updated": "2024-01-10" },
+      { "title": "UK Carbon Emissions by Sector 2023", "organization": "Department for Energy Security and Net Zero", "category": "Environment", "format": "CSV", "updated": "2024-02-01" },
+      { "title": "Parliamentary Voting Records 2023-24", "organization": "UK Parliament", "category": "Government", "format": "JSON", "updated": "2024-02-20" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government UK",
+    "subtitle": "UK data.gov.uk open government datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

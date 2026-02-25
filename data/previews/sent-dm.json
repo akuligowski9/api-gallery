@@ -1,0 +1,16 @@
+{
+  "id": "sent-dm",
+  "previewType": "card",
+  "sampleResponse": {
+    "message_id": "msg_01HX9K2RNBTZ4VF7Q8CMEP3G",
+    "recipient": "+14155550192",
+    "status": "delivered",
+    "channel": "sms",
+    "delivered_at": "2024-03-15T13:47:55Z"
+  },
+  "previewConfig": {
+    "title": "Sent.dm",
+    "subtitle": "Message delivery status",
+    "displayFields": ["message_id", "recipient", "status", "channel", "delivered_at"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "timezones-dictionary-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "timezone": "America/New_York",
+    "utc_offset": "-05:00",
+    "abbreviation": "EST",
+    "current_time": "2026-02-25T14:30:00-05:00",
+    "dst_active": false
+  },
+  "previewConfig": {
+    "title": "Timezone Info",
+    "subtitle": "Details for a given timezone identifier",
+    "displayFields": ["timezone", "utc_offset", "abbreviation", "current_time", "dst_active"]
+  }
+}

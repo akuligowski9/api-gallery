@@ -1,0 +1,20 @@
+{
+  "id": "open-government-norway",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Norwegian Population Statistics", "publisher": "Statistics Norway", "format": "CSV", "updated": "2024-11-01", "license": "NLOD" },
+      { "title": "Road Network Norway", "publisher": "Norwegian Public Roads Administration", "format": "GeoJSON", "updated": "2024-10-17", "license": "NLOD" },
+      { "title": "Weather Observations", "publisher": "MET Norway", "format": "JSON", "updated": "2024-12-10", "license": "CC BY 4.0" },
+      { "title": "Municipal Budget Accounts", "publisher": "Ministry of Local Government", "format": "XLSX", "updated": "2024-09-25", "license": "NLOD" },
+      { "title": "Fishing Vessel Registry", "publisher": "Norwegian Directorate of Fisheries", "format": "CSV", "updated": "2024-08-30", "license": "NLOD" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Norway",
+    "subtitle": "Norwegian public sector open data portal",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

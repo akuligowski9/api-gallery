@@ -1,0 +1,16 @@
+{
+  "id": "proxycrawl",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com/products/widget",
+    "status": 200,
+    "pc_status": 200,
+    "body_length": 48320,
+    "screenshot_url": "https://storage.proxycrawl.com/screenshots/abc123.jpg"
+  },
+  "previewConfig": {
+    "title": "ProxyCrawl",
+    "subtitle": "Web crawl result",
+    "displayFields": ["url", "status", "pc_status", "body_length", "screenshot_url"]
+  }
+}

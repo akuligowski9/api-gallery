@@ -1,0 +1,16 @@
+{
+  "id": "yadg",
+  "previewType": "card",
+  "sampleResponse": {
+    "artist": "Daft Punk",
+    "album": "Random Access Memories",
+    "year": 2013,
+    "cover_url": "https://yadg.cc/covers/daft-punk-random-access-memories.jpg",
+    "source": "MusicBrainz"
+  },
+  "previewConfig": {
+    "title": "album",
+    "subtitle": "artist",
+    "displayFields": ["artist", "album", "year", "cover_url", "source"]
+  }
+}

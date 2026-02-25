@@ -1,0 +1,16 @@
+{
+  "id": "proxmox-ve-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "vmid": 101,
+    "name": "ubuntu-22-04",
+    "status": "running",
+    "maxmem": 4294967296,
+    "uptime": 863200
+  },
+  "previewConfig": {
+    "title": "Proxmox VE API",
+    "subtitle": "Virtual machine status",
+    "displayFields": ["vmid", "name", "status", "maxmem", "uptime"]
+  }
+}

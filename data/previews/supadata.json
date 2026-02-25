@@ -1,0 +1,16 @@
+{
+  "id": "supadata",
+  "previewType": "card",
+  "sampleResponse": {
+    "video_id": "dQw4w9WgXcQ",
+    "title": "Rick Astley - Never Gonna Give You Up",
+    "channel": "Rick Astley",
+    "views": 1500000000,
+    "duration_seconds": 212
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "channel",
+    "displayFields": ["video_id", "title", "channel", "views", "duration_seconds"]
+  }
+}

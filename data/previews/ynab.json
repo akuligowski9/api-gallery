@@ -1,0 +1,16 @@
+{
+  "id": "ynab",
+  "previewType": "card",
+  "sampleResponse": {
+    "account_name": "Checking Account",
+    "balance": 3241.56,
+    "budget_name": "My Monthly Budget",
+    "on_budget": true,
+    "last_reconciled": "2024-11-01"
+  },
+  "previewConfig": {
+    "title": "YNAB Budget Account",
+    "subtitle": "Access budget accounts and transaction data from You Need A Budget",
+    "displayFields": ["account_name", "balance", "budget_name", "on_budget", "last_reconciled"]
+  }
+}

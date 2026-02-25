@@ -1,0 +1,16 @@
+{
+  "id": "represent-by-open-north",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Jagmeet Singh",
+    "party": "New Democratic Party",
+    "district": "Burnaby South",
+    "level": "Federal",
+    "email": "jagmeet.singh@parl.gc.ca"
+  },
+  "previewConfig": {
+    "title": "Represent by Open North",
+    "subtitle": "Canadian elected representatives by location",
+    "displayFields": ["name", "party", "district", "level", "email"]
+  }
+}

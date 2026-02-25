@@ -1,0 +1,16 @@
+{
+  "id": "tetr-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "BLOCKMASTER99",
+    "rank": "S+",
+    "rating": 18432,
+    "apm": 142.7,
+    "gamesPlayed": 3871
+  },
+  "previewConfig": {
+    "title": "TETR.IO",
+    "subtitle": "Tetris player statistics",
+    "displayFields": ["username", "rank", "rating", "apm", "gamesPlayed"]
+  }
+}

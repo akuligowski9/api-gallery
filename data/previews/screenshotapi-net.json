@@ -1,0 +1,16 @@
+{
+  "id": "screenshotapi-net",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com",
+    "screenshot_url": "https://cdn.screenshotapi.net/captures/abc123def456.png",
+    "width": 1920,
+    "height": 1080,
+    "captured_at": "2024-03-15T09:30:00Z"
+  },
+  "previewConfig": {
+    "title": "ScreenshotAPI.net",
+    "subtitle": "Screenshot capture result",
+    "displayFields": ["url", "screenshot_url", "width", "height", "captured_at"]
+  }
+}

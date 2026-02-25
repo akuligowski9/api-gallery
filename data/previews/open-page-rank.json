@@ -1,0 +1,16 @@
+{
+  "id": "open-page-rank",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "github.com",
+    "page_rank_integer": 9,
+    "page_rank_decimal": 9.32,
+    "rank": 47,
+    "last_updated": "2025-10-01"
+  },
+  "previewConfig": {
+    "title": "github.com",
+    "subtitle": "Open Page Rank result",
+    "displayFields": ["domain", "page_rank_integer", "page_rank_decimal", "rank", "last_updated"]
+  }
+}

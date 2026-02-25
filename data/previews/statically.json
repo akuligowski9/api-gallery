@@ -1,0 +1,16 @@
+{
+  "id": "statically",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://cdn.statically.io/gh/user/repo/main/image.png",
+    "original_size_kb": 320,
+    "optimized_size_kb": 87,
+    "format": "webp",
+    "cache_status": "HIT"
+  },
+  "previewConfig": {
+    "title": "url",
+    "subtitle": "cache_status",
+    "displayFields": ["url", "format", "original_size_kb", "optimized_size_kb", "cache_status"]
+  }
+}

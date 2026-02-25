@@ -1,0 +1,16 @@
+{
+  "id": "screenshotbase",
+  "previewType": "card",
+  "sampleResponse": {
+    "target_url": "https://news.ycombinator.com",
+    "image_url": "https://screenshotbase.com/results/hq_7f3a9c2d.png",
+    "format": "PNG",
+    "file_size_kb": 342,
+    "render_time_ms": 1850
+  },
+  "previewConfig": {
+    "title": "Screenshotbase",
+    "subtitle": "Screenshot service result",
+    "displayFields": ["target_url", "image_url", "format", "file_size_kb", "render_time_ms"]
+  }
+}

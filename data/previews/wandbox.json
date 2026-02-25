@@ -1,0 +1,16 @@
+{
+  "id": "wandbox",
+  "previewType": "card",
+  "sampleResponse": {
+    "compiler": "gcc-13.2.0",
+    "language": "C++",
+    "stdout": "Hello, World!\n",
+    "exit_code": 0,
+    "compile_time_ms": 321
+  },
+  "previewConfig": {
+    "title": "compiler",
+    "subtitle": "language",
+    "displayFields": ["compiler", "language", "stdout", "exit_code", "compile_time_ms"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-government-victoria-state-government",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Melbourne Public Transport Stops and Routes", "organization": "Public Transport Victoria", "category": "Transport", "format": "GTFS", "updated": "2024-02-01" },
+      { "title": "Victorian School Locations and Enrolments", "organization": "Department of Education", "category": "Education", "format": "CSV", "updated": "2024-01-25" },
+      { "title": "Ambulance Response Times by Region 2023", "organization": "Ambulance Victoria", "category": "Health", "format": "XLSX", "updated": "2024-02-10" },
+      { "title": "Rainfall and River Height Gauges Victoria", "organization": "Bureau of Meteorology", "category": "Environment", "format": "JSON", "updated": "2024-02-22" },
+      { "title": "Planning Permit Applications Greater Melbourne", "organization": "Department of Transport and Planning", "category": "Planning", "format": "GeoJSON", "updated": "2024-02-15" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Victoria",
+    "subtitle": "Victoria State Government open data catalogue",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

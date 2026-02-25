@@ -1,0 +1,16 @@
+{
+  "id": "scrapeninja",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://shop.example.com/products",
+    "status_code": 200,
+    "content_length": 92840,
+    "render_time_ms": 1320,
+    "proxy_country": "US"
+  },
+  "previewConfig": {
+    "title": "ScrapeNinja",
+    "subtitle": "Web scraping result",
+    "displayFields": ["url", "status_code", "content_length", "render_time_ms", "proxy_country"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ip-address-details",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "104.21.45.12",
+    "city": "San Francisco",
+    "region": "California",
+    "country": "US",
+    "org": "AS13335 Cloudflare, Inc."
+  },
+  "previewConfig": {
+    "title": "IP Address Details",
+    "subtitle": "Geolocation and organization info for an IP",
+    "displayFields": ["ip", "city", "region", "country", "org"]
+  }
+}

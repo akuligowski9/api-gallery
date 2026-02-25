@@ -1,0 +1,20 @@
+{
+  "id": "open-government-south-australian-government",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "SA Property Sales Data", "organisation": "Consumer and Business Services SA", "format": "CSV" },
+      { "name": "Adelaide Metro Bus Routes", "organisation": "Department for Infrastructure", "format": "GeoJSON" },
+      { "name": "SA Health Facilities", "organisation": "SA Health", "format": "CSV" },
+      { "name": "South Australian Wine Regions", "organisation": "Primary Industries and Regions SA", "format": "GeoJSON" },
+      { "name": "SA Crime Statistics", "organisation": "South Australia Police", "format": "CSV" }
+    ]
+  },
+  "previewConfig": {
+    "title": "South Australia Open Datasets",
+    "subtitle": "Public datasets from South Australian government organisations",
+    "itemKey": "name",
+    "secondaryKey": "organisation",
+    "badgeKey": "format"
+  }
+}

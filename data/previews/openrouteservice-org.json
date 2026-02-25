@@ -1,0 +1,16 @@
+{
+  "id": "openrouteservice-org",
+  "previewType": "card",
+  "sampleResponse": {
+    "distance_km": 12.4,
+    "duration_min": 18.7,
+    "profile": "driving-car",
+    "start_address": "Heidelberg, Germany",
+    "end_address": "Mannheim, Germany"
+  },
+  "previewConfig": {
+    "title": "profile",
+    "subtitle": "start_address",
+    "displayFields": ["distance_km", "duration_min", "profile", "start_address", "end_address"]
+  }
+}

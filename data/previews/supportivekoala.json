@@ -1,0 +1,16 @@
+{
+  "id": "supportivekoala",
+  "previewType": "card",
+  "sampleResponse": {
+    "image_url": "https://api.supportivekoala.com/images/gen_a1b2c3d4.png",
+    "template": "motivational-banner",
+    "width": 1200,
+    "height": 630,
+    "format": "png"
+  },
+  "previewConfig": {
+    "title": "template",
+    "subtitle": "image_url",
+    "displayFields": ["template", "image_url", "width", "height", "format"]
+  }
+}

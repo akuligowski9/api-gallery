@@ -1,0 +1,20 @@
+{
+  "id": "open-government-west-australia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Perth Transperth Bus and Train Timetables", "organization": "Public Transport Authority WA", "category": "Transport", "format": "GTFS", "updated": "2024-01-15" },
+      { "title": "WA Mining Tenements and Licence Areas", "organization": "Department of Mines, Industry Regulation and Safety", "category": "Mining", "format": "GeoJSON", "updated": "2024-02-18" },
+      { "title": "Western Australia Bushfire Boundaries 2023", "organization": "Department of Fire and Emergency Services", "category": "Emergency", "format": "GeoJSON", "updated": "2024-02-05" },
+      { "title": "Groundwater Bore Locations and Data", "organization": "Department of Water and Environmental Regulation", "category": "Environment", "format": "CSV", "updated": "2023-12-20" },
+      { "title": "WA Primary and Secondary School Performance", "organization": "Department of Education WA", "category": "Education", "format": "XLSX", "updated": "2024-01-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government West Australia",
+    "subtitle": "Western Australia government open data portal",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

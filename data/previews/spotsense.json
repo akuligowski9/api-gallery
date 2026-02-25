@@ -1,0 +1,16 @@
+{
+  "id": "spotsense",
+  "previewType": "card",
+  "sampleResponse": {
+    "geofence_name": "Downtown Store Zone",
+    "event": "enter",
+    "device_id": "device-7829a",
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  "previewConfig": {
+    "title": "geofence_name",
+    "subtitle": "event",
+    "displayFields": ["geofence_name", "event", "device_id", "latitude", "longitude"]
+  }
+}

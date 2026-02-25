@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-norway",
+  "previewType": "card",
+  "sampleResponse": {
+    "line": "T-bane Line 1",
+    "stop": "Nationaltheatret",
+    "next_departure": "3 min",
+    "destination": "Frognerseteren",
+    "operator": "Ruter"
+  },
+  "previewConfig": {
+    "title": "Norwegian Transit Departure",
+    "subtitle": "Real-time public transport departures across Norway via Entur",
+    "displayFields": ["line", "stop", "next_departure", "destination", "operator"]
+  }
+}

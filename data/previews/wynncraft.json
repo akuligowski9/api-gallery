@@ -1,0 +1,16 @@
+{
+  "id": "wynncraft",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "DragonSlayer99",
+    "rank": "Hero",
+    "totalLevel": 387,
+    "playtime": "1240 hours",
+    "guild": "Knights of Wynn"
+  },
+  "previewConfig": {
+    "title": "Wynncraft Player Profile",
+    "subtitle": "MMORPG player stats from the Wynncraft API",
+    "displayFields": ["username", "rank", "totalLevel", "playtime", "guild"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ipwhois",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "104.26.10.78",
+    "org": "Cloudflare, Inc.",
+    "country": "United States",
+    "isp": "AS13335 Cloudflare",
+    "type": "Hosting"
+  },
+  "previewConfig": {
+    "title": "IP WHOIS Lookup",
+    "subtitle": "ISP, organization, and network data for an IP",
+    "displayFields": ["ip", "org", "country", "isp", "type"]
+  }
+}

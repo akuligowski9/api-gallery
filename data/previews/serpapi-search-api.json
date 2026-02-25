@@ -1,0 +1,20 @@
+{
+  "id": "serpapi-search-api",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "position": 1, "title": "JavaScript Tutorial - W3Schools", "displayed_link": "www.w3schools.com › js", "snippet": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java..." },
+      { "position": 2, "title": "JavaScript - MDN Web Docs", "displayed_link": "developer.mozilla.org › JavaScript", "snippet": "JavaScript (JS) is a lightweight interpreted programming language with first-class functions." },
+      { "position": 3, "title": "The Modern JavaScript Tutorial", "displayed_link": "javascript.info", "snippet": "Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including closures, document and events, object oriented programming..." },
+      { "position": 4, "title": "Learn JavaScript - freeCodeCamp", "displayed_link": "www.freecodecamp.org › learn", "snippet": "Learn to code for free. Build projects. Earn certifications. Since 2015, 40,000+ graduates have gotten jobs at tech companies." },
+      { "position": 5, "title": "JavaScript Crash Course For Beginners - YouTube", "displayed_link": "www.youtube.com › watch", "snippet": "In this crash course we will go over JavaScript fundamentals including variables, data types, arrays, functions, loops, conditionals and more." }
+    ]
+  },
+  "previewConfig": {
+    "title": "SerpApi Search API",
+    "subtitle": "SERP organic results",
+    "itemKey": "title",
+    "secondaryKey": "snippet",
+    "badgeKey": "position"
+  }
+}

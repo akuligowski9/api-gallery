@@ -1,0 +1,16 @@
+{
+  "id": "license-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "license_id": "MIT",
+    "license_name": "MIT License",
+    "spdx_id": "MIT",
+    "is_osi_approved": true,
+    "permissions": "commercial-use, modifications, distribution, private-use"
+  },
+  "previewConfig": {
+    "title": "MIT License",
+    "subtitle": "License validation result",
+    "displayFields": ["license_id", "license_name", "spdx_id", "is_osi_approved", "permissions"]
+  }
+}

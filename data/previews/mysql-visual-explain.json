@@ -1,0 +1,16 @@
+{
+  "id": "mysql-visual-explain",
+  "previewType": "card",
+  "sampleResponse": {
+    "query_type": "SELECT",
+    "access_type": "ref",
+    "possible_keys": "idx_user_id, idx_created_at",
+    "rows_examined": 142,
+    "query_cost": 28.75
+  },
+  "previewConfig": {
+    "title": "Query Analysis",
+    "subtitle": "MySQL EXPLAIN result",
+    "displayFields": ["query_type", "access_type", "possible_keys", "rows_examined", "query_cost"]
+  }
+}

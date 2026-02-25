@@ -1,0 +1,16 @@
+{
+  "id": "zipcodestack",
+  "previewType": "card",
+  "sampleResponse": {
+    "postal_code": "W1A 1AA",
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom",
+    "country_code": "GB"
+  },
+  "previewConfig": {
+    "title": "Global Postal Code Lookup",
+    "subtitle": "City and country for a global postal code",
+    "displayFields": ["postal_code", "city", "state", "country", "country_code"]
+  }
+}

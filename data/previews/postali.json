@@ -1,0 +1,16 @@
+{
+  "id": "postali",
+  "previewType": "card",
+  "sampleResponse": {
+    "postal_code": "90210",
+    "city": "Beverly Hills",
+    "state": "California",
+    "state_abbr": "CA",
+    "county": "Los Angeles"
+  },
+  "previewConfig": {
+    "title": "city",
+    "subtitle": "postal_code",
+    "displayFields": ["postal_code", "city", "state", "state_abbr", "county"]
+  }
+}

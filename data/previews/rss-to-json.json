@@ -1,0 +1,16 @@
+{
+  "id": "rss-to-json",
+  "previewType": "card",
+  "sampleResponse": {
+    "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+    "title": "Ars Technica",
+    "item_count": 25,
+    "last_updated": "2026-02-25T12:00:00Z",
+    "language": "en-us"
+  },
+  "previewConfig": {
+    "title": "RSS to JSON",
+    "subtitle": "RSS feed conversion result",
+    "displayFields": ["feed_url", "title", "item_count", "last_updated", "language"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-sweden",
+  "previewType": "card",
+  "sampleResponse": {
+    "lineNumber": "17",
+    "lineName": "Centralstation - Åkeshov",
+    "transportMode": "Metro (Tunnelbana)",
+    "nextDeparture": "2024-11-22T08:42:00",
+    "expectedDelay": "2 min"
+  },
+  "previewConfig": {
+    "title": "Transport for Sweden",
+    "subtitle": "SL transit real-time departure",
+    "displayFields": ["lineNumber", "lineName", "transportMode", "nextDeparture", "expectedDelay"]
+  }
+}

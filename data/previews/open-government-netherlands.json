@@ -1,0 +1,20 @@
+{
+  "id": "open-government-netherlands",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Basisregistratie Adressen en Gebouwen", "organization": "Kadaster", "category": "Geography", "format": "JSON", "updated": "2023-12-01" },
+      { "title": "CBS Bevolkingsstatistieken 2023", "organization": "Centraal Bureau voor de Statistiek", "category": "Demographics", "format": "CSV", "updated": "2023-11-20" },
+      { "title": "RDW Voertuigregistraties", "organization": "RDW", "category": "Transport", "format": "CSV", "updated": "2023-12-04" },
+      { "title": "RIVM Luchtkwaliteitsmetingen", "organization": "RIVM", "category": "Environment", "format": "JSON", "updated": "2023-11-28" },
+      { "title": "DUO Onderwijsdeelname per Gemeente", "organization": "DUO", "category": "Education", "format": "XLSX", "updated": "2023-10-15" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Netherlands",
+    "subtitle": "Dutch public datasets from data.overheid.nl",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

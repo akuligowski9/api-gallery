@@ -1,0 +1,16 @@
+{
+  "id": "telize",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "93.184.216.34",
+    "city": "Norwell",
+    "country": "United States",
+    "timezone": "America/New_York",
+    "asn": "AS15133 Edgecast Inc."
+  },
+  "previewConfig": {
+    "title": "ip",
+    "subtitle": "city",
+    "displayFields": ["ip", "city", "country", "timezone", "asn"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ipwho-ip-geolocation-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "52.94.236.248",
+    "country": "United States",
+    "region": "Virginia",
+    "city": "Ashburn",
+    "connection_type": "Hosting"
+  },
+  "previewConfig": {
+    "title": "IPWho Geolocation",
+    "subtitle": "Fast IP geolocation with connection type detection",
+    "displayFields": ["ip", "country", "region", "city", "connection_type"]
+  }
+}

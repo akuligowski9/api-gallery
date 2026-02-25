@@ -1,0 +1,16 @@
+{
+  "id": "transport-rest",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Berlin Hauptbahnhof",
+    "id": "900003201",
+    "type": "station",
+    "departures": 42,
+    "lines": "S3, S5, S7, S75, S9, ICE, IC"
+  },
+  "previewConfig": {
+    "title": "Berlin Hauptbahnhof",
+    "subtitle": "transport.rest Public Transit",
+    "displayFields": ["name", "id", "type", "departures", "lines"]
+  }
+}

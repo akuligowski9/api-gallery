@@ -1,0 +1,20 @@
+{
+  "id": "ipgeolocation",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "185.220.101.47",
+    "city": "Frankfurt am Main",
+    "state_prov": "Hesse",
+    "country_name": "Germany",
+    "isp": "Hetzner Online GmbH",
+    "latitude": 50.1109,
+    "longitude": 8.6821,
+    "time_zone": "Europe/Berlin",
+    "currency": "EUR"
+  },
+  "previewConfig": {
+    "title": "185.220.101.47",
+    "subtitle": "IP location data via ipgeolocation.io",
+    "displayFields": ["city", "state_prov", "country_name", "isp", "time_zone"]
+  }
+}

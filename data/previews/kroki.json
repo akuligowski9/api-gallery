@@ -1,0 +1,16 @@
+{
+  "id": "kroki",
+  "previewType": "card",
+  "sampleResponse": {
+    "diagramType": "plantuml",
+    "outputFormat": "svg",
+    "encodedSource": "SyfFKj2rKt3CoKnELR1Io4ZDoSa700==",
+    "renderUrl": "https://kroki.io/plantuml/svg/SyfFKj2rKt3CoKnELR1Io4ZDoSa700==",
+    "sizeBytes": 3871
+  },
+  "previewConfig": {
+    "title": "plantuml → svg",
+    "subtitle": "Kroki Diagram Rendering",
+    "displayFields": ["diagramType", "outputFormat", "encodedSource", "renderUrl", "sizeBytes"]
+  }
+}

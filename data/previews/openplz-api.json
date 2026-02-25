@@ -1,0 +1,16 @@
+{
+  "id": "openplz-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "postal_code": "10115",
+    "locality": "Berlin",
+    "country": "Germany",
+    "state": "Berlin",
+    "district": "Mitte"
+  },
+  "previewConfig": {
+    "title": "locality",
+    "subtitle": "postal_code",
+    "displayFields": ["postal_code", "locality", "country", "state", "district"]
+  }
+}

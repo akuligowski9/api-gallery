@@ -1,0 +1,19 @@
+{
+  "id": "ip-details-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "104.16.132.229",
+    "hostname": "104.16.132.229.cloudflare.com",
+    "city": "San Francisco",
+    "region": "California",
+    "country": "US",
+    "org": "AS13335 Cloudflare, Inc.",
+    "postal": "94107",
+    "timezone": "America/Los_Angeles"
+  },
+  "previewConfig": {
+    "title": "104.16.132.229",
+    "subtitle": "Detailed IP information lookup",
+    "displayFields": ["hostname", "city", "country", "org", "timezone"]
+  }
+}

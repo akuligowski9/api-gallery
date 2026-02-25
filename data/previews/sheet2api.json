@@ -1,0 +1,16 @@
+{
+  "id": "sheet2api",
+  "previewType": "card",
+  "sampleResponse": {
+    "spreadsheet_id": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms",
+    "sheet_name": "Products",
+    "row_count": 248,
+    "last_modified": "2024-03-14T18:30:00Z",
+    "api_endpoint": "https://sheet2api.com/v1/abc123def456/products"
+  },
+  "previewConfig": {
+    "title": "Sheet2API",
+    "subtitle": "Spreadsheet data endpoint",
+    "displayFields": ["spreadsheet_id", "sheet_name", "row_count", "last_modified", "api_endpoint"]
+  }
+}

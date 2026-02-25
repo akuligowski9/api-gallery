@@ -1,0 +1,16 @@
+{
+  "id": "the-ip-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "country": "United States",
+    "region": "California",
+    "city": "Mountain View",
+    "isp": "Google LLC"
+  },
+  "previewConfig": {
+    "title": "IP Geolocation Lookup",
+    "subtitle": "Location and ISP data for an IP address",
+    "displayFields": ["ip", "country", "region", "city", "isp"]
+  }
+}

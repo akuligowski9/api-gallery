@@ -1,0 +1,16 @@
+{
+  "id": "viacep",
+  "previewType": "card",
+  "sampleResponse": {
+    "cep": "01310-100",
+    "logradouro": "Avenida Paulista",
+    "bairro": "Bela Vista",
+    "localidade": "São Paulo",
+    "uf": "SP"
+  },
+  "previewConfig": {
+    "title": "Brazilian CEP Lookup",
+    "subtitle": "Street and neighborhood data for a Brazilian postal code",
+    "displayFields": ["cep", "logradouro", "bairro", "localidade", "uf"]
+  }
+}

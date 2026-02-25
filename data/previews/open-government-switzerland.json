@@ -1,0 +1,20 @@
+{
+  "id": "open-government-switzerland",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Swiss Federal Train Timetable 2024", "organization": "Swiss Federal Railways (SBB)", "category": "Transport", "format": "GTFS", "updated": "2024-01-01" },
+      { "title": "Canton Population and Area Statistics", "organization": "Federal Statistical Office", "category": "Demographics", "format": "CSV", "updated": "2024-02-12" },
+      { "title": "Switzerland Topographic Map Data", "organization": "swisstopo", "category": "Geography", "format": "GeoTIFF", "updated": "2023-10-05" },
+      { "title": "Federal Budget Expenditures 2023", "organization": "Federal Finance Administration", "category": "Finance", "format": "JSON", "updated": "2024-01-20" },
+      { "title": "Ambient Air Pollution Monitoring Stations", "organization": "Federal Office for the Environment", "category": "Environment", "format": "CSV", "updated": "2024-02-01" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Switzerland",
+    "subtitle": "Swiss federal and cantonal open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

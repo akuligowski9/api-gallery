@@ -1,0 +1,20 @@
+{
+  "id": "open-government-ireland",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Irish Rail Real-Time Train Positions", "category": "Transport", "format": "XML", "updated": "2024-11-12", "publisher": "Iarnród Éireann" },
+      { "title": "Electoral Divisions Boundary Data", "category": "Geography", "format": "GeoJSON", "updated": "2024-08-05", "publisher": "Ordnance Survey Ireland" },
+      { "title": "Hospital Bed Capacity Statistics", "category": "Health", "format": "CSV", "updated": "2024-10-01", "publisher": "Health Service Executive" },
+      { "title": "National Broadband Coverage Map", "category": "Technology", "format": "GeoJSON", "updated": "2024-09-17", "publisher": "Department of Communications" },
+      { "title": "Tidal and Water Level Observations", "category": "Environment", "format": "JSON", "updated": "2024-11-11", "publisher": "Marine Institute" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Ireland Datasets",
+    "subtitle": "Open data published by Irish government bodies and public agencies",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "category"
+  }
+}

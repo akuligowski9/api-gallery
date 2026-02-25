@@ -1,0 +1,16 @@
+{
+  "id": "ip2proxy",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "185.220.101.47",
+    "proxyType": "TOR",
+    "countryName": "Germany",
+    "isp": "Tor Project Exit Relay",
+    "threat": "High"
+  },
+  "previewConfig": {
+    "title": "IP2Proxy",
+    "subtitle": "Proxy and VPN detection result",
+    "displayFields": ["ip", "proxyType", "countryName", "isp", "threat"]
+  }
+}

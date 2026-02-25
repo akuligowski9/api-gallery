@@ -1,0 +1,16 @@
+{
+  "id": "utah-agrc",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "324 South State Street",
+    "city": "Salt Lake City",
+    "zip_code": "84111",
+    "latitude": 40.7608,
+    "longitude": -111.8910
+  },
+  "previewConfig": {
+    "title": "Utah Address Geocode",
+    "subtitle": "Geocoded coordinates for a Utah address",
+    "displayFields": ["address", "city", "zip_code", "latitude", "longitude"]
+  }
+}

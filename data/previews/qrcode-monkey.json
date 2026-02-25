@@ -1,0 +1,16 @@
+{
+  "id": "qrcode-monkey",
+  "previewType": "card",
+  "sampleResponse": {
+    "imageUrl": "https://api.qrcode-monkey.com/tmp/qr_b2e8f4a6.png",
+    "data": "https://mystore.com/checkout/cart",
+    "color": "#1a73e8",
+    "background_color": "#ffffff",
+    "logo": "mystore-logo.png"
+  },
+  "previewConfig": {
+    "title": "Qrcode Monkey",
+    "subtitle": "Custom QR code result",
+    "displayFields": ["imageUrl", "data", "color", "background_color", "logo"]
+  }
+}

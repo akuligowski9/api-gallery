@@ -1,0 +1,19 @@
+{
+  "id": "warface-non-official",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "ShadowWolf_RU",
+    "rank": "Master Sergeant",
+    "kills": 48320,
+    "deaths": 22140,
+    "kdr": "2.18",
+    "winRate": "61.4%",
+    "hoursPlayed": 1840,
+    "favoriteClass": "Rifleman"
+  },
+  "previewConfig": {
+    "title": "ShadowWolf_RU",
+    "subtitle": "Warface player statistics",
+    "displayFields": ["rank", "kills", "kdr", "winRate", "hoursPlayed"]
+  }
+}

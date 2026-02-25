@@ -1,0 +1,16 @@
+{
+  "id": "scrnify",
+  "previewType": "card",
+  "sampleResponse": {
+    "page_url": "https://docs.example.com/guide",
+    "output_url": "https://scrnify.io/output/doc_capture_e4f1b7.pdf",
+    "output_type": "pdf",
+    "pages": 3,
+    "generated_at": "2024-03-15T14:22:10Z"
+  },
+  "previewConfig": {
+    "title": "Scrnify",
+    "subtitle": "Screenshot / PDF capture result",
+    "displayFields": ["page_url", "output_url", "output_type", "pages", "generated_at"]
+  }
+}

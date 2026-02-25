@@ -1,0 +1,16 @@
+{
+  "id": "import-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "pageUrl": "https://example.com/products/widget-pro",
+    "extractedField": "Product Name",
+    "value": "Widget Pro 3000",
+    "confidence": 0.97,
+    "extractedAt": "2024-11-22T10:15:33Z"
+  },
+  "previewConfig": {
+    "title": "import.io",
+    "subtitle": "Web scraping extraction result",
+    "displayFields": ["pageUrl", "extractedField", "value", "confidence", "extractedAt"]
+  }
+}

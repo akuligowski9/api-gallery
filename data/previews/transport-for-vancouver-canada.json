@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-vancouver-canada",
+  "previewType": "card",
+  "sampleResponse": {
+    "routeNumber": "099 B-Line",
+    "headsign": "Commercial-Broadway Station",
+    "vehicleId": "BUS-2241",
+    "nextStop": "Granville St @ W Broadway",
+    "scheduledArrival": "09:17"
+  },
+  "previewConfig": {
+    "title": "TransLink Real-Time Bus",
+    "subtitle": "Live vehicle positions from TransLink Vancouver",
+    "displayFields": ["routeNumber", "headsign", "vehicleId", "nextStop", "scheduledArrival"]
+  }
+}

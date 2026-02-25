@@ -1,0 +1,16 @@
+{
+  "id": "rest-countries",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 125700000,
+    "region": "Asia",
+    "currency": "Japanese Yen (JPY)"
+  },
+  "previewConfig": {
+    "title": "name",
+    "subtitle": "capital",
+    "displayFields": ["name", "capital", "population", "region", "currency"]
+  }
+}

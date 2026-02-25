@@ -1,0 +1,16 @@
+{
+  "id": "screenshotone-com",
+  "previewType": "card",
+  "sampleResponse": {
+    "source_url": "https://github.com",
+    "storage_path": "screenshots/2024/03/github_full_1710497400.webp",
+    "viewport": "1440x900",
+    "full_page": true,
+    "expires_at": "2024-04-15T00:00:00Z"
+  },
+  "previewConfig": {
+    "title": "ScreenshotOne.com",
+    "subtitle": "Screenshot capture details",
+    "displayFields": ["source_url", "storage_path", "viewport", "full_page", "expires_at"]
+  }
+}

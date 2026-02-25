@@ -1,0 +1,16 @@
+{
+  "id": "roadgoat-cities",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "travel_score": 91,
+    "known_for": "historic trams, pastéis de nata, fado music",
+    "best_season": "spring"
+  },
+  "previewConfig": {
+    "title": "city",
+    "subtitle": "country",
+    "displayFields": ["city", "country", "travel_score", "known_for", "best_season"]
+  }
+}

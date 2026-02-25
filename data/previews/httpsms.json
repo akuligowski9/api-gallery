@@ -1,0 +1,16 @@
+{
+  "id": "httpsms",
+  "previewType": "card",
+  "sampleResponse": {
+    "message_id": "msg_7d3f1a92c045",
+    "to": "+14155550192",
+    "content": "Your verification code is 482910",
+    "status": "sent",
+    "sent_at": "2024-11-14T09:22:05Z"
+  },
+  "previewConfig": {
+    "title": "SMS Send Result",
+    "subtitle": "Send and receive SMS messages programmatically via httpSMS",
+    "displayFields": ["message_id", "to", "content", "status", "sent_at"]
+  }
+}

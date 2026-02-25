@@ -1,0 +1,16 @@
+{
+  "id": "serp-rank-checker",
+  "previewType": "card",
+  "sampleResponse": {
+    "keyword": "best project management software",
+    "domain": "asana.com",
+    "rank": 4,
+    "search_engine": "google.com",
+    "checked_at": "2024-03-15T08:00:00Z"
+  },
+  "previewConfig": {
+    "title": "SERP Rank Checker",
+    "subtitle": "Keyword ranking position",
+    "displayFields": ["keyword", "domain", "rank", "search_engine", "checked_at"]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "open-government-romania",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Recensământul Populației și al Locuințelor 2021",
+        "organization": "Institutul Național de Statistică",
+        "format": "XLSX",
+        "license": "CC BY 4.0",
+        "updated": "2023-08-22"
+      },
+      {
+        "title": "Rețeaua de Drumuri Naționale",
+        "organization": "Compania Națională de Administrare a Infrastructurii Rutiere",
+        "format": "GeoJSON",
+        "license": "ODbL",
+        "updated": "2024-01-30"
+      },
+      {
+        "title": "Unitățile Administrativ-Teritoriale",
+        "organization": "Agenția Națională de Cadastru și Publicitate Imobiliară",
+        "format": "Shapefile",
+        "license": "CC BY 4.0",
+        "updated": "2023-06-14"
+      },
+      {
+        "title": "Calitatea Aerului - Stații de Monitorizare",
+        "organization": "Agenția Națională pentru Protecția Mediului",
+        "format": "CSV",
+        "license": "CC BY 4.0",
+        "updated": "2024-04-05"
+      },
+      {
+        "title": "Bugetul de Stat 2024",
+        "organization": "Ministerul Finanțelor",
+        "format": "PDF",
+        "license": "CC BY 4.0",
+        "updated": "2024-02-01"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Romania",
+    "subtitle": "Romanian Open Data Portal",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

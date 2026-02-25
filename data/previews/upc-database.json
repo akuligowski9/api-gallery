@@ -1,0 +1,16 @@
+{
+  "id": "upc-database",
+  "previewType": "card",
+  "sampleResponse": {
+    "upc": "016000275263",
+    "product_name": "Cheerios Honey Nut Cereal",
+    "brand": "General Mills",
+    "category": "Breakfast Cereals",
+    "size": "10.8 oz"
+  },
+  "previewConfig": {
+    "title": "UPC Database",
+    "subtitle": "Barcode and product lookup by UPC code",
+    "displayFields": ["upc", "product_name", "brand", "category", "size"]
+  }
+}

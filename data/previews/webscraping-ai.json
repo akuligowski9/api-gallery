@@ -1,0 +1,16 @@
+{
+  "id": "webscraping-ai",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://news.ycombinator.com",
+    "extracted_field": "top_story_title",
+    "value": "Show HN: I built a compiler in 500 lines of Rust",
+    "confidence": 0.97,
+    "model": "gpt-4o-mini"
+  },
+  "previewConfig": {
+    "title": "extracted_field",
+    "subtitle": "value",
+    "displayFields": ["url", "extracted_field", "value", "confidence", "model"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "us-zipcode",
+  "previewType": "card",
+  "sampleResponse": {
+    "zip_code": "90210",
+    "city": "Beverly Hills",
+    "state": "California",
+    "county": "Los Angeles County",
+    "population": 21741
+  },
+  "previewConfig": {
+    "title": "US ZIP Code Lookup",
+    "subtitle": "City, state, and county data for a US ZIP code",
+    "displayFields": ["zip_code", "city", "state", "county", "population"]
+  }
+}

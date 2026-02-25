@@ -1,0 +1,16 @@
+{
+  "id": "mac-address-vendor-lookup",
+  "previewType": "card",
+  "sampleResponse": {
+    "mac_address": "00:1A:2B:3C:4D:5E",
+    "vendor_name": "Apple, Inc.",
+    "vendor_country": "US",
+    "mac_prefix": "00:1A:2B",
+    "address_type": "unicast"
+  },
+  "previewConfig": {
+    "title": "Apple, Inc.",
+    "subtitle": "MAC address vendor lookup",
+    "displayFields": ["mac_address", "vendor_name", "vendor_country", "mac_prefix", "address_type"]
+  }
+}

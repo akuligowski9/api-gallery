@@ -1,0 +1,20 @@
+{
+  "id": "open-government-singapore",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Singapore Population Data", "agency": "Department of Statistics", "format": "CSV" },
+      { "name": "Housing Development Board Resale Prices", "agency": "HDB", "format": "CSV" },
+      { "name": "Public Transport Ridership", "agency": "Land Transport Authority", "format": "JSON" },
+      { "name": "Dengue Cluster Locations", "agency": "National Environment Agency", "format": "GeoJSON" },
+      { "name": "School Directory and Information", "agency": "Ministry of Education", "format": "CSV" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Singapore Open Datasets",
+    "subtitle": "Public datasets from Singapore government agencies",
+    "itemKey": "name",
+    "secondaryKey": "agency",
+    "badgeKey": "format"
+  }
+}

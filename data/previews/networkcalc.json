@@ -1,0 +1,16 @@
+{
+  "id": "networkcalc",
+  "previewType": "card",
+  "sampleResponse": {
+    "network_address": "192.168.1.0",
+    "subnet_mask": "255.255.255.0",
+    "cidr_notation": "192.168.1.0/24",
+    "usable_hosts": 254,
+    "broadcast_address": "192.168.1.255"
+  },
+  "previewConfig": {
+    "title": "192.168.1.0/24",
+    "subtitle": "Subnet calculation result",
+    "displayFields": ["network_address", "subnet_mask", "cidr_notation", "usable_hosts", "broadcast_address"]
+  }
+}

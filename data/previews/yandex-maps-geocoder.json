@@ -1,0 +1,16 @@
+{
+  "id": "yandex-maps-geocoder",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "Красная площадь, 1",
+    "city": "Москва",
+    "country": "Россия",
+    "latitude": 55.7539,
+    "longitude": 37.6208
+  },
+  "previewConfig": {
+    "title": "Yandex Geocoding Result",
+    "subtitle": "Geocoded coordinates from a Yandex Maps address query",
+    "displayFields": ["address", "city", "country", "latitude", "longitude"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "prc-exam-schedule",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "exam": "Licensure Examination for Teachers (LET)", "date": "2024-03-24", "venue": "Various Testing Centers Nationwide", "board": "Board for Professional Teachers", "status": "Scheduled" },
+      { "exam": "Philippine Nurses Licensure Examination", "date": "2024-06-02", "venue": "Manila, Cebu, Davao, Cagayan de Oro", "board": "Board of Nursing", "status": "Scheduled" },
+      { "exam": "Civil Engineer Licensure Examination", "date": "2024-05-05", "venue": "Manila, Baguio, Cebu, Davao", "board": "Board of Civil Engineering", "status": "Scheduled" },
+      { "exam": "Physician Licensure Examination", "date": "2024-02-07", "venue": "Manila, Cebu", "board": "Board of Medicine", "status": "Completed" },
+      { "exam": "CPA Licensure Examination", "date": "2024-10-06", "venue": "Manila, Cebu, Davao, Baguio", "board": "Board of Accountancy", "status": "Scheduled" }
+    ]
+  },
+  "previewConfig": {
+    "title": "PRC Exam Schedule",
+    "subtitle": "Philippine professional licensure examination schedules",
+    "itemKey": "exam",
+    "secondaryKey": "date",
+    "badgeKey": "status"
+  }
+}

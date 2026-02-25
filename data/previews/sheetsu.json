@@ -1,0 +1,16 @@
+{
+  "id": "sheetsu",
+  "previewType": "card",
+  "sampleResponse": {
+    "spreadsheet_id": "1yv_sQ3_ov5jyVwpSxCZ5C7VHCD5JkRq8eFpLz0V9E",
+    "sheet": "Inventory",
+    "total_rows": 512,
+    "updated_at": "2024-03-15T07:45:00Z",
+    "read_url": "https://sheetsu.com/apis/v1.0bu/abc987xyz321"
+  },
+  "previewConfig": {
+    "title": "Sheetsu",
+    "subtitle": "Google Sheets API data",
+    "displayFields": ["spreadsheet_id", "sheet", "total_rows", "updated_at", "read_url"]
+  }
+}

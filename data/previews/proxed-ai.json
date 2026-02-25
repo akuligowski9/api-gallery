@@ -1,0 +1,16 @@
+{
+  "id": "proxed-ai",
+  "previewType": "card",
+  "sampleResponse": {
+    "model": "gpt-4o",
+    "tokens_used": 312,
+    "latency_ms": 847,
+    "provider": "openai",
+    "status": "success"
+  },
+  "previewConfig": {
+    "title": "Proxed AI",
+    "subtitle": "AI proxy request result",
+    "displayFields": ["model", "tokens_used", "latency_ms", "provider", "status"]
+  }
+}

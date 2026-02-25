@@ -1,0 +1,20 @@
+{
+  "id": "searchapi",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "OpenAI - Advancing AI Research", "link": "https://openai.com", "snippet": "OpenAI is an AI research and deployment company dedicated to ensuring artificial general intelligence benefits all of humanity." },
+      { "title": "Anthropic | AI Safety Company", "link": "https://anthropic.com", "snippet": "Anthropic is an AI safety company working to build reliable, interpretable, and steerable AI systems." },
+      { "title": "Google AI - Latest Research", "link": "https://ai.google", "snippet": "Discover Google's latest AI research, tools, and breakthroughs from DeepMind and Google Brain." },
+      { "title": "Hugging Face - The AI Community", "link": "https://huggingface.co", "snippet": "The AI community building the future. Build, train and deploy state of the art models powered by the community." },
+      { "title": "Meta AI Research", "link": "https://ai.meta.com", "snippet": "Meta AI is advancing the state of machine learning through open research to build more capable AI systems." }
+    ]
+  },
+  "previewConfig": {
+    "title": "SearchApi",
+    "subtitle": "Search results",
+    "itemKey": "title",
+    "secondaryKey": "snippet",
+    "badgeKey": "link"
+  }
+}

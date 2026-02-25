@@ -1,0 +1,16 @@
+{
+  "id": "keycdn-ip-location-finder",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "104.16.132.229",
+    "country": "United States",
+    "city": "San Francisco",
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  "previewConfig": {
+    "title": "104.16.132.229",
+    "subtitle": "KeyCDN IP Location Finder",
+    "displayFields": ["ip", "country", "city", "latitude", "longitude"]
+  }
+}

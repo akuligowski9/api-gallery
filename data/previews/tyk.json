@@ -1,0 +1,16 @@
+{
+  "id": "tyk",
+  "previewType": "card",
+  "sampleResponse": {
+    "api_name": "payments-service",
+    "total_requests": 94821,
+    "success_rate_pct": 99.7,
+    "avg_latency_ms": 38,
+    "quota_remaining": 5179
+  },
+  "previewConfig": {
+    "title": "api_name",
+    "subtitle": "success_rate_pct",
+    "displayFields": ["api_name", "total_requests", "success_rate_pct", "avg_latency_ms", "quota_remaining"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "one-map-singapore",
+  "previewType": "card",
+  "sampleResponse": {
+    "building_name": "Marina Bay Sands",
+    "address": "10 Bayfront Avenue, Singapore 018956",
+    "postal_code": "018956",
+    "latitude": 1.2834,
+    "longitude": 103.8607
+  },
+  "previewConfig": {
+    "title": "building_name",
+    "subtitle": "address",
+    "displayFields": ["building_name", "address", "postal_code", "latitude", "longitude"]
+  }
+}

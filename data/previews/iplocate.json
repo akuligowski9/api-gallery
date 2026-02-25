@@ -1,0 +1,16 @@
+{
+  "id": "iplocate",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "151.101.1.69",
+    "country": "United States",
+    "subdivision": "California",
+    "city": "San Francisco",
+    "org": "AS54113 Fastly"
+  },
+  "previewConfig": {
+    "title": "IP Location Lookup",
+    "subtitle": "Network and geographic data from IPLocate.io",
+    "displayFields": ["ip", "country", "subdivision", "city", "org"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "zipcodeapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "zip_code": "10001",
+    "city": "New York",
+    "state": "NY",
+    "latitude": 40.7484,
+    "longitude": -73.9967
+  },
+  "previewConfig": {
+    "title": "ZIP Code Details",
+    "subtitle": "City, state, and coordinates for a US ZIP code",
+    "displayFields": ["zip_code", "city", "state", "latitude", "longitude"]
+  }
+}

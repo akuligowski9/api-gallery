@@ -1,0 +1,16 @@
+{
+  "id": "open-topo-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "latitude": 36.4558,
+    "longitude": -116.8661,
+    "elevation_m": 1452.0,
+    "dataset": "srtm30m",
+    "interpolation": "bilinear"
+  },
+  "previewConfig": {
+    "title": "dataset",
+    "subtitle": "interpolation",
+    "displayFields": ["latitude", "longitude", "elevation_m", "dataset", "interpolation"]
+  }
+}

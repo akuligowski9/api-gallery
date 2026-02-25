@@ -1,0 +1,16 @@
+{
+  "id": "uk-companies-house",
+  "previewType": "card",
+  "sampleResponse": {
+    "company_name": "DELIVEROO HOLDINGS PLC",
+    "company_number": "12044401",
+    "status": "Active",
+    "type": "Public Limited Company",
+    "incorporated_on": "2019-04-30"
+  },
+  "previewConfig": {
+    "title": "UK Companies House",
+    "subtitle": "UK registered company information and filings",
+    "displayFields": ["company_name", "company_number", "status", "type", "incorporated_on"]
+  }
+}

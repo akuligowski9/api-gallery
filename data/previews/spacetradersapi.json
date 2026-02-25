@@ -1,0 +1,16 @@
+{
+  "id": "spacetradersapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "agent_symbol": "COSMIC_TRADER",
+    "ship_symbol": "COSMIC_TRADER-1",
+    "current_waypoint": "X1-DF55-20250Z",
+    "credits": 142500,
+    "cargo_capacity": 60
+  },
+  "previewConfig": {
+    "title": "SpaceTraders Agent",
+    "subtitle": "Space trading game agent and ship status",
+    "displayFields": ["agent_symbol", "ship_symbol", "current_waypoint", "credits", "cargo_capacity"]
+  }
+}

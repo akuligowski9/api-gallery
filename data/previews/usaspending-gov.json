@@ -1,0 +1,16 @@
+{
+  "id": "usaspending-gov",
+  "previewType": "card",
+  "sampleResponse": {
+    "recipient_name": "Lockheed Martin Corporation",
+    "award_amount": "$2,847,500,000",
+    "awarding_agency": "Department of Defense",
+    "award_type": "Definitive Contract",
+    "period_of_performance_end": "2028-09-30"
+  },
+  "previewConfig": {
+    "title": "USAspending.gov",
+    "subtitle": "US federal government spending and awards",
+    "displayFields": ["recipient_name", "award_amount", "awarding_agency", "award_type", "period_of_performance_end"]
+  }
+}

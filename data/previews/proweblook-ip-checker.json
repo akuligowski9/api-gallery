@@ -1,0 +1,16 @@
+{
+  "id": "proweblook-ip-checker",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "hostname": "dns.google",
+    "organization": "Google LLC",
+    "country": "United States",
+    "isp": "Google"
+  },
+  "previewConfig": {
+    "title": "ip",
+    "subtitle": "organization",
+    "displayFields": ["ip", "hostname", "organization", "country", "isp"]
+  }
+}

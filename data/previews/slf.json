@@ -1,0 +1,16 @@
+{
+  "id": "slf",
+  "previewType": "card",
+  "sampleResponse": {
+    "region": "Valais Alps",
+    "danger_level": 3,
+    "danger_label": "Considerable",
+    "avalanche_problem": "Wind slab",
+    "valid_until": "2025-01-15T18:00:00Z"
+  },
+  "previewConfig": {
+    "title": "region",
+    "subtitle": "danger_label",
+    "displayFields": ["region", "danger_level", "danger_label", "avalanche_problem", "valid_until"]
+  }
+}

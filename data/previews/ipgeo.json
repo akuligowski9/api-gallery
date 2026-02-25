@@ -1,0 +1,19 @@
+{
+  "id": "ipgeo",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "1.1.1.1",
+    "city": "Sydney",
+    "region": "New South Wales",
+    "country": "Australia",
+    "isp": "Cloudflare, Inc.",
+    "latitude": -33.8688,
+    "longitude": 151.2093,
+    "timezone": "Australia/Sydney"
+  },
+  "previewConfig": {
+    "title": "1.1.1.1",
+    "subtitle": "IP geolocation via IPGEO",
+    "displayFields": ["city", "region", "country", "isp", "timezone"]
+  }
+}

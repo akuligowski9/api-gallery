@@ -1,0 +1,16 @@
+{
+  "id": "scraperapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "target_url": "https://www.amazon.com/dp/B09XYZ1234",
+    "status_code": 200,
+    "credits_used": 5,
+    "duration_ms": 2140,
+    "geo_location": "us-east-1"
+  },
+  "previewConfig": {
+    "title": "ScraperAPI",
+    "subtitle": "Web scraping result",
+    "displayFields": ["target_url", "status_code", "credits_used", "duration_ms", "geo_location"]
+  }
+}

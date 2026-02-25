@@ -1,0 +1,16 @@
+{
+  "id": "piloterr",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://news.ycombinator.com",
+    "title": "Hacker News",
+    "status_code": 200,
+    "word_count": 4712,
+    "scraped_at": "2025-11-12T08:45:22Z"
+  },
+  "previewConfig": {
+    "title": "Hacker News",
+    "subtitle": "Web scraping result",
+    "displayFields": ["url", "title", "status_code", "word_count", "scraped_at"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ziptastic",
+  "previewType": "card",
+  "sampleResponse": {
+    "zip": "60601",
+    "city": "Chicago",
+    "state": "Illinois",
+    "state_abbr": "IL",
+    "country": "US"
+  },
+  "previewConfig": {
+    "title": "ZIP to Location",
+    "subtitle": "City and state resolved from a US ZIP code",
+    "displayFields": ["zip", "city", "state", "state_abbr", "country"]
+  }
+}

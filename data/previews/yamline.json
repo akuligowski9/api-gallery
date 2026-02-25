@@ -1,0 +1,16 @@
+{
+  "id": "yamline",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_format": "yaml",
+    "output_format": "json",
+    "keys_processed": 24,
+    "validation_status": "valid",
+    "processing_time_ms": 5
+  },
+  "previewConfig": {
+    "title": "input_format",
+    "subtitle": "output_format",
+    "displayFields": ["input_format", "output_format", "keys_processed", "validation_status", "processing_time_ms"]
+  }
+}

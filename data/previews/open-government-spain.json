@@ -1,0 +1,20 @@
+{
+  "id": "open-government-spain",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Padrón Municipal de Habitantes", "publisher": "Instituto Nacional de Estadística", "format": "CSV" },
+      { "name": "Spanish Electoral Results", "publisher": "Ministerio del Interior", "format": "XML" },
+      { "name": "National Road Map of Spain", "publisher": "Ministerio de Transportes", "format": "GeoJSON" },
+      { "name": "Public Subsidies and Grants", "publisher": "Ministerio de Hacienda", "format": "CSV" },
+      { "name": "Air Quality in Spanish Cities", "publisher": "Ministerio para la Transición Ecológica", "format": "JSON" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Spain Open Datasets",
+    "subtitle": "Public datasets from Spanish government publishers",
+    "itemKey": "name",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

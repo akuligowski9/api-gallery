@@ -1,0 +1,16 @@
+{
+  "id": "lua-decompiler",
+  "previewType": "card",
+  "sampleResponse": {
+    "status": "success",
+    "lua_version": "5.4",
+    "input_size_bytes": 2048,
+    "output_lines": 87,
+    "decompiled_source": "local function greet(name) return 'Hello, ' .. name end"
+  },
+  "previewConfig": {
+    "title": "Decompilation Result",
+    "subtitle": "Lua bytecode decompiled successfully",
+    "displayFields": ["status", "lua_version", "input_size_bytes", "output_lines", "decompiled_source"]
+  }
+}

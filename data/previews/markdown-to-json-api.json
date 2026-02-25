@@ -1,0 +1,16 @@
+{
+  "id": "markdown-to-json-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "status": "success",
+    "input_format": "markdown",
+    "output_format": "json",
+    "node_count": 14,
+    "processing_time_ms": 12
+  },
+  "previewConfig": {
+    "title": "Markdown to JSON",
+    "subtitle": "Conversion completed successfully",
+    "displayFields": ["status", "input_format", "output_format", "node_count", "processing_time_ms"]
+  }
+}

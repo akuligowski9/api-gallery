@@ -1,0 +1,50 @@
+{
+  "id": "open-government-saudi-arabia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Saudi Population Census 2022",
+        "organization": "General Authority for Statistics",
+        "format": "XLSX",
+        "license": "CC BY 4.0",
+        "updated": "2023-05-18"
+      },
+      {
+        "title": "Riyadh Metro Stations",
+        "organization": "Royal Commission for Riyadh City",
+        "format": "GeoJSON",
+        "license": "CC BY 4.0",
+        "updated": "2024-01-22"
+      },
+      {
+        "title": "Oil Production Statistics",
+        "organization": "Ministry of Energy",
+        "format": "CSV",
+        "license": "CC BY 4.0",
+        "updated": "2024-03-30"
+      },
+      {
+        "title": "Saudi Health Facilities Directory",
+        "organization": "Ministry of Health",
+        "format": "JSON",
+        "license": "CC BY 4.0",
+        "updated": "2024-02-14"
+      },
+      {
+        "title": "Vision 2030 KPIs Dashboard Data",
+        "organization": "Vision 2030 Program Management Office",
+        "format": "JSON",
+        "license": "CC BY 4.0",
+        "updated": "2024-04-08"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Saudi Arabia",
+    "subtitle": "Saudi Open Data Portal",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pointpin",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "203.0.113.42",
+    "city": "Sydney",
+    "country": "Australia",
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  },
+  "previewConfig": {
+    "title": "ip",
+    "subtitle": "city",
+    "displayFields": ["ip", "city", "country", "latitude", "longitude"]
+  }
+}
