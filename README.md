@@ -104,7 +104,7 @@ lib/
 
 ## Contributing
 
-We welcome contributions! The easiest way to help is by adding new API previews. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
+We welcome contributions! Browse [open issues](https://github.com/akuligowski9/api-explorer/issues) to find something to work on, or see [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 ```bash
 # Fork, clone, and create a preview
