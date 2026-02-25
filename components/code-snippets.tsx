@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Copy } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { CopyButton } from "@/components/copy-button";
 import { generateCurl, generateJavaScript, generatePython } from "@/lib/generate-snippets";
 import type { ApiEntry } from "@/lib/types";
 
@@ -20,7 +20,6 @@ interface CodeSnippetsProps {
 
 export function CodeSnippets({ api }: CodeSnippetsProps) {
   const [activeTab, setActiveTab] = useState<TabId>("curl");
-  const [copied, setCopied] = useState(false);
 
   const snippets: Record<TabId, string> = {
     curl: generateCurl(api),
@@ -30,13 +29,6 @@ export function CodeSnippets({ api }: CodeSnippetsProps) {
 
   const code = snippets[activeTab];
   const activeFile = tabs.find((t) => t.id === activeTab)!.file;
-
-  const handleCopy = async () => {
-    await navigator.clipboard.writeText(code);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
   const lines = code.split("\n");
 
   return (
@@ -59,27 +51,11 @@ export function CodeSnippets({ api }: CodeSnippetsProps) {
             </div>
             <span className="text-xs text-neutral-500">{activeFile}</span>
           </div>
-          <button
-            onClick={handleCopy}
-            className={cn(
-              "inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs transition-colors",
-              copied
-                ? "text-emerald-400"
-                : "text-neutral-400 hover:text-neutral-200",
-            )}
-          >
-            {copied ? (
-              <>
-                <Check className="h-3.5 w-3.5" />
-                Copied
-              </>
-            ) : (
-              <>
-                <Copy className="h-3.5 w-3.5" />
-                Copy
-              </>
-            )}
-          </button>
+          <CopyButton
+            text={code}
+            label="Copy"
+            className="rounded-md bg-transparent px-2.5 py-1 text-neutral-400 hover:bg-transparent hover:text-neutral-200 dark:bg-transparent dark:text-neutral-400 dark:hover:text-neutral-200"
+          />
         </div>
 
         {/* Tab bar */}

@@ -1,35 +1,12 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { resolveKey, formatLabel } from "@/lib/preview-utils";
 import type { PreviewData } from "@/lib/types";
 
 interface MapPreviewProps {
   data: PreviewData;
   compact?: boolean;
-}
-
-/**
- * Resolve a nested key path like "sprites.front_default" from an object.
- */
-function resolveKey(obj: Record<string, unknown>, path: string): unknown {
-  return path
-    .split(".")
-    .reduce(
-      (o, k) =>
-        o && typeof o === "object" ? (o as Record<string, unknown>)[k] : undefined,
-      obj as unknown,
-    );
-}
-
-/**
- * Format a field key for display: snake_case / camelCase -> Title Case.
- */
-function formatLabel(key: string): string {
-  return key
-    .replace(/([A-Z])/g, " $1")
-    .replace(/[_-]/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase())
-    .trim();
 }
 
 /**

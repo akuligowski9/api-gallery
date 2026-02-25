@@ -6,10 +6,11 @@ import { cn } from "@/lib/utils";
 
 interface CopyButtonProps {
   text: string;
+  label?: string;
   className?: string;
 }
 
-export function CopyButton({ text, className }: CopyButtonProps) {
+export function CopyButton({ text, label = "Copy JSON", className }: CopyButtonProps) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -37,7 +38,7 @@ export function CopyButton({ text, className }: CopyButtonProps) {
       ) : (
         <>
           <Copy className="h-3.5 w-3.5" />
-          Copy JSON
+          {label}
         </>
       )}
     </button>

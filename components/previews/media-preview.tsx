@@ -3,21 +3,12 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { resolveKey } from "@/lib/preview-utils";
 import type { PreviewData } from "@/lib/types";
 
 interface MediaPreviewProps {
   data: PreviewData;
   compact?: boolean;
-}
-
-function resolveKey(obj: Record<string, unknown>, path: string): unknown {
-  return path
-    .split(".")
-    .reduce(
-      (o, k) =>
-        o && typeof o === "object" ? (o as Record<string, unknown>)[k] : undefined,
-      obj as unknown,
-    );
 }
 
 export function MediaPreview({ data, compact = false }: MediaPreviewProps) {

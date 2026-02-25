@@ -5,8 +5,8 @@ import { getAllSlugs, getApiBySlug, getSimilarApis } from "@/lib/api-data";
 import { getCategoryEmoji } from "@/lib/categories";
 import { AuthBadge } from "@/components/auth-badge";
 import { SimilarApis } from "@/components/similar-apis";
-import { DetailPreview } from "./detail-preview";
-import { DetailSampleResponse } from "./detail-sample-response";
+import { PreviewRenderer } from "@/components/previews";
+import { SampleResponse } from "@/components/sample-response";
 import { CodeSnippets } from "@/components/code-snippets";
 import type { Metadata } from "next";
 
@@ -104,14 +104,16 @@ export default async function ApiDetailPage({ params }: PageProps) {
       {/* Full-size preview */}
       {api.preview && (
         <section className="mb-10">
-          <DetailPreview preview={api.preview} />
+          <div className="overflow-hidden rounded-2xl ring-1 ring-black/[0.06] dark:ring-white/[0.06]">
+            <PreviewRenderer data={api.preview} compact={false} />
+          </div>
         </section>
       )}
 
       {/* Sample response */}
       {api.preview && (
         <div className="mb-10">
-          <DetailSampleResponse sampleResponse={api.preview.sampleResponse} />
+          <SampleResponse data={api.preview.sampleResponse} />
         </div>
       )}
 
