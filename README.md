@@ -20,7 +20,7 @@ Public API catalogs are incredibly useful, but they're all tables and lists. I w
 
 ## Tech stack
 
-- **Next.js 15** (App Router, SSG) — all 1,550 pages pre-built at deploy time
+- **Next.js 16** (App Router, SSG) — all 1,550 pages pre-built at deploy time
 - **Tailwind CSS v4** — utility-first styling
 - **shadcn/ui** — accessible component primitives
 - **Framer Motion** — scroll animations, card transitions
