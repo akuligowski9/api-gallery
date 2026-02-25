@@ -1,0 +1,26 @@
+{
+  "id": "discord-bot",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "817442987651072",
+    "name": "Game Night Central",
+    "member_count": 2384,
+    "owner_id": "291730682159104",
+    "region": "us-east",
+    "verification_level": 2,
+    "premium_tier": 1
+  },
+  "previewConfig": {
+    "title": "Guild Info",
+    "subtitle": "Game Night Central",
+    "displayFields": [
+      "id",
+      "name",
+      "member_count",
+      "owner_id",
+      "region",
+      "verification_level",
+      "premium_tier"
+    ]
+  }
+}

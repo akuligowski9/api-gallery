@@ -1,0 +1,27 @@
+{
+  "id": "linode",
+  "previewType": "card",
+  "sampleResponse": {
+    "label": "prod-web-01",
+    "status": "running",
+    "type": "g6-standard-2",
+    "vcpus": 2,
+    "ram_mb": 4096,
+    "disk_gb": 80,
+    "region": "us-east",
+    "ipv4": "45.79.132.88"
+  },
+  "previewConfig": {
+    "title": "Linode Instance",
+    "subtitle": "prod-web-01",
+    "displayFields": [
+      "status",
+      "type",
+      "vcpus",
+      "ram_mb",
+      "disk_gb",
+      "region",
+      "ipv4"
+    ]
+  }
+}

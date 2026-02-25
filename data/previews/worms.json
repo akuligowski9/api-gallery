@@ -1,0 +1,16 @@
+{
+  "id": "worms",
+  "previewType": "card",
+  "sampleResponse": {
+    "scientificName": "Balaenoptera musculus",
+    "authority": "(Linnaeus, 1758)",
+    "rank": "Species",
+    "status": "accepted",
+    "kingdom": "Animalia"
+  },
+  "previewConfig": {
+    "title": "Blue Whale",
+    "subtitle": "WoRMS",
+    "displayFields": ["scientificName", "authority", "rank", "status", "kingdom"]
+  }
+}

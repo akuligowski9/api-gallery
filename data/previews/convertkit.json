@@ -1,0 +1,51 @@
+{
+  "id": "convertkit",
+  "previewType": "list",
+  "sampleResponse": {
+    "total_subscribers": 2847,
+    "subscribers": [
+      {
+        "email_address": "alex.rivera@gmail.com",
+        "state": "active",
+        "created_at": "2025-09-14T08:21:33Z",
+        "tags": "newsletter, product-updates",
+        "source": "landing_page"
+      },
+      {
+        "email_address": "priya.nair@outlook.com",
+        "state": "active",
+        "created_at": "2025-11-02T16:45:10Z",
+        "tags": "newsletter",
+        "source": "api"
+      },
+      {
+        "email_address": "mark.johnson@yahoo.com",
+        "state": "cancelled",
+        "created_at": "2025-06-28T12:09:55Z",
+        "tags": "early-adopter",
+        "source": "import"
+      },
+      {
+        "email_address": "li.wei@protonmail.com",
+        "state": "active",
+        "created_at": "2026-01-17T20:33:41Z",
+        "tags": "newsletter, beta-testers",
+        "source": "form"
+      },
+      {
+        "email_address": "emma.garcia@icloud.com",
+        "state": "active",
+        "created_at": "2026-02-05T11:12:08Z",
+        "tags": "product-updates",
+        "source": "landing_page"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "ConvertKit Subscribers",
+    "subtitle": "2,847 total subscribers",
+    "itemKey": "email_address",
+    "secondaryKey": "source",
+    "badgeKey": "state"
+  }
+}

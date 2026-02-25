@@ -2,17 +2,25 @@
   "id": "auth0",
   "previewType": "card",
   "sampleResponse": {
-    "user_id": "auth0|65f2a8c1d4e7b3001a2f9e47",
-    "email": "jane@example.com",
+    "user_id": "auth0|65a3f1bc9e7d4200123abcde",
+    "email": "jane.doe@example.com",
     "name": "Jane Doe",
-    "picture_url": "https://s.gravatar.com/avatar/9c47e66a8e1b3c6d8e9f5a0b2d4c7e1f?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fjd.png",
-    "last_login": "2026-02-25T13:42:18Z",
-    "login_count": 47,
+    "nickname": "jane.doe",
+    "logins_count": 87,
+    "last_login": "2026-02-24T19:45:12.000Z",
     "email_verified": true
   },
   "previewConfig": {
-    "title": "User Profile",
-    "subtitle": "Auth0 Management API",
-    "displayFields": ["user_id", "email", "name", "last_login", "login_count", "email_verified"]
+    "title": "User",
+    "subtitle": "jane.doe@example.com",
+    "displayFields": [
+      "user_id",
+      "email",
+      "name",
+      "nickname",
+      "logins_count",
+      "last_login",
+      "email_verified"
+    ]
   }
 }

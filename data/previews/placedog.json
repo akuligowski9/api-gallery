@@ -1,14 +1,16 @@
 {
   "id": "placedog",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "url": "https://placedog.net/400/300",
-    "width": 400,
-    "height": 300
+    "width": 640,
+    "height": 480,
+    "breed": "Golden Retriever",
+    "url": "https://placedog.net/640/480",
+    "format": "JPEG"
   },
   "previewConfig": {
-    "title": "PlaceDog",
-    "subtitle": "placedog.net",
-    "imageKey": "url"
+    "title": "Dog Image",
+    "subtitle": "Placedog",
+    "displayFields": ["width", "height", "breed", "url", "format"]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "marvel",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Spider-Man",
+    "description_preview": "Bitten by a radioactive spider, Peter Parker gained the speed, strength, and powers of a spider.",
+    "comics_available": 4539,
+    "series_available": 1068,
+    "stories_available": 6590,
+    "thumbnail_url": "https://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b.jpg"
+  },
+  "previewConfig": {
+    "title": "Marvel Character",
+    "subtitle": "Spider-Man — 4,539 comics",
+    "displayFields": [
+      "name",
+      "description_preview",
+      "comics_available",
+      "series_available",
+      "stories_available",
+      "thumbnail_url"
+    ]
+  }
+}

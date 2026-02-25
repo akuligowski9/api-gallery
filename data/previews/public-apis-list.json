@@ -1,0 +1,52 @@
+{
+  "id": "public-apis-list",
+  "previewType": "list",
+  "sampleResponse": {
+    "count": 1425,
+    "category": "All",
+    "apis": [
+      {
+        "api_name": "CatFacts",
+        "description": "Daily cat facts delivered to your inbox",
+        "auth": "None",
+        "https": true,
+        "cors": "Yes"
+      },
+      {
+        "api_name": "OpenWeatherMap",
+        "description": "Current and forecast weather data",
+        "auth": "apiKey",
+        "https": true,
+        "cors": "Yes"
+      },
+      {
+        "api_name": "REST Countries",
+        "description": "Information about countries via a RESTful API",
+        "auth": "None",
+        "https": true,
+        "cors": "Yes"
+      },
+      {
+        "api_name": "JSONPlaceholder",
+        "description": "Fake online REST API for testing and prototyping",
+        "auth": "None",
+        "https": true,
+        "cors": "Unknown"
+      },
+      {
+        "api_name": "Stripe",
+        "description": "Online payment processing for internet businesses",
+        "auth": "apiKey",
+        "https": true,
+        "cors": "Yes"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Public APIs",
+    "subtitle": "1,425 APIs available",
+    "itemKey": "api_name",
+    "secondaryKey": "description",
+    "badgeKey": "auth"
+  }
+}

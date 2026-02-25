@@ -1,0 +1,16 @@
+{
+  "id": "aviationapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "icao": "KJFK",
+    "name": "John F Kennedy International Airport",
+    "city": "New York",
+    "elevation": "13 ft",
+    "runways": 4
+  },
+  "previewConfig": {
+    "title": "Airport Info",
+    "subtitle": "AviationAPI",
+    "displayFields": ["icao", "name", "city", "elevation", "runways"]
+  }
+}

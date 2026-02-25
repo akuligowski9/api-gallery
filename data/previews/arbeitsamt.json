@@ -1,0 +1,20 @@
+{
+  "id": "arbeitsamt",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Softwareentwickler (m/w/d)", "secondary": "SAP SE", "badge": "Walldorf" },
+      { "title": "Data Engineer", "secondary": "Siemens AG", "badge": "München" },
+      { "title": "DevOps-Ingenieur", "secondary": "Deutsche Telekom", "badge": "Bonn" },
+      { "title": "Frontend-Entwickler React", "secondary": "Zalando SE", "badge": "Berlin" },
+      { "title": "IT-Projektleiter", "secondary": "Allianz SE", "badge": "Stuttgart" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Arbeitsamt",
+    "subtitle": "German Job Listings",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

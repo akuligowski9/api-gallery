@@ -1,0 +1,26 @@
+{
+  "id": "gitlab-ci",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": 1087234,
+    "status": "success",
+    "ref": "main",
+    "source": "push",
+    "created_at": "2026-02-25T08:42:19Z",
+    "duration_sec": 183,
+    "web_url": "https://gitlab.com/acme-corp/backend/-/pipelines/1087234"
+  },
+  "previewConfig": {
+    "title": "Pipeline Details",
+    "subtitle": "Pipeline #1087234 — main",
+    "displayFields": [
+      "id",
+      "status",
+      "ref",
+      "source",
+      "created_at",
+      "duration_sec",
+      "web_url"
+    ]
+  }
+}

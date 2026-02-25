@@ -1,0 +1,28 @@
+{
+  "id": "vin-decoder",
+  "previewType": "card",
+  "sampleResponse": {
+    "vin": "1HGCV1F34LA012345",
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2020,
+    "body_class": "Sedan/Saloon",
+    "engine_displacement": "1.5L",
+    "fuel_type": "Gasoline",
+    "plant_country": "United States"
+  },
+  "previewConfig": {
+    "title": "VIN Decode Result",
+    "subtitle": "1HGCV1F34LA012345",
+    "displayFields": [
+      "vin",
+      "make",
+      "model",
+      "year",
+      "body_class",
+      "engine_displacement",
+      "fuel_type",
+      "plant_country"
+    ]
+  }
+}

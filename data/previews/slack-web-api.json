@@ -1,0 +1,26 @@
+{
+  "id": "slack-web-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "C04BKNJQ7",
+    "name": "engineering",
+    "is_channel": true,
+    "num_members": 142,
+    "topic": "All things engineering",
+    "purpose": "Discussion of engineering topics and announcements",
+    "created": 1672531200
+  },
+  "previewConfig": {
+    "title": "Channel Info",
+    "subtitle": "#engineering",
+    "displayFields": [
+      "id",
+      "name",
+      "is_channel",
+      "num_members",
+      "topic",
+      "purpose",
+      "created"
+    ]
+  }
+}

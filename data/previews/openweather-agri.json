@@ -1,0 +1,26 @@
+{
+  "id": "openweather-agri",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Salinas Valley, CA",
+    "soil_temp_c": 14.7,
+    "soil_moisture": 0.42,
+    "surface_temp_c": 18.2,
+    "wind_speed_ms": 3.1,
+    "uvi": 5.8,
+    "rain_mm": 0.0
+  },
+  "previewConfig": {
+    "title": "Agricultural Weather",
+    "subtitle": "Salinas Valley, CA",
+    "displayFields": [
+      "location",
+      "soil_temp_c",
+      "soil_moisture",
+      "surface_temp_c",
+      "wind_speed_ms",
+      "uvi",
+      "rain_mm"
+    ]
+  }
+}

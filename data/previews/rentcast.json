@@ -1,0 +1,26 @@
+{
+  "id": "rentcast",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "450 N Cityfront Plaza Dr, Chicago, IL 60611",
+    "rent_estimate_usd": 2850,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": 1100,
+    "rent_range_low": 2500,
+    "rent_range_high": 3200
+  },
+  "previewConfig": {
+    "title": "Rentcast Estimate",
+    "subtitle": "450 N Cityfront Plaza Dr, Chicago, IL",
+    "displayFields": [
+      "address",
+      "rent_estimate_usd",
+      "bedrooms",
+      "bathrooms",
+      "sqft",
+      "rent_range_low",
+      "rent_range_high"
+    ]
+  }
+}

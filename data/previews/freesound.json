@@ -1,0 +1,16 @@
+{
+  "id": "freesound",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Thunder Clap - Close Strike",
+    "duration": "4.82",
+    "samplerate": "44100",
+    "channels": "2",
+    "downloads": "12847"
+  },
+  "previewConfig": {
+    "title": "Thunder Clap - Close Strike",
+    "subtitle": "Freesound",
+    "displayFields": ["name", "duration", "samplerate", "channels", "downloads"]
+  }
+}

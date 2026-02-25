@@ -3,22 +3,14 @@
   "previewType": "card",
   "sampleResponse": {
     "id": "237",
-    "author": "André Spieker",
+    "author": "Andre Spieker",
     "width": 3500,
     "height": 2095,
-    "url": "https://unsplash.com/photos/8wTPqxlnKM4",
     "download_url": "https://picsum.photos/id/237/3500/2095"
   },
   "previewConfig": {
-    "title": "Random Image",
-    "subtitle": "Photo by André Spieker — 3500×2095",
-    "displayFields": [
-      "id",
-      "author",
-      "width",
-      "height",
-      "url",
-      "download_url"
-    ]
+    "title": "Random Photo",
+    "subtitle": "Lorem Picsum",
+    "displayFields": ["id", "author", "width", "height", "download_url"]
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "carmd",
+  "previewType": "card",
+  "sampleResponse": {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "engine": "2.0L 4-Cylinder",
+    "error_code": "P0420",
+    "description": "Catalyst System Efficiency Below Threshold (Bank 1)",
+    "repair_cost_usd": 1245.00
+  },
+  "previewConfig": {
+    "title": "Vehicle Diagnostic Report",
+    "subtitle": "2021 Honda Civic",
+    "displayFields": [
+      "make",
+      "model",
+      "year",
+      "engine",
+      "error_code",
+      "description",
+      "repair_cost_usd"
+    ]
+  }
+}

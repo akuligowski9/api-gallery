@@ -1,0 +1,26 @@
+{
+  "id": "easypost",
+  "previewType": "card",
+  "sampleResponse": {
+    "carrier": "UPS",
+    "tracking_code": "1Z999AA10123456784",
+    "status": "In Transit",
+    "est_delivery_date": "2026-02-28",
+    "origin_city": "Los Angeles, CA",
+    "destination_city": "Chicago, IL",
+    "weight_oz": 32.5
+  },
+  "previewConfig": {
+    "title": "Package Tracking",
+    "subtitle": "UPS — 1Z999AA10123456784",
+    "displayFields": [
+      "carrier",
+      "tracking_code",
+      "status",
+      "est_delivery_date",
+      "origin_city",
+      "destination_city",
+      "weight_oz"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hubspot",
+  "previewType": "card",
+  "sampleResponse": {
+    "firstname": "Sarah",
+    "lastname": "Chen",
+    "email": "sarah.chen@acmecorp.io",
+    "company": "Acme Corp",
+    "lifecycle_stage": "opportunity",
+    "last_activity_date": "2026-02-22"
+  },
+  "previewConfig": {
+    "title": "HubSpot Contact",
+    "subtitle": "Sarah Chen — Acme Corp",
+    "displayFields": [
+      "firstname",
+      "lastname",
+      "email",
+      "company",
+      "lifecycle_stage",
+      "last_activity_date"
+    ]
+  }
+}

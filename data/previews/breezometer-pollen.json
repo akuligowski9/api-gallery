@@ -1,0 +1,16 @@
+{
+  "id": "breezometer-pollen",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Portland, OR",
+    "treeIndex": "High (4/5)",
+    "grassIndex": "Low (1/5)",
+    "weedIndex": "Moderate (3/5)",
+    "riskLevel": "Moderate"
+  },
+  "previewConfig": {
+    "title": "Pollen Forecast",
+    "subtitle": "BreezoMeter Pollen",
+    "displayFields": ["location", "treeIndex", "grassIndex", "weedIndex", "riskLevel"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "convertapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "source_format": "docx",
+    "target_format": "pdf",
+    "file_name": "proposal_final.pdf",
+    "file_size_kb": 256,
+    "conversion_time_sec": 1.8,
+    "credits_cost": 3
+  },
+  "previewConfig": {
+    "title": "Conversion Result",
+    "subtitle": "DOCX to PDF",
+    "displayFields": [
+      "source_format",
+      "target_format",
+      "file_name",
+      "file_size_kb",
+      "conversion_time_sec",
+      "credits_cost"
+    ]
+  }
+}

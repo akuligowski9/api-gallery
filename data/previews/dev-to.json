@@ -1,0 +1,16 @@
+{
+  "id": "dev-to",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Stop Using console.log — Here's Why",
+    "user": "sarah_codes",
+    "reactions": "2340",
+    "comments": "187",
+    "readingTime": "6 min"
+  },
+  "previewConfig": {
+    "title": "Stop Using console.log — Here's Why",
+    "subtitle": "DEV Community",
+    "displayFields": ["title", "user", "reactions", "comments", "readingTime"]
+  }
+}

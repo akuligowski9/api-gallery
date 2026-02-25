@@ -1,0 +1,24 @@
+{
+  "id": "assemblyai",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "6krt920d3p-a14b-4c9e-b82f-71e4d3f8a6c2",
+    "status": "completed",
+    "text_preview": "Thank you for joining today's product demo. Let me walk you through the new features we have shipped this quarter.",
+    "audio_duration_sec": 14.7,
+    "confidence": 0.9618,
+    "language_code": "en_us"
+  },
+  "previewConfig": {
+    "title": "Transcription Result",
+    "subtitle": "Completed",
+    "displayFields": [
+      "id",
+      "status",
+      "text_preview",
+      "audio_duration_sec",
+      "confidence",
+      "language_code"
+    ]
+  }
+}

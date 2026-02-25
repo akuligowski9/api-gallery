@@ -1,0 +1,16 @@
+{
+  "id": "meetup",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "React NYC - Building with Server Components",
+    "group": "React NYC",
+    "date": "2026-03-12T18:30:00",
+    "rsvpCount": "142",
+    "venue": "MongoDB HQ, 1633 Broadway, New York"
+  },
+  "previewConfig": {
+    "title": "React NYC - Building with Server Components",
+    "subtitle": "Meetup",
+    "displayFields": ["name", "group", "date", "rsvpCount", "venue"]
+  }
+}

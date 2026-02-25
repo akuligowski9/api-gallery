@@ -1,0 +1,16 @@
+{
+  "id": "cloverly",
+  "previewType": "card",
+  "sampleResponse": {
+    "activity": "Round-trip flight JFK to LAX",
+    "carbonKg": "1,230 kg CO₂",
+    "cost": "$14.76",
+    "offsetType": "Forestry",
+    "equivalent": "31 tree seedlings grown 10 years"
+  },
+  "previewConfig": {
+    "title": "Carbon Offset Estimate",
+    "subtitle": "Cloverly",
+    "displayFields": ["activity", "carbonKg", "cost", "offsetType", "equivalent"]
+  }
+}

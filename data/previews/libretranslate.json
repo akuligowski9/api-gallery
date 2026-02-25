@@ -4,13 +4,21 @@
   "sampleResponse": {
     "source_lang": "en",
     "target_lang": "es",
-    "input": "Hello, how are you?",
-    "translated": "Hola, \u00bfc\u00f3mo est\u00e1s?",
-    "confidence": 0.97
+    "input": "The weather is beautiful today.",
+    "translated_text": "El clima es hermoso hoy.",
+    "confidence": 0.97,
+    "detected_language": "en"
   },
   "previewConfig": {
-    "title": "Translation",
-    "subtitle": "EN \u2192 ES",
-    "displayFields": ["source_lang", "target_lang", "input", "translated", "confidence"]
+    "title": "Translation Result",
+    "subtitle": "English to Spanish",
+    "displayFields": [
+      "source_lang",
+      "target_lang",
+      "input",
+      "translated_text",
+      "confidence",
+      "detected_language"
+    ]
   }
 }

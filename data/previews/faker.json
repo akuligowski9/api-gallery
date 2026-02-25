@@ -1,0 +1,16 @@
+{
+  "id": "faker",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Margaret Chen",
+    "email": "margaret.chen@example.com",
+    "phone": "(415) 555-0198",
+    "address": "742 Evergreen Terrace, Springfield, IL 62704",
+    "company": "Nexora Technologies"
+  },
+  "previewConfig": {
+    "title": "Margaret Chen",
+    "subtitle": "Faker",
+    "displayFields": ["name", "email", "phone", "address", "company"]
+  }
+}

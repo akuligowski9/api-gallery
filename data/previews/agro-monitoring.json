@@ -1,0 +1,26 @@
+{
+  "id": "agro-monitoring",
+  "previewType": "card",
+  "sampleResponse": {
+    "field_name": "North Wheat Field",
+    "ndvi": 0.74,
+    "temperature_c": 22.3,
+    "humidity": 61,
+    "soil_moisture": 0.38,
+    "cloud_coverage": 15,
+    "date": "2026-02-24"
+  },
+  "previewConfig": {
+    "title": "Field Monitoring Data",
+    "subtitle": "North Wheat Field — Feb 24, 2026",
+    "displayFields": [
+      "field_name",
+      "ndvi",
+      "temperature_c",
+      "humidity",
+      "soil_moisture",
+      "cloud_coverage",
+      "date"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "audiomack",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Midnight Flow",
+    "artist": "KenTheMan",
+    "plays": "1843920",
+    "genre": "Hip-Hop/Rap",
+    "uploaded": "2025-11-03"
+  },
+  "previewConfig": {
+    "title": "Midnight Flow",
+    "subtitle": "Audiomack",
+    "displayFields": ["title", "artist", "plays", "genre", "uploaded"]
+  }
+}

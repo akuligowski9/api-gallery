@@ -1,0 +1,24 @@
+{
+  "id": "abstract-holidays",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Thanksgiving",
+    "date": "2026-11-26",
+    "country": "United States",
+    "location": "National",
+    "type": "National holiday",
+    "description": "Thanksgiving is a federal holiday celebrated on the fourth Thursday of November."
+  },
+  "previewConfig": {
+    "title": "Holiday Lookup",
+    "subtitle": "Thanksgiving — United States",
+    "displayFields": [
+      "name",
+      "date",
+      "country",
+      "location",
+      "type",
+      "description"
+    ]
+  }
+}

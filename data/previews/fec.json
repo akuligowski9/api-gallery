@@ -1,0 +1,16 @@
+{
+  "id": "fec",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "ACTBLUE",
+    "party": "Democratic",
+    "state": "MA",
+    "totalReceipts": "$7,891,204,533",
+    "designation": "Unauthorized"
+  },
+  "previewConfig": {
+    "title": "Political Committee",
+    "subtitle": "Federal Election Commission",
+    "displayFields": ["name", "party", "state", "totalReceipts", "designation"]
+  }
+}

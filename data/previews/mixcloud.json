@@ -1,0 +1,16 @@
+{
+  "id": "mixcloud",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Deep House Sessions Vol. 42",
+    "user": "DJ Soulwave",
+    "duration": "3720",
+    "playCount": "28463",
+    "tags": "deep house, electronic, chill"
+  },
+  "previewConfig": {
+    "title": "Deep House Sessions Vol. 42",
+    "subtitle": "Mixcloud",
+    "displayFields": ["name", "user", "duration", "playCount", "tags"]
+  }
+}

@@ -2,15 +2,23 @@
   "id": "giphy",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Excited Cat",
+    "title": "Happy Dance GIF by GIPHY Studios",
+    "username": "giphystudios",
     "rating": "g",
-    "source": "reddit",
-    "trending": true,
-    "type": "gif"
+    "import_datetime": "2025-06-12T14:32:08.000Z",
+    "trending_datetime": "2026-02-24T19:00:01.000Z",
+    "source": "https://giphy.com/giphystudios"
   },
   "previewConfig": {
-    "title": "Excited Cat",
-    "subtitle": "Giphy GIF",
-    "displayFields": ["title", "rating", "source", "trending", "type"]
+    "title": "Trending GIF",
+    "subtitle": "Happy Dance GIF by GIPHY Studios",
+    "displayFields": [
+      "title",
+      "username",
+      "rating",
+      "import_datetime",
+      "trending_datetime",
+      "source"
+    ]
   }
 }

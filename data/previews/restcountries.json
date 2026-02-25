@@ -4,16 +4,15 @@
   "sampleResponse": {
     "name": "Japan",
     "capital": "Tokyo",
-    "population": 125800000,
-    "area_km2": 377975,
+    "population": 125836021,
     "region": "Asia",
-    "languages": ["Japanese"],
-    "currency": "JPY",
-    "flag_emoji": "🇯🇵"
+    "area_km2": 377975,
+    "currency": "Japanese yen (JPY)",
+    "languages": "Japanese"
   },
   "previewConfig": {
-    "title": "Country Lookup",
-    "subtitle": "Japan",
-    "displayFields": ["name", "capital", "population", "area_km2", "region", "languages", "currency", "flag_emoji"]
+    "title": "Japan",
+    "subtitle": "REST Countries",
+    "displayFields": ["name", "capital", "population", "region", "area_km2", "currency", "languages"]
   }
 }

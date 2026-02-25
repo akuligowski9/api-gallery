@@ -1,16 +1,52 @@
 {
   "id": "pexels",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "photographer": "John Smith",
-    "width": "4000",
-    "height": "2667",
-    "alt": "Mountain lake at sunset",
-    "avg_color": "#4a6741"
+    "query": "mountain",
+    "total_results": 48720,
+    "photos": [
+      {
+        "photographer": "Kalen Emsley",
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/mountain-covered-with-snow-417173/",
+        "avg_color": "#6E7F8A"
+      },
+      {
+        "photographer": "Roberto Nickson",
+        "width": 5472,
+        "height": 3648,
+        "url": "https://www.pexels.com/photo/mountain-range-under-clear-sky-2559941/",
+        "avg_color": "#8B9DAF"
+      },
+      {
+        "photographer": "Amine M'siouri",
+        "width": 4928,
+        "height": 3264,
+        "url": "https://www.pexels.com/photo/scenic-view-of-mountains-2245436/",
+        "avg_color": "#5C6E7B"
+      },
+      {
+        "photographer": "Lucas Andrade",
+        "width": 5184,
+        "height": 3456,
+        "url": "https://www.pexels.com/photo/mountain-lake-reflection-3312671/",
+        "avg_color": "#4A5D6E"
+      },
+      {
+        "photographer": "Tatiana Syrikova",
+        "width": 4480,
+        "height": 6720,
+        "url": "https://www.pexels.com/photo/snow-capped-mountain-peak-3933881/",
+        "avg_color": "#A3B5C2"
+      }
+    ]
   },
   "previewConfig": {
-    "title": "Mountain Lake at Sunset",
-    "subtitle": "Pexels Photo",
-    "displayFields": ["photographer", "width", "height", "alt", "avg_color"]
+    "title": "Photo Search",
+    "subtitle": "mountain — 48,720 results",
+    "itemKey": "photographer",
+    "secondaryKey": "url",
+    "badgeKey": "width"
   }
 }

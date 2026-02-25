@@ -1,0 +1,16 @@
+{
+  "id": "foreca",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Helsinki, Finland",
+    "temperature": "-4°C",
+    "feelsLike": "-9°C",
+    "symbol": "Partly Cloudy",
+    "windSpeed": "18 km/h"
+  },
+  "previewConfig": {
+    "title": "Helsinki, Finland — Weather",
+    "subtitle": "Foreca",
+    "displayFields": ["location", "temperature", "feelsLike", "symbol", "windSpeed"]
+  }
+}

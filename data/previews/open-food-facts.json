@@ -2,25 +2,17 @@
   "id": "open-food-facts",
   "previewType": "card",
   "sampleResponse": {
-    "product_name": "Coca-Cola Classic",
-    "brand": "The Coca-Cola Company",
-    "nutriscore": "E",
-    "calories_100ml": 42,
-    "sugar_100ml": 10.6,
-    "categories": "Sodas",
-    "serving_size": "330ml"
+    "product_name": "Nutella",
+    "brand": "Ferrero",
+    "nutriscore_grade": "e",
+    "calories_100g": 539,
+    "fat_100g": 30.9,
+    "sugars_100g": 56.3,
+    "protein_100g": 6.3
   },
   "previewConfig": {
-    "title": "Coca-Cola Classic",
-    "subtitle": "The Coca-Cola Company — Open Food Facts",
-    "displayFields": [
-      "product_name",
-      "brand",
-      "nutriscore",
-      "calories_100ml",
-      "sugar_100ml",
-      "categories",
-      "serving_size"
-    ]
+    "title": "Nutella",
+    "subtitle": "Open Food Facts",
+    "displayFields": ["product_name", "brand", "nutriscore_grade", "calories_100g", "fat_100g", "sugars_100g", "protein_100g"]
   }
 }

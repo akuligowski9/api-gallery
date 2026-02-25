@@ -1,0 +1,16 @@
+{
+  "id": "lcbo",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Lagavulin 16 Year Old",
+    "category": "Single Malt Scotch Whisky",
+    "origin": "Islay, Scotland",
+    "price": "$134.95",
+    "volume": "750 mL"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "LCBO",
+    "displayFields": ["name", "category", "origin", "price", "volume"]
+  }
+}

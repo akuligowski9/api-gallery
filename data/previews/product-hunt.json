@@ -2,19 +2,51 @@
   "id": "product-hunt",
   "previewType": "list",
   "sampleResponse": {
-    "items": [
-      { "title": "Raycast AI", "secondary": "Your shortcut to everything", "badge": 1847 },
-      { "title": "Notion Calendar", "secondary": "Time blocking meets task management", "badge": 1523 },
-      { "title": "Arc Max", "secondary": "AI-powered browser features", "badge": 1291 },
-      { "title": "Superlist", "secondary": "Free project management for teams", "badge": 984 },
-      { "title": "Granola", "secondary": "AI notepad for meetings", "badge": 762 }
+    "date": "2026-02-25",
+    "total_products": 38,
+    "products": [
+      {
+        "name": "ArcFlow",
+        "tagline": "AI-powered workflow automation for teams",
+        "votes_count": 1243,
+        "topics": "Productivity, AI, SaaS",
+        "maker": "Jessica Liu"
+      },
+      {
+        "name": "PixelMind",
+        "tagline": "Turn sketches into production-ready designs",
+        "votes_count": 987,
+        "topics": "Design, AI, Developer Tools",
+        "maker": "Raj Patel"
+      },
+      {
+        "name": "NoteSync",
+        "tagline": "Real-time collaborative notes with AI summaries",
+        "votes_count": 764,
+        "topics": "Productivity, Collaboration",
+        "maker": "Emily Torres"
+      },
+      {
+        "name": "ShipFast CLI",
+        "tagline": "Deploy full-stack apps in under 60 seconds",
+        "votes_count": 612,
+        "topics": "Developer Tools, DevOps",
+        "maker": "Marcus Weber"
+      },
+      {
+        "name": "DataLens",
+        "tagline": "Visual analytics for your Postgres database",
+        "votes_count": 489,
+        "topics": "Analytics, Developer Tools, Data",
+        "maker": "Anna Kowalski"
+      }
     ]
   },
   "previewConfig": {
-    "title": "Product Hunt",
-    "subtitle": "Trending products by upvotes",
-    "itemKey": "title",
-    "secondaryKey": "secondary",
-    "badgeKey": "badge"
+    "title": "Top Products Today",
+    "subtitle": "February 25, 2026 — 38 products",
+    "itemKey": "name",
+    "secondaryKey": "tagline",
+    "badgeKey": "votes_count"
   }
 }

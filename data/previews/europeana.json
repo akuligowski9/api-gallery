@@ -1,0 +1,16 @@
+{
+  "id": "europeana",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Mona Lisa (La Gioconda)",
+    "creator": "Leonardo da Vinci",
+    "provider": "Musée du Louvre",
+    "type": "IMAGE",
+    "year": "1503"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Europeana",
+    "displayFields": ["title", "creator", "provider", "type", "year"]
+  }
+}

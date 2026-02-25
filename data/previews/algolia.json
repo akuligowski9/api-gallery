@@ -1,50 +1,26 @@
 {
   "id": "algolia",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "hits": [
-      {
-        "title": "Introducing React Hooks",
-        "url": "https://react.dev/reference/react/hooks",
-        "snippet": "Hooks let you use state and other React features without writing a class. useState, useEffect, useContext, and more.",
-        "rank": 1,
-        "highlights": "React <em>Hooks</em>"
-      },
-      {
-        "title": "useEffect - Complete Guide",
-        "url": "https://overreacted.io/a-complete-guide-to-useeffect/",
-        "snippet": "Deep dive into useEffect, the most powerful and misunderstood React hook. Learn cleanup, dependencies, and common pitfalls.",
-        "rank": 2,
-        "highlights": "<em>React hooks</em> useEffect"
-      },
-      {
-        "title": "Building Custom Hooks in React",
-        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks",
-        "snippet": "Extract reusable logic into custom hooks. Share stateful behavior between components without changing hierarchy.",
-        "rank": 3,
-        "highlights": "Custom <em>Hooks</em> in <em>React</em>"
-      },
-      {
-        "title": "React Hooks Cheat Sheet",
-        "url": "https://usehooks.com/cheatsheet",
-        "snippet": "Quick reference for all built-in React hooks including useState, useReducer, useMemo, useCallback, useRef, and useId.",
-        "rank": 4,
-        "highlights": "<em>React Hooks</em> Cheat Sheet"
-      },
-      {
-        "title": "Rules of Hooks - React Documentation",
-        "url": "https://react.dev/reference/rules/rules-of-hooks",
-        "snippet": "Only call hooks at the top level. Only call hooks from React functions. These rules ensure hooks work correctly every render.",
-        "rank": 5,
-        "highlights": "Rules of <em>Hooks</em>"
-      }
-    ]
+    "query": "wireless headphones",
+    "hits": 47,
+    "processing_time_ms": 3,
+    "index": "products_v2",
+    "page": 0,
+    "nb_pages": 5,
+    "params": "query=wireless+headphones&hitsPerPage=10"
   },
   "previewConfig": {
-    "title": "Search: \"react hooks\"",
-    "subtitle": "Algolia Search API",
-    "itemKey": "title",
-    "secondaryKey": "snippet",
-    "badgeKey": "rank"
+    "title": "Search Result",
+    "subtitle": "\"wireless headphones\"",
+    "displayFields": [
+      "query",
+      "hits",
+      "processing_time_ms",
+      "index",
+      "page",
+      "nb_pages",
+      "params"
+    ]
   }
 }

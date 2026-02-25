@@ -1,0 +1,16 @@
+{
+  "id": "squiggle",
+  "previewType": "card",
+  "sampleResponse": {
+    "homeTeam": "Collingwood Magpies",
+    "awayTeam": "Carlton Blues",
+    "homeChance": "62.4%",
+    "margin": "14.7 pts",
+    "venue": "MCG"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Squiggle AFL Predictions",
+    "displayFields": ["homeTeam", "awayTeam", "homeChance", "margin", "venue"]
+  }
+}

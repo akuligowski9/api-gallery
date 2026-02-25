@@ -1,0 +1,16 @@
+{
+  "id": "line",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Tokyo Foodies Official",
+    "type": "group",
+    "memberCount": "4821",
+    "description": "Share and discover the best eats in Tokyo",
+    "status": "active"
+  },
+  "previewConfig": {
+    "title": "Tokyo Foodies Official",
+    "subtitle": "LINE",
+    "displayFields": ["name", "type", "memberCount", "description", "status"]
+  }
+}

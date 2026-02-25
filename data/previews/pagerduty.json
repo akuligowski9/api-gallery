@@ -1,0 +1,52 @@
+{
+  "id": "pagerduty",
+  "previewType": "list",
+  "sampleResponse": {
+    "account": "acme-ops",
+    "total_incidents": 47,
+    "incidents": [
+      {
+        "title": "High CPU on prod-db-primary",
+        "status": "triggered",
+        "urgency": "high",
+        "service": "Database Cluster",
+        "created_at": "2026-02-25T13:44:02Z"
+      },
+      {
+        "title": "Elevated 5xx on checkout API",
+        "status": "acknowledged",
+        "urgency": "high",
+        "service": "Checkout Service",
+        "created_at": "2026-02-25T11:28:19Z"
+      },
+      {
+        "title": "SSL certificate expiring in 7 days",
+        "status": "triggered",
+        "urgency": "low",
+        "service": "Certificate Manager",
+        "created_at": "2026-02-24T08:00:00Z"
+      },
+      {
+        "title": "Disk usage above 90% on worker-03",
+        "status": "resolved",
+        "urgency": "high",
+        "service": "Worker Pool",
+        "created_at": "2026-02-23T19:12:47Z"
+      },
+      {
+        "title": "Memory leak detected in auth-service",
+        "status": "resolved",
+        "urgency": "high",
+        "service": "Auth Service",
+        "created_at": "2026-02-22T15:36:58Z"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Incidents",
+    "subtitle": "acme-ops — 47 total incidents",
+    "itemKey": "title",
+    "secondaryKey": "service",
+    "badgeKey": "status"
+  }
+}

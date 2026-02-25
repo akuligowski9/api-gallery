@@ -1,0 +1,52 @@
+{
+  "id": "wger",
+  "previewType": "list",
+  "sampleResponse": {
+    "query": "upper body",
+    "total_results": 87,
+    "exercises": [
+      {
+        "name": "Bench Press",
+        "category": "Chest",
+        "equipment": "Barbell",
+        "muscles": "Pectoralis major",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Pull-Up",
+        "category": "Back",
+        "equipment": "Body weight",
+        "muscles": "Latissimus dorsi",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Overhead Press",
+        "category": "Shoulders",
+        "equipment": "Barbell",
+        "muscles": "Anterior deltoid",
+        "difficulty": "Intermediate"
+      },
+      {
+        "name": "Bicep Curl",
+        "category": "Arms",
+        "equipment": "Dumbbell",
+        "muscles": "Biceps brachii",
+        "difficulty": "Beginner"
+      },
+      {
+        "name": "Tricep Dips",
+        "category": "Arms",
+        "equipment": "Body weight",
+        "muscles": "Triceps brachii",
+        "difficulty": "Beginner"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Exercise Database",
+    "subtitle": "Upper body — 87 results",
+    "itemKey": "name",
+    "secondaryKey": "category",
+    "badgeKey": "difficulty"
+  }
+}

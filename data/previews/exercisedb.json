@@ -1,0 +1,24 @@
+{
+  "id": "exercisedb",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Barbell Deadlift",
+    "body_part": "Back",
+    "equipment": "Barbell",
+    "target_muscle": "Erector spinae",
+    "gif_url": "https://exercisedb.io/image/0032.gif",
+    "secondary_muscles": "Gluteus maximus, Hamstrings, Trapezius"
+  },
+  "previewConfig": {
+    "title": "Exercise Details",
+    "subtitle": "Barbell Deadlift — Back",
+    "displayFields": [
+      "name",
+      "body_part",
+      "equipment",
+      "target_muscle",
+      "gif_url",
+      "secondary_muscles"
+    ]
+  }
+}

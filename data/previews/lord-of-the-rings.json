@@ -1,0 +1,26 @@
+{
+  "id": "lord-of-the-rings",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Gandalf",
+    "race": "Maiar",
+    "gender": "Male",
+    "realm": "Middle-earth",
+    "spouse": "None",
+    "birth": "Before the shaping of Arda",
+    "death": "January 25, 3019 (resurrected)"
+  },
+  "previewConfig": {
+    "title": "Lord of the Rings Character",
+    "subtitle": "Gandalf — Maiar",
+    "displayFields": [
+      "name",
+      "race",
+      "gender",
+      "realm",
+      "spouse",
+      "birth",
+      "death"
+    ]
+  }
+}

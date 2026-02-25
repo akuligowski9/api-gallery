@@ -1,0 +1,16 @@
+{
+  "id": "cooper-hewitt",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Lounge Chair and Ottoman",
+    "designer": "Charles and Ray Eames",
+    "date": "1956",
+    "medium": "Molded rosewood plywood, leather, aluminum",
+    "department": "Product Design and Decorative Arts"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Cooper Hewitt Smithsonian Design Museum",
+    "displayFields": ["title", "designer", "date", "medium", "department"]
+  }
+}

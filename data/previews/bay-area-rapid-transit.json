@@ -1,0 +1,16 @@
+{
+  "id": "bay-area-rapid-transit",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "16th St Mission",
+    "line": "Yellow Line",
+    "nextTrain": "3 min",
+    "destination": "SFO Airport",
+    "delay": "On Time"
+  },
+  "previewConfig": {
+    "title": "BART Station",
+    "subtitle": "Bay Area Rapid Transit",
+    "displayFields": ["name", "line", "nextTrain", "destination", "delay"]
+  }
+}

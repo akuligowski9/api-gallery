@@ -1,0 +1,16 @@
+{
+  "id": "cryptocompare",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "BTC",
+    "USD": "$97,342.18",
+    "EUR": "\u20ac89,651.04",
+    "GBP": "\u00a376,510.33",
+    "change24h": "+2.41%"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "CryptoCompare",
+    "displayFields": ["symbol", "USD", "EUR", "GBP", "change24h"]
+  }
+}

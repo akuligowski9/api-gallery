@@ -2,18 +2,18 @@
   "id": "ip-api",
   "previewType": "card",
   "sampleResponse": {
-    "ip": "8.8.8.8",
-    "city": "Mountain View",
-    "region": "California",
-    "country": "United States",
-    "org": "Google LLC",
-    "lat": 37.3861,
-    "lon": -122.0839,
-    "timezone": "America/Los_Angeles"
+    "query": "24.48.0.1",
+    "city": "Montreal",
+    "region": "Quebec",
+    "country": "Canada",
+    "lat": 45.5088,
+    "lon": -73.5878,
+    "isp": "Le Groupe Videotron Ltee",
+    "org": "Videotron Telecom Ltee"
   },
   "previewConfig": {
-    "title": "IP Geolocation",
-    "subtitle": "8.8.8.8 — Mountain View, CA",
-    "displayFields": ["ip", "city", "region", "country", "org", "lat", "lon", "timezone"]
+    "title": "24.48.0.1",
+    "subtitle": "IP-API",
+    "displayFields": ["query", "city", "region", "country", "lat", "lon", "isp", "org"]
   }
 }

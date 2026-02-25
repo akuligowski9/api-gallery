@@ -1,0 +1,52 @@
+{
+  "id": "courtlistener",
+  "previewType": "list",
+  "sampleResponse": {
+    "query": "first amendment",
+    "total_results": 23471,
+    "opinions": [
+      {
+        "case_name": "New York Times Co. v. Sullivan",
+        "court": "Supreme Court of the United States",
+        "date_filed": "1964-03-09",
+        "citation": "376 U.S. 254",
+        "docket_number": "39"
+      },
+      {
+        "case_name": "Brandenburg v. Ohio",
+        "court": "Supreme Court of the United States",
+        "date_filed": "1969-06-09",
+        "citation": "395 U.S. 444",
+        "docket_number": "492"
+      },
+      {
+        "case_name": "Texas v. Johnson",
+        "court": "Supreme Court of the United States",
+        "date_filed": "1989-06-21",
+        "citation": "491 U.S. 397",
+        "docket_number": "88-155"
+      },
+      {
+        "case_name": "Tinker v. Des Moines Independent Community School District",
+        "court": "Supreme Court of the United States",
+        "date_filed": "1969-02-24",
+        "citation": "393 U.S. 503",
+        "docket_number": "21"
+      },
+      {
+        "case_name": "Snyder v. Phelps",
+        "court": "Supreme Court of the United States",
+        "date_filed": "2011-03-02",
+        "citation": "562 U.S. 443",
+        "docket_number": "09-751"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Court Opinions",
+    "subtitle": "First amendment — 23,471 results",
+    "itemKey": "case_name",
+    "secondaryKey": "court",
+    "badgeKey": "date_filed"
+  }
+}

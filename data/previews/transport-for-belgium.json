@@ -1,43 +1,16 @@
 {
   "id": "transport-for-belgium",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "connections": [
-      {
-        "departure": {
-          "station": "Brussels-Midi",
-          "time": "08:30"
-        },
-        "arrival": {
-          "station": "Antwerp-Central",
-          "time": "09:15"
-        }
-      }
-    ]
+    "from": "Bruxelles-Midi",
+    "to": "Antwerpen-Centraal",
+    "departure": "14:23",
+    "platform": "3",
+    "delay": "+2 min"
   },
   "previewConfig": {
-    "title": "Belgian Rail",
-    "items": [
-      {
-        "name": "Brussels-Midi → Antwerp-Central",
-        "language": "08:30"
-      },
-      {
-        "name": "Brussels-Midi → Ghent-Sint-Pieters",
-        "language": "09:00"
-      },
-      {
-        "name": "Brussels-Central → Liège-Guillemins",
-        "language": "10:15"
-      },
-      {
-        "name": "Antwerp-Central → Amsterdam",
-        "language": "11:00"
-      },
-      {
-        "name": "Brussels → Bruges",
-        "language": "12:30"
-      }
-    ]
+    "title": "Belgian Train",
+    "subtitle": "Transport for Belgium",
+    "displayFields": ["from", "to", "departure", "platform", "delay"]
   }
 }

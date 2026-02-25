@@ -1,0 +1,26 @@
+{
+  "id": "zillow-bridge",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "742 Evergreen Terrace, Springfield, IL 62704",
+    "price_usd": 345000,
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 2150,
+    "year_built": 1987,
+    "property_type": "Single Family"
+  },
+  "previewConfig": {
+    "title": "Zillow Property",
+    "subtitle": "742 Evergreen Terrace, Springfield, IL",
+    "displayFields": [
+      "address",
+      "price_usd",
+      "bedrooms",
+      "bathrooms",
+      "sqft",
+      "year_built",
+      "property_type"
+    ]
+  }
+}

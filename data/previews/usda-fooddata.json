@@ -1,0 +1,26 @@
+{
+  "id": "usda-fooddata",
+  "previewType": "card",
+  "sampleResponse": {
+    "description": "Chicken breast, grilled, skinless",
+    "brand_owner": "Tyson Foods",
+    "calories": 165,
+    "protein_g": 31.0,
+    "fat_g": 3.6,
+    "carbs_g": 0.0,
+    "serving_size": "100g"
+  },
+  "previewConfig": {
+    "title": "Food Nutrition Data",
+    "subtitle": "Chicken breast, grilled, skinless",
+    "displayFields": [
+      "description",
+      "brand_owner",
+      "calories",
+      "protein_g",
+      "fat_g",
+      "carbs_g",
+      "serving_size"
+    ]
+  }
+}

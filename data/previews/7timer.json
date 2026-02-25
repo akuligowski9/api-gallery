@@ -1,0 +1,16 @@
+{
+  "id": "7timer",
+  "previewType": "card",
+  "sampleResponse": {
+    "cloudCover": "12%",
+    "seeing": "Above Average",
+    "transparency": "Average",
+    "liftedIndex": "-1",
+    "humidity": "38%"
+  },
+  "previewConfig": {
+    "title": "Astro Weather Forecast",
+    "subtitle": "7Timer!",
+    "displayFields": ["cloudCover", "seeing", "transparency", "liftedIndex", "humidity"]
+  }
+}

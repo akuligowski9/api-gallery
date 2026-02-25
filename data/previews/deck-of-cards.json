@@ -1,23 +1,24 @@
 {
   "id": "deck-of-cards",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "success": true,
-    "deck_id": "3p40paa87x90",
-    "cards": [
-      {
-        "code": "AS",
-        "image": "https://deckofcardsapi.com/static/img/AS.png",
-        "value": "ACE",
-        "suit": "SPADES"
-      }
-    ],
+    "card_value": "ACE",
+    "suit": "SPADES",
+    "code": "AS",
+    "image_url": "https://deckofcardsapi.com/static/img/AS.png",
     "remaining": 51,
-    "card_image": "https://deckofcardsapi.com/static/img/AS.png"
+    "deck_id": "3p40paa87x90"
   },
   "previewConfig": {
-    "title": "Deck of Cards",
-    "subtitle": "Ace of Spades",
-    "imageKey": "card_image"
+    "title": "Draw a Card",
+    "subtitle": "ACE of SPADES",
+    "displayFields": [
+      "card_value",
+      "suit",
+      "code",
+      "image_url",
+      "remaining",
+      "deck_id"
+    ]
   }
 }

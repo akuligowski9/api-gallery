@@ -1,0 +1,16 @@
+{
+  "id": "hoppscotch",
+  "previewType": "card",
+  "sampleResponse": {
+    "method": "GET",
+    "endpoint": "/api/v1/users/me",
+    "status": "200 OK",
+    "responseTime": "124 ms",
+    "contentType": "application/json"
+  },
+  "previewConfig": {
+    "title": "API Request",
+    "subtitle": "Hoppscotch",
+    "displayFields": ["method", "endpoint", "status", "responseTime", "contentType"]
+  }
+}

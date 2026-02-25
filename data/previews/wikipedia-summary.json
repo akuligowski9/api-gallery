@@ -1,0 +1,24 @@
+{
+  "id": "wikipedia-summary",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Apollo 11",
+    "extract_preview": "Apollo 11 was the American spaceflight that first landed humans on the Moon. Commander Neil Armstrong and lunar module pilot Buzz Aldrin landed the Apollo Lunar Module Eagle on July 20, 1969.",
+    "description": "First crewed Moon landing mission",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aldrin_Apollo_11_original.jpg/220px-Aldrin_Apollo_11_original.jpg",
+    "content_urls": "https://en.wikipedia.org/wiki/Apollo_11",
+    "page_id": 324
+  },
+  "previewConfig": {
+    "title": "Wikipedia Summary",
+    "subtitle": "Apollo 11 — First crewed Moon landing mission",
+    "displayFields": [
+      "title",
+      "extract_preview",
+      "description",
+      "thumbnail_url",
+      "content_urls",
+      "page_id"
+    ]
+  }
+}

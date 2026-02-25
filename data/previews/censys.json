@@ -1,0 +1,16 @@
+{
+  "id": "censys",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "93.184.216.34",
+    "services": "HTTP (80), HTTPS (443), SSH (22)",
+    "location": "Norwell, Massachusetts, US",
+    "asn": "AS15133 - Edgecast Inc.",
+    "lastUpdated": "2025-12-20T17:05:44Z"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Censys",
+    "displayFields": ["ip", "services", "location", "asn", "lastUpdated"]
+  }
+}

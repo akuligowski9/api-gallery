@@ -1,0 +1,24 @@
+{
+  "id": "replicate",
+  "previewType": "card",
+  "sampleResponse": {
+    "model": "stability-ai/sdxl",
+    "version": "39ed52f2a78e934b3ba6e2a89f5b1c712de7dfea535525255b1aa35c5565e08b",
+    "status": "succeeded",
+    "output_url": "https://replicate.delivery/pbxt/sdxl-output-9f3a2b.png",
+    "compute_time_sec": 12.4,
+    "created_at": "2026-02-25T10:15:38Z"
+  },
+  "previewConfig": {
+    "title": "Prediction",
+    "subtitle": "stability-ai/sdxl",
+    "displayFields": [
+      "model",
+      "version",
+      "status",
+      "output_url",
+      "compute_time_sec",
+      "created_at"
+    ]
+  }
+}

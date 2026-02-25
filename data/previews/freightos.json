@@ -1,0 +1,26 @@
+{
+  "id": "freightos",
+  "previewType": "card",
+  "sampleResponse": {
+    "origin": "Shanghai, CN",
+    "destination": "Long Beach, CA",
+    "mode": "Ocean FCL",
+    "price_usd": 3850.00,
+    "transit_days": 18,
+    "weight_kg": 12400,
+    "container_type": "40ft Standard"
+  },
+  "previewConfig": {
+    "title": "Freight Quote",
+    "subtitle": "Shanghai to Long Beach — Ocean FCL",
+    "displayFields": [
+      "origin",
+      "destination",
+      "mode",
+      "price_usd",
+      "transit_days",
+      "weight_kg",
+      "container_type"
+    ]
+  }
+}

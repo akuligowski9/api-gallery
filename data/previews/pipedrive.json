@@ -1,0 +1,24 @@
+{
+  "id": "pipedrive",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Enterprise License — Northwind Ltd",
+    "value_usd": 58000,
+    "currency": "USD",
+    "stage": "Proposal Made",
+    "probability": 65,
+    "expected_close_date": "2026-04-10"
+  },
+  "previewConfig": {
+    "title": "Pipedrive Deal",
+    "subtitle": "Enterprise License — Northwind Ltd",
+    "displayFields": [
+      "title",
+      "value_usd",
+      "currency",
+      "stage",
+      "probability",
+      "expected_close_date"
+    ]
+  }
+}

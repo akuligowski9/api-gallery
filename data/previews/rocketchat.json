@@ -1,0 +1,26 @@
+{
+  "id": "rocketchat",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "general",
+    "type": "c",
+    "msgs": 8472,
+    "users_count": 215,
+    "topic": "Company-wide announcements and discussions",
+    "created_at": "2024-01-15T08:00:00.000Z",
+    "last_message": "2026-02-25T14:22:08.000Z"
+  },
+  "previewConfig": {
+    "title": "Channel",
+    "subtitle": "#general",
+    "displayFields": [
+      "name",
+      "type",
+      "msgs",
+      "users_count",
+      "topic",
+      "created_at",
+      "last_message"
+    ]
+  }
+}

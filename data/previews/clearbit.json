@@ -1,0 +1,26 @@
+{
+  "id": "clearbit",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "sector": "Technology",
+    "industry": "Internet Software & Services",
+    "employees_range": "1001-5000",
+    "location": "San Francisco, CA",
+    "founded_year": 2010
+  },
+  "previewConfig": {
+    "title": "Company Enrichment",
+    "subtitle": "Stripe",
+    "displayFields": [
+      "name",
+      "domain",
+      "sector",
+      "industry",
+      "employees_range",
+      "location",
+      "founded_year"
+    ]
+  }
+}

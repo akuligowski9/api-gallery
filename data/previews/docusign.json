@@ -1,0 +1,26 @@
+{
+  "id": "docusign",
+  "previewType": "card",
+  "sampleResponse": {
+    "envelope_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "status": "completed",
+    "subject": "Q1 2026 Partnership Agreement",
+    "sender_email": "legal@acmecorp.com",
+    "recipients_count": 3,
+    "created_datetime": "2026-02-20T09:00:00.000Z",
+    "completed_datetime": "2026-02-24T16:45:30.000Z"
+  },
+  "previewConfig": {
+    "title": "Envelope",
+    "subtitle": "Q1 2026 Partnership Agreement",
+    "displayFields": [
+      "envelope_id",
+      "status",
+      "subject",
+      "sender_email",
+      "recipients_count",
+      "created_datetime",
+      "completed_datetime"
+    ]
+  }
+}

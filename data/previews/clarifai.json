@@ -1,0 +1,24 @@
+{
+  "id": "clarifai",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_url": "https://samples.clarifai.com/metro-north.jpg",
+    "concept_1": "train",
+    "score_1": 0.9996,
+    "concept_2": "railway",
+    "score_2": 0.9879,
+    "model_version": "aa7f35c01e0642fda5cf400f543e7c40"
+  },
+  "previewConfig": {
+    "title": "Image Recognition",
+    "subtitle": "General Model Prediction",
+    "displayFields": [
+      "input_url",
+      "concept_1",
+      "score_1",
+      "concept_2",
+      "score_2",
+      "model_version"
+    ]
+  }
+}

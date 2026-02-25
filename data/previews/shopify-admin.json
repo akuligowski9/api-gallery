@@ -1,0 +1,26 @@
+{
+  "id": "shopify-admin",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Classic Leather Messenger Bag",
+    "vendor": "Heritage Goods Co.",
+    "product_type": "Bags",
+    "status": "active",
+    "variants_count": 3,
+    "price_usd": 129.99,
+    "inventory_quantity": 84
+  },
+  "previewConfig": {
+    "title": "Product Details",
+    "subtitle": "Classic Leather Messenger Bag",
+    "displayFields": [
+      "title",
+      "vendor",
+      "product_type",
+      "status",
+      "variants_count",
+      "price_usd",
+      "inventory_quantity"
+    ]
+  }
+}

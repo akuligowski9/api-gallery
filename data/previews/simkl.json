@@ -1,0 +1,16 @@
+{
+  "id": "simkl",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Severance",
+    "status": "Watching",
+    "episodesWatched": 17,
+    "totalEpisodes": 20,
+    "rating": 9.1
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Simkl",
+    "displayFields": ["title", "status", "episodesWatched", "totalEpisodes", "rating"]
+  }
+}

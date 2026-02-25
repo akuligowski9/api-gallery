@@ -1,0 +1,26 @@
+{
+  "id": "sonarqube",
+  "previewType": "card",
+  "sampleResponse": {
+    "project_key": "com.acme:web-app",
+    "quality_gate": "Passed",
+    "bugs": 3,
+    "vulnerabilities": 1,
+    "code_smells": 47,
+    "coverage_pct": 78.4,
+    "duplications_pct": 2.1
+  },
+  "previewConfig": {
+    "title": "Project Analysis",
+    "subtitle": "com.acme:web-app",
+    "displayFields": [
+      "project_key",
+      "quality_gate",
+      "bugs",
+      "vulnerabilities",
+      "code_smells",
+      "coverage_pct",
+      "duplications_pct"
+    ]
+  }
+}

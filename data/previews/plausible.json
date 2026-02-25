@@ -1,0 +1,23 @@
+{
+  "id": "plausible",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "acme.com",
+    "visitors": 28403,
+    "pageviews": 71892,
+    "bounce_rate": 42.3,
+    "visit_duration_sec": 186,
+    "top_page": "/pricing"
+  },
+  "previewConfig": {
+    "title": "Site Analytics",
+    "subtitle": "acme.com",
+    "displayFields": [
+      "visitors",
+      "pageviews",
+      "bounce_rate",
+      "visit_duration_sec",
+      "top_page"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "paypal-transaction",
+  "previewType": "card",
+  "sampleResponse": {
+    "transaction_id": "5TY05013RG002845M",
+    "status": "COMPLETED",
+    "amount_usd": 249.99,
+    "currency": "USD",
+    "payer_email": "jdoe@example.com",
+    "create_time": "2026-02-24T14:32:07Z"
+  },
+  "previewConfig": {
+    "title": "PayPal Transaction",
+    "subtitle": "Payment #5TY05013RG002845M",
+    "displayFields": [
+      "transaction_id",
+      "status",
+      "amount_usd",
+      "currency",
+      "payer_email",
+      "create_time"
+    ]
+  }
+}

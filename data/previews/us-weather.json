@@ -2,22 +2,15 @@
   "id": "us-weather",
   "previewType": "card",
   "sampleResponse": {
-    "location": "New York, NY",
-    "temperature": "72°F",
-    "shortForecast": "Partly Cloudy",
-    "detailedForecast": "Partly cloudy, with a high near 72. South wind 5 to 10 mph.",
-    "windSpeed": "5 to 10 mph",
-    "windDirection": "S",
-    "humidity": "55%"
+    "location": "San Francisco, CA",
+    "forecast": "Partly Cloudy",
+    "temperature": "62°F",
+    "windSpeed": "12 mph W",
+    "detailedForecast": "Partly cloudy with highs near 62. West wind around 12 mph with gusts up to 20 mph."
   },
   "previewConfig": {
-    "title": "New York, NY",
-    "subtitle": "US National Weather Service",
-    "displayFields": [
-      "temperature",
-      "shortForecast",
-      "windSpeed",
-      "humidity"
-    ]
+    "title": "NWS Forecast",
+    "subtitle": "US Weather",
+    "displayFields": ["location", "forecast", "temperature", "windSpeed", "detailedForecast"]
   }
 }

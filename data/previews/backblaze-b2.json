@@ -1,0 +1,24 @@
+{
+  "id": "backblaze-b2",
+  "previewType": "card",
+  "sampleResponse": {
+    "bucket_name": "acme-media-assets",
+    "bucket_type": "allPrivate",
+    "file_count": 24817,
+    "total_size_gb": 187.4,
+    "lifecycle_rules": 2,
+    "cors_rules": 1
+  },
+  "previewConfig": {
+    "title": "Bucket Info",
+    "subtitle": "acme-media-assets",
+    "displayFields": [
+      "bucket_name",
+      "bucket_type",
+      "file_count",
+      "total_size_gb",
+      "lifecycle_rules",
+      "cors_rules"
+    ]
+  }
+}

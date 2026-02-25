@@ -1,0 +1,27 @@
+{
+  "id": "vultr",
+  "previewType": "card",
+  "sampleResponse": {
+    "hostname": "api-gateway-prod",
+    "status": "active",
+    "vcpu_count": 4,
+    "ram_mb": 8192,
+    "disk_gb": 160,
+    "os": "Ubuntu 22.04 LTS",
+    "region": "ewr",
+    "main_ip": "149.28.45.201"
+  },
+  "previewConfig": {
+    "title": "Vultr Instance",
+    "subtitle": "api-gateway-prod",
+    "displayFields": [
+      "status",
+      "vcpu_count",
+      "ram_mb",
+      "disk_gb",
+      "os",
+      "region",
+      "main_ip"
+    ]
+  }
+}

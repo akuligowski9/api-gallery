@@ -2,15 +2,25 @@
   "id": "open-brewery-db",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Great Notion Brewing",
-    "breweryType": "brewpub",
-    "city": "Portland",
+    "name": "Deschutes Brewery",
+    "brewery_type": "regional",
+    "city": "Bend",
     "state": "Oregon",
-    "phone": "5032847552"
+    "country": "United States",
+    "phone": "5413821242",
+    "website_url": "https://www.deschutesbrewery.com"
   },
   "previewConfig": {
-    "title": "Great Notion Brewing",
-    "subtitle": "Open Brewery DB",
-    "displayFields": ["name", "breweryType", "city", "state", "phone"]
+    "title": "Brewery Info",
+    "subtitle": "Deschutes Brewery — Bend, Oregon",
+    "displayFields": [
+      "name",
+      "brewery_type",
+      "city",
+      "state",
+      "country",
+      "phone",
+      "website_url"
+    ]
   }
 }

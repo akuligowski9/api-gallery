@@ -1,0 +1,16 @@
+{
+  "id": "urlhaus",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "http://example-malware.ru/payload.exe",
+    "threat": "malware_download",
+    "status": "online",
+    "dateAdded": "2025-11-03 14:22:08 UTC",
+    "tags": "elf, mirai, botnet"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "URLhaus",
+    "displayFields": ["url", "threat", "status", "dateAdded", "tags"]
+  }
+}

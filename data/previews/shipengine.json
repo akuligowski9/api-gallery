@@ -1,0 +1,26 @@
+{
+  "id": "shipengine",
+  "previewType": "card",
+  "sampleResponse": {
+    "carrier": "FedEx",
+    "service": "FedEx Ground",
+    "rate_usd": 12.47,
+    "delivery_days": 5,
+    "package_type": "Package",
+    "zone": 4,
+    "insurance_usd": 1.85
+  },
+  "previewConfig": {
+    "title": "Shipping Rate Quote",
+    "subtitle": "FedEx Ground — $12.47",
+    "displayFields": [
+      "carrier",
+      "service",
+      "rate_usd",
+      "delivery_days",
+      "package_type",
+      "zone",
+      "insurance_usd"
+    ]
+  }
+}

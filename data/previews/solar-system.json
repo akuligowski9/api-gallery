@@ -1,0 +1,26 @@
+{
+  "id": "solar-system",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Mars",
+    "mass_kg": 6.417e23,
+    "radius_km": 3389.5,
+    "gravity_ms2": 3.72,
+    "orbital_period_days": 687,
+    "moons": 2,
+    "mean_temp_c": -65
+  },
+  "previewConfig": {
+    "title": "Planet Data",
+    "subtitle": "Mars",
+    "displayFields": [
+      "name",
+      "mass_kg",
+      "radius_km",
+      "gravity_ms2",
+      "orbital_period_days",
+      "moons",
+      "mean_temp_c"
+    ]
+  }
+}

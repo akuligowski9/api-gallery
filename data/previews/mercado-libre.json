@@ -1,0 +1,52 @@
+{
+  "id": "mercado-libre",
+  "previewType": "list",
+  "sampleResponse": {
+    "query": "laptop",
+    "total_results": 48210,
+    "results": [
+      {
+        "title": "Lenovo IdeaPad 3 15.6\" Ryzen 5 16GB 512GB SSD",
+        "price": 549990,
+        "currency": "ARS",
+        "condition": "new",
+        "seller": "TecnoShop Oficial"
+      },
+      {
+        "title": "Apple MacBook Air M2 13\" 8GB 256GB",
+        "price": 1249000,
+        "currency": "ARS",
+        "condition": "new",
+        "seller": "MacStation"
+      },
+      {
+        "title": "HP Pavilion 14\" i5-1235U 8GB 256GB SSD",
+        "price": 479900,
+        "currency": "ARS",
+        "condition": "new",
+        "seller": "HP Store Argentina"
+      },
+      {
+        "title": "Dell Latitude 5420 14\" i5 8GB 256GB Refurbished",
+        "price": 289000,
+        "currency": "ARS",
+        "condition": "refurbished",
+        "seller": "RenovaTech"
+      },
+      {
+        "title": "ASUS VivoBook 15 Ryzen 7 16GB 512GB SSD",
+        "price": 629990,
+        "currency": "ARS",
+        "condition": "new",
+        "seller": "Asus Oficial"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Search Results",
+    "subtitle": "\"laptop\" — 48,210 results",
+    "itemKey": "title",
+    "secondaryKey": "seller",
+    "badgeKey": "price"
+  }
+}

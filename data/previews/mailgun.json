@@ -1,0 +1,24 @@
+{
+  "id": "mailgun",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "notifications.example.com",
+    "total_sent": 184320,
+    "delivered": 181047,
+    "bounced": 2814,
+    "complained": 459,
+    "delivery_rate": "98.2%"
+  },
+  "previewConfig": {
+    "title": "Mailgun Domain Stats",
+    "subtitle": "notifications.example.com — 184,320 sent",
+    "displayFields": [
+      "domain",
+      "total_sent",
+      "delivered",
+      "bounced",
+      "complained",
+      "delivery_rate"
+    ]
+  }
+}

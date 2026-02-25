@@ -1,0 +1,22 @@
+{
+  "id": "detect-language",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_text": "Ich bin ein Berliner.",
+    "language": "German",
+    "confidence": 0.99,
+    "is_reliable": true,
+    "alternatives_count": 2
+  },
+  "previewConfig": {
+    "title": "Language Detection",
+    "subtitle": "German — 99% confidence",
+    "displayFields": [
+      "input_text",
+      "language",
+      "confidence",
+      "is_reliable",
+      "alternatives_count"
+    ]
+  }
+}

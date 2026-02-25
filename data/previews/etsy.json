@@ -1,20 +1,26 @@
 {
   "id": "etsy",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      { "title": "Hand-Poured Soy Candle Set", "secondary": "CandleCo Studio", "badge": 12450 },
-      { "title": "Personalized Leather Journal", "secondary": "RusticCraft Goods", "badge": 8920 },
-      { "title": "Macramé Wall Hanging", "secondary": "BohoThreads Shop", "badge": 6340 },
-      { "title": "Custom Pet Portrait (Digital)", "secondary": "PawPrints Art", "badge": 5180 },
-      { "title": "Handmade Ceramic Mug", "secondary": "EarthTone Pottery", "badge": 4760 }
-    ]
+    "title": "Hand-Poured Soy Candle — Lavender & Sage",
+    "price_usd": 18.50,
+    "quantity": 37,
+    "views": 1284,
+    "favorites": 213,
+    "state": "active",
+    "shop_name": "WillowCreekCandleCo"
   },
   "previewConfig": {
-    "title": "Etsy",
-    "subtitle": "Popular handmade items by sales",
-    "itemKey": "title",
-    "secondaryKey": "secondary",
-    "badgeKey": "badge"
+    "title": "Listing Details",
+    "subtitle": "Hand-Poured Soy Candle — Lavender & Sage",
+    "displayFields": [
+      "title",
+      "price_usd",
+      "quantity",
+      "views",
+      "favorites",
+      "state",
+      "shop_name"
+    ]
   }
 }

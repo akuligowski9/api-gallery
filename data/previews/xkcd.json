@@ -2,16 +2,25 @@
   "id": "xkcd",
   "previewType": "card",
   "sampleResponse": {
-    "num": 2934,
-    "title": "AI Methodology",
-    "alt": "I just trained a model to mass-produce peer reviews that say 'this methodology is not rigorous enough', so now I have a feedback loop that will eventually produce the most rigorous methodology possible.",
-    "img_url": "https://imgs.xkcd.com/comics/ai_methodology.png",
-    "year": 2025,
-    "month": 11
+    "num": 353,
+    "title": "Python",
+    "alt": "I wrote 20 short programs in Python yesterday. It was wonderful. Series of short programs, each one a jewel.",
+    "img_url": "https://imgs.xkcd.com/comics/python.png",
+    "year": "2007",
+    "month": "12",
+    "day": "5"
   },
   "previewConfig": {
-    "title": "xkcd #2934",
-    "subtitle": "AI Methodology",
-    "displayFields": ["num", "title", "alt", "img_url", "year", "month"]
+    "title": "XKCD Comic",
+    "subtitle": "#353 — Python",
+    "displayFields": [
+      "num",
+      "title",
+      "alt",
+      "img_url",
+      "year",
+      "month",
+      "day"
+    ]
   }
 }

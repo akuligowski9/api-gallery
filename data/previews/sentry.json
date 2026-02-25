@@ -2,49 +2,51 @@
   "id": "sentry",
   "previewType": "list",
   "sampleResponse": {
+    "project": "web-app-frontend",
+    "total_issues": 328,
     "issues": [
       {
         "title": "TypeError: Cannot read properties of undefined (reading 'map')",
         "level": "error",
         "count": 1842,
-        "first_seen": "2026-02-24T08:12:00Z",
-        "last_seen": "2026-02-25T15:03:44Z"
+        "first_seen": "2026-02-18T03:21:44Z",
+        "last_seen": "2026-02-25T11:02:17Z"
       },
       {
-        "title": "ReferenceError: fetchUserProfile is not defined",
+        "title": "ChunkLoadError: Loading chunk 14 failed",
         "level": "error",
-        "count": 437,
-        "first_seen": "2026-02-25T06:30:00Z",
-        "last_seen": "2026-02-25T14:58:12Z"
+        "count": 731,
+        "first_seen": "2026-02-20T15:08:33Z",
+        "last_seen": "2026-02-25T10:47:59Z"
       },
       {
-        "title": "NetworkError: Request timeout after 30000ms - /api/v2/checkout",
+        "title": "NetworkError: Failed to fetch",
         "level": "warning",
-        "count": 89,
-        "first_seen": "2026-02-25T10:15:00Z",
-        "last_seen": "2026-02-25T14:22:08Z"
+        "count": 509,
+        "first_seen": "2026-02-12T22:14:01Z",
+        "last_seen": "2026-02-25T09:58:42Z"
       },
       {
-        "title": "UnhandledPromiseRejection: 503 Service Unavailable (payments-service)",
-        "level": "fatal",
-        "count": 23,
-        "first_seen": "2026-02-25T13:45:00Z",
-        "last_seen": "2026-02-25T14:01:55Z"
+        "title": "RangeError: Maximum call stack size exceeded",
+        "level": "error",
+        "count": 203,
+        "first_seen": "2026-02-22T07:33:18Z",
+        "last_seen": "2026-02-24T19:11:26Z"
       },
       {
-        "title": "DeprecationWarning: Buffer() is deprecated due to security issues",
-        "level": "info",
-        "count": 15204,
-        "first_seen": "2025-11-02T03:00:00Z",
-        "last_seen": "2026-02-25T15:05:00Z"
+        "title": "UnhandledRejection: Request timeout after 30000ms",
+        "level": "warning",
+        "count": 147,
+        "first_seen": "2026-02-23T11:45:02Z",
+        "last_seen": "2026-02-25T08:30:55Z"
       }
     ]
   },
   "previewConfig": {
     "title": "Recent Issues",
-    "subtitle": "Sentry Error Tracking",
+    "subtitle": "web-app-frontend — 328 open issues",
     "itemKey": "title",
-    "secondaryKey": "count",
-    "badgeKey": "level"
+    "secondaryKey": "level",
+    "badgeKey": "count"
   }
 }

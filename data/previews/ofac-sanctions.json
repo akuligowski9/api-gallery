@@ -1,0 +1,26 @@
+{
+  "id": "ofac-sanctions",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "PETROLEO DE VENEZUELA, S.A.",
+    "type": "Entity",
+    "program": "VENEZUELA",
+    "country": "Venezuela",
+    "source": "SDN List",
+    "id": "20997",
+    "remarks": "Owned or controlled by the Government of Venezuela"
+  },
+  "previewConfig": {
+    "title": "SDN Entry",
+    "subtitle": "PETROLEO DE VENEZUELA, S.A. — VENEZUELA",
+    "displayFields": [
+      "name",
+      "type",
+      "program",
+      "country",
+      "source",
+      "id",
+      "remarks"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "freeforexapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "pair": "EUR/USD",
+    "rate": 1.0847,
+    "bid": 1.0845,
+    "ask": 1.0849,
+    "timestamp": "2026-02-25T14:30:00Z"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Free Forex API",
+    "displayFields": ["pair", "rate", "bid", "ask", "timestamp"]
+  }
+}

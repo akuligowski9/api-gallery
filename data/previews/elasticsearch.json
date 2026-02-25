@@ -1,0 +1,24 @@
+{
+  "id": "elasticsearch",
+  "previewType": "card",
+  "sampleResponse": {
+    "took_ms": 15,
+    "timed_out": false,
+    "total_hits": 1284,
+    "max_score": 9.72,
+    "shards_total": 5,
+    "shards_successful": 5
+  },
+  "previewConfig": {
+    "title": "Search Response",
+    "subtitle": "1,284 hits in 15ms",
+    "displayFields": [
+      "took_ms",
+      "timed_out",
+      "total_hits",
+      "max_score",
+      "shards_total",
+      "shards_successful"
+    ]
+  }
+}

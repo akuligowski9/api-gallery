@@ -1,0 +1,24 @@
+{
+  "id": "stripe-balance",
+  "previewType": "card",
+  "sampleResponse": {
+    "available_usd": 12840.57,
+    "pending_usd": 3291.20,
+    "currency": "usd",
+    "livemode": true,
+    "last_payout_date": "2026-02-23",
+    "last_payout_amount": 8500.00
+  },
+  "previewConfig": {
+    "title": "Stripe Balance",
+    "subtitle": "Live account balance overview",
+    "displayFields": [
+      "available_usd",
+      "pending_usd",
+      "currency",
+      "livemode",
+      "last_payout_date",
+      "last_payout_amount"
+    ]
+  }
+}

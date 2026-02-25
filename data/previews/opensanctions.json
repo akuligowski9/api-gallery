@@ -1,0 +1,26 @@
+{
+  "id": "opensanctions",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Viktor Vekselberg",
+    "schema": "Person",
+    "countries": "Russia",
+    "datasets": "US OFAC SDN, EU Financial Sanctions",
+    "first_seen": "2018-04-06",
+    "last_seen": "2026-02-20",
+    "properties_count": 34
+  },
+  "previewConfig": {
+    "title": "Sanctions Entity",
+    "subtitle": "Viktor Vekselberg — Person",
+    "displayFields": [
+      "name",
+      "schema",
+      "countries",
+      "datasets",
+      "first_seen",
+      "last_seen",
+      "properties_count"
+    ]
+  }
+}

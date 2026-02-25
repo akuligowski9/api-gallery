@@ -2,25 +2,15 @@
   "id": "jsdelivr",
   "previewType": "card",
   "sampleResponse": {
-    "type": "npm",
-    "name": "lodash",
-    "hits": {
-      "total": 1842567890
-    },
-    "bandwidth": {
-      "total": 98234567890
-    },
-    "links": {
-      "self": "https://data.jsdelivr.com/v1/package/npm/lodash",
-      "versions": "https://data.jsdelivr.com/v1/package/npm/lodash/versions"
-    }
+    "name": "react",
+    "version": "19.1.0",
+    "hits": "1.2 Billion/mo",
+    "bandwidth": "8.4 TB/mo",
+    "type": "npm"
   },
   "previewConfig": {
-    "title": "lodash",
-    "subtitle": "jsDelivr CDN Stats",
-    "displayFields": [
-      "name",
-      "type"
-    ]
+    "title": "react",
+    "subtitle": "jsDelivr",
+    "displayFields": ["name", "version", "hits", "bandwidth", "type"]
   }
 }

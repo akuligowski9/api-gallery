@@ -1,0 +1,16 @@
+{
+  "id": "mockaroo",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "E-Commerce Users",
+    "rows": "10,000",
+    "format": "JSON",
+    "fields": "id, name, email, signup_date, plan",
+    "created": "2026-02-18"
+  },
+  "previewConfig": {
+    "title": "E-Commerce Users",
+    "subtitle": "Mockaroo",
+    "displayFields": ["name", "rows", "format", "fields", "created"]
+  }
+}

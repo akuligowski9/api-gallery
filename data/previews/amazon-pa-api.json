@@ -1,0 +1,26 @@
+{
+  "id": "amazon-pa-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+    "brand": "Sony",
+    "price_usd": 328.00,
+    "rating": 4.7,
+    "reviews_count": 14832,
+    "availability": "In Stock",
+    "asin": "B0BX2L8PFY"
+  },
+  "previewConfig": {
+    "title": "Product Details",
+    "subtitle": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+    "displayFields": [
+      "title",
+      "brand",
+      "price_usd",
+      "rating",
+      "reviews_count",
+      "availability",
+      "asin"
+    ]
+  }
+}

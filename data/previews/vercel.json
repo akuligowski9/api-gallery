@@ -2,49 +2,51 @@
   "id": "vercel",
   "previewType": "list",
   "sampleResponse": {
+    "project": "storefront-next",
+    "total_deployments": 238,
     "deployments": [
       {
-        "name": "my-saas-app",
+        "name": "storefront-next-a1b2c3d4",
         "state": "READY",
-        "created": "2026-02-25T15:02:18Z",
-        "url": "my-saas-app-git-main.vercel.app",
+        "url": "storefront-next-a1b2c3d4.vercel.app",
+        "created_at": "2026-02-25T14:32:01Z",
         "target": "production"
       },
       {
-        "name": "my-saas-app",
+        "name": "storefront-next-e5f6g7h8",
         "state": "READY",
-        "created": "2026-02-25T12:48:55Z",
-        "url": "my-saas-app-git-feat-billing.vercel.app",
+        "url": "storefront-next-e5f6g7h8.vercel.app",
+        "created_at": "2026-02-24T18:05:44Z",
         "target": "preview"
       },
       {
-        "name": "docs-site",
-        "state": "BUILDING",
-        "created": "2026-02-25T11:30:04Z",
-        "url": "docs-site-kx92f.vercel.app",
-        "target": "preview"
-      },
-      {
-        "name": "my-saas-app",
+        "name": "storefront-next-i9j0k1l2",
         "state": "ERROR",
-        "created": "2026-02-25T09:14:37Z",
-        "url": "my-saas-app-git-fix-auth.vercel.app",
+        "url": "storefront-next-i9j0k1l2.vercel.app",
+        "created_at": "2026-02-24T11:17:29Z",
         "target": "preview"
       },
       {
-        "name": "landing-page",
+        "name": "storefront-next-m3n4o5p6",
         "state": "READY",
-        "created": "2026-02-24T20:55:12Z",
-        "url": "landing-page-git-main.vercel.app",
+        "url": "storefront-next-m3n4o5p6.vercel.app",
+        "created_at": "2026-02-23T09:48:12Z",
         "target": "production"
+      },
+      {
+        "name": "storefront-next-q7r8s9t0",
+        "state": "CANCELED",
+        "url": "storefront-next-q7r8s9t0.vercel.app",
+        "created_at": "2026-02-22T16:33:55Z",
+        "target": "preview"
       }
     ]
   },
   "previewConfig": {
     "title": "Recent Deployments",
-    "subtitle": "Vercel API",
+    "subtitle": "storefront-next — 238 total deployments",
     "itemKey": "name",
-    "secondaryKey": "url",
+    "secondaryKey": "target",
     "badgeKey": "state"
   }
 }

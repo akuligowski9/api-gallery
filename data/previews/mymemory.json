@@ -1,0 +1,24 @@
+{
+  "id": "mymemory",
+  "previewType": "card",
+  "sampleResponse": {
+    "source": "Good morning, how are you?",
+    "translation": "Bonjour, comment allez-vous?",
+    "match_score": 0.95,
+    "source_lang": "en",
+    "target_lang": "fr",
+    "usage_count": 18432
+  },
+  "previewConfig": {
+    "title": "Translation Memory Match",
+    "subtitle": "English to French — 95% match",
+    "displayFields": [
+      "source",
+      "translation",
+      "match_score",
+      "source_lang",
+      "target_lang",
+      "usage_count"
+    ]
+  }
+}

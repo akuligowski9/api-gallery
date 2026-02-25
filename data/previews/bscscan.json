@@ -1,0 +1,16 @@
+{
+  "id": "bscscan",
+  "previewType": "card",
+  "sampleResponse": {
+    "hash": "0x8b2a44a3f1d9c5e7b6d0f234a19c8e5627df1a0bc3e4d9876fab2310cd5e7890",
+    "from": "0x28C6c06298d514Db089934071355E5743bf21d60",
+    "to": "0x8894E0a0c962CB723c1ef8580d0543FF6dD44736",
+    "value": "1,250.00 BNB",
+    "gasPrice": "3 Gwei"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "BscScan",
+    "displayFields": ["hash", "from", "to", "value", "gasPrice"]
+  }
+}

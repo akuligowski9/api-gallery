@@ -1,14 +1,16 @@
 {
   "id": "placebear",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "url": "https://placebear.com/400/300",
     "width": 400,
-    "height": 300
+    "height": 300,
+    "format": "JPEG",
+    "url": "https://placebear.com/400/300",
+    "grayscale": false
   },
   "previewConfig": {
-    "title": "PlaceBear",
-    "subtitle": "placebear.com",
-    "imageKey": "url"
+    "title": "Bear Image",
+    "subtitle": "Placebear",
+    "displayFields": ["width", "height", "format", "url", "grayscale"]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "meilisearch",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "sci-fi movies 2025",
+    "hits": 12,
+    "processing_time_ms": 1,
+    "estimated_total_hits": 36,
+    "limit": 20,
+    "offset": 0
+  },
+  "previewConfig": {
+    "title": "Search Result",
+    "subtitle": "\"sci-fi movies 2025\"",
+    "displayFields": [
+      "query",
+      "hits",
+      "processing_time_ms",
+      "estimated_total_hits",
+      "limit",
+      "offset"
+    ]
+  }
+}

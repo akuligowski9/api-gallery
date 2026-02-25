@@ -1,0 +1,16 @@
+{
+  "id": "charity-search",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "American Red Cross",
+    "ein": "53-0196605",
+    "category": "Human Services",
+    "state": "Washington, DC",
+    "revenue": "$3.3 Billion"
+  },
+  "previewConfig": {
+    "title": "American Red Cross",
+    "subtitle": "Charity Search",
+    "displayFields": ["name", "ein", "category", "state", "revenue"]
+  }
+}

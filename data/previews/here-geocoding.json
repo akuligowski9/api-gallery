@@ -1,0 +1,24 @@
+{
+  "id": "here-geocoding",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Eiffel Tower",
+    "latitude": 48.8584,
+    "longitude": 2.2945,
+    "address": "5 Avenue Anatole France",
+    "city": "Paris",
+    "country_code": "FRA"
+  },
+  "previewConfig": {
+    "title": "HERE Geocoding",
+    "subtitle": "Eiffel Tower — Paris, France",
+    "displayFields": [
+      "title",
+      "latitude",
+      "longitude",
+      "address",
+      "city",
+      "country_code"
+    ]
+  }
+}

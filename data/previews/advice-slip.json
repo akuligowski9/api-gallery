@@ -2,12 +2,19 @@
   "id": "advice-slip",
   "previewType": "card",
   "sampleResponse": {
-    "slip_id": 143,
-    "advice": "Remember that spiders are more afraid of you than you are of them."
+    "id": 137,
+    "advice": "Remember that everyone you meet is afraid of something, loves something, and has lost something.",
+    "date": "2025-11-20",
+    "slip_count": 224
   },
   "previewConfig": {
-    "title": "Advice Slip",
-    "subtitle": "Random advice",
-    "displayFields": ["slip_id", "advice"]
+    "title": "Random Advice",
+    "subtitle": "Slip #137",
+    "displayFields": [
+      "id",
+      "advice",
+      "date",
+      "slip_count"
+    ]
   }
 }

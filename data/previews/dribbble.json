@@ -1,0 +1,16 @@
+{
+  "id": "dribbble",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Finance App Dashboard Concept",
+    "designer": "Jakub Antalík",
+    "likes": "4,287",
+    "views": "38,120",
+    "tags": "ui, dashboard, fintech"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Dribbble",
+    "displayFields": ["title", "designer", "likes", "views", "tags"]
+  }
+}

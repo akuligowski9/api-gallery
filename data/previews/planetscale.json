@@ -1,0 +1,26 @@
+{
+  "id": "planetscale",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "acme-main-db",
+    "region": "us-east",
+    "plan": "Scaler Pro",
+    "rows_read_today": 2841037,
+    "rows_written_today": 187429,
+    "storage_gb": 14.8,
+    "branches": 3
+  },
+  "previewConfig": {
+    "title": "Database Overview",
+    "subtitle": "acme-main-db — Scaler Pro",
+    "displayFields": [
+      "name",
+      "region",
+      "plan",
+      "rows_read_today",
+      "rows_written_today",
+      "storage_gb",
+      "branches"
+    ]
+  }
+}

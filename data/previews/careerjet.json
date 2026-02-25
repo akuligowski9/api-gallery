@@ -1,0 +1,16 @@
+{
+  "id": "careerjet",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Senior Frontend Engineer",
+    "company": "Stripe",
+    "location": "San Francisco, CA",
+    "salary": "$160,000 – $210,000",
+    "date": "2026-02-20"
+  },
+  "previewConfig": {
+    "title": "Senior Frontend Engineer",
+    "subtitle": "Careerjet",
+    "displayFields": ["title", "company", "location", "salary", "date"]
+  }
+}

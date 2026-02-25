@@ -1,18 +1,16 @@
 {
   "id": "bc-ferries",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "sailings": [
-      {"route": "Tsawwassen to Swartz Bay", "departureTime": "07:00", "vessel": "Spirit of British Columbia"}
-    ]
+    "route": "Tsawwassen to Swartz Bay",
+    "vessel": "Spirit of British Columbia",
+    "sailingTime": "1h 35m",
+    "capacity": 2100,
+    "percentFull": "73%"
   },
   "previewConfig": {
-    "title": "BC Ferries",
-    "items": [
-      {"name": "Tsawwassen → Swartz Bay", "language": "07:00"},
-      {"name": "Horseshoe Bay → Nanaimo", "language": "08:30"},
-      {"name": "Tsawwassen → Duke Point", "language": "09:15"},
-      {"name": "Horseshoe Bay → Langdale", "language": "07:25"}
-    ]
+    "title": "Ferry Route",
+    "subtitle": "BC Ferries",
+    "displayFields": ["route", "vessel", "sailingTime", "capacity", "percentFull"]
   }
 }

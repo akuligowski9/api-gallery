@@ -2,15 +2,15 @@
   "id": "tomorrow",
   "previewType": "card",
   "sampleResponse": {
-    "temperature": "29.5°C (feels like 32.1°C)",
-    "humidity": "71%",
-    "wind_speed": "8.3 m/s SSE",
-    "precipitation_probability": "35%",
-    "uv_index": "5 — Moderate"
+    "location": "Miami, FL",
+    "temperature": "84°F",
+    "humidity": "72%",
+    "precipitationProbability": "35%",
+    "windSpeed": "12 mph"
   },
   "previewConfig": {
-    "title": "Miami, FL",
-    "subtitle": "Partly Cloudy",
-    "displayFields": ["temperature", "humidity", "wind_speed", "precipitation_probability", "uv_index"]
+    "title": "Miami, FL — Forecast",
+    "subtitle": "Tomorrow.io",
+    "displayFields": ["location", "temperature", "humidity", "precipitationProbability", "windSpeed"]
   }
 }

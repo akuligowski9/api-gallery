@@ -1,0 +1,26 @@
+{
+  "id": "woocommerce",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Organic Green Tea Sampler",
+    "type": "simple",
+    "status": "publish",
+    "price": "24.95",
+    "regular_price": "29.95",
+    "stock_quantity": 152,
+    "categories": "Tea, Beverages, Organic"
+  },
+  "previewConfig": {
+    "title": "Product Details",
+    "subtitle": "Organic Green Tea Sampler",
+    "displayFields": [
+      "name",
+      "type",
+      "status",
+      "price",
+      "regular_price",
+      "stock_quantity",
+      "categories"
+    ]
+  }
+}

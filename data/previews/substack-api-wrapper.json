@@ -1,50 +1,16 @@
 {
   "id": "substack-api-wrapper",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      {
-        "name": "The Pragmatic Engineer",
-        "author": "Gergely Orosz",
-        "subscribers": 725000,
-        "category": "Technology",
-        "url": "https://pragmaticengineer.substack.com"
-      },
-      {
-        "name": "Slow Boring",
-        "author": "Matthew Yglesias",
-        "subscribers": 280000,
-        "category": "Politics",
-        "url": "https://slowboring.substack.com"
-      },
-      {
-        "name": "The Diff",
-        "author": "Byrne Hobart",
-        "subscribers": 152000,
-        "category": "Finance",
-        "url": "https://thediff.substack.com"
-      },
-      {
-        "name": "Astral Codex Ten",
-        "author": "Scott Alexander",
-        "subscribers": 198000,
-        "category": "Science",
-        "url": "https://astralcodexten.substack.com"
-      },
-      {
-        "name": "Lenny's Newsletter",
-        "author": "Lenny Rachitsky",
-        "subscribers": 640000,
-        "category": "Business",
-        "url": "https://lennysnewsletter.substack.com"
-      }
-    ]
+    "name": "The Pragmatic Engineer",
+    "author": "Gergely Orosz",
+    "subscribers": "728000",
+    "frequency": "Weekly",
+    "category": "Technology"
   },
   "previewConfig": {
-    "title": "Popular Newsletters",
-    "subtitle": "Substack's newsletter platform API wrapper",
-    "itemKey": "name",
-    "secondaryKey": "author",
-    "badgeKey": "subscribers"
+    "title": "The Pragmatic Engineer",
+    "subtitle": "Substack",
+    "displayFields": ["name", "author", "subscribers", "frequency", "category"]
   }
 }

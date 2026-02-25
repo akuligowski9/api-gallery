@@ -1,0 +1,20 @@
+{
+  "id": "data-parliament-uk",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Online Safety Act 2023 (Amendment) Bill", "secondary": "Lord Clement-Jones", "badge": "2nd Reading" },
+      { "title": "Renters' Rights Bill", "secondary": "Matthew Pennycook MP", "badge": "Committee" },
+      { "title": "Football Governance Bill", "secondary": "Lisa Sheridan MP", "badge": "Report Stage" },
+      { "title": "Border Security, Asylum and Immigration Bill", "secondary": "Yvette Cooper MP", "badge": "3rd Reading" },
+      { "title": "Employment Rights Bill", "secondary": "Jonathan Reynolds MP", "badge": "Committee" }
+    ]
+  },
+  "previewConfig": {
+    "title": "UK Parliament",
+    "subtitle": "Recent Parliamentary Bills",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

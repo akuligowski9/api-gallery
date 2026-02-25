@@ -1,0 +1,16 @@
+{
+  "id": "foursquare",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Blue Bottle Coffee",
+    "category": "Coffee Shop",
+    "rating": "9.2",
+    "address": "450 W 15th St, New York, NY 10011",
+    "checkins": "18734"
+  },
+  "previewConfig": {
+    "title": "Blue Bottle Coffee",
+    "subtitle": "Foursquare",
+    "displayFields": ["name", "category", "rating", "address", "checkins"]
+  }
+}

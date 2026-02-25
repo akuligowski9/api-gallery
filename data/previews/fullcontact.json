@@ -1,0 +1,26 @@
+{
+  "id": "fullcontact",
+  "previewType": "card",
+  "sampleResponse": {
+    "full_name": "Sarah Johnson",
+    "email": "sarah.johnson@techstartup.io",
+    "title": "VP of Engineering",
+    "organization": "TechStartup Inc.",
+    "city": "Austin, TX",
+    "linkedin_url": "https://linkedin.com/in/sarahjohnson",
+    "twitter_handle": "@sarahj_eng"
+  },
+  "previewConfig": {
+    "title": "Person Enrichment",
+    "subtitle": "Sarah Johnson",
+    "displayFields": [
+      "full_name",
+      "email",
+      "title",
+      "organization",
+      "city",
+      "linkedin_url",
+      "twitter_handle"
+    ]
+  }
+}

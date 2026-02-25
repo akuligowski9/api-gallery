@@ -1,0 +1,16 @@
+{
+  "id": "solana-json-rpc",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+    "balance": "42.891 SOL",
+    "owner": "11111111111111111111111111111111",
+    "executable": "false",
+    "rentEpoch": "361"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Solana JSON RPC",
+    "displayFields": ["address", "balance", "owner", "executable", "rentEpoch"]
+  }
+}

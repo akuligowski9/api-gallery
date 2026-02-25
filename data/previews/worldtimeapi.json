@@ -1,0 +1,24 @@
+{
+  "id": "worldtimeapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "timezone": "America/New_York",
+    "datetime": "2026-02-25T14:32:07.123456-05:00",
+    "utc_offset": "-05:00",
+    "day_of_week": 3,
+    "day_of_year": 56,
+    "week_number": 9
+  },
+  "previewConfig": {
+    "title": "Current Time",
+    "subtitle": "America/New_York — UTC-05:00",
+    "displayFields": [
+      "timezone",
+      "datetime",
+      "utc_offset",
+      "day_of_week",
+      "day_of_year",
+      "week_number"
+    ]
+  }
+}

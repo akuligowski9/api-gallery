@@ -1,0 +1,24 @@
+{
+  "id": "apod",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "The Crab Nebula from Hubble",
+    "date": "2026-02-25",
+    "explanation_preview": "The Crab Nebula, the result of a supernova seen in 1054 AD, is filled with mysterious filaments that are not only tremendously complex but appear to have less mass than expelled in the original supernova.",
+    "media_type": "image",
+    "url": "https://apod.nasa.gov/apod/image/2602/CrabNebula_Hubble.jpg",
+    "copyright": "NASA/ESA/Hubble Heritage Team"
+  },
+  "previewConfig": {
+    "title": "Astronomy Picture of the Day",
+    "subtitle": "Feb 25, 2026",
+    "displayFields": [
+      "title",
+      "date",
+      "explanation_preview",
+      "media_type",
+      "url",
+      "copyright"
+    ]
+  }
+}

@@ -1,16 +1,52 @@
 {
   "id": "pixabay",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "tags": "nature, forest, sunrise",
-    "views": "128,432",
-    "downloads": "34,210",
-    "likes": "1,842",
-    "imageType": "photo"
+    "query": "sunset",
+    "total_hits": 93412,
+    "images": [
+      {
+        "user": "jplenio",
+        "type": "photo",
+        "tags": "sunset, sea, horizon",
+        "views": 1284530,
+        "downloads": 487621
+      },
+      {
+        "user": "Bessi",
+        "type": "photo",
+        "tags": "sunset, field, golden hour",
+        "views": 956210,
+        "downloads": 312480
+      },
+      {
+        "user": "Pexels",
+        "type": "photo",
+        "tags": "sunset, clouds, sky",
+        "views": 742318,
+        "downloads": 265104
+      },
+      {
+        "user": "StockSnap",
+        "type": "photo",
+        "tags": "sunset, beach, ocean",
+        "views": 631847,
+        "downloads": 198532
+      },
+      {
+        "user": "Free-Photos",
+        "type": "photo",
+        "tags": "sunset, mountain, landscape",
+        "views": 523190,
+        "downloads": 174263
+      }
+    ]
   },
   "previewConfig": {
-    "title": "Nature Forest Sunrise",
-    "subtitle": "Pixabay Image",
-    "displayFields": ["tags", "views", "downloads", "likes", "imageType"]
+    "title": "Image Search",
+    "subtitle": "sunset — 93,412 hits",
+    "itemKey": "user",
+    "secondaryKey": "tags",
+    "badgeKey": "views"
   }
 }

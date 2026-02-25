@@ -1,0 +1,24 @@
+{
+  "id": "deepgram",
+  "previewType": "card",
+  "sampleResponse": {
+    "transcript": "Hello and welcome to the quarterly earnings call. We are pleased to report strong results across all segments.",
+    "confidence": 0.9741,
+    "duration_sec": 8.42,
+    "words_count": 18,
+    "language": "en",
+    "model": "nova-2"
+  },
+  "previewConfig": {
+    "title": "Audio Transcription",
+    "subtitle": "Nova-2 Model",
+    "displayFields": [
+      "transcript",
+      "confidence",
+      "duration_sec",
+      "words_count",
+      "language",
+      "model"
+    ]
+  }
+}

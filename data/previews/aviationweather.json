@@ -1,0 +1,16 @@
+{
+  "id": "aviationweather",
+  "previewType": "card",
+  "sampleResponse": {
+    "station": "KJFK",
+    "rawOb": "KJFK 251456Z 31012G18KT 10SM FEW250 M02/M14 A3042",
+    "temperature": "-2°C",
+    "dewpoint": "-14°C",
+    "windSpeed": "12 kt"
+  },
+  "previewConfig": {
+    "title": "KJFK — METAR Report",
+    "subtitle": "Aviation Weather",
+    "displayFields": ["station", "rawOb", "temperature", "dewpoint", "windSpeed"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "keen-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "collection": "pageviews",
+    "eventCount": "1,284,390",
+    "timeframe": "Last 7 days",
+    "property": "url.path",
+    "uniqueActors": "87,412"
+  },
+  "previewConfig": {
+    "title": "Analytics Event Summary",
+    "subtitle": "Keen IO",
+    "displayFields": ["collection", "eventCount", "timeframe", "property", "uniqueActors"]
+  }
+}

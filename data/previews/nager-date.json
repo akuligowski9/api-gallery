@@ -2,49 +2,51 @@
   "id": "nager-date",
   "previewType": "list",
   "sampleResponse": {
-    "items": [
+    "country": "United States",
+    "year": 2026,
+    "holidays": [
       {
-        "name": "Neujahrstag",
+        "name": "New Year's Day",
         "date": "2026-01-01",
-        "countryCode": "DE",
-        "type": "Public",
-        "launchYear": 1967
+        "local_name": "New Year's Day",
+        "country_code": "US",
+        "type": "Public"
       },
       {
-        "name": "Karfreitag",
-        "date": "2026-04-03",
-        "countryCode": "DE",
-        "type": "Public",
-        "launchYear": 1967
+        "name": "Martin Luther King, Jr. Day",
+        "date": "2026-01-19",
+        "local_name": "Martin Luther King, Jr. Day",
+        "country_code": "US",
+        "type": "Public"
       },
       {
-        "name": "Tag der Deutschen Einheit",
-        "date": "2026-10-03",
-        "countryCode": "DE",
-        "type": "Public",
-        "launchYear": 1990
+        "name": "Presidents' Day",
+        "date": "2026-02-16",
+        "local_name": "Washington's Birthday",
+        "country_code": "US",
+        "type": "Public"
       },
       {
-        "name": "Erster Weihnachtstag",
-        "date": "2026-12-25",
-        "countryCode": "DE",
-        "type": "Public",
-        "launchYear": 1967
+        "name": "Memorial Day",
+        "date": "2026-05-25",
+        "local_name": "Memorial Day",
+        "country_code": "US",
+        "type": "Public"
       },
       {
-        "name": "Zweiter Weihnachtstag",
-        "date": "2026-12-26",
-        "countryCode": "DE",
-        "type": "Public",
-        "launchYear": 1967
+        "name": "Independence Day",
+        "date": "2026-07-04",
+        "local_name": "Independence Day",
+        "country_code": "US",
+        "type": "Public"
       }
     ]
   },
   "previewConfig": {
-    "title": "Upcoming Holidays Germany",
-    "subtitle": "Nager.Date",
+    "title": "Public Holidays",
+    "subtitle": "United States — 2026",
     "itemKey": "name",
-    "secondaryKey": "date",
-    "badgeKey": "type"
+    "secondaryKey": "local_name",
+    "badgeKey": "date"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "invoice-ninja",
+  "previewType": "card",
+  "sampleResponse": {
+    "number": "INV-2026-0047",
+    "client_name": "Meridian Consulting Group",
+    "amount": 4200.00,
+    "status": "sent",
+    "due_date": "2026-03-15",
+    "balance": 4200.00
+  },
+  "previewConfig": {
+    "title": "Invoice Details",
+    "subtitle": "INV-2026-0047 — Meridian Consulting Group",
+    "displayFields": [
+      "number",
+      "client_name",
+      "amount",
+      "status",
+      "due_date",
+      "balance"
+    ]
+  }
+}

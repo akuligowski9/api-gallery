@@ -2,23 +2,15 @@
   "id": "open-disease",
   "previewType": "card",
   "sampleResponse": {
-    "cases": 704753890,
-    "deaths": 7010681,
-    "recovered": 675619811,
-    "active": 22123398,
-    "tests": 7042718058,
-    "updated": "2026-02-25"
+    "name": "Malaria",
+    "cases": "249,000,000",
+    "deaths": "608,000",
+    "regions": "Sub-Saharan Africa, South Asia, Southeast Asia",
+    "lastUpdated": "2025-12-01"
   },
   "previewConfig": {
-    "title": "COVID-19 Global Stats",
-    "subtitle": "Open Disease Data API",
-    "displayFields": [
-      "cases",
-      "deaths",
-      "recovered",
-      "active",
-      "tests",
-      "updated"
-    ]
+    "title": "Display Title",
+    "subtitle": "Open Disease Data",
+    "displayFields": ["name", "cases", "deaths", "regions", "lastUpdated"]
   }
 }

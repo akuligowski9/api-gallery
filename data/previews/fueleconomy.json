@@ -1,0 +1,28 @@
+{
+  "id": "fueleconomy",
+  "previewType": "card",
+  "sampleResponse": {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2025,
+    "city_mpg": 28,
+    "highway_mpg": 39,
+    "combined_mpg": 32,
+    "fuel_type": "Regular Gasoline",
+    "co2_grams_mile": 277
+  },
+  "previewConfig": {
+    "title": "Fuel Economy Rating",
+    "subtitle": "2025 Toyota Camry",
+    "displayFields": [
+      "make",
+      "model",
+      "year",
+      "city_mpg",
+      "highway_mpg",
+      "combined_mpg",
+      "fuel_type",
+      "co2_grams_mile"
+    ]
+  }
+}

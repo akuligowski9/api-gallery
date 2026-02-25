@@ -1,0 +1,24 @@
+{
+  "id": "duckduckgo-instant",
+  "previewType": "card",
+  "sampleResponse": {
+    "heading": "TypeScript (Programming Language)",
+    "abstract": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/TypeScript",
+    "related_topics_count": 8,
+    "answer_type": "article"
+  },
+  "previewConfig": {
+    "title": "Instant Answer",
+    "subtitle": "TypeScript (Programming Language)",
+    "displayFields": [
+      "heading",
+      "abstract",
+      "source",
+      "url",
+      "related_topics_count",
+      "answer_type"
+    ]
+  }
+}

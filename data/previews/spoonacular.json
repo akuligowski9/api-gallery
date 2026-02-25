@@ -2,15 +2,16 @@
   "id": "spoonacular",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Chicken Tikka Masala",
-    "readyInMinutes": 45,
+    "title": "Pasta Primavera",
+    "ready_in_minutes": 30,
     "servings": 4,
-    "healthScore": 68,
-    "pricePerServing": "$3.42"
+    "health_score": 72,
+    "source_url": "https://spoonacular.com/recipes/pasta-primavera-654321",
+    "vegetarian": true
   },
   "previewConfig": {
-    "title": "Chicken Tikka Masala",
-    "subtitle": "Spoonacular Recipe",
-    "displayFields": ["title", "readyInMinutes", "servings", "healthScore", "pricePerServing"]
+    "title": "Pasta Primavera",
+    "subtitle": "Spoonacular",
+    "displayFields": ["title", "ready_in_minutes", "servings", "health_score", "source_url", "vegetarian"]
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "vonage-sms",
+  "previewType": "card",
+  "sampleResponse": {
+    "message_id": "1500000001B1F0CB",
+    "to": "14155550123",
+    "from": "14155550199",
+    "status": "0",
+    "remaining_balance": "12.48600000",
+    "message_price": "0.00570000",
+    "network": "310260"
+  },
+  "previewConfig": {
+    "title": "SMS Sent",
+    "subtitle": "To: +1 (415) 555-0123",
+    "displayFields": [
+      "message_id",
+      "to",
+      "from",
+      "status",
+      "remaining_balance",
+      "message_price",
+      "network"
+    ]
+  }
+}

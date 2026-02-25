@@ -1,0 +1,16 @@
+{
+  "id": "rescuegroups",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Sunny",
+    "species": "Dog",
+    "breed": "Golden Retriever Mix",
+    "age": "2 years",
+    "location": "Austin, TX"
+  },
+  "previewConfig": {
+    "title": "Sunny",
+    "subtitle": "RescueGroups",
+    "displayFields": ["name", "species", "breed", "age", "location"]
+  }
+}

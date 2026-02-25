@@ -1,0 +1,26 @@
+{
+  "id": "okta",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "00u1a2b3c4d5e6f7g8h9",
+    "status": "ACTIVE",
+    "email": "michael.chen@acmecorp.com",
+    "first_name": "Michael",
+    "last_name": "Chen",
+    "created": "2025-06-12T10:30:00.000Z",
+    "last_login": "2026-02-25T08:15:42.000Z"
+  },
+  "previewConfig": {
+    "title": "User",
+    "subtitle": "Michael Chen",
+    "displayFields": [
+      "id",
+      "status",
+      "email",
+      "first_name",
+      "last_name",
+      "created",
+      "last_login"
+    ]
+  }
+}

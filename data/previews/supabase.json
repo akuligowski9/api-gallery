@@ -1,0 +1,24 @@
+{
+  "id": "supabase",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "acme-prod",
+    "region": "us-east-1",
+    "status": "ACTIVE_HEALTHY",
+    "db_size_mb": 342.7,
+    "storage_size_mb": 1284.3,
+    "api_requests_today": 48712
+  },
+  "previewConfig": {
+    "title": "Project Overview",
+    "subtitle": "acme-prod — us-east-1",
+    "displayFields": [
+      "name",
+      "region",
+      "status",
+      "db_size_mb",
+      "storage_size_mb",
+      "api_requests_today"
+    ]
+  }
+}

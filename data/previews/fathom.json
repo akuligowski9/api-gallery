@@ -1,0 +1,24 @@
+{
+  "id": "fathom",
+  "previewType": "card",
+  "sampleResponse": {
+    "site_id": "ABCDEFGH",
+    "pageviews": 53210,
+    "uniques": 18744,
+    "avg_duration_sec": 142,
+    "bounce_rate": 38.7,
+    "top_referrer": "google.com"
+  },
+  "previewConfig": {
+    "title": "Site Stats",
+    "subtitle": "Site ABCDEFGH",
+    "displayFields": [
+      "site_id",
+      "pageviews",
+      "uniques",
+      "avg_duration_sec",
+      "bounce_rate",
+      "top_referrer"
+    ]
+  }
+}

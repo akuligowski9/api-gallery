@@ -1,50 +1,25 @@
 {
   "id": "netlify",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "sites": [
-      {
-        "name": "acme-marketing-site",
-        "url": "https://acme-marketing.netlify.app",
-        "ssl": true,
-        "repo": "github.com/acme/marketing",
-        "last_deploy": "2026-02-25T14:10:00Z"
-      },
-      {
-        "name": "dev-blog",
-        "url": "https://dev-blog-jk.netlify.app",
-        "ssl": true,
-        "repo": "github.com/jkeller/blog",
-        "last_deploy": "2026-02-24T18:45:00Z"
-      },
-      {
-        "name": "recipe-finder",
-        "url": "https://recipe-finder-app.netlify.app",
-        "ssl": true,
-        "repo": "github.com/mchen/recipes",
-        "last_deploy": "2026-02-22T09:30:00Z"
-      },
-      {
-        "name": "portfolio-v3",
-        "url": "https://sarah-portfolio-v3.netlify.app",
-        "ssl": true,
-        "repo": "github.com/sarah-dev/portfolio",
-        "last_deploy": "2026-02-19T21:15:00Z"
-      },
-      {
-        "name": "legacy-docs",
-        "url": "https://legacy-docs-archive.netlify.app",
-        "ssl": false,
-        "repo": "gitlab.com/internal/old-docs",
-        "last_deploy": "2025-12-01T10:00:00Z"
-      }
-    ]
+    "name": "marketing-site",
+    "url": "https://marketing-site.netlify.app",
+    "ssl_enabled": true,
+    "published_deploy": "65f3a2c",
+    "build_minutes_used": 247,
+    "repo": "github.com/acme/marketing-site",
+    "branch": "main"
   },
   "previewConfig": {
-    "title": "Sites",
-    "subtitle": "Netlify API",
-    "itemKey": "name",
-    "secondaryKey": "url",
-    "badgeKey": "ssl"
+    "title": "Site Info",
+    "subtitle": "marketing-site",
+    "displayFields": [
+      "url",
+      "ssl_enabled",
+      "published_deploy",
+      "build_minutes_used",
+      "repo",
+      "branch"
+    ]
   }
 }

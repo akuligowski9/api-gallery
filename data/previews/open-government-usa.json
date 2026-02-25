@@ -1,0 +1,16 @@
+{
+  "id": "open-government-usa",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "College Scorecard",
+    "publisher": "U.S. Department of Education",
+    "format": "CSV",
+    "modified": "2025-06-15",
+    "category": "Education"
+  },
+  "previewConfig": {
+    "title": "Open Dataset",
+    "subtitle": "Open Government USA",
+    "displayFields": ["title", "publisher", "format", "modified", "category"]
+  }
+}

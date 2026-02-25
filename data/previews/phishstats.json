@@ -1,0 +1,16 @@
+{
+  "id": "phishstats",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://secure-login-bankofamerica.phish.example.com/signin",
+    "ip": "104.21.57.132",
+    "score": "9.2",
+    "countryCode": "US",
+    "dateFound": "2025-12-18T09:41:33Z"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "PhishStats",
+    "displayFields": ["url", "ip", "score", "countryCode", "dateFound"]
+  }
+}

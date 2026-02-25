@@ -1,0 +1,16 @@
+{
+  "id": "jiosaavn",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Tum Hi Ho",
+    "artist": "Arijit Singh",
+    "album": "Aashiqui 2",
+    "language": "Hindi",
+    "duration": "261"
+  },
+  "previewConfig": {
+    "title": "Tum Hi Ho",
+    "subtitle": "JioSaavn",
+    "displayFields": ["title", "artist", "album", "language", "duration"]
+  }
+}

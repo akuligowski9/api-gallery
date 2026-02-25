@@ -1,0 +1,26 @@
+{
+  "id": "jenkins",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_name": "deploy-production",
+    "build_number": 482,
+    "result": "SUCCESS",
+    "duration_ms": 134520,
+    "timestamp": "2026-02-25T09:31:07Z",
+    "executor": "agent-linux-04",
+    "url": "https://jenkins.acme.io/job/deploy-production/482/"
+  },
+  "previewConfig": {
+    "title": "Build Details",
+    "subtitle": "deploy-production #482",
+    "displayFields": [
+      "job_name",
+      "build_number",
+      "result",
+      "duration_ms",
+      "timestamp",
+      "executor",
+      "url"
+    ]
+  }
+}

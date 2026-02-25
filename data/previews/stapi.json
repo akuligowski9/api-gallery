@@ -3,22 +3,24 @@
   "previewType": "card",
   "sampleResponse": {
     "name": "Jean-Luc Picard",
-    "gender": "M",
-    "yearOfBirth": 2305,
-    "placeOfBirth": "La Barre, France",
-    "rank": "Captain",
     "species": "Human",
-    "serialNumber": "SP 937-215",
-    "mirror": false
+    "gender": "Male",
+    "birth_year": "2305",
+    "death_year": "2399",
+    "affiliation": "Starfleet",
+    "rank": "Admiral"
   },
   "previewConfig": {
-    "title": "Jean-Luc Picard",
-    "subtitle": "Star Trek — Captain",
+    "title": "Star Trek Character",
+    "subtitle": "Jean-Luc Picard — Starfleet Admiral",
     "displayFields": [
-      "rank",
-      "yearOfBirth",
-      "placeOfBirth",
-      "species"
+      "name",
+      "species",
+      "gender",
+      "birth_year",
+      "death_year",
+      "affiliation",
+      "rank"
     ]
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "uptimerobot",
+  "previewType": "list",
+  "sampleResponse": {
+    "account": "acme-engineering",
+    "total_monitors": 12,
+    "monitors": [
+      {
+        "friendly_name": "Production API",
+        "status": "up",
+        "url": "https://api.acme.com/health",
+        "response_time_ms": 142,
+        "uptime_ratio": 99.98
+      },
+      {
+        "friendly_name": "Staging API",
+        "status": "up",
+        "url": "https://staging-api.acme.com/health",
+        "response_time_ms": 187,
+        "uptime_ratio": 99.72
+      },
+      {
+        "friendly_name": "Marketing Site",
+        "status": "up",
+        "url": "https://www.acme.com",
+        "response_time_ms": 320,
+        "uptime_ratio": 99.95
+      },
+      {
+        "friendly_name": "Admin Dashboard",
+        "status": "down",
+        "url": "https://admin.acme.com",
+        "response_time_ms": 0,
+        "uptime_ratio": 97.41
+      },
+      {
+        "friendly_name": "CDN Origin",
+        "status": "up",
+        "url": "https://origin.cdn.acme.com",
+        "response_time_ms": 89,
+        "uptime_ratio": 99.99
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Monitors",
+    "subtitle": "acme-engineering — 12 total monitors",
+    "itemKey": "friendly_name",
+    "secondaryKey": "url",
+    "badgeKey": "status"
+  }
+}

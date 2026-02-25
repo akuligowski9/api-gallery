@@ -1,0 +1,16 @@
+{
+  "id": "abuseipdb",
+  "previewType": "card",
+  "sampleResponse": {
+    "ipAddress": "185.220.101.34",
+    "abuseConfidenceScore": "100%",
+    "country": "Germany",
+    "isp": "Hetzner Online GmbH",
+    "totalReports": "9,412"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "AbuseIPDB",
+    "displayFields": ["ipAddress", "abuseConfidenceScore", "country", "isp", "totalReports"]
+  }
+}

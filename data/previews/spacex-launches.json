@@ -1,0 +1,52 @@
+{
+  "id": "spacex-launches",
+  "previewType": "list",
+  "sampleResponse": {
+    "company": "SpaceX",
+    "total_launches": 347,
+    "launches": [
+      {
+        "name": "Starlink Group 12-5",
+        "date_utc": "2026-02-20T14:30:00Z",
+        "rocket": "Falcon 9",
+        "success": true,
+        "details": "Batch deployment of 23 Starlink v2 Mini satellites to low Earth orbit from LC-39A."
+      },
+      {
+        "name": "CRS-32",
+        "date_utc": "2026-02-12T09:15:00Z",
+        "rocket": "Falcon 9",
+        "success": true,
+        "details": "32nd Commercial Resupply Services mission carrying supplies to the International Space Station."
+      },
+      {
+        "name": "Starship Flight 14",
+        "date_utc": "2026-01-28T16:00:00Z",
+        "rocket": "Starship",
+        "success": true,
+        "details": "Orbital flight test with full stage separation, booster catch, and ship splashdown in the Indian Ocean."
+      },
+      {
+        "name": "Turksat 6B",
+        "date_utc": "2026-01-15T22:45:00Z",
+        "rocket": "Falcon 9",
+        "success": true,
+        "details": "Geostationary communications satellite launched for Turksat to provide broadband coverage over Turkey."
+      },
+      {
+        "name": "Transporter-13",
+        "date_utc": "2026-01-05T18:20:00Z",
+        "rocket": "Falcon 9",
+        "success": true,
+        "details": "Dedicated rideshare mission carrying 58 small satellites to sun-synchronous orbit from Vandenberg SFB."
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Recent SpaceX Launches",
+    "subtitle": "347 total launches",
+    "itemKey": "name",
+    "secondaryKey": "rocket",
+    "badgeKey": "date_utc"
+  }
+}

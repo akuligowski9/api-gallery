@@ -1,0 +1,16 @@
+{
+  "id": "boston-mbta-transit",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Park Street",
+    "route": "Red Line",
+    "direction": "Southbound",
+    "nextArrival": "2 min",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "MBTA Stop",
+    "subtitle": "Boston MBTA Transit",
+    "displayFields": ["name", "route", "direction", "nextArrival", "status"]
+  }
+}

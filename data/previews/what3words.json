@@ -3,14 +3,24 @@
   "previewType": "card",
   "sampleResponse": {
     "words": "filled.count.soap",
+    "latitude": 51.5208,
+    "longitude": -0.1965,
     "country": "GB",
-    "nearestPlace": "Bayswater, London",
+    "nearest_place": "Bayswater, London",
     "language": "en",
-    "map": "https://w3w.co/filled.count.soap"
+    "map_url": "https://w3w.co/filled.count.soap"
   },
   "previewConfig": {
-    "title": "///filled.count.soap",
-    "subtitle": "What3Words Convert",
-    "displayFields": ["words", "country", "nearestPlace", "language", "map"]
+    "title": "what3words Lookup",
+    "subtitle": "///filled.count.soap — Bayswater, London",
+    "displayFields": [
+      "words",
+      "latitude",
+      "longitude",
+      "country",
+      "nearest_place",
+      "language",
+      "map_url"
+    ]
   }
 }

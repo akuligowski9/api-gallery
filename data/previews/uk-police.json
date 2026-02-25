@@ -1,0 +1,20 @@
+{
+  "id": "uk-police",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Anti-social behaviour", "secondary": "Westminster, London", "badge": "2025-01" },
+      { "title": "Burglary", "secondary": "Camden, London", "badge": "2025-01" },
+      { "title": "Vehicle crime", "secondary": "Southwark, London", "badge": "2024-12" },
+      { "title": "Shoplifting", "secondary": "Hackney, London", "badge": "2024-12" },
+      { "title": "Robbery", "secondary": "Lambeth, London", "badge": "2024-11" }
+    ]
+  },
+  "previewConfig": {
+    "title": "UK Police",
+    "subtitle": "Recent Crime Reports in London",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

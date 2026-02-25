@@ -1,0 +1,16 @@
+{
+  "id": "oxford",
+  "previewType": "card",
+  "sampleResponse": {
+    "word": "resilience",
+    "partOfSpeech": "noun",
+    "definition": "The capacity to withstand or recover quickly from difficulties; toughness",
+    "pronunciation": "/rɪˈzɪlɪəns/",
+    "origin": "Early 17th century, from Latin resilire 'to leap back'"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Oxford Dictionary",
+    "displayFields": ["word", "partOfSpeech", "definition", "pronunciation", "origin"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "harvard-art-museums",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Self-Portrait Dedicated to Paul Gauguin",
+    "artist": "Vincent van Gogh",
+    "date": "1888",
+    "classification": "Paintings",
+    "culture": "Dutch"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Harvard Art Museums",
+    "displayFields": ["title", "artist", "date", "classification", "culture"]
+  }
+}

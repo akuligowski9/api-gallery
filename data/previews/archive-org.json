@@ -2,15 +2,25 @@
   "id": "archive-org",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Great Gatsby",
-    "creator": "F. Scott Fitzgerald",
-    "mediaType": "texts",
-    "year": "1925",
-    "downloads": "2,847,312"
+    "identifier": "principia_mathematica",
+    "title": "Principia Mathematica",
+    "mediatype": "texts",
+    "creator": "Isaac Newton",
+    "date": "1687",
+    "downloads": 284510,
+    "collection": "opensource"
   },
   "previewConfig": {
-    "title": "The Great Gatsby",
-    "subtitle": "Internet Archive",
-    "displayFields": ["title", "creator", "mediaType", "year", "downloads"]
+    "title": "Archive.org Item",
+    "subtitle": "Principia Mathematica — texts",
+    "displayFields": [
+      "identifier",
+      "title",
+      "mediatype",
+      "creator",
+      "date",
+      "downloads",
+      "collection"
+    ]
   }
 }

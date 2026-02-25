@@ -1,0 +1,25 @@
+{
+  "id": "heroku",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "acme-dashboard",
+    "stack": "heroku-24",
+    "region": "us",
+    "dynos": 3,
+    "slug_size_mb": 42,
+    "created_at": "2025-06-14T09:22:10Z",
+    "web_url": "https://acme-dashboard.herokuapp.com"
+  },
+  "previewConfig": {
+    "title": "Heroku App",
+    "subtitle": "acme-dashboard",
+    "displayFields": [
+      "stack",
+      "region",
+      "dynos",
+      "slug_size_mb",
+      "created_at",
+      "web_url"
+    ]
+  }
+}
