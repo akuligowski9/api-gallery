@@ -1,0 +1,26 @@
+{
+  "id": "coingecko",
+  "previewType": "chart",
+  "sampleResponse": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "current_price": 67100,
+    "price_change_percentage_24h": 1.98,
+    "prices": [
+      { "label": "Mon", "value": 64250 },
+      { "label": "Tue", "value": 63800 },
+      { "label": "Wed", "value": 65100 },
+      { "label": "Thu", "value": 64900 },
+      { "label": "Fri", "value": 66200 },
+      { "label": "Sat", "value": 65800 },
+      { "label": "Sun", "value": 67100 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Bitcoin (BTC)",
+    "subtitle": "$67,100",
+    "chartType": "line",
+    "chartDataKey": "value",
+    "chartLabelKey": "label"
+  }
+}

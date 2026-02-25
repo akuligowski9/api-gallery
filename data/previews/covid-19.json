@@ -1,0 +1,25 @@
+{
+  "id": "covid-19",
+  "previewType": "chart",
+  "sampleResponse": {
+    "total_cases": 704753890,
+    "total_deaths": 7010681,
+    "total_recovered": 675619811,
+    "weekly_trend": [
+      { "label": "Mon", "value": 12500 },
+      { "label": "Tue", "value": 11800 },
+      { "label": "Wed", "value": 13200 },
+      { "label": "Thu", "value": 12900 },
+      { "label": "Fri", "value": 11500 },
+      { "label": "Sat", "value": 10800 },
+      { "label": "Sun", "value": 9200 }
+    ]
+  },
+  "previewConfig": {
+    "title": "COVID-19 Global",
+    "subtitle": "Weekly Trend",
+    "chartType": "line",
+    "chartDataKey": "value",
+    "chartLabelKey": "label"
+  }
+}

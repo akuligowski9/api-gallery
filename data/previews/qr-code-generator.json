@@ -1,0 +1,15 @@
+{
+  "id": "qr-code-generator",
+  "previewType": "media",
+  "sampleResponse": {
+    "data": "https://api-explorer.dev",
+    "url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://api-explorer.dev",
+    "size": "200x200",
+    "format": "png"
+  },
+  "previewConfig": {
+    "title": "QR Code Generator",
+    "subtitle": "api-explorer.dev",
+    "imageKey": "url"
+  }
+}

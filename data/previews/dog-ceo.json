@@ -1,0 +1,14 @@
+{
+  "id": "dog-ceo",
+  "previewType": "media",
+  "sampleResponse": {
+    "message": "https://images.dog.ceo/breeds/retriever-golden/n02099601_1.jpg",
+    "status": "success",
+    "breed": "Golden Retriever"
+  },
+  "previewConfig": {
+    "title": "Random Dog",
+    "subtitle": "Golden Retriever",
+    "imageKey": "message"
+  }
+}

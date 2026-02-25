@@ -1,0 +1,25 @@
+{
+  "id": "open-food-facts",
+  "previewType": "card",
+  "sampleResponse": {
+    "product": {
+      "product_name": "Nutella",
+      "brands": "Ferrero",
+      "categories": "Spreads, Chocolate spreads",
+      "nutriscore_grade": "e",
+      "nutriments": {
+        "energy_kcal_100g": 539,
+        "fat_100g": 30.9,
+        "sugars_100g": 56.3,
+        "proteins_100g": 6.3
+      },
+      "image_url": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_fr.3.400.jpg"
+    }
+  },
+  "previewConfig": {
+    "title": "Food Product",
+    "subtitle": "Nutella — Ferrero",
+    "displayFields": ["nutriscore_grade", "energy_kcal_100g", "sugars_100g", "proteins_100g"],
+    "imageKey": "product.image_url"
+  }
+}

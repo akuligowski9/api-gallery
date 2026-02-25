@@ -1,0 +1,23 @@
+{
+  "id": "exchangerate-api",
+  "previewType": "chart",
+  "sampleResponse": {
+    "base": "USD",
+    "date": "2024-03-15",
+    "rates": [
+      { "label": "EUR", "value": 0.92 },
+      { "label": "GBP", "value": 0.79 },
+      { "label": "JPY", "value": 149.2 },
+      { "label": "CAD", "value": 1.35 },
+      { "label": "AUD", "value": 1.53 },
+      { "label": "CHF", "value": 0.88 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Exchange Rates",
+    "subtitle": "1 USD =",
+    "chartType": "bar",
+    "chartDataKey": "value",
+    "chartLabelKey": "label"
+  }
+}

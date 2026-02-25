@@ -1,0 +1,24 @@
+{
+  "id": "ip-api",
+  "previewType": "map",
+  "sampleResponse": {
+    "query": "24.48.0.1",
+    "status": "success",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "QC",
+    "regionName": "Quebec",
+    "city": "Montreal",
+    "zip": "H1A",
+    "lat": 45.6085,
+    "lon": -73.5493,
+    "timezone": "America/Toronto",
+    "isp": "Le Groupe Videotron",
+    "org": "Videotron Ltee"
+  },
+  "previewConfig": {
+    "title": "IP Geolocation",
+    "subtitle": "Montreal, Canada",
+    "displayFields": ["country", "city", "lat", "lon", "isp", "timezone"]
+  }
+}

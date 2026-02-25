@@ -1,0 +1,54 @@
+{
+  "id": "hackernews",
+  "previewType": "list",
+  "sampleResponse": {
+    "stories": [
+      {
+        "title": "Show HN: I built a visual API explorer",
+        "url": "https://api-explorer.dev",
+        "score": 342,
+        "by": "devuser",
+        "time": 1710500000
+      },
+      {
+        "title": "Why SQLite is so great for embedded systems",
+        "url": null,
+        "score": 287,
+        "by": "dbfan",
+        "time": 1710496000
+      },
+      {
+        "title": "Rust just hit 1.0 for async traits",
+        "url": null,
+        "score": 256,
+        "by": "rustlover",
+        "time": 1710492000
+      },
+      {
+        "title": "The state of WebAssembly in 2024",
+        "url": null,
+        "score": 198,
+        "by": "wasmguru",
+        "time": 1710488000
+      },
+      {
+        "title": "Open source alternatives to every SaaS",
+        "url": null,
+        "score": 445,
+        "by": "ossking",
+        "time": 1710484000
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Top Stories",
+    "subtitle": "Hacker News",
+    "items": [
+      { "title": "Show HN: I built a visual API explorer", "score": 342, "by": "devuser" },
+      { "title": "Why SQLite is so great for embedded systems", "score": 287, "by": "dbfan" },
+      { "title": "Rust just hit 1.0 for async traits", "score": 256, "by": "rustlover" },
+      { "title": "The state of WebAssembly in 2024", "score": 198, "by": "wasmguru" },
+      { "title": "Open source alternatives to every SaaS", "score": 445, "by": "ossking" }
+    ]
+  }
+}

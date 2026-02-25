@@ -1,0 +1,24 @@
+{
+  "id": "unsplash",
+  "previewType": "media",
+  "sampleResponse": {
+    "id": "abc123",
+    "urls": {
+      "regular": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1080",
+      "small": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400"
+    },
+    "alt_description": "green grass field near mountain during daytime",
+    "user": {
+      "name": "Bailey Zindel",
+      "username": "baileyzindel"
+    },
+    "likes": 4521,
+    "width": 5184,
+    "height": 3456
+  },
+  "previewConfig": {
+    "title": "Random Photo",
+    "subtitle": "by Bailey Zindel",
+    "imageKey": "urls.regular"
+  }
+}

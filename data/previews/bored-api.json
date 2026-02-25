@@ -1,0 +1,18 @@
+{
+  "id": "bored-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "activity": "Learn how to play a new instrument",
+    "type": "recreational",
+    "participants": 1,
+    "price": 0.1,
+    "link": "",
+    "key": "7099705",
+    "accessibility": 0.1
+  },
+  "previewConfig": {
+    "title": "Random Activity",
+    "subtitle": "Recreational",
+    "displayFields": ["activity", "type", "participants", "price"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "http-cat",
+  "previewType": "media",
+  "sampleResponse": {
+    "statusCode": 404,
+    "message": "Not Found",
+    "url": "https://http.cat/404.jpg"
+  },
+  "previewConfig": {
+    "title": "HTTP Status Cats",
+    "subtitle": "404 — Not Found",
+    "imageKey": "url"
+  }
+}

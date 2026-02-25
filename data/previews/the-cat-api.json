@@ -1,0 +1,22 @@
+{
+  "id": "the-cat-api",
+  "previewType": "media",
+  "sampleResponse": {
+    "id": "abc",
+    "url": "https://cdn2.thecatapi.com/images/MTk4ODA3MA.jpg",
+    "width": 1024,
+    "height": 683,
+    "breeds": [
+      {
+        "name": "British Shorthair",
+        "temperament": "Affectionate, Easy Going, Gentle",
+        "origin": "United Kingdom"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Random Cat",
+    "subtitle": "British Shorthair",
+    "imageKey": "url"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nasa",
+  "previewType": "media",
+  "sampleResponse": {
+    "title": "Perseverance's Selfie with Ingenuity",
+    "date": "2024-04-15",
+    "explanation": "NASA's Perseverance rover took this selfie with the Ingenuity helicopter on the surface of Mars. The image was stitched together from multiple frames taken by the WATSON camera on the rover's robotic arm.",
+    "url": "https://apod.nasa.gov/apod/image/2404/PIA25969_1024.jpg",
+    "media_type": "image",
+    "hdurl": "https://apod.nasa.gov/apod/image/2404/PIA25969.jpg"
+  },
+  "previewConfig": {
+    "title": "Astronomy Picture of the Day",
+    "subtitle": "Perseverance's Selfie with Ingenuity",
+    "imageKey": "url"
+  }
+}

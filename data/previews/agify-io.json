@@ -1,0 +1,14 @@
+{
+  "id": "agify-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "count": 123456,
+    "name": "michael",
+    "age": 62
+  },
+  "previewConfig": {
+    "title": "Age Prediction",
+    "subtitle": "michael → 62 years",
+    "displayFields": ["name", "age", "count"]
+  }
+}

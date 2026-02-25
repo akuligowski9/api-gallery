@@ -1,0 +1,21 @@
+{
+  "id": "spacex",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Starlink Group 6-42",
+    "date_utc": "2024-03-15T10:30:00Z",
+    "success": true,
+    "rocket": "Falcon 9",
+    "details": "Successfully deployed 23 Starlink satellites",
+    "links": {
+      "patch": {
+        "small": "https://images2.imgbox.com/eb/0f/Vev7LLNj_o.png"
+      }
+    }
+  },
+  "previewConfig": {
+    "title": "Latest Launch",
+    "subtitle": "Starlink Group 6-42",
+    "displayFields": ["rocket", "date_utc", "success"]
+  }
+}

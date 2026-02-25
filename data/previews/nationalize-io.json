@@ -1,0 +1,22 @@
+{
+  "id": "nationalize-io",
+  "previewType": "chart",
+  "sampleResponse": {
+    "count": 1,
+    "name": "michael",
+    "country": [
+      { "country_id": "US", "probability": 0.089 },
+      { "country_id": "AU", "probability": 0.075 },
+      { "country_id": "GB", "probability": 0.061 },
+      { "country_id": "IE", "probability": 0.047 },
+      { "country_id": "NZ", "probability": 0.039 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Name Nationality",
+    "subtitle": "michael",
+    "chartType": "bar",
+    "chartDataKey": "probability",
+    "chartLabelKey": "country_id"
+  }
+}

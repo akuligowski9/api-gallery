@@ -1,0 +1,21 @@
+{
+  "id": "open-meteo",
+  "previewType": "weather",
+  "sampleResponse": {
+    "temperature": 24.1,
+    "humidity": 72,
+    "windspeed": 12,
+    "windspeed_unit": "km/h",
+    "temperature_unit": "°C",
+    "weathercode": 1,
+    "weathercode_description": "Mainly clear",
+    "forecast": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "temperatures": [24, 22, 21, 23, 25, 24, 22]
+    }
+  },
+  "previewConfig": {
+    "title": "Lima, Peru",
+    "displayFields": ["temperature", "humidity", "windspeed"]
+  }
+}

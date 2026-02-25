@@ -1,0 +1,22 @@
+{
+  "id": "jokeapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "Why do programmers prefer dark mode?",
+    "delivery": "Because light attracts bugs.",
+    "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false
+    },
+    "id": 232,
+    "lang": "en"
+  },
+  "previewConfig": {
+    "title": "Random Joke",
+    "subtitle": "Programming",
+    "displayFields": ["category", "type"]
+  }
+}
