@@ -1,0 +1,20 @@
+{
+  "id": "adzuna",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Frontend Engineer", "secondary": "Stripe · San Francisco, CA", "badge": 185000 },
+      { "title": "ML Platform Engineer", "secondary": "Databricks · Seattle, WA", "badge": 210000 },
+      { "title": "Staff Backend Developer", "secondary": "Shopify · Remote", "badge": 195000 },
+      { "title": "DevOps Lead", "secondary": "Cloudflare · Austin, TX", "badge": 175000 },
+      { "title": "Full Stack Engineer", "secondary": "Vercel · New York, NY", "badge": 165000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Adzuna",
+    "subtitle": "Top job listings by salary",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

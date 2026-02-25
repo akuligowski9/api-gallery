@@ -1,20 +1,20 @@
 {
   "id": "pandascore",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "id": 784521,
-    "name": "T1 vs Gen.G",
-    "tournament": "LCK Spring 2026",
-    "videogame": "League of Legends",
-    "status": "finished",
-    "winner": "T1",
-    "number_of_games": 5,
-    "begin_at": "2026-02-22T10:00:00Z",
-    "streams_list": "Twitch, YouTube"
+    "items": [
+      { "title": "T1 vs Gen.G", "secondary": "League of Legends — LCK", "badge": "Live" },
+      { "title": "Navi vs FaZe", "secondary": "CS2 — IEM Katowice", "badge": "2-1" },
+      { "title": "Cloud9 vs 100T", "secondary": "Valorant — VCT Americas", "badge": "13-9" },
+      { "title": "Team Liquid vs G2", "secondary": "Dota 2 — ESL One", "badge": "1-0" },
+      { "title": "Fnatic vs Vitality", "secondary": "League of Legends — LEC", "badge": "3pm" }
+    ]
   },
   "previewConfig": {
-    "title": "T1 vs Gen.G",
-    "subtitle": "PandaScore — Esports",
-    "displayFields": ["tournament", "videogame", "status", "winner", "number_of_games"]
+    "title": "PandaScore",
+    "subtitle": "Recent esports matches",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

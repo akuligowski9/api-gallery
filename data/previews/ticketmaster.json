@@ -1,18 +1,16 @@
 {
   "id": "ticketmaster",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "events": [
-      {"name": "Taylor Swift | The Eras Tour", "type": "Music", "venue": "SoFi Stadium"}
-    ]
+    "name": "Taylor Swift | The Eras Tour",
+    "venue": "SoFi Stadium, Los Angeles",
+    "date": "2026-08-15",
+    "priceRange": "$89 - $449",
+    "status": "On Sale"
   },
   "previewConfig": {
-    "title": "Upcoming Events",
-    "items": [
-      {"name": "Taylor Swift | The Eras Tour", "region": "Los Angeles"},
-      {"name": "NBA Finals 2024", "region": "Boston"},
-      {"name": "Hamilton", "region": "New York"},
-      {"name": "Beyoncé | Renaissance Tour", "region": "London"}
-    ]
+    "title": "Upcoming Event",
+    "subtitle": "Ticketmaster",
+    "displayFields": ["name", "venue", "date", "priceRange", "status"]
   }
 }

@@ -1,60 +1,16 @@
 {
   "id": "github",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "total_count": 5,
-    "items": [
-      {
-        "name": "next.js",
-        "full_name": "vercel/next.js",
-        "description": "The React Framework",
-        "stargazers_count": 120000,
-        "language": "JavaScript",
-        "html_url": "https://github.com/vercel/next.js"
-      },
-      {
-        "name": "react",
-        "full_name": "facebook/react",
-        "description": "A JavaScript library for building UIs",
-        "stargazers_count": 220000,
-        "language": "JavaScript",
-        "html_url": "https://github.com/facebook/react"
-      },
-      {
-        "name": "tensorflow",
-        "full_name": "tensorflow/tensorflow",
-        "description": "An open-source ML framework",
-        "stargazers_count": 180000,
-        "language": "C++",
-        "html_url": "https://github.com/tensorflow/tensorflow"
-      },
-      {
-        "name": "vue",
-        "full_name": "vuejs/vue",
-        "description": "A progressive JavaScript framework",
-        "stargazers_count": 206000,
-        "language": "JavaScript",
-        "html_url": "https://github.com/vuejs/vue"
-      },
-      {
-        "name": "rust",
-        "full_name": "rust-lang/rust",
-        "description": "The Rust programming language",
-        "stargazers_count": 90000,
-        "language": "Rust",
-        "html_url": "https://github.com/rust-lang/rust"
-      }
-    ]
+    "name": "freeCodeCamp",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum",
+    "stars": "403,291",
+    "language": "TypeScript",
+    "license": "BSD-3-Clause"
   },
   "previewConfig": {
-    "title": "Trending Repositories",
-    "subtitle": "Most Starred",
-    "items": [
-      { "name": "next.js", "stars": 120000, "language": "JavaScript" },
-      { "name": "react", "stars": 220000, "language": "JavaScript" },
-      { "name": "tensorflow", "stars": 180000, "language": "C++" },
-      { "name": "vue", "stars": 206000, "language": "JavaScript" },
-      { "name": "rust", "stars": 90000, "language": "Rust" }
-    ]
+    "title": "freeCodeCamp",
+    "subtitle": "GitHub",
+    "displayFields": ["name", "description", "stars", "language", "license"]
   }
 }

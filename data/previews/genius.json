@@ -1,0 +1,16 @@
+{
+  "id": "genius",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "release_date": "1975-10-31",
+    "annotation_count": "87"
+  },
+  "previewConfig": {
+    "title": "Bohemian Rhapsody",
+    "subtitle": "Genius",
+    "displayFields": ["title", "artist", "album", "release_date", "annotation_count"]
+  }
+}

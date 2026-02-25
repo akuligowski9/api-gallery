@@ -1,0 +1,16 @@
+{
+  "id": "board-game-geek",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Gloomhaven",
+    "year_published": 2017,
+    "min_players": 1,
+    "max_players": 4,
+    "average_rating": 8.47
+  },
+  "previewConfig": {
+    "title": "Gloomhaven",
+    "subtitle": "BoardGameGeek",
+    "displayFields": ["name", "year_published", "min_players", "max_players", "average_rating"]
+  }
+}

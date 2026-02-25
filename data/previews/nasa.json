@@ -1,17 +1,16 @@
 {
   "id": "nasa",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "title": "Perseverance's Selfie with Ingenuity",
-    "date": "2024-04-15",
-    "explanation": "NASA's Perseverance rover took this selfie with the Ingenuity helicopter on the surface of Mars. The image was stitched together from multiple frames taken by the WATSON camera on the rover's robotic arm.",
-    "url": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~medium.jpg",
-    "media_type": "image",
-    "hdurl": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~orig.jpg"
+    "title": "The Horsehead Nebula in Infrared",
+    "date": "2026-02-25",
+    "explanation": "One of the most identifiable nebulae in the sky, the Horsehead Nebula in Orion, appears dark against a backdrop of emission nebula gas.",
+    "mediaType": "image",
+    "copyright": "NASA, ESA, and the Hubble Heritage Team"
   },
   "previewConfig": {
     "title": "Astronomy Picture of the Day",
-    "subtitle": "Perseverance's Selfie with Ingenuity",
-    "imageKey": "url"
+    "subtitle": "NASA APOD",
+    "displayFields": ["title", "date", "explanation", "mediaType", "copyright"]
   }
 }

@@ -2,21 +2,15 @@
   "id": "stripe",
   "previewType": "card",
   "sampleResponse": {
-    "id": "pi_3Qs2aFJ9x8KvLm0z",
-    "amount": 4999,
+    "id": "ch_3PkFnR2eZvKYlo2C",
+    "amount": 2499,
     "currency": "usd",
     "status": "succeeded",
-    "payment_method": "card_visa_4242"
+    "description": "Payment for Order #1042"
   },
   "previewConfig": {
-    "title": "Stripe",
-    "subtitle": "Payment processing and billing platform",
-    "displayFields": [
-      "id",
-      "amount",
-      "currency",
-      "status",
-      "payment_method"
-    ]
+    "title": "Charge Object",
+    "subtitle": "Stripe",
+    "displayFields": ["id", "amount", "currency", "status", "description"]
   }
 }

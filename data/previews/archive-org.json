@@ -1,18 +1,16 @@
 {
   "id": "archive-org",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      {"identifier": "principia_mathematica", "title": "Principia Mathematica", "creator": "Isaac Newton"}
-    ]
+    "title": "The Great Gatsby",
+    "creator": "F. Scott Fitzgerald",
+    "mediaType": "texts",
+    "year": "1925",
+    "downloads": "2,847,312"
   },
   "previewConfig": {
-    "title": "Internet Archive",
-    "items": [
-      {"title": "Principia Mathematica", "author": "Isaac Newton", "score": 245831},
-      {"title": "Alice's Adventures in Wonderland", "author": "Lewis Carroll", "score": 198234},
-      {"title": "The Art of War", "author": "Sun Tzu", "score": 176543},
-      {"title": "On the Origin of Species", "author": "Charles Darwin", "score": 154329}
-    ]
+    "title": "The Great Gatsby",
+    "subtitle": "Internet Archive",
+    "displayFields": ["title", "creator", "mediaType", "year", "downloads"]
   }
 }

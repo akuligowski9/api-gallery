@@ -1,0 +1,16 @@
+{
+  "id": "plaid",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Uber Eats",
+    "amount": 23.45,
+    "date": "2025-12-14",
+    "category": "Food and Drink",
+    "account": "Checking ••1482"
+  },
+  "previewConfig": {
+    "title": "Bank Transaction",
+    "subtitle": "Plaid",
+    "displayFields": ["name", "amount", "date", "category", "account"]
+  }
+}

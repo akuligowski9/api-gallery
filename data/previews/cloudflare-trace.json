@@ -1,0 +1,16 @@
+{
+  "id": "cloudflare-trace",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "203.0.113.42",
+    "location": "SJC",
+    "tls": "TLSv1.3",
+    "httpProtocol": "HTTP/2",
+    "country": "US"
+  },
+  "previewConfig": {
+    "title": "Connection Trace",
+    "subtitle": "Cloudflare Trace",
+    "displayFields": ["ip", "location", "tls", "httpProtocol", "country"]
+  }
+}

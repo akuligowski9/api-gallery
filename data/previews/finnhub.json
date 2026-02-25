@@ -1,0 +1,16 @@
+{
+  "id": "finnhub",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "AAPL",
+    "current_price": 241.84,
+    "change": "+3.52",
+    "percent_change": "+1.48%",
+    "high": 243.12
+  },
+  "previewConfig": {
+    "title": "AAPL Stock Quote",
+    "subtitle": "Finnhub",
+    "displayFields": ["symbol", "current_price", "change", "percent_change", "high"]
+  }
+}

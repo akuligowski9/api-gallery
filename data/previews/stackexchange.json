@@ -1,0 +1,20 @@
+{
+  "id": "stackexchange",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Why is processing a sorted array faster than unsorted?", "secondary": "java, performance", "badge": 27891 },
+      { "title": "How do JavaScript closures work?", "secondary": "javascript, closures", "badge": 18453 },
+      { "title": "What is the difference between POST and PUT?", "secondary": "http, rest", "badge": 14207 },
+      { "title": "How to undo the most recent local commits in Git?", "secondary": "git, version-control", "badge": 31024 },
+      { "title": "What does the yield keyword do in Python?", "secondary": "python, generators", "badge": 16738 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Stack Exchange",
+    "subtitle": "Top voted questions",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

@@ -2,15 +2,15 @@
   "id": "twitch",
   "previewType": "card",
   "sampleResponse": {
-    "user_name": "shroud",
-    "game_name": "Valorant",
-    "title": "Ranked grind to Radiant | !drops",
-    "viewer_count": 48291,
-    "started_at": "2026-02-25T14:00:00Z"
+    "streamer": "Kai Cenat",
+    "game": "Grand Theft Auto VI",
+    "viewers": "185,400",
+    "language": "English",
+    "streamTitle": "FIRST PLAYTHROUGH!! GTA 6 LAUNCH DAY"
   },
   "previewConfig": {
-    "title": "Twitch API",
-    "subtitle": "Stream object",
-    "displayFields": ["user_name", "game_name", "title", "viewer_count", "started_at"]
+    "title": "Top Stream",
+    "subtitle": "Twitch",
+    "displayFields": ["streamer", "game", "viewers", "language", "streamTitle"]
   }
 }

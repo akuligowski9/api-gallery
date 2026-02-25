@@ -2,53 +2,19 @@
   "id": "hackernews",
   "previewType": "list",
   "sampleResponse": {
-    "stories": [
-      {
-        "title": "Show HN: I built a visual API explorer",
-        "url": "https://api-explorer.dev",
-        "score": 342,
-        "by": "devuser",
-        "time": 1710500000
-      },
-      {
-        "title": "Why SQLite is so great for embedded systems",
-        "url": null,
-        "score": 287,
-        "by": "dbfan",
-        "time": 1710496000
-      },
-      {
-        "title": "Rust just hit 1.0 for async traits",
-        "url": null,
-        "score": 256,
-        "by": "rustlover",
-        "time": 1710492000
-      },
-      {
-        "title": "The state of WebAssembly in 2024",
-        "url": null,
-        "score": 198,
-        "by": "wasmguru",
-        "time": 1710488000
-      },
-      {
-        "title": "Open source alternatives to every SaaS",
-        "url": null,
-        "score": 445,
-        "by": "ossking",
-        "time": 1710484000
-      }
+    "items": [
+      { "title": "Show HN: I built a CPU from scratch using only NAND gates", "secondary": "engineerdave", "badge": 891 },
+      { "title": "SQLite is the only database you will ever need", "secondary": "databasefan", "badge": 743 },
+      { "title": "Why we moved from Kubernetes back to bare metal", "secondary": "infrateam", "badge": 612 },
+      { "title": "The unreasonable effectiveness of plain text", "secondary": "minimalist_dev", "badge": 487 },
+      { "title": "A visual guide to memory allocation in Rust", "secondary": "rustacean42", "badge": 354 }
     ]
   },
   "previewConfig": {
-    "title": "Top Stories",
-    "subtitle": "Hacker News",
-    "items": [
-      { "title": "Show HN: I built a visual API explorer", "score": 342, "by": "devuser" },
-      { "title": "Why SQLite is so great for embedded systems", "score": 287, "by": "dbfan" },
-      { "title": "Rust just hit 1.0 for async traits", "score": 256, "by": "rustlover" },
-      { "title": "The state of WebAssembly in 2024", "score": 198, "by": "wasmguru" },
-      { "title": "Open source alternatives to every SaaS", "score": 445, "by": "ossking" }
-    ]
+    "title": "Hacker News",
+    "subtitle": "Top stories by points",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

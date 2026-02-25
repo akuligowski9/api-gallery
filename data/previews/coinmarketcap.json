@@ -1,22 +1,20 @@
 {
   "id": "coinmarketcap",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "name": "Ethereum",
-    "symbol": "ETH",
-    "price": 3241.87,
-    "percent_change_24h": -0.92,
-    "market_cap": 389742000000
+    "items": [
+      { "title": "Bitcoin (BTC)", "secondary": "$97,482.31", "badge": 1 },
+      { "title": "Ethereum (ETH)", "secondary": "$3,841.17", "badge": 2 },
+      { "title": "Tether (USDT)", "secondary": "$1.00", "badge": 3 },
+      { "title": "BNB (BNB)", "secondary": "$712.54", "badge": 4 },
+      { "title": "Solana (SOL)", "secondary": "$196.83", "badge": 5 }
+    ]
   },
   "previewConfig": {
     "title": "CoinMarketCap",
-    "subtitle": "Cryptocurrency market capitalizations and data",
-    "displayFields": [
-      "name",
-      "symbol",
-      "price",
-      "percent_change_24h",
-      "market_cap"
-    ]
+    "subtitle": "Top cryptocurrencies by market cap",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

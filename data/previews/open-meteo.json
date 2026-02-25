@@ -1,21 +1,16 @@
 {
   "id": "open-meteo",
-  "previewType": "weather",
+  "previewType": "card",
   "sampleResponse": {
-    "temperature": 24.1,
-    "humidity": 72,
-    "windspeed": 12,
-    "windspeed_unit": "km/h",
-    "temperature_unit": "°C",
-    "weathercode": 1,
-    "weathercode_description": "Mainly clear",
-    "forecast": {
-      "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-      "temperatures": [24, 22, 21, 23, 25, 24, 22]
-    }
+    "location": "Tokyo, Japan",
+    "temperature": "71F (22C)",
+    "weatherCode": "Clear Sky",
+    "windSpeed": "8 mph NE",
+    "pressure": "1013 hPa"
   },
   "previewConfig": {
-    "title": "Lima, Peru",
-    "displayFields": ["temperature", "humidity", "windspeed"]
+    "title": "Tokyo Weather",
+    "subtitle": "Open-Meteo",
+    "displayFields": ["location", "temperature", "weatherCode", "windSpeed", "pressure"]
   }
 }

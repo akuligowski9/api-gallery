@@ -2,28 +2,15 @@
   "id": "balldontlie",
   "previewType": "card",
   "sampleResponse": {
-    "id": 237,
-    "first_name": "LeBron",
-    "last_name": "James",
-    "position": "F",
-    "height": "6-9",
-    "weight": "250",
-    "jersey_number": "23",
-    "team": {
-      "full_name": "Los Angeles Lakers",
-      "abbreviation": "LAL",
-      "conference": "West",
-      "division": "Pacific"
-    }
+    "player": "Nikola Jokic",
+    "team": "Denver Nuggets",
+    "pointsPerGame": "26.4",
+    "reboundsPerGame": "12.4",
+    "assistsPerGame": "9.0"
   },
   "previewConfig": {
-    "title": "LeBron James",
-    "subtitle": "Los Angeles Lakers",
-    "displayFields": [
-      "position",
-      "height",
-      "weight",
-      "jersey_number"
-    ]
+    "title": "Nikola Jokic",
+    "subtitle": "balldontlie",
+    "displayFields": ["player", "team", "pointsPerGame", "reboundsPerGame", "assistsPerGame"]
   }
 }

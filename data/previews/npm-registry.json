@@ -2,28 +2,15 @@
   "id": "npm-registry",
   "previewType": "card",
   "sampleResponse": {
-    "name": "next",
-    "description": "The React Framework",
-    "dist-tags": {
-      "latest": "15.3.1"
-    },
-    "license": "MIT",
-    "homepage": "https://nextjs.org",
-    "repository": {
-      "url": "https://github.com/vercel/next.js"
-    },
-    "maintainers": [
-      {
-        "name": "vercel-release-bot"
-      }
-    ]
+    "name": "express",
+    "version": "4.21.2",
+    "description": "Fast, unopinionated, minimalist web framework",
+    "weeklyDownloads": "34,127,550",
+    "license": "MIT"
   },
   "previewConfig": {
-    "title": "next",
+    "title": "express",
     "subtitle": "npm Registry",
-    "displayFields": [
-      "description",
-      "license"
-    ]
+    "displayFields": ["name", "version", "description", "weeklyDownloads", "license"]
   }
 }

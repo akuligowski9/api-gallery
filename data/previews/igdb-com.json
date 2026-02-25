@@ -2,18 +2,15 @@
   "id": "igdb-com",
   "previewType": "card",
   "sampleResponse": {
-    "id": 1942,
-    "name": "The Witcher 3: Wild Hunt",
-    "summary": "An open-world RPG set in a visually stunning fantasy universe full of meaningful choices",
-    "rating": 92.4,
-    "total_rating_count": 4580,
-    "first_release_date": "2015-05-19",
-    "genres": "RPG, Adventure",
-    "platforms": "PC, PS5, Xbox Series X, Switch"
+    "name": "Red Dead Redemption 2",
+    "rating": "92.4",
+    "first_release_date": "2018-10-26",
+    "platform": "PC, PS4, Xbox One",
+    "genre": "Adventure, Shooter"
   },
   "previewConfig": {
-    "title": "The Witcher 3: Wild Hunt",
-    "subtitle": "IGDB Game Database",
-    "displayFields": ["summary", "rating", "total_rating_count", "genres", "platforms"]
+    "title": "Red Dead Redemption 2",
+    "subtitle": "IGDB",
+    "displayFields": ["name", "rating", "first_release_date", "platform", "genre"]
   }
 }

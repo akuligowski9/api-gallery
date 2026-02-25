@@ -2,41 +2,15 @@
   "id": "weatherapi",
   "previewType": "card",
   "sampleResponse": {
-    "location": {
-      "name": "Sydney",
-      "region": "New South Wales",
-      "country": "Australia",
-      "lat": -33.88,
-      "lon": 151.22,
-      "localtime": "2025-01-18 14:45"
-    },
-    "current": {
-      "temp_c": 27.3,
-      "temp_f": 81.1,
-      "is_day": 1,
-      "condition": {
-        "text": "Sunny",
-        "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
-        "code": 1000
-      },
-      "wind_kph": 19.4,
-      "wind_dir": "NE",
-      "pressure_mb": 1018,
-      "humidity": 55,
-      "feelslike_c": 28.1,
-      "uv": 8,
-      "vis_km": 10
-    }
+    "location": "London, United Kingdom",
+    "temperature": "48F (9C)",
+    "condition": "Overcast",
+    "feelsLike": "44F (7C)",
+    "uvIndex": "2 (Low)"
   },
   "previewConfig": {
-    "title": "Sydney, Australia",
-    "subtitle": "Sunny",
-    "displayFields": [
-      "current.temp_c",
-      "current.condition.text",
-      "current.wind_kph",
-      "current.humidity",
-      "current.uv"
-    ]
+    "title": "London Weather",
+    "subtitle": "WeatherAPI",
+    "displayFields": ["location", "temperature", "condition", "feelsLike", "uvIndex"]
   }
 }

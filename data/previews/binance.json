@@ -3,20 +3,14 @@
   "previewType": "card",
   "sampleResponse": {
     "symbol": "BTCUSDT",
-    "price": "87432.61",
-    "priceChangePercent": "+2.14%",
-    "highPrice": "88105.00",
-    "volume": "31482.759"
+    "price": 97482.31,
+    "volume_24h": "18,432.75 BTC",
+    "high_24h": 98150.00,
+    "low_24h": 95210.44
   },
   "previewConfig": {
-    "title": "Binance",
-    "subtitle": "Cryptocurrency exchange and trading data",
-    "displayFields": [
-      "symbol",
-      "price",
-      "priceChangePercent",
-      "highPrice",
-      "volume"
-    ]
+    "title": "BTC/USDT Ticker",
+    "subtitle": "Binance",
+    "displayFields": ["symbol", "price", "volume_24h", "high_24h", "low_24h"]
   }
 }

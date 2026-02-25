@@ -2,15 +2,15 @@
   "id": "deezer",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Get Lucky",
+    "title": "One More Time",
     "artist": "Daft Punk",
-    "album": "Random Access Memories",
-    "duration": "6:09",
-    "rank": 948271
+    "album": "Discovery",
+    "duration": "320",
+    "rank": "918243"
   },
   "previewConfig": {
-    "title": "Deezer API",
-    "subtitle": "Track object",
+    "title": "One More Time",
+    "subtitle": "Deezer",
     "displayFields": ["title", "artist", "album", "duration", "rank"]
   }
 }

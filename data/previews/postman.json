@@ -2,18 +2,15 @@
   "id": "postman",
   "previewType": "card",
   "sampleResponse": {
-    "id": "12345678-abcd-efgh-ijkl-567890abcdef",
-    "name": "Stripe API v1",
-    "description": "Complete collection for testing Stripe payment endpoints",
-    "owner": "devteam-workspace",
-    "fork_count": 3240,
-    "watcher_count": 8915,
-    "created_at": "2024-08-15T12:00:00Z",
-    "updated_at": "2026-02-20T09:30:00Z"
+    "name": "JSONPlaceholder",
+    "description": "Free fake API for testing and prototyping",
+    "categories": "Development Tools",
+    "watchers": "58,432",
+    "publishedBy": "typicode"
   },
   "previewConfig": {
-    "title": "Stripe API v1",
-    "subtitle": "Postman Collection",
-    "displayFields": ["description", "owner", "fork_count", "watcher_count", "updated_at"]
+    "title": "JSONPlaceholder",
+    "subtitle": "Postman",
+    "displayFields": ["name", "description", "categories", "watchers", "publishedBy"]
   }
 }

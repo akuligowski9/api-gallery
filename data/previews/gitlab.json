@@ -2,19 +2,15 @@
   "id": "gitlab",
   "previewType": "card",
   "sampleResponse": {
-    "name": "GitLab CE",
-    "path_with_namespace": "gitlab-org/gitlab-ce",
-    "description": "GitLab Community Edition — open-source self-hosted Git service",
-    "star_count": 24200,
-    "forks_count": 6800,
-    "open_issues_count": 4512,
-    "default_branch": "master",
-    "visibility": "public",
-    "last_activity_at": "2026-02-25T08:31:00Z"
+    "name": "GitLab FOSS",
+    "namespace": "gitlab-org/gitlab-foss",
+    "stars": "23,841",
+    "defaultBranch": "master",
+    "visibility": "public"
   },
   "previewConfig": {
-    "title": "GitLab CE",
-    "subtitle": "gitlab-org/gitlab-ce",
-    "displayFields": ["description", "star_count", "forks_count", "open_issues_count", "visibility"]
+    "title": "GitLab FOSS",
+    "subtitle": "GitLab",
+    "displayFields": ["name", "namespace", "stars", "defaultBranch", "visibility"]
   }
 }

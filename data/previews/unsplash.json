@@ -1,24 +1,16 @@
 {
   "id": "unsplash",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "id": "abc123",
-    "urls": {
-      "regular": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1080",
-      "small": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400"
-    },
-    "alt_description": "green grass field near mountain during daytime",
-    "user": {
-      "name": "Bailey Zindel",
-      "username": "baileyzindel"
-    },
-    "likes": 4521,
-    "width": 5184,
-    "height": 3456
+    "description": "Aerial view of turquoise ocean waves crashing on a sandy beach",
+    "photographer": "Annie Spratt",
+    "likes": "3,842",
+    "downloads": "28,417",
+    "resolution": "5472 x 3648"
   },
   "previewConfig": {
-    "title": "Random Photo",
-    "subtitle": "by Bailey Zindel",
-    "imageKey": "urls.regular"
+    "title": "Ocean Waves Aerial",
+    "subtitle": "Unsplash",
+    "displayFields": ["description", "photographer", "likes", "downloads", "resolution"]
   }
 }

@@ -2,15 +2,15 @@
   "id": "reddit",
   "previewType": "card",
   "sampleResponse": {
-    "title": "I just mass-deleted all my old Reddit comments. Here's why.",
-    "subreddit": "r/privacy",
-    "author": "u/data_warden",
-    "score": 48213,
-    "num_comments": 3847
+    "subreddit": "r/programming",
+    "subscribers": "6,200,000",
+    "activeUsers": "12,450",
+    "description": "Computer programming news and discussion",
+    "createdDate": "January 25, 2006"
   },
   "previewConfig": {
-    "title": "Reddit API",
-    "subtitle": "Subreddit post",
-    "displayFields": ["title", "subreddit", "author", "score", "num_comments"]
+    "title": "r/programming",
+    "subtitle": "Reddit",
+    "displayFields": ["subreddit", "subscribers", "activeUsers", "description", "createdDate"]
   }
 }

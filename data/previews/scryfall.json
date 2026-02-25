@@ -2,26 +2,15 @@
   "id": "scryfall",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Lightning Bolt",
-    "mana_cost": "{R}",
-    "type_line": "Instant",
-    "oracle_text": "Lightning Bolt deals 3 damage to any target.",
+    "name": "Black Lotus",
+    "mana_cost": "{0}",
+    "type_line": "Artifact",
     "set_name": "Limited Edition Alpha",
-    "rarity": "common",
-    "colors": [
-      "R"
-    ],
-    "cmc": 1.0,
-    "artist": "Christopher Rush"
+    "rarity": "Rare"
   },
   "previewConfig": {
-    "title": "Lightning Bolt",
-    "subtitle": "Scryfall — MTG",
-    "displayFields": [
-      "mana_cost",
-      "type_line",
-      "oracle_text",
-      "rarity"
-    ]
+    "title": "Black Lotus",
+    "subtitle": "Scryfall",
+    "displayFields": ["name", "mana_cost", "type_line", "set_name", "rarity"]
   }
 }

@@ -5,12 +5,12 @@
     "title": "Midnight City",
     "artist": "M83",
     "genre": "Electronic",
-    "playback_count": 284019374,
-    "duration": "4:03"
+    "playback_count": "214857603",
+    "likes_count": "1843927"
   },
   "previewConfig": {
-    "title": "SoundCloud API",
-    "subtitle": "Track object",
-    "displayFields": ["title", "artist", "genre", "playback_count", "duration"]
+    "title": "Midnight City",
+    "subtitle": "SoundCloud",
+    "displayFields": ["title", "artist", "genre", "playback_count", "likes_count"]
   }
 }

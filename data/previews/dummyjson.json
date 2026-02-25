@@ -1,19 +1,16 @@
 {
   "id": "dummyjson",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "products": [
-      {"id": 1, "title": "iPhone 9", "price": 549, "brand": "Apple", "category": "smartphones"}
-    ]
+    "title": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "price": 1199.99,
+    "rating": 4.87,
+    "category": "smartphones"
   },
   "previewConfig": {
-    "title": "Dummy Products",
-    "items": [
-      {"title": "iPhone 9", "score": 549},
-      {"title": "iPhone X", "score": 899},
-      {"title": "Samsung Universe 9", "score": 1249},
-      {"title": "Huawei P30", "score": 499},
-      {"title": "MacBook Pro", "score": 1749}
-    ]
+    "title": "Sample Product",
+    "subtitle": "DummyJSON",
+    "displayFields": ["title", "brand", "price", "rating", "category"]
   }
 }

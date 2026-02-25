@@ -1,0 +1,16 @@
+{
+  "id": "openaq",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Los Angeles - North Main Street",
+    "parameter": "pm25",
+    "value": "12.4 µg/m³",
+    "lastUpdated": "2026-02-25T14:30:00Z",
+    "country": "United States"
+  },
+  "previewConfig": {
+    "title": "PM2.5 Reading",
+    "subtitle": "OpenAQ",
+    "displayFields": ["location", "parameter", "value", "lastUpdated", "country"]
+  }
+}

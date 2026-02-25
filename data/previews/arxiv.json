@@ -2,39 +2,19 @@
   "id": "arxiv",
   "previewType": "list",
   "sampleResponse": {
-    "entries": [
-      {
-        "title": "Attention Is All You Need",
-        "authors": [
-          "Vaswani et al."
-        ],
-        "category": "cs.CL"
-      }
+    "items": [
+      { "title": "Scaling Laws for Neural Language Models", "secondary": "cs.CL · 2026-02-20", "badge": 147 },
+      { "title": "Diffusion Models Beat GANs on Image Synthesis", "secondary": "cs.CV · 2026-02-18", "badge": 98 },
+      { "title": "Sparse Mixture-of-Experts for Efficient Inference", "secondary": "cs.LG · 2026-02-17", "badge": 83 },
+      { "title": "Quantum Error Correction with Topological Codes", "secondary": "quant-ph · 2026-02-15", "badge": 61 },
+      { "title": "Reinforcement Learning from Human Feedback: A Survey", "secondary": "cs.AI · 2026-02-14", "badge": 54 }
     ]
   },
   "previewConfig": {
-    "title": "arXiv Papers",
-    "items": [
-      {
-        "title": "Attention Is All You Need",
-        "author": "cs.CL"
-      },
-      {
-        "title": "Denoising Diffusion Probabilistic Models",
-        "author": "cs.LG"
-      },
-      {
-        "title": "Language Models are Few-Shot Learners",
-        "author": "cs.CL"
-      },
-      {
-        "title": "An Image is Worth 16x16 Words",
-        "author": "cs.CV"
-      },
-      {
-        "title": "Scaling Laws for Neural Language Models",
-        "author": "cs.LG"
-      }
-    ]
+    "title": "arXiv",
+    "subtitle": "Recent papers by citation count",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

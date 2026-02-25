@@ -2,15 +2,15 @@
   "id": "discord",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Midjourney",
-    "id": "662267386631200778",
-    "member_count": 19842567,
-    "online_count": 1043892,
-    "verification_level": "HIGH"
+    "name": "Python",
+    "memberCount": "389,000",
+    "onlineMembers": "42,150",
+    "channels": "85",
+    "boostLevel": "Level 3"
   },
   "previewConfig": {
-    "title": "Discord Bot API",
-    "subtitle": "Guild / Server object",
-    "displayFields": ["name", "member_count", "online_count", "verification_level", "id"]
+    "title": "Python Server",
+    "subtitle": "Discord",
+    "displayFields": ["name", "memberCount", "onlineMembers", "channels", "boostLevel"]
   }
 }

@@ -2,20 +2,15 @@
   "id": "thesportsdb",
   "previewType": "card",
   "sampleResponse": {
-    "idEvent": "1274832",
-    "strEvent": "Los Angeles Lakers vs Boston Celtics",
-    "strLeague": "NBA",
-    "strSeason": "2025-2026",
-    "intHomeScore": 112,
-    "intAwayScore": 108,
-    "strHomeTeam": "Los Angeles Lakers",
-    "strAwayTeam": "Boston Celtics",
-    "strVenue": "Crypto.com Arena",
-    "dateEvent": "2026-02-23"
+    "team": "FC Barcelona",
+    "sport": "Soccer",
+    "league": "La Liga",
+    "stadium": "Spotify Camp Nou",
+    "formedYear": "1899"
   },
   "previewConfig": {
-    "title": "Lakers 112 — 108 Celtics",
-    "subtitle": "TheSportsDB — NBA",
-    "displayFields": ["strLeague", "strSeason", "strVenue", "dateEvent", "strEvent"]
+    "title": "FC Barcelona",
+    "subtitle": "TheSportsDB",
+    "displayFields": ["team", "sport", "league", "stadium", "formedYear"]
   }
 }

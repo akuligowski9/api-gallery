@@ -1,24 +1,20 @@
 {
   "id": "jikan",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "mal_id": 1,
-    "title": "Cowboy Bebop",
-    "score": 8.75,
-    "episodes": 26,
-    "status": "Finished Airing",
-    "rating": "R - 17+",
-    "genres": ["Action", "Adventure", "Drama", "Sci-Fi"],
-    "images": {
-      "jpg": {
-        "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.jpg"
-      }
-    }
+    "items": [
+      { "title": "Fullmetal Alchemist: Brotherhood", "secondary": "Action, Drama", "badge": 9.10 },
+      { "title": "Steins;Gate", "secondary": "Sci-Fi, Thriller", "badge": 9.07 },
+      { "title": "Gintama: The Final", "secondary": "Action, Comedy", "badge": 9.04 },
+      { "title": "Hunter x Hunter (2011)", "secondary": "Action, Adventure", "badge": 9.03 },
+      { "title": "Shingeki no Kyojin S3 Part 2", "secondary": "Action, Drama", "badge": 9.01 }
+    ]
   },
   "previewConfig": {
-    "title": "Cowboy Bebop",
-    "subtitle": "Score: 8.75",
-    "imageKey": "images.jpg.image_url",
-    "displayFields": ["episodes", "status", "rating"]
+    "title": "Jikan",
+    "subtitle": "Top rated anime by score",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

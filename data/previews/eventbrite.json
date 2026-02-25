@@ -1,0 +1,16 @@
+{
+  "id": "eventbrite",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "React Summit 2026",
+    "organizer": "GitNation",
+    "date": "2026-06-13",
+    "location": "Amsterdam, Netherlands",
+    "ticketPrice": "Free - €599"
+  },
+  "previewConfig": {
+    "title": "Featured Event",
+    "subtitle": "Eventbrite",
+    "displayFields": ["name", "organizer", "date", "location", "ticketPrice"]
+  }
+}

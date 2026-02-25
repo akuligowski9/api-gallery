@@ -1,0 +1,20 @@
+{
+  "id": "etsy",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Hand-Poured Soy Candle Set", "secondary": "CandleCo Studio", "badge": 12450 },
+      { "title": "Personalized Leather Journal", "secondary": "RusticCraft Goods", "badge": 8920 },
+      { "title": "Macramé Wall Hanging", "secondary": "BohoThreads Shop", "badge": 6340 },
+      { "title": "Custom Pet Portrait (Digital)", "secondary": "PawPrints Art", "badge": 5180 },
+      { "title": "Handmade Ceramic Mug", "secondary": "EarthTone Pottery", "badge": 4760 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Etsy",
+    "subtitle": "Popular handmade items by sales",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

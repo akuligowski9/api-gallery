@@ -2,19 +2,15 @@
   "id": "rawg-io",
   "previewType": "card",
   "sampleResponse": {
-    "id": 3498,
-    "name": "Grand Theft Auto V",
-    "released": "2013-09-17",
-    "rating": 4.47,
-    "ratings_count": 6812,
-    "metacritic": 92,
-    "playtime": 74,
-    "genres": "Action, Adventure",
-    "platforms": "PC, PlayStation 5, Xbox Series S/X"
+    "name": "The Witcher 3: Wild Hunt",
+    "rating": "4.66",
+    "released": "2015-05-19",
+    "playtime": "46",
+    "genres": "RPG, Adventure, Action"
   },
   "previewConfig": {
-    "title": "Grand Theft Auto V",
-    "subtitle": "RAWG Video Game Database",
-    "displayFields": ["rating", "metacritic", "playtime", "genres", "platforms"]
+    "title": "The Witcher 3: Wild Hunt",
+    "subtitle": "RAWG.io",
+    "displayFields": ["name", "rating", "released", "playtime", "genres"]
   }
 }

@@ -2,25 +2,15 @@
   "id": "pok-api",
   "previewType": "card",
   "sampleResponse": {
-    "name": "pikachu",
-    "id": 25,
-    "types": ["Electric"],
-    "stats": [
-      { "name": "hp", "value": 35 },
-      { "name": "attack", "value": 55 },
-      { "name": "defense", "value": 40 },
-      { "name": "speed", "value": 90 }
-    ],
-    "sprites": {
-      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-    },
-    "height": 4,
-    "weight": 60
+    "name": "Charizard",
+    "type": "Fire / Flying",
+    "hp": 78,
+    "attack": 84,
+    "speed": 100
   },
   "previewConfig": {
-    "title": "Pikachu #025",
-    "subtitle": "Electric Type",
-    "imageKey": "sprites.front_default",
-    "displayFields": ["height", "weight", "base_experience"]
+    "title": "Charizard",
+    "subtitle": "PokéAPI",
+    "displayFields": ["name", "type", "hp", "attack", "speed"]
   }
 }

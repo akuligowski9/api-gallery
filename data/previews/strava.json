@@ -2,21 +2,15 @@
   "id": "strava",
   "previewType": "card",
   "sampleResponse": {
-    "id": 10584327612,
-    "name": "Morning 10K — Riverside Loop",
-    "type": "Run",
-    "distance": 10042.5,
-    "moving_time": 2748,
-    "elapsed_time": 2830,
-    "average_speed": 3.66,
-    "max_speed": 4.82,
-    "total_elevation_gain": 58.3,
-    "start_date": "2026-02-25T06:30:00Z",
-    "average_heartrate": 152
+    "name": "Morning Trail Run — Mt. Tamalpais",
+    "distance": "18.4 km",
+    "movingTime": "1h 42m 15s",
+    "elevationGain": "623 m",
+    "averagePace": "5:33 /km"
   },
   "previewConfig": {
-    "title": "Morning 10K — Riverside Loop",
-    "subtitle": "Strava Activity",
-    "displayFields": ["type", "distance", "moving_time", "total_elevation_gain", "average_heartrate"]
+    "title": "Morning Trail Run",
+    "subtitle": "Strava",
+    "displayFields": ["name", "distance", "movingTime", "elevationGain", "averagePace"]
   }
 }

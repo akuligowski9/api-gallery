@@ -1,17 +1,16 @@
 {
   "id": "art-institute-of-chicago",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "id": 27992,
-    "title": "A Sunday on La Grande Jatte — 1884",
-    "artist_display": "Georges Seurat (French, 1859–1891)",
-    "date_display": "1884–86",
-    "image_id": "2d484387-2509-5e8e-2c43-22f9981972eb",
-    "image_url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg"
+    "title": "A Sunday on La Grande Jatte",
+    "artist": "Georges Seurat",
+    "date": "1884-1886",
+    "medium": "Oil on canvas",
+    "department": "Painting and Sculpture of Europe"
   },
   "previewConfig": {
     "title": "A Sunday on La Grande Jatte",
-    "subtitle": "Georges Seurat, 1884–86",
-    "imageKey": "image_url"
+    "subtitle": "Art Institute of Chicago",
+    "displayFields": ["title", "artist", "date", "medium", "department"]
   }
 }

@@ -2,24 +2,15 @@
   "id": "metropolitan-museum-of-art",
   "previewType": "card",
   "sampleResponse": {
-    "objectID": 45734,
-    "title": "Wheat Field with Cypresses",
-    "artistDisplayName": "Vincent van Gogh",
-    "artistNationality": "Dutch",
-    "objectDate": "1889",
+    "title": "Washington Crossing the Delaware",
+    "artist": "Emanuel Leutze",
+    "date": "1851",
     "medium": "Oil on canvas",
-    "department": "European Paintings",
-    "dimensions": "28 7/8 x 36 3/4 in.",
-    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1567.jpg"
+    "department": "The American Wing"
   },
   "previewConfig": {
-    "title": "Wheat Field with Cypresses",
-    "subtitle": "Vincent van Gogh, 1889",
-    "displayFields": [
-      "artistDisplayName",
-      "medium",
-      "department",
-      "objectDate"
-    ]
+    "title": "Washington Crossing the Delaware",
+    "subtitle": "Metropolitan Museum of Art",
+    "displayFields": ["title", "artist", "date", "medium", "department"]
   }
 }

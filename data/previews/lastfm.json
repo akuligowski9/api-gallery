@@ -1,45 +1,16 @@
 {
   "id": "lastfm",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      {
-        "name": "Smells Like Teen Spirit",
-        "artist": "Nirvana",
-        "playcount": 18493021,
-        "listeners": 5842103
-      },
-      {
-        "name": "Creep",
-        "artist": "Radiohead",
-        "playcount": 14208743,
-        "listeners": 4917320
-      },
-      {
-        "name": "Mr. Brightside",
-        "artist": "The Killers",
-        "playcount": 12984561,
-        "listeners": 4203847
-      },
-      {
-        "name": "Wonderwall",
-        "artist": "Oasis",
-        "playcount": 11740295,
-        "listeners": 4018293
-      },
-      {
-        "name": "Somebody That I Used to Know",
-        "artist": "Gotye",
-        "playcount": 10392847,
-        "listeners": 3891042
-      }
-    ]
+    "name": "Radiohead",
+    "playcount": "528491073",
+    "listeners": "5284910",
+    "genre": "Alternative Rock",
+    "country": "United Kingdom"
   },
   "previewConfig": {
-    "title": "Last.fm API",
-    "subtitle": "Top tracks by play count",
-    "itemKey": "name",
-    "secondaryKey": "artist",
-    "badgeKey": "playcount"
+    "title": "Radiohead",
+    "subtitle": "Last.fm",
+    "displayFields": ["name", "playcount", "listeners", "genre", "country"]
   }
 }

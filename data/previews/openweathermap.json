@@ -2,15 +2,15 @@
   "id": "openweathermap",
   "previewType": "card",
   "sampleResponse": {
-    "description": "Light rain",
-    "temperature": "14.7°C (feels like 13.2°C)",
-    "humidity": "82%",
-    "wind_speed": "5.1 m/s SW",
-    "pressure": "1008 hPa"
+    "city": "San Francisco, CA",
+    "temperature": "62F (17C)",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 mph W"
   },
   "previewConfig": {
-    "title": "Paris, France",
-    "subtitle": "Light rain",
-    "displayFields": ["description", "temperature", "humidity", "wind_speed", "pressure"]
+    "title": "San Francisco Weather",
+    "subtitle": "OpenWeatherMap",
+    "displayFields": ["city", "temperature", "condition", "humidity", "wind"]
   }
 }

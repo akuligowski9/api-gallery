@@ -3,32 +3,18 @@
   "previewType": "list",
   "sampleResponse": {
     "items": [
-      {
-        "title": "Global AI regulation talks resume in Geneva",
-        "source": "Reuters"
-      },
-      {
-        "title": "SpaceX Starship completes third successful orbital test",
-        "source": "AP"
-      },
-      {
-        "title": "EU announces new climate policy framework for 2030",
-        "source": "BBC"
-      },
-      {
-        "title": "Tech stocks rally on strong earnings reports",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Scientists discover new deep-sea species off Pacific coast",
-        "source": "Nature"
-      }
+      { "title": "Global AI Summit Reaches Landmark Safety Agreement", "secondary": "Reuters", "badge": 4821 },
+      { "title": "SpaceX Starship Completes First Orbital Refueling Test", "secondary": "Associated Press", "badge": 3956 },
+      { "title": "EU Carbon Border Tax Takes Effect Amid Trade Tensions", "secondary": "Financial Times", "badge": 2847 },
+      { "title": "Breakthrough in Solid-State Battery Manufacturing Announced", "secondary": "Bloomberg", "badge": 2103 },
+      { "title": "WHO Declares New Malaria Vaccine 90% Effective in Trials", "secondary": "The Guardian", "badge": 1892 }
     ]
   },
   "previewConfig": {
-    "title": "NewsAPI.ai",
-    "subtitle": "News API access to real-time and archive news content",
+    "title": "News API AI",
+    "subtitle": "Trending articles by share count",
     "itemKey": "title",
-    "secondaryKey": "source"
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

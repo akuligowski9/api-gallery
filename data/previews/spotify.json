@@ -3,48 +3,18 @@
   "previewType": "list",
   "sampleResponse": {
     "items": [
-      {
-        "name": "Bohemian Rhapsody",
-        "artist": "Queen",
-        "album": "A Night at the Opera",
-        "duration": "5:55",
-        "popularity": 95
-      },
-      {
-        "name": "Blinding Lights",
-        "artist": "The Weeknd",
-        "album": "After Hours",
-        "duration": "3:20",
-        "popularity": 92
-      },
-      {
-        "name": "Levitating",
-        "artist": "Dua Lipa",
-        "album": "Future Nostalgia",
-        "duration": "3:23",
-        "popularity": 89
-      },
-      {
-        "name": "As It Was",
-        "artist": "Harry Styles",
-        "album": "Harry's House",
-        "duration": "2:47",
-        "popularity": 91
-      },
-      {
-        "name": "Anti-Hero",
-        "artist": "Taylor Swift",
-        "album": "Midnights",
-        "duration": "3:20",
-        "popularity": 93
-      }
+      { "title": "Blinding Lights", "secondary": "The Weeknd", "badge": 3842 },
+      { "title": "As It Was", "secondary": "Harry Styles", "badge": 2917 },
+      { "title": "Someone You Loved", "secondary": "Lewis Capaldi", "badge": 2654 },
+      { "title": "Cruel Summer", "secondary": "Taylor Swift", "badge": 2481 },
+      { "title": "Starboy", "secondary": "The Weeknd", "badge": 2203 }
     ]
   },
   "previewConfig": {
-    "title": "Spotify API",
-    "subtitle": "Top tracks",
-    "itemKey": "name",
-    "secondaryKey": "artist",
-    "badgeKey": "popularity"
+    "title": "Spotify",
+    "subtitle": "Top streamed tracks (millions of plays)",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

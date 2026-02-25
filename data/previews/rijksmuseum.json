@@ -1,0 +1,16 @@
+{
+  "id": "rijksmuseum",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "The Night Watch",
+    "artist": "Rembrandt van Rijn",
+    "date": "1642",
+    "medium": "Oil on canvas",
+    "dimensions": "379.5 cm x 453.5 cm"
+  },
+  "previewConfig": {
+    "title": "The Night Watch",
+    "subtitle": "Rijksmuseum",
+    "displayFields": ["title", "artist", "date", "medium", "dimensions"]
+  }
+}

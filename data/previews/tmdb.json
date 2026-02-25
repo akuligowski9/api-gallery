@@ -3,14 +3,14 @@
   "previewType": "card",
   "sampleResponse": {
     "title": "Interstellar",
-    "release_date": "2014-11-07",
-    "vote_average": 8.7,
-    "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    "original_language": "en"
+    "releaseDate": "2014-11-07",
+    "rating": "8.7 / 10",
+    "runtime": "169 minutes",
+    "genres": "Adventure, Drama, Science Fiction"
   },
   "previewConfig": {
-    "title": "TMDb API",
-    "subtitle": "Movie object",
-    "displayFields": ["title", "release_date", "vote_average", "overview", "original_language"]
+    "title": "Interstellar",
+    "subtitle": "TMDB",
+    "displayFields": ["title", "releaseDate", "rating", "runtime", "genres"]
   }
 }

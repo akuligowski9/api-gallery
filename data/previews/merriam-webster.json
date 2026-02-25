@@ -1,0 +1,16 @@
+{
+  "id": "merriam-webster",
+  "previewType": "card",
+  "sampleResponse": {
+    "word": "serendipity",
+    "partOfSpeech": "noun",
+    "definition": "The faculty or phenomenon of finding valuable or agreeable things not sought for.",
+    "pronunciation": "ˌser-ən-ˈdi-pə-tē",
+    "firstKnownUse": "1754"
+  },
+  "previewConfig": {
+    "title": "Word Definition",
+    "subtitle": "Merriam-Webster",
+    "displayFields": ["word", "partOfSpeech", "definition", "pronunciation", "firstKnownUse"]
+  }
+}

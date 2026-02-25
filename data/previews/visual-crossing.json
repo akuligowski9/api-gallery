@@ -2,15 +2,15 @@
   "id": "visual-crossing",
   "previewType": "card",
   "sampleResponse": {
-    "conditions": "Partially cloudy",
-    "temperature": "18.9°C (feels like 18.2°C)",
-    "humidity": "58%",
-    "wind_speed": "11.2 km/h S",
-    "uv_index": "6 — High"
+    "location": "New York, NY",
+    "tempHigh": "75F (24C)",
+    "tempLow": "58F (14C)",
+    "precipitation": "20% chance",
+    "sunrise": "6:12 AM"
   },
   "previewConfig": {
-    "title": "Tokyo, Japan",
-    "subtitle": "Partially cloudy",
-    "displayFields": ["conditions", "temperature", "humidity", "wind_speed", "uv_index"]
+    "title": "New York Forecast",
+    "subtitle": "Visual Crossing",
+    "displayFields": ["location", "tempHigh", "tempLow", "precipitation", "sunrise"]
   }
 }

@@ -3,32 +3,18 @@
   "previewType": "list",
   "sampleResponse": {
     "items": [
-      {
-        "title": "Global AI regulation talks resume in Geneva",
-        "source": "Reuters"
-      },
-      {
-        "title": "SpaceX Starship completes third successful orbital test",
-        "source": "AP"
-      },
-      {
-        "title": "EU announces new climate policy framework for 2030",
-        "source": "BBC"
-      },
-      {
-        "title": "Tech stocks rally on strong earnings reports",
-        "source": "Bloomberg"
-      },
-      {
-        "title": "Scientists discover new deep-sea species off Pacific coast",
-        "source": "Nature"
-      }
+      { "title": "Climate Adaptation Fund Surpasses $50bn Target", "secondary": "Environment", "badge": 312 },
+      { "title": "The Rise of Four-Day Work Weeks Across Europe", "secondary": "Business", "badge": 287 },
+      { "title": "How Generative AI Is Reshaping the Music Industry", "secondary": "Technology", "badge": 264 },
+      { "title": "Premier League Transfer Window: Winners and Losers", "secondary": "Football", "badge": 198 },
+      { "title": "Inside the Fight to Save the Amazon's Last Uncontacted Tribes", "secondary": "World News", "badge": 176 }
     ]
   },
   "previewConfig": {
     "title": "The Guardian",
-    "subtitle": "Access all the content the Guardian creates, categorised by tags and section",
+    "subtitle": "Recent articles by comment count",
     "itemKey": "title",
-    "secondaryKey": "source"
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

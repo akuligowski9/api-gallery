@@ -2,15 +2,15 @@
   "id": "youtube",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Despacito",
-    "channel": "Luis Fonsi",
-    "viewCount": 8347291045,
-    "likeCount": 52948103,
-    "publishedAt": "2017-01-12T04:00:01Z"
+    "title": "History of the Entire World, I Guess",
+    "channel": "bill wurtz",
+    "views": "152,000,000",
+    "likes": "5,400,000",
+    "duration": "19:26"
   },
   "previewConfig": {
-    "title": "YouTube Data API",
-    "subtitle": "Video object",
-    "displayFields": ["title", "channel", "viewCount", "likeCount", "publishedAt"]
+    "title": "Popular Video",
+    "subtitle": "YouTube",
+    "displayFields": ["title", "channel", "views", "likes", "duration"]
   }
 }

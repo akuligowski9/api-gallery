@@ -1,0 +1,16 @@
+{
+  "id": "myanimelist",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "score": "9.10",
+    "episodes": "64",
+    "status": "Finished Airing",
+    "genre": "Action, Adventure, Drama"
+  },
+  "previewConfig": {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "subtitle": "MyAnimeList",
+    "displayFields": ["title", "score", "episodes", "status", "genre"]
+  }
+}

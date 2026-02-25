@@ -2,15 +2,15 @@
   "id": "twitter",
   "previewType": "card",
   "sampleResponse": {
-    "text": "Just setting up my twttr",
-    "author": "@jack",
-    "retweet_count": 163485,
-    "like_count": 1742390,
-    "created_at": "2006-03-21T20:50:14Z"
+    "author": "@NASA",
+    "text": "Artemis II crew members will fly around the Moon and return to Earth, paving the way for future lunar surface missions.",
+    "retweets": "48,230",
+    "likes": "215,700",
+    "postedAt": "2025-03-15T14:22:00Z"
   },
   "previewConfig": {
-    "title": "Twitter API",
-    "subtitle": "Tweet object",
-    "displayFields": ["text", "author", "retweet_count", "like_count", "created_at"]
+    "title": "NASA Tweet",
+    "subtitle": "Twitter",
+    "displayFields": ["author", "text", "retweets", "likes", "postedAt"]
   }
 }

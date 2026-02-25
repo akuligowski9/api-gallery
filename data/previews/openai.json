@@ -1,0 +1,16 @@
+{
+  "id": "openai",
+  "previewType": "card",
+  "sampleResponse": {
+    "model": "gpt-4o",
+    "object": "chat.completion",
+    "promptTokens": 42,
+    "completionTokens": 128,
+    "finishReason": "stop"
+  },
+  "previewConfig": {
+    "title": "Chat Completion",
+    "subtitle": "OpenAI",
+    "displayFields": ["model", "object", "promptTokens", "completionTokens", "finishReason"]
+  }
+}

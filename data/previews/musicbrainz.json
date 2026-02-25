@@ -2,34 +2,15 @@
   "id": "musicbrainz",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Radiohead",
+    "name": "Pink Floyd",
     "type": "Group",
-    "country": "GB",
-    "life-span": {
-      "begin": "1985",
-      "ended": false
-    },
-    "area": {
-      "name": "Abingdon"
-    },
-    "tags": [
-      {
-        "name": "alternative rock"
-      },
-      {
-        "name": "art rock"
-      },
-      {
-        "name": "electronic"
-      }
-    ]
+    "founded": "1965",
+    "area": "London, England",
+    "status": "Dissolved"
   },
   "previewConfig": {
-    "title": "Radiohead",
+    "title": "Pink Floyd",
     "subtitle": "MusicBrainz",
-    "displayFields": [
-      "type",
-      "country"
-    ]
+    "displayFields": ["name", "type", "founded", "area", "status"]
   }
 }

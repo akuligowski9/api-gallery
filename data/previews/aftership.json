@@ -1,0 +1,16 @@
+{
+  "id": "aftership",
+  "previewType": "card",
+  "sampleResponse": {
+    "trackingNumber": "1Z999AA10123456784",
+    "carrier": "UPS",
+    "status": "In Transit",
+    "lastLocation": "Louisville, KY",
+    "expectedDelivery": "2026-02-27"
+  },
+  "previewConfig": {
+    "title": "Shipment Tracking",
+    "subtitle": "AfterShip",
+    "displayFields": ["trackingNumber", "carrier", "status", "lastLocation", "expectedDelivery"]
+  }
+}

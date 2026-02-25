@@ -2,22 +2,19 @@
   "id": "cheapshark",
   "previewType": "list",
   "sampleResponse": {
-    "deals": [
-      {"title": "Portal 2", "salePrice": "1.99", "normalPrice": "9.99", "metacriticScore": "95"},
-      {"title": "The Witcher 3", "salePrice": "7.99", "normalPrice": "39.99", "metacriticScore": "93"},
-      {"title": "Hollow Knight", "salePrice": "4.99", "normalPrice": "14.99", "metacriticScore": "87"},
-      {"title": "Hades", "salePrice": "9.99", "normalPrice": "24.99", "metacriticScore": "93"},
-      {"title": "Celeste", "salePrice": "3.99", "normalPrice": "19.99", "metacriticScore": "92"}
+    "items": [
+      { "title": "Cyberpunk 2077", "secondary": "Steam", "badge": 29.99 },
+      { "title": "Red Dead Redemption 2", "secondary": "Epic Games", "badge": 19.99 },
+      { "title": "Elden Ring", "secondary": "Steam", "badge": 35.99 },
+      { "title": "Hades", "secondary": "GOG", "badge": 9.99 },
+      { "title": "Baldur's Gate 3", "secondary": "Steam", "badge": 41.99 }
     ]
   },
   "previewConfig": {
-    "title": "Best Game Deals",
-    "items": [
-      {"title": "Portal 2", "score": 95},
-      {"title": "The Witcher 3", "score": 93},
-      {"title": "Hollow Knight", "score": 87},
-      {"title": "Hades", "score": 93},
-      {"title": "Celeste", "score": 92}
-    ]
+    "title": "CheapShark",
+    "subtitle": "Current best game deals by store",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }
