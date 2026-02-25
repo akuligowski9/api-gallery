@@ -1,0 +1,16 @@
+{
+  "id": "gorest",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": 7125438,
+    "name": "Ananya Krishnamurthy",
+    "email": "ananya.krishnamurthy@gorest.in",
+    "gender": "female",
+    "status": "active"
+  },
+  "previewConfig": {
+    "title": "GoRest",
+    "subtitle": "Online REST API test user resource",
+    "displayFields": ["id", "name", "email", "gender", "status"]
+  }
+}

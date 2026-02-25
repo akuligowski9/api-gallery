@@ -1,0 +1,16 @@
+{
+  "id": "raider",
+  "previewType": "card",
+  "sampleResponse": {
+    "character_name": "Shadowmourne",
+    "class": "Death Knight",
+    "realm": "Stormrage",
+    "item_level": 482,
+    "region": "US"
+  },
+  "previewConfig": {
+    "title": "WoW Character Profile",
+    "subtitle": "World of Warcraft character stats and raid progression via Raider.IO",
+    "displayFields": ["character_name", "class", "realm", "item_level", "region"]
+  }
+}

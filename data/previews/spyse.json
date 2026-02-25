@@ -1,0 +1,16 @@
+{
+  "id": "spyse",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "example.com",
+    "ip_address": "93.184.216.34",
+    "asn": "AS15133",
+    "open_ports": "80, 443, 8080",
+    "ssl_issuer": "DigiCert Inc"
+  },
+  "previewConfig": {
+    "title": "example.com",
+    "subtitle": "Domain Reconnaissance",
+    "displayFields": ["domain", "ip_address", "asn", "open_ports", "ssl_issuer"]
+  }
+}

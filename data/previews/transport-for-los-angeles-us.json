@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-los-angeles-us",
+  "previewType": "card",
+  "sampleResponse": {
+    "line": "B Line (Red)",
+    "station": "Union Station",
+    "next_arrival": "4 min",
+    "direction": "North Hollywood",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "LA Metro Arrivals",
+    "subtitle": "Real-time Los Angeles Metro rail and bus arrival information",
+    "displayFields": ["line", "station", "next_arrival", "direction", "status"]
+  }
+}

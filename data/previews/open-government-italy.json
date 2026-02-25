@@ -1,0 +1,20 @@
+{
+  "id": "open-government-italy",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Popolazione residente per comune", "organization": "ISTAT", "format": "CSV", "updated": "2024-11-15", "license": "CC BY 4.0" },
+      { "title": "Catasto terreni — dati pubblici", "organization": "Agenzia delle Entrate", "format": "JSON", "updated": "2024-10-03", "license": "IODL 2.0" },
+      { "title": "Incidenti stradali in Italia", "organization": "ACI", "format": "XLSX", "updated": "2024-09-22", "license": "CC BY 4.0" },
+      { "title": "Spesa pubblica per regione", "organization": "MEF", "format": "CSV", "updated": "2024-12-01", "license": "IODL 2.0" },
+      { "title": "Qualità dell'aria — stazioni di monitoraggio", "organization": "ISPRA", "format": "JSON", "updated": "2025-01-08", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Italy",
+    "subtitle": "Italian public open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

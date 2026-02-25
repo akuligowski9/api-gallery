@@ -1,0 +1,20 @@
+{
+  "id": "open-government-new-south-wales",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "NSW Road Crash Data", "organization": "Transport for NSW", "format": "CSV", "updated": "2024-11-15", "license": "CC BY 4.0" },
+      { "title": "Public School Locations", "organization": "NSW Department of Education", "format": "GeoJSON", "updated": "2024-10-03", "license": "CC BY 4.0" },
+      { "title": "Hospital Admissions Statistics", "organization": "NSW Health", "format": "XLSX", "updated": "2024-09-20", "license": "CC BY 4.0" },
+      { "title": "Catchment Management Areas", "organization": "DPI Water", "format": "SHP", "updated": "2024-08-07", "license": "OGL" },
+      { "title": "Registered Businesses NSW", "organization": "NSW Fair Trading", "format": "CSV", "updated": "2024-12-01", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government NSW",
+    "subtitle": "Australian state open data catalogue",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

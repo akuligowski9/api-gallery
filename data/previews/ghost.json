@@ -1,0 +1,16 @@
+{
+  "id": "ghost",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Building a Headless CMS with Ghost and Next.js",
+    "slug": "headless-cms-ghost-nextjs",
+    "status": "published",
+    "published_at": "2024-10-28T11:00:00.000Z",
+    "reading_time": 7
+  },
+  "previewConfig": {
+    "title": "Building a Headless CMS with Ghost and Next.js",
+    "subtitle": "Published — 7 min read",
+    "displayFields": ["title", "slug", "status", "published_at", "reading_time"]
+  }
+}

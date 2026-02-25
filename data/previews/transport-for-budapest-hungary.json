@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-budapest-hungary",
+  "previewType": "card",
+  "sampleResponse": {
+    "route_id": "M2",
+    "route_name": "M2 Metró - Örs vezér tere / Déli pályaudvar",
+    "mode": "metro",
+    "operator": "BKK - Budapesti Közlekedési Központ",
+    "next_departure": "2 min"
+  },
+  "previewConfig": {
+    "title": "route_name",
+    "subtitle": "operator",
+    "displayFields": ["route_id", "route_name", "mode", "operator", "next_departure"]
+  }
+}

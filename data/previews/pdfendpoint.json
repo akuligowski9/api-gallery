@@ -1,0 +1,16 @@
+{
+  "id": "pdfendpoint",
+  "previewType": "card",
+  "sampleResponse": {
+    "source_url": "https://example.com/invoice/INV-20260225",
+    "output_filename": "INV-20260225.pdf",
+    "pages": 2,
+    "file_size_kb": 184,
+    "download_url": "https://api.pdfendpoint.com/v1/download/f3a9c1e2-7b4d-4f8a-9e0c-123456789abc"
+  },
+  "previewConfig": {
+    "title": "output_filename",
+    "subtitle": "source_url",
+    "displayFields": ["source_url", "output_filename", "pages", "file_size_kb", "download_url"]
+  }
+}

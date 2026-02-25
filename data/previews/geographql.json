@@ -1,0 +1,16 @@
+{
+  "id": "geographql",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Bavaria",
+    "country": "Germany",
+    "type": "State",
+    "capital": "Munich",
+    "population": 13140183
+  },
+  "previewConfig": {
+    "title": "Bavaria",
+    "subtitle": "Geographic Query",
+    "displayFields": ["name", "country", "type", "capital", "population"]
+  }
+}

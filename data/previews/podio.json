@@ -1,0 +1,16 @@
+{
+  "id": "podio",
+  "previewType": "card",
+  "sampleResponse": {
+    "item_id": "985623471",
+    "title": "Website Redesign — Final Review",
+    "app_name": "Project Tasks",
+    "status": "In Progress",
+    "created_by": "Maria Jensen"
+  },
+  "previewConfig": {
+    "title": "Website Redesign — Final Review",
+    "subtitle": "Project Tasks — by Maria Jensen",
+    "displayFields": ["item_id", "title", "app_name", "status", "created_by"]
+  }
+}

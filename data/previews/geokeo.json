@@ -1,0 +1,16 @@
+{
+  "id": "geokeo",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA",
+    "latitude": "37.4224764",
+    "longitude": "-122.0842499",
+    "country": "United States",
+    "postalCode": "94043"
+  },
+  "previewConfig": {
+    "title": "Geokeo",
+    "subtitle": "Forward geocoding result",
+    "displayFields": ["address", "latitude", "longitude", "country", "postalCode"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-government-korea",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "datasetId": "15058905", "title": "Seoul Public Bicycle (Ttareungyi) Usage Statistics", "organization": "Seoul Metropolitan Government", "category": "Transportation", "lastUpdated": "2024-11-20" },
+      { "datasetId": "15073318", "title": "National Health Insurance Claims Data by Region", "organization": "Health Insurance Review Agency", "category": "Health", "lastUpdated": "2024-10-15" },
+      { "datasetId": "15041552", "title": "Real Estate Transaction Price Index by City", "organization": "Ministry of Land Infrastructure and Transport", "category": "Real Estate", "lastUpdated": "2024-11-01" },
+      { "datasetId": "15069093", "title": "Air Quality Monitoring Station Measurements", "organization": "National Institute of Environmental Research", "category": "Environment", "lastUpdated": "2024-11-22" },
+      { "datasetId": "15062847", "title": "Public Library Collection and Visitor Statistics", "organization": "National Library of Korea", "category": "Culture", "lastUpdated": "2024-09-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Korea",
+    "subtitle": "Korean public data portal datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "category"
+  }
+}

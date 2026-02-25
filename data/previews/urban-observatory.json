@@ -1,0 +1,16 @@
+{
+  "id": "urban-observatory",
+  "previewType": "card",
+  "sampleResponse": {
+    "sensor_id": "NE_SENSOR_0042",
+    "location": "Newcastle upon Tyne City Centre",
+    "metric": "NO2 (Nitrogen Dioxide)",
+    "value": "34.7 µg/m³",
+    "recorded_at": "2024-01-15T13:00:00Z"
+  },
+  "previewConfig": {
+    "title": "NE_SENSOR_0042",
+    "subtitle": "Newcastle upon Tyne City Centre",
+    "displayFields": ["sensor_id", "location", "metric", "value", "recorded_at"]
+  }
+}

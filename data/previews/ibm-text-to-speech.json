@@ -1,0 +1,16 @@
+{
+  "id": "ibm-text-to-speech",
+  "previewType": "card",
+  "sampleResponse": {
+    "voice": "en-US_AllisonV3Voice",
+    "content_type": "audio/mp3",
+    "input_text": "Hello, welcome to IBM Watson Text to Speech.",
+    "duration_seconds": 3.2,
+    "audio_url": "https://tts.watsonplatform.net/synthesize/output_a1b2.mp3"
+  },
+  "previewConfig": {
+    "title": "IBM Text to Speech",
+    "subtitle": "Synthesized audio output from Watson TTS",
+    "displayFields": ["voice", "content_type", "input_text", "duration_seconds", "audio_url"]
+  }
+}

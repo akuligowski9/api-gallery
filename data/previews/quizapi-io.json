@@ -1,0 +1,16 @@
+{
+  "id": "quizapi-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "question": "Which programming language was created by Guido van Rossum?",
+    "category": "Code",
+    "difficulty": "Easy",
+    "correct_answer": "Python",
+    "tags": "programming, python, languages"
+  },
+  "previewConfig": {
+    "title": "Quiz Question",
+    "subtitle": "Trivia and programming quiz questions from QuizAPI",
+    "displayFields": ["question", "category", "difficulty", "correct_answer", "tags"]
+  }
+}

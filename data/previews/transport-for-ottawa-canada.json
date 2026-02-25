@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-ottawa-canada",
+  "previewType": "card",
+  "sampleResponse": {
+    "route_id": "95",
+    "route_name": "Transitway / Blair",
+    "stop_name": "Rideau Centre",
+    "next_departure": "2025-03-15T14:23:00-04:00",
+    "vehicle_type": "Bus Rapid Transit"
+  },
+  "previewConfig": {
+    "title": "OC Transpo — Route 95",
+    "subtitle": "Ottawa rapid transit real-time departure",
+    "displayFields": ["route_id", "route_name", "stop_name", "next_departure", "vehicle_type"]
+  }
+}

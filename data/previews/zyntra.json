@@ -1,0 +1,16 @@
+{
+  "id": "zyntra",
+  "previewType": "card",
+  "sampleResponse": {
+    "campaign_id": "cmp_8f3a92bc",
+    "subject": "Your November Invoice is Ready",
+    "open_rate": 0.4821,
+    "click_rate": 0.1134,
+    "bounce_rate": 0.0072
+  },
+  "previewConfig": {
+    "title": "Your November Invoice is Ready",
+    "subtitle": "Campaign cmp_8f3a92bc",
+    "displayFields": ["campaign_id", "subject", "open_rate", "click_rate", "bounce_rate"]
+  }
+}

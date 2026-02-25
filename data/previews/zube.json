@@ -1,0 +1,16 @@
+{
+  "id": "zube",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticket_id": 4821,
+    "title": "Fix authentication token expiry bug",
+    "assignee": "maria.santos",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  "previewConfig": {
+    "title": "Zube Ticket #4821",
+    "subtitle": "Project management ticket details",
+    "displayFields": ["ticket_id", "title", "assignee", "priority", "status"]
+  }
+}

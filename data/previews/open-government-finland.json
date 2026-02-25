@@ -1,0 +1,20 @@
+{
+  "id": "open-government-finland",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "fmi-001", "title": "Finnish Meteorological Institute Weather Observations", "organization": "FMI", "format": "JSON", "updated": "2026-02-24" },
+      { "id": "stat-002", "title": "Population by Municipality 2025", "organization": "Statistics Finland", "format": "CSV", "updated": "2026-01-15" },
+      { "id": "nls-003", "title": "Topographic Database 1:10 000", "organization": "National Land Survey", "format": "GML", "updated": "2026-02-01" },
+      { "id": "thl-004", "title": "Hospital District Health Indicators", "organization": "THL", "format": "JSON", "updated": "2025-12-10" },
+      { "id": "trafi-005", "title": "Vehicle Registration Data Finland", "organization": "Traficom", "format": "XML", "updated": "2026-02-20" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Finland",
+    "subtitle": "Finnish public sector open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

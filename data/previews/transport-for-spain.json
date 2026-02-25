@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-spain",
+  "previewType": "card",
+  "sampleResponse": {
+    "trainNumber": "AVE 3042",
+    "origin": "Madrid Puerta de Atocha",
+    "destination": "Barcelona Sants",
+    "departureTime": "07:00",
+    "arrivalTime": "09:30"
+  },
+  "previewConfig": {
+    "title": "Transport for Spain",
+    "subtitle": "Renfe train schedule lookup",
+    "displayFields": ["trainNumber", "origin", "destination", "departureTime", "arrivalTime"]
+  }
+}

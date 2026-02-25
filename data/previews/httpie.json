@@ -1,0 +1,16 @@
+{
+  "id": "httpie",
+  "previewType": "card",
+  "sampleResponse": {
+    "status_code": 200,
+    "method": "GET",
+    "url": "https://api.example.com/users/42",
+    "content_type": "application/json",
+    "response_time_ms": 143
+  },
+  "previewConfig": {
+    "title": "HTTP Request Result",
+    "subtitle": "Inspect HTTP responses made through the HTTPie API client",
+    "displayFields": ["status_code", "method", "url", "content_type", "response_time_ms"]
+  }
+}

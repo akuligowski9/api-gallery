@@ -1,0 +1,20 @@
+{
+  "id": "university-of-oslo",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Arctic Climate Change Dataset 2019–2023", "department": "Geosciences", "year": "2023", "license": "CC BY 4.0", "doi": "10.18710/UOARC2023" },
+      { "title": "Norwegian Voter Behavior Survey", "department": "Political Science", "year": "2022", "license": "CC BY-NC 4.0", "doi": "10.18710/UONVB2022" },
+      { "title": "Marine Biodiversity Catalog", "department": "Biosciences", "year": "2023", "license": "CC BY 4.0", "doi": "10.18710/UOMBC2023" },
+      { "title": "Medieval Manuscript Corpus", "department": "Humanities", "year": "2021", "license": "CC0 1.0", "doi": "10.18710/UOMMC2021" },
+      { "title": "Health Economics Longitudinal Study", "department": "Medicine", "year": "2023", "license": "CC BY 4.0", "doi": "10.18710/UOHELS2023" }
+    ]
+  },
+  "previewConfig": {
+    "title": "University of Oslo",
+    "subtitle": "Academic Open Data",
+    "itemKey": "title",
+    "secondaryKey": "department",
+    "badgeKey": "year"
+  }
+}

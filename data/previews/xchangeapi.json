@@ -1,0 +1,16 @@
+{
+  "id": "xchangeapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "base": "USD",
+    "target": "EUR",
+    "rate": 0.9187,
+    "timestamp": "2024-11-14T12:00:00Z",
+    "source": "xChangeApi"
+  },
+  "previewConfig": {
+    "title": "Currency Exchange Rate",
+    "subtitle": "Live and historical foreign exchange rates via xChangeApi",
+    "displayFields": ["base", "target", "rate", "timestamp", "source"]
+  }
+}

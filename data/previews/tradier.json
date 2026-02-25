@@ -1,0 +1,16 @@
+{
+  "id": "tradier",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "AAPL",
+    "expiration": "2026-03-20",
+    "strike": 230.00,
+    "optionType": "call",
+    "lastPrice": 8.45
+  },
+  "previewConfig": {
+    "title": "Tradier",
+    "subtitle": "Stock options chain data",
+    "displayFields": ["symbol", "expiration", "strike", "optionType", "lastPrice"]
+  }
+}

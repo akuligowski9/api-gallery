@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-uk",
+  "previewType": "card",
+  "sampleResponse": {
+    "trainNumber": "GW1842",
+    "origin": "London Paddington",
+    "destination": "Bristol Temple Meads",
+    "scheduledDeparture": "14:32",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "National Rail Departure",
+    "subtitle": "Live train status from National Rail Enquiries",
+    "displayFields": ["trainNumber", "origin", "destination", "scheduledDeparture", "status"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "stockdata",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "AAPL",
+    "price": "189.30",
+    "open": "187.15",
+    "day_high": "190.22",
+    "day_low": "186.83"
+  },
+  "previewConfig": {
+    "title": "AAPL — Apple Inc.",
+    "subtitle": "Last price: $189.30",
+    "displayFields": ["ticker", "price", "open", "day_high", "day_low"]
+  }
+}

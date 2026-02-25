@@ -1,0 +1,16 @@
+{
+  "id": "geolocated",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "city": "Mountain View",
+    "region": "California",
+    "country": "US",
+    "timezone": "America/Los_Angeles"
+  },
+  "previewConfig": {
+    "title": "Geolocated",
+    "subtitle": "IP address geolocation result",
+    "displayFields": ["ip", "city", "region", "country", "timezone"]
+  }
+}

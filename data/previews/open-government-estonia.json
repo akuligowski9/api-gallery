@@ -1,0 +1,20 @@
+{
+  "id": "open-government-estonia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Population by County 2023", "organization": "Statistics Estonia", "format": "CSV", "updated": "2023-12-01", "license": "CC BY 4.0" },
+      { "title": "Public Transport Routes Tallinn", "organization": "Tallinn City", "format": "GTFS", "updated": "2024-01-08", "license": "ODbL" },
+      { "title": "Air Quality Monitoring Stations", "organization": "Estonian Environment Agency", "format": "JSON", "updated": "2024-01-10", "license": "CC BY 4.0" },
+      { "title": "Business Register Open Data", "organization": "Centre of Registers", "format": "XML", "updated": "2024-01-12", "license": "CC BY 4.0" },
+      { "title": "Estonian Topographic Database", "organization": "Land Board", "format": "GeoJSON", "updated": "2023-11-20", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Data",
+    "subtitle": "Estonian open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

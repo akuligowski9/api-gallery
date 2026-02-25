@@ -1,0 +1,16 @@
+{
+  "id": "ip2location-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "1.1.1.1",
+    "country_name": "Australia",
+    "region_name": "Queensland",
+    "city_name": "Brisbane",
+    "time_zone": "Australia/Brisbane"
+  },
+  "previewConfig": {
+    "title": "IP2Location.io",
+    "subtitle": "IP address detail lookup",
+    "displayFields": ["ip", "country_name", "region_name", "city_name", "time_zone"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pok-mon-tcg",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "base1-4", "name": "Charizard", "rarity": "Rare Holo", "set": "Base Set", "hp": 120 },
+      { "id": "base1-2", "name": "Blastoise", "rarity": "Rare Holo", "set": "Base Set", "hp": 100 },
+      { "id": "base1-15", "name": "Venusaur", "rarity": "Rare Holo", "set": "Base Set", "hp": 100 },
+      { "id": "swsh1-36", "name": "Pikachu V", "rarity": "Ultra Rare", "set": "Sword & Shield", "hp": 190 },
+      { "id": "sv1-201", "name": "Miraidon ex", "rarity": "Double Rare", "set": "Scarlet & Violet", "hp": 220 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Pokemon TCG",
+    "subtitle": "Trading card game card listings",
+    "itemKey": "name",
+    "secondaryKey": "set",
+    "badgeKey": "rarity"
+  }
+}

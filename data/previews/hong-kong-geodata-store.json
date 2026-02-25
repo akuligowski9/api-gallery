@@ -1,0 +1,16 @@
+{
+  "id": "hong-kong-geodata-store",
+  "previewType": "card",
+  "sampleResponse": {
+    "place_name": "Victoria Peak",
+    "district": "Central & Western",
+    "latitude": 22.2757,
+    "longitude": 114.1455,
+    "type": "Landmark"
+  },
+  "previewConfig": {
+    "title": "HK Geographic Feature",
+    "subtitle": "Authoritative geographic and spatial data for Hong Kong",
+    "displayFields": ["place_name", "district", "latitude", "longitude", "type"]
+  }
+}

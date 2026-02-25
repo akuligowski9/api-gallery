@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-finland",
+  "previewType": "card",
+  "sampleResponse": {
+    "stop_name": "Helsinki Rautatieasema",
+    "route": "Intercity 47",
+    "destination": "Oulu",
+    "departure_time": "15:08",
+    "track": "9"
+  },
+  "previewConfig": {
+    "title": "Helsinki Rautatieasema",
+    "subtitle": "IC 47 to Oulu — Track 9",
+    "displayFields": ["stop_name", "route", "destination", "departure_time", "track"]
+  }
+}

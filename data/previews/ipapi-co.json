@@ -1,0 +1,19 @@
+{
+  "id": "ipapi-co",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "city": "Mountain View",
+    "region": "California",
+    "country_name": "United States",
+    "org": "AS15169 Google LLC",
+    "latitude": 37.4056,
+    "longitude": -122.0775,
+    "timezone": "America/Los_Angeles"
+  },
+  "previewConfig": {
+    "title": "8.8.8.8",
+    "subtitle": "IP Geolocation via ipapi.co",
+    "displayFields": ["city", "region", "country_name", "org", "timezone"]
+  }
+}

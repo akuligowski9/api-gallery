@@ -1,0 +1,20 @@
+{
+  "id": "pok-api-graphql",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Charizard", "type": "Fire/Flying", "hp": "78", "generation": "Generation I", "is_legendary": "false" },
+      { "name": "Mewtwo", "type": "Psychic", "hp": "106", "generation": "Generation I", "is_legendary": "true" },
+      { "name": "Umbreon", "type": "Dark", "hp": "95", "generation": "Generation II", "is_legendary": "false" },
+      { "name": "Gardevoir", "type": "Psychic/Fairy", "hp": "68", "generation": "Generation III", "is_legendary": "false" },
+      { "name": "Lucario", "type": "Fighting/Steel", "hp": "70", "generation": "Generation IV", "is_legendary": "false" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Pokémon",
+    "subtitle": "PokéAPI GraphQL results",
+    "itemKey": "name",
+    "secondaryKey": "type",
+    "badgeKey": "generation"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ume-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset": "Umeå Cykelvägar", "category": "Infrastruktur", "format": "GeoJSON", "language": "sv", "updated": "2024-01-10" },
+      { "dataset": "Befolkningsstatistik Umeå", "category": "Demografi", "format": "CSV", "language": "sv", "updated": "2024-02-01" },
+      { "dataset": "Parkering i Umeå Centrum", "category": "Transport", "format": "JSON", "language": "sv", "updated": "2024-01-22" },
+      { "dataset": "Umeå Energiförbrukning", "category": "Miljö", "format": "CSV", "language": "sv", "updated": "2023-12-15" },
+      { "dataset": "Grundskolor och Förskolor", "category": "Utbildning", "format": "JSON", "language": "sv", "updated": "2023-11-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Umeå Open Data",
+    "subtitle": "Open datasets from Umeå municipality, Sweden",
+    "itemKey": "dataset",
+    "secondaryKey": "category",
+    "badgeKey": "format"
+  }
+}

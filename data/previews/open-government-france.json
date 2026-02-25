@@ -1,0 +1,20 @@
+{
+  "id": "open-government-france",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "fr-sirene-001", "title": "SIRENE Business Registry", "publisher": "INSEE", "format": "CSV", "records": 12000000 },
+      { "id": "fr-geo-002", "title": "French Administrative Boundaries", "publisher": "IGN", "format": "GeoJSON", "records": 36658 },
+      { "id": "fr-sante-003", "title": "National Health Insurance Spending Data", "publisher": "Assurance Maladie", "format": "JSON", "records": 850000 },
+      { "id": "fr-transport-004", "title": "National Public Transport GTFS Feed", "publisher": "transport.data.gouv.fr", "format": "GTFS", "records": 2400000 },
+      { "id": "fr-energie-005", "title": "Electricity Consumption by Region", "publisher": "RTE France", "format": "JSON", "records": 175000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government France",
+    "subtitle": "French open data portal datasets",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

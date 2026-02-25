@@ -1,0 +1,20 @@
+{
+  "id": "open-government-denmark",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_name": "Danish Building and Dwelling Register", "publisher": "Danish Energy Agency", "category": "Housing", "format": "JSON", "updated": "2024-10-14" },
+      { "dataset_name": "CVR Business Central Register", "publisher": "Danish Business Authority", "category": "Economy", "format": "CSV", "updated": "2024-11-20" },
+      { "dataset_name": "National Patient Registry", "publisher": "Danish Health Data Authority", "category": "Health", "format": "XML", "updated": "2024-09-01" },
+      { "dataset_name": "Topographic Map of Denmark", "publisher": "Agency for Data Supply and Infrastructure", "category": "Geography", "format": "GeoJSON", "updated": "2024-07-18" },
+      { "dataset_name": "Primary School Performance Data", "publisher": "Ministry of Children and Education", "category": "Education", "format": "CSV", "updated": "2024-06-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Denmark",
+    "subtitle": "Government Datasets",
+    "itemKey": "dataset_name",
+    "secondaryKey": "publisher",
+    "badgeKey": "category"
+  }
+}

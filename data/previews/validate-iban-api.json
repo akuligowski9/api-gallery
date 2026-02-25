@@ -1,0 +1,16 @@
+{
+  "id": "validate-iban-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "iban": "DE89370400440532013000",
+    "valid": true,
+    "country": "Germany",
+    "bank_name": "Commerzbank AG",
+    "bic": "COBADEFFXXX"
+  },
+  "previewConfig": {
+    "title": "Validate IBAN API",
+    "subtitle": "Validate IBAN numbers and retrieve associated bank and BIC details",
+    "displayFields": ["iban", "valid", "country", "bank_name", "bic"]
+  }
+}

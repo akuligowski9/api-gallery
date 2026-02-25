@@ -1,0 +1,16 @@
+{
+  "id": "hellosalut",
+  "previewType": "card",
+  "sampleResponse": {
+    "hello": "Bonjour",
+    "country": "France",
+    "country_code": "FR",
+    "lang": "fr",
+    "flag": "🇫🇷"
+  },
+  "previewConfig": {
+    "title": "Greeting by Country",
+    "subtitle": "Get localized greetings based on country or IP address",
+    "displayFields": ["hello", "country", "country_code", "lang", "flag"]
+  }
+}

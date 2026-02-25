@@ -1,0 +1,20 @@
+{
+  "id": "runescape",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "skill": "Attack", "rank": 142830, "level": 99, "xp": 13034431 },
+      { "skill": "Defence", "rank": 98241, "level": 99, "xp": 15820654 },
+      { "skill": "Strength", "rank": 201455, "level": 99, "xp": 14233900 },
+      { "skill": "Hitpoints", "rank": 87632, "level": 99, "xp": 18452210 },
+      { "skill": "Ranged", "rank": 310987, "level": 97, "xp": 10987432 }
+    ]
+  },
+  "previewConfig": {
+    "title": "RuneScape Hiscores",
+    "subtitle": "Player skill rankings and XP totals",
+    "itemKey": "skill",
+    "secondaryKey": "xp",
+    "badgeKey": "level"
+  }
+}

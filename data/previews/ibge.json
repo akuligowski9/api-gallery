@@ -1,0 +1,17 @@
+{
+  "id": "ibge",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": 3550308,
+    "nome": "São Paulo",
+    "microrregiao": "São Paulo",
+    "mesorregiao": "Metropolitana de São Paulo",
+    "populacao": 12396372,
+    "area_km2": 1521.11
+  },
+  "previewConfig": {
+    "title": "São Paulo",
+    "subtitle": "Município — Estado de São Paulo",
+    "displayFields": ["id", "nome", "microrregiao", "populacao", "area_km2"]
+  }
+}

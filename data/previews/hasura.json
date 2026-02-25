@@ -1,0 +1,16 @@
+{
+  "id": "hasura",
+  "previewType": "card",
+  "sampleResponse": {
+    "queryName": "GetUserOrders",
+    "userId": "usr_3e8d1f92b047c6a5",
+    "orderCount": 14,
+    "executionTimeMs": 12,
+    "cacheHit": true
+  },
+  "previewConfig": {
+    "title": "Hasura",
+    "subtitle": "GraphQL query execution result",
+    "displayFields": ["queryName", "userId", "orderCount", "executionTimeMs", "cacheHit"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pulsedive",
+  "previewType": "card",
+  "sampleResponse": {
+    "indicator": "185.220.101.47",
+    "type": "ip",
+    "risk": "high",
+    "threat": "Tor Exit Node",
+    "last_seen": "2026-02-24"
+  },
+  "previewConfig": {
+    "title": "indicator",
+    "subtitle": "threat",
+    "displayFields": ["indicator", "type", "risk", "threat", "last_seen"]
+  }
+}

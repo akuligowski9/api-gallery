@@ -1,0 +1,16 @@
+{
+  "id": "prexview",
+  "previewType": "card",
+  "sampleResponse": {
+    "transactionId": "txn_8f3a92c1d4e7b056",
+    "template": "invoice-modern",
+    "format": "PDF",
+    "status": "rendered",
+    "pages": 2
+  },
+  "previewConfig": {
+    "title": "PrexView",
+    "subtitle": "Document template rendering result",
+    "displayFields": ["transactionId", "template", "format", "status", "pages"]
+  }
+}

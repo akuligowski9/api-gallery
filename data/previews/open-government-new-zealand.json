@@ -1,0 +1,20 @@
+{
+  "id": "open-government-new-zealand",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "NZ Crime Statistics", "publisher": "NZ Police", "format": "CSV", "updated": "2024-10-22", "license": "CC BY 4.0" },
+      { "title": "Electoral District Boundaries", "publisher": "Electoral Commission", "format": "GeoJSON", "updated": "2024-07-14", "license": "CC BY 4.0" },
+      { "title": "DHB Health Expenditure", "publisher": "Ministry of Health", "format": "XLSX", "updated": "2024-09-30", "license": "CC BY 4.0" },
+      { "title": "Public Transport Routes", "publisher": "Auckland Transport", "format": "GTFS", "updated": "2024-11-05", "license": "CC BY 4.0" },
+      { "title": "Building Consents Issued", "publisher": "Stats NZ", "format": "CSV", "updated": "2024-12-03", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government New Zealand",
+    "subtitle": "New Zealand government open data portal",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "kakao-maps",
+  "previewType": "card",
+  "sampleResponse": {
+    "place_name": "카카오 본사",
+    "address_name": "제주특별자치도 제주시 첨단로 242",
+    "category_name": "IT, 과학 > 인터넷, 모바일",
+    "x": "126.7713861",
+    "y": "33.4507905"
+  },
+  "previewConfig": {
+    "title": "카카오 본사",
+    "subtitle": "Kakao Maps Place Search",
+    "displayFields": ["place_name", "address_name", "category_name", "x", "y"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pandadoc",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "LmpWnuBpqP66vnsm8gQkXd",
+    "name": "Software License Agreement — Acme Corp",
+    "status": "document.waiting_approval",
+    "date_created": "2024-11-19T16:04:31Z",
+    "expiration_date": "2025-01-19"
+  },
+  "previewConfig": {
+    "title": "Software License Agreement — Acme Corp",
+    "subtitle": "Waiting for approval",
+    "displayFields": ["id", "name", "status", "date_created", "expiration_date"]
+  }
+}

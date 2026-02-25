@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-sao-paulo-brazil",
+  "previewType": "card",
+  "sampleResponse": {
+    "lineId": "702",
+    "lineName": "702 - Campo Limpo / Terminal Bandeira",
+    "vehicleId": "SP-14023",
+    "latitude": -23.5531,
+    "longitude": -46.6604
+  },
+  "previewConfig": {
+    "title": "Transport for São Paulo",
+    "subtitle": "SPTrans real-time bus position",
+    "displayFields": ["lineId", "lineName", "vehicleId", "latitude", "longitude"]
+  }
+}

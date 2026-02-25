@@ -1,0 +1,19 @@
+{
+  "id": "valorant-non-official",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "PhoenixBlaze#NA1",
+    "rank": "Diamond 2",
+    "rr": 78,
+    "region": "NA",
+    "peakRank": "Immortal 1",
+    "winRate": "54.2%",
+    "kda": "1.38",
+    "mostPlayedAgent": "Jett"
+  },
+  "previewConfig": {
+    "title": "PhoenixBlaze#NA1",
+    "subtitle": "Valorant player rank and stats",
+    "displayFields": ["rank", "rr", "peakRank", "winRate", "kda"]
+  }
+}

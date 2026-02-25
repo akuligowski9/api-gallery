@@ -1,0 +1,16 @@
+{
+  "id": "image-charts",
+  "previewType": "card",
+  "sampleResponse": {
+    "chartUrl": "https://image-charts.com/chart?cht=bvs&chs=700x300&chd=t:60,40,50,70,30",
+    "chartType": "Bar (Vertical Stacked)",
+    "dimensions": "700x300",
+    "format": "PNG",
+    "cacheKey": "bvs_abc123def456"
+  },
+  "previewConfig": {
+    "title": "Image-Charts",
+    "subtitle": "Chart image generation response",
+    "displayFields": ["chartUrl", "chartType", "dimensions", "format", "cacheKey"]
+  }
+}

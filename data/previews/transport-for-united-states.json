@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-united-states",
+  "previewType": "card",
+  "sampleResponse": {
+    "trainNumber": "Amtrak 175",
+    "routeName": "Northeast Regional",
+    "origin": "New York Penn Station",
+    "destination": "Washington Union Station",
+    "estimatedArrival": "16:48"
+  },
+  "previewConfig": {
+    "title": "Amtrak Train Status",
+    "subtitle": "Real-time Amtrak intercity rail information",
+    "displayFields": ["trainNumber", "routeName", "origin", "destination", "estimatedArrival"]
+  }
+}

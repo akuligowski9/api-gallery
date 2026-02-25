@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-paris-france",
+  "previewType": "card",
+  "sampleResponse": {
+    "line": "M14",
+    "direction": "Olympiades",
+    "station": "Gare de Lyon",
+    "next_train_in_seconds": 87,
+    "destination": "Olympiades"
+  },
+  "previewConfig": {
+    "title": "RATP Metro Line 14",
+    "subtitle": "Paris metro real-time next train information",
+    "displayFields": ["line", "direction", "station", "next_train_in_seconds", "destination"]
+  }
+}

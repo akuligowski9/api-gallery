@@ -1,0 +1,16 @@
+{
+  "id": "wargaming-net",
+  "previewType": "card",
+  "sampleResponse": {
+    "nickname": "TankAce88",
+    "battles": 4217,
+    "wins": 2381,
+    "winRate": "56.47%",
+    "avgDamage": 1843
+  },
+  "previewConfig": {
+    "title": "World of Tanks Player Stats",
+    "subtitle": "Account statistics from Wargaming.net API",
+    "displayFields": ["nickname", "battles", "wins", "winRate", "avgDamage"]
+  }
+}

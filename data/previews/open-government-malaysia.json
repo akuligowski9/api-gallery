@@ -1,0 +1,20 @@
+{
+  "id": "open-government-malaysia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Population by State 2023", "organization": "Department of Statistics Malaysia", "category": "Demographics", "format": "CSV", "updated": "2023-11-15" },
+      { "title": "Monthly Consumer Price Index", "organization": "Ministry of Finance", "category": "Economy", "format": "JSON", "updated": "2023-12-01" },
+      { "title": "Public Hospital Bed Capacity", "organization": "Ministry of Health", "category": "Health", "format": "XLSX", "updated": "2023-10-20" },
+      { "title": "Road Accident Statistics 2022", "organization": "Royal Malaysia Police", "category": "Safety", "format": "CSV", "updated": "2023-09-05" },
+      { "title": "Primary School Enrollment Rates", "organization": "Ministry of Education", "category": "Education", "format": "JSON", "updated": "2023-11-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Malaysia",
+    "subtitle": "Malaysian public datasets from data.gov.my",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

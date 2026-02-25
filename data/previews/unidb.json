@@ -1,0 +1,16 @@
+{
+  "id": "unidb",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "ETH Zurich",
+    "country": "Switzerland",
+    "web_page": "https://www.ethz.ch",
+    "alpha_two_code": "CH",
+    "domains": "ethz.ch"
+  },
+  "previewConfig": {
+    "title": "name",
+    "subtitle": "country",
+    "displayFields": ["name", "country", "web_page", "alpha_two_code", "domains"]
+  }
+}

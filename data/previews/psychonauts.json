@@ -1,0 +1,16 @@
+{
+  "id": "psychonauts",
+  "previewType": "card",
+  "sampleResponse": {
+    "characterId": "raz-aquato",
+    "name": "Razputin Aquato",
+    "affiliation": "Psychonauts",
+    "ability": "Telekinesis",
+    "rank": "Psychonaut Agent"
+  },
+  "previewConfig": {
+    "title": "Psychonauts",
+    "subtitle": "Psychonauts game character data",
+    "displayFields": ["characterId", "name", "affiliation", "ability", "rank"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "universalis",
+  "previewType": "card",
+  "sampleResponse": {
+    "itemName": "Rarefied Titanium Ingot",
+    "world": "Balmung",
+    "averagePrice": 4250,
+    "minPrice": 3800,
+    "maxPrice": 5100,
+    "lastUploadTime": "2024-03-15T08:12:00Z",
+    "listings": 14
+  },
+  "previewConfig": {
+    "title": "Rarefied Titanium Ingot",
+    "subtitle": "FFXIV Market Board — Balmung",
+    "displayFields": ["averagePrice", "minPrice", "maxPrice", "listings", "lastUploadTime"]
+  }
+}

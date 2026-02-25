@@ -1,0 +1,20 @@
+{
+  "id": "open-government-india",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Annual Rainfall Data by District", "category": "Climate", "format": "CSV", "updated": "2024-11-01", "publisher": "India Meteorological Department" },
+      { "title": "National Highway Network GIS Data", "category": "Transport", "format": "GeoJSON", "updated": "2024-10-15", "publisher": "Ministry of Road Transport" },
+      { "title": "Census 2011 Population by State", "category": "Demographics", "format": "JSON", "updated": "2023-06-30", "publisher": "Office of the Registrar General" },
+      { "title": "Agricultural Crop Production Statistics", "category": "Agriculture", "format": "XLSX", "updated": "2024-09-20", "publisher": "Ministry of Agriculture" },
+      { "title": "Air Quality Index - Major Cities", "category": "Environment", "format": "JSON", "updated": "2024-11-10", "publisher": "Central Pollution Control Board" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government India Datasets",
+    "subtitle": "Browse open datasets published by Indian government ministries",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "category"
+  }
+}

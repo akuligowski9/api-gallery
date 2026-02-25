@@ -1,0 +1,16 @@
+{
+  "id": "poker-odds-equity-ev-calculator-advice",
+  "previewType": "card",
+  "sampleResponse": {
+    "hand": "Ace of Spades, King of Spades",
+    "board": "Qd Jh Ts",
+    "equity_pct": 87.4,
+    "outs": 20,
+    "recommended_action": "Raise for value"
+  },
+  "previewConfig": {
+    "title": "Poker Hand Analysis",
+    "subtitle": "Odds & Equity",
+    "displayFields": ["hand", "board", "equity_pct", "outs", "recommended_action"]
+  }
+}

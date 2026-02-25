@@ -1,0 +1,16 @@
+{
+  "id": "validate-swift-bic",
+  "previewType": "card",
+  "sampleResponse": {
+    "swift_code": "DEUTDEDB",
+    "bank_name": "Deutsche Bank AG",
+    "country": "Germany",
+    "city": "Frankfurt am Main",
+    "valid": true
+  },
+  "previewConfig": {
+    "title": "SWIFT/BIC Validation",
+    "subtitle": "Validate and look up bank SWIFT/BIC codes worldwide",
+    "displayFields": ["swift_code", "bank_name", "country", "city", "valid"]
+  }
+}

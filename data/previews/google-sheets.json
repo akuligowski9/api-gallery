@@ -1,0 +1,16 @@
+{
+  "id": "google-sheets",
+  "previewType": "card",
+  "sampleResponse": {
+    "spreadsheet_id": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms",
+    "sheet_title": "Q1 Sales Report",
+    "cell_range": "A1:E50",
+    "row_count": "50",
+    "last_modified": "2024-01-14T09:45:00Z"
+  },
+  "previewConfig": {
+    "title": "Q1 Sales Report",
+    "subtitle": "Range A1:E50 — 50 rows",
+    "displayFields": ["spreadsheet_id", "sheet_title", "cell_range", "row_count", "last_modified"]
+  }
+}

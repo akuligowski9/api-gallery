@@ -1,0 +1,16 @@
+{
+  "id": "whoisfreaks",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain_name": "github.com",
+    "registrar": "MarkMonitor Inc.",
+    "creation_date": "2007-10-09",
+    "expiry_date": "2025-10-09",
+    "registrant_org": "GitHub, Inc."
+  },
+  "previewConfig": {
+    "title": "github.com",
+    "subtitle": "Registered via MarkMonitor Inc.",
+    "displayFields": ["domain_name", "registrar", "creation_date", "expiry_date", "registrant_org"]
+  }
+}

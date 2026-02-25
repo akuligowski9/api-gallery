@@ -1,0 +1,16 @@
+{
+  "id": "vertopal",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "vtpl_a3f9c21b8e04",
+    "input_format": "DOCX",
+    "output_format": "PDF",
+    "file_size_kb": 284,
+    "status": "completed"
+  },
+  "previewConfig": {
+    "title": "File Format Conversion",
+    "subtitle": "Convert documents and files between formats with Vertopal",
+    "displayFields": ["job_id", "input_format", "output_format", "file_size_kb", "status"]
+  }
+}

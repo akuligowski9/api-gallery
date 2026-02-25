@@ -1,0 +1,16 @@
+{
+  "id": "google-firebase",
+  "previewType": "card",
+  "sampleResponse": {
+    "node_path": "/users/uid_7k2mP9xQr/profile",
+    "display_name": "Alex Rivera",
+    "email": "alex.rivera@example.com",
+    "created_at": "2025-08-14T09:22:11Z",
+    "last_login": "2026-02-25T07:41:03Z"
+  },
+  "previewConfig": {
+    "title": "display_name",
+    "subtitle": "email",
+    "displayFields": ["node_path", "display_name", "email", "created_at", "last_login"]
+  }
+}

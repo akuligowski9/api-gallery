@@ -1,0 +1,16 @@
+{
+  "id": "webpdf",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "pdf_a3f92b1c",
+    "source_url": "https://example.com/report",
+    "pages": 12,
+    "file_size_kb": 348,
+    "download_url": "https://cdn.webpdf.io/files/pdf_a3f92b1c.pdf"
+  },
+  "previewConfig": {
+    "title": "WebPDF Conversion",
+    "subtitle": "Web page to PDF rendering result",
+    "displayFields": ["job_id", "source_url", "pages", "file_size_kb", "download_url"]
+  }
+}

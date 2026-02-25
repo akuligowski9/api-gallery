@@ -1,0 +1,16 @@
+{
+  "id": "geodata-gov-gr",
+  "previewType": "card",
+  "sampleResponse": {
+    "place_id": "GR-ATT-10431",
+    "name": "Syntagma Square",
+    "municipality": "Athens",
+    "region": "Attica",
+    "coordinates": "37.9755° N, 23.7348° E"
+  },
+  "previewConfig": {
+    "title": "Syntagma Square",
+    "subtitle": "Athens, Attica",
+    "displayFields": ["place_id", "name", "municipality", "region", "coordinates"]
+  }
+}

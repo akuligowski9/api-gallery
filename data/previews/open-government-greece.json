@@ -1,0 +1,20 @@
+{
+  "id": "open-government-greece",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Dimotologio - Municipal Registry Data", "organization": "Ministry of Interior", "format": "CSV", "license": "CC-BY-4.0", "updated": "2025-03-12" },
+      { "name": "Katastasi Ethnikis Odou", "organization": "Hellenic Road Authority", "format": "GeoJSON", "license": "CC-BY-4.0", "updated": "2025-08-05" },
+      { "name": "Statistika Touristikon Arrivals", "organization": "SETE - Tourism Confederation", "format": "JSON", "license": "CC-BY-SA-4.0", "updated": "2026-01-20" },
+      { "name": "Apovathmisi Energeiakis Apodosis", "organization": "KAPEN", "format": "XML", "license": "CC-BY-4.0", "updated": "2025-11-18" },
+      { "name": "Diafaneia - Public Spending Records", "organization": "Ministry of Finance", "format": "CSV", "license": "CC-BY-4.0", "updated": "2026-02-10" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Greece API",
+    "subtitle": "Access open datasets from Greek government ministries and public bodies",
+    "itemKey": "name",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

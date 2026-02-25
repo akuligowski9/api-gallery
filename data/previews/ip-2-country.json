@@ -1,0 +1,16 @@
+{
+  "id": "ip-2-country",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "country_code": "US",
+    "country_name": "United States",
+    "continent": "North America",
+    "is_eu": false
+  },
+  "previewConfig": {
+    "title": "IP 2 Country Lookup",
+    "subtitle": "Resolve an IP address to its country of origin",
+    "displayFields": ["ip", "country_code", "country_name", "continent", "is_eu"]
+  }
+}

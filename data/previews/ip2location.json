@@ -1,0 +1,16 @@
+{
+  "id": "ip2location",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "countryName": "United States",
+    "regionName": "California",
+    "cityName": "Mountain View",
+    "isp": "Google LLC"
+  },
+  "previewConfig": {
+    "title": "IP2Location",
+    "subtitle": "IP address geolocation lookup",
+    "displayFields": ["ip", "countryName", "regionName", "cityName", "isp"]
+  }
+}

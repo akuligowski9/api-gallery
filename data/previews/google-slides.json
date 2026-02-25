@@ -1,0 +1,16 @@
+{
+  "id": "google-slides",
+  "previewType": "card",
+  "sampleResponse": {
+    "presentationId": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms",
+    "title": "Q4 2025 Product Roadmap",
+    "locale": "en",
+    "pageSize": "WIDESCREEN",
+    "slideCount": 24
+  },
+  "previewConfig": {
+    "title": "Google Slides",
+    "subtitle": "Presentation metadata from the Slides API",
+    "displayFields": ["presentationId", "title", "locale", "pageSize", "slideCount"]
+  }
+}

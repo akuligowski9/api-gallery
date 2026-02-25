@@ -1,0 +1,16 @@
+{
+  "id": "sakura-cardcaptor",
+  "previewType": "card",
+  "sampleResponse": {
+    "card_name": "The Windy",
+    "card_type": "Elemental",
+    "element": "Wind",
+    "first_captured_episode": 1,
+    "rarity": "Rare"
+  },
+  "previewConfig": {
+    "title": "The Windy — Clow Card",
+    "subtitle": "Cardcaptor Sakura card details",
+    "displayFields": ["card_name", "card_type", "element", "first_captured_episode", "rarity"]
+  }
+}

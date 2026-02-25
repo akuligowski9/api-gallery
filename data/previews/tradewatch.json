@@ -1,0 +1,16 @@
+{
+  "id": "tradewatch",
+  "previewType": "card",
+  "sampleResponse": {
+    "alertId": "tw_9b2d4f1e8c630a75",
+    "symbol": "NVDA",
+    "alertType": "price_breakout",
+    "triggerPrice": 142.50,
+    "triggeredAt": "2026-02-25T14:32:07Z"
+  },
+  "previewConfig": {
+    "title": "TradeWatch",
+    "subtitle": "Trade alert notification data",
+    "displayFields": ["alertId", "symbol", "alertType", "triggerPrice", "triggeredAt"]
+  }
+}

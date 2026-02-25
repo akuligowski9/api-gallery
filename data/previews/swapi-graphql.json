@@ -1,0 +1,20 @@
+{
+  "id": "swapi-graphql",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Human", "classification": "mammal", "homeworld": "Coruscant", "average_lifespan": "120", "language": "Galactic Basic" },
+      { "name": "Wookiee", "classification": "mammal", "homeworld": "Kashyyyk", "average_lifespan": "400", "language": "Shyriiwook" },
+      { "name": "Twi'lek", "classification": "mammals", "homeworld": "Ryloth", "average_lifespan": "unknown", "language": "Twi'leki" },
+      { "name": "Rodian", "classification": "sentient", "homeworld": "Rodia", "average_lifespan": "unknown", "language": "Rodese" },
+      { "name": "Hutt", "classification": "gastropod", "homeworld": "Nal Hutta", "average_lifespan": "1000", "language": "Huttese" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Star Wars Species",
+    "subtitle": "SWAPI GraphQL endpoint",
+    "itemKey": "name",
+    "secondaryKey": "homeworld",
+    "badgeKey": "classification"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-government-germany",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Bundestagswahl 2021 Ergebnisse", "organization": "Bundeswahlleiter", "format": "CSV", "license": "DL-DE-BY-2.0", "updated": "2021-11-10" },
+      { "name": "Bevoelkerung nach Bundeslaendern", "organization": "Statistisches Bundesamt", "format": "JSON", "license": "DL-DE-Zero-2.0", "updated": "2025-01-15" },
+      { "name": "Luftqualitaetsdaten Deutschland", "organization": "Umweltbundesamt", "format": "XML", "license": "DL-DE-BY-2.0", "updated": "2026-02-01" },
+      { "name": "Autobahnnetz Geodaten", "organization": "Autobahn GmbH", "format": "GeoJSON", "license": "DL-DE-Zero-2.0", "updated": "2025-06-20" },
+      { "name": "Breitbandatlas Verfuegbarkeit", "organization": "Bundesnetzagentur", "format": "CSV", "license": "DL-DE-BY-2.0", "updated": "2025-09-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Germany API",
+    "subtitle": "Access open datasets published by German federal and state authorities",
+    "itemKey": "name",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

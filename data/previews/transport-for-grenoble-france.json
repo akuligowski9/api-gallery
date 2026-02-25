@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-grenoble-france",
+  "previewType": "card",
+  "sampleResponse": {
+    "lineId": "TAG-C1",
+    "lineName": "Tram C",
+    "stopName": "Victor Hugo",
+    "nextArrival": "3 min",
+    "direction": "Seyssins"
+  },
+  "previewConfig": {
+    "title": "Transport for Grenoble",
+    "subtitle": "TAG real-time tram and bus arrivals",
+    "displayFields": ["lineId", "lineName", "stopName", "nextArrival", "direction"]
+  }
+}

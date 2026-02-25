@@ -1,0 +1,20 @@
+{
+  "id": "moogleapi",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Cloud Strife", "game": "Final Fantasy VII", "job": "SOLDIER", "hp": 3500, "element": "None" },
+      { "name": "Terra Branford", "game": "Final Fantasy VI", "job": "Magic User", "hp": 2640, "element": "Fire" },
+      { "name": "Tidus", "game": "Final Fantasy X", "job": "Blitzball Player", "hp": 3150, "element": "None" },
+      { "name": "Lightning", "game": "Final Fantasy XIII", "job": "Commando", "hp": 3200, "element": "Lightning" },
+      { "name": "Noctis Lucis Caelum", "game": "Final Fantasy XV", "job": "King", "hp": 3800, "element": "None" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Final Fantasy Characters",
+    "subtitle": "moogleAPI character database",
+    "itemKey": "name",
+    "secondaryKey": "game",
+    "badgeKey": "job"
+  }
+}

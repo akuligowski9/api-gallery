@@ -1,0 +1,16 @@
+{
+  "id": "renderpdf-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "jobId": "rpdf_4c8e1a2b9d3f7056",
+    "url": "https://cdn.renderpdf.io/output/rpdf_4c8e1a2b9d3f7056.pdf",
+    "pages": 5,
+    "fileSizeKb": 342,
+    "status": "complete"
+  },
+  "previewConfig": {
+    "title": "RenderPDF.io",
+    "subtitle": "HTML to PDF rendering job result",
+    "displayFields": ["jobId", "url", "pages", "fileSizeKb", "status"]
+  }
+}

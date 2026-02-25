@@ -1,0 +1,16 @@
+{
+  "id": "ipfind-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip_address": "93.184.216.34",
+    "country": "United States",
+    "region": "Massachusetts",
+    "city": "Norwood",
+    "timezone": "America/New_York"
+  },
+  "previewConfig": {
+    "title": "IP Lookup Result",
+    "subtitle": "Geographic and network data for an IP address",
+    "displayFields": ["ip_address", "country", "region", "city", "timezone"]
+  }
+}

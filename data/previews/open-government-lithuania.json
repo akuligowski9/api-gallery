@@ -1,0 +1,20 @@
+{
+  "id": "open-government-lithuania",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "datasetId": "gov-lt-4821", "title": "Population Statistics by Municipality 2024", "publisher": "Statistics Lithuania", "format": "CSV", "license": "CC BY 4.0" },
+      { "datasetId": "gov-lt-3317", "title": "Public Transport Routes and Timetables", "publisher": "Ministry of Transport and Communications", "format": "GTFS", "license": "Open Data" },
+      { "datasetId": "gov-lt-5503", "title": "Agricultural Land Use and Crop Production", "publisher": "State Enterprise Centre of Registers", "format": "JSON", "license": "CC BY 4.0" },
+      { "datasetId": "gov-lt-2894", "title": "Registered Businesses by Economic Activity", "publisher": "Register of Legal Entities", "format": "XML", "license": "Open Data" },
+      { "datasetId": "gov-lt-6210", "title": "Air Quality Index Measurements by City", "publisher": "Environmental Protection Agency", "format": "JSON", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Lithuania",
+    "subtitle": "Lithuanian open data portal datasets",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

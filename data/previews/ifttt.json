@@ -1,0 +1,16 @@
+{
+  "id": "ifttt",
+  "previewType": "card",
+  "sampleResponse": {
+    "appletId": "apl_4xQr9mKj",
+    "name": "If new email from boss, then send SMS notification",
+    "status": "enabled",
+    "triggeredAt": "2024-11-22T14:35:00Z",
+    "runCount": 248
+  },
+  "previewConfig": {
+    "title": "IFTTT",
+    "subtitle": "Applet trigger response",
+    "displayFields": ["appletId", "name", "status", "triggeredAt", "runCount"]
+  }
+}

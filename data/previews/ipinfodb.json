@@ -1,0 +1,16 @@
+{
+  "id": "ipinfodb",
+  "previewType": "card",
+  "sampleResponse": {
+    "ipAddress": "8.8.8.8",
+    "countryName": "United States",
+    "regionName": "California",
+    "cityName": "Mountain View",
+    "zipCode": "94043"
+  },
+  "previewConfig": {
+    "title": "IP Geolocation",
+    "subtitle": "Location data resolved from IP address via IPInfoDB",
+    "displayFields": ["ipAddress", "countryName", "regionName", "cityName", "zipCode"]
+  }
+}

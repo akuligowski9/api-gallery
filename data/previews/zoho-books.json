@@ -1,0 +1,16 @@
+{
+  "id": "zoho-books",
+  "previewType": "card",
+  "sampleResponse": {
+    "invoice_id": "INV-000182",
+    "customer_name": "Acme Corp",
+    "due_date": "2025-04-01",
+    "total": 4250.00,
+    "status": "Sent"
+  },
+  "previewConfig": {
+    "title": "Zoho Books Invoice",
+    "subtitle": "Invoice summary from Zoho Books accounting",
+    "displayFields": ["invoice_id", "customer_name", "due_date", "total", "status"]
+  }
+}

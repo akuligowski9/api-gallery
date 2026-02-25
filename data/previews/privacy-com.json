@@ -1,0 +1,16 @@
+{
+  "id": "privacy-com",
+  "previewType": "card",
+  "sampleResponse": {
+    "card_token": "prv_4xK9mN2bQwLpRt7c",
+    "last_four": "8341",
+    "spend_limit": 25.00,
+    "state": "OPEN",
+    "merchant_locked": "Netflix"
+  },
+  "previewConfig": {
+    "title": "Privacy.com",
+    "subtitle": "Virtual payment card details",
+    "displayFields": ["card_token", "last_four", "spend_limit", "state", "merchant_locked"]
+  }
+}

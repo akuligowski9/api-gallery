@@ -1,0 +1,19 @@
+{
+  "id": "transport-for-switzerland",
+  "previewType": "card",
+  "sampleResponse": {
+    "train": "IC 1 514",
+    "from": "Zürich HB",
+    "to": "Geneva Airport",
+    "departure": "08:32",
+    "platform": "7",
+    "duration": "2h 48m",
+    "operator": "SBB CFF FFS",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "IC 1 514",
+    "subtitle": "Zürich HB → Geneva Airport",
+    "displayFields": ["departure", "platform", "duration", "operator", "status"]
+  }
+}

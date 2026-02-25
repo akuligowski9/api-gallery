@@ -1,0 +1,20 @@
+{
+  "id": "open-government-mexico",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Padrón de Beneficiarios Sembrando Vida", "organization": "SADER", "category": "Agriculture", "format": "CSV", "updated": "2023-10-31" },
+      { "title": "Casos Confirmados COVID-19", "organization": "Secretaría de Salud", "category": "Health", "format": "CSV", "updated": "2023-12-01" },
+      { "title": "Directorio de Escuelas Públicas", "organization": "SEP", "category": "Education", "format": "JSON", "updated": "2023-11-15" },
+      { "title": "Delitos del Fuero Común 2023", "organization": "SESNSP", "category": "Security", "format": "XLSX", "updated": "2023-11-01" },
+      { "title": "Exportaciones por Sector Económico", "organization": "SE", "category": "Economy", "format": "CSV", "updated": "2023-12-05" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Mexico",
+    "subtitle": "Mexican public datasets from datos.gob.mx",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

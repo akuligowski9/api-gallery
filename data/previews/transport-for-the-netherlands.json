@@ -1,0 +1,19 @@
+{
+  "id": "transport-for-the-netherlands",
+  "previewType": "card",
+  "sampleResponse": {
+    "train": "Intercity 9321",
+    "from": "Amsterdam Centraal",
+    "to": "Rotterdam Centraal",
+    "departure": "14:17",
+    "track": "5b",
+    "travelTime": "40 min",
+    "operator": "NS",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "Intercity 9321",
+    "subtitle": "Amsterdam Centraal → Rotterdam Centraal",
+    "displayFields": ["departure", "track", "travelTime", "operator", "status"]
+  }
+}

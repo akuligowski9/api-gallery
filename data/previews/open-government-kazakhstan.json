@@ -1,0 +1,20 @@
+{
+  "id": "open-government-kazakhstan",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Population by Region 2024", "organization": "Bureau of National Statistics", "format": "CSV", "updated": "2024-10-20", "license": "Open Data KZ" },
+      { "title": "Agricultural Land Use Data", "organization": "Ministry of Agriculture", "format": "XLSX", "updated": "2024-08-14", "license": "Open Data KZ" },
+      { "title": "Public Transport Routes — Almaty", "organization": "Almaty City Akimat", "format": "JSON", "updated": "2024-12-05", "license": "CC BY 4.0" },
+      { "title": "Air Quality Monitoring Stations", "organization": "Ministry of Ecology", "format": "JSON", "updated": "2025-01-17", "license": "Open Data KZ" },
+      { "title": "National Budget Expenditures", "organization": "Ministry of Finance", "format": "CSV", "updated": "2024-11-30", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Kazakhstan",
+    "subtitle": "Kazakhstan public open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "geojs",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "country": "United States",
+    "region": "California",
+    "city": "Mountain View",
+    "timezone": "America/Los_Angeles"
+  },
+  "previewConfig": {
+    "title": "8.8.8.8",
+    "subtitle": "Mountain View, California, US",
+    "displayFields": ["ip", "country", "region", "city", "timezone"]
+  }
+}

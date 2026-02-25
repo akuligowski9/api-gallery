@@ -1,0 +1,16 @@
+{
+  "id": "unplugg",
+  "previewType": "card",
+  "sampleResponse": {
+    "recommended_title": "The Pragmatic Programmer: 20th Anniversary Edition",
+    "content_type": "book",
+    "relevance_score": 0.94,
+    "reason": "Matches interest profile: software engineering, best practices, career growth",
+    "affiliate_url": "https://unplugg.io/r/pragmatic-programmer-20th"
+  },
+  "previewConfig": {
+    "title": "Unplugg",
+    "subtitle": "AI-driven content recommendation",
+    "displayFields": ["recommended_title", "content_type", "relevance_score", "reason", "affiliate_url"]
+  }
+}

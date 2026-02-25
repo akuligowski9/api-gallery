@@ -1,0 +1,16 @@
+{
+  "id": "geoplugin",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "city": "Mountain View",
+    "region": "California",
+    "country": "United States",
+    "currency_code": "USD"
+  },
+  "previewConfig": {
+    "title": "geoPlugin IP Geolocation API",
+    "subtitle": "Geolocate any IP address with city, region, and currency data",
+    "displayFields": ["ip", "city", "region", "country", "currency_code"]
+  }
+}

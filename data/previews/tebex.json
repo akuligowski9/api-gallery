@@ -1,0 +1,16 @@
+{
+  "id": "tebex",
+  "previewType": "card",
+  "sampleResponse": {
+    "packageId": 8841203,
+    "name": "VIP Rank - 30 Days",
+    "price": "9.99",
+    "currency": "USD",
+    "category": "Ranks & Perks"
+  },
+  "previewConfig": {
+    "title": "Tebex",
+    "subtitle": "Game server store package details",
+    "displayFields": ["packageId", "name", "price", "currency", "category"]
+  }
+}

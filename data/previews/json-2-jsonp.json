@@ -1,0 +1,16 @@
+{
+  "id": "json-2-jsonp",
+  "previewType": "card",
+  "sampleResponse": {
+    "callback": "myCallback",
+    "url": "https://api.example.com/data",
+    "status": 200,
+    "contentType": "application/javascript",
+    "size": 1452
+  },
+  "previewConfig": {
+    "title": "myCallback",
+    "subtitle": "JSON to JSONP Wrapper",
+    "displayFields": ["callback", "url", "status", "contentType", "size"]
+  }
+}

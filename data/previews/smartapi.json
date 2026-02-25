@@ -1,0 +1,16 @@
+{
+  "id": "smartapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "last_price": "2847.55",
+    "change_percent": "+1.23",
+    "volume": "4823901"
+  },
+  "previewConfig": {
+    "title": "RELIANCE",
+    "subtitle": "NSE — Last: ₹2,847.55",
+    "displayFields": ["symbol", "exchange", "last_price", "change_percent", "volume"]
+  }
+}

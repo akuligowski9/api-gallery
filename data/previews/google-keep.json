@@ -1,0 +1,16 @@
+{
+  "id": "google-keep",
+  "previewType": "card",
+  "sampleResponse": {
+    "note_id": "1712345678901.234567890",
+    "title": "Project Ideas Q1",
+    "snippet": "1. Revamp onboarding flow 2. Add dark mode 3. Improve search",
+    "color": "TEAL",
+    "updated": "2024-01-15T10:23:00Z"
+  },
+  "previewConfig": {
+    "title": "Project Ideas Q1",
+    "subtitle": "Updated Jan 15, 2024",
+    "displayFields": ["note_id", "title", "snippet", "color", "updated"]
+  }
+}

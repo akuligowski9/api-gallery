@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-honolulu-us",
+  "previewType": "card",
+  "sampleResponse": {
+    "route_id": "8",
+    "route_name": "Waikiki - Ala Moana",
+    "next_arrival_minutes": 7,
+    "stop_name": "Kuhio Ave + Kalaimoku St",
+    "vehicle_occupancy": "Low"
+  },
+  "previewConfig": {
+    "title": "Transport for Honolulu (TheBus) API",
+    "subtitle": "Real-time arrivals and route data for Honolulu's TheBus transit system",
+    "displayFields": ["route_id", "route_name", "next_arrival_minutes", "stop_name", "vehicle_occupancy"]
+  }
+}

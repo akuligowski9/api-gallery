@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-hessen-germany",
+  "previewType": "card",
+  "sampleResponse": {
+    "lineNumber": "S3",
+    "lineName": "S-Bahn S3",
+    "stopName": "Frankfurt (Main) Hbf",
+    "scheduledDeparture": "2026-02-25T16:14:00+01:00",
+    "delayMinutes": 2
+  },
+  "previewConfig": {
+    "title": "Transport for Hessen",
+    "subtitle": "RMV real-time departure board",
+    "displayFields": ["lineNumber", "lineName", "stopName", "scheduledDeparture", "delayMinutes"]
+  }
+}

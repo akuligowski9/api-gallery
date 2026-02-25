@@ -1,0 +1,16 @@
+{
+  "id": "pubg",
+  "previewType": "card",
+  "sampleResponse": {
+    "player_name": "shroud",
+    "matches_played": 3482,
+    "win_rate_percent": 14.7,
+    "avg_kills_per_match": 5.3,
+    "kd_ratio": 6.12
+  },
+  "previewConfig": {
+    "title": "PUBG Player Stats API",
+    "subtitle": "Retrieve player statistics and match history from PUBG",
+    "displayFields": ["player_name", "matches_played", "win_rate_percent", "avg_kills_per_match", "kd_ratio"]
+  }
+}

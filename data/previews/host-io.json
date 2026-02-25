@@ -1,0 +1,16 @@
+{
+  "id": "host-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "openai.com",
+    "ip": "13.107.238.56",
+    "hosting_provider": "Microsoft Azure",
+    "country": "United States",
+    "related_domains_count": 312
+  },
+  "previewConfig": {
+    "title": "Host.io Domain Hosting API",
+    "subtitle": "Look up hosting provider, IP, and related domain data for any domain",
+    "displayFields": ["domain", "ip", "hosting_provider", "country", "related_domains_count"]
+  }
+}

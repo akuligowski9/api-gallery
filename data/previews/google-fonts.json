@@ -1,0 +1,20 @@
+{
+  "id": "google-fonts",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "family": "Roboto", "category": "sans-serif", "variants": "12", "subsets": "cyrillic, greek, latin", "version": "v32" },
+      { "family": "Open Sans", "category": "sans-serif", "variants": "10", "subsets": "greek, hebrew, latin", "version": "v40" },
+      { "family": "Lato", "category": "sans-serif", "variants": "10", "subsets": "latin, latin-ext", "version": "v24" },
+      { "family": "Playfair Display", "category": "serif", "variants": "6", "subsets": "cyrillic, latin, vietnamese", "version": "v37" },
+      { "family": "Source Code Pro", "category": "monospace", "variants": "10", "subsets": "cyrillic, greek, latin", "version": "v23" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Google Fonts",
+    "subtitle": "Font Families",
+    "itemKey": "family",
+    "secondaryKey": "subsets",
+    "badgeKey": "category"
+  }
+}

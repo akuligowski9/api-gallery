@@ -1,0 +1,16 @@
+{
+  "id": "video-thumbnail-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "source_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "thumbnail_url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720,
+    "format": "JPEG"
+  },
+  "previewConfig": {
+    "title": "Video Thumbnail Extraction",
+    "subtitle": "Thumbnail Metadata",
+    "displayFields": ["source_url", "thumbnail_url", "width", "height", "format"]
+  }
+}

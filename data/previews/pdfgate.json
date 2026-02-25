@@ -1,0 +1,16 @@
+{
+  "id": "pdfgate",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "pdfgate-7f3a2c91",
+    "status": "completed",
+    "pages": 4,
+    "file_size_kb": 182,
+    "download_url": "https://api.pdfgate.net/v1/jobs/pdfgate-7f3a2c91/download"
+  },
+  "previewConfig": {
+    "title": "PDF Generation Job",
+    "subtitle": "Document Output",
+    "displayFields": ["job_id", "status", "pages", "file_size_kb", "download_url"]
+  }
+}

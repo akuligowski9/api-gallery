@@ -1,0 +1,20 @@
+{
+  "id": "open-government-colombia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Registro Educativo Nacional", "entity": "Ministerio de Educación", "category": "Educación", "format": "CSV", "updated": "2024-01-15" },
+      { "title": "Estadísticas de Salud Pública", "entity": "Ministerio de Salud", "category": "Salud", "format": "JSON", "updated": "2024-02-03" },
+      { "title": "Infraestructura Vial Nacional", "entity": "INVIAS", "category": "Transporte", "format": "GeoJSON", "updated": "2023-12-10" },
+      { "title": "Presupuesto General de la Nación", "entity": "Ministerio de Hacienda", "category": "Finanzas", "format": "XLSX", "updated": "2024-01-28" },
+      { "title": "Catastro Nacional de Predios", "entity": "IGAC", "category": "Territorio", "format": "CSV", "updated": "2023-11-05" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Colombia",
+    "subtitle": "Colombian public datasets from datos.gov.co",
+    "itemKey": "title",
+    "secondaryKey": "entity",
+    "badgeKey": "format"
+  }
+}

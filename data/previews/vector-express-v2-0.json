@@ -1,0 +1,16 @@
+{
+  "id": "vector-express-v2-0",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_format": "PNG",
+    "output_format": "SVG",
+    "input_size_kb": 84,
+    "output_size_kb": 31,
+    "conversion_time_ms": 520
+  },
+  "previewConfig": {
+    "title": "Vector Express v2.0 API",
+    "subtitle": "Convert raster images to scalable vector formats including SVG and PDF",
+    "displayFields": ["input_format", "output_format", "input_size_kb", "output_size_kb", "conversion_time_ms"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tcgdex",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "cardId": "swsh1-1", "name": "Grookey", "set": "Sword & Shield Base Set", "rarity": "Common", "hp": 70 },
+      { "cardId": "swsh1-25", "name": "Charizard V", "set": "Sword & Shield Base Set", "rarity": "Ultra Rare", "hp": 220 },
+      { "cardId": "swsh12-160", "name": "Rayquaza VMAX", "set": "Silver Tempest", "rarity": "Rare VMAX", "hp": 320 },
+      { "cardId": "sv1-198", "name": "Miraidon ex", "set": "Scarlet & Violet Base Set", "rarity": "Double Rare", "hp": 210 },
+      { "cardId": "sv3-182", "name": "Pidgeot ex", "set": "Obsidian Flames", "rarity": "Double Rare", "hp": 280 }
+    ]
+  },
+  "previewConfig": {
+    "title": "TCGdex",
+    "subtitle": "Trading card game card listings",
+    "itemKey": "name",
+    "secondaryKey": "set",
+    "badgeKey": "rarity"
+  }
+}

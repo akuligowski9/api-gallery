@@ -1,0 +1,16 @@
+{
+  "id": "wallstreetbets",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "GME",
+    "mentions": 4821,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.87,
+    "trending_rank": 1
+  },
+  "previewConfig": {
+    "title": "WallStreetBets Sentiment API",
+    "subtitle": "Track meme stock mentions and sentiment on r/wallstreetbets",
+    "displayFields": ["ticker", "mentions", "sentiment", "sentiment_score", "trending_rank"]
+  }
+}

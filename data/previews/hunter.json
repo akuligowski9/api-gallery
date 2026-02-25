@@ -1,0 +1,16 @@
+{
+  "id": "hunter",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "john.doe@stripe.com",
+    "score": 94,
+    "domain": "stripe.com",
+    "first_name": "John",
+    "last_name": "Doe"
+  },
+  "previewConfig": {
+    "title": "Hunter Email Finder",
+    "subtitle": "Professional email address lookup and verification",
+    "displayFields": ["email", "score", "domain", "first_name", "last_name"]
+  }
+}

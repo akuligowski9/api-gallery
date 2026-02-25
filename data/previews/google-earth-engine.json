@@ -1,0 +1,16 @@
+{
+  "id": "google-earth-engine",
+  "previewType": "card",
+  "sampleResponse": {
+    "dataset": "LANDSAT/LC09/C02/T1_TOA",
+    "acquisition_date": "2026-01-14",
+    "cloud_cover_percent": 3.2,
+    "resolution_meters": 30,
+    "bands_available": 11
+  },
+  "previewConfig": {
+    "title": "Google Earth Engine API",
+    "subtitle": "Access and analyze petabytes of satellite and geospatial imagery",
+    "displayFields": ["dataset", "acquisition_date", "cloud_cover_percent", "resolution_meters", "bands_available"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pocket",
+  "previewType": "card",
+  "sampleResponse": {
+    "item_id": "3847291056",
+    "title": "The Future of Rust in Systems Programming",
+    "domain": "blog.rust-lang.org",
+    "word_count": "2840",
+    "time_added": "1705312800"
+  },
+  "previewConfig": {
+    "title": "The Future of Rust in Systems Programming",
+    "subtitle": "blog.rust-lang.org",
+    "displayFields": ["item_id", "title", "domain", "word_count", "time_added"]
+  }
+}

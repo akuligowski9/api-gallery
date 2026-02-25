@@ -1,0 +1,16 @@
+{
+  "id": "puyo-nexus",
+  "previewType": "card",
+  "sampleResponse": {
+    "character_name": "Arle Nadja",
+    "game": "Puyo Puyo Tetris 2",
+    "type": "Speed",
+    "special_move": "Bayoen",
+    "rarity": "Legendary"
+  },
+  "previewConfig": {
+    "title": "Puyo Nexus Character API",
+    "subtitle": "Retrieve character data and stats from the Puyo Puyo puzzle game series",
+    "displayFields": ["character_name", "game", "type", "special_move", "rarity"]
+  }
+}

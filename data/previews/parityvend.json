@@ -1,0 +1,16 @@
+{
+  "id": "parityvend",
+  "previewType": "card",
+  "sampleResponse": {
+    "country_code": "IN",
+    "country_name": "India",
+    "ppp_factor": 0.26,
+    "suggested_discount_pct": 60,
+    "base_currency": "USD"
+  },
+  "previewConfig": {
+    "title": "India — Purchasing Power Parity",
+    "subtitle": "PPP Factor: 0.26 (60% suggested discount)",
+    "displayFields": ["country_code", "country_name", "ppp_factor", "suggested_discount_pct", "base_currency"]
+  }
+}

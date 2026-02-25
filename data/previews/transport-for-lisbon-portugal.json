@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-lisbon-portugal",
+  "previewType": "card",
+  "sampleResponse": {
+    "line": "28E",
+    "destination": "Campo Ourique",
+    "next_arrival_minutes": 4,
+    "stop_name": "Largo Martim Moniz",
+    "vehicle_type": "Tram"
+  },
+  "previewConfig": {
+    "title": "Transport for Lisbon (Carris) API",
+    "subtitle": "Real-time arrivals and line data for Lisbon's Carris bus and tram network",
+    "displayFields": ["line", "destination", "next_arrival_minutes", "stop_name", "vehicle_type"]
+  }
+}

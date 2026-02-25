@@ -1,0 +1,18 @@
+{
+  "id": "ip2whois-information-lookup",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "example.com",
+    "registrar": "ICANN Accredited Registrar",
+    "registrant": "Internet Assigned Numbers Authority",
+    "created": "1995-08-14",
+    "expires": "2025-08-13",
+    "status": "clientDeleteProhibited",
+    "nameservers": "a.iana-servers.net"
+  },
+  "previewConfig": {
+    "title": "example.com",
+    "subtitle": "WHOIS domain lookup via IP2WHOIS",
+    "displayFields": ["registrar", "registrant", "created", "expires", "status"]
+  }
+}

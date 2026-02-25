@@ -1,0 +1,18 @@
+{
+  "id": "insomnia",
+  "previewType": "card",
+  "sampleResponse": {
+    "requestName": "GET /users/me",
+    "status": 200,
+    "statusText": "OK",
+    "responseTime": "142ms",
+    "size": "1.2 KB",
+    "contentType": "application/json",
+    "timestamp": "2024-03-15T10:45:22Z"
+  },
+  "previewConfig": {
+    "title": "GET /users/me",
+    "subtitle": "API request result from Insomnia",
+    "displayFields": ["status", "responseTime", "size", "contentType", "timestamp"]
+  }
+}

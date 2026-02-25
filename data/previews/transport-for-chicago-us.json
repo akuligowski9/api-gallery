@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-chicago-us",
+  "previewType": "card",
+  "sampleResponse": {
+    "route_name": "Red Line",
+    "next_arrival": "3 min",
+    "station": "Chicago/State",
+    "direction": "Northbound toward Howard",
+    "service_status": "Normal Service"
+  },
+  "previewConfig": {
+    "title": "CTA Red Line",
+    "subtitle": "Transit Arrival",
+    "displayFields": ["route_name", "next_arrival", "station", "direction", "service_status"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "url-to-markdown",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://en.wikipedia.org/wiki/Markdown",
+    "title": "Markdown - Wikipedia",
+    "word_count": 2841,
+    "conversion_time_ms": 380,
+    "status": "success"
+  },
+  "previewConfig": {
+    "title": "URL to Markdown Conversion API",
+    "subtitle": "Convert any web page URL into clean, readable Markdown text",
+    "displayFields": ["url", "title", "word_count", "conversion_time_ms", "status"]
+  }
+}

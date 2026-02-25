@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-washington-us",
+  "previewType": "card",
+  "sampleResponse": {
+    "StationName": "Metro Center",
+    "LineCode": "RD",
+    "NextTrainMinutes": 3,
+    "DestinationName": "Shady Grove",
+    "CarCount": 8
+  },
+  "previewConfig": {
+    "title": "Metro Center",
+    "subtitle": "WMATA Rail Predictions",
+    "displayFields": ["StationName", "LineCode", "NextTrainMinutes", "DestinationName", "CarCount"]
+  }
+}

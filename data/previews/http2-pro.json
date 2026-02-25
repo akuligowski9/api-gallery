@@ -1,0 +1,16 @@
+{
+  "id": "http2-pro",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "github.com",
+    "http2_supported": true,
+    "alpn_protocol": "h2",
+    "server": "GitHub.com",
+    "tls_version": "TLSv1.3"
+  },
+  "previewConfig": {
+    "title": "HTTP2.Pro Check API",
+    "subtitle": "Test any domain for HTTP/2 and ALPN protocol support",
+    "displayFields": ["domain", "http2_supported", "alpn_protocol", "server", "tls_version"]
+  }
+}
