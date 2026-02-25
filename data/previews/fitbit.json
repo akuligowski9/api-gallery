@@ -2,13 +2,11 @@
   "id": "fitbit",
   "previewType": "card",
   "sampleResponse": {
-    "match": "Lakers vs Warriors",
-    "score": "112 – 108",
-    "status": "Final",
-    "venue": "Chase Center, SF",
-    "date": "Feb 22, 2026",
-    "mvp": "Stephen Curry",
-    "attendance": "18,064"
+    "match": "Man City vs Liverpool",
+    "score": "2 – 1",
+    "status": "Full Time",
+    "venue": "Etihad Stadium",
+    "mvp": "Haaland"
   },
   "previewConfig": {
     "title": "Fitbit",

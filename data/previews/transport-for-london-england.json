@@ -2,23 +2,21 @@
   "id": "transport-for-london-england",
   "previewType": "card",
   "sampleResponse": {
-    "flight": "UA 328",
-    "origin": "SFO — San Francisco",
-    "destination": "JFK — New York",
-    "departure": "08:45 AM",
-    "arrival": "05:17 PM",
-    "status": "On Time",
-    "aircraft": "Boeing 737-900"
+    "flight": "DL 1492",
+    "route": "ATL → LAX",
+    "departure": "02:30 PM",
+    "status": "Delayed 45m",
+    "aircraft": "Boeing 757"
   },
   "previewConfig": {
     "title": "Transport for London, England",
     "subtitle": "TfL API",
     "displayFields": [
       "flight",
-      "origin",
-      "destination",
+      "route",
       "departure",
-      "status"
+      "status",
+      "aircraft"
     ]
   }
 }

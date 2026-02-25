@@ -2,13 +2,11 @@
   "id": "azure-devops-health",
   "previewType": "card",
   "sampleResponse": {
-    "pipeline": "main-build",
+    "pipeline": "nightly-e2e",
     "status": "passed",
-    "duration": "4m 12s",
-    "triggered_by": "push to main",
+    "duration": "18m 5s",
     "branch": "main",
-    "commit": "a3f91bc",
-    "tests_passed": "247 / 247"
+    "tests": "1,024 / 1,024"
   },
   "previewConfig": {
     "title": "Azure DevOps Health",
@@ -18,7 +16,7 @@
       "status",
       "duration",
       "branch",
-      "tests_passed"
+      "tests"
     ]
   }
 }

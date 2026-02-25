@@ -2,13 +2,11 @@
   "id": "stackexchange",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
-    "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "repo": "kubernetes/kubernetes",
+    "stars": "109K",
+    "forks": "39.2K",
+    "language": "Go",
+    "open_issues": 2431
   },
   "previewConfig": {
     "title": "StackExchange",

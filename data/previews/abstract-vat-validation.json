@@ -2,13 +2,11 @@
   "id": "abstract-vat-validation",
   "previewType": "card",
   "sampleResponse": {
-    "symbol": "AAPL",
-    "price": "$182.63",
-    "change": "+1.24 (0.68%)",
-    "volume": "54,823,100",
-    "market_cap": "$2.87T",
-    "pe_ratio": 28.4,
-    "week_52_high": "$198.23"
+    "symbol": "AMZN",
+    "price": "$185.07",
+    "change": "+2.11 (1.15%)",
+    "volume": "41.3M",
+    "market_cap": "$1.93T"
   },
   "previewConfig": {
     "title": "Abstract VAT Validation",

@@ -4,11 +4,9 @@
   "sampleResponse": {
     "address": "1600 Amphitheatre Pkwy",
     "city": "Mountain View",
-    "state": "California",
-    "country": "United States",
-    "postal_code": "94043",
-    "latitude": 37.4224,
-    "longitude": -122.0842
+    "country": "US",
+    "lat": 37.4224,
+    "lng": -122.0842
   },
   "previewConfig": {
     "title": "Geocod.io",
@@ -16,10 +14,9 @@
     "displayFields": [
       "address",
       "city",
-      "state",
       "country",
-      "latitude",
-      "longitude"
+      "lat",
+      "lng"
     ]
   }
 }

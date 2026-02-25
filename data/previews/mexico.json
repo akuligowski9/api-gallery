@@ -2,13 +2,11 @@
   "id": "mexico",
   "previewType": "card",
   "sampleResponse": {
-    "address": "1600 Amphitheatre Pkwy",
-    "city": "Mountain View",
-    "state": "California",
-    "country": "United States",
-    "postal_code": "94043",
-    "latitude": 37.4224,
-    "longitude": -122.0842
+    "address": "Champs-Élysées 101",
+    "city": "Paris",
+    "country": "FR",
+    "lat": 48.8698,
+    "lng": 2.3076
   },
   "previewConfig": {
     "title": "Mexico",
@@ -16,10 +14,9 @@
     "displayFields": [
       "address",
       "city",
-      "state",
       "country",
-      "latitude",
-      "longitude"
+      "lat",
+      "lng"
     ]
   }
 }

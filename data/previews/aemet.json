@@ -2,13 +2,11 @@
   "id": "aemet",
   "previewType": "card",
   "sampleResponse": {
-    "location": "San Francisco, CA",
-    "temperature": "18°C / 64°F",
-    "condition": "Partly Cloudy",
-    "humidity": "72%",
-    "wind": "14 km/h W",
-    "uv_index": 4,
-    "forecast": "Rain expected Thursday"
+    "location": "Mumbai, India",
+    "temperature": "33°C / 91°F",
+    "condition": "Haze",
+    "humidity": "78%",
+    "wind": "11 km/h W"
   },
   "previewConfig": {
     "title": "Aemet",

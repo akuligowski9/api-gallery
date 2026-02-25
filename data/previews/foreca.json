@@ -2,13 +2,11 @@
   "id": "foreca",
   "previewType": "card",
   "sampleResponse": {
-    "location": "San Francisco, CA",
-    "temperature": "18°C / 64°F",
-    "condition": "Partly Cloudy",
-    "humidity": "72%",
-    "wind": "14 km/h W",
-    "uv_index": 4,
-    "forecast": "Rain expected Thursday"
+    "location": "Sydney, Australia",
+    "temperature": "29°C / 84°F",
+    "condition": "Clear Sky",
+    "humidity": "45%",
+    "wind": "18 km/h NE"
   },
   "previewConfig": {
     "title": "Foreca",

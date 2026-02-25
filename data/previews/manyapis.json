@@ -2,23 +2,21 @@
   "id": "manyapis",
   "previewType": "card",
   "sampleResponse": {
-    "base": "USD",
-    "EUR": 0.9241,
-    "GBP": 0.7892,
-    "JPY": 149.82,
-    "CAD": 1.3614,
-    "AUD": 1.5473,
-    "updated": "2026-02-25 12:00 UTC"
+    "base": "AUD",
+    "USD": 0.6467,
+    "EUR": 0.5976,
+    "GBP": 0.5099,
+    "NZD": 1.0985
   },
   "previewConfig": {
     "title": "Manyapis",
     "subtitle": "Exchange rates and currency conversion with free plan 50 requests/day",
     "displayFields": [
       "base",
+      "USD",
       "EUR",
       "GBP",
-      "JPY",
-      "CAD"
+      "NZD"
     ]
   }
 }

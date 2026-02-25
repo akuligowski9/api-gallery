@@ -2,12 +2,10 @@
   "id": "etherscan",
   "previewType": "card",
   "sampleResponse": {
-    "tx_hash": "0x3a4e...9f2b",
-    "block": "19,482,031",
-    "from": "0xAb5...3D1",
-    "to": "0xC8f...7E2",
-    "value": "1.284 ETH",
-    "gas_fee": "0.0024 ETH",
+    "tx_hash": "0x8bc1...4d7f",
+    "block": "19,482,044",
+    "value": "0.5 ETH",
+    "gas_fee": "0.0018 ETH",
     "status": "Confirmed"
   },
   "previewConfig": {

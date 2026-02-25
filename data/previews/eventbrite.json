@@ -5,9 +5,7 @@
     "event": "PyCon US 2026",
     "date": "May 14–22, 2026",
     "location": "Pittsburgh, PA",
-    "tickets": "From $125",
-    "attendees": "3,000+",
-    "category": "Technology Conference"
+    "tickets": "From $125"
   },
   "previewConfig": {
     "title": "Eventbrite",
@@ -16,8 +14,7 @@
       "event",
       "date",
       "location",
-      "tickets",
-      "attendees"
+      "tickets"
     ]
   }
 }

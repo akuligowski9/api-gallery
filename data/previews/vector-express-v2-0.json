@@ -2,13 +2,11 @@
   "id": "vector-express-v2-0",
   "previewType": "card",
   "sampleResponse": {
-    "document": "Q4 2025 Report.pdf",
-    "pages": 24,
-    "word_count": "8,420",
+    "document": "Sprint Retrospective.docx",
+    "pages": 3,
+    "words": "1,240",
     "language": "English",
-    "created": "Jan 15, 2026",
-    "author": "Jane Smith",
-    "size": "2.3 MB"
+    "author": "Scrum Master"
   },
   "previewConfig": {
     "title": "Vector Express v2.0",
@@ -16,7 +14,7 @@
     "displayFields": [
       "document",
       "pages",
-      "word_count",
+      "words",
       "language",
       "author"
     ]

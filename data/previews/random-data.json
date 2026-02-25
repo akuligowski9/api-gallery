@@ -2,12 +2,10 @@
   "id": "random-data",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Alexandra Chen",
-    "email": "a.chen@fakemail.dev",
-    "phone": "+1 (415) 555-0192",
-    "address": "847 Oak St, Portland, OR 97201",
-    "username": "achen_dev",
-    "avatar": "https://i.pravatar.cc/100"
+    "name": "Leo Müller",
+    "email": "l.muller@faker.de",
+    "phone": "+49 170 1234567",
+    "city": "Berlin, Germany"
   },
   "previewConfig": {
     "title": "Random Data",
@@ -16,8 +14,7 @@
       "name",
       "email",
       "phone",
-      "address",
-      "username"
+      "city"
     ]
   }
 }

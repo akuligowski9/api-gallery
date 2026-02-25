@@ -2,13 +2,11 @@
   "id": "wattbuy",
   "previewType": "card",
   "sampleResponse": {
-    "location": "Los Angeles, CA",
-    "aqi": 87,
-    "category": "Moderate",
-    "pm2_5": "18.3 µg/m³",
-    "pm10": "34.1 µg/m³",
-    "o3": "0.064 ppm",
-    "updated": "2026-02-25 11:00 AM"
+    "location": "Vancouver, Canada",
+    "aqi": 41,
+    "quality": "Good",
+    "pm2_5": "8.7 µg/m³",
+    "pm10": "18.9 µg/m³"
   },
   "previewConfig": {
     "title": "WattBuy",
@@ -16,7 +14,7 @@
     "displayFields": [
       "location",
       "aqi",
-      "category",
+      "quality",
       "pm2_5",
       "pm10"
     ]

@@ -4,11 +4,9 @@
   "sampleResponse": {
     "name": "Red Fox",
     "scientific_name": "Vulpes vulpes",
-    "habitat": "Forest, Grassland, Urban",
+    "habitat": "Forest, Urban",
     "diet": "Omnivore",
-    "lifespan": "2–5 years (wild)",
-    "weight": "2.2–14 kg",
-    "conservation_status": "Least Concern"
+    "conservation": "Least Concern"
   },
   "previewConfig": {
     "title": "xeno-canto",
@@ -18,7 +16,7 @@
       "scientific_name",
       "habitat",
       "diet",
-      "conservation_status"
+      "conservation"
     ]
   }
 }

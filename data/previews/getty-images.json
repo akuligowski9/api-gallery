@@ -2,22 +2,20 @@
   "id": "getty-images",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Golden Gate at Dusk",
-    "photographer": "Alex Morgan",
-    "camera": "Sony A7R V",
-    "aperture": "f/8",
-    "shutter_speed": "1/250s",
-    "iso": 200,
-    "resolution": "61 MP"
+    "title": "Hummingbird in Flight",
+    "photographer": "Sofia Reyes",
+    "camera": "Sony A1",
+    "aperture": "f/6.3",
+    "iso": 1600
   },
   "previewConfig": {
     "title": "Getty Images",
     "subtitle": "Build applications using the world's most powerful imagery",
     "displayFields": [
+      "title",
       "photographer",
       "camera",
       "aperture",
-      "shutter_speed",
       "iso"
     ]
   }

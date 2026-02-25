@@ -2,12 +2,10 @@
   "id": "gw2spidy",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
-    "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "title": "It Takes Two",
+    "platform": "Multi-platform",
+    "genre": "Co-op Adventure",
+    "rating": "8.9 / 10"
   },
   "previewConfig": {
     "title": "GW2Spidy",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

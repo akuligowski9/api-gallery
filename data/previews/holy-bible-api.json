@@ -2,13 +2,11 @@
   "id": "holy-bible-api",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Pragmatic Programmer",
-    "author": "David Thomas, Andrew Hunt",
-    "isbn": "978-0-13-595705-9",
-    "published": "1999",
-    "pages": 352,
-    "genre": "Software Engineering",
-    "rating": "4.8 / 5"
+    "title": "The Three-Body Problem",
+    "author": "Cixin Liu",
+    "genre": "Science Fiction",
+    "pages": 400,
+    "rating": "4.3 / 5"
   },
   "previewConfig": {
     "title": "Holy Bible API",
@@ -16,9 +14,8 @@
     "displayFields": [
       "title",
       "author",
-      "published",
-      "pages",
       "genre",
+      "pages",
       "rating"
     ]
   }

@@ -2,13 +2,11 @@
   "id": "jsonsilo-com",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
-    "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "repo": "denoland/deno",
+    "stars": "93.8K",
+    "forks": "5.2K",
+    "language": "Rust",
+    "open_issues": 1943
   },
   "previewConfig": {
     "title": "JSONsilo.com",

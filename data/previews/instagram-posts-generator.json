@@ -2,21 +2,19 @@
   "id": "instagram-posts-generator",
   "previewType": "card",
   "sampleResponse": {
-    "username": "@janedoe",
-    "display_name": "Jane Doe",
-    "followers": "142,803",
-    "following": 891,
-    "posts": "3,241",
-    "verified": true,
-    "bio": "Developer 👩‍💻 | Open source enthusiast"
+    "username": "@opensourcefan",
+    "display_name": "Alex Rivera",
+    "followers": "67,800",
+    "posts": "2,380",
+    "verified": true
   },
   "previewConfig": {
     "title": "Instagram Posts Generator",
     "subtitle": "Generate posts with templates from popular instagram pages.",
     "displayFields": [
       "username",
+      "display_name",
       "followers",
-      "following",
       "posts",
       "verified"
     ]

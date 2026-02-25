@@ -2,13 +2,11 @@
   "id": "loginradius",
   "previewType": "card",
   "sampleResponse": {
-    "ip": "192.168.1.1",
-    "threat_score": 12,
-    "is_malicious": false,
-    "country": "United States",
-    "isp": "Comcast",
-    "reports": 3,
-    "last_seen": "30 days ago"
+    "ip": "91.108.56.100",
+    "threat_score": 5,
+    "malicious": false,
+    "country": "United Kingdom",
+    "reports": 0
   },
   "previewConfig": {
     "title": "LoginRadius",
@@ -16,7 +14,7 @@
     "displayFields": [
       "ip",
       "threat_score",
-      "is_malicious",
+      "malicious",
       "country",
       "reports"
     ]

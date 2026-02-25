@@ -2,13 +2,11 @@
   "id": "zube",
   "previewType": "card",
   "sampleResponse": {
-    "document": "Q4 2025 Report.pdf",
-    "pages": 24,
-    "word_count": "8,420",
+    "document": "API Reference.md",
+    "pages": 42,
+    "words": "12,600",
     "language": "English",
-    "created": "Jan 15, 2026",
-    "author": "Jane Smith",
-    "size": "2.3 MB"
+    "author": "DevOps"
   },
   "previewConfig": {
     "title": "Zube",
@@ -16,7 +14,7 @@
     "displayFields": [
       "document",
       "pages",
-      "word_count",
+      "words",
       "language",
       "author"
     ]

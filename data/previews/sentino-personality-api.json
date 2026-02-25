@@ -2,15 +2,9 @@
   "id": "sentino-personality-api",
   "previewType": "card",
   "sampleResponse": {
-    "quote": "The only way to do great work is to love what you do.",
-    "author": "Steve Jobs",
-    "category": "Motivation",
-    "length": 55,
-    "tags": [
-      "work",
-      "passion",
-      "greatness"
-    ]
+    "quote": "Simplicity is the ultimate sophistication.",
+    "author": "Leonardo da Vinci",
+    "category": "Design"
   },
   "previewConfig": {
     "title": "Sentino Personality API",

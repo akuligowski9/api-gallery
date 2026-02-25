@@ -2,13 +2,11 @@
   "id": "lucifer-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Inception",
-    "year": 2010,
-    "director": "Christopher Nolan",
-    "rating": "8.8 / 10",
-    "runtime": "2h 28min",
-    "genre": "Sci-Fi, Thriller",
-    "box_office": "$836.8M"
+    "title": "Spider-Verse",
+    "director": "Thompson / Powers",
+    "year": 2023,
+    "rating": "8.7 / 10",
+    "runtime": "2h 20m"
   },
   "previewConfig": {
     "title": "Lucifer Quotes",
@@ -18,8 +16,7 @@
       "director",
       "year",
       "rating",
-      "runtime",
-      "genre"
+      "runtime"
     ]
   }
 }

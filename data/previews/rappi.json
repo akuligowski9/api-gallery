@@ -2,13 +2,11 @@
   "id": "rappi",
   "previewType": "card",
   "sampleResponse": {
-    "product": "Sony WH-1000XM5 Headphones",
-    "price": "$349.99",
-    "rating": "4.7 / 5",
-    "reviews": "12,483",
-    "in_stock": true,
-    "category": "Electronics",
-    "discount": "15% off"
+    "product": "Dyson V15 Detect",
+    "price": "$749.99",
+    "rating": "4.5 / 5",
+    "reviews": "6,843",
+    "in_stock": false
   },
   "previewConfig": {
     "title": "Rappi",

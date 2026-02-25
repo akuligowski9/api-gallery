@@ -2,13 +2,11 @@
   "id": "hunter",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
+    "repo": "vercel/next.js",
+    "stars": "124K",
+    "forks": "26.5K",
     "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "open_issues": 2841
   },
   "previewConfig": {
     "title": "Hunter",

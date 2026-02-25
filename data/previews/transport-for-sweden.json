@@ -2,23 +2,21 @@
   "id": "transport-for-sweden",
   "previewType": "card",
   "sampleResponse": {
-    "flight": "UA 328",
-    "origin": "SFO — San Francisco",
-    "destination": "JFK — New York",
-    "departure": "08:45 AM",
-    "arrival": "05:17 PM",
+    "flight": "SQ 22",
+    "route": "SIN → EWR",
+    "departure": "11:35 PM",
     "status": "On Time",
-    "aircraft": "Boeing 737-900"
+    "aircraft": "A350-900ULR"
   },
   "previewConfig": {
     "title": "Transport for Sweden",
     "subtitle": "Public Transport consumer",
     "displayFields": [
       "flight",
-      "origin",
-      "destination",
+      "route",
       "departure",
-      "status"
+      "status",
+      "aircraft"
     ]
   }
 }

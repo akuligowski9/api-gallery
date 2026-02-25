@@ -2,13 +2,11 @@
   "id": "animenewsnetwork",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Attack on Titan",
-    "studio": "MAPPA",
-    "episodes": 87,
-    "status": "Finished",
-    "score": "9.0 / 10",
-    "genres": "Action, Drama, Fantasy",
-    "aired": "2013 – 2023"
+    "title": "Demon Slayer",
+    "studio": "ufotable",
+    "episodes": 44,
+    "score": "8.5 / 10",
+    "genres": "Action, Supernatural"
   },
   "previewConfig": {
     "title": "AnimeNewsNetwork",

@@ -2,11 +2,10 @@
   "id": "wikidata",
   "previewType": "card",
   "sampleResponse": {
-    "dataset": "US Population by State 2024",
-    "total_records": 51,
-    "last_updated": "Jan 2025",
-    "source": "U.S. Census Bureau",
-    "format": "JSON / CSV",
+    "dataset": "Global Earthquake Events 2024",
+    "records": "14,200",
+    "source": "USGS",
+    "updated": "Real-time",
     "license": "Public Domain"
   },
   "previewConfig": {
@@ -14,9 +13,9 @@
     "subtitle": "Collaboratively edited knowledge base operated by the Wikimedia Foundation",
     "displayFields": [
       "dataset",
-      "total_records",
-      "last_updated",
+      "records",
       "source",
+      "updated",
       "license"
     ]
   }

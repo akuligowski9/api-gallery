@@ -2,12 +2,10 @@
   "id": "random-identity",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Alexandra Chen",
-    "email": "a.chen@fakemail.dev",
-    "phone": "+1 (415) 555-0192",
-    "address": "847 Oak St, Portland, OR 97201",
-    "username": "achen_dev",
-    "avatar": "https://i.pravatar.cc/100"
+    "name": "Marcus Johnson",
+    "email": "m.johnson@test.io",
+    "phone": "+1 (212) 555-0847",
+    "city": "New York, NY"
   },
   "previewConfig": {
     "title": "Random Identity",
@@ -16,8 +14,7 @@
       "name",
       "email",
       "phone",
-      "address",
-      "username"
+      "city"
     ]
   }
 }

@@ -2,13 +2,11 @@
   "id": "movebank",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Red Fox",
-    "scientific_name": "Vulpes vulpes",
-    "habitat": "Forest, Grassland, Urban",
-    "diet": "Omnivore",
-    "lifespan": "2–5 years (wild)",
-    "weight": "2.2–14 kg",
-    "conservation_status": "Least Concern"
+    "name": "Red Panda",
+    "scientific_name": "Ailurus fulgens",
+    "habitat": "Temperate Forest",
+    "diet": "Bamboo",
+    "conservation": "Endangered"
   },
   "previewConfig": {
     "title": "Movebank",
@@ -18,7 +16,7 @@
       "scientific_name",
       "habitat",
       "diet",
-      "conservation_status"
+      "conservation"
     ]
   }
 }

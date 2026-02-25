@@ -2,13 +2,11 @@
   "id": "football-soccer-videos",
   "previewType": "card",
   "sampleResponse": {
-    "match": "Lakers vs Warriors",
-    "score": "112 – 108",
+    "match": "Yankees vs Red Sox",
+    "score": "5 – 3",
     "status": "Final",
-    "venue": "Chase Center, SF",
-    "date": "Feb 22, 2026",
-    "mvp": "Stephen Curry",
-    "attendance": "18,064"
+    "venue": "Fenway Park",
+    "mvp": "Aaron Judge"
   },
   "previewConfig": {
     "title": "Football (Soccer) Videos",

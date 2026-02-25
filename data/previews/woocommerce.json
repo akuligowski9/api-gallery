@@ -2,13 +2,11 @@
   "id": "woocommerce",
   "previewType": "card",
   "sampleResponse": {
-    "product": "Sony WH-1000XM5 Headphones",
-    "price": "$349.99",
-    "rating": "4.7 / 5",
-    "reviews": "12,483",
-    "in_stock": true,
-    "category": "Electronics",
-    "discount": "15% off"
+    "product": "Kindle Paperwhite",
+    "price": "$139.99",
+    "rating": "4.6 / 5",
+    "reviews": "45,210",
+    "in_stock": true
   },
   "previewConfig": {
     "title": "WooCommerce",

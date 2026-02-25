@@ -2,18 +2,17 @@
   "id": "uspto",
   "previewType": "card",
   "sampleResponse": {
-    "patent_number": "US10,123,456",
-    "title": "Method for Neural Network Optimization",
+    "patent": "US10,123,456",
+    "title": "Neural Network Optimization",
     "assignee": "Acme Technologies",
-    "filed": "March 14, 2021",
-    "granted": "October 3, 2023",
+    "filed": "2021",
     "status": "Active"
   },
   "previewConfig": {
     "title": "USPTO",
     "subtitle": "USA patent api services",
     "displayFields": [
-      "patent_number",
+      "patent",
       "title",
       "assignee",
       "filed",

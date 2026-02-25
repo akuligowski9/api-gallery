@@ -2,13 +2,11 @@
   "id": "ganjoor",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Pragmatic Programmer",
-    "author": "David Thomas, Andrew Hunt",
-    "isbn": "978-0-13-595705-9",
-    "published": "1999",
-    "pages": 352,
-    "genre": "Software Engineering",
-    "rating": "4.8 / 5"
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genre": "Science Fiction",
+    "pages": 496,
+    "rating": "4.9 / 5"
   },
   "previewConfig": {
     "title": "Ganjoor",
@@ -16,9 +14,8 @@
     "displayFields": [
       "title",
       "author",
-      "published",
-      "pages",
       "genre",
+      "pages",
       "rating"
     ]
   }

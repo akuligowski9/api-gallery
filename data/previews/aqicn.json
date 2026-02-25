@@ -2,13 +2,11 @@
   "id": "aqicn",
   "previewType": "card",
   "sampleResponse": {
-    "location": "San Francisco, CA",
-    "temperature": "18°C / 64°F",
-    "condition": "Partly Cloudy",
-    "humidity": "72%",
-    "wind": "14 km/h W",
-    "uv_index": 4,
-    "forecast": "Rain expected Thursday"
+    "location": "New York, NY",
+    "temperature": "5°C / 41°F",
+    "condition": "Snow Showers",
+    "humidity": "76%",
+    "wind": "25 km/h NW"
   },
   "previewConfig": {
     "title": "AQICN",

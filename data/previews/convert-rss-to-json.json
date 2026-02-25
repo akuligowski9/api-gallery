@@ -2,13 +2,11 @@
   "id": "convert-rss-to-json",
   "previewType": "card",
   "sampleResponse": {
-    "document": "Q4 2025 Report.pdf",
-    "pages": 24,
-    "word_count": "8,420",
-    "language": "English",
-    "created": "Jan 15, 2026",
-    "author": "Jane Smith",
-    "size": "2.3 MB"
+    "document": "Design System v3.figma",
+    "pages": 186,
+    "words": "—",
+    "language": "—",
+    "author": "Design Team"
   },
   "previewConfig": {
     "title": "Convert RSS to JSON",
@@ -16,7 +14,7 @@
     "displayFields": [
       "document",
       "pages",
-      "word_count",
+      "words",
       "language",
       "author"
     ]

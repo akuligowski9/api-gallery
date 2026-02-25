@@ -2,13 +2,11 @@
   "id": "abstract-email-validation",
   "previewType": "card",
   "sampleResponse": {
-    "email": "user@example.com",
-    "valid": true,
-    "deliverable": true,
-    "domain": "example.com",
-    "mx_found": true,
-    "disposable": false,
-    "role_account": false
+    "email": "bounce@invalid.test",
+    "valid": false,
+    "deliverable": false,
+    "domain": "invalid.test",
+    "disposable": false
   },
   "previewConfig": {
     "title": "Abstract Email Validation",

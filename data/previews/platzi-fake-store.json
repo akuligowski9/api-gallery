@@ -2,13 +2,11 @@
   "id": "platzi-fake-store",
   "previewType": "card",
   "sampleResponse": {
-    "product": "Sony WH-1000XM5 Headphones",
-    "price": "$349.99",
+    "product": "AirPods Pro 2",
+    "price": "$249",
     "rating": "4.7 / 5",
-    "reviews": "12,483",
-    "in_stock": true,
-    "category": "Electronics",
-    "discount": "15% off"
+    "reviews": "31,204",
+    "in_stock": true
   },
   "previewConfig": {
     "title": "Platzi Fake Store",

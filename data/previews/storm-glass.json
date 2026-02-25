@@ -2,13 +2,11 @@
   "id": "storm-glass",
   "previewType": "card",
   "sampleResponse": {
-    "location": "San Francisco, CA",
-    "temperature": "18°C / 64°F",
-    "condition": "Partly Cloudy",
-    "humidity": "72%",
-    "wind": "14 km/h W",
-    "uv_index": 4,
-    "forecast": "Rain expected Thursday"
+    "location": "Dubai, UAE",
+    "temperature": "38°C / 100°F",
+    "condition": "Clear",
+    "humidity": "32%",
+    "wind": "15 km/h N"
   },
   "previewConfig": {
     "title": "Storm Glass",

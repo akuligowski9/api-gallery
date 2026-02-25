@@ -2,12 +2,10 @@
   "id": "open-data-nhs-scotland",
   "previewType": "card",
   "sampleResponse": {
-    "condition": "Type 2 Diabetes",
-    "icd_code": "E11",
-    "category": "Endocrine disorder",
-    "prevalence": "~462M worldwide",
-    "treatment": "Lifestyle change, medication",
-    "risk_factors": "Obesity, inactivity, genetics"
+    "condition": "Osteoarthritis",
+    "icd_code": "M15-M19",
+    "category": "Musculoskeletal",
+    "prevalence": "~528M worldwide"
   },
   "previewConfig": {
     "title": "Open Data NHS Scotland",
@@ -16,8 +14,7 @@
       "condition",
       "icd_code",
       "category",
-      "prevalence",
-      "treatment"
+      "prevalence"
     ]
   }
 }

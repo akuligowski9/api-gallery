@@ -5,18 +5,16 @@
     "username": "@janedoe",
     "display_name": "Jane Doe",
     "followers": "142,803",
-    "following": 891,
     "posts": "3,241",
-    "verified": true,
-    "bio": "Developer 👩‍💻 | Open source enthusiast"
+    "verified": true
   },
   "previewConfig": {
     "title": "Pinterest",
     "subtitle": "The world's catalog of ideas",
     "displayFields": [
       "username",
+      "display_name",
       "followers",
-      "following",
       "posts",
       "verified"
     ]

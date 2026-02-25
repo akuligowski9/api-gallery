@@ -2,22 +2,20 @@
   "id": "postalpincode",
   "previewType": "card",
   "sampleResponse": {
-    "tracking_number": "1Z999AA10123456784",
-    "carrier": "UPS",
-    "status": "Out for Delivery",
-    "estimated_delivery": "Today by 8:00 PM",
-    "origin": "Memphis, TN",
-    "destination": "Brooklyn, NY",
-    "last_update": "9:04 AM — Arrived at facility"
+    "tracking": "7489284920182",
+    "carrier": "FedEx",
+    "status": "Delivered",
+    "eta": "—",
+    "destination": "Seattle, WA"
   },
   "previewConfig": {
     "title": "PostalPinCode",
     "subtitle": "API for getting Pincode details in India",
     "displayFields": [
-      "tracking_number",
+      "tracking",
       "carrier",
       "status",
-      "estimated_delivery",
+      "eta",
       "destination"
     ]
   }

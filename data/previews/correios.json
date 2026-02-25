@@ -2,22 +2,20 @@
   "id": "correios",
   "previewType": "card",
   "sampleResponse": {
-    "tracking_number": "1Z999AA10123456784",
-    "carrier": "UPS",
-    "status": "Out for Delivery",
-    "estimated_delivery": "Today by 8:00 PM",
-    "origin": "Memphis, TN",
-    "destination": "Brooklyn, NY",
-    "last_update": "9:04 AM — Arrived at facility"
+    "tracking": "9400111899223100001",
+    "carrier": "USPS",
+    "status": "In Transit",
+    "eta": "Feb 27",
+    "destination": "Austin, TX"
   },
   "previewConfig": {
     "title": "Correios",
     "subtitle": "Integration to provide information and prepare shipments using Correio's services",
     "displayFields": [
-      "tracking_number",
+      "tracking",
       "carrier",
       "status",
-      "estimated_delivery",
+      "eta",
       "destination"
     ]
   }

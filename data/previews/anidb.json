@@ -2,13 +2,11 @@
   "id": "anidb",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Attack on Titan",
+    "title": "Jujutsu Kaisen",
     "studio": "MAPPA",
-    "episodes": 87,
-    "status": "Finished",
-    "score": "9.0 / 10",
-    "genres": "Action, Drama, Fantasy",
-    "aired": "2013 – 2023"
+    "episodes": 47,
+    "score": "8.7 / 10",
+    "genres": "Action, Supernatural"
   },
   "previewConfig": {
     "title": "AniDB",

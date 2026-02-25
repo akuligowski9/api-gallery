@@ -2,13 +2,11 @@
   "id": "zestful",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Pasta Carbonara",
-    "cuisine": "Italian",
-    "prep_time": "10 min",
-    "cook_time": "20 min",
-    "calories": "620 kcal",
-    "servings": 2,
-    "difficulty": "Medium"
+    "name": "Chicken Tikka Masala",
+    "cuisine": "Indian",
+    "prep_time": "20 min",
+    "cook_time": "35 min",
+    "calories": "540 kcal"
   },
   "previewConfig": {
     "title": "Zestful",

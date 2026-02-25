@@ -2,11 +2,10 @@
   "id": "opensanctions",
   "previewType": "card",
   "sampleResponse": {
-    "dataset": "US Population by State 2024",
-    "total_records": 51,
-    "last_updated": "Jan 2025",
-    "source": "U.S. Census Bureau",
-    "format": "JSON / CSV",
+    "dataset": "NOAA Climate Normals",
+    "records": "9,800",
+    "source": "NOAA",
+    "updated": "Decadal",
     "license": "Public Domain"
   },
   "previewConfig": {
@@ -14,9 +13,9 @@
     "subtitle": "Data on international sanctions, crime and politically exposed persons",
     "displayFields": [
       "dataset",
-      "total_records",
-      "last_updated",
+      "records",
       "source",
+      "updated",
       "license"
     ]
   }

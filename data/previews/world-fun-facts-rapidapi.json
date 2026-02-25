@@ -2,16 +2,10 @@
   "id": "world-fun-facts-rapidapi",
   "previewType": "card",
   "sampleResponse": {
-    "question": "What is the largest planet in our solar system?",
-    "answer": "Jupiter",
+    "question": "What element has the chemical symbol 'Au'?",
+    "answer": "Gold",
     "category": "Science",
-    "difficulty": "Easy",
-    "options": [
-      "Saturn",
-      "Jupiter",
-      "Neptune",
-      "Uranus"
-    ]
+    "difficulty": "Medium"
   },
   "previewConfig": {
     "title": "World Fun Facts (RapidAPI)",

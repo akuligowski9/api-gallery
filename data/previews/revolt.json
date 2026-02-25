@@ -2,21 +2,19 @@
   "id": "revolt",
   "previewType": "card",
   "sampleResponse": {
-    "username": "@janedoe",
-    "display_name": "Jane Doe",
-    "followers": "142,803",
-    "following": 891,
-    "posts": "3,241",
-    "verified": true,
-    "bio": "Developer 👩‍💻 | Open source enthusiast"
+    "username": "@devcraft",
+    "display_name": "DevCraft",
+    "followers": "52,100",
+    "posts": "1,847",
+    "verified": false
   },
   "previewConfig": {
     "title": "Revolt",
     "subtitle": "Revolt open source Discord alternative",
     "displayFields": [
       "username",
+      "display_name",
       "followers",
-      "following",
       "posts",
       "verified"
     ]

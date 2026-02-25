@@ -2,13 +2,11 @@
   "id": "shopee",
   "previewType": "card",
   "sampleResponse": {
-    "product": "Sony WH-1000XM5 Headphones",
-    "price": "$349.99",
-    "rating": "4.7 / 5",
-    "reviews": "12,483",
-    "in_stock": true,
-    "category": "Electronics",
-    "discount": "15% off"
+    "product": "MacBook Air M3",
+    "price": "$1,099",
+    "rating": "4.8 / 5",
+    "reviews": "8,921",
+    "in_stock": true
   },
   "previewConfig": {
     "title": "Shopee",

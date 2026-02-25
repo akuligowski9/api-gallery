@@ -2,22 +2,19 @@
   "id": "clarifai",
   "previewType": "card",
   "sampleResponse": {
-    "input": "The movie was absolutely fantastic!",
-    "label": "POSITIVE",
-    "confidence": "98.7%",
-    "model": "distilbert-base-uncased",
-    "latency_ms": 42,
-    "tokens": 8
+    "input": "[Photo of a cat on a sofa]",
+    "labels": "cat: 97.2%, furniture: 84.1%, indoor: 91.3%",
+    "model": "resnet-50",
+    "latency": "65ms"
   },
   "previewConfig": {
     "title": "Clarifai",
     "subtitle": "Computer Vision",
     "displayFields": [
       "input",
-      "label",
-      "confidence",
+      "labels",
       "model",
-      "latency_ms"
+      "latency"
     ]
   }
 }

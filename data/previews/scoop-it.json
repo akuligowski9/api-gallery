@@ -2,21 +2,20 @@
   "id": "scoop-it",
   "previewType": "card",
   "sampleResponse": {
-    "dataset": "US Population by State 2024",
-    "total_records": 51,
-    "last_updated": "Jan 2025",
-    "source": "U.S. Census Bureau",
-    "format": "JSON / CSV",
-    "license": "Public Domain"
+    "dataset": "OpenStreetMap Amenities",
+    "records": "500M+",
+    "source": "OSM",
+    "updated": "Continuous",
+    "license": "ODbL"
   },
   "previewConfig": {
     "title": "Scoop.it",
     "subtitle": "Content Curation Service",
     "displayFields": [
       "dataset",
-      "total_records",
-      "last_updated",
+      "records",
       "source",
+      "updated",
       "license"
     ]
   }

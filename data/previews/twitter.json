@@ -2,21 +2,19 @@
   "id": "twitter",
   "previewType": "card",
   "sampleResponse": {
-    "username": "@janedoe",
-    "display_name": "Jane Doe",
-    "followers": "142,803",
-    "following": 891,
-    "posts": "3,241",
-    "verified": true,
-    "bio": "Developer 👩‍💻 | Open source enthusiast"
+    "username": "@pixelartist",
+    "display_name": "Luna Kim",
+    "followers": "1.2M",
+    "posts": "4,512",
+    "verified": true
   },
   "previewConfig": {
     "title": "Twitter",
     "subtitle": "Read and write Twitter data",
     "displayFields": [
       "username",
+      "display_name",
       "followers",
-      "following",
       "posts",
       "verified"
     ]

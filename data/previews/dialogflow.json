@@ -2,22 +2,19 @@
   "id": "dialogflow",
   "previewType": "card",
   "sampleResponse": {
-    "input": "The movie was absolutely fantastic!",
-    "label": "POSITIVE",
-    "confidence": "98.7%",
-    "model": "distilbert-base-uncased",
-    "latency_ms": 42,
-    "tokens": 8
+    "input": "Summarize: The European Union today announced…",
+    "output": "EU unveils new 2030 climate targets.",
+    "compression": "85%",
+    "model": "bart-large"
   },
   "previewConfig": {
     "title": "Dialogflow",
     "subtitle": "Natural Language Processing",
     "displayFields": [
       "input",
-      "label",
-      "confidence",
-      "model",
-      "latency_ms"
+      "output",
+      "compression",
+      "model"
     ]
   }
 }

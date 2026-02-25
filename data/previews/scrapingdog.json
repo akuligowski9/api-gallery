@@ -2,13 +2,11 @@
   "id": "scrapingdog",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
-    "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "repo": "golang/go",
+    "stars": "122K",
+    "forks": "17.5K",
+    "language": "Go",
+    "open_issues": 9102
   },
   "previewConfig": {
     "title": "ScrapingDog",

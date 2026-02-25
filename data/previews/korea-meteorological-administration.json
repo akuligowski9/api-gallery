@@ -2,13 +2,11 @@
   "id": "korea-meteorological-administration",
   "previewType": "card",
   "sampleResponse": {
-    "location": "San Francisco, CA",
-    "temperature": "18°C / 64°F",
-    "condition": "Partly Cloudy",
-    "humidity": "72%",
-    "wind": "14 km/h W",
-    "uv_index": 4,
-    "forecast": "Rain expected Thursday"
+    "location": "Berlin, Germany",
+    "temperature": "8°C / 46°F",
+    "condition": "Light Rain",
+    "humidity": "91%",
+    "wind": "19 km/h NW"
   },
   "previewConfig": {
     "title": "Korea Meteorological Administration",

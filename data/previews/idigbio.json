@@ -6,9 +6,7 @@
     "symbol": "C",
     "atomic_number": 6,
     "atomic_mass": "12.011 u",
-    "category": "Nonmetal",
-    "melting_point": "3,642 K",
-    "electron_config": "[He] 2s² 2p²"
+    "category": "Nonmetal"
   },
   "previewConfig": {
     "title": "iDigBio",

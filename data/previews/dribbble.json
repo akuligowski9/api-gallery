@@ -2,25 +2,17 @@
   "id": "dribbble",
   "previewType": "card",
   "sampleResponse": {
-    "palette": "Sunset Gradient",
-    "colors": [
-      "#FF6B6B",
-      "#FFE66D",
-      "#FF8E53",
-      "#C9184A"
-    ],
-    "mood": "Warm, Energetic",
-    "usage": "UI, Marketing, Branding",
-    "contrast_ratio": 4.5
+    "palette": "Forest Canopy",
+    "colors": "#2D6A4F, #52B788, #B7E4C7",
+    "mood": "Natural, Fresh"
   },
   "previewConfig": {
     "title": "Dribbble",
     "subtitle": "Discover the world’s top designers & creatives",
     "displayFields": [
       "palette",
-      "mood",
-      "usage",
-      "contrast_ratio"
+      "colors",
+      "mood"
     ]
   }
 }

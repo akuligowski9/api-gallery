@@ -2,25 +2,17 @@
   "id": "europeana",
   "previewType": "card",
   "sampleResponse": {
-    "palette": "Sunset Gradient",
-    "colors": [
-      "#FF6B6B",
-      "#FFE66D",
-      "#FF8E53",
-      "#C9184A"
-    ],
-    "mood": "Warm, Energetic",
-    "usage": "UI, Marketing, Branding",
-    "contrast_ratio": 4.5
+    "palette": "Ocean Depths",
+    "colors": "#0A1628, #1B4965, #5FA8D3",
+    "mood": "Cool, Calm"
   },
   "previewConfig": {
     "title": "Europeana",
     "subtitle": "European Museum and Galleries content",
     "displayFields": [
       "palette",
-      "mood",
-      "usage",
-      "contrast_ratio"
+      "colors",
+      "mood"
     ]
   }
 }

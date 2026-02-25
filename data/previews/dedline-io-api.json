@@ -2,21 +2,20 @@
   "id": "dedline-io-api",
   "previewType": "card",
   "sampleResponse": {
-    "dataset": "US Population by State 2024",
-    "total_records": 51,
-    "last_updated": "Jan 2025",
-    "source": "U.S. Census Bureau",
-    "format": "JSON / CSV",
-    "license": "Public Domain"
+    "dataset": "EU Air Quality Index",
+    "records": "450K",
+    "source": "EEA",
+    "format": "JSON / XML",
+    "license": "CC BY 4.0"
   },
   "previewConfig": {
     "title": "Dedline.io API",
     "subtitle": "Data for US state voter registration deadlines and details, for primaries and general elections",
     "displayFields": [
       "dataset",
-      "total_records",
-      "last_updated",
+      "records",
       "source",
+      "format",
       "license"
     ]
   }

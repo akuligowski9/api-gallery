@@ -4,11 +4,9 @@
   "sampleResponse": {
     "document": "Q4 2025 Report.pdf",
     "pages": 24,
-    "word_count": "8,420",
+    "words": "8,420",
     "language": "English",
-    "created": "Jan 15, 2026",
-    "author": "Jane Smith",
-    "size": "2.3 MB"
+    "author": "Jane Smith"
   },
   "previewConfig": {
     "title": "Restpack",
@@ -16,7 +14,7 @@
     "displayFields": [
       "document",
       "pages",
-      "word_count",
+      "words",
       "language",
       "author"
     ]

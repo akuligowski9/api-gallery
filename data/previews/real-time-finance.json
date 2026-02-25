@@ -2,13 +2,11 @@
   "id": "real-time-finance",
   "previewType": "card",
   "sampleResponse": {
-    "symbol": "AAPL",
-    "price": "$182.63",
-    "change": "+1.24 (0.68%)",
-    "volume": "54,823,100",
-    "market_cap": "$2.87T",
-    "pe_ratio": 28.4,
-    "week_52_high": "$198.23"
+    "symbol": "V",
+    "price": "$279.15",
+    "change": "+0.67 (0.24%)",
+    "volume": "6.2M",
+    "market_cap": "$573B"
   },
   "previewConfig": {
     "title": "Real Time Finance",

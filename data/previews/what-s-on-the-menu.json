@@ -2,13 +2,11 @@
   "id": "what-s-on-the-menu",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Pasta Carbonara",
-    "cuisine": "Italian",
-    "prep_time": "10 min",
-    "cook_time": "20 min",
-    "calories": "620 kcal",
-    "servings": 2,
-    "difficulty": "Medium"
+    "name": "Falafel Wrap",
+    "cuisine": "Middle Eastern",
+    "prep_time": "25 min",
+    "cook_time": "10 min",
+    "calories": "420 kcal"
   },
   "previewConfig": {
     "title": "What's on the menu?",

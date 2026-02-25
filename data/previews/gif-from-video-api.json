@@ -2,13 +2,11 @@
   "id": "gif-from-video-api",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Inception",
-    "year": 2010,
-    "director": "Christopher Nolan",
-    "rating": "8.8 / 10",
-    "runtime": "2h 28min",
-    "genre": "Sci-Fi, Thriller",
-    "box_office": "$836.8M"
+    "title": "Everything Everywhere",
+    "director": "Daniels",
+    "year": 2022,
+    "rating": "7.8 / 10",
+    "runtime": "2h 19m"
   },
   "previewConfig": {
     "title": "GIF from Video API",
@@ -18,8 +16,7 @@
       "director",
       "year",
       "rating",
-      "runtime",
-      "genre"
+      "runtime"
     ]
   }
 }

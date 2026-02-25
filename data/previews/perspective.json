@@ -2,22 +2,21 @@
   "id": "perspective",
   "previewType": "card",
   "sampleResponse": {
-    "input": "The movie was absolutely fantastic!",
-    "label": "POSITIVE",
-    "confidence": "98.7%",
-    "model": "distilbert-base-uncased",
-    "latency_ms": 42,
-    "tokens": 8
+    "input": "cluster 500 customer records",
+    "clusters": 5,
+    "silhouette_score": 0.72,
+    "algorithm": "k-means",
+    "runtime": "1.2s"
   },
   "previewConfig": {
     "title": "Perspective",
     "subtitle": "NLP API to return probability that if text is toxic, obscene, insulting or threatening",
     "displayFields": [
       "input",
-      "label",
-      "confidence",
-      "model",
-      "latency_ms"
+      "clusters",
+      "silhouette_score",
+      "algorithm",
+      "runtime"
     ]
   }
 }

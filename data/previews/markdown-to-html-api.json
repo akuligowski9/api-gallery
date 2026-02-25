@@ -2,13 +2,11 @@
   "id": "markdown-to-html-api",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
-    "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "repo": "docker/compose",
+    "stars": "33.5K",
+    "forks": "5.2K",
+    "language": "Go",
+    "open_issues": 212
   },
   "previewConfig": {
     "title": "Markdown to HTML API",

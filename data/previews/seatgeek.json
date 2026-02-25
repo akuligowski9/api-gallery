@@ -2,12 +2,10 @@
   "id": "seatgeek",
   "previewType": "card",
   "sampleResponse": {
-    "event": "PyCon US 2026",
-    "date": "May 14–22, 2026",
-    "location": "Pittsburgh, PA",
-    "tickets": "From $125",
-    "attendees": "3,000+",
-    "category": "Technology Conference"
+    "event": "WWDC 2026",
+    "date": "Jun 8–12, 2026",
+    "location": "Cupertino, CA",
+    "tickets": "Free (online)"
   },
   "previewConfig": {
     "title": "SeatGeek",
@@ -16,8 +14,7 @@
       "event",
       "date",
       "location",
-      "tickets",
-      "attendees"
+      "tickets"
     ]
   }
 }

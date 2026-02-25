@@ -2,22 +2,21 @@
   "id": "unplugg",
   "previewType": "card",
   "sampleResponse": {
-    "input": "The movie was absolutely fantastic!",
-    "label": "POSITIVE",
-    "confidence": "98.7%",
-    "model": "distilbert-base-uncased",
-    "latency_ms": 42,
-    "tokens": 8
+    "input": "The quick brown fox [MASK] over the lazy dog",
+    "predicted": "jumps",
+    "alternatives": "leaps, hops, ran",
+    "model": "bert-base",
+    "latency": "28ms"
   },
   "previewConfig": {
     "title": "Unplugg",
     "subtitle": "Forecasting API for timeseries data",
     "displayFields": [
       "input",
-      "label",
-      "confidence",
+      "predicted",
+      "alternatives",
       "model",
-      "latency_ms"
+      "latency"
     ]
   }
 }

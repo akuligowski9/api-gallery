@@ -2,13 +2,11 @@
   "id": "mangadex",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Attack on Titan",
-    "studio": "MAPPA",
-    "episodes": 87,
-    "status": "Finished",
-    "score": "9.0 / 10",
-    "genres": "Action, Drama, Fantasy",
-    "aired": "2013 – 2023"
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "studio": "Bones",
+    "episodes": 64,
+    "score": "9.2 / 10",
+    "genres": "Action, Fantasy"
   },
   "previewConfig": {
     "title": "MangaDex",

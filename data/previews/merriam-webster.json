@@ -2,12 +2,10 @@
   "id": "merriam-webster",
   "previewType": "card",
   "sampleResponse": {
-    "word": "ephemeral",
-    "pronunciation": "/ɪˈfɛm.ər.əl/",
+    "word": "eloquent",
+    "pronunciation": "/ˈel.ə.kwənt/",
     "part_of_speech": "adjective",
-    "definition": "Lasting for a very short time; transitory.",
-    "example": "Fame is ephemeral — enjoy it while it lasts.",
-    "synonyms": "fleeting, transient, momentary"
+    "definition": "Fluent or persuasive in speech."
   },
   "previewConfig": {
     "title": "Merriam-Webster",
@@ -16,8 +14,7 @@
       "word",
       "pronunciation",
       "part_of_speech",
-      "definition",
-      "synonyms"
+      "definition"
     ]
   }
 }

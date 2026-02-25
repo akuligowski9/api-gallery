@@ -2,13 +2,11 @@
   "id": "czech-television",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Inception",
-    "year": 2010,
-    "director": "Christopher Nolan",
-    "rating": "8.8 / 10",
-    "runtime": "2h 28min",
-    "genre": "Sci-Fi, Thriller",
-    "box_office": "$836.8M"
+    "title": "Parasite",
+    "director": "Bong Joon-ho",
+    "year": 2019,
+    "rating": "8.5 / 10",
+    "runtime": "2h 12m"
   },
   "previewConfig": {
     "title": "Czech Television",
@@ -18,8 +16,7 @@
       "director",
       "year",
       "rating",
-      "runtime",
-      "genre"
+      "runtime"
     ]
   }
 }

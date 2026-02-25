@@ -2,12 +2,11 @@
   "id": "cohere",
   "previewType": "card",
   "sampleResponse": {
-    "input": "The movie was absolutely fantastic!",
-    "label": "POSITIVE",
-    "confidence": "98.7%",
-    "model": "distilbert-base-uncased",
-    "latency_ms": 42,
-    "tokens": 8
+    "input": "Is this email spam?",
+    "label": "NOT SPAM",
+    "confidence": "94.1%",
+    "model": "naive-bayes",
+    "features": 47
   },
   "previewConfig": {
     "title": "Cohere",
@@ -17,7 +16,7 @@
       "label",
       "confidence",
       "model",
-      "latency_ms"
+      "features"
     ]
   }
 }

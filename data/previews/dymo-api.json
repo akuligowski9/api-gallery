@@ -2,23 +2,21 @@
   "id": "dymo-api",
   "previewType": "card",
   "sampleResponse": {
-    "ip": "192.168.1.1",
-    "threat_score": 12,
-    "is_malicious": false,
-    "country": "United States",
-    "isp": "Comcast",
-    "reports": 3,
-    "last_seen": "30 days ago"
+    "file": "npm-package.tgz",
+    "verdict": "Suspicious",
+    "engines_detected": "3 / 72",
+    "scan_date": "2026-02-25",
+    "file_size": "1.1 MB"
   },
   "previewConfig": {
     "title": "Dymo API",
     "subtitle": "Fraud & reputation detection",
     "displayFields": [
-      "ip",
-      "threat_score",
-      "is_malicious",
-      "country",
-      "reports"
+      "file",
+      "verdict",
+      "engines_detected",
+      "scan_date",
+      "file_size"
     ]
   }
 }

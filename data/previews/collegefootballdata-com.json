@@ -2,13 +2,11 @@
   "id": "collegefootballdata-com",
   "previewType": "card",
   "sampleResponse": {
-    "match": "Lakers vs Warriors",
-    "score": "112 – 108",
+    "match": "Chiefs vs Eagles",
+    "score": "31 – 24",
     "status": "Final",
-    "venue": "Chase Center, SF",
-    "date": "Feb 22, 2026",
-    "mvp": "Stephen Curry",
-    "attendance": "18,064"
+    "venue": "State Farm Stadium",
+    "mvp": "Mahomes"
   },
   "previewConfig": {
     "title": "CollegeFootballData.com",

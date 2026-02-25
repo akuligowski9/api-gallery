@@ -2,25 +2,19 @@
   "id": "cloudmersive-natural-language-processing",
   "previewType": "card",
   "sampleResponse": {
-    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "text": "I absolutely love this new product!",
     "language": "English",
-    "sentiment": "Neutral",
-    "entities": [
-      "Elon Musk (Person)",
-      "Tesla (Org)",
-      "Austin (Location)"
-    ],
-    "word_count": 7,
-    "reading_level": "Grade 8"
+    "sentiment": "Very Positive",
+    "entities": "None detected"
   },
   "previewConfig": {
     "title": "Cloudmersive Natural Language Processing",
     "subtitle": "Natural language processing and text analysis",
     "displayFields": [
+      "text",
       "language",
       "sentiment",
-      "entities",
-      "word_count"
+      "entities"
     ]
   }
 }

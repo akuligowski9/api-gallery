@@ -2,13 +2,11 @@
   "id": "met-office-datapoint",
   "previewType": "card",
   "sampleResponse": {
-    "location": "San Francisco, CA",
-    "temperature": "18°C / 64°F",
-    "condition": "Partly Cloudy",
-    "humidity": "72%",
-    "wind": "14 km/h W",
-    "uv_index": 4,
-    "forecast": "Rain expected Thursday"
+    "location": "London, UK",
+    "temperature": "12°C / 54°F",
+    "condition": "Overcast",
+    "humidity": "85%",
+    "wind": "22 km/h SW"
   },
   "previewConfig": {
     "title": "Met Office DataPoint",

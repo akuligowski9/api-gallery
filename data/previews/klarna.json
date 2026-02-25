@@ -2,13 +2,11 @@
   "id": "klarna",
   "previewType": "card",
   "sampleResponse": {
-    "symbol": "AAPL",
-    "price": "$182.63",
-    "change": "+1.24 (0.68%)",
-    "volume": "54,823,100",
-    "market_cap": "$2.87T",
-    "pe_ratio": 28.4,
-    "week_52_high": "$198.23"
+    "symbol": "JPM",
+    "price": "$198.42",
+    "change": "-1.03 (-0.52%)",
+    "volume": "8.9M",
+    "market_cap": "$571B"
   },
   "previewConfig": {
     "title": "Klarna",

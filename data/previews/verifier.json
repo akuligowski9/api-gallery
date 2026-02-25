@@ -6,9 +6,7 @@
     "valid": true,
     "deliverable": true,
     "domain": "example.com",
-    "mx_found": true,
-    "disposable": false,
-    "role_account": false
+    "disposable": false
   },
   "previewConfig": {
     "title": "Verifier",

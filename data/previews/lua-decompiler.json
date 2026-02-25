@@ -2,13 +2,11 @@
   "id": "lua-decompiler",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
-    "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "repo": "python/cpython",
+    "stars": "62.1K",
+    "forks": "29.8K",
+    "language": "Python",
+    "open_issues": 8234
   },
   "previewConfig": {
     "title": "Lua Decompiler",

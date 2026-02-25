@@ -2,12 +2,10 @@
   "id": "hearthstone",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
+    "title": "Spider-Man 2",
+    "platform": "PS5",
     "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "rating": "9.0 / 10"
   },
   "previewConfig": {
     "title": "Hearthstone",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

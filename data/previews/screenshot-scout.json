@@ -2,13 +2,11 @@
   "id": "screenshot-scout",
   "previewType": "card",
   "sampleResponse": {
-    "repo": "facebook/react",
-    "stars": "228,441",
-    "forks": "46,832",
-    "language": "JavaScript",
-    "open_issues": 891,
-    "license": "MIT",
-    "last_commit": "2 hours ago"
+    "repo": "torvalds/linux",
+    "stars": "178K",
+    "forks": "53.1K",
+    "language": "C",
+    "open_issues": 341
   },
   "previewConfig": {
     "title": "Screenshot Scout",

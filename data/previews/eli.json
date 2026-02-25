@@ -2,25 +2,19 @@
   "id": "eli",
   "previewType": "card",
   "sampleResponse": {
-    "text": "Elon Musk visited Tesla HQ in Austin.",
-    "language": "English",
+    "text": "Le président a annoncé de nouvelles mesures.",
+    "language": "French",
     "sentiment": "Neutral",
-    "entities": [
-      "Elon Musk (Person)",
-      "Tesla (Org)",
-      "Austin (Location)"
-    ],
-    "word_count": 7,
-    "reading_level": "Grade 8"
+    "entities": "président (Role)"
   },
   "previewConfig": {
     "title": "ELI",
     "subtitle": "Natural Language Processing Tools for Thai Language",
     "displayFields": [
+      "text",
       "language",
       "sentiment",
-      "entities",
-      "word_count"
+      "entities"
     ]
   }
 }

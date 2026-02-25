@@ -2,25 +2,19 @@
   "id": "ai-translate-text-api",
   "previewType": "card",
   "sampleResponse": {
-    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "text": "The server returned a 503 error at 3am.",
     "language": "English",
-    "sentiment": "Neutral",
-    "entities": [
-      "Elon Musk (Person)",
-      "Tesla (Org)",
-      "Austin (Location)"
-    ],
-    "word_count": 7,
-    "reading_level": "Grade 8"
+    "sentiment": "Negative",
+    "entities": "503 (Error), 3am (Time)"
   },
   "previewConfig": {
     "title": "AI Translate text API",
     "subtitle": "The Text Translation API translates text into any of the 80 supported languages, providing accurate and context-aware translations",
     "displayFields": [
+      "text",
       "language",
       "sentiment",
-      "entities",
-      "word_count"
+      "entities"
     ]
   }
 }

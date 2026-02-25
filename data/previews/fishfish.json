@@ -2,23 +2,21 @@
   "id": "fishfish",
   "previewType": "card",
   "sampleResponse": {
-    "ip": "192.168.1.1",
-    "threat_score": 12,
-    "is_malicious": false,
-    "country": "United States",
-    "isp": "Comcast",
-    "reports": 3,
-    "last_seen": "30 days ago"
+    "file": "invoice.pdf.exe",
+    "verdict": "Malicious",
+    "engines_detected": "58 / 72",
+    "scan_date": "2026-02-24",
+    "file_size": "892 KB"
   },
   "previewConfig": {
     "title": "FishFish",
     "subtitle": "A volunteer cybersecurity project focused on providing resources and services that improve safety across Discord",
     "displayFields": [
-      "ip",
-      "threat_score",
-      "is_malicious",
-      "country",
-      "reports"
+      "file",
+      "verdict",
+      "engines_detected",
+      "scan_date",
+      "file_size"
     ]
   }
 }

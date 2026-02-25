@@ -2,13 +2,11 @@
   "id": "kroger",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Pasta Carbonara",
-    "cuisine": "Italian",
-    "prep_time": "10 min",
-    "cook_time": "20 min",
-    "calories": "620 kcal",
-    "servings": 2,
-    "difficulty": "Medium"
+    "name": "French Onion Soup",
+    "cuisine": "French",
+    "prep_time": "15 min",
+    "cook_time": "45 min",
+    "calories": "310 kcal"
   },
   "previewConfig": {
     "title": "Kroger",

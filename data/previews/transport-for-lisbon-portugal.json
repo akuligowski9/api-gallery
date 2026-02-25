@@ -3,10 +3,8 @@
   "previewType": "card",
   "sampleResponse": {
     "flight": "UA 328",
-    "origin": "SFO — San Francisco",
-    "destination": "JFK — New York",
+    "route": "SFO → JFK",
     "departure": "08:45 AM",
-    "arrival": "05:17 PM",
     "status": "On Time",
     "aircraft": "Boeing 737-900"
   },
@@ -15,10 +13,10 @@
     "subtitle": "Data about buses routes, parking and traffic",
     "displayFields": [
       "flight",
-      "origin",
-      "destination",
+      "route",
       "departure",
-      "status"
+      "status",
+      "aircraft"
     ]
   }
 }

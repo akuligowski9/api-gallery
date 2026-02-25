@@ -2,21 +2,19 @@
   "id": "vk",
   "previewType": "card",
   "sampleResponse": {
-    "username": "@janedoe",
-    "display_name": "Jane Doe",
-    "followers": "142,803",
-    "following": 891,
-    "posts": "3,241",
-    "verified": true,
-    "bio": "Developer 👩‍💻 | Open source enthusiast"
+    "username": "@sarahcodes",
+    "display_name": "Sarah Chen",
+    "followers": "284,921",
+    "posts": "5,102",
+    "verified": true
   },
   "previewConfig": {
     "title": "vk",
     "subtitle": "Read and write vk data",
     "displayFields": [
       "username",
+      "display_name",
       "followers",
-      "following",
       "posts",
       "verified"
     ]

@@ -2,13 +2,11 @@
   "id": "logokit",
   "previewType": "card",
   "sampleResponse": {
-    "company": "Acme Corp",
-    "industry": "Software",
-    "founded": 2012,
-    "employees": "501–1,000",
-    "revenue": "$48M ARR",
-    "headquarters": "Austin, TX",
-    "public": false
+    "company": "Zenith Labs",
+    "industry": "Biotech",
+    "founded": 2009,
+    "employees": "1,001–5,000",
+    "revenue": "$210M ARR"
   },
   "previewConfig": {
     "title": "LogoKit",

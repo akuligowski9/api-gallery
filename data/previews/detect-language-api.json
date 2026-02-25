@@ -2,25 +2,19 @@
   "id": "detect-language-api",
   "previewType": "card",
   "sampleResponse": {
-    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "text": "Tokyo reported record cherry blossom dates.",
     "language": "English",
-    "sentiment": "Neutral",
-    "entities": [
-      "Elon Musk (Person)",
-      "Tesla (Org)",
-      "Austin (Location)"
-    ],
-    "word_count": 7,
-    "reading_level": "Grade 8"
+    "sentiment": "Positive",
+    "entities": "Tokyo (Location)"
   },
   "previewConfig": {
     "title": "Detect Language API",
     "subtitle": "This API detects the language from any text (+ 50 languages supported)",
     "displayFields": [
+      "text",
       "language",
       "sentiment",
-      "entities",
-      "word_count"
+      "entities"
     ]
   }
 }

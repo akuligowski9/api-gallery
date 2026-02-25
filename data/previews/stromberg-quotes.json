@@ -2,13 +2,11 @@
   "id": "stromberg-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Inception",
-    "year": 2010,
+    "title": "Oppenheimer",
     "director": "Christopher Nolan",
-    "rating": "8.8 / 10",
-    "runtime": "2h 28min",
-    "genre": "Sci-Fi, Thriller",
-    "box_office": "$836.8M"
+    "year": 2023,
+    "rating": "8.3 / 10",
+    "runtime": "3h 0m"
   },
   "previewConfig": {
     "title": "Stromberg Quotes",
@@ -18,8 +16,7 @@
       "director",
       "year",
       "rating",
-      "runtime",
-      "genre"
+      "runtime"
     ]
   }
 }

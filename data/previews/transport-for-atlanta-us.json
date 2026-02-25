@@ -2,23 +2,21 @@
   "id": "transport-for-atlanta-us",
   "previewType": "card",
   "sampleResponse": {
-    "flight": "UA 328",
-    "origin": "SFO — San Francisco",
-    "destination": "JFK — New York",
-    "departure": "08:45 AM",
-    "arrival": "05:17 PM",
-    "status": "On Time",
-    "aircraft": "Boeing 737-900"
+    "flight": "EK 215",
+    "route": "DXB → LAX",
+    "departure": "08:30 AM",
+    "status": "In Flight",
+    "aircraft": "A380-800"
   },
   "previewConfig": {
     "title": "Transport for Atlanta, US",
     "subtitle": "Marta",
     "displayFields": [
       "flight",
-      "origin",
-      "destination",
+      "route",
       "departure",
-      "status"
+      "status",
+      "aircraft"
     ]
   }
 }

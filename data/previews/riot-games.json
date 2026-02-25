@@ -2,12 +2,10 @@
   "id": "riot-games",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
-    "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "title": "Hollow Knight: Silksong",
+    "platform": "PC / Switch",
+    "genre": "Metroidvania",
+    "rating": "TBD"
   },
   "previewConfig": {
     "title": "Riot Games",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

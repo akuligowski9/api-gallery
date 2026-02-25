@@ -2,13 +2,11 @@
   "id": "charity-search",
   "previewType": "card",
   "sampleResponse": {
-    "company": "Acme Corp",
-    "industry": "Software",
-    "founded": 2012,
-    "employees": "501–1,000",
-    "revenue": "$48M ARR",
-    "headquarters": "Austin, TX",
-    "public": false
+    "company": "Novara Health",
+    "industry": "Healthcare",
+    "founded": 2015,
+    "employees": "201–500",
+    "revenue": "$32M ARR"
   },
   "previewConfig": {
     "title": "Charity Search",

@@ -2,13 +2,11 @@
   "id": "privacy-com",
   "previewType": "card",
   "sampleResponse": {
-    "ip": "192.168.1.1",
-    "threat_score": 12,
-    "is_malicious": false,
-    "country": "United States",
-    "isp": "Comcast",
-    "reports": 3,
-    "last_seen": "30 days ago"
+    "ip": "203.0.113.42",
+    "threat_score": 45,
+    "malicious": false,
+    "country": "Japan",
+    "reports": 18
   },
   "previewConfig": {
     "title": "Privacy.com",
@@ -16,7 +14,7 @@
     "displayFields": [
       "ip",
       "threat_score",
-      "is_malicious",
+      "malicious",
       "country",
       "reports"
     ]

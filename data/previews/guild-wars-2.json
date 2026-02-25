@@ -2,12 +2,10 @@
   "id": "guild-wars-2",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
+    "title": "The Legend of Zelda: TOTK",
+    "platform": "Switch",
     "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "rating": "9.6 / 10"
   },
   "previewConfig": {
     "title": "Guild Wars 2",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

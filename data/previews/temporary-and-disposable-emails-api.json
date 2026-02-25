@@ -2,13 +2,11 @@
   "id": "temporary-and-disposable-emails-api",
   "previewType": "card",
   "sampleResponse": {
-    "email": "user@example.com",
+    "email": "info@company.io",
     "valid": true,
     "deliverable": true,
-    "domain": "example.com",
-    "mx_found": true,
-    "disposable": false,
-    "role_account": false
+    "domain": "company.io",
+    "disposable": false
   },
   "previewConfig": {
     "title": "Temporary and Disposable emails API",

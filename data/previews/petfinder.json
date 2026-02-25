@@ -2,13 +2,11 @@
   "id": "petfinder",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Red Fox",
-    "scientific_name": "Vulpes vulpes",
-    "habitat": "Forest, Grassland, Urban",
-    "diet": "Omnivore",
-    "lifespan": "2–5 years (wild)",
-    "weight": "2.2–14 kg",
-    "conservation_status": "Least Concern"
+    "name": "Snow Leopard",
+    "scientific_name": "Panthera uncia",
+    "habitat": "Mountain",
+    "diet": "Carnivore",
+    "conservation": "Vulnerable"
   },
   "previewConfig": {
     "title": "Petfinder",
@@ -18,7 +16,7 @@
       "scientific_name",
       "habitat",
       "diet",
-      "conservation_status"
+      "conservation"
     ]
   }
 }

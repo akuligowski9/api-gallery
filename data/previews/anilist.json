@@ -2,13 +2,11 @@
   "id": "anilist",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Attack on Titan",
-    "studio": "MAPPA",
-    "episodes": 87,
-    "status": "Finished",
-    "score": "9.0 / 10",
-    "genres": "Action, Drama, Fantasy",
-    "aired": "2013 – 2023"
+    "title": "Spy × Family",
+    "studio": "Wit / CloverWorks",
+    "episodes": 37,
+    "score": "8.6 / 10",
+    "genres": "Action, Comedy"
   },
   "previewConfig": {
     "title": "AniList",

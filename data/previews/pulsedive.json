@@ -4,11 +4,9 @@
   "sampleResponse": {
     "ip": "192.168.1.1",
     "threat_score": 12,
-    "is_malicious": false,
+    "malicious": false,
     "country": "United States",
-    "isp": "Comcast",
-    "reports": 3,
-    "last_seen": "30 days ago"
+    "reports": 3
   },
   "previewConfig": {
     "title": "Pulsedive",
@@ -16,7 +14,7 @@
     "displayFields": [
       "ip",
       "threat_score",
-      "is_malicious",
+      "malicious",
       "country",
       "reports"
     ]

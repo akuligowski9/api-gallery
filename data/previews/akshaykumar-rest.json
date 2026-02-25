@@ -2,15 +2,9 @@
   "id": "akshaykumar-rest",
   "previewType": "card",
   "sampleResponse": {
-    "quote": "The only way to do great work is to love what you do.",
-    "author": "Steve Jobs",
-    "category": "Motivation",
-    "length": 55,
-    "tags": [
-      "work",
-      "passion",
-      "greatness"
-    ]
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Stewart Brand",
+    "category": "Innovation"
   },
   "previewConfig": {
     "title": "akshaykumar-rest",

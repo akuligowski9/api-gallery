@@ -2,12 +2,10 @@
   "id": "tebex",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
-    "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "title": "Final Fantasy XVI",
+    "platform": "PS5 / PC",
+    "genre": "Action RPG",
+    "rating": "8.8 / 10"
   },
   "previewConfig": {
     "title": "Tebex",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

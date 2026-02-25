@@ -2,11 +2,10 @@
   "id": "udemy-coupons-courses-instructors-data",
   "previewType": "card",
   "sampleResponse": {
-    "dataset": "US Population by State 2024",
-    "total_records": 51,
-    "last_updated": "Jan 2025",
-    "source": "U.S. Census Bureau",
-    "format": "JSON / CSV",
+    "dataset": "NYC Taxi Trips",
+    "records": "112M",
+    "source": "TLC",
+    "updated": "Monthly",
     "license": "Public Domain"
   },
   "previewConfig": {
@@ -14,9 +13,9 @@
     "subtitle": "Retrieve Udemy courses, coupons, instructors, and metadata",
     "displayFields": [
       "dataset",
-      "total_records",
-      "last_updated",
+      "records",
       "source",
+      "updated",
       "license"
     ]
   }

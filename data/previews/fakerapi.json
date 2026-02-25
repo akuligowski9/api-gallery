@@ -2,12 +2,10 @@
   "id": "fakerapi",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Alexandra Chen",
-    "email": "a.chen@fakemail.dev",
-    "phone": "+1 (415) 555-0192",
-    "address": "847 Oak St, Portland, OR 97201",
-    "username": "achen_dev",
-    "avatar": "https://i.pravatar.cc/100"
+    "name": "Yuki Tanaka",
+    "email": "y.tanaka@sample.jp",
+    "phone": "+81 90-1234-5678",
+    "city": "Osaka, Japan"
   },
   "previewConfig": {
     "title": "FakerAPI",
@@ -16,8 +14,7 @@
       "name",
       "email",
       "phone",
-      "address",
-      "username"
+      "city"
     ]
   }
 }

@@ -2,13 +2,11 @@
   "id": "nioleads",
   "previewType": "card",
   "sampleResponse": {
-    "company": "Acme Corp",
-    "industry": "Software",
-    "founded": 2012,
-    "employees": "501–1,000",
-    "revenue": "$48M ARR",
-    "headquarters": "Austin, TX",
-    "public": false
+    "company": "Peak Digital",
+    "industry": "Marketing",
+    "founded": 2020,
+    "employees": "11–50",
+    "revenue": "$3.2M ARR"
   },
   "previewConfig": {
     "title": "NioLeads",

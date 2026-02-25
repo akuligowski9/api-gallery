@@ -2,12 +2,10 @@
   "id": "destiny-the-game",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
-    "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "title": "Baldur's Gate 3",
+    "platform": "PC / PS5",
+    "genre": "RPG",
+    "rating": "9.7 / 10"
   },
   "previewConfig": {
     "title": "Destiny The Game",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

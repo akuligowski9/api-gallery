@@ -2,13 +2,11 @@
   "id": "wolne-lektury",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Pragmatic Programmer",
-    "author": "David Thomas, Andrew Hunt",
-    "isbn": "978-0-13-595705-9",
-    "published": "1999",
-    "pages": 352,
-    "genre": "Software Engineering",
-    "rating": "4.8 / 5"
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "pages": 688,
+    "rating": "4.7 / 5"
   },
   "previewConfig": {
     "title": "Wolne Lektury",
@@ -16,9 +14,8 @@
     "displayFields": [
       "title",
       "author",
-      "published",
-      "pages",
       "genre",
+      "pages",
       "rating"
     ]
   }

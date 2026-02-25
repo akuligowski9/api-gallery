@@ -3,11 +3,9 @@
   "previewType": "card",
   "sampleResponse": {
     "title": "The Pragmatic Programmer",
-    "author": "David Thomas, Andrew Hunt",
-    "isbn": "978-0-13-595705-9",
-    "published": "1999",
-    "pages": 352,
+    "author": "Thomas & Hunt",
     "genre": "Software Engineering",
+    "pages": 352,
     "rating": "4.8 / 5"
   },
   "previewConfig": {
@@ -16,9 +14,8 @@
     "displayFields": [
       "title",
       "author",
-      "published",
-      "pages",
       "genre",
+      "pages",
       "rating"
     ]
   }

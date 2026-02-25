@@ -2,13 +2,11 @@
   "id": "nownodes",
   "previewType": "card",
   "sampleResponse": {
-    "tx_hash": "0x3a4e...9f2b",
-    "block": "19,482,031",
-    "from": "0xAb5...3D1",
-    "to": "0xC8f...7E2",
-    "value": "1.284 ETH",
-    "gas_fee": "0.0024 ETH",
-    "status": "Confirmed"
+    "tx_hash": "0xf29d...a103",
+    "block": "19,482,050",
+    "value": "12.0 ETH",
+    "gas_fee": "0.0031 ETH",
+    "status": "Pending"
   },
   "previewConfig": {
     "title": "Nownodes",

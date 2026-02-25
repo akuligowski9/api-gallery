@@ -2,13 +2,11 @@
   "id": "mcu-countdown",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Inception",
-    "year": 2010,
-    "director": "Christopher Nolan",
-    "rating": "8.8 / 10",
-    "runtime": "2h 28min",
-    "genre": "Sci-Fi, Thriller",
-    "box_office": "$836.8M"
+    "title": "Whiplash",
+    "director": "Damien Chazelle",
+    "year": 2014,
+    "rating": "8.5 / 10",
+    "runtime": "1h 47m"
   },
   "previewConfig": {
     "title": "MCU Countdown",
@@ -18,8 +16,7 @@
       "director",
       "year",
       "rating",
-      "runtime",
-      "genre"
+      "runtime"
     ]
   }
 }

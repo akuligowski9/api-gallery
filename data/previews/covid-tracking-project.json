@@ -2,12 +2,10 @@
   "id": "covid-tracking-project",
   "previewType": "card",
   "sampleResponse": {
-    "condition": "Type 2 Diabetes",
-    "icd_code": "E11",
-    "category": "Endocrine disorder",
-    "prevalence": "~462M worldwide",
-    "treatment": "Lifestyle change, medication",
-    "risk_factors": "Obesity, inactivity, genetics"
+    "condition": "Hypertension",
+    "icd_code": "I10",
+    "category": "Cardiovascular",
+    "prevalence": "~1.28B worldwide"
   },
   "previewConfig": {
     "title": "Covid Tracking Project",
@@ -16,8 +14,7 @@
       "condition",
       "icd_code",
       "category",
-      "prevalence",
-      "treatment"
+      "prevalence"
     ]
   }
 }

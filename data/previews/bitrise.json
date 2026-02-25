@@ -5,10 +5,8 @@
     "pipeline": "main-build",
     "status": "passed",
     "duration": "4m 12s",
-    "triggered_by": "push to main",
     "branch": "main",
-    "commit": "a3f91bc",
-    "tests_passed": "247 / 247"
+    "tests": "247 / 247"
   },
   "previewConfig": {
     "title": "Bitrise",
@@ -18,7 +16,7 @@
       "status",
       "duration",
       "branch",
-      "tests_passed"
+      "tests"
     ]
   }
 }

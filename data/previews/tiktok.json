@@ -2,21 +2,19 @@
   "id": "tiktok",
   "previewType": "card",
   "sampleResponse": {
-    "username": "@janedoe",
-    "display_name": "Jane Doe",
-    "followers": "142,803",
-    "following": 891,
-    "posts": "3,241",
-    "verified": true,
-    "bio": "Developer 👩‍💻 | Open source enthusiast"
+    "username": "@techbro42",
+    "display_name": "Mike R.",
+    "followers": "8,342",
+    "posts": "921",
+    "verified": false
   },
   "previewConfig": {
     "title": "TikTok",
     "subtitle": "Fetches user info and user's video posts on TikTok platform",
     "displayFields": [
       "username",
+      "display_name",
       "followers",
-      "following",
       "posts",
       "verified"
     ]

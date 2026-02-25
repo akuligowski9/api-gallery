@@ -2,21 +2,20 @@
   "id": "brazilian-chamber-of-deputies-open-data",
   "previewType": "card",
   "sampleResponse": {
-    "dataset": "US Population by State 2024",
-    "total_records": 51,
-    "last_updated": "Jan 2025",
-    "source": "U.S. Census Bureau",
-    "format": "JSON / CSV",
-    "license": "Public Domain"
+    "dataset": "Australia Employment Data",
+    "records": "8,200",
+    "source": "ABS",
+    "format": "JSON",
+    "license": "CC BY 4.0"
   },
   "previewConfig": {
     "title": "Brazilian Chamber of Deputies Open Data",
     "subtitle": "Provides legislative information in Apis XML and JSON, as well as files in various formats",
     "displayFields": [
       "dataset",
-      "total_records",
-      "last_updated",
+      "records",
       "source",
+      "format",
       "license"
     ]
   }

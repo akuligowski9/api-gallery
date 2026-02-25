@@ -2,22 +2,20 @@
   "id": "smart-adaptive-ultra-fast-image-compressor-converter",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Golden Gate at Dusk",
-    "photographer": "Alex Morgan",
-    "camera": "Sony A7R V",
-    "aperture": "f/8",
-    "shutter_speed": "1/250s",
-    "iso": 200,
-    "resolution": "61 MP"
+    "title": "Misty Forest",
+    "photographer": "Lena Park",
+    "camera": "Canon R5",
+    "aperture": "f/5.6",
+    "iso": 400
   },
   "previewConfig": {
     "title": "Smart Adaptive Ultra-Fast Image Compressor & Converter",
     "subtitle": "Compress, convert, and optimize images automatically with adaptive AI tuning",
     "displayFields": [
+      "title",
       "photographer",
       "camera",
       "aperture",
-      "shutter_speed",
       "iso"
     ]
   }

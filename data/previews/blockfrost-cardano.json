@@ -2,23 +2,21 @@
   "id": "blockfrost-cardano",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Bitcoin",
-    "symbol": "BTC",
-    "price_usd": "$67,432.18",
-    "change_24h": "+3.41%",
-    "market_cap": "$1.33T",
-    "volume_24h": "$38.2B",
-    "circulating_supply": "19.7M BTC"
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "price_usd": "$18.43",
+    "change_24h": "+2.08%",
+    "market_cap": "$10.8B"
   },
   "previewConfig": {
     "title": "blockfrost Cardano",
     "subtitle": "Interaction with the Cardano mainnet and several testnets",
     "displayFields": [
       "name",
+      "symbol",
       "price_usd",
       "change_24h",
-      "market_cap",
-      "volume_24h"
+      "market_cap"
     ]
   }
 }

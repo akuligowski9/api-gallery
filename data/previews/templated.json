@@ -2,22 +2,20 @@
   "id": "templated",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Golden Gate at Dusk",
-    "photographer": "Alex Morgan",
-    "camera": "Sony A7R V",
-    "aperture": "f/8",
-    "shutter_speed": "1/250s",
-    "iso": 200,
-    "resolution": "61 MP"
+    "title": "Misty Forest",
+    "photographer": "Lena Park",
+    "camera": "Canon R5",
+    "aperture": "f/5.6",
+    "iso": 400
   },
   "previewConfig": {
     "title": "Templated",
     "subtitle": "Generate images and PDFs with a simple API. Design in a Canva-like editor and render images with code",
     "displayFields": [
+      "title",
       "photographer",
       "camera",
       "aperture",
-      "shutter_speed",
       "iso"
     ]
   }

@@ -2,23 +2,21 @@
   "id": "community-transit",
   "previewType": "card",
   "sampleResponse": {
-    "flight": "UA 328",
-    "origin": "SFO — San Francisco",
-    "destination": "JFK — New York",
-    "departure": "08:45 AM",
-    "arrival": "05:17 PM",
-    "status": "On Time",
-    "aircraft": "Boeing 737-900"
+    "flight": "JL 006",
+    "route": "NRT → JFK",
+    "departure": "11:20 AM",
+    "status": "Scheduled",
+    "aircraft": "Boeing 777-300ER"
   },
   "previewConfig": {
     "title": "Community Transit",
     "subtitle": "Transitland API",
     "displayFields": [
       "flight",
-      "origin",
-      "destination",
+      "route",
       "departure",
-      "status"
+      "status",
+      "aircraft"
     ]
   }
 }

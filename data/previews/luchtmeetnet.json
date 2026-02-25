@@ -4,11 +4,9 @@
   "sampleResponse": {
     "location": "Los Angeles, CA",
     "aqi": 87,
-    "category": "Moderate",
+    "quality": "Moderate",
     "pm2_5": "18.3 µg/m³",
-    "pm10": "34.1 µg/m³",
-    "o3": "0.064 ppm",
-    "updated": "2026-02-25 11:00 AM"
+    "pm10": "34.1 µg/m³"
   },
   "previewConfig": {
     "title": "Luchtmeetnet",
@@ -16,7 +14,7 @@
     "displayFields": [
       "location",
       "aqi",
-      "category",
+      "quality",
       "pm2_5",
       "pm10"
     ]

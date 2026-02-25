@@ -2,13 +2,11 @@
   "id": "codeship",
   "previewType": "card",
   "sampleResponse": {
-    "pipeline": "main-build",
-    "status": "passed",
-    "duration": "4m 12s",
-    "triggered_by": "push to main",
-    "branch": "main",
-    "commit": "a3f91bc",
-    "tests_passed": "247 / 247"
+    "pipeline": "pr-check",
+    "status": "failed",
+    "duration": "2m 48s",
+    "branch": "feat/auth",
+    "tests": "244 / 247"
   },
   "previewConfig": {
     "title": "Codeship",
@@ -18,7 +16,7 @@
       "status",
       "duration",
       "branch",
-      "tests_passed"
+      "tests"
     ]
   }
 }

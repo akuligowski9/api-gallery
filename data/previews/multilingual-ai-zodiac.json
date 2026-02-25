@@ -2,16 +2,10 @@
   "id": "multilingual-ai-zodiac",
   "previewType": "card",
   "sampleResponse": {
-    "question": "What is the largest planet in our solar system?",
-    "answer": "Jupiter",
-    "category": "Science",
-    "difficulty": "Easy",
-    "options": [
-      "Saturn",
-      "Jupiter",
-      "Neptune",
-      "Uranus"
-    ]
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "category": "Art",
+    "difficulty": "Easy"
   },
   "previewConfig": {
     "title": "Multilingual AI Zodiac",

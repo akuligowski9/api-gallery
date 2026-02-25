@@ -2,22 +2,20 @@
   "id": "duply",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Golden Gate at Dusk",
-    "photographer": "Alex Morgan",
-    "camera": "Sony A7R V",
-    "aperture": "f/8",
-    "shutter_speed": "1/250s",
-    "iso": 200,
-    "resolution": "61 MP"
+    "title": "Northern Lights",
+    "photographer": "Eira Svensson",
+    "camera": "Nikon Z9",
+    "aperture": "f/2.8",
+    "iso": 3200
   },
   "previewConfig": {
     "title": "Duply",
     "subtitle": "Generate, Edit, Scale and Manage Images and Videos Smarter & Faster",
     "displayFields": [
+      "title",
       "photographer",
       "camera",
       "aperture",
-      "shutter_speed",
       "iso"
     ]
   }

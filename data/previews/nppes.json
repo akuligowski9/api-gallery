@@ -2,12 +2,10 @@
   "id": "nppes",
   "previewType": "card",
   "sampleResponse": {
-    "condition": "Type 2 Diabetes",
-    "icd_code": "E11",
-    "category": "Endocrine disorder",
-    "prevalence": "~462M worldwide",
-    "treatment": "Lifestyle change, medication",
-    "risk_factors": "Obesity, inactivity, genetics"
+    "condition": "Migraine",
+    "icd_code": "G43",
+    "category": "Neurological",
+    "prevalence": "~1B worldwide"
   },
   "previewConfig": {
     "title": "NPPES",
@@ -16,8 +14,7 @@
       "condition",
       "icd_code",
       "category",
-      "prevalence",
-      "treatment"
+      "prevalence"
     ]
   }
 }

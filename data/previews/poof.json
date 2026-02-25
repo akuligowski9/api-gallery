@@ -2,22 +2,20 @@
   "id": "poof",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Golden Gate at Dusk",
-    "photographer": "Alex Morgan",
-    "camera": "Sony A7R V",
-    "aperture": "f/8",
-    "shutter_speed": "1/250s",
-    "iso": 200,
-    "resolution": "61 MP"
+    "title": "Street Market, Marrakech",
+    "photographer": "Youssef Amin",
+    "camera": "Fuji X-T5",
+    "aperture": "f/4",
+    "iso": 800
   },
   "previewConfig": {
     "title": "Poof",
     "subtitle": "Image & video background removal API",
     "displayFields": [
+      "title",
       "photographer",
       "camera",
       "aperture",
-      "shutter_speed",
       "iso"
     ]
   }

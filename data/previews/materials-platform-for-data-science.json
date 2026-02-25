@@ -2,13 +2,11 @@
   "id": "materials-platform-for-data-science",
   "previewType": "card",
   "sampleResponse": {
-    "element": "Carbon",
-    "symbol": "C",
-    "atomic_number": 6,
-    "atomic_mass": "12.011 u",
-    "category": "Nonmetal",
-    "melting_point": "3,642 K",
-    "electron_config": "[He] 2s² 2p²"
+    "element": "Neon",
+    "symbol": "Ne",
+    "atomic_number": 10,
+    "atomic_mass": "20.180 u",
+    "category": "Noble Gas"
   },
   "previewConfig": {
     "title": "Materials Platform for Data Science",

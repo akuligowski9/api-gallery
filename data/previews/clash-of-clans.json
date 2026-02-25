@@ -2,12 +2,10 @@
   "id": "clash-of-clans",
   "previewType": "card",
   "sampleResponse": {
-    "title": "The Legend of Zelda: Breath of the Wild",
-    "platform": "Nintendo Switch",
-    "genre": "Action-Adventure",
-    "rating": "9.4 / 10",
-    "released": "March 3, 2017",
-    "developer": "Nintendo EPD"
+    "title": "Persona 5 Royal",
+    "platform": "Multi-platform",
+    "genre": "JRPG",
+    "rating": "9.4 / 10"
   },
   "previewConfig": {
     "title": "Clash of Clans",
@@ -16,8 +14,7 @@
       "title",
       "platform",
       "genre",
-      "rating",
-      "released"
+      "rating"
     ]
   }
 }

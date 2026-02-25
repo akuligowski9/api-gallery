@@ -2,13 +2,11 @@
   "id": "google-maps",
   "previewType": "card",
   "sampleResponse": {
-    "address": "1600 Amphitheatre Pkwy",
-    "city": "Mountain View",
-    "state": "California",
-    "country": "United States",
-    "postal_code": "94043",
-    "latitude": 37.4224,
-    "longitude": -122.0842
+    "address": "Potsdamer Platz 1",
+    "city": "Berlin",
+    "country": "DE",
+    "lat": 52.5096,
+    "lng": 13.3761
   },
   "previewConfig": {
     "title": "Google Maps",
@@ -16,10 +14,9 @@
     "displayFields": [
       "address",
       "city",
-      "state",
       "country",
-      "latitude",
-      "longitude"
+      "lat",
+      "lng"
     ]
   }
 }

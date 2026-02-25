@@ -2,22 +2,20 @@
   "id": "remove-bg",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Golden Gate at Dusk",
-    "photographer": "Alex Morgan",
-    "camera": "Sony A7R V",
-    "aperture": "f/8",
-    "shutter_speed": "1/250s",
-    "iso": 200,
-    "resolution": "61 MP"
+    "title": "Urban Geometry",
+    "photographer": "Max Weber",
+    "camera": "Leica Q3",
+    "aperture": "f/2",
+    "iso": 100
   },
   "previewConfig": {
     "title": "Remove.bg",
     "subtitle": "Image Background removal",
     "displayFields": [
+      "title",
       "photographer",
       "camera",
       "aperture",
-      "shutter_speed",
       "iso"
     ]
   }

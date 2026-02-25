@@ -2,13 +2,11 @@
   "id": "markerapi",
   "previewType": "card",
   "sampleResponse": {
-    "company": "Acme Corp",
-    "industry": "Software",
-    "founded": 2012,
-    "employees": "501–1,000",
-    "revenue": "$48M ARR",
-    "headquarters": "Austin, TX",
-    "public": false
+    "company": "Bolt Logistics",
+    "industry": "Shipping",
+    "founded": 2018,
+    "employees": "51–200",
+    "revenue": "$12M ARR"
   },
   "previewConfig": {
     "title": "markerapi",

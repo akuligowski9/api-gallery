@@ -2,16 +2,10 @@
   "id": "elonmu-sh",
   "previewType": "card",
   "sampleResponse": {
-    "question": "What is the largest planet in our solar system?",
-    "answer": "Jupiter",
-    "category": "Science",
-    "difficulty": "Easy",
-    "options": [
-      "Saturn",
-      "Jupiter",
-      "Neptune",
-      "Uranus"
-    ]
+    "question": "In what country would you find Machu Picchu?",
+    "answer": "Peru",
+    "category": "Geography",
+    "difficulty": "Medium"
   },
   "previewConfig": {
     "title": "elonmu.sh",

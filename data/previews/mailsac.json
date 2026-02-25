@@ -2,12 +2,10 @@
   "id": "mailsac",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Alexandra Chen",
-    "email": "a.chen@fakemail.dev",
-    "phone": "+1 (415) 555-0192",
-    "address": "847 Oak St, Portland, OR 97201",
-    "username": "achen_dev",
-    "avatar": "https://i.pravatar.cc/100"
+    "name": "Sofia Rossi",
+    "email": "s.rossi@mock.it",
+    "phone": "+39 333 1234567",
+    "city": "Milan, Italy"
   },
   "previewConfig": {
     "title": "Mailsac",
@@ -16,8 +14,7 @@
       "name",
       "email",
       "phone",
-      "address",
-      "username"
+      "city"
     ]
   }
 }

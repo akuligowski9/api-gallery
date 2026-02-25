@@ -5,13 +5,7 @@
     "question": "What is the largest planet in our solar system?",
     "answer": "Jupiter",
     "category": "Science",
-    "difficulty": "Easy",
-    "options": [
-      "Saturn",
-      "Jupiter",
-      "Neptune",
-      "Uranus"
-    ]
+    "difficulty": "Easy"
   },
   "previewConfig": {
     "title": "Keanu Reeves Whoa",

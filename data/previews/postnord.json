@@ -2,22 +2,20 @@
   "id": "postnord",
   "previewType": "card",
   "sampleResponse": {
-    "tracking_number": "1Z999AA10123456784",
+    "tracking": "1Z999AA10123456784",
     "carrier": "UPS",
     "status": "Out for Delivery",
-    "estimated_delivery": "Today by 8:00 PM",
-    "origin": "Memphis, TN",
-    "destination": "Brooklyn, NY",
-    "last_update": "9:04 AM — Arrived at facility"
+    "eta": "Today by 8PM",
+    "destination": "Brooklyn, NY"
   },
   "previewConfig": {
     "title": "PostNord",
     "subtitle": "Provides information about parcels in transport for Sweden and Denmark",
     "displayFields": [
-      "tracking_number",
+      "tracking",
       "carrier",
       "status",
-      "estimated_delivery",
+      "eta",
       "destination"
     ]
   }

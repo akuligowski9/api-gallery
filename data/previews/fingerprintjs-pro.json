@@ -2,13 +2,11 @@
   "id": "fingerprintjs-pro",
   "previewType": "card",
   "sampleResponse": {
-    "ip": "192.168.1.1",
-    "threat_score": 12,
-    "is_malicious": false,
-    "country": "United States",
-    "isp": "Comcast",
-    "reports": 3,
-    "last_seen": "30 days ago"
+    "ip": "185.220.101.1",
+    "threat_score": 95,
+    "malicious": true,
+    "country": "Germany (Tor Exit)",
+    "reports": 2841
   },
   "previewConfig": {
     "title": "FingerprintJS Pro",
@@ -16,7 +14,7 @@
     "displayFields": [
       "ip",
       "threat_score",
-      "is_malicious",
+      "malicious",
       "country",
       "reports"
     ]

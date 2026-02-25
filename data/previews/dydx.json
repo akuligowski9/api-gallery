@@ -2,23 +2,21 @@
   "id": "dydx",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Bitcoin",
-    "symbol": "BTC",
-    "price_usd": "$67,432.18",
-    "change_24h": "+3.41%",
-    "market_cap": "$1.33T",
-    "volume_24h": "$38.2B",
-    "circulating_supply": "19.7M BTC"
+    "name": "Solana",
+    "symbol": "SOL",
+    "price_usd": "$142.85",
+    "change_24h": "-2.14%",
+    "market_cap": "$63.2B"
   },
   "previewConfig": {
     "title": "dYdX",
     "subtitle": "Decentralized cryptocurrency exchange",
     "displayFields": [
       "name",
+      "symbol",
       "price_usd",
       "change_24h",
-      "market_cap",
-      "volume_24h"
+      "market_cap"
     ]
   }
 }

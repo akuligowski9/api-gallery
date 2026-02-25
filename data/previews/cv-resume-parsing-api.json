@@ -2,13 +2,11 @@
   "id": "cv-resume-parsing-api",
   "previewType": "card",
   "sampleResponse": {
-    "document": "Q4 2025 Report.pdf",
-    "pages": 24,
-    "word_count": "8,420",
+    "document": "User Research Notes.pdf",
+    "pages": 16,
+    "words": "5,800",
     "language": "English",
-    "created": "Jan 15, 2026",
-    "author": "Jane Smith",
-    "size": "2.3 MB"
+    "author": "UX Research"
   },
   "previewConfig": {
     "title": "CV / Resume Parsing API",
@@ -16,7 +14,7 @@
     "displayFields": [
       "document",
       "pages",
-      "word_count",
+      "words",
       "language",
       "author"
     ]
