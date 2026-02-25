@@ -15,10 +15,10 @@ A visual front-end for public API catalogs. Built on top of [marcelscruz/public-
 
 Public API catalogs are incredibly useful, but they're all tables and lists. I wanted a way to actually *see* what an API returns before reading the docs. This project takes the same catalog data and gives it a visual layer:
 
-- **1,546 APIs** with visual preview components across 40+ categories
-- ~170 hand-crafted previews with real sample data; the rest auto-generated
+- **1,546 APIs** with hand-crafted visual previews across 40+ categories
 - **7 preview types**: weather cards, SVG charts, geo visualizations, image displays, styled lists, code viewers, and key-value cards
-- Search, category filters, and paginated browsing (36 cards per page)
+- **Side-by-side comparison**: select up to 3 APIs and compare auth, CORS, HTTPS, descriptions, and previews in a full-screen drawer
+- Search, category filters, and paginated browsing (48 cards per page)
 
 ## Tech stack
 
@@ -46,8 +46,10 @@ app/
   [slug]/page.tsx       → Detail page (SSG, 1,546 pages)
 components/
   previews/             → 7 visual preview components + registry
-  api-card.tsx          → Card component with hover effects
+  api-card.tsx          → Card component with hover effects + compare checkbox
   api-grid.tsx          → Responsive grid with search + filters
+  compare-tray.tsx      → Sticky bottom tray for selected APIs
+  compare-drawer.tsx    → Full-screen side-by-side comparison drawer
   search-bar.tsx        → Glass-morphism search input
 data/
   catalog.json          → Full API catalog (1,546 entries)
@@ -55,6 +57,7 @@ data/
 lib/
   api-data.ts           → Data access layer
   categories.ts         → Category definitions + emoji map
+  compare-context.tsx   → React context for API comparison state
   search.ts             → Fuzzy search
 ```
 

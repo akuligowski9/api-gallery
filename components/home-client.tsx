@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Header } from "./header";
 import { ApiGrid } from "./api-grid";
+import { CompareProvider } from "@/lib/compare-context";
 import type { ApiEntry } from "@/lib/types";
 
 export type Columns = 1 | 2 | 3;
@@ -17,7 +18,7 @@ export function HomeClient({ apis }: HomeClientProps) {
   );
 
   return (
-    <>
+    <CompareProvider>
       <Header columns={columns} onColumnsChange={setColumns} />
       <main className="mt-10 space-y-2">
         <div className="mb-8">
@@ -31,6 +32,6 @@ export function HomeClient({ apis }: HomeClientProps) {
         </div>
         <ApiGrid apis={apis} columns={columns} />
       </main>
-    </>
+    </CompareProvider>
   );
 }

@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ExternalLink, Shield, Globe } from "lucide-react";
+import { ExternalLink, Shield, Globe, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { getCategoryEmoji } from "@/lib/categories";
 import { AuthBadge } from "./auth-badge";
 import { PreviewRenderer } from "./previews";
+import { useCompare } from "@/lib/compare-context";
 import type { ApiEntry } from "@/lib/types";
 
 interface ApiCardProps {
@@ -17,6 +18,8 @@ interface ApiCardProps {
 
 export function ApiCard({ api, index, featured }: ApiCardProps) {
   const emoji = getCategoryEmoji(api.Category);
+  const { toggleApi, isSelected } = useCompare();
+  const selected = isSelected(api.slug);
 
   return (
     <motion.div
@@ -37,6 +40,7 @@ export function ApiCard({ api, index, featured }: ApiCardProps) {
             "hover:-translate-y-1 hover:shadow-xl hover:shadow-black/[0.06] hover:ring-border",
             "dark:bg-card dark:ring-border/50",
             "dark:hover:bg-accent dark:hover:shadow-white/[0.03] dark:hover:ring-border",
+            selected && "ring-2 ring-primary/60",
           )}
         >
           {/* Preview area for featured cards */}
@@ -86,6 +90,27 @@ export function ApiCard({ api, index, featured }: ApiCardProps) {
                   CORS
                 </span>
               )}
+
+              {/* Compare checkbox */}
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  toggleApi(api);
+                }}
+                className={cn(
+                  "ml-auto flex h-7 w-7 items-center justify-center rounded-full transition-all",
+                  selected
+                    ? "bg-primary text-primary-foreground shadow-sm"
+                    : "bg-foreground/10 text-transparent ring-1 ring-foreground/20 opacity-0 group-hover:opacity-100",
+                  "hover:scale-110 active:scale-95",
+                )}
+                aria-label={
+                  selected ? `Remove ${api.API} from compare` : `Add ${api.API} to compare`
+                }
+              >
+                <Check className="h-4 w-4" strokeWidth={3} />
+              </button>
             </div>
           </div>
         </div>

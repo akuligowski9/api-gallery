@@ -5,6 +5,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { SearchFilterBar } from "./search-filter-bar";
 import { CategoryChips } from "./category-chips";
 import { ApiCard } from "./api-card";
+import { CompareTray } from "./compare-tray";
+import { CompareDrawer } from "./compare-drawer";
+import { useCompare } from "@/lib/compare-context";
 import { searchApis } from "@/lib/search";
 import { getCategoriesForFilter } from "@/lib/categories";
 import { applyFilters, DEFAULT_FILTERS, type FilterState } from "@/lib/filters";
@@ -30,6 +33,9 @@ export function ApiGrid({ apis, columns }: ApiGridProps) {
   const [activeFilter, setActiveFilter] = useState("All");
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const { selectedApis } = useCompare();
+  const trayVisible = selectedApis.length > 0;
 
   const filtered = useMemo(() => {
     let result = apis;
@@ -102,7 +108,7 @@ export function ApiGrid({ apis, columns }: ApiGridProps) {
         </div>
       ) : (
         <>
-          <div className={cn("grid gap-4", GRID_COLS[columns])}>
+          <div className={cn("grid gap-4", GRID_COLS[columns], trayVisible && "pb-20")}>
             <AnimatePresence mode="popLayout">
               {visible.map((api, i) => (
                 <ApiCard
@@ -117,7 +123,7 @@ export function ApiGrid({ apis, columns }: ApiGridProps) {
 
           {hasMore && (
             <motion.div
-              className="flex justify-center pt-4 pb-2"
+              className={cn("flex justify-center pt-4 pb-2", trayVisible && "pb-20")}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
@@ -135,6 +141,9 @@ export function ApiGrid({ apis, columns }: ApiGridProps) {
           )}
         </>
       )}
+
+      <CompareTray onCompare={() => setDrawerOpen(true)} />
+      <CompareDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} />
     </div>
   );
 }
