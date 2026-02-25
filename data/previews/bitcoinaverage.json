@@ -1,0 +1,16 @@
+{
+  "id": "bitcoinaverage",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "BTCUSD",
+    "last": 67432.18,
+    "ask": 67445.00,
+    "bid": 67419.36,
+    "volume": 18453.72
+  },
+  "previewConfig": {
+    "title": "BTCUSD",
+    "subtitle": "BitcoinAverage",
+    "displayFields": ["symbol", "last", "ask", "bid", "volume"]
+  }
+}

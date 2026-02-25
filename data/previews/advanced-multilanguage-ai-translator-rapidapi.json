@@ -1,0 +1,16 @@
+{
+  "id": "advanced-multilanguage-ai-translator-rapidapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "sourceText": "The weather is beautiful today.",
+    "translatedText": "El clima es hermoso hoy.",
+    "sourceLang": "English (en)",
+    "targetLang": "Spanish (es)",
+    "model": "neural-v3"
+  },
+  "previewConfig": {
+    "title": "Translation Result",
+    "subtitle": "Advanced Multilanguage AI Translator",
+    "displayFields": ["sourceText", "translatedText", "sourceLang", "targetLang", "model"]
+  }
+}

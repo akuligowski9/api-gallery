@@ -1,0 +1,16 @@
+{
+  "id": "argentinadatos",
+  "previewType": "card",
+  "sampleResponse": {
+    "currency": "USD/ARS",
+    "buy": "965.50",
+    "sell": "1005.00",
+    "date": "2025-10-15",
+    "source": "Banco Nacion"
+  },
+  "previewConfig": {
+    "title": "Dollar Exchange Rate",
+    "subtitle": "ArgentinaDatos",
+    "displayFields": ["currency", "buy", "sell", "date", "source"]
+  }
+}

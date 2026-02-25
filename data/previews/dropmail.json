@@ -1,0 +1,16 @@
+{
+  "id": "dropmail",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "temp_a3k9x@dropmail.me",
+    "expiresAt": "2025-11-14T10:45:00Z",
+    "messagesCount": "3",
+    "domain": "dropmail.me",
+    "createdAt": "2025-11-14T09:45:00Z"
+  },
+  "previewConfig": {
+    "title": "Disposable Inbox",
+    "subtitle": "Dropmail",
+    "displayFields": ["email", "expiresAt", "messagesCount", "domain", "createdAt"]
+  }
+}

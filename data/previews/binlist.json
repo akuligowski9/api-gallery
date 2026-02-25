@@ -1,0 +1,16 @@
+{
+  "id": "binlist",
+  "previewType": "card",
+  "sampleResponse": {
+    "bin": "45717360",
+    "scheme": "Visa",
+    "type": "Debit",
+    "bank": "Chase Bank",
+    "country": "United States"
+  },
+  "previewConfig": {
+    "title": "BIN Lookup",
+    "subtitle": "Binlist",
+    "displayFields": ["bin", "scheme", "type", "bank", "country"]
+  }
+}

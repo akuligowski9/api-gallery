@@ -1,0 +1,16 @@
+{
+  "id": "botd",
+  "previewType": "card",
+  "sampleResponse": {
+    "requestId": "req_8f3a2b1c4d5e6f70",
+    "botProbability": "0.92",
+    "ip": "198.51.100.17",
+    "userAgent": "Mozilla/5.0 (compatible; Googlebot/2.1)",
+    "timestamp": "2025-11-14T09:23:41Z"
+  },
+  "previewConfig": {
+    "title": "Bot Detection Result",
+    "subtitle": "Botd",
+    "displayFields": ["requestId", "botProbability", "ip", "userAgent", "timestamp"]
+  }
+}

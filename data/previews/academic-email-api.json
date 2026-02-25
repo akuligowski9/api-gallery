@@ -1,0 +1,16 @@
+{
+  "id": "academic-email-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "j.smith@mit.edu",
+    "isAcademic": "true",
+    "institution": "Massachusetts Institute of Technology",
+    "domain": "mit.edu",
+    "country": "United States"
+  },
+  "previewConfig": {
+    "title": "Academic Email Validation",
+    "subtitle": "Academic Email API",
+    "displayFields": ["email", "isAcademic", "institution", "domain", "country"]
+  }
+}

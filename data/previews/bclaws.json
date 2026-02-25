@@ -1,0 +1,16 @@
+{
+  "id": "bclaws",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Freedom of Information and Protection of Privacy Act",
+    "actNumber": "RSBC 1996",
+    "chapter": "165",
+    "year": 1996,
+    "status": "Current"
+  },
+  "previewConfig": {
+    "title": "FOIPPA",
+    "subtitle": "BCLaws",
+    "displayFields": ["title", "actNumber", "chapter", "year", "status"]
+  }
+}

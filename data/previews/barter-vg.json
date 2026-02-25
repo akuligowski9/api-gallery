@@ -1,0 +1,20 @@
+{
+  "id": "barter-vg",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Humble Choice - February 2026", "secondary": "PC (Steam)", "badge": 85 },
+      { "title": "Fanatical Mystery Bundle", "secondary": "PC (Steam)", "badge": 78 },
+      { "title": "Indie Gems Collection", "secondary": "PC (Multi)", "badge": 65 },
+      { "title": "RPG Legends Pack", "secondary": "PC (GOG)", "badge": 50 },
+      { "title": "Retro Arcade Bundle", "secondary": "PC (Steam)", "badge": 40 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Barter.vg",
+    "subtitle": "Top Game Bundles & Deals",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

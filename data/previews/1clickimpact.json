@@ -1,0 +1,16 @@
+{
+  "id": "1clickimpact",
+  "previewType": "card",
+  "sampleResponse": {
+    "action": "Plant a Mangrove Tree",
+    "treesPlanted": "1",
+    "carbonOffset": "12.3 kg CO2/year",
+    "oceanCleanup": "0.5 kg plastic removed",
+    "cost": "$0.10"
+  },
+  "previewConfig": {
+    "title": "Plant a Mangrove Tree",
+    "subtitle": "1ClickImpact",
+    "displayFields": ["action", "treesPlanted", "carbonOffset", "oceanCleanup", "cost"]
+  }
+}

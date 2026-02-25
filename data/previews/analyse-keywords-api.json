@@ -1,0 +1,16 @@
+{
+  "id": "analyse-keywords-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com/blog/machine-learning-guide",
+    "topKeyword": "machine learning",
+    "frequency": 47,
+    "density": "3.2%",
+    "relatedTerms": "neural networks, deep learning, AI"
+  },
+  "previewConfig": {
+    "title": "Keyword Analysis",
+    "subtitle": "Analyse Keywords API",
+    "displayFields": ["url", "topKeyword", "frequency", "density", "relatedTerms"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "azure-devops",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Add retry logic to message queue consumer",
+    "type": "User Story",
+    "state": "Active",
+    "assignedTo": "Jordan Rivera",
+    "iteration": "Sprint 24"
+  },
+  "previewConfig": {
+    "title": "Add retry logic to message queue consumer",
+    "subtitle": "Azure DevOps",
+    "displayFields": ["title", "type", "state", "assignedTo", "iteration"]
+  }
+}

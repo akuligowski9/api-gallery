@@ -1,0 +1,16 @@
+{
+  "id": "elonmu-sh",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "SpaceX Starship Completes Sixth Integrated Flight Test",
+    "source": "Reuters",
+    "date": "2025-09-22",
+    "category": "Space",
+    "url": "https://reuters.com/technology/space/starship-flight-test-6"
+  },
+  "previewConfig": {
+    "title": "Starship Flight Test",
+    "subtitle": "ElonMu.sh",
+    "displayFields": ["title", "source", "date", "category", "url"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cloudmersive-validate",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "contact@acmecorp.com",
+    "isValid": "true",
+    "provider": "Google Workspace",
+    "isCatchAll": "false",
+    "score": "0.97"
+  },
+  "previewConfig": {
+    "title": "Validation Result",
+    "subtitle": "Cloudmersive Validate",
+    "displayFields": ["email", "isValid", "provider", "isCatchAll", "score"]
+  }
+}

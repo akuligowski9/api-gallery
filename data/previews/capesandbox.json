@@ -1,0 +1,16 @@
+{
+  "id": "capesandbox",
+  "previewType": "card",
+  "sampleResponse": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "malwareFamily": "Emotet",
+    "score": "9.4/10",
+    "fileType": "PE32 executable (GUI) Intel 80386",
+    "detections": "58/72"
+  },
+  "previewConfig": {
+    "title": "Malware Analysis Report",
+    "subtitle": "CAPEsandbox",
+    "displayFields": ["sha256", "malwareFamily", "score", "fileType", "detections"]
+  }
+}

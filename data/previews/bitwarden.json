@@ -1,0 +1,16 @@
+{
+  "id": "bitwarden",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "GitHub Account",
+    "type": "Login",
+    "username": "devuser@example.com",
+    "uri": "https://github.com/login",
+    "folderId": "work-credentials"
+  },
+  "previewConfig": {
+    "title": "Vault Item",
+    "subtitle": "Bitwarden",
+    "displayFields": ["name", "type", "username", "uri", "folderId"]
+  }
+}

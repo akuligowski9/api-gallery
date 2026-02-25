@@ -1,0 +1,16 @@
+{
+  "id": "cloudconvert",
+  "previewType": "card",
+  "sampleResponse": {
+    "inputFormat": "DOCX",
+    "outputFormat": "PDF",
+    "status": "Completed",
+    "fileSize": "2.4 MB",
+    "created": "2026-02-25T09:31:17Z"
+  },
+  "previewConfig": {
+    "title": "File Conversion Job",
+    "subtitle": "CloudConvert",
+    "displayFields": ["inputFormat", "outputFormat", "status", "fileSize", "created"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chainlink",
+  "previewType": "card",
+  "sampleResponse": {
+    "pair": "BTC/USD",
+    "price": "67,425.18",
+    "roundId": "110680464442257318953",
+    "updatedAt": "2026-02-25T08:12:05Z",
+    "decimals": 8
+  },
+  "previewConfig": {
+    "title": "BTC/USD Price Feed",
+    "subtitle": "Chainlink",
+    "displayFields": ["pair", "price", "roundId", "updatedAt", "decimals"]
+  }
+}

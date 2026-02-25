@@ -1,0 +1,20 @@
+{
+  "id": "fantastic-jobs",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Staff Software Engineer", "secondary": "Stripe", "badge": 245000 },
+      { "title": "ML Research Scientist", "secondary": "DeepMind", "badge": 210000 },
+      { "title": "Principal Product Designer", "secondary": "Figma", "badge": 198000 },
+      { "title": "Senior DevOps Engineer", "secondary": "Datadog", "badge": 185000 },
+      { "title": "Backend Engineer", "secondary": "Shopify", "badge": 165000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Fantastic Jobs",
+    "subtitle": "Top Remote Job Postings",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

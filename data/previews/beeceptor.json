@@ -1,0 +1,16 @@
+{
+  "id": "beeceptor",
+  "previewType": "card",
+  "sampleResponse": {
+    "endpoint": "/api/v1/users",
+    "method": "GET",
+    "statusCode": 200,
+    "latency": "120ms",
+    "hits": 1847
+  },
+  "previewConfig": {
+    "title": "Mock Endpoint",
+    "subtitle": "Beeceptor",
+    "displayFields": ["endpoint", "method", "statusCode", "latency", "hits"]
+  }
+}

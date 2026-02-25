@@ -1,0 +1,16 @@
+{
+  "id": "brazil-central-bank-open-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "indicator": "SELIC Target Rate",
+    "value": "12.25",
+    "date": "2025-10-01",
+    "unit": "% per year",
+    "source": "Banco Central do Brasil"
+  },
+  "previewConfig": {
+    "title": "SELIC Rate",
+    "subtitle": "Brazil Central Bank Open Data",
+    "displayFields": ["indicator", "value", "date", "unit", "source"]
+  }
+}

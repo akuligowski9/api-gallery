@@ -1,0 +1,16 @@
+{
+  "id": "ai-learning-engine",
+  "previewType": "card",
+  "sampleResponse": {
+    "task": "Solve quadratic equations",
+    "subject": "Mathematics",
+    "grade": "10th",
+    "difficulty": "Intermediate",
+    "aiScore": 82
+  },
+  "previewConfig": {
+    "title": "Solve quadratic equations",
+    "subtitle": "AI Learning Engine",
+    "displayFields": ["task", "subject", "grade", "difficulty", "aiScore"]
+  }
+}

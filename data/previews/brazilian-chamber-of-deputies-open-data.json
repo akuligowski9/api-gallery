@@ -1,0 +1,20 @@
+{
+  "id": "brazilian-chamber-of-deputies-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Eduardo Bolsonaro", "secondary": "PL - SP", "badge": 312 },
+      { "title": "Tabata Amaral", "secondary": "PSB - SP", "badge": 287 },
+      { "title": "Marcel van Hattem", "secondary": "NOVO - RS", "badge": 274 },
+      { "title": "Erika Hilton", "secondary": "PSOL - SP", "badge": 251 },
+      { "title": "Nikolas Ferreira", "secondary": "PL - MG", "badge": 238 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Chamber of Deputies",
+    "subtitle": "Brazilian Deputies by Votes Cast",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

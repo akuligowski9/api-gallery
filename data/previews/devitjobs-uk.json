@@ -1,0 +1,20 @@
+{
+  "id": "devitjobs-uk",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior React Developer", "company": "Monzo", "salary": 95000 },
+      { "title": "Platform Engineer", "company": "Deliveroo", "salary": 88000 },
+      { "title": "Full Stack Developer", "company": "Revolut", "salary": 82000 },
+      { "title": "Backend Engineer (Go)", "company": "Starling Bank", "salary": 78000 },
+      { "title": "DevOps Engineer", "company": "Sky", "salary": 72000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "DevITJobs UK",
+    "subtitle": "Latest UK Developer Jobs",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "salary"
+  }
+}

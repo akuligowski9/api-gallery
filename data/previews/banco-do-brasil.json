@@ -1,0 +1,16 @@
+{
+  "id": "banco-do-brasil",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "TXN-20250318-0047",
+    "amount": "R$ 1.250,00",
+    "type": "PIX Transfer",
+    "date": "2025-03-18",
+    "description": "Pagamento de servico"
+  },
+  "previewConfig": {
+    "title": "TXN-20250318-0047",
+    "subtitle": "Banco do Brasil",
+    "displayFields": ["id", "amount", "type", "date", "description"]
+  }
+}

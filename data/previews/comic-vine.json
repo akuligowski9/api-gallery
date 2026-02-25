@@ -1,0 +1,16 @@
+{
+  "id": "comic-vine",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Batman",
+    "realName": "Bruce Wayne",
+    "publisher": "DC Comics",
+    "firstAppearance": "Detective Comics #27 (1939)",
+    "aliases": "The Dark Knight"
+  },
+  "previewConfig": {
+    "title": "Batman",
+    "subtitle": "Comic Vine API",
+    "displayFields": ["name", "realName", "publisher", "firstAppearance", "aliases"]
+  }
+}

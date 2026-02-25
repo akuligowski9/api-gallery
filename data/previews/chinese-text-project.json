@@ -1,0 +1,16 @@
+{
+  "id": "chinese-text-project",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Analects of Confucius",
+    "author": "Confucius",
+    "dynasty": "Eastern Zhou",
+    "characters": 15900,
+    "language": "Classical Chinese"
+  },
+  "previewConfig": {
+    "title": "The Analects",
+    "subtitle": "Chinese Text Project",
+    "displayFields": ["title", "author", "dynasty", "characters", "language"]
+  }
+}

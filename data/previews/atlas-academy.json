@@ -1,0 +1,16 @@
+{
+  "id": "atlas-academy",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Artoria Pendragon",
+    "className": "Saber",
+    "rarity": 5,
+    "atk": 11221,
+    "hp": 15150
+  },
+  "previewConfig": {
+    "title": "Artoria Pendragon",
+    "subtitle": "Atlas Academy FGO API",
+    "displayFields": ["name", "className", "rarity", "atk", "hp"]
+  }
+}

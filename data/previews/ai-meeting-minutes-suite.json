@@ -1,0 +1,16 @@
+{
+  "id": "ai-meeting-minutes-suite",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Q1 Product Roadmap Planning",
+    "duration": "47 minutes",
+    "attendees": "6 participants",
+    "actionItems": "8 items assigned",
+    "keyTopics": "Timeline, Budget, Feature Prioritization"
+  },
+  "previewConfig": {
+    "title": "Meeting Summary",
+    "subtitle": "AI Meeting Minutes Suite",
+    "displayFields": ["title", "duration", "attendees", "actionItems", "keyTopics"]
+  }
+}

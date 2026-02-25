@@ -1,0 +1,16 @@
+{
+  "id": "battuta",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "Italy",
+    "region": "Tuscany",
+    "city": "Florence",
+    "population": 382258,
+    "lat": 43.7696
+  },
+  "previewConfig": {
+    "title": "Florence",
+    "subtitle": "Battuta",
+    "displayFields": ["country", "region", "city", "population", "lat"]
+  }
+}

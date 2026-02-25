@@ -1,0 +1,16 @@
+{
+  "id": "apiflash",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com",
+    "width": "1920",
+    "height": "1080",
+    "format": "PNG",
+    "responseTime": "1.8s"
+  },
+  "previewConfig": {
+    "title": "Website Screenshot",
+    "subtitle": "ApiFlash",
+    "displayFields": ["url", "width", "height", "format", "responseTime"]
+  }
+}

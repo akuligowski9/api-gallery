@@ -1,0 +1,16 @@
+{
+  "id": "7digital",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "duration": "5:55",
+    "price": "$1.29"
+  },
+  "previewConfig": {
+    "title": "Bohemian Rhapsody",
+    "subtitle": "7digital",
+    "displayFields": ["title", "artist", "album", "duration", "price"]
+  }
+}

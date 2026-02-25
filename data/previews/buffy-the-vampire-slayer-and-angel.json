@@ -1,0 +1,16 @@
+{
+  "id": "buffy-the-vampire-slayer-and-angel",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Once More, with Feeling",
+    "show": "Buffy the Vampire Slayer",
+    "season": 6,
+    "episode": 7,
+    "airDate": "2001-11-06"
+  },
+  "previewConfig": {
+    "title": "Once More, with Feeling",
+    "subtitle": "Buffy & Angel API",
+    "displayFields": ["title", "show", "season", "episode", "airDate"]
+  }
+}

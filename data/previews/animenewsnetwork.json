@@ -1,0 +1,16 @@
+{
+  "id": "animenewsnetwork",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Studio Ghibli Announces New Film for 2027",
+    "date": "2026-02-20",
+    "category": "Industry News",
+    "author": "Egan Loo",
+    "summary": "Studio Ghibli has officially announced a new feature-length animated film directed by Hayao Miyazaki's protege, slated for a worldwide theatrical release in summer 2027."
+  },
+  "previewConfig": {
+    "title": "Studio Ghibli Announces New Film",
+    "subtitle": "Anime News Network",
+    "displayFields": ["title", "date", "category", "author", "summary"]
+  }
+}

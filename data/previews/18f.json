@@ -1,0 +1,20 @@
+{
+  "id": "18f",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "web-design-standards", "secondary": "GSA", "badge": 6420 },
+      { "title": "api-standards", "secondary": "18F", "badge": 2180 },
+      { "title": "analytics.usa.gov", "secondary": "GSA", "badge": 1540 },
+      { "title": "college-scorecard", "secondary": "Dept. of Education", "badge": 980 },
+      { "title": "crime-data-frontend", "secondary": "FBI / DOJ", "badge": 415 }
+    ]
+  },
+  "previewConfig": {
+    "title": "18F",
+    "subtitle": "US Government Open Source Projects",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

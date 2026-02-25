@@ -1,0 +1,16 @@
+{
+  "id": "ai-translate-text-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "sourceText": "Hello, how are you today?",
+    "targetText": "Bonjour, comment allez-vous aujourd'hui?",
+    "sourceLang": "English",
+    "targetLang": "French",
+    "confidence": "0.98"
+  },
+  "previewConfig": {
+    "title": "English to French",
+    "subtitle": "AI Translate Text API",
+    "displayFields": ["sourceText", "targetText", "sourceLang", "targetLang", "confidence"]
+  }
+}

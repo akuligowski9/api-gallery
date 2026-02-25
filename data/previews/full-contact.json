@@ -1,0 +1,16 @@
+{
+  "id": "full-contact",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Jamie Rodriguez",
+    "title": "Senior Product Manager",
+    "company": "Stripe",
+    "location": "San Francisco, CA",
+    "socialProfiles": "LinkedIn, Twitter, GitHub"
+  },
+  "previewConfig": {
+    "title": "Jamie Rodriguez",
+    "subtitle": "FullContact Person Enrichment",
+    "displayFields": ["name", "title", "company", "location", "socialProfiles"]
+  }
+}

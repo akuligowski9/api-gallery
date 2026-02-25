@@ -1,0 +1,20 @@
+{
+  "id": "favqs-com",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "The only way to do great work is to love what you do.", "secondary": "Steve Jobs", "badge": 4821 },
+      { "title": "In the middle of difficulty lies opportunity.", "secondary": "Albert Einstein", "badge": 3567 },
+      { "title": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.", "secondary": "Ralph Waldo Emerson", "badge": 2934 },
+      { "title": "It does not matter how slowly you go as long as you do not stop.", "secondary": "Confucius", "badge": 2108 },
+      { "title": "The unexamined life is not worth living.", "secondary": "Socrates", "badge": 1745 }
+    ]
+  },
+  "previewConfig": {
+    "title": "FavQs",
+    "subtitle": "Favorite Quotes",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

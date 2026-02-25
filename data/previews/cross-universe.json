@@ -1,0 +1,16 @@
+{
+  "id": "cross-universe",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Celestial Dragon",
+    "type": "Monster",
+    "attack": "3200",
+    "defense": "2500",
+    "element": "Light"
+  },
+  "previewConfig": {
+    "title": "Celestial Dragon",
+    "subtitle": "Cross Universe",
+    "displayFields": ["name", "type", "attack", "defense", "element"]
+  }
+}

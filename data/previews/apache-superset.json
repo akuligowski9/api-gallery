@@ -1,0 +1,16 @@
+{
+  "id": "apache-superset",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Q4 Revenue Overview",
+    "charts": 12,
+    "owner": "analytics_team",
+    "lastModified": "2026-02-20T16:45:00Z",
+    "status": "published"
+  },
+  "previewConfig": {
+    "title": "Q4 Revenue Overview",
+    "subtitle": "Apache Superset API",
+    "displayFields": ["name", "charts", "owner", "lastModified", "status"]
+  }
+}

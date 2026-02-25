@@ -1,0 +1,16 @@
+{
+  "id": "blogger",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Understanding Async Patterns in JavaScript",
+    "author": "Sarah Chen",
+    "published": "2026-02-18T10:30:00Z",
+    "url": "https://techinsights.blogspot.com/2026/02/async-patterns.html",
+    "labels": "JavaScript, Programming"
+  },
+  "previewConfig": {
+    "title": "Understanding Async Patterns in JavaScript",
+    "subtitle": "Blogger API",
+    "displayFields": ["title", "author", "published", "url", "labels"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "domainsdb-info",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "openai.com",
+    "registrar": "MarkMonitor Inc.",
+    "createdDate": "2015-04-06",
+    "country": "US",
+    "isDead": false
+  },
+  "previewConfig": {
+    "title": "openai.com",
+    "subtitle": "DomainsDB.info API",
+    "displayFields": ["domain", "registrar", "createdDate", "country", "isDead"]
+  }
+}

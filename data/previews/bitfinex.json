@@ -1,0 +1,16 @@
+{
+  "id": "bitfinex",
+  "previewType": "card",
+  "sampleResponse": {
+    "pair": "ETH/USD",
+    "lastPrice": "3,284.50",
+    "volume": "48,712 ETH",
+    "high": "3,351.20",
+    "low": "3,198.75"
+  },
+  "previewConfig": {
+    "title": "ETH/USD Trading Pair",
+    "subtitle": "Bitfinex",
+    "displayFields": ["pair", "lastPrice", "volume", "high", "low"]
+  }
+}

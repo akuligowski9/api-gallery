@@ -1,0 +1,16 @@
+{
+  "id": "covid-tracking-project",
+  "previewType": "card",
+  "sampleResponse": {
+    "date": "2021-03-07",
+    "positive": "28756489",
+    "death": "515151",
+    "hospitalized": "776361",
+    "totalTestResults": "363825123"
+  },
+  "previewConfig": {
+    "title": "US COVID-19 Statistics",
+    "subtitle": "COVID Tracking Project",
+    "displayFields": ["date", "positive", "death", "hospitalized", "totalTestResults"]
+  }
+}

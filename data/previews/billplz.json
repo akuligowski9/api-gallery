@@ -1,0 +1,16 @@
+{
+  "id": "billplz",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Ahmad bin Ismail",
+    "amount": "RM 350.00",
+    "status": "paid",
+    "dueDate": "2025-04-01",
+    "paidAt": "2025-03-28"
+  },
+  "previewConfig": {
+    "title": "Ahmad bin Ismail",
+    "subtitle": "Billplz",
+    "displayFields": ["name", "amount", "status", "dueDate", "paidAt"]
+  }
+}

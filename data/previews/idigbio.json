@@ -1,0 +1,16 @@
+{
+  "id": "idigbio",
+  "previewType": "card",
+  "sampleResponse": {
+    "scientificName": "Tyrannosaurus rex",
+    "institution": "Field Museum of Natural History",
+    "country": "United States",
+    "basisOfRecord": "FossilSpecimen",
+    "year": "1990"
+  },
+  "previewConfig": {
+    "title": "Tyrannosaurus rex",
+    "subtitle": "iDigBio",
+    "displayFields": ["scientificName", "institution", "country", "basisOfRecord", "year"]
+  }
+}

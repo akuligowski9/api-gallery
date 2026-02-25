@@ -1,0 +1,16 @@
+{
+  "id": "api-league",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Search Recipes",
+    "category": "Food & Nutrition",
+    "method": "GET",
+    "latency": "142ms",
+    "uptime": "99.97%"
+  },
+  "previewConfig": {
+    "title": "API Endpoint",
+    "subtitle": "API League",
+    "displayFields": ["name", "category", "method", "latency", "uptime"]
+  }
+}

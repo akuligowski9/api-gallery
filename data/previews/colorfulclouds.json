@@ -1,0 +1,16 @@
+{
+  "id": "colorfulclouds",
+  "previewType": "card",
+  "sampleResponse": {
+    "temperature": "22.3°C",
+    "humidity": "0.58",
+    "cloudRate": "0.41",
+    "precipitation": "0.0 mm/hr",
+    "aqi": "87"
+  },
+  "previewConfig": {
+    "title": "Beijing Weather",
+    "subtitle": "ColorfulClouds",
+    "displayFields": ["temperature", "humidity", "cloudRate", "precipitation", "aqi"]
+  }
+}

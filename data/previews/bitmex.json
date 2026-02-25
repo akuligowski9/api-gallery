@@ -1,0 +1,16 @@
+{
+  "id": "bitmex",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "XBTUSD",
+    "lastPrice": "67,425.00",
+    "volume24h": "1.24B",
+    "fundingRate": "0.0100%",
+    "openInterest": "583M"
+  },
+  "previewConfig": {
+    "title": "XBTUSD Futures Contract",
+    "subtitle": "BitMEX",
+    "displayFields": ["symbol", "lastPrice", "volume24h", "fundingRate", "openInterest"]
+  }
+}

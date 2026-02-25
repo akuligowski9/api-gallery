@@ -1,0 +1,16 @@
+{
+  "id": "czech-television",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Zpravy v 19:00",
+    "channel": "CT1",
+    "startTime": "19:00",
+    "duration": "30 min",
+    "genre": "News"
+  },
+  "previewConfig": {
+    "title": "Zpravy v 19:00",
+    "subtitle": "Czech Television",
+    "displayFields": ["title", "channel", "startTime", "duration", "genre"]
+  }
+}

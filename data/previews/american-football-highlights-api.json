@@ -1,0 +1,20 @@
+{
+  "id": "american-football-highlights-api",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Mahomes 60-yard TD Bomb", "teams": "Chiefs vs Ravens", "views": 284000 },
+      { "title": "Derrick Henry 75-yard Rush", "teams": "Ravens vs Bengals", "views": 197000 },
+      { "title": "Tyreek Hill Punt Return TD", "teams": "Dolphins vs Bills", "views": 153000 },
+      { "title": "Micah Parsons Strip Sack", "teams": "Cowboys vs Eagles", "views": 118000 },
+      { "title": "Justin Jefferson One-Handed Catch", "teams": "Vikings vs Packers", "views": 95000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "American Football Highlights API",
+    "subtitle": "Top NFL Highlights",
+    "itemKey": "title",
+    "secondaryKey": "teams",
+    "badgeKey": "views"
+  }
+}

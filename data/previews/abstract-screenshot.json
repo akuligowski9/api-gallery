@@ -1,0 +1,16 @@
+{
+  "id": "abstract-screenshot",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com/products",
+    "width": 1920,
+    "height": 1080,
+    "format": "PNG",
+    "captureTime": "3.2s"
+  },
+  "previewConfig": {
+    "title": "Screenshot Capture",
+    "subtitle": "Abstract Screenshot",
+    "displayFields": ["url", "width", "height", "format", "captureTime"]
+  }
+}

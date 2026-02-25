@@ -1,0 +1,16 @@
+{
+  "id": "clockify",
+  "previewType": "card",
+  "sampleResponse": {
+    "description": "API integration testing",
+    "project": "Platform Migration",
+    "duration": "2h 45m",
+    "user": "Marcus Chen",
+    "billable": "Yes"
+  },
+  "previewConfig": {
+    "title": "API integration testing",
+    "subtitle": "Clockify",
+    "displayFields": ["description", "project", "duration", "user", "billable"]
+  }
+}

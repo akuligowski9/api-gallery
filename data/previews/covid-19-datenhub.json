@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-datenhub",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "Germany",
+    "confirmed": "38,437,756",
+    "deaths": "174,979",
+    "recovered": "36,890,200",
+    "date": "2023-03-15"
+  },
+  "previewConfig": {
+    "title": "Germany COVID-19 Stats",
+    "subtitle": "COVID-19 Datenhub",
+    "displayFields": ["country", "confirmed", "deaths", "recovered", "date"]
+  }
+}

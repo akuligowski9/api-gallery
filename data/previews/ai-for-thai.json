@@ -1,0 +1,16 @@
+{
+  "id": "ai-for-thai",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "กรุงเทพมหานครเป็นเมืองหลวง",
+    "language": "Thai",
+    "sentiment": "neutral",
+    "entities": "กรุงเทพมหานคร",
+    "confidence": 0.94
+  },
+  "previewConfig": {
+    "title": "Thai NLP Result",
+    "subtitle": "AI for Thai",
+    "displayFields": ["text", "language", "sentiment", "entities", "confidence"]
+  }
+}

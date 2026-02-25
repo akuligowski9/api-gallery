@@ -1,0 +1,16 @@
+{
+  "id": "api2convert",
+  "previewType": "card",
+  "sampleResponse": {
+    "inputFile": "quarterly-report.docx",
+    "outputFormat": "PDF",
+    "status": "completed",
+    "fileSize": "2.4 MB",
+    "downloadUrl": "https://api2convert.com/files/d8f3a1b2/quarterly-report.pdf"
+  },
+  "previewConfig": {
+    "title": "File Conversion Result",
+    "subtitle": "API2Convert",
+    "displayFields": ["inputFile", "outputFormat", "status", "fileSize", "downloadUrl"]
+  }
+}

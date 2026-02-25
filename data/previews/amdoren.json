@@ -1,0 +1,16 @@
+{
+  "id": "amdoren",
+  "previewType": "card",
+  "sampleResponse": {
+    "from": "EUR",
+    "to": "JPY",
+    "amount": 1500,
+    "result": 244350,
+    "rate": 162.9
+  },
+  "previewConfig": {
+    "title": "EUR to JPY Conversion",
+    "subtitle": "Amdoren Currency API",
+    "displayFields": ["from", "to", "amount", "result", "rate"]
+  }
+}

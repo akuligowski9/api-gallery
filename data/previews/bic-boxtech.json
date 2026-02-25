@@ -1,0 +1,16 @@
+{
+  "id": "bic-boxtech",
+  "previewType": "card",
+  "sampleResponse": {
+    "containerId": "MSCU7364520",
+    "sizeType": "40ft High Cube",
+    "tareWeight": "3750 kg",
+    "maxGross": "30480 kg",
+    "manufacturer": "CIMC Containers"
+  },
+  "previewConfig": {
+    "title": "Shipping Container",
+    "subtitle": "BIC BoxTech",
+    "displayFields": ["containerId", "sizeType", "tareWeight", "maxGross", "manufacturer"]
+  }
+}

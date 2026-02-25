@@ -1,0 +1,16 @@
+{
+  "id": "digi-key",
+  "previewType": "card",
+  "sampleResponse": {
+    "partNumber": "ATMEGA328P-PU",
+    "description": "8-bit AVR Microcontroller, 32KB Flash, 28-DIP",
+    "manufacturer": "Microchip Technology",
+    "stock": "14,562 in stock",
+    "price": "$2.68"
+  },
+  "previewConfig": {
+    "title": "ATMEGA328P-PU",
+    "subtitle": "DigiKey",
+    "displayFields": ["partNumber", "description", "manufacturer", "stock", "price"]
+  }
+}

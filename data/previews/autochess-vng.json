@@ -1,0 +1,16 @@
+{
+  "id": "autochess-vng",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "The Source",
+    "class": "Warlock",
+    "race": "Egersis",
+    "cost": "5 Gold",
+    "ability": "Soul Absorption"
+  },
+  "previewConfig": {
+    "title": "The Source",
+    "subtitle": "Auto Chess VNG",
+    "displayFields": ["name", "class", "race", "cost", "ability"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "correios",
+  "previewType": "card",
+  "sampleResponse": {
+    "code": "BR123456789CD",
+    "status": "Em transito para destino",
+    "origin": "Sao Paulo, SP",
+    "destination": "Rio de Janeiro, RJ",
+    "lastUpdate": "2026-02-24T14:32:00-03:00"
+  },
+  "previewConfig": {
+    "title": "Package BR123456789CD",
+    "subtitle": "Correios",
+    "displayFields": ["code", "status", "origin", "destination", "lastUpdate"]
+  }
+}

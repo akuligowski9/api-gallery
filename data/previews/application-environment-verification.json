@@ -1,0 +1,16 @@
+{
+  "id": "application-environment-verification",
+  "previewType": "card",
+  "sampleResponse": {
+    "deviceId": "a3f8c912-7b4d-4e1a-9c6f-2d8e5a0b1c7d",
+    "isRooted": "false",
+    "isEmulator": "false",
+    "riskLevel": "Low",
+    "os": "Android 14 (API 34)"
+  },
+  "previewConfig": {
+    "title": "Device Verification",
+    "subtitle": "Application Environment Verification",
+    "displayFields": ["deviceId", "isRooted", "isEmulator", "riskLevel", "os"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ai-ml-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "GPT-4 Turbo",
+    "type": "Large Language Model",
+    "parameters": "1.8T",
+    "latency": "320ms",
+    "accuracy": "92.1%"
+  },
+  "previewConfig": {
+    "title": "GPT-4 Turbo",
+    "subtitle": "AI/ML API",
+    "displayFields": ["name", "type", "parameters", "latency", "accuracy"]
+  }
+}

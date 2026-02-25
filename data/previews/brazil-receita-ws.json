@@ -1,0 +1,16 @@
+{
+  "id": "brazil-receita-ws",
+  "previewType": "card",
+  "sampleResponse": {
+    "cnpj": "11.222.333/0001-81",
+    "razaoSocial": "Natura Cosméticos S.A.",
+    "situacao": "Ativa",
+    "naturezaJuridica": "Sociedade Anônima Aberta",
+    "municipio": "São Paulo"
+  },
+  "previewConfig": {
+    "title": "Natura Cosméticos S.A.",
+    "subtitle": "ReceitaWS",
+    "displayFields": ["cnpj", "razaoSocial", "situacao", "naturezaJuridica", "municipio"]
+  }
+}

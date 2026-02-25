@@ -1,0 +1,16 @@
+{
+  "id": "catalogopolis",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Blink",
+    "doctor": "Tenth Doctor",
+    "season": 3,
+    "episodes": 1,
+    "year": 2007
+  },
+  "previewConfig": {
+    "title": "Blink",
+    "subtitle": "Catalogopolis",
+    "displayFields": ["title", "doctor", "season", "episodes", "year"]
+  }
+}

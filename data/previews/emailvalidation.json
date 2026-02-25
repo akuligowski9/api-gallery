@@ -1,0 +1,16 @@
+{
+  "id": "emailvalidation",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "hello@example.com",
+    "isValid": "true",
+    "isFree": "false",
+    "isDisposable": "false",
+    "mxFound": "true"
+  },
+  "previewConfig": {
+    "title": "Email Check",
+    "subtitle": "EmailValidation",
+    "displayFields": ["email", "isValid", "isFree", "isDisposable", "mxFound"]
+  }
+}

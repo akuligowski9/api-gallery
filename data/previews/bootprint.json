@@ -1,0 +1,16 @@
+{
+  "id": "bootprint",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Voyager 1 Reaches Interstellar Space",
+    "body": "On August 25, 2012, Voyager 1 became the first human-made object to enter interstellar space, traveling beyond the heliopause at a distance of 121 AU from the Sun.",
+    "category": "Space Exploration",
+    "source": "NASA/JPL",
+    "imageUrl": "https://images.nasa.gov/voyager1-interstellar.jpg"
+  },
+  "previewConfig": {
+    "title": "Voyager 1 Reaches Interstellar Space",
+    "subtitle": "Bootprint",
+    "displayFields": ["title", "body", "category", "source", "imageUrl"]
+  }
+}

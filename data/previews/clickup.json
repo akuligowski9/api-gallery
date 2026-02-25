@@ -1,0 +1,16 @@
+{
+  "id": "clickup",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Implement OAuth2 login flow",
+    "list": "Sprint 12 - Backend",
+    "priority": "High",
+    "status": "In Review",
+    "dueDate": "2026-03-07"
+  },
+  "previewConfig": {
+    "title": "Implement OAuth2 login flow",
+    "subtitle": "ClickUp",
+    "displayFields": ["name", "list", "priority", "status", "dueDate"]
+  }
+}

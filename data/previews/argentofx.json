@@ -1,0 +1,16 @@
+{
+  "id": "argentofx",
+  "previewType": "card",
+  "sampleResponse": {
+    "currency": "ARS/USD",
+    "official": 875.50,
+    "blue": 1065.00,
+    "mep": 1032.75,
+    "date": "2025-01-15"
+  },
+  "previewConfig": {
+    "title": "ARS/USD",
+    "subtitle": "ArgentoFX",
+    "displayFields": ["currency", "official", "blue", "mep", "date"]
+  }
+}

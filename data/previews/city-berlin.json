@@ -1,0 +1,20 @@
+{
+  "id": "city-berlin",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Berlin Traffic Accidents 2024", "category": "Transportation", "records": 24531 },
+      { "title": "Public Charging Stations", "category": "Energy", "records": 18742 },
+      { "title": "School Directory Berlin", "category": "Education", "records": 3890 },
+      { "title": "Street Tree Registry", "category": "Environment", "records": 43150 },
+      { "title": "Cultural Venues & Landmarks", "category": "Culture", "records": 7264 }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Berlin Open Data",
+    "subtitle": "Berlin open government datasets",
+    "itemKey": "title",
+    "secondaryKey": "category",
+    "badgeKey": "records"
+  }
+}

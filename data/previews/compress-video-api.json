@@ -1,0 +1,16 @@
+{
+  "id": "compress-video-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "originalSize": "148 MB",
+    "compressedSize": "41 MB",
+    "savings": "72.3%",
+    "format": "H.265 / MP4",
+    "duration": "4:32"
+  },
+  "previewConfig": {
+    "title": "Video Compression Result",
+    "subtitle": "Compress Video API",
+    "displayFields": ["originalSize", "compressedSize", "savings", "format", "duration"]
+  }
+}

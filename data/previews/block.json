@@ -1,0 +1,16 @@
+{
+  "id": "block",
+  "previewType": "card",
+  "sampleResponse": {
+    "hash": "00000000000000000002a7c4...",
+    "height": 883214,
+    "time": "2026-02-25T08:14:32Z",
+    "txCount": 3417,
+    "size": "1.62 MB"
+  },
+  "previewConfig": {
+    "title": "Bitcoin Block #883214",
+    "subtitle": "Block",
+    "displayFields": ["hash", "height", "time", "txCount", "size"]
+  }
+}

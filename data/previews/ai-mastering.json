@@ -1,0 +1,16 @@
+{
+  "id": "ai-mastering",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Midnight Drive (Final Mix)",
+    "loudness": "-9.2 LUFS",
+    "dynamicRange": "8.4 dB",
+    "format": "WAV 24-bit / 48kHz",
+    "processingTime": "14s"
+  },
+  "previewConfig": {
+    "title": "Mastered Track",
+    "subtitle": "AI Mastering",
+    "displayFields": ["title", "loudness", "dynamicRange", "format", "processingTime"]
+  }
+}

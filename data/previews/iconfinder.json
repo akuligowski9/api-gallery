@@ -1,0 +1,16 @@
+{
+  "id": "iconfinder",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Streamline Bold",
+    "icons": 30000,
+    "style": "Glyph",
+    "license": "Commercial",
+    "designer": "Streamline"
+  },
+  "previewConfig": {
+    "title": "Streamline Bold",
+    "subtitle": "Iconfinder API",
+    "displayFields": ["name", "icons", "style", "license", "designer"]
+  }
+}

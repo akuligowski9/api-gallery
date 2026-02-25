@@ -1,0 +1,16 @@
+{
+  "id": "epo",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Method and apparatus for efficient solid-state battery manufacturing",
+    "applicant": "Samsung SDI Co., Ltd.",
+    "publicationNumber": "EP4123456A1",
+    "filingDate": "2024-09-15",
+    "classification": "H01M 10/0585"
+  },
+  "previewConfig": {
+    "title": "Solid-State Battery Patent",
+    "subtitle": "European Patent Office",
+    "displayFields": ["title", "applicant", "publicationNumber", "filingDate", "classification"]
+  }
+}

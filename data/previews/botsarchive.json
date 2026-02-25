@@ -1,0 +1,16 @@
+{
+  "id": "botsarchive",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "PollBot",
+    "username": "@vote_create_bot",
+    "category": "Utilities",
+    "rating": "4.7 / 5.0",
+    "description": "Create and share polls in any Telegram group with real-time results"
+  },
+  "previewConfig": {
+    "title": "Telegram Bot",
+    "subtitle": "BotsArchive",
+    "displayFields": ["name", "username", "category", "rating", "description"]
+  }
+}

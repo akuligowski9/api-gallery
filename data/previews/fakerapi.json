@@ -1,0 +1,16 @@
+{
+  "id": "fakerapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Horizon Digital Solutions",
+    "email": "contact@horizondigital.com",
+    "phone": "+1 (415) 555-0187",
+    "address": "742 Innovation Blvd, San Francisco, CA 94107",
+    "website": "https://www.horizondigital.com"
+  },
+  "previewConfig": {
+    "title": "Horizon Digital Solutions",
+    "subtitle": "FakerAPI",
+    "displayFields": ["name", "email", "phone", "address", "website"]
+  }
+}

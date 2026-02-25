@@ -1,0 +1,16 @@
+{
+  "id": "ai-text-moderation-toxicity-sentiment-analyzer",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "This product is absolutely wonderful and I love it!",
+    "toxicity": "0.02",
+    "sentiment": "positive",
+    "confidence": "0.97",
+    "flagged": false
+  },
+  "previewConfig": {
+    "title": "Sentiment Analysis",
+    "subtitle": "AI Text Moderation & Toxicity Analyzer",
+    "displayFields": ["text", "toxicity", "sentiment", "confidence", "flagged"]
+  }
+}

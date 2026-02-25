@@ -1,0 +1,16 @@
+{
+  "id": "asana",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Redesign landing page hero section",
+    "project": "Website Redesign Q1",
+    "assignee": "Priya Sharma",
+    "dueDate": "2026-03-14",
+    "status": "In Progress"
+  },
+  "previewConfig": {
+    "title": "Redesign landing page hero section",
+    "subtitle": "Asana",
+    "displayFields": ["name", "project", "assignee", "dueDate", "status"]
+  }
+}

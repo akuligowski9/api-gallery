@@ -1,0 +1,16 @@
+{
+  "id": "bitquery",
+  "previewType": "card",
+  "sampleResponse": {
+    "protocol": "Uniswap V3",
+    "pair": "WETH/USDC",
+    "price": "3,281.92",
+    "volume24h": "$142.5M",
+    "chain": "Ethereum"
+  },
+  "previewConfig": {
+    "title": "DeFi Trade",
+    "subtitle": "Bitquery",
+    "displayFields": ["protocol", "pair", "price", "volume24h", "chain"]
+  }
+}

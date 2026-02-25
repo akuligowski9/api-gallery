@@ -1,0 +1,16 @@
+{
+  "id": "change-image-background-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "inputFormat": "JPEG",
+    "outputFormat": "PNG",
+    "resolution": "1920x1080",
+    "processingTime": "2.3s",
+    "creditsUsed": 1
+  },
+  "previewConfig": {
+    "title": "Background Removal",
+    "subtitle": "Change Image Background API",
+    "displayFields": ["inputFormat", "outputFormat", "resolution", "processingTime", "creditsUsed"]
+  }
+}

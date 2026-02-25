@@ -1,0 +1,16 @@
+{
+  "id": "canopy",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+    "price": "$348.00",
+    "rating": "4.7 / 5",
+    "reviews": "12,843",
+    "category": "Electronics > Headphones"
+  },
+  "previewConfig": {
+    "title": "Sony WH-1000XM5",
+    "subtitle": "Canopy",
+    "displayFields": ["title", "price", "rating", "reviews", "category"]
+  }
+}

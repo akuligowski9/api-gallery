@@ -1,0 +1,16 @@
+{
+  "id": "canadian-football-league-cfl",
+  "previewType": "card",
+  "sampleResponse": {
+    "team": "BC Lions",
+    "wins": "11",
+    "losses": "7",
+    "division": "West",
+    "pointsFor": "487"
+  },
+  "previewConfig": {
+    "title": "CFL Team Standings",
+    "subtitle": "Canadian Football League (CFL)",
+    "displayFields": ["team", "wins", "losses", "division", "pointsFor"]
+  }
+}

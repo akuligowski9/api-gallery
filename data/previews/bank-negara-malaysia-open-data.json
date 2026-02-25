@@ -1,0 +1,16 @@
+{
+  "id": "bank-negara-malaysia-open-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "indicator": "Overnight Policy Rate",
+    "value": "3.00",
+    "period": "2025-Q3",
+    "unit": "Percent",
+    "source": "Bank Negara Malaysia"
+  },
+  "previewConfig": {
+    "title": "Overnight Policy Rate",
+    "subtitle": "Bank Negara Malaysia Open Data",
+    "displayFields": ["indicator", "value", "period", "unit", "source"]
+  }
+}

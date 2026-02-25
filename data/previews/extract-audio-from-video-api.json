@@ -1,0 +1,16 @@
+{
+  "id": "extract-audio-from-video-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "inputFormat": "MP4 (H.264)",
+    "outputFormat": "FLAC",
+    "duration": "3:47",
+    "bitrate": "1411 kbps",
+    "fileSize": "38.6 MB"
+  },
+  "previewConfig": {
+    "title": "Audio Extraction Result",
+    "subtitle": "Extract Audio from Video API",
+    "displayFields": ["inputFormat", "outputFormat", "duration", "bitrate", "fileSize"]
+  }
+}

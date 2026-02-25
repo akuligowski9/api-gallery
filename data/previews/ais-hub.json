@@ -1,0 +1,16 @@
+{
+  "id": "ais-hub",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "MSC OSCAR",
+    "mmsi": "353136000",
+    "lat": 51.9485,
+    "lon": 1.3127,
+    "speed": 14.2
+  },
+  "previewConfig": {
+    "title": "MSC OSCAR",
+    "subtitle": "AIS Hub Vessel Tracking",
+    "displayFields": ["name", "mmsi", "lat", "lon", "speed"]
+  }
+}

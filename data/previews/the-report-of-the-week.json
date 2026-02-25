@@ -1,0 +1,16 @@
+{
+  "id": "the-report-of-the-week",
+  "previewType": "card",
+  "sampleResponse": {
+    "item": "Spicy Deluxe Chicken Sandwich",
+    "restaurant": "Chick-fil-A",
+    "rating": "8.4/10",
+    "category": "Fast Food",
+    "reviewDate": "2025-11-14"
+  },
+  "previewConfig": {
+    "title": "Spicy Deluxe Review",
+    "subtitle": "The Report of the Week",
+    "displayFields": ["item", "restaurant", "rating", "category", "reviewDate"]
+  }
+}

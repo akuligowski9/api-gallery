@@ -1,0 +1,16 @@
+{
+  "id": "abstract-vat-validation",
+  "previewType": "card",
+  "sampleResponse": {
+    "vatNumber": "DE314159265",
+    "valid": "Yes",
+    "companyName": "Hetzner Online GmbH",
+    "country": "Germany",
+    "address": "Industriestr. 25, 91710 Gunzenhausen"
+  },
+  "previewConfig": {
+    "title": "VAT Validation Result",
+    "subtitle": "Abstract VAT Validation",
+    "displayFields": ["vatNumber", "valid", "companyName", "country", "address"]
+  }
+}

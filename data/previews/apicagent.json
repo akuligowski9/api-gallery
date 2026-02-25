@@ -1,0 +1,16 @@
+{
+  "id": "apicagent",
+  "previewType": "card",
+  "sampleResponse": {
+    "browser": "Chrome 121.0.6167",
+    "os": "Windows 11",
+    "device": "Desktop",
+    "type": "Browser",
+    "isBot": "false"
+  },
+  "previewConfig": {
+    "title": "User Agent Parsed",
+    "subtitle": "ApicAgent",
+    "displayFields": ["browser", "os", "device", "type", "isBot"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "adresse-data-gouv-fr",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "8 Boulevard du Palais",
+    "city": "Paris",
+    "postcode": "75001",
+    "lat": 48.8554,
+    "lon": 2.3451
+  },
+  "previewConfig": {
+    "title": "8 Boulevard du Palais",
+    "subtitle": "Adresse Data Gouv",
+    "displayFields": ["address", "city", "postcode", "lat", "lon"]
+  }
+}

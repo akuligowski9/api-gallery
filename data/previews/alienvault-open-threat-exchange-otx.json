@@ -1,0 +1,16 @@
+{
+  "id": "alienvault-open-threat-exchange-otx",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "APT29 Cozy Bear Campaign",
+    "adversary": "APT29",
+    "tlp": "white",
+    "indicators": "147",
+    "modified": "2025-10-28T14:32:00Z"
+  },
+  "previewConfig": {
+    "title": "Threat Pulse",
+    "subtitle": "AlienVault OTX",
+    "displayFields": ["name", "adversary", "tlp", "indicators", "modified"]
+  }
+}

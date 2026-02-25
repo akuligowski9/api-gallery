@@ -1,0 +1,16 @@
+{
+  "id": "aletheia",
+  "previewType": "card",
+  "sampleResponse": {
+    "company": "Tesla Inc.",
+    "insider": "Elon Musk",
+    "transaction": "Sale",
+    "shares": 150000,
+    "value": "$24,750,000"
+  },
+  "previewConfig": {
+    "title": "Tesla Inc.",
+    "subtitle": "Aletheia",
+    "displayFields": ["company", "insider", "transaction", "shares", "value"]
+  }
+}

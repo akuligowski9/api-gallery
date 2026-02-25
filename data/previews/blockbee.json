@@ -1,0 +1,16 @@
+{
+  "id": "blockbee",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "0x3a1b...9f2e",
+    "coin": "ETH",
+    "amountReceived": "0.4825",
+    "confirmations": 12,
+    "status": "confirmed"
+  },
+  "previewConfig": {
+    "title": "0x3a1b...9f2e",
+    "subtitle": "BlockBee",
+    "displayFields": ["address", "coin", "amountReceived", "confirmations", "status"]
+  }
+}

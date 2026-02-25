@@ -1,0 +1,16 @@
+{
+  "id": "abacus",
+  "previewType": "card",
+  "sampleResponse": {
+    "namespace": "production-metrics",
+    "key": "page-views-homepage",
+    "value": "1284037",
+    "lastUpdated": "2026-02-25T14:32:08Z",
+    "ttl": "86400 seconds"
+  },
+  "previewConfig": {
+    "title": "Counter",
+    "subtitle": "Abacus",
+    "displayFields": ["namespace", "key", "value", "lastUpdated", "ttl"]
+  }
+}

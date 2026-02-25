@@ -1,0 +1,16 @@
+{
+  "id": "az511",
+  "previewType": "card",
+  "sampleResponse": {
+    "road": "I-10 Eastbound",
+    "condition": "Construction Zone - Reduced Lanes",
+    "restriction": "Speed limit reduced to 55 mph",
+    "location": "Mile marker 162 near Tucson",
+    "updated": "2026-02-25T08:45:00Z"
+  },
+  "previewConfig": {
+    "title": "Traffic Condition",
+    "subtitle": "AZ511",
+    "displayFields": ["road", "condition", "restriction", "location", "updated"]
+  }
+}

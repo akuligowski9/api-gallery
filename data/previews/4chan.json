@@ -1,0 +1,16 @@
+{
+  "id": "4chan",
+  "previewType": "card",
+  "sampleResponse": {
+    "board": "/g/",
+    "subject": "Daily Programming Thread",
+    "replies": 312,
+    "images": 47,
+    "timestamp": "2026-02-25T08:14:33Z"
+  },
+  "previewConfig": {
+    "title": "Daily Programming Thread",
+    "subtitle": "4chan API",
+    "displayFields": ["board", "subject", "replies", "images", "timestamp"]
+  }
+}

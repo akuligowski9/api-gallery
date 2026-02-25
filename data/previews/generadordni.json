@@ -1,0 +1,16 @@
+{
+  "id": "generadordni",
+  "previewType": "card",
+  "sampleResponse": {
+    "nombre": "Carmen",
+    "apellidos": "Garcia Lopez",
+    "dni": "12345678Z",
+    "fechaNacimiento": "14/03/1989",
+    "provincia": "Madrid"
+  },
+  "previewConfig": {
+    "title": "Carmen Garcia Lopez",
+    "subtitle": "GeneradorDNI",
+    "displayFields": ["nombre", "apellidos", "dni", "fechaNacimiento", "provincia"]
+  }
+}

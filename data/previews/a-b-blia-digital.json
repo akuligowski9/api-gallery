@@ -1,0 +1,16 @@
+{
+  "id": "a-b-blia-digital",
+  "previewType": "card",
+  "sampleResponse": {
+    "book": "John",
+    "chapter": "3",
+    "verse": "16",
+    "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+    "version": "NIV"
+  },
+  "previewConfig": {
+    "title": "John 3:16",
+    "subtitle": "A Biblia Digital",
+    "displayFields": ["book", "chapter", "verse", "text", "version"]
+  }
+}

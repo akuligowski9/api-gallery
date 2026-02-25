@@ -1,0 +1,20 @@
+{
+  "id": "24-pull-requests",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Fix memory leak in WebSocket handler", "secondary": "expressjs/express", "badge": "JavaScript" },
+      { "title": "Add dark mode to settings page", "secondary": "calcom/cal.com", "badge": "TypeScript" },
+      { "title": "Improve CSV parser performance", "secondary": "pandas-dev/pandas", "badge": "Python" },
+      { "title": "Update broken links in documentation", "secondary": "facebook/react", "badge": "Markdown" },
+      { "title": "Add retry logic for failed API calls", "secondary": "psf/requests", "badge": "Python" }
+    ]
+  },
+  "previewConfig": {
+    "title": "24 Pull Requests",
+    "subtitle": "Open Source Contributions",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

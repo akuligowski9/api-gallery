@@ -1,0 +1,16 @@
+{
+  "id": "autom",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Daily Sales Report",
+    "trigger": "Scheduled - Every day at 9:00 AM",
+    "actions": "Fetch data, Generate PDF, Send email",
+    "status": "Active",
+    "lastRun": "2026-02-25T09:00:12Z"
+  },
+  "previewConfig": {
+    "title": "Automation Workflow",
+    "subtitle": "Autom",
+    "displayFields": ["name", "trigger", "actions", "status", "lastRun"]
+  }
+}

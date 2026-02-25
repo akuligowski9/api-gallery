@@ -1,0 +1,16 @@
+{
+  "id": "art-search",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Girl with a Pearl Earring",
+    "artist": "Johannes Vermeer",
+    "museum": "Mauritshuis, The Hague",
+    "medium": "Oil on canvas",
+    "year": "c. 1665"
+  },
+  "previewConfig": {
+    "title": "Girl with a Pearl Earring",
+    "subtitle": "Art Search",
+    "displayFields": ["title", "artist", "museum", "medium", "year"]
+  }
+}

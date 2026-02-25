@@ -1,0 +1,16 @@
+{
+  "id": "apitemplate-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "templateId": "tpl_social_banner_01",
+    "format": "PNG",
+    "width": 1200,
+    "height": 630,
+    "renderTime": "1.4s"
+  },
+  "previewConfig": {
+    "title": "Social Banner",
+    "subtitle": "APITemplate.io",
+    "displayFields": ["templateId", "format", "width", "height", "renderTime"]
+  }
+}

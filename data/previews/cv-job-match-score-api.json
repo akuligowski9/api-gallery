@@ -1,0 +1,16 @@
+{
+  "id": "cv-job-match-score-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "candidate": "Maria Chen",
+    "position": "Senior Full-Stack Engineer",
+    "matchScore": "87%",
+    "topSkills": "React, Node.js, PostgreSQL",
+    "missingSkills": "Kubernetes, Terraform"
+  },
+  "previewConfig": {
+    "title": "Job Match Analysis",
+    "subtitle": "CV Job Match Score API",
+    "displayFields": ["candidate", "position", "matchScore", "topSkills", "missingSkills"]
+  }
+}

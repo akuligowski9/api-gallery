@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-government-response",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "United Kingdom",
+    "stringencyIndex": "71.3",
+    "schoolClosing": "Require closing all levels",
+    "workplaceClosing": "Require closing for some sectors",
+    "date": "2021-01-15"
+  },
+  "previewConfig": {
+    "title": "UK Government Response",
+    "subtitle": "Oxford COVID-19 Government Response Tracker",
+    "displayFields": ["country", "stringencyIndex", "schoolClosing", "workplaceClosing", "date"]
+  }
+}

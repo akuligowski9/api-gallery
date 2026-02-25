@@ -1,0 +1,16 @@
+{
+  "id": "aemet",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "Madrid",
+    "temperature": "28°C",
+    "humidity": "35%",
+    "windSpeed": "14 km/h",
+    "description": "Clear sky"
+  },
+  "previewConfig": {
+    "title": "Spain Weather Forecast",
+    "subtitle": "AEMET",
+    "displayFields": ["city", "temperature", "humidity", "windSpeed", "description"]
+  }
+}

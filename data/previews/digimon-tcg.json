@@ -1,0 +1,16 @@
+{
+  "id": "digimon-tcg",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "WarGreymon",
+    "type": "Digimon",
+    "color": "Red",
+    "level": 6,
+    "dpPower": 12000
+  },
+  "previewConfig": {
+    "title": "WarGreymon",
+    "subtitle": "Digimon TCG API",
+    "displayFields": ["name", "type", "color", "level", "dpPower"]
+  }
+}

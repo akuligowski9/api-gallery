@@ -1,0 +1,16 @@
+{
+  "id": "apiip",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "203.0.113.42",
+    "city": "Sydney",
+    "country": "Australia",
+    "isp": "Telstra Corporation",
+    "timezone": "Australia/Sydney"
+  },
+  "previewConfig": {
+    "title": "203.0.113.42",
+    "subtitle": "APIip",
+    "displayFields": ["ip", "city", "country", "isp", "timezone"]
+  }
+}

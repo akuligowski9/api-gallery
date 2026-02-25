@@ -1,0 +1,16 @@
+{
+  "id": "autochangelog",
+  "previewType": "card",
+  "sampleResponse": {
+    "version": "3.2.0",
+    "date": "2026-02-20",
+    "changes": "Added dark mode support, improved search performance",
+    "type": "Feature",
+    "breaking": "false"
+  },
+  "previewConfig": {
+    "title": "Changelog Entry",
+    "subtitle": "AutoChangelog",
+    "displayFields": ["version", "date", "changes", "type", "breaking"]
+  }
+}

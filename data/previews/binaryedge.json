@@ -1,0 +1,16 @@
+{
+  "id": "binaryedge",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "203.0.113.42",
+    "ports": "22, 80, 443, 8080",
+    "country": "United States",
+    "asn": "AS14061 - DigitalOcean",
+    "score": "7.4"
+  },
+  "previewConfig": {
+    "title": "Host Scan Result",
+    "subtitle": "BinaryEdge",
+    "displayFields": ["ip", "ports", "country", "asn", "score"]
+  }
+}

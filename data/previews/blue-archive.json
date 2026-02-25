@@ -1,0 +1,16 @@
+{
+  "id": "blue-archive",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Hoshino",
+    "school": "Abydos High School",
+    "role": "Tank",
+    "weaponType": "Shotgun",
+    "rarity": "3-Star"
+  },
+  "previewConfig": {
+    "title": "Hoshino",
+    "subtitle": "Blue Archive",
+    "displayFields": ["name", "school", "role", "weaponType", "rarity"]
+  }
+}

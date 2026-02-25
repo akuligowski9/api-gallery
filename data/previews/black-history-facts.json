@@ -1,0 +1,20 @@
+{
+  "id": "black-history-facts",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Rosa Parks refuses to give up her bus seat", "secondary": "Rosa Parks", "badge": 1955 },
+      { "title": "First African American Supreme Court Justice appointed", "secondary": "Thurgood Marshall", "badge": 1967 },
+      { "title": "March on Washington for Jobs and Freedom", "secondary": "Martin Luther King Jr.", "badge": 1963 },
+      { "title": "Founding of the Tuskegee Institute", "secondary": "Booker T. Washington", "badge": 1881 },
+      { "title": "Jackie Robinson breaks MLB color barrier", "secondary": "Jackie Robinson", "badge": 1947 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Black History Facts",
+    "subtitle": "Notable moments in Black history",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

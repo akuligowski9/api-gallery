@@ -1,0 +1,16 @@
+{
+  "id": "akshaykumar-rest",
+  "previewType": "card",
+  "sampleResponse": {
+    "statusCode": "200",
+    "message": "Discipline is the bridge between goals and accomplishment.",
+    "movie": "Airlift",
+    "year": "2016",
+    "category": "Inspirational"
+  },
+  "previewConfig": {
+    "title": "Akshay Kumar Quote",
+    "subtitle": "AkshayKumar REST",
+    "displayFields": ["statusCode", "message", "movie", "year", "category"]
+  }
+}

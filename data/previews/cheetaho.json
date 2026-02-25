@@ -1,0 +1,16 @@
+{
+  "id": "cheetaho",
+  "previewType": "card",
+  "sampleResponse": {
+    "originalSize": "2.4 MB",
+    "optimizedSize": "684 KB",
+    "savings": "72%",
+    "format": "WebP",
+    "quality": "Lossy (85)"
+  },
+  "previewConfig": {
+    "title": "Image Optimization Result",
+    "subtitle": "CheetahO",
+    "displayFields": ["originalSize", "optimizedSize", "savings", "format", "quality"]
+  }
+}

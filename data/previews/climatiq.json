@@ -1,0 +1,16 @@
+{
+  "id": "climatiq",
+  "previewType": "card",
+  "sampleResponse": {
+    "activity": "Round-trip flight JFK to LHR",
+    "co2e": "1,024.5",
+    "unit": "kg CO2e",
+    "source": "UK BEIS 2023",
+    "region": "Global"
+  },
+  "previewConfig": {
+    "title": "Flight Emission Estimate",
+    "subtitle": "Climatiq",
+    "displayFields": ["activity", "co2e", "unit", "source", "region"]
+  }
+}

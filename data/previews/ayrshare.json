@@ -1,0 +1,16 @@
+{
+  "id": "ayrshare",
+  "previewType": "card",
+  "sampleResponse": {
+    "platform": "Instagram",
+    "status": "published",
+    "likes": 2847,
+    "shares": 391,
+    "scheduledDate": "2026-02-24T14:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Instagram Post",
+    "subtitle": "Ayrshare Social API",
+    "displayFields": ["platform", "status", "likes", "shares", "scheduledDate"]
+  }
+}

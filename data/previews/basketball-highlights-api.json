@@ -1,0 +1,20 @@
+{
+  "id": "basketball-highlights-api",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "LeBron Chasedown Block", "teams": "Lakers vs Celtics", "views": 312000 },
+      { "title": "Curry Half-Court Buzzer Beater", "teams": "Warriors vs Suns", "views": 275000 },
+      { "title": "Giannis Poster Dunk", "teams": "Bucks vs Heat", "views": 198000 },
+      { "title": "Jokic No-Look Full Court Pass", "teams": "Nuggets vs Timberwolves", "views": 142000 },
+      { "title": "Edwards 360 Windmill", "teams": "Timberwolves vs Mavericks", "views": 109000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Basketball Highlights API",
+    "subtitle": "Top NBA Highlights",
+    "itemKey": "title",
+    "secondaryKey": "teams",
+    "badgeKey": "views"
+  }
+}

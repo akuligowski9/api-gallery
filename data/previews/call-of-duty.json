@@ -1,0 +1,16 @@
+{
+  "id": "call-of-duty",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "ShadowViper99",
+    "level": 155,
+    "kills": 48210,
+    "wins": 1374,
+    "kdRatio": 1.82
+  },
+  "previewConfig": {
+    "title": "ShadowViper99",
+    "subtitle": "Call of Duty API",
+    "displayFields": ["username", "level", "kills", "wins", "kdRatio"]
+  }
+}

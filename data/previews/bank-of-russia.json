@@ -1,0 +1,16 @@
+{
+  "id": "bank-of-russia",
+  "previewType": "card",
+  "sampleResponse": {
+    "currency": "USD/RUB",
+    "rate": 92.4516,
+    "nominal": 1,
+    "date": "2026-02-25",
+    "change": -0.3782
+  },
+  "previewConfig": {
+    "title": "USD/RUB Exchange Rate",
+    "subtitle": "Bank of Russia",
+    "displayFields": ["currency", "rate", "nominal", "date", "change"]
+  }
+}

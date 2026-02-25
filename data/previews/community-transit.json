@@ -1,0 +1,16 @@
+{
+  "id": "community-transit",
+  "previewType": "card",
+  "sampleResponse": {
+    "route": "201",
+    "direction": "Northbound",
+    "nextArrival": "3:42 PM",
+    "stop": "Lynnwood Transit Center",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "Route 201 Northbound",
+    "subtitle": "Community Transit API",
+    "displayFields": ["route", "direction", "nextArrival", "stop", "status"]
+  }
+}
