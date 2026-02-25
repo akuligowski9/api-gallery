@@ -1,0 +1,33 @@
+{
+  "name": "api-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.34.3",
+    "lucide-react": "^0.575.0",
+    "next": "^16.1.6",
+    "next-themes": "^0.4.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "^25.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.3",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  }
+}
