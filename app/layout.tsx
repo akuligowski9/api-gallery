@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import { ServiceWorker } from "@/components/service-worker";
 import "./globals.css";
 
 const inter = Inter({
@@ -82,7 +81,6 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
-        <ServiceWorker />
       </body>
     </html>
   );
