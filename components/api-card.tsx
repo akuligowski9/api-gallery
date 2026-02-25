@@ -6,6 +6,7 @@ import { ExternalLink, Shield, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { getCategoryEmoji } from "@/lib/categories";
 import { AuthBadge } from "./auth-badge";
+import { PreviewRenderer } from "./previews";
 import type { ApiEntry } from "@/lib/types";
 
 interface ApiCardProps {
@@ -39,18 +40,9 @@ export function ApiCard({ api, index, featured }: ApiCardProps) {
           )}
         >
           {/* Preview area for featured cards */}
-          {featured && (
-            <div
-              className={cn(
-                "relative flex h-40 items-center justify-center overflow-hidden",
-                "bg-gradient-to-br from-muted/50 to-muted",
-              )}
-            >
-              {/* Preview component will be rendered here by the grid */}
-              <span className="text-5xl">{emoji}</span>
-
-              {/* Subtle gradient overlay at bottom */}
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-white dark:from-white/[0.04]" />
+          {featured && api.preview && (
+            <div className="relative overflow-hidden">
+              <PreviewRenderer data={api.preview} compact />
             </div>
           )}
 
