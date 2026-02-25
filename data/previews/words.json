@@ -1,0 +1,20 @@
+{
+  "id": "words",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "ephemeral", "secondary": "adjective", "badge": 3, "extra1": "Lasting for a very short time", "extra2": "Greek: ephemeros" },
+      { "title": "serendipity", "secondary": "noun", "badge": 5, "extra1": "Finding something good without looking for it", "extra2": "Coined by Horace Walpole" },
+      { "title": "melancholy", "secondary": "noun / adjective", "badge": 4, "extra1": "A feeling of pensive sadness", "extra2": "Greek: melankholía" },
+      { "title": "ubiquitous", "secondary": "adjective", "badge": 5, "extra1": "Present, appearing, or found everywhere", "extra2": "Latin: ubique" },
+      { "title": "eloquent", "secondary": "adjective", "badge": 4, "extra1": "Fluent or persuasive in speaking or writing", "extra2": "Latin: eloquentem" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Words API",
+    "subtitle": "Dictionary definitions and metadata",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

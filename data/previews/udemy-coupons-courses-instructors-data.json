@@ -1,0 +1,20 @@
+{
+  "id": "udemy-coupons-courses-instructors-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "The Complete Python Bootcamp", "instructor": "Jose Portilla", "rating": "4.7", "students": "1,200,000", "coupon": "PYBOOT2024" },
+      { "title": "React – The Complete Guide", "instructor": "Maximilian Schwarzmüller", "rating": "4.6", "students": "890,000", "coupon": "REACTFREE" },
+      { "title": "AWS Certified Solutions Architect", "instructor": "Stephane Maarek", "rating": "4.8", "students": "650,000", "coupon": "AWSSAA30" },
+      { "title": "The Web Developer Bootcamp 2024", "instructor": "Colt Steele", "rating": "4.7", "students": "780,000", "coupon": "WEBDEV100" },
+      { "title": "Machine Learning A-Z", "instructor": "Kirill Eremenko", "rating": "4.5", "students": "920,000", "coupon": "MLFREE2024" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Udemy Coupons & Courses",
+    "subtitle": "Online courses with active discount coupons",
+    "itemKey": "title",
+    "secondaryKey": "instructor",
+    "badgeKey": "rating"
+  }
+}

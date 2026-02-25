@@ -1,0 +1,16 @@
+{
+  "id": "mux",
+  "previewType": "card",
+  "sampleResponse": {
+    "assetId": "mux_asset_K9Zp2fXdQr",
+    "status": "ready",
+    "duration": 142.8,
+    "resolution": "1920x1080",
+    "playbackUrl": "https://stream.mux.com/K9Zp2fXdQr.m3u8"
+  },
+  "previewConfig": {
+    "title": "Mux Video Asset",
+    "subtitle": "Video asset details and streaming playback info",
+    "displayFields": ["assetId", "status", "duration", "resolution", "playbackUrl"]
+  }
+}

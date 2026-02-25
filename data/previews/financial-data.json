@@ -1,0 +1,16 @@
+{
+  "id": "financial-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "AAPL",
+    "price": 227.54,
+    "change_pct": 1.38,
+    "market_cap": "3.49T",
+    "volume": 54823100
+  },
+  "previewConfig": {
+    "title": "Financial Data",
+    "subtitle": "Market quote snapshot",
+    "displayFields": ["ticker", "price", "change_pct", "market_cap", "volume"]
+  }
+}

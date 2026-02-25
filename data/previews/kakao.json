@@ -1,0 +1,16 @@
+{
+  "id": "kakao",
+  "previewType": "card",
+  "sampleResponse": {
+    "userId": 1234567890,
+    "nickname": "KakaoUser_82",
+    "profileImageUrl": "https://k.kakaocdn.net/dn/profile/img_640x640.jpg",
+    "connectedAt": "2023-04-15T09:23:11Z",
+    "accountEmail": "user@kakao.com"
+  },
+  "previewConfig": {
+    "title": "Kakao",
+    "subtitle": "Kakao User Profile",
+    "displayFields": ["userId", "nickname", "profileImageUrl", "connectedAt", "accountEmail"]
+  }
+}

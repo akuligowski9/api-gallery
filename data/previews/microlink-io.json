@@ -1,0 +1,16 @@
+{
+  "id": "microlink-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://github.com/microlinkhq/microlink-www",
+    "title": "microlink.io - Turn websites into data",
+    "description": "Extract structured data from any website using a simple API.",
+    "image_url": "https://cdn.microlink.io/og/github.png",
+    "publisher": "Microlink"
+  },
+  "previewConfig": {
+    "title": "Microlink.io",
+    "subtitle": "Extract metadata and screenshots from any URL",
+    "displayFields": ["url", "title", "description", "image_url", "publisher"]
+  }
+}

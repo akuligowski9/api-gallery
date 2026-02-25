@@ -1,0 +1,20 @@
+{
+  "id": "city-lviv",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Lviv Public Transport Routes", "secondary": "Transport", "badge": 312, "format": "GTFS", "last_updated": "2024-03-10" },
+      { "title": "City Budget Expenditures 2023", "secondary": "Finance", "badge": 1840, "format": "CSV", "last_updated": "2024-01-15" },
+      { "title": "Lviv Cultural Heritage Sites", "secondary": "Culture", "badge": 527, "format": "GeoJSON", "last_updated": "2023-11-20" },
+      { "title": "Air Quality Monitoring Stations", "secondary": "Environment", "badge": 18, "format": "JSON", "last_updated": "2024-03-14" },
+      { "title": "Parking Zones & Tariffs", "secondary": "Infrastructure", "badge": 94, "format": "CSV", "last_updated": "2024-02-28" }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Lviv Open Data",
+    "subtitle": "Government — Lviv, Ukraine Municipal Datasets",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

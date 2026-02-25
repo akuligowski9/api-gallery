@@ -1,0 +1,20 @@
+{
+  "id": "gw2spidy",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "item_id": 19721, "name": "Glob of Ectoplasm", "buy_price": 3450, "sell_price": 3612, "rarity": "Rare" },
+      { "item_id": 24356, "name": "Vial of Powerful Blood", "buy_price": 8100, "sell_price": 8450, "rarity": "Rare" },
+      { "item_id": 46733, "name": "Dusk", "buy_price": 9800000, "sell_price": 10200000, "rarity": "Exotic" },
+      { "item_id": 12134, "name": "Omnomberry", "buy_price": 120, "sell_price": 145, "rarity": "Basic" },
+      { "item_id": 68063, "name": "Augur's Stone", "buy_price": 22000, "sell_price": 23500, "rarity": "Masterwork" }
+    ]
+  },
+  "previewConfig": {
+    "title": "GW2Spidy Trading Post",
+    "subtitle": "Live buy/sell listings from the Guild Wars 2 trading post",
+    "itemKey": "name",
+    "secondaryKey": "rarity",
+    "badgeKey": "sell_price"
+  }
+}

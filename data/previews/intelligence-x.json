@@ -1,0 +1,16 @@
+{
+  "id": "intelligence-x",
+  "previewType": "card",
+  "sampleResponse": {
+    "search_id": "srch_5bGhNwR3mJkY",
+    "query": "example@domain.com",
+    "results_found": 14,
+    "top_source": "Leaked Database - Collection #3",
+    "first_seen": "2019-01-17"
+  },
+  "previewConfig": {
+    "title": "Intelligence X",
+    "subtitle": "Security",
+    "displayFields": ["search_id", "query", "results_found", "top_source", "first_seen"]
+  }
+}

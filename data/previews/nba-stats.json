@@ -1,0 +1,16 @@
+{
+  "id": "nba-stats",
+  "previewType": "card",
+  "sampleResponse": {
+    "playerName": "Stephen Curry",
+    "team": "Golden State Warriors",
+    "pointsPerGame": 29.4,
+    "assistsPerGame": 6.1,
+    "threePointPct": 0.427
+  },
+  "previewConfig": {
+    "title": "Stephen Curry",
+    "subtitle": "NBA Player Season Stats",
+    "displayFields": ["playerName", "team", "pointsPerGame", "assistsPerGame", "threePointPct"]
+  }
+}

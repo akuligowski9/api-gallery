@@ -1,0 +1,16 @@
+{
+  "id": "bing-maps",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "Space Needle, Seattle, WA",
+    "formatted_address": "400 Broad St, Seattle, WA 98109, US",
+    "latitude": 47.6205,
+    "longitude": -122.3493,
+    "confidence": "High"
+  },
+  "previewConfig": {
+    "title": "Bing Maps",
+    "subtitle": "Geocoding result",
+    "displayFields": ["query", "formatted_address", "latitude", "longitude", "confidence"]
+  }
+}

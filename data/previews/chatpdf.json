@@ -1,0 +1,16 @@
+{
+  "id": "chatpdf",
+  "previewType": "card",
+  "sampleResponse": {
+    "source_id": "src_abc789xyz",
+    "filename": "Q3_Financial_Report_2024.pdf",
+    "page_count": 42,
+    "answer": "Total revenue for Q3 2024 was $4.2 billion, representing a 12% year-over-year increase.",
+    "confidence": "high"
+  },
+  "previewConfig": {
+    "title": "ChatPDF",
+    "subtitle": "PDF Analysis Result",
+    "displayFields": ["source_id", "filename", "page_count", "answer", "confidence"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "random-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "full_name": "Marcus J. Thornton",
+    "email": "marcus.thornton@example.com",
+    "phone": "+1-555-847-2931",
+    "country": "United States",
+    "uuid": "a3f1d2c4-7e89-4b56-9f01-2d3e4c5b6a78"
+  },
+  "previewConfig": {
+    "title": "Random Data API",
+    "subtitle": "Generated user profile",
+    "displayFields": ["full_name", "email", "phone", "country", "uuid"]
+  }
+}

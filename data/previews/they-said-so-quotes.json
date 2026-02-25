@@ -1,0 +1,16 @@
+{
+  "id": "they-said-so-quotes",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": "Inspirational",
+    "permalink": "https://theysaidso.com/quote/albert-einstein-in-the-middle-of-every-difficulty",
+    "date": "2026-02-25"
+  },
+  "previewConfig": {
+    "title": "They Said So Quotes",
+    "subtitle": "Quote of the Day",
+    "displayFields": ["quote", "author", "category", "permalink", "date"]
+  }
+}

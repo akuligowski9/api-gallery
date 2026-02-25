@@ -1,0 +1,16 @@
+{
+  "id": "nlp-cloud",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_text": "Elon Musk founded SpaceX in Hawthorne, California in 2002.",
+    "model": "en_core_web_lg",
+    "entities_found": 3,
+    "top_entity": "Elon Musk",
+    "top_entity_type": "PERSON"
+  },
+  "previewConfig": {
+    "title": "NLP Cloud Entity Extraction",
+    "subtitle": "Named entity recognition result",
+    "displayFields": ["input_text", "model", "entities_found", "top_entity", "top_entity_type"]
+  }
+}

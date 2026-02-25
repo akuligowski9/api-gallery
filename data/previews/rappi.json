@@ -1,0 +1,16 @@
+{
+  "id": "rappi",
+  "previewType": "card",
+  "sampleResponse": {
+    "orderId": "RPP-20240315-98271",
+    "status": "on_the_way",
+    "storeName": "McDonald's Chapinero",
+    "estimatedDeliveryMinutes": 12,
+    "totalAmountCOP": 38500
+  },
+  "previewConfig": {
+    "title": "orderId",
+    "subtitle": "status",
+    "displayFields": ["orderId", "status", "storeName", "estimatedDeliveryMinutes", "totalAmountCOP"]
+  }
+}

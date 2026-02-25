@@ -1,0 +1,20 @@
+{
+  "id": "okjob",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Backend Engineer", "company": "Stripe", "location": "Remote", "salary": "$160k–$200k", "type": "Full-time" },
+      { "title": "Product Designer", "company": "Notion", "location": "Remote", "salary": "$130k–$160k", "type": "Full-time" },
+      { "title": "DevOps Engineer", "company": "HashiCorp", "location": "Remote", "salary": "$140k–$180k", "type": "Full-time" },
+      { "title": "Data Scientist", "company": "Weights & Biases", "location": "Remote", "salary": "$145k–$185k", "type": "Full-time" },
+      { "title": "Technical Writer", "company": "GitLab", "location": "Remote", "salary": "$90k–$120k", "type": "Contract" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Remote Job Listings",
+    "subtitle": "OkJob — Remote Opportunities",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "type"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sabre-for-developers",
+  "previewType": "card",
+  "sampleResponse": {
+    "flight_number": "AA2301",
+    "origin": "JFK",
+    "destination": "LAX",
+    "departure_time": "2024-04-10T08:30:00",
+    "fare_usd": 312.50
+  },
+  "previewConfig": {
+    "title": "AA2301 — JFK to LAX",
+    "subtitle": "Sabre flight booking result",
+    "displayFields": ["flight_number", "origin", "destination", "departure_time", "fare_usd"]
+  }
+}

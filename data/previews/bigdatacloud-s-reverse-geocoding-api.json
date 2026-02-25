@@ -1,0 +1,16 @@
+{
+  "id": "bigdatacloud-s-reverse-geocoding-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "city": "Paris",
+    "countryCode": "FR",
+    "locality": "1st Arrondissement"
+  },
+  "previewConfig": {
+    "title": "BigDataCloud Reverse Geocoding",
+    "subtitle": "Coordinates to location data",
+    "displayFields": ["latitude", "longitude", "city", "countryCode", "locality"]
+  }
+}

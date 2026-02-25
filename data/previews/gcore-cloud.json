@@ -1,0 +1,16 @@
+{
+  "id": "gcore-cloud",
+  "previewType": "card",
+  "sampleResponse": {
+    "instance_id": "i-0a3f92b1c4e7d5f82",
+    "name": "web-server-prod-01",
+    "flavor": "g1-standard-4-8",
+    "status": "ACTIVE",
+    "region": "Luxembourg-1"
+  },
+  "previewConfig": {
+    "title": "web-server-prod-01",
+    "subtitle": "ACTIVE",
+    "displayFields": ["instance_id", "name", "flavor", "status", "region"]
+  }
+}

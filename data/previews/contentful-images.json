@@ -1,0 +1,16 @@
+{
+  "id": "contentful-images",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://images.ctfassets.net/abc123/hero-banner.jpg",
+    "width": 1280,
+    "height": 720,
+    "format": "webp",
+    "size_kb": 87
+  },
+  "previewConfig": {
+    "title": "Contentful Images",
+    "subtitle": "Transformed image asset",
+    "displayFields": ["url", "width", "height", "format", "size_kb"]
+  }
+}

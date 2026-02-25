@@ -1,0 +1,20 @@
+{
+  "id": "harry-potter-characters",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Harry Potter", "secondary": "Gryffindor", "badge": 7, "species": "Human", "patronus": "Stag" },
+      { "title": "Hermione Granger", "secondary": "Gryffindor", "badge": 7, "species": "Human", "patronus": "Otter" },
+      { "title": "Albus Dumbledore", "secondary": "Gryffindor", "badge": 1, "species": "Human", "patronus": "Phoenix" },
+      { "title": "Severus Snape", "secondary": "Slytherin", "badge": 1, "species": "Human", "patronus": "Doe" },
+      { "title": "Luna Lovegood", "secondary": "Ravenclaw", "badge": 5, "species": "Human", "patronus": "Hare" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Harry Potter Characters",
+    "subtitle": "Wizarding World Characters",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

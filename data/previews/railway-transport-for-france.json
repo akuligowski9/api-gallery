@@ -1,0 +1,16 @@
+{
+  "id": "railway-transport-for-france",
+  "previewType": "card",
+  "sampleResponse": {
+    "train_number": "TGV 6201",
+    "origin": "Paris Gare de Lyon",
+    "destination": "Lyon Part-Dieu",
+    "departure_time": "07:43",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "Railway Transport for France",
+    "subtitle": "Transportation",
+    "displayFields": ["train_number", "origin", "destination", "departure_time", "status"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-data-minneapolis",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_name": "Minneapolis Crime Statistics", "category": "Public Safety", "updated": "2025-08-01" },
+      { "dataset_name": "City Budget Expenditures", "category": "Finance", "updated": "2025-07-15" },
+      { "dataset_name": "Pothole Repair Requests", "category": "Infrastructure", "updated": "2025-08-10" },
+      { "dataset_name": "Park Facility Locations", "category": "Recreation", "updated": "2025-06-30" },
+      { "dataset_name": "Building Permits Issued", "category": "Development", "updated": "2025-08-08" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Data Minneapolis",
+    "subtitle": "Open Data",
+    "itemKey": "dataset_name",
+    "secondaryKey": "updated",
+    "badgeKey": "category"
+  }
+}

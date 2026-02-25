@@ -1,0 +1,16 @@
+{
+  "id": "machinetutors",
+  "previewType": "card",
+  "sampleResponse": {
+    "session_id": "mt_sess_9x3k7z",
+    "topic": "Gradient Descent Optimization",
+    "difficulty": "Intermediate",
+    "explanation": "Gradient descent updates model weights by moving in the direction of steepest loss decrease.",
+    "next_topic": "Adam Optimizer"
+  },
+  "previewConfig": {
+    "title": "Machinetutors",
+    "subtitle": "AI-powered machine learning tutoring",
+    "displayFields": ["session_id", "topic", "difficulty", "explanation", "next_topic"]
+  }
+}

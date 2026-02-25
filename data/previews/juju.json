@@ -1,0 +1,20 @@
+{
+  "id": "juju",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "job_id": "JJ-100421", "title": "Senior Backend Engineer", "company": "Acme Corp", "location": "Remote", "salary_range": "$130k–$160k" },
+      { "job_id": "JJ-100438", "title": "Data Scientist", "company": "Nova Analytics", "location": "New York, NY", "salary_range": "$120k–$145k" },
+      { "job_id": "JJ-100455", "title": "DevOps Engineer", "company": "CloudScale Inc", "location": "Austin, TX", "salary_range": "$115k–$140k" },
+      { "job_id": "JJ-100462", "title": "Product Manager", "company": "Streamline SaaS", "location": "San Francisco, CA", "salary_range": "$140k–$175k" },
+      { "job_id": "JJ-100479", "title": "Frontend Developer", "company": "BrightUI Studio", "location": "Remote", "salary_range": "$100k–$125k" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Juju",
+    "subtitle": "Job Search Results",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minecraft-server-status",
+  "previewType": "card",
+  "sampleResponse": {
+    "host": "mc.hypixel.net",
+    "version": "1.20.4",
+    "players_online": 42381,
+    "players_max": 200000,
+    "motd": "Hypixel Network [1.8-1.20]"
+  },
+  "previewConfig": {
+    "title": "mc.hypixel.net",
+    "subtitle": "Hypixel Network [1.8-1.20]",
+    "displayFields": ["host", "version", "players_online", "players_max", "motd"]
+  }
+}

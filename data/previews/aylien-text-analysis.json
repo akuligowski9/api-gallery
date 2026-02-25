@@ -1,0 +1,16 @@
+{
+  "id": "aylien-text-analysis",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "The new product launch was an incredible success beyond all expectations.",
+    "sentiment": "positive",
+    "confidence": 0.97,
+    "subjectivity": "subjective",
+    "language": "en"
+  },
+  "previewConfig": {
+    "title": "Aylien Text Analysis",
+    "subtitle": "NLP Sentiment & Text Classification",
+    "displayFields": ["text", "sentiment", "confidence", "subjectivity", "language"]
+  }
+}

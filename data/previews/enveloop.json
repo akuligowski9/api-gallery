@@ -1,0 +1,16 @@
+{
+  "id": "enveloop",
+  "previewType": "card",
+  "sampleResponse": {
+    "messageId": "msg_01J8XK2P4NQRVT7BWCZ3Y6MHD",
+    "status": "delivered",
+    "recipient": "jane.doe@example.com",
+    "subject": "Your order #78421 has shipped!",
+    "sentAt": "2025-10-14T09:32:11Z"
+  },
+  "previewConfig": {
+    "title": "Enveloop",
+    "subtitle": "Transactional Email Delivery",
+    "displayFields": ["messageId", "status", "recipient", "subject", "sentAt"]
+  }
+}

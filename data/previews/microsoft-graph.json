@@ -1,0 +1,16 @@
+{
+  "id": "microsoft-graph",
+  "previewType": "card",
+  "sampleResponse": {
+    "displayName": "Megan Bowen",
+    "mail": "MeganB@M365x214355.onmicrosoft.com",
+    "jobTitle": "Auditor",
+    "officeLocation": "12/1110",
+    "mobilePhone": "+1 412 555 0109"
+  },
+  "previewConfig": {
+    "title": "Megan Bowen",
+    "subtitle": "Microsoft Graph — User Profile",
+    "displayFields": ["displayName", "mail", "jobTitle", "officeLocation", "mobilePhone"]
+  }
+}

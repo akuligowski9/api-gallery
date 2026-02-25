@@ -1,0 +1,16 @@
+{
+  "id": "form-creation-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "form_id": "frm_9k2xLpQr84Tz",
+    "form_name": "Customer Feedback Survey",
+    "fields_count": 8,
+    "submit_url": "https://forms.example.com/submit/frm_9k2xLpQr84Tz",
+    "created_at": "2025-08-01T14:22:00Z"
+  },
+  "previewConfig": {
+    "title": "Form Creation API",
+    "subtitle": "Development",
+    "displayFields": ["form_id", "form_name", "fields_count", "submit_url", "created_at"]
+  }
+}

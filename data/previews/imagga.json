@@ -1,0 +1,16 @@
+{
+  "id": "imagga",
+  "previewType": "card",
+  "sampleResponse": {
+    "tag": "mountain",
+    "confidence": 98.21,
+    "image_url": "https://example.com/landscape.jpg",
+    "language": "en",
+    "request_id": "abc123xyz"
+  },
+  "previewConfig": {
+    "title": "Image Tag Result",
+    "subtitle": "Imagga",
+    "displayFields": ["tag", "confidence", "image_url", "language", "request_id"]
+  }
+}

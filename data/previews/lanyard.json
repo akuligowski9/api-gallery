@@ -1,0 +1,16 @@
+{
+  "id": "lanyard",
+  "previewType": "card",
+  "sampleResponse": {
+    "discord_user": "Phineas#0001",
+    "status": "online",
+    "activity": "Playing Visual Studio Code",
+    "active_on_discord_desktop": true,
+    "spotify_song": "Bohemian Rhapsody - Queen"
+  },
+  "previewConfig": {
+    "title": "Phineas#0001",
+    "subtitle": "Discord Presence",
+    "displayFields": ["discord_user", "status", "activity", "active_on_discord_desktop", "spotify_song"]
+  }
+}

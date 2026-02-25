@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-jhu-csse",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "Global",
+    "confirmed": 704753890,
+    "deaths": 7010681,
+    "recovered": 675619811,
+    "lastUpdated": "2023-03-09"
+  },
+  "previewConfig": {
+    "title": "COVID-19 JHU CSSE",
+    "subtitle": "Global COVID-19 Statistics",
+    "displayFields": ["country", "confirmed", "deaths", "recovered", "lastUpdated"]
+  }
+}

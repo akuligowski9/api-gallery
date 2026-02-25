@@ -1,0 +1,16 @@
+{
+  "id": "dedline-io-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "deadline_id": "DL-2026-0441",
+    "title": "Federal Grant Application Submission",
+    "agency": "Department of Energy",
+    "due_date": "2026-03-15",
+    "status": "open"
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "agency",
+    "displayFields": ["deadline_id", "title", "agency", "due_date", "status"]
+  }
+}

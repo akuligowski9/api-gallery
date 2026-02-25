@@ -1,0 +1,20 @@
+{
+  "id": "lichess",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "game_id": "a1B2c3D4", "white": "MagnusC", "black": "HikaruN", "result": "1-0", "opening": "Sicilian Defense" },
+      { "game_id": "e5F6g7H8", "white": "FabianoC", "black": "AnishG", "result": "1/2-1/2", "opening": "Queen's Gambit" },
+      { "game_id": "i9J0k1L2", "white": "IanN", "black": "DingL", "result": "0-1", "opening": "Ruy Lopez" },
+      { "game_id": "m3N4o5P6", "white": "AlirezaF", "black": "WesleyS", "result": "1-0", "opening": "King's Indian" },
+      { "game_id": "q7R8s9T0", "white": "LevanA", "black": "RichardR", "result": "0-1", "opening": "French Defense" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Lichess",
+    "subtitle": "Chess Games",
+    "itemKey": "game_id",
+    "secondaryKey": "opening",
+    "badgeKey": "result"
+  }
+}

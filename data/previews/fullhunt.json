@@ -1,0 +1,16 @@
+{
+  "id": "fullhunt",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "example.com",
+    "hosts_count": 34,
+    "exposed_ports": "80,443,8080",
+    "risk_score": 42,
+    "last_scanned": "2026-02-24T18:22:11Z"
+  },
+  "previewConfig": {
+    "title": "domain",
+    "subtitle": "exposed_ports",
+    "displayFields": ["domain", "hosts_count", "exposed_ports", "risk_score", "last_scanned"]
+  }
+}

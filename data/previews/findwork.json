@@ -1,0 +1,20 @@
+{
+  "id": "findwork",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "role": "Senior Backend Engineer", "company": "Stripe", "location": "Remote", "salary": "$180k–$220k", "postedDaysAgo": 1 },
+      { "role": "Staff Frontend Engineer", "company": "Figma", "location": "San Francisco, CA", "salary": "$200k–$240k", "postedDaysAgo": 2 },
+      { "role": "ML Engineer, NLP", "company": "Cohere", "location": "Remote", "salary": "$160k–$200k", "postedDaysAgo": 3 },
+      { "role": "DevOps / Platform Engineer", "company": "HashiCorp", "location": "Remote", "salary": "$150k–$185k", "postedDaysAgo": 5 },
+      { "role": "Full Stack Engineer", "company": "Linear", "location": "Remote", "salary": "$140k–$180k", "postedDaysAgo": 7 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Findwork",
+    "subtitle": "Remote & Tech Job Listings",
+    "itemKey": "role",
+    "secondaryKey": "company",
+    "badgeKey": "postedDaysAgo"
+  }
+}

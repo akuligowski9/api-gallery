@@ -1,0 +1,16 @@
+{
+  "id": "ig",
+  "previewType": "card",
+  "sampleResponse": {
+    "instrument": "US 500",
+    "bid": 5872.4,
+    "offer": 5872.8,
+    "change_percent": 0.35,
+    "market_status": "TRADEABLE"
+  },
+  "previewConfig": {
+    "title": "IG Trading",
+    "subtitle": "Live trading market prices and instrument data",
+    "displayFields": ["instrument", "bid", "offer", "change_percent", "market_status"]
+  }
+}

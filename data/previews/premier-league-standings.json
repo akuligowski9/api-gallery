@@ -1,0 +1,50 @@
+{
+  "id": "premier-league-standings",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "team": "Manchester City",
+        "position": 1,
+        "points": 71,
+        "gd": "+42",
+        "form": "WWDWW"
+      },
+      {
+        "team": "Arsenal",
+        "position": 2,
+        "points": 68,
+        "gd": "+38",
+        "form": "WWWDW"
+      },
+      {
+        "team": "Liverpool",
+        "position": 3,
+        "points": 65,
+        "gd": "+35",
+        "form": "WDWWL"
+      },
+      {
+        "team": "Aston Villa",
+        "position": 4,
+        "points": 60,
+        "gd": "+21",
+        "form": "WLWWW"
+      },
+      {
+        "team": "Tottenham Hotspur",
+        "position": 5,
+        "points": 55,
+        "gd": "+14",
+        "form": "DWWLW"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Premier League Standings",
+    "subtitle": "Current English Premier League table positions",
+    "itemKey": "team",
+    "secondaryKey": "form",
+    "badgeKey": "points"
+  }
+}

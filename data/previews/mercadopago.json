@@ -1,0 +1,16 @@
+{
+  "id": "mercadopago",
+  "previewType": "card",
+  "sampleResponse": {
+    "payment_id": "8473920156",
+    "status": "approved",
+    "amount": 259.99,
+    "currency": "BRL",
+    "payer_email": "comprador@exemplo.com.br"
+  },
+  "previewConfig": {
+    "title": "MercadoPago",
+    "subtitle": "Payment Info",
+    "displayFields": ["payment_id", "status", "amount", "currency", "payer_email"]
+  }
+}

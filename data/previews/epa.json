@@ -1,0 +1,16 @@
+{
+  "id": "epa",
+  "previewType": "card",
+  "sampleResponse": {
+    "station_id": "USW00094728",
+    "parameter": "PM2.5",
+    "aqi": 42,
+    "category": "Good",
+    "measured_at": "2024-04-06T14:00:00Z"
+  },
+  "previewConfig": {
+    "title": "EPA",
+    "subtitle": "US Environmental Protection Agency air quality data",
+    "displayFields": ["station_id", "parameter", "aqi", "category", "measured_at"]
+  }
+}

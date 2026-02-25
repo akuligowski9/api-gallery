@@ -1,0 +1,16 @@
+{
+  "id": "messengerx-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "session_id": "sess_7rKjMpD2nQ5x",
+    "bot_name": "SupportBot",
+    "user_message": "How do I reset my password?",
+    "bot_reply": "You can reset your password by clicking 'Forgot Password' on the login page.",
+    "confidence_score": 0.94
+  },
+  "previewConfig": {
+    "title": "MessengerX.io",
+    "subtitle": "Machine Learning",
+    "displayFields": ["session_id", "bot_name", "user_message", "bot_reply", "confidence_score"]
+  }
+}

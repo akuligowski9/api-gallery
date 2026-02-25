@@ -1,0 +1,16 @@
+{
+  "id": "kickbox",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "jane.doe@example.com",
+    "result": "deliverable",
+    "reason": "accepted_email",
+    "disposable": false,
+    "sendex": 0.97
+  },
+  "previewConfig": {
+    "title": "Kickbox",
+    "subtitle": "Email Verification Result",
+    "displayFields": ["email", "result", "reason", "disposable", "sendex"]
+  }
+}

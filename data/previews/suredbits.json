@@ -1,0 +1,16 @@
+{
+  "id": "suredbits",
+  "previewType": "card",
+  "sampleResponse": {
+    "player": "Patrick Mahomes",
+    "team": "Kansas City Chiefs",
+    "position": "QB",
+    "passing_yards": 5250,
+    "touchdowns": 41
+  },
+  "previewConfig": {
+    "title": "Patrick Mahomes",
+    "subtitle": "Kansas City Chiefs — QB",
+    "displayFields": ["player", "team", "position", "passing_yards", "touchdowns"]
+  }
+}

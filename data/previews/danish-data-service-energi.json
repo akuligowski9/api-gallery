@@ -1,0 +1,16 @@
+{
+  "id": "danish-data-service-energi",
+  "previewType": "card",
+  "sampleResponse": {
+    "timestamp": "2025-10-14T12:00:00Z",
+    "priceAreaCode": "DK1",
+    "spotPriceEUR": 82.45,
+    "co2EmissionGramsPerKwh": 118,
+    "renewableSharePercent": 71.3
+  },
+  "previewConfig": {
+    "title": "Danish Energy Data Service",
+    "subtitle": "Real-time Danish Electricity Market",
+    "displayFields": ["timestamp", "priceAreaCode", "spotPriceEUR", "co2EmissionGramsPerKwh", "renewableSharePercent"]
+  }
+}

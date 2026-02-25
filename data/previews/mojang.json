@@ -1,0 +1,16 @@
+{
+  "id": "mojang",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "853c80ef3c3749fdaa49938b674adae6",
+    "name": "Notch",
+    "createdAt": "2009-06-01",
+    "legacy": false,
+    "demo": false
+  },
+  "previewConfig": {
+    "title": "Notch",
+    "subtitle": "853c80ef3c3749fdaa49938b674adae6",
+    "displayFields": ["id", "name", "createdAt", "legacy", "demo"]
+  }
+}

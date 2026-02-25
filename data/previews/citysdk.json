@@ -1,0 +1,16 @@
+{
+  "id": "citysdk",
+  "previewType": "card",
+  "sampleResponse": {
+    "geoid": "0644000",
+    "name": "Los Angeles city, California",
+    "population": 3898747,
+    "area_sq_miles": 468.67,
+    "state_fips": "06"
+  },
+  "previewConfig": {
+    "title": "CitySDK",
+    "subtitle": "US Census geographic and demographic area data",
+    "displayFields": ["geoid", "name", "population", "area_sq_miles", "state_fips"]
+  }
+}

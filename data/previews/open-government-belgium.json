@@ -1,0 +1,20 @@
+{
+  "id": "open-government-belgium",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Population by Municipality 2024", "organization": "Statbel", "format": "CSV", "updated": "2024-11-15", "license": "CC BY 4.0" },
+      { "title": "Belgian Road Network", "organization": "NGI Belgium", "format": "GeoJSON", "updated": "2024-09-03", "license": "CC BY 4.0" },
+      { "title": "Air Quality Monitoring Stations", "organization": "IRCEL-CELINE", "format": "JSON", "updated": "2024-12-01", "license": "Open Data" },
+      { "title": "Federal Budget Expenditures 2023", "organization": "FPS Finance", "format": "XLSX", "updated": "2024-03-22", "license": "CC0" },
+      { "title": "Public Transport Stops Flanders", "organization": "De Lijn", "format": "GTFS", "updated": "2024-10-18", "license": "CC BY 4.0" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Belgium",
+    "subtitle": "Belgian open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

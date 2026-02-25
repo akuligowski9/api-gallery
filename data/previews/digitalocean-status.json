@@ -1,0 +1,16 @@
+{
+  "id": "digitalocean-status",
+  "previewType": "card",
+  "sampleResponse": {
+    "service": "Droplets",
+    "status": "Operational",
+    "region": "nyc3",
+    "last_updated": "2026-02-25T10:42:00Z",
+    "incident_count": 0
+  },
+  "previewConfig": {
+    "title": "DigitalOcean Status",
+    "subtitle": "Real-time DigitalOcean infrastructure service status",
+    "displayFields": ["service", "status", "region", "last_updated", "incident_count"]
+  }
+}

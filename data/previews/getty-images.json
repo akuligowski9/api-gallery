@@ -1,0 +1,20 @@
+{
+  "id": "getty-images",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "asset_id": "GI-1482039471", "title": "Aerial View of Manhattan Skyline at Dusk", "photographer": "FilippoBacci", "collection": "E+ Premium", "license_type": "Royalty-Free" },
+      { "asset_id": "GI-1395820164", "title": "Close-Up of Coffee Brewing in Pour-Over", "photographer": "RomeoLuciani", "collection": "Moment", "license_type": "Royalty-Free" },
+      { "asset_id": "GI-1501234789", "title": "Team Collaborating Around Conference Table", "photographer": "SDI Productions", "collection": "E+ Premium", "license_type": "Royalty-Free" },
+      { "asset_id": "GI-1367845023", "title": "Golden Wheat Field at Sunrise", "photographer": "MirageC", "collection": "Moment", "license_type": "Royalty-Free" },
+      { "asset_id": "GI-1423907651", "title": "Abstract Neon Light Trails in Motion", "photographer": "AerialPerspective Works", "collection": "Stone", "license_type": "Royalty-Free" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Getty Images",
+    "subtitle": "Stock Photo Search Results",
+    "itemKey": "title",
+    "secondaryKey": "photographer",
+    "badgeKey": "collection"
+  }
+}

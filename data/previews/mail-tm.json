@@ -1,0 +1,16 @@
+{
+  "id": "mail-tm",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "tempuser8472@mail.tm",
+    "from": "noreply@service.example.com",
+    "subject": "Confirm your email address",
+    "received_at": "2025-11-03T14:22:08Z",
+    "read": false
+  },
+  "previewConfig": {
+    "title": "mail.tm",
+    "subtitle": "Temporary inbox message",
+    "displayFields": ["address", "from", "subject", "received_at", "read"]
+  }
+}

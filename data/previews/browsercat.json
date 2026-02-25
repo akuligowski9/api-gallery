@@ -1,0 +1,16 @@
+{
+  "id": "browsercat",
+  "previewType": "card",
+  "sampleResponse": {
+    "sessionId": "sess_7f3a2b1c9d4e",
+    "status": "completed",
+    "durationMs": 1842,
+    "screenshotUrl": "https://cdn.browsercat.com/screenshots/sess_7f3a2b1c9d4e.png",
+    "pageTitle": "Example Domain"
+  },
+  "previewConfig": {
+    "title": "BrowserCat",
+    "subtitle": "Browser Automation Result",
+    "displayFields": ["sessionId", "status", "durationMs", "screenshotUrl", "pageTitle"]
+  }
+}

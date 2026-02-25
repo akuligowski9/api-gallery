@@ -1,0 +1,20 @@
+{
+  "id": "filterlists",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": 1, "name": "EasyList", "description": "The primary filter list that removes most adverts from international webpages.", "maintainer": "EasyList Team", "licenseId": 4 },
+      { "id": 2, "name": "EasyPrivacy", "description": "EasyPrivacy is an optional supplementary filter list that removes all forms of tracking.", "maintainer": "EasyList Team", "licenseId": 4 },
+      { "id": 11, "name": "Malware Domains", "description": "Blocks domains known to be used to distribute malware.", "maintainer": "RiskAnalytics", "licenseId": 2 },
+      { "id": 24, "name": "uBlock filters", "description": "Filters specific to uBlock Origin, maintained by Raymond Hill.", "maintainer": "Raymond Hill", "licenseId": 3 },
+      { "id": 89, "name": "AdGuard Base Filter", "description": "The most comprehensive filter for blocking ads and trackers across all websites.", "maintainer": "AdGuard Team", "licenseId": 5 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Ad & Malware Filter Lists",
+    "subtitle": "FilterLists API",
+    "itemKey": "name",
+    "secondaryKey": "description",
+    "badgeKey": "maintainer"
+  }
+}

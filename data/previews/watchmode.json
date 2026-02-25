@@ -1,0 +1,20 @@
+{
+  "id": "watchmode",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Oppenheimer", "service": "Peacock", "type": "Movie", "region": "US", "link": "https://www.peacocktv.com/watch/asset/movies/oppenheimer/9000474050" },
+      { "title": "Barbie", "service": "Max", "type": "Movie", "region": "US", "link": "https://www.max.com/movies/barbie/1234567890" },
+      { "title": "The Bear", "service": "Hulu", "type": "Series", "region": "US", "link": "https://www.hulu.com/series/the-bear/abcdef" },
+      { "title": "Succession", "service": "Max", "type": "Series", "region": "US", "link": "https://www.max.com/shows/succession/0987654321" },
+      { "title": "Past Lives", "service": "Paramount+", "type": "Movie", "region": "US", "link": "https://www.paramountplus.com/movies/past-lives/abc123" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Streaming Availability",
+    "subtitle": "Where to watch in the US",
+    "itemKey": "title",
+    "secondaryKey": "service",
+    "badgeKey": "type"
+  }
+}

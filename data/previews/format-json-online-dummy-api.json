@@ -1,0 +1,16 @@
+{
+  "id": "format-json-online-dummy-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": 42,
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "role": "editor",
+    "active": true
+  },
+  "previewConfig": {
+    "title": "Dummy API User Record",
+    "subtitle": "Sample user object from dummy API",
+    "displayFields": ["id", "name", "email", "role", "active"]
+  }
+}

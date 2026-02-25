@@ -1,0 +1,20 @@
+{
+  "id": "ffxiv-collect",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Magitek Armor", "secondary": "Mount", "badge": 8, "patch": "2.0", "owned_by_percent": "34.2%" },
+      { "title": "Wind-up Moogle", "secondary": "Minion", "badge": 3, "patch": "2.1", "owned_by_percent": "61.8%" },
+      { "title": "Ixion Horn", "secondary": "Mount", "badge": 10, "patch": "4.1", "owned_by_percent": "12.5%" },
+      { "title": "Anemos Hempen Camise", "secondary": "Achievement", "badge": 5, "patch": "4.25", "owned_by_percent": "7.9%" },
+      { "title": "Shadowbringers Orchestrion Roll", "secondary": "Orchestrion", "badge": 2, "patch": "5.0", "owned_by_percent": "21.4%" }
+    ]
+  },
+  "previewConfig": {
+    "title": "FFXIV Collect",
+    "subtitle": "Games & Comics — Final Fantasy XIV Collectibles",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "tankerkoenig",
+  "previewType": "card",
+  "sampleResponse": {
+    "station_id": "51d4b55e-a095-1aa0-e100-80009459e03a",
+    "name": "Aral Tankstelle Berlin Mitte",
+    "e5_price": 1.789,
+    "diesel_price": 1.659,
+    "distance_km": 0.8
+  },
+  "previewConfig": {
+    "title": "Tankerkoenig",
+    "subtitle": "German Gas Station Prices",
+    "displayFields": ["station_id", "name", "e5_price", "diesel_price", "distance_km"]
+  }
+}

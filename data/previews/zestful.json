@@ -1,0 +1,16 @@
+{
+  "id": "zestful",
+  "previewType": "card",
+  "sampleResponse": {
+    "ingredientRaw": "2 cups all-purpose flour, sifted",
+    "product": "all-purpose flour",
+    "quantity": 2,
+    "unit": "cup",
+    "preparation": "sifted"
+  },
+  "previewConfig": {
+    "title": "Zestful",
+    "subtitle": "Ingredient Parsing",
+    "displayFields": ["ingredientRaw", "product", "quantity", "unit", "preparation"]
+  }
+}

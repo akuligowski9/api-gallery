@@ -1,0 +1,16 @@
+{
+  "id": "perspective",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_text": "This is a great discussion, keep it up!",
+    "toxicity_score": 0.03,
+    "insult_score": 0.02,
+    "threat_score": 0.01,
+    "identity_attack_score": 0.01
+  },
+  "previewConfig": {
+    "title": "Perspective",
+    "subtitle": "Toxicity Analysis",
+    "displayFields": ["input_text", "toxicity_score", "insult_score", "threat_score", "identity_attack_score"]
+  }
+}

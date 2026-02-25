@@ -1,0 +1,16 @@
+{
+  "id": "tle",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "ISS (ZARYA)",
+    "satellite_id": 25544,
+    "inclination": 51.6426,
+    "period_minutes": 92.68,
+    "epoch": "2024-12-01T00:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Satellite TLE",
+    "subtitle": "TLE",
+    "displayFields": ["name", "satellite_id", "inclination", "period_minutes", "epoch"]
+  }
+}

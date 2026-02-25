@@ -1,0 +1,16 @@
+{
+  "id": "finfeedapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "headline": "Fed Signals Rate Hold Amid Steady Inflation Data",
+    "source": "Reuters",
+    "published_at": "2025-08-12T14:30:00Z",
+    "ticker": "SPY",
+    "sentiment_score": 0.62
+  },
+  "previewConfig": {
+    "title": "headline",
+    "subtitle": "source",
+    "displayFields": ["headline", "source", "published_at", "ticker", "sentiment_score"]
+  }
+}

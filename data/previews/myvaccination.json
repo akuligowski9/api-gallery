@@ -1,0 +1,16 @@
+{
+  "id": "myvaccination",
+  "previewType": "card",
+  "sampleResponse": {
+    "vaccine_name": "Influenza (Flu)",
+    "dose_number": 1,
+    "date_administered": "2025-10-14",
+    "administered_by": "City Health Clinic",
+    "next_due_date": "2026-10-01"
+  },
+  "previewConfig": {
+    "title": "MyVaccination",
+    "subtitle": "Personal vaccination records and immunization history",
+    "displayFields": ["vaccine_name", "dose_number", "date_administered", "administered_by", "next_due_date"]
+  }
+}

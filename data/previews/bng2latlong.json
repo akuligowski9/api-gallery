@@ -1,0 +1,16 @@
+{
+  "id": "bng2latlong",
+  "previewType": "card",
+  "sampleResponse": {
+    "easting": 530000,
+    "northing": 180000,
+    "latitude": 51.50736,
+    "longitude": -0.12799,
+    "grid_ref": "TQ300800"
+  },
+  "previewConfig": {
+    "title": "grid_ref",
+    "subtitle": "latitude",
+    "displayFields": ["easting", "northing", "latitude", "longitude", "grid_ref"]
+  }
+}

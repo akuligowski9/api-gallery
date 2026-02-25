@@ -1,0 +1,16 @@
+{
+  "id": "remove-background-from-images-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "jobId": "bg_remove_7f3c9a12",
+    "status": "completed",
+    "outputUrl": "https://cdn.example.com/results/bg_remove_7f3c9a12.png",
+    "processingTimeMs": 842,
+    "foregroundType": "person"
+  },
+  "previewConfig": {
+    "title": "Background Removal Result",
+    "subtitle": "Processed image with background removed",
+    "displayFields": ["jobId", "status", "outputUrl", "processingTimeMs", "foregroundType"]
+  }
+}

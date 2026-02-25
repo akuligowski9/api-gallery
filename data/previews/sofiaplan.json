@@ -1,0 +1,16 @@
+{
+  "id": "sofiaplan",
+  "previewType": "card",
+  "sampleResponse": {
+    "parcel_id": "68134.4082.1256",
+    "district": "Lozenets",
+    "zone": "Zoning Zone Zh",
+    "area_sqm": 842.5,
+    "allowed_height_m": 15
+  },
+  "previewConfig": {
+    "title": "Parcel 68134.4082.1256",
+    "subtitle": "Lozenets — Zoning Zone Zh",
+    "displayFields": ["parcel_id", "district", "zone", "area_sqm", "allowed_height_m"]
+  }
+}

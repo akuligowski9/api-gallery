@@ -1,0 +1,16 @@
+{
+  "id": "multilingual-ai-zodiac",
+  "previewType": "card",
+  "sampleResponse": {
+    "sign": "Scorpio",
+    "date_range": "Oct 23 - Nov 21",
+    "language": "en",
+    "reading": "A hidden opportunity reveals itself — trust your instincts and act swiftly.",
+    "lucky_number": 7
+  },
+  "previewConfig": {
+    "title": "Multilingual AI Zodiac",
+    "subtitle": "Daily horoscope reading",
+    "displayFields": ["sign", "date_range", "language", "reading", "lucky_number"]
+  }
+}

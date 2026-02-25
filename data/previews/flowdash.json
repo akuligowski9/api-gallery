@@ -1,0 +1,16 @@
+{
+  "id": "flowdash",
+  "previewType": "card",
+  "sampleResponse": {
+    "workflowId": "wf_7d3e92ab",
+    "name": "Customer Onboarding",
+    "currentStep": "KYC Verification",
+    "status": "in_progress",
+    "assignee": "sarah.jones@acme.com"
+  },
+  "previewConfig": {
+    "title": "Workflow Status",
+    "subtitle": "Flowdash task and workflow tracking details",
+    "displayFields": ["workflowId", "name", "currentStep", "status", "assignee"]
+  }
+}

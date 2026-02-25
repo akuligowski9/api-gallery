@@ -1,0 +1,16 @@
+{
+  "id": "fed-treasury",
+  "previewType": "card",
+  "sampleResponse": {
+    "cusip": "912828YV6",
+    "security_type": "Treasury Note",
+    "coupon_rate": 4.375,
+    "maturity_date": "2028-08-15",
+    "yield_percent": 4.21
+  },
+  "previewConfig": {
+    "title": "Fed Treasury",
+    "subtitle": "Treasury Security Details",
+    "displayFields": ["cusip", "security_type", "coupon_rate", "maturity_date", "yield_percent"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-data-nhs-scotland",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_title": "Accident and Emergency Activity", "category": "Hospital Care", "last_updated": "2024-03-31", "format": "CSV", "license": "OGL" },
+      { "dataset_title": "Births in Scottish Hospitals", "category": "Maternity", "last_updated": "2024-02-28", "format": "CSV", "license": "OGL" },
+      { "dataset_title": "Cancer Incidence in Scotland", "category": "Cancer", "last_updated": "2024-01-15", "format": "CSV", "license": "OGL" },
+      { "dataset_title": "Delayed Discharges in NHSScotland", "category": "Social Care", "last_updated": "2024-03-20", "format": "CSV", "license": "OGL" },
+      { "dataset_title": "GP Practice Populations", "category": "Primary Care", "last_updated": "2024-03-01", "format": "CSV", "license": "OGL" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Data NHS Scotland",
+    "subtitle": "Health and social care open datasets from NHS Scotland",
+    "itemKey": "dataset_title",
+    "secondaryKey": "category",
+    "badgeKey": "format"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "photoroom",
+  "previewType": "card",
+  "sampleResponse": {
+    "resultUrl": "https://cdn.photoroom.com/output/abc123_bg_removed.png",
+    "originalFilename": "product_shot.jpg",
+    "processingTimeMs": 842,
+    "backgroundRemoved": true,
+    "outputFormat": "PNG"
+  },
+  "previewConfig": {
+    "title": "originalFilename",
+    "subtitle": "outputFormat",
+    "displayFields": ["originalFilename", "resultUrl", "processingTimeMs", "backgroundRemoved", "outputFormat"]
+  }
+}

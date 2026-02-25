@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-india",
+  "previewType": "card",
+  "sampleResponse": {
+    "state": "Maharashtra",
+    "confirmed": 8421027,
+    "recovered": 8309841,
+    "deceased": 148301,
+    "lastUpdated": "2023-05-05T18:30:00Z"
+  },
+  "previewConfig": {
+    "title": "Covid-19 India Tracker",
+    "subtitle": "State-level Pandemic Statistics",
+    "displayFields": ["state", "confirmed", "recovered", "deceased", "lastUpdated"]
+  }
+}

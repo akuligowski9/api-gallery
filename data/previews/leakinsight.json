@@ -1,0 +1,16 @@
+{
+  "id": "leakinsight",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "user@example.com",
+    "breach_count": 3,
+    "latest_breach": "2023-11-08",
+    "exposed_data": "email, password hash, phone",
+    "risk_level": "high"
+  },
+  "previewConfig": {
+    "title": "LeakInsight",
+    "subtitle": "Data Leak Check",
+    "displayFields": ["email", "breach_count", "latest_breach", "exposed_data", "risk_level"]
+  }
+}

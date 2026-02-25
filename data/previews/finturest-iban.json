@@ -1,0 +1,16 @@
+{
+  "id": "finturest-iban",
+  "previewType": "card",
+  "sampleResponse": {
+    "iban": "DE89370400440532013000",
+    "valid": true,
+    "bank_name": "Commerzbank",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "previewConfig": {
+    "title": "IBAN Validation",
+    "subtitle": "Finturest IBAN",
+    "displayFields": ["iban", "valid", "bank_name", "country", "country_code"]
+  }
+}

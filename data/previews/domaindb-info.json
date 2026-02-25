@@ -1,0 +1,16 @@
+{
+  "id": "domaindb-info",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "stripe.com",
+    "registrar": "MarkMonitor Inc.",
+    "registered": "2009-08-12",
+    "expires": "2026-08-12",
+    "nameservers": "ns1.markmonitor.com, ns2.markmonitor.com"
+  },
+  "previewConfig": {
+    "title": "Domain Information",
+    "subtitle": "WHOIS and registration details for the queried domain",
+    "displayFields": ["domain", "registrar", "registered", "expires", "nameservers"]
+  }
+}

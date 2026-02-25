@@ -1,0 +1,50 @@
+{
+  "id": "hashnode",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Building a REST API with Node.js and Express in 2024",
+        "author": "Priya Sharma",
+        "year": 2024,
+        "citations": 1420,
+        "journal": "Web Development"
+      },
+      {
+        "title": "Understanding Rust Ownership in 10 Minutes",
+        "author": "Marcus Liu",
+        "year": 2023,
+        "citations": 3870,
+        "journal": "Systems Programming"
+      },
+      {
+        "title": "From Zero to Deployed: Next.js App Router Guide",
+        "author": "Anika Osei",
+        "year": 2024,
+        "citations": 2650,
+        "journal": "Frontend"
+      },
+      {
+        "title": "PostgreSQL vs MongoDB: Which Should You Pick?",
+        "author": "Carlos Romero",
+        "year": 2023,
+        "citations": 1890,
+        "journal": "Databases"
+      },
+      {
+        "title": "How I Built a SaaS in 30 Days as a Solo Dev",
+        "author": "Yuki Tanaka",
+        "year": 2024,
+        "citations": 5210,
+        "journal": "Indie Hacking"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Hashnode",
+    "subtitle": "Developer Blogging Platform",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "citations"
+  }
+}

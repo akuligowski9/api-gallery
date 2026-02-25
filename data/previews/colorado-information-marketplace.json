@@ -1,0 +1,20 @@
+{
+  "id": "colorado-information-marketplace",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "tdvh-rdnd", "name": "Colorado River Streamflow Data", "category": "Environment", "updated": "2024-11-15", "rows": 18432 },
+      { "id": "q5vp-adf3", "name": "Colorado School Finance Data", "category": "Education", "updated": "2024-10-22", "rows": 5210 },
+      { "id": "gkzd-efui", "name": "CDOT Traffic Counts", "category": "Transportation", "updated": "2024-12-01", "rows": 74100 },
+      { "id": "4ym6-n326", "name": "Colorado Voter Registration", "category": "Government", "updated": "2024-11-05", "rows": 4200000 },
+      { "id": "rs7x-kjom", "name": "Medicaid Enrollment by County", "category": "Health", "updated": "2024-09-30", "rows": 6480 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Colorado Datasets",
+    "subtitle": "Colorado Information Marketplace",
+    "itemKey": "name",
+    "secondaryKey": "category",
+    "badgeKey": "updated"
+  }
+}

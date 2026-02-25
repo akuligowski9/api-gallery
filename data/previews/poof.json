@@ -1,0 +1,16 @@
+{
+  "id": "poof",
+  "previewType": "card",
+  "sampleResponse": {
+    "image_id": "pf_7x9qk2m",
+    "url": "https://poof.io/i/pf_7x9qk2m.jpg",
+    "width": 1920,
+    "height": 1080,
+    "size_bytes": 834521
+  },
+  "previewConfig": {
+    "title": "Hosted Image",
+    "subtitle": "Poof",
+    "displayFields": ["image_id", "url", "width", "height", "size_bytes"]
+  }
+}

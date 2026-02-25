@@ -1,0 +1,16 @@
+{
+  "id": "cloudmersive-document-and-data-conversion",
+  "previewType": "card",
+  "sampleResponse": {
+    "success": true,
+    "outputFormat": "PDF",
+    "inputFormat": "DOCX",
+    "fileSizeBytes": 204832,
+    "downloadUrl": "https://api.cloudmersive.com/output/converted-doc-a3f91b.pdf"
+  },
+  "previewConfig": {
+    "title": "Cloudmersive Document Conversion",
+    "subtitle": "Documents & Productivity",
+    "displayFields": ["success", "inputFormat", "outputFormat", "fileSizeBytes", "downloadUrl"]
+  }
+}

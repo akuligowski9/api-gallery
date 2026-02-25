@@ -1,0 +1,16 @@
+{
+  "id": "oikolab",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Berlin, Germany",
+    "date": "2024-07-15",
+    "temperature_c": 28.4,
+    "precipitation_mm": 0.0,
+    "wind_speed_kmh": 14.2
+  },
+  "previewConfig": {
+    "title": "Oikolab",
+    "subtitle": "Historical and forecast climate data from reanalysis models",
+    "displayFields": ["location", "date", "temperature_c", "precipitation_mm", "wind_speed_kmh"]
+  }
+}

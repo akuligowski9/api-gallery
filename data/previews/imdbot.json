@@ -1,0 +1,16 @@
+{
+  "id": "imdbot",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Inception",
+    "year": 2010,
+    "rating": 8.8,
+    "genre": "Sci-Fi, Action, Thriller",
+    "director": "Christopher Nolan"
+  },
+  "previewConfig": {
+    "title": "IMDbOT",
+    "subtitle": "Movie information lookup",
+    "displayFields": ["title", "year", "rating", "genre", "director"]
+  }
+}

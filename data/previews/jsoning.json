@@ -1,0 +1,16 @@
+{
+  "id": "jsoning",
+  "previewType": "card",
+  "sampleResponse": {
+    "user_id": "usr_8f3a92c1",
+    "full_name": "Jordan Ellison",
+    "email": "jordan.ellison@example.com",
+    "country": "United States",
+    "created_at": "2023-07-22T10:45:00Z"
+  },
+  "previewConfig": {
+    "title": "JSONing",
+    "subtitle": "Fake & Test Data Generator API",
+    "displayFields": ["user_id", "full_name", "email", "country", "created_at"]
+  }
+}

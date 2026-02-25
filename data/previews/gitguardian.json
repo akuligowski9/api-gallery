@@ -1,0 +1,16 @@
+{
+  "id": "gitguardian",
+  "previewType": "card",
+  "sampleResponse": {
+    "incidentId": "inc_4829abc1",
+    "secretType": "AWS Access Key",
+    "severity": "critical",
+    "repository": "acme-corp/backend-api",
+    "detectedAt": "2025-11-14T09:22:31Z"
+  },
+  "previewConfig": {
+    "title": "Secret Detection Incident",
+    "subtitle": "GitGuardian flagged a hardcoded secret in your repository",
+    "displayFields": ["incidentId", "secretType", "severity", "repository", "detectedAt"]
+  }
+}

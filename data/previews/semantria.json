@@ -1,0 +1,16 @@
+{
+  "id": "semantria",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "The new product launch exceeded all expectations this quarter.",
+    "sentiment": "positive",
+    "sentiment_score": 0.87,
+    "language": "English",
+    "entities_detected": 2
+  },
+  "previewConfig": {
+    "title": "Semantria Text Analysis",
+    "subtitle": "Sentiment and entity extraction result",
+    "displayFields": ["text", "sentiment", "sentiment_score", "language", "entities_detected"]
+  }
+}

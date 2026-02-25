@@ -1,0 +1,16 @@
+{
+  "id": "gif-from-video-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "gif_url": "https://output.gifvideo.io/renders/conv_9g4k2.gif",
+    "source_video": "https://example.com/clips/sunset_timelapse.mp4",
+    "duration_seconds": 5,
+    "frame_rate": 15,
+    "file_size_kb": 2048
+  },
+  "previewConfig": {
+    "title": "GIF Conversion Result",
+    "subtitle": "GIF from Video API",
+    "displayFields": ["gif_url", "source_video", "duration_seconds", "frame_rate", "file_size_kb"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "real-time-finance",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "AAPL",
+    "price": 227.84,
+    "change_percent": "+1.42%",
+    "market_cap": "3.49T",
+    "volume": 58312400
+  },
+  "previewConfig": {
+    "title": "ticker",
+    "subtitle": "market_cap",
+    "displayFields": ["ticker", "price", "change_percent", "market_cap", "volume"]
+  }
+}

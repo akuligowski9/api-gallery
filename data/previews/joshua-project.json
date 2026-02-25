@@ -1,0 +1,16 @@
+{
+  "id": "joshua-project",
+  "previewType": "card",
+  "sampleResponse": {
+    "people_group": "Avar",
+    "country": "Russia",
+    "population": 912090,
+    "primary_religion": "Islam",
+    "language": "Avar"
+  },
+  "previewConfig": {
+    "title": "People Group",
+    "subtitle": "Joshua Project",
+    "displayFields": ["people_group", "country", "population", "primary_religion", "language"]
+  }
+}

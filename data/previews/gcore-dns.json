@@ -1,0 +1,16 @@
+{
+  "id": "gcore-dns",
+  "previewType": "card",
+  "sampleResponse": {
+    "record_id": "rec_5Hn2kTpQvW8xR3mJ",
+    "zone": "example.com",
+    "name": "api.example.com",
+    "type": "A",
+    "value": "93.184.216.34"
+  },
+  "previewConfig": {
+    "title": "api.example.com",
+    "subtitle": "A",
+    "displayFields": ["record_id", "zone", "name", "type", "value"]
+  }
+}

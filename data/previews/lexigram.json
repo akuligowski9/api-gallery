@@ -1,0 +1,16 @@
+{
+  "id": "lexigram",
+  "previewType": "card",
+  "sampleResponse": {
+    "concept_id": "C0020538",
+    "term": "Hypertension",
+    "category": "Disease or Syndrome",
+    "icd10_code": "I10",
+    "definition": "Persistently high arterial blood pressure"
+  },
+  "previewConfig": {
+    "title": "term",
+    "subtitle": "category",
+    "displayFields": ["concept_id", "term", "category", "icd10_code", "definition"]
+  }
+}

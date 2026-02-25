@@ -1,0 +1,16 @@
+{
+  "id": "mailboxvalidator",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "user@example.com",
+    "status": "valid",
+    "is_disposable": false,
+    "is_free": true,
+    "smtp_check": "ok"
+  },
+  "previewConfig": {
+    "title": "email",
+    "subtitle": "status",
+    "displayFields": ["email", "status", "is_disposable", "is_free", "smtp_check"]
+  }
+}

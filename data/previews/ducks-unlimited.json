@@ -1,0 +1,16 @@
+{
+  "id": "ducks-unlimited",
+  "previewType": "card",
+  "sampleResponse": {
+    "wetland_name": "Prairie Pothole Region",
+    "state": "North Dakota",
+    "acres_conserved": 142500,
+    "habitat_type": "Freshwater Emergent",
+    "conservation_status": "Protected"
+  },
+  "previewConfig": {
+    "title": "Ducks Unlimited",
+    "subtitle": "Geocoding",
+    "displayFields": ["wetland_name", "state", "acres_conserved", "habitat_type", "conservation_status"]
+  }
+}

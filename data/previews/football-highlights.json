@@ -1,0 +1,20 @@
+{
+  "id": "football-highlights",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Manchester City vs Arsenal", "secondary": "Premier League - GW18", "badge": 4, "competition": "Premier League", "date": "2024-12-01" },
+      { "title": "Real Madrid vs Barcelona", "secondary": "La Liga - El Clasico", "badge": 5, "competition": "La Liga", "date": "2024-11-28" },
+      { "title": "Bayern Munich vs Dortmund", "secondary": "Bundesliga - Der Klassiker", "badge": 3, "competition": "Bundesliga", "date": "2024-11-23" },
+      { "title": "PSG vs Marseille", "secondary": "Ligue 1 - Le Classique", "badge": 2, "competition": "Ligue 1", "date": "2024-11-17" },
+      { "title": "Inter Milan vs AC Milan", "secondary": "Serie A - Derby della Madonnina", "badge": 3, "competition": "Serie A", "date": "2024-11-10" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Football Highlights",
+    "subtitle": "Football Highlights API",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

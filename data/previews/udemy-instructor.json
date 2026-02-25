@@ -1,0 +1,16 @@
+{
+  "id": "udemy-instructor",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Angela Yu",
+    "title": "Developer and Lead Instructor",
+    "numSubscribers": 1843200,
+    "numCourses": 7,
+    "avgRating": 4.8
+  },
+  "previewConfig": {
+    "title": "Angela Yu",
+    "subtitle": "Udemy Instructor Profile",
+    "displayFields": ["name", "title", "numSubscribers", "numCourses", "avgRating"]
+  }
+}

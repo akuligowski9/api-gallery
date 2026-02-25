@@ -1,0 +1,16 @@
+{
+  "id": "gcore-streaming",
+  "previewType": "card",
+  "sampleResponse": {
+    "stream_id": "stm_4c8b1d29a",
+    "title": "Live Developer Conference 2024",
+    "status": "live",
+    "viewers": 3842,
+    "bitrate_kbps": 4500
+  },
+  "previewConfig": {
+    "title": "Gcore Streaming",
+    "subtitle": "Live Video Streaming & Delivery",
+    "displayFields": ["stream_id", "title", "status", "viewers", "bitrate_kbps"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "scoutapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "upc": "012345678905",
+    "product_name": "Sony WH-1000XM5 Wireless Headphones",
+    "brand": "Sony",
+    "price": 349.99,
+    "in_stock": true
+  },
+  "previewConfig": {
+    "title": "Product Search",
+    "subtitle": "ScoutAPI",
+    "displayFields": ["upc", "product_name", "brand", "price", "in_stock"]
+  }
+}

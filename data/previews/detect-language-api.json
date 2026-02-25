@@ -1,0 +1,16 @@
+{
+  "id": "detect-language-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "language": "French",
+    "code": "fr",
+    "confidence": 0.9987,
+    "reliable": true,
+    "input_length": 142
+  },
+  "previewConfig": {
+    "title": "Detect Language API",
+    "subtitle": "Language detection result",
+    "displayFields": ["language", "code", "confidence", "reliable", "input_length"]
+  }
+}

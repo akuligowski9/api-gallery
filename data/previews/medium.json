@@ -1,0 +1,16 @@
+{
+  "id": "medium",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "The Future of AI in Everyday Life",
+    "author": "Jane Pemberton",
+    "publication": "Towards Data Science",
+    "clap_count": 3847,
+    "reading_time_minutes": 8
+  },
+  "previewConfig": {
+    "title": "Medium",
+    "subtitle": "Article & Publication Info",
+    "displayFields": ["title", "author", "publication", "clap_count", "reading_time_minutes"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "bigdatacloud-s-free-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "city": "Mountain View",
+    "countryName": "United States",
+    "principalSubdivision": "California",
+    "isp": "Google LLC"
+  },
+  "previewConfig": {
+    "title": "8.8.8.8",
+    "subtitle": "BigDataCloud — IP Geolocation Lookup",
+    "displayFields": ["ip", "city", "countryName", "principalSubdivision", "isp"]
+  }
+}

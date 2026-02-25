@@ -1,0 +1,16 @@
+{
+  "id": "resend",
+  "previewType": "card",
+  "sampleResponse": {
+    "email_id": "msg_4vBqYnRsT8Lw",
+    "to": "jane.doe@example.com",
+    "subject": "Your order has shipped",
+    "status": "delivered",
+    "sent_at": "2025-08-12T08:05:33Z"
+  },
+  "previewConfig": {
+    "title": "Resend",
+    "subtitle": "Email",
+    "displayFields": ["email_id", "to", "subject", "status", "sent_at"]
+  }
+}

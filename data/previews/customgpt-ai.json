@@ -1,0 +1,16 @@
+{
+  "id": "customgpt-ai",
+  "previewType": "card",
+  "sampleResponse": {
+    "project_id": "proj_a1b2c3d4",
+    "query": "What is your return policy?",
+    "response": "Our return policy allows returns within 30 days of purchase with original receipt.",
+    "sources_used": 3,
+    "response_time_ms": 412
+  },
+  "previewConfig": {
+    "title": "CustomGPT.ai",
+    "subtitle": "Custom AI chatbot response",
+    "displayFields": ["project_id", "query", "response", "sources_used", "response_time_ms"]
+  }
+}

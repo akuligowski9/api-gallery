@@ -1,0 +1,16 @@
+{
+  "id": "konkan-railway-live-train-position",
+  "previewType": "card",
+  "sampleResponse": {
+    "trainNumber": "10103",
+    "trainName": "Mandovi Express",
+    "currentStation": "Ratnagiri",
+    "delayMinutes": 8,
+    "nextStation": "Chiplun"
+  },
+  "previewConfig": {
+    "title": "trainName",
+    "subtitle": "currentStation",
+    "displayFields": ["trainNumber", "trainName", "currentStation", "delayMinutes", "nextStation"]
+  }
+}

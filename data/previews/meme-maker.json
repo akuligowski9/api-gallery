@@ -1,0 +1,16 @@
+{
+  "id": "meme-maker",
+  "previewType": "card",
+  "sampleResponse": {
+    "memeId": "meme_d3f891ac",
+    "templateName": "Drake Hotline Bling",
+    "imageUrl": "https://api.mememaker.io/output/meme_d3f891ac.jpg",
+    "width": 1200,
+    "height": 1200
+  },
+  "previewConfig": {
+    "title": "Meme Maker",
+    "subtitle": "Generated Meme",
+    "displayFields": ["memeId", "templateName", "imageUrl", "width", "height"]
+  }
+}

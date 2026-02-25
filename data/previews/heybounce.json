@@ -1,0 +1,16 @@
+{
+  "id": "heybounce",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "jane.doe@example.com",
+    "valid": true,
+    "disposable": false,
+    "mx_found": true,
+    "score": 98
+  },
+  "previewConfig": {
+    "title": "Heybounce",
+    "subtitle": "Email validation result",
+    "displayFields": ["email", "valid", "disposable", "mx_found", "score"]
+  }
+}

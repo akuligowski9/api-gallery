@@ -1,0 +1,16 @@
+{
+  "id": "resmush-it",
+  "previewType": "card",
+  "sampleResponse": {
+    "original_size_bytes": 2048000,
+    "compressed_size_bytes": 819200,
+    "compression_ratio": 60.0,
+    "output_url": "https://img.resmush.it/compressed/photo_001.jpg",
+    "status": "success"
+  },
+  "previewConfig": {
+    "title": "ReSmush.it",
+    "subtitle": "Free image optimization and compression API",
+    "displayFields": ["original_size_bytes", "compressed_size_bytes", "compression_ratio", "output_url", "status"]
+  }
+}

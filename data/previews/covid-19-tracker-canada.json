@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-tracker-canada",
+  "previewType": "card",
+  "sampleResponse": {
+    "province": "Ontario",
+    "date": "2026-02-25",
+    "total_cases": 1584203,
+    "total_vaccinated": 11204876,
+    "active_cases": 412
+  },
+  "previewConfig": {
+    "title": "COVID-19 Tracker Canada",
+    "subtitle": "Provincial COVID-19 Statistics",
+    "displayFields": ["province", "date", "total_cases", "total_vaccinated", "active_cases"]
+  }
+}

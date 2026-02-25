@@ -1,0 +1,16 @@
+{
+  "id": "dynapictures",
+  "previewType": "card",
+  "sampleResponse": {
+    "image_url": "https://cdn.dynapictures.com/render/abc123.png",
+    "template_id": "tpl_social_banner_01",
+    "width": 1200,
+    "height": 630,
+    "format": "png"
+  },
+  "previewConfig": {
+    "title": "DynaPictures",
+    "subtitle": "Dynamic Image Generation",
+    "displayFields": ["image_url", "template_id", "width", "height", "format"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "jobdata-api",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Software Engineer", "secondary": "Stripe", "badge": 185000, "location": "Remote", "postedDaysAgo": 1 },
+      { "title": "Product Manager", "secondary": "Airbnb", "badge": 155000, "location": "San Francisco, CA", "postedDaysAgo": 2 },
+      { "title": "Data Scientist", "secondary": "Netflix", "badge": 172000, "location": "Los Gatos, CA", "postedDaysAgo": 3 },
+      { "title": "DevOps Engineer", "secondary": "Cloudflare", "badge": 148000, "location": "Remote", "postedDaysAgo": 4 },
+      { "title": "UX Designer", "secondary": "Figma", "badge": 130000, "location": "New York, NY", "postedDaysAgo": 5 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Jobdata API",
+    "subtitle": "Job Listings",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

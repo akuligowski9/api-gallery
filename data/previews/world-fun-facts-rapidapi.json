@@ -1,0 +1,16 @@
+{
+  "id": "world-fun-facts-rapidapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "fact": "A group of flamingos is called a flamboyance.",
+    "category": "Animals",
+    "language": "en",
+    "source": "World Fun Facts",
+    "verified": true
+  },
+  "previewConfig": {
+    "title": "World Fun Facts",
+    "subtitle": "Entertainment",
+    "displayFields": ["fact", "category", "language", "source", "verified"]
+  }
+}

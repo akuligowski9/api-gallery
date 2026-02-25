@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-auckland-new-zealand",
+  "previewType": "card",
+  "sampleResponse": {
+    "trip_id": "50051-20241205130918_v109.42",
+    "route_short_name": "70",
+    "headsign": "Botany via Pakuranga",
+    "stop_name": "Britomart Train Station",
+    "departure_time": "08:42:00"
+  },
+  "previewConfig": {
+    "title": "Route 70 — Botany via Pakuranga",
+    "subtitle": "Departing Britomart at 08:42",
+    "displayFields": ["trip_id", "route_short_name", "headsign", "stop_name", "departure_time"]
+  }
+}

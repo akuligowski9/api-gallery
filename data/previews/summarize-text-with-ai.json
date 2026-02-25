@@ -1,0 +1,16 @@
+{
+  "id": "summarize-text-with-ai",
+  "previewType": "card",
+  "sampleResponse": {
+    "summary": "Researchers at MIT developed a new battery technology capable of charging a smartphone in under 60 seconds using solid-state electrolytes.",
+    "original_length": 1842,
+    "summary_length": 148,
+    "compression_ratio": 0.08,
+    "language": "en"
+  },
+  "previewConfig": {
+    "title": "Summarize Text with AI",
+    "subtitle": "AI-powered text summarization",
+    "displayFields": ["summary", "original_length", "summary_length", "compression_ratio", "language"]
+  }
+}

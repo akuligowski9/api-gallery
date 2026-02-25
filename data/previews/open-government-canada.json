@@ -1,0 +1,20 @@
+{
+  "id": "open-government-canada",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Canada Census 2021", "organization": "Statistics Canada", "format": "CSV", "license": "Open Government Licence – Canada", "updated": "2023-04-12" },
+      { "title": "Federal Budget Expenditures", "organization": "Treasury Board of Canada", "format": "JSON", "license": "Open Government Licence – Canada", "updated": "2024-01-08" },
+      { "title": "National Parks Visitor Data", "organization": "Parks Canada", "format": "CSV", "license": "Open Government Licence – Canada", "updated": "2023-11-20" },
+      { "title": "Immigration Statistics by Province", "organization": "IRCC", "format": "XLSX", "license": "Open Government Licence – Canada", "updated": "2024-02-01" },
+      { "title": "Weather Station Historical Records", "organization": "Environment Canada", "format": "CSV", "license": "Open Government Licence – Canada", "updated": "2024-02-15" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Canada",
+    "subtitle": "Canadian federal open datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

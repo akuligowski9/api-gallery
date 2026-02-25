@@ -1,0 +1,16 @@
+{
+  "id": "country",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 125700000,
+    "region": "Asia",
+    "currency": "JPY"
+  },
+  "previewConfig": {
+    "title": "Country",
+    "subtitle": "Country information and geocoding data",
+    "displayFields": ["name", "capital", "population", "region", "currency"]
+  }
+}

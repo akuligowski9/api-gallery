@@ -1,0 +1,16 @@
+{
+  "id": "odweather",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Gulf of Mexico – 25.1°N 90.3°W",
+    "waveHeightM": 1.8,
+    "windSpeedKts": 14,
+    "seaSurfaceTempC": 27.4,
+    "forecast": "Moderate swell, seas 1.5–2.5m"
+  },
+  "previewConfig": {
+    "title": "Marine Weather Conditions",
+    "subtitle": "ODWeather ocean and offshore weather data",
+    "displayFields": ["location", "waveHeightM", "windSpeedKts", "seaSurfaceTempC", "forecast"]
+  }
+}

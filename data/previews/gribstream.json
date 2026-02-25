@@ -1,0 +1,16 @@
+{
+  "id": "gribstream",
+  "previewType": "card",
+  "sampleResponse": {
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "temperature_c": 12.4,
+    "wind_speed_ms": 5.7,
+    "forecast_hour": 6
+  },
+  "previewConfig": {
+    "title": "Weather Grid Data",
+    "subtitle": "GribStream Weather API",
+    "displayFields": ["latitude", "longitude", "temperature_c", "wind_speed_ms", "forecast_hour"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pm2-5-open-data-portal",
+  "previewType": "card",
+  "sampleResponse": {
+    "stationName": "Chiang Mai City Hall",
+    "pm25": 38.4,
+    "aqi": 107,
+    "category": "Unhealthy for Sensitive Groups",
+    "timestamp": "2024-06-10T07:00:00+07:00"
+  },
+  "previewConfig": {
+    "title": "PM2.5 Open Data Portal",
+    "subtitle": "Air Quality PM2.5 Measurements",
+    "displayFields": ["stationName", "pm25", "aqi", "category", "timestamp"]
+  }
+}

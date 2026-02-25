@@ -1,0 +1,16 @@
+{
+  "id": "south-park-quotes",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote_id": 412,
+    "character": "Eric Cartman",
+    "quote": "Respect my authoritah!",
+    "season": 2,
+    "episode": "Chicken Pox"
+  },
+  "previewConfig": {
+    "title": "Eric Cartman",
+    "subtitle": "Season 2 - Chicken Pox",
+    "displayFields": ["quote_id", "character", "quote", "season", "episode"]
+  }
+}

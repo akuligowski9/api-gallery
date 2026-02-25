@@ -1,0 +1,16 @@
+{
+  "id": "met-office-datapoint",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "London, UK",
+    "temperature_c": 11,
+    "weather_type": "Light Rain",
+    "wind_speed_mph": 14,
+    "humidity_percent": 83
+  },
+  "previewConfig": {
+    "title": "Met Office DataPoint",
+    "subtitle": "UK weather observations and forecasts",
+    "displayFields": ["location", "temperature_c", "weather_type", "wind_speed_mph", "humidity_percent"]
+  }
+}

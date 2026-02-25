@@ -1,0 +1,16 @@
+{
+  "id": "times-adder",
+  "previewType": "card",
+  "sampleResponse": {
+    "input": "1h 45m + 2h 30m",
+    "resultFormatted": "4h 15m",
+    "totalMinutes": 255,
+    "totalSeconds": 15300,
+    "overflowsDays": false
+  },
+  "previewConfig": {
+    "title": "input",
+    "subtitle": "resultFormatted",
+    "displayFields": ["input", "resultFormatted", "totalMinutes", "totalSeconds", "overflowsDays"]
+  }
+}

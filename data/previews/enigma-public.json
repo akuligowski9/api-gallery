@@ -1,0 +1,16 @@
+{
+  "id": "enigma-public",
+  "previewType": "card",
+  "sampleResponse": {
+    "dataset_id": "us.gov.hhs.cms.provider-data",
+    "name": "CMS Medicare Provider Utilization",
+    "source": "Centers for Medicare & Medicaid Services",
+    "row_count": 9872341,
+    "last_updated": "2026-01-30"
+  },
+  "previewConfig": {
+    "title": "Enigma Public",
+    "subtitle": "Public Dataset Details",
+    "displayFields": ["dataset_id", "name", "source", "row_count", "last_updated"]
+  }
+}

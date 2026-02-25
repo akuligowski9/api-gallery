@@ -1,0 +1,20 @@
+{
+  "id": "district-of-columbia-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_name": "DC Crime Incidents 2024", "category": "Public Safety", "updated": "2024-12-01", "records": 38421, "format": "CSV" },
+      { "dataset_name": "DC Property Assessments", "category": "Finance", "updated": "2024-11-15", "records": 112043, "format": "GeoJSON" },
+      { "dataset_name": "Metro Bus Stop Locations", "category": "Transportation", "updated": "2024-10-30", "records": 9847, "format": "CSV" },
+      { "dataset_name": "DC School Locations 2024", "category": "Education", "updated": "2024-09-01", "records": 476, "format": "GeoJSON" },
+      { "dataset_name": "Ward Boundaries District of Columbia", "category": "Government", "updated": "2024-08-20", "records": 8, "format": "Shapefile" }
+    ]
+  },
+  "previewConfig": {
+    "title": "District of Columbia Open Data",
+    "subtitle": "Open datasets published by the DC government",
+    "itemKey": "dataset_name",
+    "secondaryKey": "category",
+    "badgeKey": "format"
+  }
+}

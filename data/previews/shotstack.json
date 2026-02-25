@@ -1,0 +1,16 @@
+{
+  "id": "shotstack",
+  "previewType": "card",
+  "sampleResponse": {
+    "render_id": "r8e3a2c1-4f57-48b2-9d6e-1a0bc3f2e5d7",
+    "status": "done",
+    "duration_seconds": 30,
+    "output_url": "https://cdn.shotstack.io/renders/r8e3a2c1.mp4",
+    "created_at": "2024-03-15T14:22:10Z"
+  },
+  "previewConfig": {
+    "title": "Shotstack Video Render",
+    "subtitle": "Video rendering job result",
+    "displayFields": ["render_id", "status", "duration_seconds", "output_url", "created_at"]
+  }
+}

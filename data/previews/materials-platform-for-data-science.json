@@ -1,0 +1,16 @@
+{
+  "id": "materials-platform-for-data-science",
+  "previewType": "card",
+  "sampleResponse": {
+    "material_id": "mp-149",
+    "formula": "Si",
+    "crystal_system": "cubic",
+    "band_gap_ev": 1.11,
+    "formation_energy_ev_atom": -0.003
+  },
+  "previewConfig": {
+    "title": "Materials Platform for Data Science",
+    "subtitle": "Science & Math — Computational Materials Database",
+    "displayFields": ["material_id", "formula", "crystal_system", "band_gap_ev", "formation_energy_ev_atom"]
+  }
+}

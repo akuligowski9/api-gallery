@@ -1,0 +1,16 @@
+{
+  "id": "metro-lisboa",
+  "previewType": "card",
+  "sampleResponse": {
+    "line": "Blue Line",
+    "station": "Marquês de Pombal",
+    "status": "operational",
+    "nextTrain": "2 min",
+    "lastUpdated": "2025-11-14T08:47:00Z"
+  },
+  "previewConfig": {
+    "title": "Lisbon Metro Status",
+    "subtitle": "Real-time Metro Lisboa line and station information",
+    "displayFields": ["line", "station", "status", "nextTrain", "lastUpdated"]
+  }
+}

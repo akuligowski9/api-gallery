@@ -1,0 +1,16 @@
+{
+  "id": "fuzzy-text-search-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "javascrpit",
+    "bestMatch": "javascript",
+    "score": 0.92,
+    "editDistance": 2,
+    "matchedIn": "programming_languages"
+  },
+  "previewConfig": {
+    "title": "query",
+    "subtitle": "bestMatch",
+    "displayFields": ["query", "bestMatch", "score", "editDistance", "matchedIn"]
+  }
+}

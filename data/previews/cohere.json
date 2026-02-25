@@ -1,0 +1,16 @@
+{
+  "id": "cohere",
+  "previewType": "card",
+  "sampleResponse": {
+    "generationId": "gen_8c3f1a2b9e47d",
+    "model": "command-r-plus",
+    "text": "The quick brown fox jumps over the lazy dog.",
+    "finishReason": "COMPLETE",
+    "tokensUsed": 142
+  },
+  "previewConfig": {
+    "title": "Cohere",
+    "subtitle": "Text Generation Result",
+    "displayFields": ["generationId", "model", "text", "finishReason", "tokensUsed"]
+  }
+}

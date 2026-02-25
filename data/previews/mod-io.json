@@ -1,0 +1,20 @@
+{
+  "id": "mod-io",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "mod_id": "mod_001", "name": "Enhanced Textures Pack", "game": "Skyrim", "downloads": 482310, "rating": 9.4 },
+      { "mod_id": "mod_002", "name": "Realistic Weather Overhaul", "game": "Skyrim", "downloads": 301245, "rating": 9.1 },
+      { "mod_id": "mod_003", "name": "NPC AI Improvement", "game": "Fallout 4", "downloads": 275890, "rating": 8.8 },
+      { "mod_id": "mod_004", "name": "4K Character Skins", "game": "Cyberpunk 2077", "downloads": 198750, "rating": 8.6 },
+      { "mod_id": "mod_005", "name": "Expanded Crafting System", "game": "Minecraft", "downloads": 154320, "rating": 8.3 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Game Mods",
+    "subtitle": "mod.io Mod Browser",
+    "itemKey": "name",
+    "secondaryKey": "game",
+    "badgeKey": "rating"
+  }
+}

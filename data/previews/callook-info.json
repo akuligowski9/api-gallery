@@ -1,0 +1,16 @@
+{
+  "id": "callook-info",
+  "previewType": "card",
+  "sampleResponse": {
+    "callsign": "W1AW",
+    "name": "ARRL HQ OPERATORS CLUB",
+    "state": "CT",
+    "license_class": "Club",
+    "status": "Active"
+  },
+  "previewConfig": {
+    "title": "Callook.info",
+    "subtitle": "Amateur Radio Callsign Lookup",
+    "displayFields": ["callsign", "name", "state", "license_class", "status"]
+  }
+}

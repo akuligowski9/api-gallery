@@ -1,0 +1,16 @@
+{
+  "id": "sentino-personality-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "personality_type": "INTJ",
+    "dominant_trait": "Introversion",
+    "openness_score": 78,
+    "conscientiousness_score": 85,
+    "agreeableness_score": 52
+  },
+  "previewConfig": {
+    "title": "personality_type",
+    "subtitle": "dominant_trait",
+    "displayFields": ["personality_type", "dominant_trait", "openness_score", "conscientiousness_score", "agreeableness_score"]
+  }
+}

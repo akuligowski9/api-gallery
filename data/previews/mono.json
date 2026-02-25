@@ -1,0 +1,16 @@
+{
+  "id": "mono",
+  "previewType": "card",
+  "sampleResponse": {
+    "account_id": "acc_4Qz8mNpRt2YwX7vL",
+    "account_name": "Chukwuemeka Obi",
+    "institution": "Guaranty Trust Bank",
+    "balance_ngn": 184500.75,
+    "currency": "NGN"
+  },
+  "previewConfig": {
+    "title": "Chukwuemeka Obi",
+    "subtitle": "Guaranty Trust Bank",
+    "displayFields": ["account_id", "account_name", "institution", "balance_ngn", "currency"]
+  }
+}

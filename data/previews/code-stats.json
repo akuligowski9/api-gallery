@@ -1,0 +1,16 @@
+{
+  "id": "code-stats",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "devuser42",
+    "totalXp": 4821350,
+    "topLanguage": "TypeScript",
+    "newXpToday": 12480,
+    "dayStreak": 17
+  },
+  "previewConfig": {
+    "title": "Code::Stats",
+    "subtitle": "Coding Activity Profile",
+    "displayFields": ["username", "totalXp", "topLanguage", "newXpToday", "dayStreak"]
+  }
+}

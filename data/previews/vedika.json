@@ -1,0 +1,16 @@
+{
+  "id": "vedika",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote": "The soul is never born nor dies at any time.",
+    "source": "Bhagavad Gita",
+    "chapter": 2,
+    "verse": 20,
+    "author": "Krishna"
+  },
+  "previewConfig": {
+    "title": "Vedic Wisdom",
+    "subtitle": "Vedika",
+    "displayFields": ["quote", "source", "chapter", "verse", "author"]
+  }
+}

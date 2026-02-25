@@ -1,0 +1,16 @@
+{
+  "id": "kite-connect",
+  "previewType": "card",
+  "sampleResponse": {
+    "tradingsymbol": "RELIANCE",
+    "exchange": "NSE",
+    "last_price": 2947.55,
+    "change_percent": 1.34,
+    "volume": 4812300
+  },
+  "previewConfig": {
+    "title": "RELIANCE",
+    "subtitle": "NSE",
+    "displayFields": ["tradingsymbol", "exchange", "last_price", "change_percent", "volume"]
+  }
+}

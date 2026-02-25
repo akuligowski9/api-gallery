@@ -1,0 +1,16 @@
+{
+  "id": "google-photos",
+  "previewType": "card",
+  "sampleResponse": {
+    "filename": "IMG_20240812_143022.jpg",
+    "creationTime": "2024-08-12T14:30:22Z",
+    "mimeType": "image/jpeg",
+    "cameraMake": "Google",
+    "cameraModel": "Pixel 8 Pro"
+  },
+  "previewConfig": {
+    "title": "IMG_20240812_143022.jpg",
+    "subtitle": "Google Photos — Photo Metadata",
+    "displayFields": ["filename", "creationTime", "mimeType", "cameraMake", "cameraModel"]
+  }
+}

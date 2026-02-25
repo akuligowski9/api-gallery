@@ -1,0 +1,16 @@
+{
+  "id": "playerdb",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "ShadowBlade99",
+    "platform": "steam",
+    "player_id": "76561198012345678",
+    "avatar_url": "https://avatars.steamstatic.com/abc123_full.jpg",
+    "meta_label": "Level 42"
+  },
+  "previewConfig": {
+    "title": "ShadowBlade99",
+    "subtitle": "Player Profile",
+    "displayFields": ["username", "platform", "player_id", "avatar_url", "meta_label"]
+  }
+}

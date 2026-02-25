@@ -1,0 +1,16 @@
+{
+  "id": "sirv",
+  "previewType": "card",
+  "sampleResponse": {
+    "filename": "/products/sneaker-blue-360.jpg",
+    "cdn_url": "https://demo.sirv.com/products/sneaker-blue-360.jpg",
+    "size_bytes": 204800,
+    "content_type": "image/jpeg",
+    "uploaded_at": "2024-03-28T09:15:00Z"
+  },
+  "previewConfig": {
+    "title": "Sirv",
+    "subtitle": "Image CDN with optimization and spin viewer",
+    "displayFields": ["filename", "cdn_url", "size_bytes", "content_type", "uploaded_at"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-bordeaux-france",
+  "previewType": "card",
+  "sampleResponse": {
+    "line_id": "B",
+    "line_name": "Ligne B - Mériadeck / Pessac Centre",
+    "mode": "tram",
+    "operator": "TBM - Transports Bordeaux Métropole",
+    "next_departure": "3 min"
+  },
+  "previewConfig": {
+    "title": "line_name",
+    "subtitle": "operator",
+    "displayFields": ["line_id", "line_name", "mode", "operator", "next_departure"]
+  }
+}

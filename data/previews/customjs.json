@@ -1,0 +1,16 @@
+{
+  "id": "customjs",
+  "previewType": "card",
+  "sampleResponse": {
+    "execution_id": "exec_7fGhJ3kL",
+    "result": "42",
+    "execution_time_ms": 18,
+    "status": "success",
+    "memory_used_kb": 256
+  },
+  "previewConfig": {
+    "title": "execution_id",
+    "subtitle": "status",
+    "displayFields": ["execution_id", "result", "execution_time_ms", "status", "memory_used_kb"]
+  }
+}

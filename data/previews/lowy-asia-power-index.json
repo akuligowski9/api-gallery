@@ -1,0 +1,20 @@
+{
+  "id": "lowy-asia-power-index",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "country": "United States", "rank": 1, "overall_score": 81.6, "region": "Indo-Pacific", "year": 2024 },
+      { "country": "China", "rank": 2, "overall_score": 72.4, "region": "East Asia", "year": 2024 },
+      { "country": "Japan", "rank": 3, "overall_score": 41.0, "region": "East Asia", "year": 2024 },
+      { "country": "India", "rank": 4, "overall_score": 39.7, "region": "South Asia", "year": 2024 },
+      { "country": "Australia", "rank": 5, "overall_score": 31.5, "region": "Oceania", "year": 2024 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Lowy Asia Power Index",
+    "subtitle": "Annual rankings of relative power among Asia-Pacific nations",
+    "itemKey": "country",
+    "secondaryKey": "region",
+    "badgeKey": "rank"
+  }
+}

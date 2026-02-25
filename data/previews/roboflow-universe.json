@@ -1,0 +1,16 @@
+{
+  "id": "roboflow-universe",
+  "previewType": "card",
+  "sampleResponse": {
+    "model_id": "microsoft-coco/13",
+    "model_name": "COCO Object Detection",
+    "classes": 80,
+    "map_score": 0.724,
+    "framework": "YOLOv8"
+  },
+  "previewConfig": {
+    "title": "COCO Object Detection",
+    "subtitle": "YOLOv8",
+    "displayFields": ["model_id", "model_name", "classes", "map_score", "framework"]
+  }
+}

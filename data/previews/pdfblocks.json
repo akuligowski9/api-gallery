@@ -1,0 +1,16 @@
+{
+  "id": "pdfblocks",
+  "previewType": "card",
+  "sampleResponse": {
+    "operation": "merge",
+    "output_file": "merged_report_2026.pdf",
+    "pages_total": 48,
+    "file_size_kb": 1240,
+    "processing_time_ms": 312
+  },
+  "previewConfig": {
+    "title": "output_file",
+    "subtitle": "operation",
+    "displayFields": ["operation", "output_file", "pages_total", "file_size_kb", "processing_time_ms"]
+  }
+}

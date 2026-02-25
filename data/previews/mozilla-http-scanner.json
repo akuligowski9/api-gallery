@@ -1,0 +1,16 @@
+{
+  "id": "mozilla-http-scanner",
+  "previewType": "card",
+  "sampleResponse": {
+    "host": "example.com",
+    "grade": "A+",
+    "score": 115,
+    "content_security_policy": "pass",
+    "strict_transport_security": "pass"
+  },
+  "previewConfig": {
+    "title": "example.com",
+    "subtitle": "HTTP Security Scan",
+    "displayFields": ["host", "grade", "score", "content_security_policy", "strict_transport_security"]
+  }
+}

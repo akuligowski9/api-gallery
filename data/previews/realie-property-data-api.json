@@ -1,0 +1,16 @@
+{
+  "id": "realie-property-data-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "742 Evergreen Terrace, Springfield, IL 62701",
+    "estimated_value": 284500,
+    "bedrooms": 3,
+    "square_feet": 1850,
+    "last_sold_price": 261000
+  },
+  "previewConfig": {
+    "title": "742 Evergreen Terrace",
+    "subtitle": "Property Valuation",
+    "displayFields": ["address", "estimated_value", "bedrooms", "square_feet", "last_sold_price"]
+  }
+}

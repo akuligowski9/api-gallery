@@ -1,0 +1,16 @@
+{
+  "id": "escape",
+  "previewType": "card",
+  "sampleResponse": {
+    "scanId": "esc_4d7b1a92",
+    "targetUrl": "https://api.example.com",
+    "issuesFound": 3,
+    "criticalCount": 1,
+    "scanStatus": "completed"
+  },
+  "previewConfig": {
+    "title": "API Security Scan",
+    "subtitle": "Escape — Security Scan Result",
+    "displayFields": ["scanId", "targetUrl", "issuesFound", "criticalCount", "scanStatus"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "quoterism",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 52,
+    "language": "en"
+  },
+  "previewConfig": {
+    "title": "Quoterism",
+    "subtitle": "Random inspirational quote",
+    "displayFields": ["quote", "author", "category", "length", "language"]
+  }
+}

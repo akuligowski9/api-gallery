@@ -1,0 +1,16 @@
+{
+  "id": "socialdata-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "jane_doe",
+    "followers_count": 14823,
+    "following_count": 512,
+    "tweet_count": 3041,
+    "engagement_rate": 4.7
+  },
+  "previewConfig": {
+    "title": "SocialData API",
+    "subtitle": "Social media analytics and profile insights",
+    "displayFields": ["username", "followers_count", "following_count", "tweet_count", "engagement_rate"]
+  }
+}

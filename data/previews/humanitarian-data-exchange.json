@@ -1,0 +1,20 @@
+{
+  "id": "humanitarian-data-exchange",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Syria Refugee Population Statistics 2024", "organization": "UNHCR", "format": "CSV", "last_modified": "2024-11-03", "downloads": 14820 },
+      { "title": "Yemen Food Security Assessment", "organization": "WFP", "format": "XLSX", "last_modified": "2024-10-17", "downloads": 8932 },
+      { "title": "Sudan Displacement Tracking Matrix", "organization": "IOM", "format": "CSV", "last_modified": "2024-12-01", "downloads": 5410 },
+      { "title": "Haiti Earthquake Affected Population", "organization": "OCHA", "format": "GeoJSON", "last_modified": "2024-09-22", "downloads": 3765 },
+      { "title": "DRC Cholera Outbreak Response Data", "organization": "WHO", "format": "CSV", "last_modified": "2024-11-28", "downloads": 6201 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Humanitarian Data Exchange",
+    "subtitle": "Open humanitarian datasets",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

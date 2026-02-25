@@ -1,0 +1,16 @@
+{
+  "id": "random-identity",
+  "previewType": "card",
+  "sampleResponse": {
+    "fullName": "Marcus T. Holloway",
+    "email": "m.holloway1987@mailnest.net",
+    "phone": "+1-503-274-9861",
+    "dateOfBirth": "1987-06-14",
+    "nationality": "American"
+  },
+  "previewConfig": {
+    "title": "Marcus T. Holloway",
+    "subtitle": "Generated Test Identity",
+    "displayFields": ["fullName", "email", "phone", "dateOfBirth", "nationality"]
+  }
+}

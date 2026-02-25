@@ -1,0 +1,16 @@
+{
+  "id": "geodatasource",
+  "previewType": "card",
+  "sampleResponse": {
+    "from_city": "Toronto",
+    "to_city": "Vancouver",
+    "distance_km": 3364.2,
+    "bearing_degrees": 289.4,
+    "unit": "kilometers"
+  },
+  "previewConfig": {
+    "title": "GeoDataSource",
+    "subtitle": "Distance and bearing between cities",
+    "displayFields": ["from_city", "to_city", "distance_km", "bearing_degrees", "unit"]
+  }
+}

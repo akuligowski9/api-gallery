@@ -1,0 +1,16 @@
+{
+  "id": "cache-horse",
+  "previewType": "card",
+  "sampleResponse": {
+    "cache_key": "user_profile_84729",
+    "status": "HIT",
+    "ttl_seconds": 3412,
+    "size_bytes": 1240,
+    "last_updated": "2024-12-03T07:45:00Z"
+  },
+  "previewConfig": {
+    "title": "Cache Entry",
+    "subtitle": "Cache Horse Caching API",
+    "displayFields": ["cache_key", "status", "ttl_seconds", "size_bytes", "last_updated"]
+  }
+}

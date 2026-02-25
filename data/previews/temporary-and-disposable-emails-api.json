@@ -1,0 +1,16 @@
+{
+  "id": "temporary-and-disposable-emails-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "trx94k2m@sharklasers.com",
+    "domain": "sharklasers.com",
+    "expires_at": "2024-06-15T14:30:00Z",
+    "message_count": 2,
+    "is_active": true
+  },
+  "previewConfig": {
+    "title": "trx94k2m@sharklasers.com",
+    "subtitle": "sharklasers.com",
+    "displayFields": ["address", "domain", "expires_at", "message_count", "is_active"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "geoapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "1600 Pennsylvania Ave NW, Washington, DC",
+    "formatted_address": "1600 Pennsylvania Ave NW, Washington, DC 20500, USA",
+    "latitude": 38.8977,
+    "longitude": -77.0365,
+    "country_code": "US"
+  },
+  "previewConfig": {
+    "title": "1600 Pennsylvania Ave NW, Washington, DC",
+    "subtitle": "US",
+    "displayFields": ["query", "formatted_address", "latitude", "longitude", "country_code"]
+  }
+}

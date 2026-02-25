@@ -1,0 +1,20 @@
+{
+  "id": "city-gda-sk",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset": "Public Transport Stops", "category": "Transport", "lastUpdated": "2025-10-13", "recordCount": 1842, "format": "GeoJSON" },
+      { "dataset": "Air Quality Monitoring Stations", "category": "Environment", "lastUpdated": "2025-10-14", "recordCount": 23, "format": "CSV" },
+      { "dataset": "Bicycle Lane Network", "category": "Infrastructure", "lastUpdated": "2025-09-30", "recordCount": 4710, "format": "GeoJSON" },
+      { "dataset": "Municipal Budget Expenditures 2024", "category": "Finance", "lastUpdated": "2025-08-01", "recordCount": 386, "format": "XLSX" },
+      { "dataset": "Historical Monuments Register", "category": "Culture", "lastUpdated": "2025-07-15", "recordCount": 217, "format": "JSON" }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Gdańsk Open Data",
+    "subtitle": "Municipal Government Datasets",
+    "itemKey": "dataset",
+    "secondaryKey": "category",
+    "badgeKey": "recordCount"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chatterbox",
+  "previewType": "card",
+  "sampleResponse": {
+    "botName": "ChatterBot Alpha",
+    "inputMessage": "What is the weather like today?",
+    "response": "I don't have real-time data, but you can check a weather service for current conditions!",
+    "confidence": 0.84,
+    "responseTimeMs": 112
+  },
+  "previewConfig": {
+    "title": "ChatterBox",
+    "subtitle": "Chatbot Response Engine",
+    "displayFields": ["botName", "inputMessage", "response", "confidence", "responseTimeMs"]
+  }
+}

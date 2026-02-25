@@ -1,0 +1,20 @@
+{
+  "id": "open-science-framework",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Replication of Ego Depletion Effect", "category": "Psychology", "status": "public", "forks": 14, "dateCreated": "2023-03-10" },
+      { "title": "CRISPR Off-Target Detection Methods", "category": "Biology", "status": "public", "forks": 8, "dateCreated": "2023-06-22" },
+      { "title": "Open Climate Data Repository", "category": "Environmental Science", "status": "public", "forks": 31, "dateCreated": "2022-11-05" },
+      { "title": "Multiverse Analysis in fMRI Studies", "category": "Neuroscience", "status": "private", "forks": 3, "dateCreated": "2023-09-14" },
+      { "title": "Predatory Journal Detection via ML", "category": "Meta-Science", "status": "public", "forks": 22, "dateCreated": "2024-01-02" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Research Projects",
+    "subtitle": "Open Science Framework — Project Registry",
+    "itemKey": "title",
+    "secondaryKey": "category",
+    "badgeKey": "status"
+  }
+}

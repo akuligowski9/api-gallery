@@ -1,0 +1,20 @@
+{
+  "id": "football",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Manchester City vs Arsenal", "secondary": "Premier League", "badge": 3, "home_score": 3, "away_score": 1 },
+      { "title": "Real Madrid vs Barcelona", "secondary": "La Liga", "badge": 2, "home_score": 2, "away_score": 2 },
+      { "title": "Bayern vs Dortmund", "secondary": "Bundesliga", "badge": 4, "home_score": 4, "away_score": 0 },
+      { "title": "PSG vs Lyon", "secondary": "Ligue 1", "badge": 1, "home_score": 1, "away_score": 0 },
+      { "title": "Juventus vs Inter Milan", "secondary": "Serie A", "badge": 0, "home_score": 0, "away_score": 0 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Football",
+    "subtitle": "Match Results",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

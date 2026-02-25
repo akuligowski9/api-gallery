@@ -1,0 +1,16 @@
+{
+  "id": "bigdatacloud-s-ip-geolocation-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "ipString": "8.8.8.8",
+    "city": "Mountain View",
+    "countryName": "United States",
+    "latitude": 37.4056,
+    "longitude": -122.0775
+  },
+  "previewConfig": {
+    "title": "BigDataCloud IP Geolocation",
+    "subtitle": "IP Address Location Data",
+    "displayFields": ["ipString", "city", "countryName", "latitude", "longitude"]
+  }
+}

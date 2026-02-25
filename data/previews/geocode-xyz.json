@@ -1,0 +1,16 @@
+{
+  "id": "geocode-xyz",
+  "previewType": "card",
+  "sampleResponse": {
+    "longt": "-87.62980",
+    "latt": "41.87811",
+    "city": "Chicago",
+    "country": "United States",
+    "postal": "60601"
+  },
+  "previewConfig": {
+    "title": "Chicago, United States",
+    "subtitle": "Geocoding Result",
+    "displayFields": ["longt", "latt", "city", "country", "postal"]
+  }
+}

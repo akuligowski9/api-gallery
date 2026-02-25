@@ -1,0 +1,20 @@
+{
+  "id": "deutscher-bundestag-dip",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "document_id": "20-10421", "title": "Antrag zur Klimaschutzpolitik", "document_type": "Antrag", "date": "2026-02-10", "status": "Eingereicht" },
+      { "document_id": "20-10398", "title": "Gesetzentwurf zur Digitalisierung", "document_type": "Gesetzentwurf", "date": "2026-02-08", "status": "In Ausschuss" },
+      { "document_id": "20-10375", "title": "Anfrage zur Rentenpolitik", "document_type": "Kleine Anfrage", "date": "2026-02-05", "status": "Beantwortet" },
+      { "document_id": "20-10350", "title": "Beschlussempfehlung Infrastruktur", "document_type": "Beschlussempfehlung", "date": "2026-02-03", "status": "Angenommen" },
+      { "document_id": "20-10319", "title": "Unterrichtung zur Außenpolitik", "document_type": "Unterrichtung", "date": "2026-01-28", "status": "Verteilt" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Deutscher Bundestag DIP",
+    "subtitle": "German parliamentary documents and legislative data",
+    "itemKey": "title",
+    "secondaryKey": "document_type",
+    "badgeKey": "status"
+  }
+}

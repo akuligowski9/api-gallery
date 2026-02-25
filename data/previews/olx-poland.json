@@ -1,0 +1,20 @@
+{
+  "id": "olx-poland",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "iPhone 13 Pro 256GB", "secondary": "Warszawa, Mokotów", "badge": 3499, "condition": "Używany", "category": "Telefony" },
+      { "title": "Sofa 3-osobowa IKEA", "secondary": "Kraków, Krowodrza", "badge": 850, "condition": "Używany", "category": "Meble" },
+      { "title": "Rower górski Trek Marlin 7", "secondary": "Wrocław, Fabryczna", "badge": 2200, "condition": "Dobry stan", "category": "Rowery" },
+      { "title": "Mieszkanie 48m² do wynajęcia", "secondary": "Gdańsk, Wrzeszcz", "badge": 2800, "condition": "Nowe ogłoszenie", "category": "Nieruchomości" },
+      { "title": "PlayStation 5 + 2 pady", "secondary": "Poznań, Grunwald", "badge": 2100, "condition": "Jak nowy", "category": "Konsole" }
+    ]
+  },
+  "previewConfig": {
+    "title": "OLX Poland",
+    "subtitle": "Polish Marketplace Listings",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

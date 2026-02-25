@@ -1,0 +1,16 @@
+{
+  "id": "swedavia-airports",
+  "previewType": "card",
+  "sampleResponse": {
+    "iata_code": "ARN",
+    "name": "Stockholm Arlanda Airport",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "latitude": 59.6519
+  },
+  "previewConfig": {
+    "title": "Stockholm Arlanda Airport",
+    "subtitle": "ARN",
+    "displayFields": ["iata_code", "name", "city", "country", "latitude"]
+  }
+}

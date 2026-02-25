@@ -1,0 +1,16 @@
+{
+  "id": "mozilla-tls-scanner",
+  "previewType": "card",
+  "sampleResponse": {
+    "host": "example.com",
+    "grade": "A+",
+    "has_hsts": true,
+    "tls_version": "TLSv1.3",
+    "scanned_at": "2024-12-05T09:15:42Z"
+  },
+  "previewConfig": {
+    "title": "example.com",
+    "subtitle": "Grade: A+",
+    "displayFields": ["host", "grade", "has_hsts", "tls_version", "scanned_at"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lucifer-quotes",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote": "I'm not the Devil because I'm evil. I'm the Devil because someone has to be.",
+    "character": "Lucifer Morningstar",
+    "season": 3,
+    "episode": 12,
+    "actor": "Tom Ellis"
+  },
+  "previewConfig": {
+    "title": "character",
+    "subtitle": "actor",
+    "displayFields": ["quote", "character", "season", "episode", "actor"]
+  }
+}

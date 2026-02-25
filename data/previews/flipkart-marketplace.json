@@ -1,0 +1,16 @@
+{
+  "id": "flipkart-marketplace",
+  "previewType": "card",
+  "sampleResponse": {
+    "product_name": "Samsung Galaxy S23 Ultra 256GB",
+    "seller": "RetailNet India",
+    "price_inr": 109999,
+    "rating": 4.5,
+    "in_stock": true
+  },
+  "previewConfig": {
+    "title": "Flipkart Marketplace",
+    "subtitle": "Product Listing",
+    "displayFields": ["product_name", "seller", "price_inr", "rating", "in_stock"]
+  }
+}

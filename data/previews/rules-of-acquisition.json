@@ -1,0 +1,16 @@
+{
+  "id": "rules-of-acquisition",
+  "previewType": "card",
+  "sampleResponse": {
+    "rule_number": 1,
+    "rule": "Once you have their money, you never give it back.",
+    "series": "Deep Space Nine",
+    "episode": "The Nagus",
+    "author": "Grand Nagus Zek"
+  },
+  "previewConfig": {
+    "title": "Rules of Acquisition",
+    "subtitle": "Video",
+    "displayFields": ["rule_number", "rule", "series", "episode", "author"]
+  }
+}

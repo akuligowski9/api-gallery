@@ -1,0 +1,16 @@
+{
+  "id": "itis",
+  "previewType": "card",
+  "sampleResponse": {
+    "tsn": 180092,
+    "scientific_name": "Panthera leo",
+    "common_name": "Lion",
+    "kingdom": "Animalia",
+    "rank": "Species"
+  },
+  "previewConfig": {
+    "title": "ITIS Taxonomic Data",
+    "subtitle": "Integrated Taxonomic Information System",
+    "displayFields": ["tsn", "scientific_name", "common_name", "kingdom", "rank"]
+  }
+}

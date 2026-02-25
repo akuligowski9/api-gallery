@@ -1,0 +1,16 @@
+{
+  "id": "izi",
+  "previewType": "card",
+  "sampleResponse": {
+    "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "title": "Historic City Center Audio Tour",
+    "city": "Amsterdam",
+    "language": "en",
+    "duration": 3600
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "city",
+    "displayFields": ["uuid", "title", "city", "language", "duration"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "freegeoip",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "country_name": "United States",
+    "region_name": "California",
+    "city": "Mountain View",
+    "time_zone": "America/Los_Angeles"
+  },
+  "previewConfig": {
+    "title": "IP Geolocation: 8.8.8.8",
+    "subtitle": "FreeGeoIP location lookup result",
+    "displayFields": ["ip", "country_name", "region_name", "city", "time_zone"]
+  }
+}

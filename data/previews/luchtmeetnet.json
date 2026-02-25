@@ -1,0 +1,16 @@
+{
+  "id": "luchtmeetnet",
+  "previewType": "card",
+  "sampleResponse": {
+    "station": "Amsterdam-Vondelpark",
+    "timestamp": "2026-02-25T10:00:00Z",
+    "pm25_ugm3": 12.4,
+    "no2_ugm3": 28.7,
+    "aqi": 54
+  },
+  "previewConfig": {
+    "title": "Luchtmeetnet",
+    "subtitle": "Dutch air quality monitoring",
+    "displayFields": ["station", "timestamp", "pm25_ugm3", "no2_ugm3", "aqi"]
+  }
+}

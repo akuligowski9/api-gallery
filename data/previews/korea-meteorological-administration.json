@@ -1,0 +1,16 @@
+{
+  "id": "korea-meteorological-administration",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Seoul, South Korea",
+    "temperature_c": 14,
+    "humidity_pct": 62,
+    "condition": "Partly Cloudy",
+    "wind_kmh": 11
+  },
+  "previewConfig": {
+    "title": "Korea Meteorological Administration",
+    "subtitle": "Current weather observation",
+    "displayFields": ["location", "temperature_c", "humidity_pct", "condition", "wind_kmh"]
+  }
+}

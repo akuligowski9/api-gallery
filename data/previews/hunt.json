@@ -1,0 +1,20 @@
+{
+  "id": "hunt",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "v001", "title": "Build a REST API in 10 Minutes", "channel": "CodeWithMe", "views": 142300, "duration": "10:24" },
+      { "id": "v002", "title": "Docker Crash Course 2026", "channel": "DevOps Simplified", "views": 89500, "duration": "28:11" },
+      { "id": "v003", "title": "React vs Vue in 2026", "channel": "FrontEnd Focus", "views": 215000, "duration": "15:47" },
+      { "id": "v004", "title": "Machine Learning for Beginners", "channel": "AI Academy", "views": 374200, "duration": "45:03" },
+      { "id": "v005", "title": "PostgreSQL Performance Tips", "channel": "DB Masters", "views": 51800, "duration": "22:36" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Hunt Video Results",
+    "subtitle": "Trending developer videos",
+    "itemKey": "title",
+    "secondaryKey": "channel",
+    "badgeKey": "duration"
+  }
+}

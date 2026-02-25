@@ -1,0 +1,16 @@
+{
+  "id": "inferdo",
+  "previewType": "card",
+  "sampleResponse": {
+    "model": "resnet50-imagenet",
+    "label": "golden retriever",
+    "confidence": 0.9732,
+    "inference_time_ms": 48,
+    "status": "success"
+  },
+  "previewConfig": {
+    "title": "label",
+    "subtitle": "model",
+    "displayFields": ["model", "label", "confidence", "inference_time_ms", "status"]
+  }
+}

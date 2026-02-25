@@ -1,0 +1,16 @@
+{
+  "id": "google-cloud-natural",
+  "previewType": "card",
+  "sampleResponse": {
+    "sentiment_score": 0.82,
+    "sentiment_magnitude": 1.4,
+    "language": "en",
+    "entity_count": 5,
+    "category": "Science & Technology"
+  },
+  "previewConfig": {
+    "title": "Google Cloud Natural Language",
+    "subtitle": "NLP analysis including sentiment, entities, and categories",
+    "displayFields": ["sentiment_score", "sentiment_magnitude", "language", "entity_count", "category"]
+  }
+}

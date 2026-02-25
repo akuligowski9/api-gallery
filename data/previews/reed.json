@@ -1,0 +1,20 @@
+{
+  "id": "reed",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "jobId": 51234901, "jobTitle": "Senior Software Engineer", "employerName": "TechCorp UK Ltd", "locationName": "London", "minimumSalary": 75000 },
+      { "jobId": 51234902, "jobTitle": "Data Analyst", "employerName": "FinServe Group", "locationName": "Manchester", "minimumSalary": 42000 },
+      { "jobId": 51234903, "jobTitle": "Product Manager", "employerName": "GrowthLab", "locationName": "Bristol", "minimumSalary": 65000 },
+      { "jobId": 51234904, "jobTitle": "DevOps Engineer", "employerName": "CloudBase Systems", "locationName": "Edinburgh", "minimumSalary": 58000 },
+      { "jobId": 51234905, "jobTitle": "UX Designer", "employerName": "Creative Digital Agency", "locationName": "Birmingham", "minimumSalary": 38000 }
+    ]
+  },
+  "previewConfig": {
+    "title": "UK Job Listings",
+    "subtitle": "Reed.co.uk Jobs API",
+    "itemKey": "jobTitle",
+    "secondaryKey": "employerName",
+    "badgeKey": "locationName"
+  }
+}

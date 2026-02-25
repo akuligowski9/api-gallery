@@ -1,0 +1,16 @@
+{
+  "id": "webex",
+  "previewType": "card",
+  "sampleResponse": {
+    "meeting_id": "mtg_7Kx3pQnRvL9wZ2sY",
+    "title": "Q2 Product Planning Sync",
+    "host": "sarah.chen@example.com",
+    "start_time": "2024-06-18T15:00:00Z",
+    "duration_minutes": 60
+  },
+  "previewConfig": {
+    "title": "Q2 Product Planning Sync",
+    "subtitle": "sarah.chen@example.com",
+    "displayFields": ["meeting_id", "title", "host", "start_time", "duration_minutes"]
+  }
+}

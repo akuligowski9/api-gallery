@@ -1,0 +1,16 @@
+{
+  "id": "convert-speech-to-text-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "transcript": "The quick brown fox jumps over the lazy dog near the riverbank.",
+    "confidence": 0.9732,
+    "language": "en-US",
+    "duration_seconds": 4.81,
+    "word_count": 13
+  },
+  "previewConfig": {
+    "title": "Convert Speech to Text API",
+    "subtitle": "Audio Transcription Result",
+    "displayFields": ["transcript", "confidence", "language", "duration_seconds", "word_count"]
+  }
+}

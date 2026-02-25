@@ -1,0 +1,16 @@
+{
+  "id": "convert-rss-to-json",
+  "previewType": "card",
+  "sampleResponse": {
+    "feedTitle": "Hacker News",
+    "feedUrl": "https://news.ycombinator.com/rss",
+    "itemCount": 30,
+    "lastBuildDate": "Mon, 10 Jun 2024 15:42:00 +0000",
+    "latestItemTitle": "Show HN: I built a tool to convert any RSS feed to JSON"
+  },
+  "previewConfig": {
+    "title": "Convert RSS to JSON",
+    "subtitle": "RSS Feed Conversion Service",
+    "displayFields": ["feedTitle", "feedUrl", "itemCount", "lastBuildDate", "latestItemTitle"]
+  }
+}

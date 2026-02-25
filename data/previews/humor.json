@@ -1,0 +1,16 @@
+{
+  "id": "humor",
+  "previewType": "card",
+  "sampleResponse": {
+    "joke_id": 4821,
+    "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "category": "Programming",
+    "rating": 4.7,
+    "submitted_by": "anonymous"
+  },
+  "previewConfig": {
+    "title": "Humor API",
+    "subtitle": "Random jokes, memes, and humor content",
+    "displayFields": ["joke_id", "joke", "category", "rating", "submitted_by"]
+  }
+}

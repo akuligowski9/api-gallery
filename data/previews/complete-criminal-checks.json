@@ -1,0 +1,16 @@
+{
+  "id": "complete-criminal-checks",
+  "previewType": "card",
+  "sampleResponse": {
+    "report_id": "RPT-2024-884321",
+    "subject_name": "John A. Smith",
+    "status": "Clear",
+    "records_found": 0,
+    "completed_at": "2024-11-14T10:22:00Z"
+  },
+  "previewConfig": {
+    "title": "Background Check Report",
+    "subtitle": "Complete Criminal Checks",
+    "displayFields": ["report_id", "subject_name", "status", "records_found", "completed_at"]
+  }
+}

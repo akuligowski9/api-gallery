@@ -1,0 +1,16 @@
+{
+  "id": "sweep-emails",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "user@example.com",
+    "total_scanned": 4821,
+    "duplicates_found": 312,
+    "unsubscribed": 47,
+    "space_freed_mb": 1340
+  },
+  "previewConfig": {
+    "title": "Sweep Emails",
+    "subtitle": "Email Cleanup Summary",
+    "displayFields": ["email", "total_scanned", "duplicates_found", "unsubscribed", "space_freed_mb"]
+  }
+}

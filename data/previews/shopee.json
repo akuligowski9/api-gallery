@@ -1,0 +1,16 @@
+{
+  "id": "shopee",
+  "previewType": "card",
+  "sampleResponse": {
+    "product_id": 78234901,
+    "name": "Wireless Bluetooth Earbuds Pro",
+    "price": 29.99,
+    "rating": 4.7,
+    "sold": 15823
+  },
+  "previewConfig": {
+    "title": "name",
+    "subtitle": "price",
+    "displayFields": ["product_id", "name", "price", "rating", "sold"]
+  }
+}

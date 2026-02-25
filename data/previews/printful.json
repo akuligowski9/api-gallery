@@ -1,0 +1,16 @@
+{
+  "id": "printful",
+  "previewType": "card",
+  "sampleResponse": {
+    "productId": 71,
+    "name": "Unisex Staple T-Shirt | Bella + Canvas 3001",
+    "brand": "Bella + Canvas",
+    "basePrice": 12.95,
+    "currency": "USD"
+  },
+  "previewConfig": {
+    "title": "Unisex Staple T-Shirt",
+    "subtitle": "Printful — Print-on-Demand Product",
+    "displayFields": ["productId", "name", "brand", "basePrice", "currency"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "crxcavator",
+  "previewType": "card",
+  "sampleResponse": {
+    "extension_id": "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "name": "uBlock Origin",
+    "version": "1.55.0",
+    "risk_score": 214,
+    "permissions_count": 8
+  },
+  "previewConfig": {
+    "title": "CRXcavator",
+    "subtitle": "Security — Chrome Extension Risk Analysis",
+    "displayFields": ["extension_id", "name", "version", "risk_score", "permissions_count"]
+  }
+}

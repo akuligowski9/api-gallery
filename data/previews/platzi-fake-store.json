@@ -1,0 +1,20 @@
+{
+  "id": "platzi-fake-store",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": 1, "title": "Handmade Fresh Table", "price": 300, "category": "Furniture", "available": true },
+      { "id": 2, "title": "Ergonomic Wooden Chair", "price": 150, "category": "Furniture", "available": true },
+      { "id": 3, "title": "Sleek Steel Laptop", "price": 1800, "category": "Electronics", "available": false },
+      { "id": 4, "title": "Licensed Cotton Shirt", "price": 45, "category": "Clothes", "available": true },
+      { "id": 5, "title": "Gorgeous Rubber Shoes", "price": 90, "category": "Shoes", "available": true }
+    ]
+  },
+  "previewConfig": {
+    "title": "Platzi Fake Store Products",
+    "subtitle": "Sample product catalog",
+    "itemKey": "title",
+    "secondaryKey": "category",
+    "badgeKey": "price"
+  }
+}

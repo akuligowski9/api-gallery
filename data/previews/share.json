@@ -1,0 +1,20 @@
+{
+  "id": "share",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "10.17605/OSF.IO/ABC12", "title": "Reproducibility of Psychology Experiments", "contributors": "Open Science Collaboration", "year": 2015, "type": "dataset" },
+      { "id": "10.5281/zenodo.3490682", "title": "Global Surface Temperature Anomalies 1850-2023", "contributors": "Hansen, J.; Sato, M.", "year": 2023, "type": "dataset" },
+      { "id": "10.6084/m9.figshare.12345678", "title": "Single-cell RNA Sequencing Atlas of Human Cortex", "contributors": "Allen Institute for Brain Science", "year": 2022, "type": "dataset" },
+      { "id": "10.7910/DVN/WGWMAV", "title": "COVID-19 Vaccine Hesitancy Survey Data", "contributors": "MIT Election Lab", "year": 2021, "type": "survey" },
+      { "id": "10.5061/dryad.7h44j0zqf", "title": "Migratory Bird Tracking Data North America", "contributors": "Cornell Lab of Ornithology", "year": 2023, "type": "observational" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Academic Research Datasets",
+    "subtitle": "SHARE Notify API",
+    "itemKey": "title",
+    "secondaryKey": "contributors",
+    "badgeKey": "type"
+  }
+}

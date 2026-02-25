@@ -1,0 +1,20 @@
+{
+  "id": "hypixel",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "username": "Technoblade", "rank": "MVP++", "level": 247 },
+      { "username": "Hypixel", "rank": "OWNER", "level": 500 },
+      { "username": "Notch", "rank": "VIP", "level": 88 },
+      { "username": "Dream", "rank": "MVP+", "level": 163 },
+      { "username": "Skeppy", "rank": "MVP++", "level": 201 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Hypixel",
+    "subtitle": "Games",
+    "itemKey": "username",
+    "secondaryKey": "level",
+    "badgeKey": "rank"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "italian-jokes",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": 17,
+    "setup": "Perché gli italiani non possono giocare a scacchi?",
+    "punchline": "Perché non riescono a distinguere il re dalla pasta!",
+    "category": "food",
+    "language": "it"
+  },
+  "previewConfig": {
+    "title": "Italian Joke #17",
+    "subtitle": "Random Italian language joke",
+    "displayFields": ["id", "setup", "punchline", "category", "language"]
+  }
+}

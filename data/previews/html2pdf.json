@@ -1,0 +1,16 @@
+{
+  "id": "html2pdf",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "pdf_3mNvW7cXs1Kp",
+    "status": "completed",
+    "file_size_kb": 142,
+    "download_url": "https://api.html2pdf.app/v1/files/pdf_3mNvW7cXs1Kp.pdf",
+    "expires_at": "2025-08-13T10:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Html2PDF",
+    "subtitle": "Documents",
+    "displayFields": ["job_id", "status", "file_size_kb", "download_url", "expires_at"]
+  }
+}

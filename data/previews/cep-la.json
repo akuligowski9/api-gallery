@@ -1,0 +1,16 @@
+{
+  "id": "cep-la",
+  "previewType": "card",
+  "sampleResponse": {
+    "cep": "01310-100",
+    "logradouro": "Avenida Paulista",
+    "bairro": "Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP"
+  },
+  "previewConfig": {
+    "title": "logradouro",
+    "subtitle": "cidade",
+    "displayFields": ["cep", "logradouro", "bairro", "cidade", "uf"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ciprand",
+  "previewType": "card",
+  "sampleResponse": {
+    "uuid": "a3f2c1d4-8b7e-4f9a-b6e2-1c0d5e3f7a8b",
+    "random_integer": 847293,
+    "random_float": 0.7341829,
+    "cipher_hex": "4a9f2c8e1b3d7f05",
+    "generated_at": "2026-02-25T14:32:07Z"
+  },
+  "previewConfig": {
+    "title": "Ciprand",
+    "subtitle": "Cryptographically Secure Random Data",
+    "displayFields": ["uuid", "random_integer", "random_float", "cipher_hex", "generated_at"]
+  }
+}

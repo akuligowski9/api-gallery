@@ -1,0 +1,16 @@
+{
+  "id": "smart-adaptive-ultra-fast-image-compressor-converter",
+  "previewType": "card",
+  "sampleResponse": {
+    "original_size_kb": 2048,
+    "compressed_size_kb": 312,
+    "compression_ratio": "84.8%",
+    "output_format": "WebP",
+    "download_url": "https://api.smartimagecompressor.io/output/img_8xTpK2nVqL.webp"
+  },
+  "previewConfig": {
+    "title": "Smart Image Compressor",
+    "subtitle": "Photography",
+    "displayFields": ["original_size_kb", "compressed_size_kb", "compression_ratio", "output_format", "download_url"]
+  }
+}

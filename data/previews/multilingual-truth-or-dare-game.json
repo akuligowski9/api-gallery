@@ -1,0 +1,16 @@
+{
+  "id": "multilingual-truth-or-dare-game",
+  "previewType": "card",
+  "sampleResponse": {
+    "type": "truth",
+    "prompt": "What is the most embarrassing thing that has ever happened to you in public?",
+    "category": "personal",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  "previewConfig": {
+    "title": "Truth or Dare",
+    "subtitle": "Multilingual party game prompts",
+    "displayFields": ["type", "prompt", "category", "difficulty", "language"]
+  }
+}

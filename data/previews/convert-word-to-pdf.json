@@ -1,0 +1,16 @@
+{
+  "id": "convert-word-to-pdf",
+  "previewType": "card",
+  "sampleResponse": {
+    "output_url": "https://api.convertdoc.example.com/files/report_final.pdf",
+    "original_filename": "report_final.docx",
+    "pages": 12,
+    "file_size_kb": 348,
+    "conversion_time_ms": 1840
+  },
+  "previewConfig": {
+    "title": "report_final.docx",
+    "subtitle": "Word to PDF Conversion",
+    "displayFields": ["output_url", "original_filename", "pages", "file_size_kb", "conversion_time_ms"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "countrystatecity",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "United States", "iso2": "US", "region": "Americas", "capital": "Washington D.C.", "currency": "USD" },
+      { "name": "Germany", "iso2": "DE", "region": "Europe", "capital": "Berlin", "currency": "EUR" },
+      { "name": "Japan", "iso2": "JP", "region": "Asia", "capital": "Tokyo", "currency": "JPY" },
+      { "name": "Brazil", "iso2": "BR", "region": "Americas", "capital": "Brasilia", "currency": "BRL" },
+      { "name": "Australia", "iso2": "AU", "region": "Oceania", "capital": "Canberra", "currency": "AUD" }
+    ]
+  },
+  "previewConfig": {
+    "title": "CountryStateCity",
+    "subtitle": "World countries, states, and cities data",
+    "itemKey": "name",
+    "secondaryKey": "capital",
+    "badgeKey": "iso2"
+  }
+}

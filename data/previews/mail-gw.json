@@ -1,0 +1,16 @@
+{
+  "id": "mail-gw",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "tq8xv2@mail.gw",
+    "domain": "mail.gw",
+    "token": "eyJhbGciOiJIUzI1NiJ9.abc123",
+    "messages_count": 2,
+    "expires_at": "2026-02-25T10:00:00Z"
+  },
+  "previewConfig": {
+    "title": "tq8xv2@mail.gw",
+    "subtitle": "Temporary Email Inbox",
+    "displayFields": ["address", "domain", "token", "messages_count", "expires_at"]
+  }
+}

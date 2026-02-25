@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-tracker-sri-lanka",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "Sri Lanka",
+    "totalCases": 671989,
+    "totalDeaths": 16862,
+    "totalRecovered": 654918,
+    "activeCases": 209
+  },
+  "previewConfig": {
+    "title": "Sri Lanka",
+    "subtitle": "COVID-19 Tracker — Cumulative Statistics",
+    "displayFields": ["country", "totalCases", "totalDeaths", "totalRecovered", "activeCases"]
+  }
+}

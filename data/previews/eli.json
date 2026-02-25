@@ -1,0 +1,16 @@
+{
+  "id": "eli",
+  "previewType": "card",
+  "sampleResponse": {
+    "fleschKincaidGrade": 8.2,
+    "fleschReadingEase": 62.4,
+    "averageSentenceLength": 17.3,
+    "complexWordPct": 14.7,
+    "recommendedAge": "13+"
+  },
+  "previewConfig": {
+    "title": "Text Readability Analysis",
+    "subtitle": "ELI Readability API",
+    "displayFields": ["fleschKincaidGrade", "fleschReadingEase", "averageSentenceLength", "complexWordPct", "recommendedAge"]
+  }
+}

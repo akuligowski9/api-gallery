@@ -1,0 +1,20 @@
+{
+  "id": "recreation-information-database",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "facility_id": "232488", "name": "Yosemite Valley Campground", "type": "Campground", "state": "CA", "reservable": "Yes" },
+      { "facility_id": "251869", "name": "Grand Canyon South Rim Trail", "type": "Trail", "state": "AZ", "reservable": "No" },
+      { "facility_id": "233116", "name": "Yellowstone Old Faithful Area", "type": "Visitor Center", "state": "WY", "reservable": "Yes" },
+      { "facility_id": "247616", "name": "Olympic Hot Springs Campground", "type": "Campground", "state": "WA", "reservable": "Yes" },
+      { "facility_id": "256424", "name": "Appalachian Trail - Springer Mtn", "type": "Trail", "state": "GA", "reservable": "No" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Recreation Information Database",
+    "subtitle": "Recreation Areas",
+    "itemKey": "name",
+    "secondaryKey": "state",
+    "badgeKey": "type"
+  }
+}

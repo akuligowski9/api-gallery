@@ -1,0 +1,16 @@
+{
+  "id": "portfolio-optimizer",
+  "previewType": "card",
+  "sampleResponse": {
+    "portfolio": "AAPL 28.4%, MSFT 22.1%, BND 19.5%, GLD 16.0%, VTI 14.0%",
+    "expected_annual_return": 0.112,
+    "volatility": 0.143,
+    "sharpe_ratio": 1.38,
+    "optimization_method": "Mean-Variance (Markowitz)"
+  },
+  "previewConfig": {
+    "title": "Portfolio Optimizer",
+    "subtitle": "Optimal asset allocation for risk-adjusted returns",
+    "displayFields": ["portfolio", "expected_annual_return", "volatility", "sharpe_ratio", "optimization_method"]
+  }
+}

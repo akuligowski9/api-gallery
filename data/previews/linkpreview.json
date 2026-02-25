@@ -1,0 +1,16 @@
+{
+  "id": "linkpreview",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://www.theverge.com/tech",
+    "title": "The Verge – Technology News",
+    "description": "The latest coverage of technology, science, and culture from The Verge.",
+    "image": "https://cdn.vox-cdn.com/thumbor/social-image.jpg",
+    "domain": "theverge.com"
+  },
+  "previewConfig": {
+    "title": "URL Preview",
+    "subtitle": "Open Graph and metadata extracted from the target URL",
+    "displayFields": ["url", "title", "description", "image", "domain"]
+  }
+}

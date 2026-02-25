@@ -1,0 +1,16 @@
+{
+  "id": "national-grid-eso",
+  "previewType": "card",
+  "sampleResponse": {
+    "timestamp": "2024-03-15T14:30:00Z",
+    "total_generation_mw": 34821,
+    "renewables_percent": 47.3,
+    "carbon_intensity_gco2_kwh": 156,
+    "interconnector_flow_mw": 1204
+  },
+  "previewConfig": {
+    "title": "National Grid ESO",
+    "subtitle": "UK Energy Grid — Live Statistics",
+    "displayFields": ["timestamp", "total_generation_mw", "renewables_percent", "carbon_intensity_gco2_kwh", "interconnector_flow_mw"]
+  }
+}

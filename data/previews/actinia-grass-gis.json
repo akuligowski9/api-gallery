@@ -1,0 +1,16 @@
+{
+  "id": "actinia-grass-gis",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "EPSG:4326",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "elevation": 35.2,
+    "mapset": "Paris_Urban_Analysis_2025"
+  },
+  "previewConfig": {
+    "title": "Actinia GRASS GIS",
+    "subtitle": "Geospatial Processing & Analysis",
+    "displayFields": ["location", "latitude", "longitude", "elevation", "mapset"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "quotes-on-design",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote": "Design is not just what it looks like and feels like. Design is how it works.",
+    "author": "Steve Jobs",
+    "category": "Design",
+    "source": "Fortune Magazine Interview, 2003",
+    "tags": "design, function, simplicity"
+  },
+  "previewConfig": {
+    "title": "Quotes on Design",
+    "subtitle": "Personality — Inspirational Design Quotes",
+    "displayFields": ["quote", "author", "category", "source", "tags"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "open-government-argentina",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_id": "ARG-001", "title": "Padrón Electoral Nacional 2023", "category": "Elecciones", "format": "CSV", "publisher": "Ministerio del Interior" },
+      { "dataset_id": "ARG-002", "title": "Exportaciones por Producto 2024", "category": "Comercio Exterior", "format": "JSON", "publisher": "INDEC" },
+      { "dataset_id": "ARG-003", "title": "Indicadores de Empleo Mensual", "category": "Trabajo", "format": "XLSX", "publisher": "Ministerio de Trabajo" },
+      { "dataset_id": "ARG-004", "title": "Red Vial Nacional", "category": "Transporte", "format": "GeoJSON", "publisher": "Vialidad Nacional" },
+      { "dataset_id": "ARG-005", "title": "Establecimientos Educativos", "category": "Educación", "format": "CSV", "publisher": "Ministerio de Educación" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Argentina",
+    "subtitle": "Public Datasets",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

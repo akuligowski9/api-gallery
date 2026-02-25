@@ -1,0 +1,16 @@
+{
+  "id": "tipo",
+  "previewType": "card",
+  "sampleResponse": {
+    "patent_number": "TWI789456",
+    "title": "Wireless Power Transmission Device and Method",
+    "applicant": "Taiwan Semiconductor Manufacturing Co.",
+    "filing_date": "2022-03-15",
+    "status": "Granted"
+  },
+  "previewConfig": {
+    "title": "TIPO",
+    "subtitle": "Taiwan Intellectual Property Office - Patent Search",
+    "displayFields": ["patent_number", "title", "applicant", "filing_date", "status"]
+  }
+}

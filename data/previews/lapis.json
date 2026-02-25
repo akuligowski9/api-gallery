@@ -1,0 +1,16 @@
+{
+  "id": "lapis",
+  "previewType": "card",
+  "sampleResponse": {
+    "accession": "EPI_ISL_18819935",
+    "strain": "hCoV-19/USA/CA-CDPH-3000635731/2024",
+    "date": "2024-03-12",
+    "country": "USA",
+    "pango_lineage": "XBB.1.5.70"
+  },
+  "previewConfig": {
+    "title": "Genomic Sequence",
+    "subtitle": "LAPIS",
+    "displayFields": ["accession", "strain", "date", "country", "pango_lineage"]
+  }
+}

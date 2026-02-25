@@ -1,0 +1,16 @@
+{
+  "id": "intrinio",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "last_price": 227.82,
+    "market_cap_b": 3510.4,
+    "pe_ratio": 34.6
+  },
+  "previewConfig": {
+    "title": "Intrinio",
+    "subtitle": "Finance",
+    "displayFields": ["ticker", "company_name", "last_price", "market_cap_b", "pe_ratio"]
+  }
+}

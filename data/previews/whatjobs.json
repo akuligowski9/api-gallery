@@ -1,0 +1,20 @@
+{
+  "id": "whatjobs",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Software Engineer", "company": "Stripe", "location": "San Francisco, CA", "salary": "$160,000 - $220,000", "type": "Full-time" },
+      { "title": "Product Manager", "company": "Airbnb", "location": "Remote", "salary": "$130,000 - $170,000", "type": "Full-time" },
+      { "title": "Data Analyst", "company": "Spotify", "location": "New York, NY", "salary": "$90,000 - $120,000", "type": "Full-time" },
+      { "title": "UX Designer", "company": "Figma", "location": "Austin, TX", "salary": "$100,000 - $140,000", "type": "Contract" },
+      { "title": "DevOps Engineer", "company": "HashiCorp", "location": "Remote", "salary": "$140,000 - $180,000", "type": "Full-time" }
+    ]
+  },
+  "previewConfig": {
+    "title": "WhatJobs",
+    "subtitle": "Global job search and listings",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "type"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mailtrap",
+  "previewType": "card",
+  "sampleResponse": {
+    "inbox_name": "My Test Inbox",
+    "email_subject": "Welcome to the App",
+    "from_address": "noreply@example.com",
+    "to_address": "tester@sandbox.mailtrap.io",
+    "received_at": "2026-02-25T10:34:00Z"
+  },
+  "previewConfig": {
+    "title": "email_subject",
+    "subtitle": "inbox_name",
+    "displayFields": ["inbox_name", "email_subject", "from_address", "to_address", "received_at"]
+  }
+}

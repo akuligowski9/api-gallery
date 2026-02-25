@@ -1,0 +1,16 @@
+{
+  "id": "fastapi-simple-calculator",
+  "previewType": "card",
+  "sampleResponse": {
+    "operation": "addition",
+    "operand_a": 42,
+    "operand_b": 58,
+    "result": 100,
+    "success": true
+  },
+  "previewConfig": {
+    "title": "operation",
+    "subtitle": "result",
+    "displayFields": ["operation", "operand_a", "operand_b", "result", "success"]
+  }
+}

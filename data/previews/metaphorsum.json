@@ -1,0 +1,16 @@
+{
+  "id": "metaphorsum",
+  "previewType": "card",
+  "sampleResponse": {
+    "paragraphs": 2,
+    "sentences": 8,
+    "wordCount": 94,
+    "text": "Life is a canvas waiting for paint, each day a brushstroke of vibrant color. Time is a river flowing ever forward, carrying memories like leaves on its surface.",
+    "generated": "2024-06-10T14:22:00Z"
+  },
+  "previewConfig": {
+    "title": "Metaphorsum",
+    "subtitle": "Metaphor Lorem Ipsum Generator",
+    "displayFields": ["paragraphs", "sentences", "wordCount", "text", "generated"]
+  }
+}

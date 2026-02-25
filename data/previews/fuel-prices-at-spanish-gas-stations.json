@@ -1,0 +1,16 @@
+{
+  "id": "fuel-prices-at-spanish-gas-stations",
+  "previewType": "card",
+  "sampleResponse": {
+    "stationName": "Repsol Autopista A-6 Km 23",
+    "municipality": "Las Rozas de Madrid",
+    "gasolinea95": 1.679,
+    "gasoleo_A": 1.548,
+    "lastUpdated": "2024-06-10 10:00:00"
+  },
+  "previewConfig": {
+    "title": "Fuel Prices at Spanish Gas Stations",
+    "subtitle": "Spanish Ministry of Energy Data",
+    "displayFields": ["stationName", "municipality", "gasolinea95", "gasoleo_A", "lastUpdated"]
+  }
+}

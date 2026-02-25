@@ -1,0 +1,16 @@
+{
+  "id": "earnings-feed",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "report_date": "2024-02-01",
+    "eps_actual": 2.18,
+    "eps_estimate": 2.11
+  },
+  "previewConfig": {
+    "title": "Earnings Feed",
+    "subtitle": "Finance — Quarterly Earnings Reports",
+    "displayFields": ["ticker", "company_name", "report_date", "eps_actual", "eps_estimate"]
+  }
+}

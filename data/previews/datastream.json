@@ -1,0 +1,16 @@
+{
+  "id": "datastream",
+  "previewType": "card",
+  "sampleResponse": {
+    "station_name": "Lake Simcoe — Cook's Bay",
+    "sample_date": "2024-03-12",
+    "parameter": "Total Phosphorus",
+    "value_mg_l": 0.021,
+    "water_quality_index": "Good"
+  },
+  "previewConfig": {
+    "title": "DataStream",
+    "subtitle": "Open Data — Freshwater Quality Monitoring",
+    "displayFields": ["station_name", "sample_date", "parameter", "value_mg_l", "water_quality_index"]
+  }
+}

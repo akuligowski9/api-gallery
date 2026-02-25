@@ -1,0 +1,16 @@
+{
+  "id": "generate-image-thumbnails-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "original_url": "https://example.com/photos/landscape.jpg",
+    "thumbnail_url": "https://cdn.thumbnails.io/t/300x200/landscape.jpg",
+    "width": 300,
+    "height": 200,
+    "file_size_kb": 18
+  },
+  "previewConfig": {
+    "title": "Generate Image Thumbnails API",
+    "subtitle": "Photography — On-the-fly Image Resizing",
+    "displayFields": ["original_url", "thumbnail_url", "width", "height", "file_size_kb"]
+  }
+}

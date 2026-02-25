@@ -1,0 +1,16 @@
+{
+  "id": "convert-text-to-speech-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "audio_url": "https://api.tts.example.com/output/abc123.mp3",
+    "voice": "en-US-JennyNeural",
+    "duration_seconds": 4.7,
+    "format": "mp3",
+    "characters_processed": 82
+  },
+  "previewConfig": {
+    "title": "TTS Conversion Result",
+    "subtitle": "Text-to-Speech Audio Output",
+    "displayFields": ["audio_url", "voice", "duration_seconds", "format", "characters_processed"]
+  }
+}

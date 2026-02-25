@@ -1,0 +1,20 @@
+{
+  "id": "city-nantes-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_id": "nantes-parking-realtime", "title": "Parking Temps Réel", "category": "Transport", "records": 28400, "last_updated": "2026-02-25" },
+      { "dataset_id": "nantes-bike-stations", "title": "Stations Bicloo", "category": "Mobility", "records": 1120, "last_updated": "2026-02-24" },
+      { "dataset_id": "nantes-green-spaces", "title": "Espaces Verts", "category": "Environment", "records": 5430, "last_updated": "2026-02-20" },
+      { "dataset_id": "nantes-public-events", "title": "Agenda des Événements", "category": "Culture", "records": 892, "last_updated": "2026-02-23" },
+      { "dataset_id": "nantes-schools", "title": "Établissements Scolaires", "category": "Education", "records": 317, "last_updated": "2026-01-15" }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Nantes Open Data",
+    "subtitle": "Municipal Datasets",
+    "itemKey": "title",
+    "secondaryKey": "category",
+    "badgeKey": "records"
+  }
+}

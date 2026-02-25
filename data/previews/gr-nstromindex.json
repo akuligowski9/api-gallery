@@ -1,0 +1,16 @@
+{
+  "id": "gr-nstromindex",
+  "previewType": "card",
+  "sampleResponse": {
+    "region": "DE-BY",
+    "index": 73,
+    "renewablePercent": 68.4,
+    "timestamp": "2026-02-25T10:00:00Z",
+    "recommendation": "good time to consume"
+  },
+  "previewConfig": {
+    "title": "GrünstromIndex",
+    "subtitle": "Green Electricity Index",
+    "displayFields": ["region", "index", "renewablePercent", "timestamp", "recommendation"]
+  }
+}

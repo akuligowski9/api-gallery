@@ -1,0 +1,16 @@
+{
+  "id": "google-docs",
+  "previewType": "card",
+  "sampleResponse": {
+    "document_id": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms",
+    "title": "Q4 2025 Product Roadmap",
+    "owner": "jane.doe@example.com",
+    "last_modified": "2026-02-24T14:32:00Z",
+    "revision_id": "ALBJ4LuK2kT3pQwV9mRzXEoYd7fN1sHa"
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "owner",
+    "displayFields": ["document_id", "title", "owner", "last_modified", "revision_id"]
+  }
+}

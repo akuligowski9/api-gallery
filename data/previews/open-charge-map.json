@@ -1,0 +1,16 @@
+{
+  "id": "open-charge-map",
+  "previewType": "card",
+  "sampleResponse": {
+    "station_name": "ChargePoint Station #4872",
+    "address": "350 5th Ave, New York, NY 10118",
+    "connector_type": "CCS (Type 1)",
+    "power_kw": 150,
+    "status": "Available"
+  },
+  "previewConfig": {
+    "title": "Open Charge Map",
+    "subtitle": "Global EV charging station locations and availability",
+    "displayFields": ["station_name", "address", "connector_type", "power_kw", "status"]
+  }
+}

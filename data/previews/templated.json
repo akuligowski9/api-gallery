@@ -1,0 +1,16 @@
+{
+  "id": "templated",
+  "previewType": "card",
+  "sampleResponse": {
+    "template_id": "tmpl_9xK2mB4vQr",
+    "name": "Golden Hour Portrait",
+    "width": 1080,
+    "height": 1350,
+    "render_url": "https://cdn.templated.io/renders/tmpl_9xK2mB4vQr/output.jpg"
+  },
+  "previewConfig": {
+    "title": "Golden Hour Portrait",
+    "subtitle": "tmpl_9xK2mB4vQr",
+    "displayFields": ["template_id", "name", "width", "height", "render_url"]
+  }
+}

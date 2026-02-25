@@ -1,0 +1,50 @@
+{
+  "id": "open-government-act",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "dataset_id": "ds-act-00142",
+        "title": "Australian Public Service Employee Census 2024",
+        "agency": "Australian Public Service Commission",
+        "format": "CSV",
+        "last_updated": "2024-10-08"
+      },
+      {
+        "dataset_id": "ds-act-00219",
+        "title": "ACT Government Budget Expenditure by Department",
+        "agency": "ACT Treasury",
+        "format": "XLSX",
+        "last_updated": "2024-07-01"
+      },
+      {
+        "dataset_id": "ds-act-00305",
+        "title": "Canberra Hospital Emergency Presentations Monthly",
+        "agency": "ACT Health Directorate",
+        "format": "JSON",
+        "last_updated": "2025-01-15"
+      },
+      {
+        "dataset_id": "ds-act-00388",
+        "title": "Land Development Agency Property Sales Register",
+        "agency": "ACT Planning",
+        "format": "CSV",
+        "last_updated": "2025-03-20"
+      },
+      {
+        "dataset_id": "ds-act-00471",
+        "title": "Public School Enrolment Statistics 2024",
+        "agency": "ACT Education Directorate",
+        "format": "XLSX",
+        "last_updated": "2024-12-05"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Australian Public Service Employee Census 2024",
+    "subtitle": "ACT Government Open Data",
+    "itemKey": "title",
+    "secondaryKey": "agency",
+    "badgeKey": "format"
+  }
+}

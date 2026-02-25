@@ -1,0 +1,20 @@
+{
+  "id": "final-fantasy-xiv",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Paladin", "secondary": "Tank", "badge": 100, "expansion": "A Realm Reborn", "role": "Tank" },
+      { "title": "Black Mage", "secondary": "Magical Ranged DPS", "badge": 100, "expansion": "A Realm Reborn", "role": "DPS" },
+      { "title": "White Mage", "secondary": "Healer", "badge": 100, "expansion": "A Realm Reborn", "role": "Healer" },
+      { "title": "Samurai", "secondary": "Melee DPS", "badge": 100, "expansion": "Stormblood", "role": "DPS" },
+      { "title": "Sage", "secondary": "Healer", "badge": 100, "expansion": "Endwalker", "role": "Healer" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Final Fantasy XIV",
+    "subtitle": "FF14 Jobs & Classes",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

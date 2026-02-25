@@ -1,0 +1,16 @@
+{
+  "id": "mailsac",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "temp-user-7821@mailsac.com",
+    "message_count": 3,
+    "latest_subject": "Your verification code is 482910",
+    "created_at": "2024-12-03T08:15:00Z",
+    "expires_in_hours": 24
+  },
+  "previewConfig": {
+    "title": "Disposable Email Inbox",
+    "subtitle": "Mailsac Test Email API",
+    "displayFields": ["address", "message_count", "latest_subject", "created_at", "expires_in_hours"]
+  }
+}

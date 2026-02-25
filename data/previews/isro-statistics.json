@@ -1,0 +1,20 @@
+{
+  "id": "isro-statistics",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Chandrayaan-3", "secondary": "Lunar Mission", "badge": 2023, "vehicle": "LVM3-M4", "status": "Success" },
+      { "title": "PSLV-C54", "secondary": "Earth Observation", "badge": 2022, "vehicle": "PSLV-XL", "status": "Success" },
+      { "title": "GSAT-24", "secondary": "Communication Satellite", "badge": 2022, "vehicle": "Ariane-5", "status": "Success" },
+      { "title": "EOS-04", "secondary": "Radar Imaging Satellite", "badge": 2022, "vehicle": "PSLV-C52", "status": "Success" },
+      { "title": "Aditya-L1", "secondary": "Solar Observatory", "badge": 2023, "vehicle": "PSLV-C57", "status": "Success" }
+    ]
+  },
+  "previewConfig": {
+    "title": "ISRO Statistics",
+    "subtitle": "Satellite Launches",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

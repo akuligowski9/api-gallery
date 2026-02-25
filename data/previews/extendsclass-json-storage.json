@@ -1,0 +1,16 @@
+{
+  "id": "extendsclass-json-storage",
+  "previewType": "card",
+  "sampleResponse": {
+    "bin_id": "a3f9c21b7e4d",
+    "created_at": "2024-03-12T08:45:00Z",
+    "size_bytes": 1024,
+    "is_private": false,
+    "url": "https://jsonbin.extendsclass.com/b/a3f9c21b7e4d"
+  },
+  "previewConfig": {
+    "title": "ExtendsClass JSON Storage",
+    "subtitle": "Free JSON storage for developers",
+    "displayFields": ["bin_id", "created_at", "size_bytes", "is_private", "url"]
+  }
+}

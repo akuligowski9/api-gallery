@@ -1,0 +1,16 @@
+{
+  "id": "wattbuy",
+  "previewType": "card",
+  "sampleResponse": {
+    "address": "4521 Maple Ave, Austin, TX 78701",
+    "monthly_kwh": 1124,
+    "monthly_cost_usd": 134.88,
+    "solar_potential": "High",
+    "estimated_savings_usd": 72.40
+  },
+  "previewConfig": {
+    "title": "WattBuy",
+    "subtitle": "Home energy analysis",
+    "displayFields": ["address", "monthly_kwh", "monthly_cost_usd", "solar_potential", "estimated_savings_usd"]
+  }
+}

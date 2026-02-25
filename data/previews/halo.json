@@ -1,0 +1,20 @@
+{
+  "id": "halo",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Master Chief", "type": "Character", "faction": "UNSC", "first_appearance": "Halo: Combat Evolved", "rarity": "Legendary" },
+      { "name": "Energy Sword", "type": "Weapon", "faction": "Covenant", "first_appearance": "Halo: Combat Evolved", "rarity": "Rare" },
+      { "name": "Cortana", "type": "Character", "faction": "UNSC", "first_appearance": "Halo: Combat Evolved", "rarity": "Legendary" },
+      { "name": "BR75 Battle Rifle", "type": "Weapon", "faction": "UNSC", "first_appearance": "Halo 2", "rarity": "Common" },
+      { "name": "The Arbiter", "type": "Character", "faction": "Covenant", "first_appearance": "Halo 2", "rarity": "Legendary" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Halo API",
+    "subtitle": "Halo universe characters, weapons, and game data",
+    "itemKey": "name",
+    "secondaryKey": "faction",
+    "badgeKey": "rarity"
+  }
+}

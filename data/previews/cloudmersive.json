@@ -1,0 +1,16 @@
+{
+  "id": "cloudmersive",
+  "previewType": "card",
+  "sampleResponse": {
+    "inputText": "This product is absolutely fantastic and exceeded all my expectations!",
+    "sentiment": "Positive",
+    "confidenceScore": 0.9741,
+    "language": "en",
+    "processingTimeMs": 48
+  },
+  "previewConfig": {
+    "title": "Cloudmersive NLP",
+    "subtitle": "Machine Learning Text Analysis",
+    "displayFields": ["inputText", "sentiment", "confidenceScore", "language", "processingTimeMs"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "exude-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "input": "This is a damn good example of text cleaning",
+    "output": "This is a good example of text cleaning",
+    "wordsRemoved": 1,
+    "cleansingRatio": 0.94,
+    "success": true
+  },
+  "previewConfig": {
+    "title": "Text Cleansing Result",
+    "subtitle": "EXUDE-API — Profanity & Stopword Removal",
+    "displayFields": ["input", "output", "wordsRemoved", "cleansingRatio", "success"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "guerrilla-mail",
+  "previewType": "card",
+  "sampleResponse": {
+    "emailAddr": "tornado.swift492@sharklasers.com",
+    "emailTimestamp": 1740499200,
+    "alias": "tornado.swift492",
+    "sidToken": "gm1_abc9f3d72e14",
+    "expiresInSeconds": 3600
+  },
+  "previewConfig": {
+    "title": "Guerrilla Mail",
+    "subtitle": "Disposable Email Address",
+    "displayFields": ["emailAddr", "alias", "sidToken", "emailTimestamp", "expiresInSeconds"]
+  }
+}

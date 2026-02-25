@@ -1,0 +1,16 @@
+{
+  "id": "traitify",
+  "previewType": "card",
+  "sampleResponse": {
+    "personalityType": "The Visionary",
+    "dominantTrait": "Openness",
+    "compatibleCareers": "Entrepreneur, Designer, Researcher",
+    "completionPercent": 100,
+    "assessmentId": "tfy_8a3f92c1"
+  },
+  "previewConfig": {
+    "title": "The Visionary",
+    "subtitle": "Traitify — Personality Assessment Result",
+    "displayFields": ["personalityType", "dominantTrait", "compatibleCareers", "completionPercent", "assessmentId"]
+  }
+}

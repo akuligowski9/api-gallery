@@ -1,0 +1,16 @@
+{
+  "id": "thames-water-open-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "site_name": "Teddington Weir",
+    "ph_level": 7.4,
+    "dissolved_oxygen_percent": 92.1,
+    "turbidity_ntu": 3.8,
+    "sample_datetime": "2026-02-25T06:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Teddington Weir",
+    "subtitle": "Thames Water Quality Sample",
+    "displayFields": ["site_name", "ph_level", "dissolved_oxygen_percent", "turbidity_ntu", "sample_datetime"]
+  }
+}

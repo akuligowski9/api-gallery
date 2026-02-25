@@ -1,0 +1,16 @@
+{
+  "id": "code-detection-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "language": "Python",
+    "confidence": 0.97,
+    "lineCount": 42,
+    "framework": "Django",
+    "syntax_valid": true
+  },
+  "previewConfig": {
+    "title": "Code Detection API",
+    "subtitle": "Programming Language Detection",
+    "displayFields": ["language", "confidence", "lineCount", "framework", "syntax_valid"]
+  }
+}

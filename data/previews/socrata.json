@@ -1,0 +1,16 @@
+{
+  "id": "socrata",
+  "previewType": "card",
+  "sampleResponse": {
+    "dataset_id": "r8g4-hkzp",
+    "name": "NYC 311 Service Requests",
+    "domain": "data.cityofnewyork.us",
+    "row_count": 35218764,
+    "updated_at": "2026-02-24T23:00:00Z"
+  },
+  "previewConfig": {
+    "title": "NYC 311 Service Requests",
+    "subtitle": "Socrata Open Data Portal",
+    "displayFields": ["dataset_id", "name", "domain", "row_count", "updated_at"]
+  }
+}

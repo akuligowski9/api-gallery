@@ -1,0 +1,16 @@
+{
+  "id": "naver",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "인공지능",
+    "total": 4823910,
+    "topResult": "인공지능(AI)이란 인간의 학습, 추론, 지각 능력을 컴퓨터로 구현하는 기술입니다.",
+    "category": "encyclopedia",
+    "lastBuildDate": "2024-03-15T09:22:00+09:00"
+  },
+  "previewConfig": {
+    "title": "인공지능 (Artificial Intelligence)",
+    "subtitle": "NAVER Search API",
+    "displayFields": ["query", "total", "topResult", "category", "lastBuildDate"]
+  }
+}

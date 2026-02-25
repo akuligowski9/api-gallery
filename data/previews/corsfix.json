@@ -1,0 +1,16 @@
+{
+  "id": "corsfix",
+  "previewType": "card",
+  "sampleResponse": {
+    "proxyUrl": "https://proxy.corsfix.com/?url=https://api.example.com/data",
+    "targetUrl": "https://api.example.com/data",
+    "statusCode": 200,
+    "corsHeadersAdded": true,
+    "cachedResponse": false
+  },
+  "previewConfig": {
+    "title": "targetUrl",
+    "subtitle": "proxyUrl",
+    "displayFields": ["proxyUrl", "targetUrl", "statusCode", "corsHeadersAdded", "cachedResponse"]
+  }
+}

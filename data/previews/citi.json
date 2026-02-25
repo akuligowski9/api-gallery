@@ -1,0 +1,16 @@
+{
+  "id": "citi",
+  "previewType": "card",
+  "sampleResponse": {
+    "account_id": "acc_4820193847",
+    "account_type": "Checking",
+    "currency": "USD",
+    "available_balance": 4231.58,
+    "status": "active"
+  },
+  "previewConfig": {
+    "title": "Citi",
+    "subtitle": "Banking account information",
+    "displayFields": ["account_id", "account_type", "currency", "available_balance", "status"]
+  }
+}

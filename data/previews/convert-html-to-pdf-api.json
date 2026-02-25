@@ -1,0 +1,16 @@
+{
+  "id": "convert-html-to-pdf-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "pdf_url": "https://api.htmlpdf.io/output/doc_c7f3b2.pdf",
+    "page_count": 3,
+    "file_size_kb": 512,
+    "conversion_time_ms": 840,
+    "paper_size": "A4"
+  },
+  "previewConfig": {
+    "title": "PDF Conversion Result",
+    "subtitle": "Convert HTML to PDF API",
+    "displayFields": ["pdf_url", "page_count", "file_size_kb", "conversion_time_ms", "paper_size"]
+  }
+}

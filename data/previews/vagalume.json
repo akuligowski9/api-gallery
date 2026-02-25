@@ -1,0 +1,16 @@
+{
+  "id": "vagalume",
+  "previewType": "card",
+  "sampleResponse": {
+    "song": "Garota de Ipanema",
+    "artist": "Tom Jobim",
+    "genre": "Bossa Nova",
+    "language": "Portuguese",
+    "views": 4823019
+  },
+  "previewConfig": {
+    "title": "Song Info",
+    "subtitle": "Vagalume",
+    "displayFields": ["song", "artist", "genre", "language", "views"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "objectcut",
+  "previewType": "card",
+  "sampleResponse": {
+    "imageId": "oc_7f3a2b9c4e1d",
+    "status": "completed",
+    "detectedObject": "person",
+    "processingTimeMs": 1240,
+    "outputFormat": "PNG"
+  },
+  "previewConfig": {
+    "title": "Background Removal Result",
+    "subtitle": "ObjectCut API",
+    "displayFields": ["imageId", "status", "detectedObject", "processingTimeMs", "outputFormat"]
+  }
+}

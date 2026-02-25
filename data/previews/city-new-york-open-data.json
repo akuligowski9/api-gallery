@@ -1,0 +1,20 @@
+{
+  "id": "city-new-york-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "NYC 311 Service Requests", "category": "Public Safety", "updatedAt": "2024-01-15", "downloads": 482310, "format": "CSV" },
+      { "name": "NYPD Complaint Data Historic", "category": "Public Safety", "updatedAt": "2024-01-10", "downloads": 319850, "format": "CSV" },
+      { "name": "DOB Permit Issuance", "category": "Housing & Development", "updatedAt": "2024-01-12", "downloads": 145200, "format": "CSV" },
+      { "name": "MTA Subway Ridership", "category": "Transportation", "updatedAt": "2024-01-08", "downloads": 278440, "format": "CSV" },
+      { "name": "Restaurant Inspection Results", "category": "Health", "updatedAt": "2024-01-14", "downloads": 394670, "format": "CSV" }
+    ]
+  },
+  "previewConfig": {
+    "title": "NYC Open Datasets",
+    "subtitle": "City of New York — Open Data Portal",
+    "itemKey": "name",
+    "secondaryKey": "category",
+    "badgeKey": "format"
+  }
+}

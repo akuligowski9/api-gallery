@@ -1,0 +1,16 @@
+{
+  "id": "converthub-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "cvt_8f3a92b1d4e7",
+    "status": "completed",
+    "output_format": "pdf",
+    "file_size_kb": 284,
+    "download_url": "https://api.converthub.io/output/cvt_8f3a92b1d4e7.pdf"
+  },
+  "previewConfig": {
+    "title": "ConvertHub API",
+    "subtitle": "File conversion result",
+    "displayFields": ["job_id", "status", "output_format", "file_size_kb", "download_url"]
+  }
+}

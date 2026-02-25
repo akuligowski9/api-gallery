@@ -1,0 +1,16 @@
+{
+  "id": "klarna",
+  "previewType": "card",
+  "sampleResponse": {
+    "session_id": "klarna_sess_4d8f2a1b9c0e",
+    "status": "created",
+    "purchase_currency": "USD",
+    "order_amount_cents": 14999,
+    "payment_method": "pay_later"
+  },
+  "previewConfig": {
+    "title": "Klarna Payment Session",
+    "subtitle": "Buy now pay later session details",
+    "displayFields": ["session_id", "status", "purchase_currency", "order_amount_cents", "payment_method"]
+  }
+}

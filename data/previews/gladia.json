@@ -1,0 +1,16 @@
+{
+  "id": "gladia",
+  "previewType": "card",
+  "sampleResponse": {
+    "transcription_id": "trs_4nRmYvX2pQ",
+    "text": "Welcome to the quarterly earnings call. We are pleased to report record revenue.",
+    "language": "en",
+    "confidence": 0.97,
+    "duration_seconds": 128.4
+  },
+  "previewConfig": {
+    "title": "transcription_id",
+    "subtitle": "language",
+    "displayFields": ["transcription_id", "text", "language", "confidence", "duration_seconds"]
+  }
+}

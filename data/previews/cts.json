@@ -1,0 +1,16 @@
+{
+  "id": "cts",
+  "previewType": "card",
+  "sampleResponse": {
+    "route": "Line 12 - Central Express",
+    "stop": "City Hall Station",
+    "next_arrival": "08:34",
+    "direction": "Northbound",
+    "delay_minutes": 2
+  },
+  "previewConfig": {
+    "title": "CTS",
+    "subtitle": "Strasbourg Public Transit Schedule",
+    "displayFields": ["route", "stop", "next_arrival", "direction", "delay_minutes"]
+  }
+}

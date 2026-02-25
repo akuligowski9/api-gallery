@@ -1,0 +1,20 @@
+{
+  "id": "saidit",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "t3_r4x9m", "title": "What are your thoughts on open source AI models?", "author": "techuser42", "subreddit": "s/technology", "score": 284 },
+      { "id": "t3_k2p7n", "title": "Best practices for remote work productivity", "author": "workfromanywhere", "subreddit": "s/productivity", "score": 193 },
+      { "id": "t3_j8q3l", "title": "Stunning photos from last night's aurora borealis", "author": "northernlights99", "subreddit": "s/photography", "score": 512 },
+      { "id": "t3_m5v1w", "title": "New study links sleep quality to mental health outcomes", "author": "sciencedaily", "subreddit": "s/science", "score": 341 },
+      { "id": "t3_b9d6f", "title": "My homemade sourdough journey — 6 months in", "author": "breadbaker21", "subreddit": "s/food", "score": 178 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Forum Posts",
+    "subtitle": "Saidit",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "subreddit"
+  }
+}

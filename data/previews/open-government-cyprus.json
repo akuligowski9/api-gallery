@@ -1,0 +1,20 @@
+{
+  "id": "open-government-cyprus",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_id": "CY-001", "title": "Population Census 2021", "category": "Demographics", "format": "CSV", "updated": "2023-06-15" },
+      { "dataset_id": "CY-002", "title": "Road Network Infrastructure", "category": "Transport", "format": "GeoJSON", "updated": "2024-01-20" },
+      { "dataset_id": "CY-003", "title": "Agricultural Land Use", "category": "Agriculture", "format": "XLSX", "updated": "2023-11-08" },
+      { "dataset_id": "CY-004", "title": "Air Quality Monitoring Stations", "category": "Environment", "format": "JSON", "updated": "2025-03-30" },
+      { "dataset_id": "CY-005", "title": "Public School Enrollment 2024", "category": "Education", "format": "CSV", "updated": "2025-09-01" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Cyprus Datasets",
+    "subtitle": "category",
+    "itemKey": "title",
+    "secondaryKey": "dataset_id",
+    "badgeKey": "format"
+  }
+}

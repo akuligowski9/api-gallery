@@ -1,0 +1,16 @@
+{
+  "id": "opensensemap",
+  "previewType": "card",
+  "sampleResponse": {
+    "sensor_name": "Mitte Air Station",
+    "temperature_c": 18.4,
+    "humidity_pct": 62,
+    "pm25_ugm3": 11.3,
+    "last_updated": "2025-08-12T09:15:00Z"
+  },
+  "previewConfig": {
+    "title": "openSenseMap",
+    "subtitle": "Weather",
+    "displayFields": ["sensor_name", "temperature_c", "humidity_pct", "pm25_ugm3", "last_updated"]
+  }
+}

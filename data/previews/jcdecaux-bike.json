@@ -1,0 +1,16 @@
+{
+  "id": "jcdecaux-bike",
+  "previewType": "card",
+  "sampleResponse": {
+    "station_name": "Rue de Rivoli - Paris 1er",
+    "available_bikes": 12,
+    "available_bike_stands": 6,
+    "status": "OPEN",
+    "last_update": "2026-02-25T08:42:00Z"
+  },
+  "previewConfig": {
+    "title": "Rue de Rivoli - Paris 1er",
+    "subtitle": "JCDecaux Bike Station",
+    "displayFields": ["station_name", "available_bikes", "available_bike_stands", "status", "last_update"]
+  }
+}

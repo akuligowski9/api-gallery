@@ -1,0 +1,16 @@
+{
+  "id": "geocodify-com",
+  "previewType": "card",
+  "sampleResponse": {
+    "formatted_address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+    "latitude": 37.4224764,
+    "longitude": -122.0842499,
+    "country": "United States",
+    "postal_code": "94043"
+  },
+  "previewConfig": {
+    "title": "1600 Amphitheatre Parkway",
+    "subtitle": "Mountain View, CA 94043, USA",
+    "displayFields": ["formatted_address", "latitude", "longitude", "country", "postal_code"]
+  }
+}

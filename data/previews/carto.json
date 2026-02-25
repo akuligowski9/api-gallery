@@ -1,0 +1,16 @@
+{
+  "id": "carto",
+  "previewType": "card",
+  "sampleResponse": {
+    "dataset_name": "world_borders",
+    "geometry_type": "MultiPolygon",
+    "row_count": 246,
+    "projection": "EPSG:4326",
+    "last_updated": "2024-11-15"
+  },
+  "previewConfig": {
+    "title": "CARTO Open Data",
+    "subtitle": "Geospatial Dataset Info",
+    "displayFields": ["dataset_name", "geometry_type", "row_count", "projection", "last_updated"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "flight-fare-search",
+  "previewType": "card",
+  "sampleResponse": {
+    "route": "JFK → LAX",
+    "airline": "Delta Air Lines",
+    "departure": "2025-02-14T08:30:00",
+    "price_usd": 187.50,
+    "cabin_class": "Economy"
+  },
+  "previewConfig": {
+    "title": "Flight Fare",
+    "subtitle": "Flight Fare Search API",
+    "displayFields": ["route", "airline", "departure", "price_usd", "cabin_class"]
+  }
+}

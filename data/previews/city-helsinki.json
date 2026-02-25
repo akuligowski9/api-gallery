@@ -1,0 +1,20 @@
+{
+  "id": "city-helsinki",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Helsinki Building Registry", "secondary": "Urban Planning", "badge": 142300, "extra1": "Updated daily", "extra2": "CSV, JSON, GeoJSON" },
+      { "title": "Public Transport Timetables", "secondary": "Transportation", "badge": 58400, "extra1": "Updated hourly", "extra2": "JSON, GTFS" },
+      { "title": "City Budget 2025", "secondary": "Finance", "badge": 8200, "extra1": "Updated annually", "extra2": "XLSX, JSON" },
+      { "title": "Parks and Green Areas", "secondary": "Environment", "badge": 3750, "extra1": "Updated monthly", "extra2": "GeoJSON, KML" },
+      { "title": "Helsinki Population Statistics", "secondary": "Demographics", "badge": 21600, "extra1": "Updated quarterly", "extra2": "CSV, JSON" }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Helsinki Open Data",
+    "subtitle": "Municipal datasets from Helsinki",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

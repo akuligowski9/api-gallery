@@ -1,0 +1,16 @@
+{
+  "id": "fynk",
+  "previewType": "card",
+  "sampleResponse": {
+    "document_id": "doc_7hq2mxp1",
+    "title": "Software License Agreement",
+    "status": "pending_signature",
+    "created_at": "2024-04-01T10:00:00Z",
+    "parties": "Acme Corp, Jane Smith"
+  },
+  "previewConfig": {
+    "title": "fynk",
+    "subtitle": "Contract and document management",
+    "displayFields": ["document_id", "title", "status", "created_at", "parties"]
+  }
+}

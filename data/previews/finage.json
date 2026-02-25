@@ -1,0 +1,16 @@
+{
+  "id": "finage",
+  "previewType": "card",
+  "sampleResponse": {
+    "symbol": "AAPL",
+    "price": 189.43,
+    "change": 2.17,
+    "changePercent": 1.16,
+    "volume": 54823100
+  },
+  "previewConfig": {
+    "title": "AAPL",
+    "subtitle": "Apple Inc. — Stock Quote",
+    "displayFields": ["symbol", "price", "change", "changePercent", "volume"]
+  }
+}

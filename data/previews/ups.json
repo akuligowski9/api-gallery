@@ -1,0 +1,16 @@
+{
+  "id": "ups",
+  "previewType": "card",
+  "sampleResponse": {
+    "tracking_number": "1Z999AA10123456784",
+    "status": "In Transit",
+    "scheduled_delivery": "2026-02-26",
+    "current_location": "Louisville, KY, US",
+    "weight_lbs": 3.2
+  },
+  "previewConfig": {
+    "title": "1Z999AA10123456784",
+    "subtitle": "UPS Package Tracking",
+    "displayFields": ["tracking_number", "status", "scheduled_delivery", "current_location", "weight_lbs"]
+  }
+}

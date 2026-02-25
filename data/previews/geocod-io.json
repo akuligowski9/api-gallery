@@ -1,0 +1,16 @@
+{
+  "id": "geocod-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "formatted_address": "1600 Pennsylvania Ave NW, Washington, DC 20500",
+    "latitude": 38.897663,
+    "longitude": -77.036574,
+    "accuracy_score": 1.0,
+    "accuracy_type": "rooftop"
+  },
+  "previewConfig": {
+    "title": "1600 Pennsylvania Ave NW, Washington, DC 20500",
+    "subtitle": "rooftop",
+    "displayFields": ["formatted_address", "latitude", "longitude", "accuracy_score", "accuracy_type"]
+  }
+}

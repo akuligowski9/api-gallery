@@ -1,0 +1,16 @@
+{
+  "id": "notilify",
+  "previewType": "card",
+  "sampleResponse": {
+    "notification_id": "ntf_c7e41b09",
+    "channel": "email",
+    "recipient": "user@example.com",
+    "status": "delivered",
+    "sent_at": "2026-02-25T08:15:30Z"
+  },
+  "previewConfig": {
+    "title": "Notilify",
+    "subtitle": "Multi-channel notification delivery tracking",
+    "displayFields": ["notification_id", "channel", "recipient", "status", "sent_at"]
+  }
+}

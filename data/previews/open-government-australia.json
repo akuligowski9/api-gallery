@@ -1,0 +1,20 @@
+{
+  "id": "open-government-australia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_id": "ds-001", "title": "Australian Bureau of Statistics - Population", "publisher": "ABS", "format": "CSV", "updated": "2024-03-01" },
+      { "dataset_id": "ds-002", "title": "National Pollutant Inventory 2023", "publisher": "DCCEEW", "format": "JSON", "updated": "2024-01-15" },
+      { "dataset_id": "ds-003", "title": "Medicare Benefits Schedule Item Statistics", "publisher": "DoH", "format": "XLSX", "updated": "2024-02-20" },
+      { "dataset_id": "ds-004", "title": "Australian Road Deaths Database", "publisher": "BITRE", "format": "CSV", "updated": "2024-03-10" },
+      { "dataset_id": "ds-005", "title": "Geoscience Australia Earthquake Feed", "publisher": "GA", "format": "GeoJSON", "updated": "2024-03-12" }
+    ]
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "publisher",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

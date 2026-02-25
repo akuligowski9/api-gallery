@@ -1,0 +1,16 @@
+{
+  "id": "tiktok",
+  "previewType": "card",
+  "sampleResponse": {
+    "video_id": "7349821034567890123",
+    "description": "Trying the viral pasta recipe everyone is talking about #foodtok #cooking",
+    "author": "@chefmarcella",
+    "play_count": 4820000,
+    "duration_sec": 47
+  },
+  "previewConfig": {
+    "title": "TikTok",
+    "subtitle": "TikTok video and creator data",
+    "displayFields": ["video_id", "description", "author", "play_count", "duration_sec"]
+  }
+}

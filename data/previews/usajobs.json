@@ -1,0 +1,20 @@
+{
+  "id": "usajobs",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "job_title": "Software Engineer", "agency": "Dept. of Defense", "location": "Arlington, VA", "salary_min": 95000, "closing_date": "2026-03-15" },
+      { "job_title": "Data Scientist", "agency": "NASA", "location": "Houston, TX", "salary_min": 105000, "closing_date": "2026-03-22" },
+      { "job_title": "Cybersecurity Analyst", "agency": "DHS", "location": "Washington, DC", "salary_min": 98000, "closing_date": "2026-03-10" },
+      { "job_title": "Policy Analyst", "agency": "Dept. of State", "location": "Washington, DC", "salary_min": 82000, "closing_date": "2026-03-30" },
+      { "job_title": "Environmental Engineer", "agency": "EPA", "location": "Denver, CO", "salary_min": 88000, "closing_date": "2026-04-01" }
+    ]
+  },
+  "previewConfig": {
+    "title": "USAJOBS",
+    "subtitle": "Official US government job listings",
+    "itemKey": "job_title",
+    "secondaryKey": "agency",
+    "badgeKey": "location"
+  }
+}

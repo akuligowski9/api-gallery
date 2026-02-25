@@ -1,0 +1,16 @@
+{
+  "id": "microsoft-security-response-center-msrc",
+  "previewType": "card",
+  "sampleResponse": {
+    "cve_id": "CVE-2024-21338",
+    "title": "Windows Kernel Elevation of Privilege Vulnerability",
+    "severity": "Important",
+    "cvss_score": 7.8,
+    "published_date": "2024-02-13"
+  },
+  "previewConfig": {
+    "title": "CVE-2024-21338",
+    "subtitle": "Important",
+    "displayFields": ["cve_id", "title", "severity", "cvss_score", "published_date"]
+  }
+}

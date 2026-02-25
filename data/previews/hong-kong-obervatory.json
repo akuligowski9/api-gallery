@@ -1,0 +1,16 @@
+{
+  "id": "hong-kong-obervatory",
+  "previewType": "card",
+  "sampleResponse": {
+    "station": "Hong Kong Observatory",
+    "temperature_celsius": 22,
+    "humidity_percent": 74,
+    "weather_description": "Cloudy with a few showers",
+    "wind_speed_kmh": 19
+  },
+  "previewConfig": {
+    "title": "Hong Kong Observatory",
+    "subtitle": "Current Weather Conditions",
+    "displayFields": ["station", "temperature_celsius", "humidity_percent", "weather_description", "wind_speed_kmh"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "jsonai-cloud",
+  "previewType": "card",
+  "sampleResponse": {
+    "model": "gpt-4o",
+    "prompt": "Generate a product description for a standing desk",
+    "tokens_used": 312,
+    "finish_reason": "stop",
+    "generated_text": "Elevate your workspace with our premium adjustable standing desk."
+  },
+  "previewConfig": {
+    "title": "jsonAi.cloud",
+    "subtitle": "AI-powered JSON generation via cloud API",
+    "displayFields": ["model", "prompt", "tokens_used", "finish_reason", "generated_text"]
+  }
+}

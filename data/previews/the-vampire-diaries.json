@@ -1,0 +1,16 @@
+{
+  "id": "the-vampire-diaries",
+  "previewType": "card",
+  "sampleResponse": {
+    "character": "Damon Salvatore",
+    "quote": "I do believe in killing the messenger. You know why? It sends a message.",
+    "season": 1,
+    "episode": "Pilot",
+    "actor": "Ian Somerhalder"
+  },
+  "previewConfig": {
+    "title": "character",
+    "subtitle": "actor",
+    "displayFields": ["character", "quote", "season", "episode", "actor"]
+  }
+}

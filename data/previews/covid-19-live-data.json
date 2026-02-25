@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-live-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "United States",
+    "confirmed": 104931260,
+    "deaths": 1143765,
+    "recovered": 102048000,
+    "last_updated": "2026-02-25T06:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Covid-19 Live Data",
+    "subtitle": "Real-time global statistics",
+    "displayFields": ["country", "confirmed", "deaths", "recovered", "last_updated"]
+  }
+}

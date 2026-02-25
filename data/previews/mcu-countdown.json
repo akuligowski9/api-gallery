@@ -1,0 +1,16 @@
+{
+  "id": "mcu-countdown",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Avengers: Secret Wars",
+    "release_date": "2027-05-07",
+    "days_until_release": 436,
+    "phase": "Phase 6",
+    "type": "Film"
+  },
+  "previewConfig": {
+    "title": "MCU Countdown",
+    "subtitle": "Countdown to the next Marvel Cinematic Universe release",
+    "displayFields": ["title", "release_date", "days_until_release", "phase", "type"]
+  }
+}

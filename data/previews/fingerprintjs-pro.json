@@ -1,0 +1,16 @@
+{
+  "id": "fingerprintjs-pro",
+  "previewType": "card",
+  "sampleResponse": {
+    "visitorId": "Cn3neupkgYoenlJBT3Hz",
+    "confidence": 0.995,
+    "browserName": "Chrome",
+    "os": "macOS",
+    "incognito": false
+  },
+  "previewConfig": {
+    "title": "visitorId",
+    "subtitle": "browserName",
+    "displayFields": ["visitorId", "confidence", "browserName", "os", "incognito"]
+  }
+}

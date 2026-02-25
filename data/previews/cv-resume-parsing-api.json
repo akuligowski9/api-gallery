@@ -1,0 +1,16 @@
+{
+  "id": "cv-resume-parsing-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "candidateName": "Priya Nair",
+    "email": "priya.nair@gmail.com",
+    "totalExperienceYears": 6,
+    "highestDegree": "B.Tech Computer Science",
+    "topSkill": "Python"
+  },
+  "previewConfig": {
+    "title": "candidateName",
+    "subtitle": "highestDegree",
+    "displayFields": ["candidateName", "email", "totalExperienceYears", "highestDegree", "topSkill"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "geoapify",
+  "previewType": "card",
+  "sampleResponse": {
+    "place_id": "51b2c1d0f1e8a9b3c4d5e6f7",
+    "name": "Eiffel Tower",
+    "address": "Champ de Mars, 5 Av. Anatole France, Paris",
+    "latitude": 48.8584,
+    "longitude": 2.2945
+  },
+  "previewConfig": {
+    "title": "Geoapify",
+    "subtitle": "Place Details",
+    "displayFields": ["place_id", "name", "address", "latitude", "longitude"]
+  }
+}

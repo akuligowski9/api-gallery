@@ -1,0 +1,16 @@
+{
+  "id": "vuldb",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "221847",
+    "title": "Linux Kernel io_uring Use-After-Free Privilege Escalation",
+    "cvss_score": "7.8",
+    "severity": "High",
+    "publish_date": "2023-11-14"
+  },
+  "previewConfig": {
+    "title": "Linux Kernel io_uring Use-After-Free Privilege Escalation",
+    "subtitle": "VulDB ID: 221847",
+    "displayFields": ["id", "title", "cvss_score", "severity", "publish_date"]
+  }
+}

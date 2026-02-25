@@ -1,0 +1,16 @@
+{
+  "id": "meteoblue",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Zurich, Switzerland",
+    "temperature_2m": 14.3,
+    "precipitation": 0.2,
+    "windspeed_10m": 18.5,
+    "weather_description": "Partly cloudy"
+  },
+  "previewConfig": {
+    "title": "location",
+    "subtitle": "weather_description",
+    "displayFields": ["location", "temperature_2m", "precipitation", "windspeed_10m", "weather_description"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sweego",
+  "previewType": "card",
+  "sampleResponse": {
+    "message_id": "msg_4Kx9nPqR2Z",
+    "to": "customer@example.com",
+    "subject": "Your order has shipped!",
+    "status": "delivered",
+    "delivered_at": "2025-12-01T09:15:42Z"
+  },
+  "previewConfig": {
+    "title": "Your order has shipped!",
+    "subtitle": "customer@example.com",
+    "displayFields": ["message_id", "to", "subject", "status", "delivered_at"]
+  }
+}

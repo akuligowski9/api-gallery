@@ -1,0 +1,20 @@
+{
+  "id": "gaana",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Kesariya", "secondary": "Arijit Singh", "badge": 98, "album": "Brahmastra", "duration": "4:28" },
+      { "title": "Raataan Lambiyan", "secondary": "Jubin Nautiyal", "badge": 95, "album": "Shershaah", "duration": "3:53" },
+      { "title": "Tum Hi Ho", "secondary": "Arijit Singh", "badge": 93, "album": "Aashiqui 2", "duration": "4:13" },
+      { "title": "Ek Tha Tiger", "secondary": "Sohail Sen", "badge": 88, "album": "Ek Tha Tiger", "duration": "3:37" },
+      { "title": "Channa Mereya", "secondary": "Arijit Singh", "badge": 91, "album": "Ae Dil Hai Mushkil", "duration": "4:49" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Gaana",
+    "subtitle": "Indian Music Tracks",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

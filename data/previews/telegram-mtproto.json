@@ -1,0 +1,16 @@
+{
+  "id": "telegram-mtproto",
+  "previewType": "card",
+  "sampleResponse": {
+    "channel_title": "Tech News Daily",
+    "message_id": 48291,
+    "message_text": "Breaking: New AI model surpasses GPT-4 on all benchmarks.",
+    "views": 142300,
+    "date": "2026-02-25"
+  },
+  "previewConfig": {
+    "title": "Telegram MTProto",
+    "subtitle": "Telegram message and channel data via MTProto API",
+    "displayFields": ["channel_title", "message_id", "message_text", "views", "date"]
+  }
+}

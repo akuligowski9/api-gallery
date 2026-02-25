@@ -1,0 +1,16 @@
+{
+  "id": "glitterly",
+  "previewType": "card",
+  "sampleResponse": {
+    "image_url": "https://cdn.glitterly.app/renders/a3f92c1d-7b44-4e10-8f6a-2c9e0d3b5a71.png",
+    "prompt": "futuristic city skyline at sunset with neon lights",
+    "width": 1024,
+    "height": 1024,
+    "generation_time_ms": 3420
+  },
+  "previewConfig": {
+    "title": "Glitterly",
+    "subtitle": "AI-generated image from text prompt",
+    "displayFields": ["image_url", "prompt", "width", "height", "generation_time_ms"]
+  }
+}

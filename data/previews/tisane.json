@@ -1,0 +1,16 @@
+{
+  "id": "tisane",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "The new policy has outraged many citizens across the country.",
+    "language": "en",
+    "sentiment": "negative",
+    "primary_topic": "Politics",
+    "abuse_detected": false
+  },
+  "previewConfig": {
+    "title": "Text Analysis Result",
+    "subtitle": "en",
+    "displayFields": ["text", "language", "sentiment", "primary_topic", "abuse_detected"]
+  }
+}

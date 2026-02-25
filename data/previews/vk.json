@@ -1,0 +1,16 @@
+{
+  "id": "vk",
+  "previewType": "card",
+  "sampleResponse": {
+    "user_id": 123456789,
+    "first_name": "Aleksei",
+    "last_name": "Petrov",
+    "city": "Saint Petersburg",
+    "followers": 1482
+  },
+  "previewConfig": {
+    "title": "VK",
+    "subtitle": "VK User Profile",
+    "displayFields": ["user_id", "first_name", "last_name", "city", "followers"]
+  }
+}

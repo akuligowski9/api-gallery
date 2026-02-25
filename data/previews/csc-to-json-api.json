@@ -1,0 +1,16 @@
+{
+  "id": "csc-to-json-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "United States",
+    "country_code": "US",
+    "state": "California",
+    "state_code": "CA",
+    "city": "San Francisco"
+  },
+  "previewConfig": {
+    "title": "country",
+    "subtitle": "state",
+    "displayFields": ["country", "country_code", "state", "state_code", "city"]
+  }
+}

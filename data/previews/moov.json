@@ -1,0 +1,16 @@
+{
+  "id": "moov",
+  "previewType": "card",
+  "sampleResponse": {
+    "transfer_id": "trn_8f3a2c1d9e4b7f05",
+    "amount": 4250,
+    "currency": "USD",
+    "status": "completed",
+    "created_at": "2026-02-25T14:32:00Z"
+  },
+  "previewConfig": {
+    "title": "Transfer trn_8f3a2c1d9e4b7f05",
+    "subtitle": "Money Transfer",
+    "displayFields": ["transfer_id", "amount", "currency", "status", "created_at"]
+  }
+}

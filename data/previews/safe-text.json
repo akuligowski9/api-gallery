@@ -1,0 +1,16 @@
+{
+  "id": "safe-text",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "This product is absolutely amazing!",
+    "is_safe": true,
+    "toxicity_score": 0.02,
+    "flagged_category": "none",
+    "language": "en"
+  },
+  "previewConfig": {
+    "title": "Safe Text",
+    "subtitle": "Text Analysis",
+    "displayFields": ["text", "is_safe", "toxicity_score", "flagged_category", "language"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lingua-robot",
+  "previewType": "card",
+  "sampleResponse": {
+    "word": "ephemeral",
+    "partOfSpeech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "exampleSentence": "The ephemeral beauty of cherry blossoms draws millions of visitors each spring.",
+    "synonyms": "transient, fleeting, momentary, short-lived"
+  },
+  "previewConfig": {
+    "title": "Lingua Robot",
+    "subtitle": "English Dictionary & Linguistics",
+    "displayFields": ["word", "partOfSpeech", "definition", "exampleSentence", "synonyms"]
+  }
+}

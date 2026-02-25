@@ -1,0 +1,16 @@
+{
+  "id": "generate-thumbnail-from-video-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "thumbnail_url": "https://thumbs.example.com/vid_xyz987_t30.jpg",
+    "video_url": "https://cdn.example.com/videos/product_demo.mp4",
+    "timestamp_seconds": 30,
+    "width": 1280,
+    "height": 720
+  },
+  "previewConfig": {
+    "title": "Generate Thumbnail from Video API",
+    "subtitle": "Thumbnail Generation",
+    "displayFields": ["thumbnail_url", "video_url", "timestamp_seconds", "width", "height"]
+  }
+}

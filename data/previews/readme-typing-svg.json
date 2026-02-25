@@ -1,0 +1,16 @@
+{
+  "id": "readme-typing-svg",
+  "previewType": "card",
+  "sampleResponse": {
+    "svg_url": "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F75C7E&lines=Hello+World",
+    "font": "Fira Code",
+    "font_size": 22,
+    "color": "#F75C7E",
+    "pause_ms": 1000
+  },
+  "previewConfig": {
+    "title": "font",
+    "subtitle": "svg_url",
+    "displayFields": ["svg_url", "font", "font_size", "color", "pause_ms"]
+  }
+}

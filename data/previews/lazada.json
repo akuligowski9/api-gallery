@@ -1,0 +1,16 @@
+{
+  "id": "lazada",
+  "previewType": "card",
+  "sampleResponse": {
+    "item_id": "LZD-7829340012",
+    "name": "Xiaomi Redmi Note 13 Pro 256GB",
+    "price": 349.00,
+    "currency": "USD",
+    "seller": "TechMart Official Store"
+  },
+  "previewConfig": {
+    "title": "Lazada Product Listing",
+    "subtitle": "Lazada Shopping API",
+    "displayFields": ["item_id", "name", "price", "currency", "seller"]
+  }
+}

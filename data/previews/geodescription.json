@@ -1,0 +1,16 @@
+{
+  "id": "geodescription",
+  "previewType": "card",
+  "sampleResponse": {
+    "place_name": "Eiffel Tower",
+    "city": "Paris",
+    "country": "France",
+    "description": "Iconic wrought-iron lattice tower on the Champ de Mars, completed in 1889.",
+    "coordinates": "48.8584° N, 2.2945° E"
+  },
+  "previewConfig": {
+    "title": "Eiffel Tower",
+    "subtitle": "Location Description",
+    "displayFields": ["place_name", "city", "country", "description", "coordinates"]
+  }
+}

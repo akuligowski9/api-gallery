@@ -1,0 +1,16 @@
+{
+  "id": "front-accounting-apis",
+  "previewType": "card",
+  "sampleResponse": {
+    "entry_id": "JE-00412",
+    "account_name": "Office Supplies",
+    "debit_amount": 250.00,
+    "credit_amount": 0.00,
+    "entry_date": "2026-02-25"
+  },
+  "previewConfig": {
+    "title": "account_name",
+    "subtitle": "entry_id",
+    "displayFields": ["entry_id", "account_name", "debit_amount", "credit_amount", "entry_date"]
+  }
+}

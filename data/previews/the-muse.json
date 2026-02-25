@@ -1,0 +1,20 @@
+{
+  "id": "the-muse",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "job_id": 382910, "title": "Senior Software Engineer", "company": "Stripe", "location": "Remote", "category": "Engineering" },
+      { "job_id": 391045, "title": "Product Manager", "company": "Airbnb", "location": "San Francisco, CA", "category": "Product" },
+      { "job_id": 374822, "title": "Data Scientist", "company": "Spotify", "location": "New York, NY", "category": "Data Science" },
+      { "job_id": 403117, "title": "UX Designer", "company": "Figma", "location": "San Francisco, CA", "category": "Design" },
+      { "job_id": 415033, "title": "DevOps Engineer", "company": "HashiCorp", "location": "Remote", "category": "Engineering" }
+    ]
+  },
+  "previewConfig": {
+    "title": "The Muse Job Listings",
+    "subtitle": "Curated job postings from top companies",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "category"
+  }
+}

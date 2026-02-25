@@ -1,0 +1,16 @@
+{
+  "id": "econdb",
+  "previewType": "card",
+  "sampleResponse": {
+    "indicator": "GDP Growth Rate",
+    "country": "United States",
+    "value": 2.5,
+    "period": "2024-Q1",
+    "unit": "% change (annualized)"
+  },
+  "previewConfig": {
+    "title": "Econdb",
+    "subtitle": "Global Economic Indicators",
+    "displayFields": ["indicator", "country", "value", "period", "unit"]
+  }
+}

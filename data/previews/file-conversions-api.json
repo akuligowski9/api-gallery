@@ -1,0 +1,16 @@
+{
+  "id": "file-conversions-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "fcv_8a3d92f1",
+    "source_format": "docx",
+    "target_format": "pdf",
+    "status": "completed",
+    "download_url": "https://files.example.com/fcv_8a3d92f1.pdf"
+  },
+  "previewConfig": {
+    "title": "File Conversions API",
+    "subtitle": "Convert documents between formats via API",
+    "displayFields": ["job_id", "source_format", "target_format", "status", "download_url"]
+  }
+}

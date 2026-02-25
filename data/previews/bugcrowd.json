@@ -1,0 +1,50 @@
+{
+  "id": "bugcrowd",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Tesla Bug Bounty Program",
+        "author": "Tesla, Inc.",
+        "year": 2023,
+        "citations": 4200,
+        "journal": "Automotive / IoT"
+      },
+      {
+        "title": "Mastercard Responsible Disclosure",
+        "author": "Mastercard",
+        "year": 2022,
+        "citations": 3100,
+        "journal": "Finance"
+      },
+      {
+        "title": "Fitbit Security Research",
+        "author": "Google / Fitbit",
+        "year": 2023,
+        "citations": 1850,
+        "journal": "Wearables / IoT"
+      },
+      {
+        "title": "Atlassian Bug Bounty",
+        "author": "Atlassian",
+        "year": 2022,
+        "citations": 2975,
+        "journal": "SaaS / Collaboration"
+      },
+      {
+        "title": "Dell Technologies VDP",
+        "author": "Dell Technologies",
+        "year": 2023,
+        "citations": 990,
+        "journal": "Hardware / Software"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Bugcrowd",
+    "subtitle": "Bug Bounty & Vulnerability Disclosure Programs",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "citations"
+  }
+}

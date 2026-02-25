@@ -1,0 +1,16 @@
+{
+  "id": "instagram-posts-generator",
+  "previewType": "card",
+  "sampleResponse": {
+    "post_id": "ig_gen_post_5582a",
+    "caption": "Golden hour vibes hitting different today. #sunset #photography #goldenHour",
+    "hashtag_count": 3,
+    "image_url": "https://cdn.iggen.io/posts/5582a.jpg",
+    "tone": "casual"
+  },
+  "previewConfig": {
+    "title": "Instagram Post",
+    "subtitle": "Instagram Posts Generator API",
+    "displayFields": ["post_id", "caption", "hashtag_count", "image_url", "tone"]
+  }
+}

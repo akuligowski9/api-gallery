@@ -1,0 +1,16 @@
+{
+  "id": "meteorologisk-institutt",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Oslo, Norway",
+    "temperatureC": -3.2,
+    "condition": "Lett snøfall",
+    "windSpeedMs": 4.8,
+    "humidity": 87
+  },
+  "previewConfig": {
+    "title": "location",
+    "subtitle": "condition",
+    "displayFields": ["location", "temperatureC", "condition", "windSpeedMs", "humidity"]
+  }
+}

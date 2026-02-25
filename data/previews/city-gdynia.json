@@ -1,0 +1,20 @@
+{
+  "id": "city-gdynia",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Public Transport Stops", "secondary": "Transportation", "badge": 412, "format": "CSV", "lastUpdated": "2026-01-15" },
+      { "title": "Air Quality Sensors", "secondary": "Environment", "badge": 28, "format": "JSON", "lastUpdated": "2026-02-20" },
+      { "title": "City Budget 2025", "secondary": "Finance", "badge": 3, "format": "XLSX", "lastUpdated": "2025-12-01" },
+      { "title": "Bicycle Paths", "secondary": "Infrastructure", "badge": 87, "format": "GeoJSON", "lastUpdated": "2025-11-10" },
+      { "title": "Public Libraries", "secondary": "Culture", "badge": 14, "format": "JSON", "lastUpdated": "2025-10-05" }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Gdynia",
+    "subtitle": "Open City Datasets",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

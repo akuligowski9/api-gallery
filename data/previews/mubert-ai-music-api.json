@@ -1,0 +1,16 @@
+{
+  "id": "mubert-ai-music-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "track_id": "mub-tk-9382746",
+    "genre": "Lo-Fi Chill",
+    "duration_seconds": 180,
+    "bpm": 78,
+    "stream_url": "https://cdn.mubert.com/tracks/mub-tk-9382746.mp3"
+  },
+  "previewConfig": {
+    "title": "Mubert AI Music API",
+    "subtitle": "AI-Generated Music Track",
+    "displayFields": ["track_id", "genre", "duration_seconds", "bpm", "stream_url"]
+  }
+}

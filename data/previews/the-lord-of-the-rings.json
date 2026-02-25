@@ -1,0 +1,20 @@
+{
+  "id": "the-lord-of-the-rings",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Frodo Baggins", "race": "Hobbit", "realm": "The Shire", "birth": "TA 2968", "hair": "Brown" },
+      { "name": "Gandalf", "race": "Maiar", "realm": "Valinor", "birth": "Before Time", "hair": "Grey" },
+      { "name": "Aragorn", "race": "Man", "realm": "Gondor", "birth": "TA 2931", "hair": "Dark" },
+      { "name": "Legolas", "race": "Elf", "realm": "Mirkwood", "birth": "TA 87", "hair": "Blonde" },
+      { "name": "Gimli", "race": "Dwarf", "realm": "Erebor", "birth": "TA 2879", "hair": "Red" }
+    ]
+  },
+  "previewConfig": {
+    "title": "The Lord of the Rings",
+    "subtitle": "Characters from Tolkien's Middle-earth",
+    "itemKey": "name",
+    "secondaryKey": "realm",
+    "badgeKey": "race"
+  }
+}

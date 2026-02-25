@@ -1,0 +1,16 @@
+{
+  "id": "sport-data",
+  "previewType": "card",
+  "sampleResponse": {
+    "match": "Lakers vs. Celtics",
+    "sport": "Basketball",
+    "score": "108 - 97",
+    "status": "Final",
+    "date": "2026-02-24"
+  },
+  "previewConfig": {
+    "title": "Sport Data",
+    "subtitle": "Live and historical sports scores and match data",
+    "displayFields": ["match", "sport", "score", "status", "date"]
+  }
+}

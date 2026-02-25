@@ -1,0 +1,20 @@
+{
+  "id": "guild-wars-2",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": 29929, "name": "Berserker's Soft Wood Short Bow of Fire", "type": "Weapon", "rarity": "Masterwork", "level": 35 },
+      { "id": 12452, "name": "Omnomberry Ghost", "type": "Consumable", "rarity": "Fine", "level": 70 },
+      { "id": 19993, "name": "Glob of Ectoplasm", "type": "CraftingMaterial", "rarity": "Rare", "level": 0 },
+      { "id": 46774, "name": "Endless Unbreakable Choir Bell", "type": "Trinket", "rarity": "Exotic", "level": 80 },
+      { "id": 72504, "name": "Zojja's Breastplate", "type": "Armor", "rarity": "Ascended", "level": 80 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Guild Wars 2 Items",
+    "subtitle": "Guild Wars 2",
+    "itemKey": "name",
+    "secondaryKey": "type",
+    "badgeKey": "rarity"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mockae",
+  "previewType": "card",
+  "sampleResponse": {
+    "full_name": "Jordan Ellis",
+    "email": "jordan.ellis@mockae.io",
+    "phone": "+1-555-204-9871",
+    "country": "United States",
+    "username": "jordy_e92"
+  },
+  "previewConfig": {
+    "title": "Jordan Ellis",
+    "subtitle": "Mock User Profile",
+    "displayFields": ["full_name", "email", "phone", "country", "username"]
+  }
+}

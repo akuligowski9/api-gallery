@@ -1,0 +1,16 @@
+{
+  "id": "genesis",
+  "previewType": "card",
+  "sampleResponse": {
+    "table_id": "12411-0041",
+    "title": "Bevölkerung nach Geschlecht und Staatsangehörigkeit",
+    "publisher": "Statistisches Bundesamt",
+    "last_updated": "2024-06-30",
+    "record_count": 83200000
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "publisher",
+    "displayFields": ["table_id", "title", "publisher", "last_updated", "record_count"]
+  }
+}

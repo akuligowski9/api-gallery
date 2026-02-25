@@ -1,0 +1,16 @@
+{
+  "id": "dataflow-kit-covid-19",
+  "previewType": "card",
+  "sampleResponse": {
+    "country": "United States",
+    "confirmed": 103802702,
+    "deaths": 1127152,
+    "recovered": 100674048,
+    "active": 1328
+  },
+  "previewConfig": {
+    "title": "United States",
+    "subtitle": "COVID-19 Statistics",
+    "displayFields": ["country", "confirmed", "deaths", "recovered", "active"]
+  }
+}

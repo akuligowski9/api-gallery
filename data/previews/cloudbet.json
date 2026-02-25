@@ -1,0 +1,16 @@
+{
+  "id": "cloudbet",
+  "previewType": "card",
+  "sampleResponse": {
+    "event": "Manchester City vs Liverpool",
+    "sport": "Soccer",
+    "market": "Match Winner",
+    "odds_home": 2.15,
+    "kickoff_utc": "2024-04-13T15:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Cloudbet",
+    "subtitle": "Sports Betting Odds & Events",
+    "displayFields": ["event", "sport", "market", "odds_home", "kickoff_utc"]
+  }
+}

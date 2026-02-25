@@ -1,0 +1,20 @@
+{
+  "id": "humble-bundle",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "bundle_name": "Humble Choice February 2026", "game_count": 12, "price_usd": 11.99, "publisher": "Various", "category": "Games" },
+      { "bundle_name": "Humble RPG Bundle 2026", "game_count": 8, "price_usd": 14.99, "publisher": "Various", "category": "RPG" },
+      { "bundle_name": "Humble Survival Bundle", "game_count": 10, "price_usd": 9.99, "publisher": "Various", "category": "Survival" },
+      { "bundle_name": "Humble Indie Legends Vol. 5", "game_count": 7, "price_usd": 12.00, "publisher": "Indie Studios", "category": "Indie" },
+      { "bundle_name": "Humble Strategy Essentials", "game_count": 6, "price_usd": 8.99, "publisher": "Various", "category": "Strategy" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Humble Bundle",
+    "subtitle": "Game bundle listings from Humble Bundle",
+    "itemKey": "bundle_name",
+    "secondaryKey": "category",
+    "badgeKey": "price_usd"
+  }
+}

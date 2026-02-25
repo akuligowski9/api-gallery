@@ -1,0 +1,16 @@
+{
+  "id": "boleto-cloud",
+  "previewType": "card",
+  "sampleResponse": {
+    "boletoId": "BLC-2025-88472913",
+    "status": "pending",
+    "amountBRL": 349.90,
+    "dueDate": "2025-10-21",
+    "barcode": "23793.38128 60007.827136 95000.063308 1 10110000034990"
+  },
+  "previewConfig": {
+    "title": "Boleto.Cloud",
+    "subtitle": "Brazilian Payment Slip Generation",
+    "displayFields": ["boletoId", "status", "amountBRL", "dueDate", "barcode"]
+  }
+}

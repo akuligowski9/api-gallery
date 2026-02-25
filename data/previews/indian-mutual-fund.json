@@ -1,0 +1,16 @@
+{
+  "id": "indian-mutual-fund",
+  "previewType": "card",
+  "sampleResponse": {
+    "scheme_code": "120503",
+    "scheme_name": "Axis Bluechip Fund - Direct Plan - Growth",
+    "nav": "56.3821",
+    "nav_date": "2024-04-05",
+    "fund_house": "Axis Mutual Fund"
+  },
+  "previewConfig": {
+    "title": "Indian Mutual Fund",
+    "subtitle": "Live NAV data for Indian mutual funds",
+    "displayFields": ["scheme_code", "scheme_name", "nav", "nav_date", "fund_house"]
+  }
+}

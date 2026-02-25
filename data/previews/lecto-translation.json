@@ -1,0 +1,16 @@
+{
+  "id": "lecto-translation",
+  "previewType": "card",
+  "sampleResponse": {
+    "sourceLanguage": "en",
+    "targetLanguage": "es",
+    "originalText": "The quick brown fox jumps over the lazy dog.",
+    "translatedText": "El rápido zorro marrón salta sobre el perro perezoso.",
+    "charactersUsed": 44
+  },
+  "previewConfig": {
+    "title": "Translation Result",
+    "subtitle": "Lecto AI text translation between languages",
+    "displayFields": ["sourceLanguage", "targetLanguage", "originalText", "translatedText", "charactersUsed"]
+  }
+}

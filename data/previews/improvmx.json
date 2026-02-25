@@ -1,0 +1,16 @@
+{
+  "id": "improvmx",
+  "previewType": "card",
+  "sampleResponse": {
+    "alias": "support@mycompany.com",
+    "forward_to": "founder@gmail.com",
+    "domain": "mycompany.com",
+    "is_active": true,
+    "created_at": "2024-09-22T14:00:00Z"
+  },
+  "previewConfig": {
+    "title": "Email Forwarding Rule",
+    "subtitle": "ImprovMX Email API",
+    "displayFields": ["alias", "forward_to", "domain", "is_active", "created_at"]
+  }
+}

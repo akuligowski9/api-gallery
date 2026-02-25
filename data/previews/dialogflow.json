@@ -1,0 +1,16 @@
+{
+  "id": "dialogflow",
+  "previewType": "card",
+  "sampleResponse": {
+    "query_text": "Book a flight to Tokyo next Friday",
+    "intent_name": "book.flight",
+    "confidence": 0.97,
+    "destination": "Tokyo",
+    "travel_date": "2024-03-22"
+  },
+  "previewConfig": {
+    "title": "Dialogflow",
+    "subtitle": "Machine Learning — NLU Intent Detection",
+    "displayFields": ["query_text", "intent_name", "confidence", "destination", "travel_date"]
+  }
+}

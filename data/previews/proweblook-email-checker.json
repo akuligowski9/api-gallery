@@ -1,0 +1,16 @@
+{
+  "id": "proweblook-email-checker",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "user@example.com",
+    "is_valid": true,
+    "is_disposable": false,
+    "mx_found": true,
+    "smtp_check": "passed"
+  },
+  "previewConfig": {
+    "title": "Proweblook Email Checker",
+    "subtitle": "Email validation and deliverability check",
+    "displayFields": ["email", "is_valid", "is_disposable", "mx_found", "smtp_check"]
+  }
+}

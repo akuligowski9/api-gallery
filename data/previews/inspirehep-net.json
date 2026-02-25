@@ -1,0 +1,50 @@
+{
+  "id": "inspirehep-net",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment",
+        "author": "Chatrchyan, Serguei et al.",
+        "year": 2012,
+        "citations": 16203,
+        "journal": "Phys. Lett. B"
+      },
+      {
+        "title": "A measurement of the Hubble constant from eight gravitational-wave events",
+        "author": "Abbott, B.P. et al.",
+        "year": 2019,
+        "citations": 872,
+        "journal": "Nature Astron."
+      },
+      {
+        "title": "Superstring Theory and Beyond",
+        "author": "Polchinski, Joseph",
+        "year": 2005,
+        "citations": 5410,
+        "journal": "Cambridge Univ. Press"
+      },
+      {
+        "title": "An Introduction to Quantum Field Theory",
+        "author": "Peskin, Michael E. and Schroeder, Daniel V.",
+        "year": 1995,
+        "citations": 21500,
+        "journal": "Addison-Wesley"
+      },
+      {
+        "title": "Black hole information and the string theory revolution",
+        "author": "Susskind, Leonard and Lindesay, James",
+        "year": 2005,
+        "citations": 1340,
+        "journal": "World Scientific"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "INSPIRE-HEP",
+    "subtitle": "High-Energy Physics Literature Database",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "citations"
+  }
+}

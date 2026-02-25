@@ -1,0 +1,20 @@
+{
+  "id": "giant-bomb",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "The Legend of Zelda: Tears of the Kingdom", "platform": "Nintendo Switch", "year": 2023, "genre": "Action-Adventure", "rating": 96 },
+      { "name": "Baldur's Gate 3", "platform": "PC", "year": 2023, "genre": "RPG", "rating": 97 },
+      { "name": "Elden Ring", "platform": "PlayStation 5", "year": 2022, "genre": "Action RPG", "rating": 96 },
+      { "name": "God of War Ragnarök", "platform": "PlayStation 5", "year": 2022, "genre": "Action-Adventure", "rating": 94 },
+      { "name": "Hades", "platform": "PC", "year": 2020, "genre": "Roguelike", "rating": 93 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Giant Bomb",
+    "subtitle": "Video game database",
+    "itemKey": "name",
+    "secondaryKey": "platform",
+    "badgeKey": "genre"
+  }
+}

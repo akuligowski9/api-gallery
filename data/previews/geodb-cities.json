@@ -1,0 +1,16 @@
+{
+  "id": "geodb-cities",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "country_code": "IS",
+    "population": 131136,
+    "timezone": "Atlantic/Reykjavik"
+  },
+  "previewConfig": {
+    "title": "city",
+    "subtitle": "country",
+    "displayFields": ["city", "country", "country_code", "population", "timezone"]
+  }
+}

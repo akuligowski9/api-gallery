@@ -1,0 +1,20 @@
+{
+  "id": "bandcamp",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "In Rainbows", "artist": "Radiohead", "genre": "Alternative Rock", "year": 2007, "tracks": 10 },
+      { "title": "To Pimp a Butterfly", "artist": "Kendrick Lamar", "genre": "Hip-Hop", "year": 2015, "tracks": 16 },
+      { "title": "Carrie & Lowell", "artist": "Sufjan Stevens", "genre": "Folk / Indie", "year": 2015, "tracks": 11 },
+      { "title": "Hospice", "artist": "The Antlers", "genre": "Indie Rock", "year": 2009, "tracks": 11 },
+      { "title": "Good Kid, M.A.A.D City", "artist": "Kendrick Lamar", "genre": "Hip-Hop", "year": 2012, "tracks": 13 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Bandcamp",
+    "subtitle": "Independent Music & Albums",
+    "itemKey": "title",
+    "secondaryKey": "artist",
+    "badgeKey": "year"
+  }
+}

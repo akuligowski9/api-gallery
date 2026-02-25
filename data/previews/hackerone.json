@@ -1,0 +1,20 @@
+{
+  "id": "hackerone",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "handle": "security", "name": "HackerOne Security", "min_bounty": "$500", "max_bounty": "$10,000", "response_time_hrs": 4 },
+      { "handle": "stripe", "name": "Stripe Bug Bounty", "min_bounty": "$500", "max_bounty": "$50,000", "response_time_hrs": 12 },
+      { "handle": "shopify", "name": "Shopify Bug Bounty", "min_bounty": "$500", "max_bounty": "$50,000", "response_time_hrs": 8 },
+      { "handle": "github_security", "name": "GitHub Security Lab", "min_bounty": "$617", "max_bounty": "$30,000", "response_time_hrs": 24 },
+      { "handle": "dropbox", "name": "Dropbox Bug Bounty", "min_bounty": "$216", "max_bounty": "$32,768", "response_time_hrs": 16 }
+    ]
+  },
+  "previewConfig": {
+    "title": "HackerOne",
+    "subtitle": "Bug bounty programs and vulnerability disclosure",
+    "itemKey": "name",
+    "secondaryKey": "handle",
+    "badgeKey": "max_bounty"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "scoop-it",
+  "previewType": "card",
+  "sampleResponse": {
+    "post_id": 8823741,
+    "title": "The Future of Generative AI in Enterprise Software",
+    "topic": "Artificial Intelligence",
+    "curator": "TechTrendWatcher",
+    "shares": 412
+  },
+  "previewConfig": {
+    "title": "The Future of Generative AI in Enterprise Software",
+    "subtitle": "TechTrendWatcher",
+    "displayFields": ["post_id", "title", "topic", "curator", "shares"]
+  }
+}

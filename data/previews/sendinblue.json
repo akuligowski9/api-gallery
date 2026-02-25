@@ -1,0 +1,16 @@
+{
+  "id": "sendinblue",
+  "previewType": "card",
+  "sampleResponse": {
+    "campaign_id": 58391,
+    "name": "Spring Sale 2024",
+    "status": "sent",
+    "recipients": 14820,
+    "open_rate_pct": 27.4
+  },
+  "previewConfig": {
+    "title": "Spring Sale 2024 Campaign",
+    "subtitle": "Sendinblue email campaign stats",
+    "displayFields": ["campaign_id", "name", "status", "recipients", "open_rate_pct"]
+  }
+}

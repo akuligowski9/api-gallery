@@ -1,0 +1,16 @@
+{
+  "id": "indiepitcher",
+  "previewType": "card",
+  "sampleResponse": {
+    "campaignId": "camp_9x3kLmNpQ",
+    "subject": "Your June product update is here!",
+    "recipientCount": 4821,
+    "openRate": 0.312,
+    "sentAt": "2024-06-05T08:00:00Z"
+  },
+  "previewConfig": {
+    "title": "IndiePitcher",
+    "subtitle": "Email Campaign Analytics",
+    "displayFields": ["campaignId", "subject", "recipientCount", "openRate", "sentAt"]
+  }
+}

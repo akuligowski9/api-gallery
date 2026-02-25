@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-czech-republic",
+  "previewType": "card",
+  "sampleResponse": {
+    "stop_name": "Hlavní nádraží",
+    "city": "Praha",
+    "line": "Metro A",
+    "next_departure": "14:32",
+    "platform": "1"
+  },
+  "previewConfig": {
+    "title": "Hlavní nádraží",
+    "subtitle": "Praha — Metro A",
+    "displayFields": ["stop_name", "city", "line", "next_departure", "platform"]
+  }
+}

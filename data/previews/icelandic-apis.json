@@ -1,0 +1,16 @@
+{
+  "id": "icelandic-apis",
+  "previewType": "card",
+  "sampleResponse": {
+    "route": "1 - Reykjavik to Akureyri",
+    "departure": "08:30",
+    "arrival": "13:15",
+    "operator": "Strætó bs",
+    "status": "On Time"
+  },
+  "previewConfig": {
+    "title": "Icelandic APIs",
+    "subtitle": "Transport schedule entry",
+    "displayFields": ["route", "departure", "arrival", "operator", "status"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sport-highlights",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "LeBron James 40-Point Performance vs Celtics", "sport": "Basketball", "duration_sec": 180, "published_at": "2024-04-06T02:30:00Z", "source": "NBA" },
+      { "title": "Manchester City vs Arsenal - All Goals", "sport": "Soccer", "duration_sec": 210, "published_at": "2024-04-06T18:00:00Z", "source": "Premier League" },
+      { "title": "Verstappen Takes Pole at Bahrain GP", "sport": "Formula 1", "duration_sec": 95, "published_at": "2024-03-30T16:45:00Z", "source": "F1" },
+      { "title": "Sinner Wins Italian Open Final in Three Sets", "sport": "Tennis", "duration_sec": 240, "published_at": "2024-05-12T15:00:00Z", "source": "ATP" },
+      { "title": "Patrick Mahomes 350-Yard Game vs Raiders", "sport": "American Football", "duration_sec": 165, "published_at": "2024-04-07T23:15:00Z", "source": "NFL" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Sport Highlights",
+    "subtitle": "Sports highlight clips from top leagues and events",
+    "itemKey": "title",
+    "secondaryKey": "source",
+    "badgeKey": "sport"
+  }
+}

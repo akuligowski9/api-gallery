@@ -1,0 +1,16 @@
+{
+  "id": "classify",
+  "previewType": "card",
+  "sampleResponse": {
+    "input": "suspicious_payload_v2.exe",
+    "threat_category": "Trojan.GenericKD",
+    "confidence_score": 0.97,
+    "severity": "HIGH",
+    "recommended_action": "quarantine"
+  },
+  "previewConfig": {
+    "title": "Classify",
+    "subtitle": "Threat Classification",
+    "displayFields": ["input", "threat_category", "confidence_score", "severity", "recommended_action"]
+  }
+}

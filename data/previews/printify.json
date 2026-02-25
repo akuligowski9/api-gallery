@@ -1,0 +1,16 @@
+{
+  "id": "printify",
+  "previewType": "card",
+  "sampleResponse": {
+    "productId": "64a1f3b2c8e5d90012ab3456",
+    "title": "Classic Unisex T-Shirt",
+    "printProviderId": 29,
+    "blueprintId": 6,
+    "isPublished": true
+  },
+  "previewConfig": {
+    "title": "Classic Unisex T-Shirt",
+    "subtitle": "Printify Product",
+    "displayFields": ["productId", "title", "printProviderId", "blueprintId", "isPublished"]
+  }
+}

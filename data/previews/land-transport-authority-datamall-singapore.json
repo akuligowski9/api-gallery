@@ -1,0 +1,16 @@
+{
+  "id": "land-transport-authority-datamall-singapore",
+  "previewType": "card",
+  "sampleResponse": {
+    "bus_stop_code": "83139",
+    "road_name": "Tampines Ave 1",
+    "description": "Opp Tampines Int",
+    "next_bus_arrival": "4 mins",
+    "service_no": "65"
+  },
+  "previewConfig": {
+    "title": "LTA DataMall Singapore",
+    "subtitle": "Real-time Singapore public transport arrival data",
+    "displayFields": ["bus_stop_code", "road_name", "description", "next_bus_arrival", "service_no"]
+  }
+}

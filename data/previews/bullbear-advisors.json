@@ -1,0 +1,16 @@
+{
+  "id": "bullbear-advisors",
+  "previewType": "card",
+  "sampleResponse": {
+    "ticker": "NVDA",
+    "recommendation": "BUY",
+    "targetPrice": 182.50,
+    "confidence": 87,
+    "analystConsensus": "Strong Buy"
+  },
+  "previewConfig": {
+    "title": "Bullbear Advisors",
+    "subtitle": "Stock Recommendation",
+    "displayFields": ["ticker", "recommendation", "targetPrice", "confidence", "analystConsensus"]
+  }
+}

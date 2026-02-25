@@ -1,0 +1,16 @@
+{
+  "id": "songlink-odesli",
+  "previewType": "card",
+  "sampleResponse": {
+    "page_url": "https://song.link/s/4uLU6hMCjMI75M1A0tTe4P",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "spotify_url": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b",
+    "apple_music_url": "https://music.apple.com/us/album/blinding-lights/1499378108?i=1499378615"
+  },
+  "previewConfig": {
+    "title": "title",
+    "subtitle": "artist",
+    "displayFields": ["page_url", "title", "artist", "spotify_url", "apple_music_url"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "istanbul-i-bb-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Istanbul Public Transport Routes 2024", "category": "Transportation", "format": "CSV", "updated": "2024-03-01", "downloads": 8420 },
+      { "title": "Air Quality Monitoring Stations", "category": "Environment", "format": "JSON", "updated": "2024-03-10", "downloads": 3115 },
+      { "title": "Istanbul Population by District", "category": "Demographics", "format": "XLSX", "updated": "2024-01-15", "downloads": 12340 },
+      { "title": "Parks and Green Spaces Locations", "category": "Urban Planning", "format": "GeoJSON", "updated": "2024-02-20", "downloads": 5670 },
+      { "title": "Water Consumption by Neighborhood", "category": "Utilities", "format": "CSV", "updated": "2024-02-28", "downloads": 2890 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Istanbul IBB Open Data",
+    "subtitle": "Istanbul Metropolitan Municipality datasets",
+    "itemKey": "title",
+    "secondaryKey": "category",
+    "badgeKey": "format"
+  }
+}

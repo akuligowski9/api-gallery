@@ -1,0 +1,16 @@
+{
+  "id": "browshot",
+  "previewType": "card",
+  "sampleResponse": {
+    "screenshot_url": "https://browshot.com/api/v1/screenshot/dl?id=sc_mn4r92&key=abc123",
+    "target_url": "https://example.com",
+    "status": "finished",
+    "width": 1366,
+    "instance": "chrome-latest-win"
+  },
+  "previewConfig": {
+    "title": "Browshot",
+    "subtitle": "Screenshot Capture",
+    "displayFields": ["screenshot_url", "target_url", "status", "width", "instance"]
+  }
+}

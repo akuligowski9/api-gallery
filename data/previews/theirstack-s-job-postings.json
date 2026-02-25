@@ -1,0 +1,20 @@
+{
+  "id": "theirstack-s-job-postings",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": "jp_1092834", "title": "Senior Backend Engineer", "company": "Stripe", "location": "San Francisco, CA", "posted_date": "2024-12-10" },
+      { "id": "jp_2038471", "title": "Machine Learning Engineer", "company": "OpenAI", "location": "Remote", "posted_date": "2024-12-09" },
+      { "id": "jp_3847201", "title": "Product Manager", "company": "Figma", "location": "New York, NY", "posted_date": "2024-12-08" },
+      { "id": "jp_4920183", "title": "DevOps Engineer", "company": "Cloudflare", "location": "Austin, TX", "posted_date": "2024-12-07" },
+      { "id": "jp_5018374", "title": "Frontend Engineer", "company": "Vercel", "location": "Remote", "posted_date": "2024-12-06" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Job Postings",
+    "subtitle": "TheirStack Job Postings",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
+  }
+}

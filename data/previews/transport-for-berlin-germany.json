@@ -1,0 +1,16 @@
+{
+  "id": "transport-for-berlin-germany",
+  "previewType": "card",
+  "sampleResponse": {
+    "line": "U2",
+    "direction": "Pankow",
+    "next_departure": "2024-03-15T08:47:00+01:00",
+    "delay_minutes": 2,
+    "stop_name": "Alexanderplatz"
+  },
+  "previewConfig": {
+    "title": "Transport for Berlin (BVG)",
+    "subtitle": "Real-time Berlin public transit departures",
+    "displayFields": ["line", "direction", "next_departure", "delay_minutes", "stop_name"]
+  }
+}

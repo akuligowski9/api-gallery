@@ -1,0 +1,16 @@
+{
+  "id": "grab",
+  "previewType": "card",
+  "sampleResponse": {
+    "service_type": "GrabCar",
+    "estimated_fare": "SGD 14.50",
+    "estimated_duration_minutes": 18,
+    "surge_multiplier": 1.2,
+    "driver_eta_minutes": 4
+  },
+  "previewConfig": {
+    "title": "GrabCar Ride Estimate",
+    "subtitle": "Singapore Pickup",
+    "displayFields": ["service_type", "estimated_fare", "estimated_duration_minutes", "surge_multiplier", "driver_eta_minutes"]
+  }
+}

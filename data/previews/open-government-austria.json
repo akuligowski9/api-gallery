@@ -1,0 +1,20 @@
+{
+  "id": "open-government-austria",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_id": "at-ds-0421", "title": "Austrian Population Statistics 2024", "category": "Demographics", "publisher": "Statistik Austria", "format": "CSV" },
+      { "dataset_id": "at-ds-0388", "title": "Public Transport Timetables Vienna", "category": "Transport", "publisher": "Wiener Linien", "format": "GTFS" },
+      { "dataset_id": "at-ds-0312", "title": "Environmental Air Quality Monitoring", "category": "Environment", "publisher": "Umweltbundesamt", "format": "JSON" },
+      { "dataset_id": "at-ds-0275", "title": "Federal Budget Expenditure Report", "category": "Finance", "publisher": "BMF Austria", "format": "XLSX" },
+      { "dataset_id": "at-ds-0198", "title": "Registered Businesses by Region", "category": "Economy", "publisher": "WKO Austria", "format": "CSV" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Datasets",
+    "subtitle": "Open Government Austria",
+    "itemKey": "title",
+    "secondaryKey": "publisher",
+    "badgeKey": "format"
+  }
+}

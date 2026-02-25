@@ -1,0 +1,16 @@
+{
+  "id": "vadivelu-http-codes",
+  "previewType": "card",
+  "sampleResponse": {
+    "code": 404,
+    "title": "Naan Poguren Varuven",
+    "description": "The requested resource went somewhere and never came back, just like that promise.",
+    "category": "Client Error",
+    "language": "Tamil"
+  },
+  "previewConfig": {
+    "title": "code",
+    "subtitle": "title",
+    "displayFields": ["code", "title", "description", "category", "language"]
+  }
+}

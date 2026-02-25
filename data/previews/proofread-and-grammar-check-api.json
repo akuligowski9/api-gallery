@@ -1,0 +1,16 @@
+{
+  "id": "proofread-and-grammar-check-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "original_text": "Their going to the store tommorrow.",
+    "corrected_text": "They're going to the store tomorrow.",
+    "errors_found": 2,
+    "error_types": "spelling, grammar",
+    "language": "en-US"
+  },
+  "previewConfig": {
+    "title": "Proofread and Grammar Check API",
+    "subtitle": "Automated grammar correction and proofreading",
+    "displayFields": ["original_text", "corrected_text", "errors_found", "error_types", "language"]
+  }
+}

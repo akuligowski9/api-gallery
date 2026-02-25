@@ -1,0 +1,16 @@
+{
+  "id": "facha",
+  "previewType": "card",
+  "sampleResponse": {
+    "plate": "ABC-1234",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2019,
+    "country": "Brazil"
+  },
+  "previewConfig": {
+    "title": "facha",
+    "subtitle": "Vehicle Plate Info",
+    "displayFields": ["plate", "make", "model", "year", "country"]
+  }
+}

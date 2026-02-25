@@ -1,0 +1,16 @@
+{
+  "id": "spam-hunter",
+  "previewType": "card",
+  "sampleResponse": {
+    "input": "Congratulations! You have been selected for a $1000 gift card. Click here now!",
+    "classification": "SPAM",
+    "confidence": 0.9871,
+    "spam_score": 98,
+    "processed_at": "2024-11-20T14:32:07Z"
+  },
+  "previewConfig": {
+    "title": "SPAM Detected",
+    "subtitle": "98% confidence — spam_score 98",
+    "displayFields": ["input", "classification", "confidence", "spam_score", "processed_at"]
+  }
+}

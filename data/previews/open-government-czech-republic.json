@@ -1,0 +1,20 @@
+{
+  "id": "open-government-czech-republic",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset_name": "Population Statistics 2024", "publisher": "Czech Statistical Office", "category": "Demographics", "format": "CSV", "updated": "2024-11-01" },
+      { "dataset_name": "Road Network Map", "publisher": "Ministry of Transport", "category": "Infrastructure", "format": "GeoJSON", "updated": "2024-09-15" },
+      { "dataset_name": "Air Quality Measurements", "publisher": "Czech Hydrometeorological Institute", "category": "Environment", "format": "JSON", "updated": "2024-12-03" },
+      { "dataset_name": "Business Register Extract", "publisher": "Ministry of Justice", "category": "Economy", "format": "XML", "updated": "2024-10-22" },
+      { "dataset_name": "Public School Locations", "publisher": "Ministry of Education", "category": "Education", "format": "CSV", "updated": "2024-08-30" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Open Government Czech Republic",
+    "subtitle": "Government Datasets",
+    "itemKey": "dataset_name",
+    "secondaryKey": "publisher",
+    "badgeKey": "category"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rendi",
+  "previewType": "card",
+  "sampleResponse": {
+    "render_id": "rnd_7f3a92c1",
+    "template": "intro-slideshow",
+    "status": "completed",
+    "output_url": "https://cdn.rendi.io/renders/rnd_7f3a92c1.mp4",
+    "duration_seconds": 30
+  },
+  "previewConfig": {
+    "title": "Rendi",
+    "subtitle": "Programmatic video rendering and template-based production",
+    "displayFields": ["render_id", "template", "status", "output_url", "duration_seconds"]
+  }
+}

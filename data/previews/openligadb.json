@@ -1,0 +1,20 @@
+{
+  "id": "openligadb",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "match_id": 66001, "home_team": "Bayern München", "away_team": "Borussia Dortmund", "score": "3-2", "matchday": 28 },
+      { "match_id": 66002, "home_team": "Bayer Leverkusen", "away_team": "RB Leipzig", "score": "1-1", "matchday": 28 },
+      { "match_id": 66003, "home_team": "VfB Stuttgart", "away_team": "Eintracht Frankfurt", "score": "2-0", "matchday": 28 },
+      { "match_id": 66004, "home_team": "Borussia Mönchengladbach", "away_team": "SC Freiburg", "score": "0-1", "matchday": 28 },
+      { "match_id": 66005, "home_team": "TSG Hoffenheim", "away_team": "Werder Bremen", "score": "2-2", "matchday": 28 }
+    ]
+  },
+  "previewConfig": {
+    "title": "OpenLigaDB",
+    "subtitle": "Bundesliga match results and football data",
+    "itemKey": "home_team",
+    "secondaryKey": "away_team",
+    "badgeKey": "score"
+  }
+}

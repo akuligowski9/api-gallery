@@ -1,0 +1,16 @@
+{
+  "id": "cloudmersive-natural-language-processing",
+  "previewType": "card",
+  "sampleResponse": {
+    "input_text": "The new product launch exceeded all expectations.",
+    "sentiment": "Positive",
+    "sentiment_score": 0.91,
+    "language": "en",
+    "word_count": 8
+  },
+  "previewConfig": {
+    "title": "NLP Sentiment Analysis",
+    "subtitle": "Cloudmersive NLP API",
+    "displayFields": ["input_text", "sentiment", "sentiment_score", "language", "word_count"]
+  }
+}

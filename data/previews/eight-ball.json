@@ -1,0 +1,16 @@
+{
+  "id": "eight-ball",
+  "previewType": "card",
+  "sampleResponse": {
+    "question": "Will my project ship on time?",
+    "answer": "Outlook not so good",
+    "type": "negative",
+    "emoji": "🎱",
+    "answer_number": 11
+  },
+  "previewConfig": {
+    "title": "Eight Ball",
+    "subtitle": "Magic 8-ball response",
+    "displayFields": ["question", "answer", "type", "emoji", "answer_number"]
+  }
+}

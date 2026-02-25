@@ -1,0 +1,16 @@
+{
+  "id": "e-commerce-apis",
+  "previewType": "card",
+  "sampleResponse": {
+    "product_id": "SKU-00291847",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "price_usd": 79.99,
+    "brand": "SoundWave",
+    "in_stock": true
+  },
+  "previewConfig": {
+    "title": "E-Commerce APIs",
+    "subtitle": "Product Catalog & Shopping Data",
+    "displayFields": ["product_id", "name", "price_usd", "brand", "in_stock"]
+  }
+}

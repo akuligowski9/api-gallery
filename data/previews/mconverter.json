@@ -1,0 +1,16 @@
+{
+  "id": "mconverter",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "cvt_8f2a1b3c9d4e5f60",
+    "source_format": "docx",
+    "target_format": "pdf",
+    "status": "completed",
+    "download_url": "https://mconverter.eu/download/cvt_8f2a1b3c9d4e5f60/output.pdf"
+  },
+  "previewConfig": {
+    "title": "cvt_8f2a1b3c9d4e5f60",
+    "subtitle": "completed",
+    "displayFields": ["job_id", "source_format", "target_format", "status", "download_url"]
+  }
+}

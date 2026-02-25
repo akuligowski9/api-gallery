@@ -1,0 +1,16 @@
+{
+  "id": "monday",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "1234567890",
+    "name": "Design System Overhaul",
+    "status": "In Progress",
+    "assignee": "Sarah Chen",
+    "due_date": "2026-03-15"
+  },
+  "previewConfig": {
+    "title": "Design System Overhaul",
+    "subtitle": "Board Item",
+    "displayFields": ["id", "name", "status", "assignee", "due_date"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "webdam",
+  "previewType": "card",
+  "sampleResponse": {
+    "asset_id": "7831045",
+    "filename": "brand-hero-summer-2024.jpg",
+    "type": "image/jpeg",
+    "size_mb": 8.4,
+    "folder": "Marketing/Campaigns/Summer2024"
+  },
+  "previewConfig": {
+    "title": "Webdam",
+    "subtitle": "Digital Asset",
+    "displayFields": ["asset_id", "filename", "type", "size_mb", "folder"]
+  }
+}

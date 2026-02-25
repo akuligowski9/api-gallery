@@ -1,0 +1,50 @@
+{
+  "id": "upwork",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "Senior React Developer Needed",
+        "budget": "$3,000–$5,000",
+        "category": "Web Development",
+        "posted": "2 hours ago",
+        "proposals": 12
+      },
+      {
+        "title": "Python Data Pipeline Engineer",
+        "budget": "$50/hr",
+        "category": "Data Engineering",
+        "posted": "5 hours ago",
+        "proposals": 7
+      },
+      {
+        "title": "UX Designer for Mobile App Redesign",
+        "budget": "$1,500–$2,500",
+        "category": "Design & Creative",
+        "posted": "8 hours ago",
+        "proposals": 24
+      },
+      {
+        "title": "Node.js Backend API Developer",
+        "budget": "$45/hr",
+        "category": "Web Development",
+        "posted": "1 day ago",
+        "proposals": 18
+      },
+      {
+        "title": "Technical Content Writer – SaaS",
+        "budget": "$500–$800",
+        "category": "Writing",
+        "posted": "1 day ago",
+        "proposals": 31
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Upwork Jobs",
+    "subtitle": "Freelance job postings from Upwork marketplace",
+    "itemKey": "title",
+    "secondaryKey": "category",
+    "badgeKey": "budget"
+  }
+}

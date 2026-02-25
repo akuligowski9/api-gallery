@@ -1,0 +1,16 @@
+{
+  "id": "srp-energy",
+  "previewType": "card",
+  "sampleResponse": {
+    "account_number": "5501234567",
+    "billing_period": "2026-01",
+    "kwh_used": 1284,
+    "amount_due": 142.67,
+    "on_peak_kwh": 312
+  },
+  "previewConfig": {
+    "title": "SRP Energy",
+    "subtitle": "Energy Usage Summary",
+    "displayFields": ["account_number", "billing_period", "kwh_used", "amount_due", "on_peak_kwh"]
+  }
+}

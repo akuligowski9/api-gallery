@@ -1,0 +1,16 @@
+{
+  "id": "french-address-search",
+  "previewType": "card",
+  "sampleResponse": {
+    "label": "8 Boulevard du Port, 80000 Amiens",
+    "postcode": "80000",
+    "city": "Amiens",
+    "department": "Somme",
+    "score": 0.97
+  },
+  "previewConfig": {
+    "title": "8 Boulevard du Port",
+    "subtitle": "French Address Search — Geocoding Result",
+    "displayFields": ["label", "postcode", "city", "department", "score"]
+  }
+}

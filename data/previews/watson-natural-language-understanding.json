@@ -1,0 +1,16 @@
+{
+  "id": "watson-natural-language-understanding",
+  "previewType": "card",
+  "sampleResponse": {
+    "language": "en",
+    "sentiment": "positive",
+    "sentiment_score": 0.87,
+    "top_entity": "IBM Watson",
+    "top_category": "Technology"
+  },
+  "previewConfig": {
+    "title": "Watson Natural Language Understanding",
+    "subtitle": "NLU Analysis Result",
+    "displayFields": ["language", "sentiment", "sentiment_score", "top_entity", "top_category"]
+  }
+}

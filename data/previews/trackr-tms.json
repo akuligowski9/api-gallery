@@ -1,0 +1,16 @@
+{
+  "id": "trackr-tms",
+  "previewType": "card",
+  "sampleResponse": {
+    "tracking_number": "TRK-20240612-884721",
+    "carrier": "DHL Express",
+    "status": "In Transit",
+    "current_location": "Frankfurt Hub, Germany",
+    "estimated_delivery": "2024-06-14"
+  },
+  "previewConfig": {
+    "title": "TRK-20240612-884721",
+    "subtitle": "In Transit",
+    "displayFields": ["tracking_number", "carrier", "status", "current_location", "estimated_delivery"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "irisnet",
+  "previewType": "card",
+  "sampleResponse": {
+    "imageId": "img_8d2f4a19c3",
+    "isSafe": true,
+    "adultScore": 0.02,
+    "violenceScore": 0.01,
+    "detectedObjects": 3
+  },
+  "previewConfig": {
+    "title": "Image Moderation Result",
+    "subtitle": "Irisnet AI content analysis for uploaded image",
+    "displayFields": ["imageId", "isSafe", "adultScore", "violenceScore", "detectedObjects"]
+  }
+}

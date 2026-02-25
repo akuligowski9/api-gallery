@@ -1,0 +1,16 @@
+{
+  "id": "greynoise",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "198.51.100.42",
+    "classification": "malicious",
+    "last_seen": "2026-02-24",
+    "country": "Russia",
+    "tags": "scanner, brute-force"
+  },
+  "previewConfig": {
+    "title": "GreyNoise",
+    "subtitle": "IP threat intelligence and internet noise classification",
+    "displayFields": ["ip", "classification", "last_seen", "country", "tags"]
+  }
+}

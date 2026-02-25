@@ -1,0 +1,16 @@
+{
+  "id": "skybiometry",
+  "previewType": "card",
+  "sampleResponse": {
+    "face_id": "face_9c2d8e1a3f74b560",
+    "confidence": 98.7,
+    "age_estimate": 34,
+    "gender": "female",
+    "emotion": "happy"
+  },
+  "previewConfig": {
+    "title": "Face Recognition Result",
+    "subtitle": "SkyBiometry Analysis",
+    "displayFields": ["face_id", "confidence", "age_estimate", "gender", "emotion"]
+  }
+}

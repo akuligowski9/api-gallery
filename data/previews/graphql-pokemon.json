@@ -1,0 +1,20 @@
+{
+  "id": "graphql-pokemon",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Bulbasaur", "id": 1, "type": "Grass/Poison", "base_experience": 64, "weight": 69 },
+      { "name": "Charmander", "id": 4, "type": "Fire", "base_experience": 62, "weight": 85 },
+      { "name": "Squirtle", "id": 7, "type": "Water", "base_experience": 63, "weight": 90 },
+      { "name": "Pikachu", "id": 25, "type": "Electric", "base_experience": 112, "weight": 60 },
+      { "name": "Mewtwo", "id": 150, "type": "Psychic", "base_experience": 340, "weight": 1220 }
+    ]
+  },
+  "previewConfig": {
+    "title": "GraphQL Pokemon",
+    "subtitle": "Pokemon species data via GraphQL",
+    "itemKey": "name",
+    "secondaryKey": "type",
+    "badgeKey": "base_experience"
+  }
+}

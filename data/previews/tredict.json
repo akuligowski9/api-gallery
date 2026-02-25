@@ -1,0 +1,16 @@
+{
+  "id": "tredict",
+  "previewType": "card",
+  "sampleResponse": {
+    "activity_id": "act_00481",
+    "sport": "Running",
+    "distance_km": 10.24,
+    "duration_seconds": 3156,
+    "avg_heart_rate_bpm": 162
+  },
+  "previewConfig": {
+    "title": "Running",
+    "subtitle": "act_00481",
+    "displayFields": ["activity_id", "sport", "distance_km", "duration_seconds", "avg_heart_rate_bpm"]
+  }
+}

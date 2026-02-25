@@ -1,0 +1,50 @@
+{
+  "id": "oddsmagnet",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "bookmaker": "DraftKings",
+        "team": "Kansas City Chiefs",
+        "moneyline": -165,
+        "spread": -3.5,
+        "lastUpdated": "2024-03-15T18:30:00Z"
+      },
+      {
+        "bookmaker": "FanDuel",
+        "team": "Kansas City Chiefs",
+        "moneyline": -170,
+        "spread": -3.5,
+        "lastUpdated": "2024-03-15T18:28:00Z"
+      },
+      {
+        "bookmaker": "BetMGM",
+        "team": "Kansas City Chiefs",
+        "moneyline": -160,
+        "spread": -3.0,
+        "lastUpdated": "2024-03-15T18:25:00Z"
+      },
+      {
+        "bookmaker": "Caesars",
+        "team": "Kansas City Chiefs",
+        "moneyline": -168,
+        "spread": -3.5,
+        "lastUpdated": "2024-03-15T18:31:00Z"
+      },
+      {
+        "bookmaker": "PointsBet",
+        "team": "Kansas City Chiefs",
+        "moneyline": -155,
+        "spread": -3.0,
+        "lastUpdated": "2024-03-15T18:20:00Z"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Oddsmagnet Betting Odds",
+    "subtitle": "Live odds comparison across bookmakers",
+    "itemKey": "bookmaker",
+    "secondaryKey": "team",
+    "badgeKey": "moneyline"
+  }
+}

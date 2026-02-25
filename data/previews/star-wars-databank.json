@@ -1,0 +1,20 @@
+{
+  "id": "star-wars-databank",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "character_id": "sw-001", "name": "Luke Skywalker", "homeworld": "Tatooine", "affiliation": "Rebel Alliance", "species": "Human" },
+      { "character_id": "sw-002", "name": "Darth Vader", "homeworld": "Tatooine", "affiliation": "Galactic Empire", "species": "Human" },
+      { "character_id": "sw-003", "name": "Yoda", "homeworld": "Dagobah", "affiliation": "Jedi Order", "species": "Unknown" },
+      { "character_id": "sw-004", "name": "Princess Leia", "homeworld": "Alderaan", "affiliation": "Rebel Alliance", "species": "Human" },
+      { "character_id": "sw-005", "name": "Han Solo", "homeworld": "Corellia", "affiliation": "Rebel Alliance", "species": "Human" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Star Wars Databank",
+    "subtitle": "Star Wars Characters",
+    "itemKey": "name",
+    "secondaryKey": "homeworld",
+    "badgeKey": "affiliation"
+  }
+}

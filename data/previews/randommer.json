@@ -1,0 +1,16 @@
+{
+  "id": "randommer",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Elara Whitfield",
+    "phone": "+1-555-847-2913",
+    "email": "elara.whitfield@mailgen.dev",
+    "creditCard": "4532 8819 4423 7761",
+    "country": "United States"
+  },
+  "previewConfig": {
+    "title": "name",
+    "subtitle": "country",
+    "displayFields": ["name", "phone", "email", "creditCard", "country"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "phishin",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "id": 1423, "date": "1994-10-31", "venue": "Glens Falls Civic Center", "city": "Glens Falls, NY", "duration": 10823 },
+      { "id": 1887, "date": "1997-11-22", "venue": "Hampton Coliseum", "city": "Hampton, VA", "duration": 11402 },
+      { "id": 2341, "date": "1999-12-31", "venue": "Big Cypress Seminole Reservation", "city": "Clewiston, FL", "duration": 43200 },
+      { "id": 3102, "date": "2012-08-31", "venue": "Dick's Sporting Goods Park", "city": "Commerce City, CO", "duration": 9876 },
+      { "id": 3788, "date": "2023-08-04", "venue": "Sphere", "city": "Las Vegas, NV", "duration": 10540 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Phish Concert Recordings",
+    "subtitle": "Phishin API",
+    "itemKey": "date",
+    "secondaryKey": "venue",
+    "badgeKey": "city"
+  }
+}

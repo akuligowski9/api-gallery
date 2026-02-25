@@ -1,0 +1,16 @@
+{
+  "id": "hg-weather",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "São Paulo",
+    "temperature": 24,
+    "description": "Parcialmente nublado",
+    "humidity": 72,
+    "wind_speedy": "11 km/h"
+  },
+  "previewConfig": {
+    "title": "HG Weather",
+    "subtitle": "Brazilian Weather Conditions",
+    "displayFields": ["city", "temperature", "description", "humidity", "wind_speedy"]
+  }
+}

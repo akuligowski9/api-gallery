@@ -1,0 +1,20 @@
+{
+  "id": "path-of-exile",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Kaom's Heart", "type": "Glorious Plate", "rarity": "Unique", "ilvl": 84, "league": "Standard" },
+      { "name": "Shavronne's Wrappings", "type": "Occultist's Vestment", "rarity": "Unique", "ilvl": 82, "league": "Standard" },
+      { "name": "Headhunter", "type": "Leather Belt", "rarity": "Unique", "ilvl": 86, "league": "Hardcore" },
+      { "name": "Mageblood", "type": "Heavy Belt", "rarity": "Unique", "ilvl": 85, "league": "Standard" },
+      { "name": "The Squire", "type": "Mosaic Kite Shield", "rarity": "Unique", "ilvl": 80, "league": "Standard" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Path of Exile Items",
+    "subtitle": "league",
+    "itemKey": "name",
+    "secondaryKey": "type",
+    "badgeKey": "rarity"
+  }
+}

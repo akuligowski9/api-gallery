@@ -1,0 +1,16 @@
+{
+  "id": "generate-link-preview-including-checking-for-malicious-links",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://www.bbc.com/news/technology-12345678",
+    "title": "AI breakthrough allows robots to learn from video",
+    "description": "Researchers at DeepMind have developed a new technique that enables robots to learn complex tasks simply by watching video demonstrations.",
+    "isMalicious": false,
+    "domain": "bbc.com"
+  },
+  "previewConfig": {
+    "title": "AI breakthrough allows robots to learn from video",
+    "subtitle": "Link Preview Generator",
+    "displayFields": ["url", "title", "description", "isMalicious", "domain"]
+  }
+}

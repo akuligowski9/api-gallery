@@ -1,0 +1,20 @@
+{
+  "id": "dota-2",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "name": "Anti-Mage", "primaryAttribute": "Agility", "attackType": "Melee", "roles": "Carry, Escape", "winRate": 47.8 },
+      { "name": "Crystal Maiden", "primaryAttribute": "Intelligence", "attackType": "Ranged", "roles": "Support, Disabler", "winRate": 51.2 },
+      { "name": "Axe", "primaryAttribute": "Strength", "attackType": "Melee", "roles": "Initiator, Durable", "winRate": 50.4 },
+      { "name": "Invoker", "primaryAttribute": "Intelligence", "attackType": "Ranged", "roles": "Carry, Nuker, Disabler", "winRate": 48.9 },
+      { "name": "Phantom Assassin", "primaryAttribute": "Agility", "attackType": "Melee", "roles": "Carry, Escape", "winRate": 52.1 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Dota 2 Heroes",
+    "subtitle": "Valve Dota 2 Game Data",
+    "itemKey": "name",
+    "secondaryKey": "roles",
+    "badgeKey": "winRate"
+  }
+}

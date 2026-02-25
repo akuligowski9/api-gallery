@@ -1,0 +1,16 @@
+{
+  "id": "trueguard",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "phishing-attempt@suspicious-domain.net",
+    "threat_level": "high",
+    "category": "phishing",
+    "disposable": true,
+    "recommendation": "block"
+  },
+  "previewConfig": {
+    "title": "phishing-attempt@suspicious-domain.net",
+    "subtitle": "Email Threat Detection",
+    "displayFields": ["email", "threat_level", "category", "disposable", "recommendation"]
+  }
+}

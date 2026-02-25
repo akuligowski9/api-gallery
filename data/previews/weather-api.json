@@ -1,0 +1,16 @@
+{
+  "id": "weather-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "New York, NY",
+    "temperature_c": 18.4,
+    "condition": "Partly Cloudy",
+    "humidity_percent": 62,
+    "wind_kph": 14.8
+  },
+  "previewConfig": {
+    "title": "New York, NY",
+    "subtitle": "Partly Cloudy",
+    "displayFields": ["location", "temperature_c", "condition", "humidity_percent", "wind_kph"]
+  }
+}

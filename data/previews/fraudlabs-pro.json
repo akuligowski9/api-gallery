@@ -1,0 +1,16 @@
+{
+  "id": "fraudlabs-pro",
+  "previewType": "card",
+  "sampleResponse": {
+    "request_id": "flp_20241201_abc789",
+    "is_proxy": false,
+    "risk_score": 12,
+    "country_code": "US",
+    "status": "APPROVE"
+  },
+  "previewConfig": {
+    "title": "Fraud Detection Result",
+    "subtitle": "FraudLabs Pro",
+    "displayFields": ["request_id", "is_proxy", "risk_score", "country_code", "status"]
+  }
+}

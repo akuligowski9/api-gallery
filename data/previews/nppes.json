@@ -1,0 +1,16 @@
+{
+  "id": "nppes",
+  "previewType": "card",
+  "sampleResponse": {
+    "npi": "1234567890",
+    "provider_name": "Dr. Sarah Mitchell",
+    "specialty": "Internal Medicine",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  "previewConfig": {
+    "title": "NPPES",
+    "subtitle": "National Provider Identifier (NPI) lookup for healthcare providers",
+    "displayFields": ["npi", "provider_name", "specialty", "city", "state"]
+  }
+}

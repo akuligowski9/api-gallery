@@ -1,0 +1,16 @@
+{
+  "id": "apixu",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "London, United Kingdom",
+    "condition": "Partly Cloudy",
+    "temp_c": 14.2,
+    "humidity_pct": 72,
+    "wind_kph": 18.5
+  },
+  "previewConfig": {
+    "title": "APIXU",
+    "subtitle": "Real-Time Weather Data API",
+    "displayFields": ["location", "condition", "temp_c", "humidity_pct", "wind_kph"]
+  }
+}

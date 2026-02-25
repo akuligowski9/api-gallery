@@ -1,0 +1,16 @@
+{
+  "id": "generate-full-webpage-screenshot",
+  "previewType": "card",
+  "sampleResponse": {
+    "job_id": "scr_7hJpLm3TwX",
+    "url": "https://www.wikipedia.org",
+    "screenshot_url": "https://api.screenshotly.io/results/scr_7hJpLm3TwX.png",
+    "width_px": 1440,
+    "captured_at": "2025-09-22T11:04:37Z"
+  },
+  "previewConfig": {
+    "title": "https://www.wikipedia.org",
+    "subtitle": "scr_7hJpLm3TwX",
+    "displayFields": ["job_id", "url", "screenshot_url", "width_px", "captured_at"]
+  }
+}

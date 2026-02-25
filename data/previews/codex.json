@@ -1,0 +1,16 @@
+{
+  "id": "codex",
+  "previewType": "card",
+  "sampleResponse": {
+    "language": "python",
+    "output": "Hello, World!",
+    "exit_code": 0,
+    "execution_time_ms": 142,
+    "memory_used_kb": 8192
+  },
+  "previewConfig": {
+    "title": "Code Execution Result",
+    "subtitle": "Python Runtime",
+    "displayFields": ["language", "output", "exit_code", "execution_time_ms", "memory_used_kb"]
+  }
+}

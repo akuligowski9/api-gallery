@@ -1,0 +1,16 @@
+{
+  "id": "mattermost",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "a3k9z2x1p0q8r7s6t5u4",
+    "channel": "engineering-general",
+    "author": "jane.smith",
+    "message": "Deployment to production completed successfully.",
+    "create_at": "2024-03-15T14:23:00Z"
+  },
+  "previewConfig": {
+    "title": "Mattermost",
+    "subtitle": "Team Message",
+    "displayFields": ["id", "channel", "author", "message", "create_at"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "gazette-data-uk",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "notice_id": "3456781", "category": "Insolvency", "published_date": "2025-08-11" },
+      { "notice_id": "3456782", "category": "Company Strike-Off", "published_date": "2025-08-11" },
+      { "notice_id": "3456783", "category": "Planning", "published_date": "2025-08-10" },
+      { "notice_id": "3456784", "category": "Estates", "published_date": "2025-08-10" },
+      { "notice_id": "3456785", "category": "Environment", "published_date": "2025-08-09" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Gazette Data UK",
+    "subtitle": "Government",
+    "itemKey": "notice_id",
+    "secondaryKey": "published_date",
+    "badgeKey": "category"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "openafrica",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Kenya National Census 2019", "country": "Kenya", "organization": "Kenya National Bureau of Statistics", "format": "CSV", "license": "Open" },
+      { "title": "Nigeria Road Network GIS Data", "country": "Nigeria", "organization": "Federal Ministry of Works", "format": "Shapefile", "license": "Open" },
+      { "title": "South Africa Electricity Grid", "country": "South Africa", "organization": "Eskom Open Data", "format": "GeoJSON", "license": "CC-BY" },
+      { "title": "Ghana Health Facilities Registry", "country": "Ghana", "organization": "Ghana Health Service", "format": "CSV", "license": "Open" },
+      { "title": "Ethiopia Rainfall Historical Data", "country": "Ethiopia", "organization": "Ethiopian Meteorological Institute", "format": "JSON", "license": "CC-BY-SA" }
+    ]
+  },
+  "previewConfig": {
+    "title": "openAFRICA Datasets",
+    "subtitle": "Open data resources across African nations",
+    "itemKey": "title",
+    "secondaryKey": "country",
+    "badgeKey": "format"
+  }
+}

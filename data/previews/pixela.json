@@ -1,0 +1,16 @@
+{
+  "id": "pixela",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "fitness_tracker_42",
+    "graph_id": "daily-steps",
+    "date": "20241115",
+    "quantity": 9842,
+    "unit": "steps"
+  },
+  "previewConfig": {
+    "title": "Pixela",
+    "subtitle": "Pixel & Habit Tracking",
+    "displayFields": ["username", "graph_id", "date", "quantity", "unit"]
+  }
+}

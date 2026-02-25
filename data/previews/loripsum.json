@@ -1,0 +1,16 @@
+{
+  "id": "loripsum",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    "paragraph_count": 3,
+    "word_count": 150,
+    "options": "long,headers,decorate",
+    "format": "html"
+  },
+  "previewConfig": {
+    "title": "Loripsum",
+    "subtitle": "Lorem Ipsum Generation",
+    "displayFields": ["text", "paragraph_count", "word_count", "options", "format"]
+  }
+}

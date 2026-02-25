@@ -1,0 +1,20 @@
+{
+  "id": "synonyms",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "happy", "secondary": "adjective", "badge": 98, "partOfSpeech": "adj", "similarity": "very high" },
+      { "title": "joyful", "secondary": "adjective", "badge": 95, "partOfSpeech": "adj", "similarity": "very high" },
+      { "title": "elated", "secondary": "adjective", "badge": 89, "partOfSpeech": "adj", "similarity": "high" },
+      { "title": "cheerful", "secondary": "adjective", "badge": 84, "partOfSpeech": "adj", "similarity": "high" },
+      { "title": "content", "secondary": "adjective", "badge": 76, "partOfSpeech": "adj", "similarity": "moderate" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Synonyms API",
+    "subtitle": "Results for \"glad\"",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

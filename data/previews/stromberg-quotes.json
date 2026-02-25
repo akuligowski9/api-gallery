@@ -1,0 +1,16 @@
+{
+  "id": "stromberg-quotes",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote_id": 147,
+    "quote": "Das ist ja wohl ein Witz.",
+    "character": "Bernd Stromberg",
+    "episode": "S02E04",
+    "season": 2
+  },
+  "previewConfig": {
+    "title": "Das ist ja wohl ein Witz.",
+    "subtitle": "Bernd Stromberg",
+    "displayFields": ["quote_id", "quote", "character", "episode", "season"]
+  }
+}

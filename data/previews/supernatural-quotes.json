@@ -1,0 +1,16 @@
+{
+  "id": "supernatural-quotes",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote_id": 847,
+    "quote": "Saving people, hunting things — the family business.",
+    "character": "Dean Winchester",
+    "season": 2,
+    "episode": "Wendigo"
+  },
+  "previewConfig": {
+    "title": "Dean Winchester",
+    "subtitle": "Supernatural Quote",
+    "displayFields": ["quote_id", "quote", "character", "season", "episode"]
+  }
+}

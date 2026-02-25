@@ -1,0 +1,16 @@
+{
+  "id": "covid-19-philippines",
+  "previewType": "card",
+  "sampleResponse": {
+    "date": "2023-08-01",
+    "total_cases": 4168288,
+    "total_deaths": 66374,
+    "total_recovered": 4094780,
+    "active_cases": 7134
+  },
+  "previewConfig": {
+    "title": "Covid-19 Philippines",
+    "subtitle": "Health — Department of Health PH",
+    "displayFields": ["date", "total_cases", "total_deaths", "total_recovered", "active_cases"]
+  }
+}

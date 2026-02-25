@@ -1,0 +1,16 @@
+{
+  "id": "cartes-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": 4821,
+    "map_token": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "label": "Coffee Shop",
+    "latitude": 48.8566,
+    "longitude": 2.3522
+  },
+  "previewConfig": {
+    "title": "Map Marker",
+    "subtitle": "Cartes.io",
+    "displayFields": ["id", "map_token", "label", "latitude", "longitude"]
+  }
+}

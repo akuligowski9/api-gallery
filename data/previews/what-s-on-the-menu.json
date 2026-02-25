@@ -1,0 +1,20 @@
+{
+  "id": "what-s-on-the-menu",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dish": "Lobster Bisque", "restaurant": "Delmonico's", "city": "New York", "year": 1899, "priceUSD": 0.35 },
+      { "dish": "Roast Saddle of Mutton", "restaurant": "The Savoy Grill", "city": "London", "year": 1910, "priceUSD": 0.75 },
+      { "dish": "Terrapin Stew", "restaurant": "Hotel Astor", "city": "New York", "year": 1905, "priceUSD": 1.25 },
+      { "dish": "Planked Whitefish", "restaurant": "Palmer House", "city": "Chicago", "year": 1893, "priceUSD": 0.60 },
+      { "dish": "Champagne Sorbet", "restaurant": "Sherry's Restaurant", "city": "New York", "year": 1901, "priceUSD": 0.20 }
+    ]
+  },
+  "previewConfig": {
+    "title": "What's on the Menu?",
+    "subtitle": "NYPL Historical Restaurant Menus",
+    "itemKey": "dish",
+    "secondaryKey": "restaurant",
+    "badgeKey": "year"
+  }
+}

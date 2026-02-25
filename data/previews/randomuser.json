@@ -1,0 +1,16 @@
+{
+  "id": "randomuser",
+  "previewType": "card",
+  "sampleResponse": {
+    "full_name": "Emily Carter",
+    "email": "emily.carter@example.com",
+    "gender": "female",
+    "nationality": "US",
+    "age": 34
+  },
+  "previewConfig": {
+    "title": "RandomUser",
+    "subtitle": "Generated random user profile data for testing",
+    "displayFields": ["full_name", "email", "gender", "nationality", "age"]
+  }
+}

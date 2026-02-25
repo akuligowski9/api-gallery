@@ -1,0 +1,20 @@
+{
+  "id": "hashtag",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "#WorldCup2026", "secondary": "Sports", "badge": 984201, "platform": "Twitter", "trend": "rising" },
+      { "title": "#AIArt", "secondary": "Technology", "badge": 672540, "platform": "Instagram", "trend": "stable" },
+      { "title": "#ClimateAction", "secondary": "Environment", "badge": 541300, "platform": "Twitter", "trend": "rising" },
+      { "title": "#MondayMotivation", "secondary": "Lifestyle", "badge": 488900, "platform": "Twitter", "trend": "stable" },
+      { "title": "#TechNews", "secondary": "Technology", "badge": 312750, "platform": "LinkedIn", "trend": "falling" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Hashtag",
+    "subtitle": "Trending Hashtags",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

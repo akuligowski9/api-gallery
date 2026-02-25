@@ -1,0 +1,20 @@
+{
+  "id": "football-soccer-videos",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Haaland Hat-Trick vs Arsenal", "secondary": "Premier League, GW28", "badge": 4821003, "duration": "3:47", "competition": "Premier League" },
+      { "title": "Vinicius Jr Solo Goal vs Atlético", "secondary": "La Liga, GW31", "badge": 3102847, "duration": "2:15", "competition": "La Liga" },
+      { "title": "Lamine Yamal Free Kick vs PSG", "secondary": "UEFA Champions League QF", "badge": 7654321, "duration": "1:58", "competition": "Champions League" },
+      { "title": "Kane Bicycle Kick vs Leverkusen", "secondary": "Bundesliga, GW25", "badge": 2987654, "duration": "2:33", "competition": "Bundesliga" },
+      { "title": "Mbappé Last-Minute Winner vs Napoli", "secondary": "Serie A, GW19", "badge": 5432100, "duration": "4:02", "competition": "Serie A" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Football (Soccer) Videos",
+    "subtitle": "Soccer Highlights & Goals",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

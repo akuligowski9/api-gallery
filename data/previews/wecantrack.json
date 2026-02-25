@@ -1,0 +1,16 @@
+{
+  "id": "wecantrack",
+  "previewType": "card",
+  "sampleResponse": {
+    "conversion_id": "wcv_8f3a2c91d0e4",
+    "affiliate_network": "Awin",
+    "order_value": 149.99,
+    "currency": "EUR",
+    "status": "confirmed"
+  },
+  "previewConfig": {
+    "title": "WeCanTrack",
+    "subtitle": "Affiliate conversion record",
+    "displayFields": ["conversion_id", "affiliate_network", "order_value", "currency", "status"]
+  }
+}

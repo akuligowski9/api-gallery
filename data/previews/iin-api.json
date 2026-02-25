@@ -1,0 +1,16 @@
+{
+  "id": "iin-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "iin": "411111",
+    "brand": "Visa",
+    "type": "credit",
+    "issuingBank": "JPMorgan Chase",
+    "country": "United States"
+  },
+  "previewConfig": {
+    "title": "Card BIN / IIN Lookup",
+    "subtitle": "Issuer identification number details for the card prefix",
+    "displayFields": ["iin", "brand", "type", "issuingBank", "country"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "jira",
+  "previewType": "card",
+  "sampleResponse": {
+    "issue_key": "PROJ-4821",
+    "summary": "Fix null pointer exception in payment service",
+    "status": "In Progress",
+    "assignee": "alice.chen@company.com",
+    "priority": "High"
+  },
+  "previewConfig": {
+    "title": "Fix null pointer exception in payment service",
+    "subtitle": "PROJ-4821",
+    "displayFields": ["issue_key", "summary", "status", "assignee", "priority"]
+  }
+}

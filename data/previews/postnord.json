@@ -1,0 +1,16 @@
+{
+  "id": "postnord",
+  "previewType": "card",
+  "sampleResponse": {
+    "trackingId": "SE171234567SE",
+    "status": "IN_TRANSIT",
+    "estimatedDelivery": "2024-06-13",
+    "currentLocation": "Arlanda Terminal, Stockholm",
+    "carrier": "PostNord Sverige AB"
+  },
+  "previewConfig": {
+    "title": "PostNord",
+    "subtitle": "Scandinavian Package Tracking",
+    "displayFields": ["trackingId", "status", "estimatedDelivery", "currentLocation", "carrier"]
+  }
+}

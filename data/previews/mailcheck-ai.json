@@ -1,0 +1,16 @@
+{
+  "id": "mailcheck-ai",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "tempmail.org",
+    "disposable": true,
+    "mxRecordExists": true,
+    "riskScore": 92,
+    "recommendation": "block"
+  },
+  "previewConfig": {
+    "title": "domain",
+    "subtitle": "recommendation",
+    "displayFields": ["domain", "disposable", "mxRecordExists", "riskScore", "recommendation"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "wolframalpha",
+  "previewType": "card",
+  "sampleResponse": {
+    "query": "distance from Earth to Mars",
+    "result": "225.3 million km (as of 2026-02-25)",
+    "category": "Astronomy",
+    "data_source": "JPL Horizons",
+    "computation_time_ms": 843
+  },
+  "previewConfig": {
+    "title": "query",
+    "subtitle": "category",
+    "displayFields": ["query", "result", "category", "data_source", "computation_time_ms"]
+  }
+}

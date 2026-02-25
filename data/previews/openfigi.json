@@ -1,0 +1,16 @@
+{
+  "id": "openfigi",
+  "previewType": "card",
+  "sampleResponse": {
+    "figi": "BBG000BLNNH6",
+    "name": "APPLE INC",
+    "ticker": "AAPL",
+    "exchCode": "US",
+    "securityType": "Common Stock"
+  },
+  "previewConfig": {
+    "title": "APPLE INC",
+    "subtitle": "BBG000BLNNH6",
+    "displayFields": ["figi", "name", "ticker", "exchCode", "securityType"]
+  }
+}

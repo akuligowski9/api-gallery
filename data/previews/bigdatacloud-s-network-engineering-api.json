@@ -1,0 +1,16 @@
+{
+  "id": "bigdatacloud-s-network-engineering-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "203.0.113.47",
+    "asn": "AS15169",
+    "organisation": "Google LLC",
+    "country_code": "US",
+    "is_datacenter": true
+  },
+  "previewConfig": {
+    "title": "BigDataCloud Network Engineering API",
+    "subtitle": "IP / ASN Lookup Result",
+    "displayFields": ["ip", "asn", "organisation", "country_code", "is_datacenter"]
+  }
+}

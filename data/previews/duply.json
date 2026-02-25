@@ -1,0 +1,16 @@
+{
+  "id": "duply",
+  "previewType": "card",
+  "sampleResponse": {
+    "image_url": "https://api.duply.co/v1/generate/img/abc123.png",
+    "template_id": "social-banner-v2",
+    "width": 1200,
+    "height": 630,
+    "format": "PNG"
+  },
+  "previewConfig": {
+    "title": "Duply",
+    "subtitle": "Image Generation",
+    "displayFields": ["image_url", "template_id", "width", "height", "format"]
+  }
+}

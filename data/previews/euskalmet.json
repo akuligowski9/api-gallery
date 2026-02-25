@@ -1,0 +1,16 @@
+{
+  "id": "euskalmet",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "Bilbao, Basque Country",
+    "temperature_celsius": 14.3,
+    "condition": "Partly Cloudy",
+    "wind_speed_kmh": 22,
+    "humidity_percent": 78
+  },
+  "previewConfig": {
+    "title": "Euskalmet",
+    "subtitle": "Basque Country Weather",
+    "displayFields": ["location", "temperature_celsius", "condition", "wind_speed_kmh", "humidity_percent"]
+  }
+}

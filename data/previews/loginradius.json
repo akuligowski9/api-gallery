@@ -1,0 +1,16 @@
+{
+  "id": "loginradius",
+  "previewType": "card",
+  "sampleResponse": {
+    "uid": "f8c3de3d-1fea-4d7c-a8b0-29f63c4c3454",
+    "email": "jane.doe@example.com",
+    "provider": "google",
+    "is_email_verified": true,
+    "last_login_date": "2025-11-14T08:23:11Z"
+  },
+  "previewConfig": {
+    "title": "jane.doe@example.com",
+    "subtitle": "google",
+    "displayFields": ["uid", "email", "provider", "is_email_verified", "last_login_date"]
+  }
+}

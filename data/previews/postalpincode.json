@@ -1,0 +1,16 @@
+{
+  "id": "postalpincode",
+  "previewType": "card",
+  "sampleResponse": {
+    "pincode": "110001",
+    "office_name": "Connaught Place S.O.",
+    "district": "Central Delhi",
+    "state": "Delhi",
+    "delivery_status": "Delivery"
+  },
+  "previewConfig": {
+    "title": "Indian Postal Pincode",
+    "subtitle": "PostalPinCode API",
+    "displayFields": ["pincode", "office_name", "district", "state", "delivery_status"]
+  }
+}

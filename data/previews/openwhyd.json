@@ -1,0 +1,20 @@
+{
+  "id": "openwhyd",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Bohemian Rhapsody", "artist": "Queen", "genre": "Rock", "duration": "5:55", "source": "YouTube" },
+      { "title": "Blinding Lights", "artist": "The Weeknd", "genre": "Synth-pop", "duration": "3:20", "source": "SoundCloud" },
+      { "title": "Lose Yourself", "artist": "Eminem", "genre": "Hip-Hop", "duration": "5:26", "source": "YouTube" },
+      { "title": "Clair de Lune", "artist": "Debussy", "genre": "Classical", "duration": "4:45", "source": "YouTube" },
+      { "title": "Strobe", "artist": "deadmau5", "genre": "Electronic", "duration": "10:37", "source": "SoundCloud" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Music Tracks",
+    "subtitle": "Openwhyd — Community Playlist",
+    "itemKey": "title",
+    "secondaryKey": "artist",
+    "badgeKey": "genre"
+  }
+}

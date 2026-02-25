@@ -1,0 +1,16 @@
+{
+  "id": "gcore-cdn",
+  "previewType": "card",
+  "sampleResponse": {
+    "resource_id": 142857,
+    "name": "my-static-assets",
+    "cname": "cdn.example.com",
+    "origin": "origin.example.com",
+    "status": "active"
+  },
+  "previewConfig": {
+    "title": "Gcore CDN",
+    "subtitle": "CDN Resource Info",
+    "displayFields": ["resource_id", "name", "cname", "origin", "status"]
+  }
+}

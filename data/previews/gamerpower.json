@@ -1,0 +1,20 @@
+{
+  "id": "gamerpower",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Destiny 2", "platform": "PC", "type": "Game", "worth": "$59.99", "status": "Active" },
+      { "title": "Warframe", "platform": "PC", "type": "DLC", "worth": "$19.99", "status": "Active" },
+      { "title": "Path of Exile", "platform": "PC", "type": "Game", "worth": "$0.00", "status": "Active" },
+      { "title": "Apex Legends", "platform": "PC, PS4", "type": "Loot", "worth": "$9.99", "status": "Active" },
+      { "title": "Lost Ark", "platform": "PC", "type": "Game", "worth": "$14.99", "status": "Expired" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Free Game Giveaways",
+    "subtitle": "GamerPower — Active Giveaways",
+    "itemKey": "title",
+    "secondaryKey": "platform",
+    "badgeKey": "status"
+  }
+}

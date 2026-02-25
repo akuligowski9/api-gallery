@@ -1,0 +1,16 @@
+{
+  "id": "emailrep",
+  "previewType": "card",
+  "sampleResponse": {
+    "email": "contact@example.com",
+    "reputation": "high",
+    "suspicious": false,
+    "references": 47,
+    "days_since_domain_creation": 3842
+  },
+  "previewConfig": {
+    "title": "contact@example.com",
+    "subtitle": "Email Reputation Report",
+    "displayFields": ["email", "reputation", "suspicious", "references", "days_since_domain_creation"]
+  }
+}

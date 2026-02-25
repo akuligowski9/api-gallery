@@ -1,0 +1,20 @@
+{
+  "id": "trash-nothing",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "IKEA KALLAX shelf unit, white", "type": "offer", "location": "Portland, OR", "posted": "2024-03-15", "status": "available" },
+      { "title": "Box of children's books (ages 4-8)", "type": "offer", "location": "Austin, TX", "posted": "2024-03-14", "status": "available" },
+      { "title": "Looking for a working microwave", "type": "wanted", "location": "Denver, CO", "posted": "2024-03-14", "status": "open" },
+      { "title": "Vintage Singer sewing machine", "type": "offer", "location": "Chicago, IL", "posted": "2024-03-13", "status": "pending" },
+      { "title": "Free garden soil and compost", "type": "offer", "location": "Seattle, WA", "posted": "2024-03-13", "status": "available" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Trash Nothing Free Listings",
+    "subtitle": "Community free item offers and requests",
+    "itemKey": "title",
+    "secondaryKey": "location",
+    "badgeKey": "status"
+  }
+}

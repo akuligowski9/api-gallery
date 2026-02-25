@@ -1,0 +1,16 @@
+{
+  "id": "civicapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Jane Smith",
+    "office": "U.S. House of Representatives",
+    "party": "Democratic",
+    "district": "CA-12",
+    "phone": "(202) 555-0148"
+  },
+  "previewConfig": {
+    "title": "name",
+    "subtitle": "office",
+    "displayFields": ["name", "office", "party", "district", "phone"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "nba-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "player": "LeBron James", "team": "Los Angeles Lakers", "ppg": 25.7, "position": "SF", "season": "2024-25" },
+      { "player": "Stephen Curry", "team": "Golden State Warriors", "ppg": 26.4, "position": "PG", "season": "2024-25" },
+      { "player": "Nikola Jokic", "team": "Denver Nuggets", "ppg": 29.3, "position": "C", "season": "2024-25" },
+      { "player": "Jayson Tatum", "team": "Boston Celtics", "ppg": 27.1, "position": "SF", "season": "2024-25" },
+      { "player": "Luka Doncic", "team": "Dallas Mavericks", "ppg": 33.9, "position": "PG", "season": "2024-25" }
+    ]
+  },
+  "previewConfig": {
+    "title": "player",
+    "subtitle": "team",
+    "itemKey": "player",
+    "secondaryKey": "team",
+    "badgeKey": "position"
+  }
+}

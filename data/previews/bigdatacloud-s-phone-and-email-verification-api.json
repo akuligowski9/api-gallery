@@ -1,0 +1,16 @@
+{
+  "id": "bigdatacloud-s-phone-and-email-verification-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "input": "user@example.com",
+    "is_valid": true,
+    "is_disposable": false,
+    "domain_reputation": "high",
+    "smtp_check_passed": true
+  },
+  "previewConfig": {
+    "title": "BigDataCloud Phone & Email Verification",
+    "subtitle": "Geocoding — Contact Verification API",
+    "displayFields": ["input", "is_valid", "is_disposable", "domain_reputation", "smtp_check_passed"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "qweather",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "Beijing",
+    "temperature_c": 14,
+    "condition": "Partly Cloudy",
+    "humidity_pct": 42,
+    "wind_speed_kmh": 18
+  },
+  "previewConfig": {
+    "title": "Beijing Current Weather",
+    "subtitle": "QWeather real-time conditions",
+    "displayFields": ["city", "temperature_c", "condition", "humidity_pct", "wind_speed_kmh"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "kkbox",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Cruel Summer", "secondary": "Jay Chou", "badge": 9823041, "album": "Jay", "duration_sec": 238 },
+      { "title": "Mojito", "secondary": "Jay Chou", "badge": 7654320, "album": "Mojito", "duration_sec": 214 },
+      { "title": "Love Story", "secondary": "Teresa Teng", "badge": 6123890, "album": "The Moon Represents My Heart", "duration_sec": 196 },
+      { "title": "Overjoyed", "secondary": "Eason Chan", "badge": 5409871, "album": "Fear and Dreams", "duration_sec": 257 },
+      { "title": "Red Flavour", "secondary": "Red Velvet", "badge": 4872340, "album": "The Red Summer", "duration_sec": 200 }
+    ]
+  },
+  "previewConfig": {
+    "title": "KKBOX",
+    "subtitle": "Music — Asian Music Streaming Charts",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

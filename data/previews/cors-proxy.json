@@ -1,0 +1,16 @@
+{
+  "id": "cors-proxy",
+  "previewType": "card",
+  "sampleResponse": {
+    "status": 200,
+    "url": "https://api.example.com/data",
+    "content_type": "application/json",
+    "response_time_ms": 312,
+    "cors_enabled": true
+  },
+  "previewConfig": {
+    "title": "url",
+    "subtitle": "content_type",
+    "displayFields": ["status", "url", "content_type", "response_time_ms", "cors_enabled"]
+  }
+}

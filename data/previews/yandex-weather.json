@@ -1,0 +1,16 @@
+{
+  "id": "yandex-weather",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "Moscow",
+    "condition": "cloudy",
+    "temp_c": -3,
+    "wind_speed_ms": 5.2,
+    "humidity_percent": 78
+  },
+  "previewConfig": {
+    "title": "Moscow",
+    "subtitle": "cloudy",
+    "displayFields": ["city", "condition", "temp_c", "wind_speed_ms", "humidity_percent"]
+  }
+}

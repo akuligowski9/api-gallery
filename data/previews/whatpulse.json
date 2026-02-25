@@ -1,0 +1,16 @@
+{
+  "id": "whatpulse",
+  "previewType": "card",
+  "sampleResponse": {
+    "username": "pixelwrangler42",
+    "totalKeystrokes": 48392710,
+    "totalClicks": 9823441,
+    "uptimeHours": 14872,
+    "downloadGB": 3204.7
+  },
+  "previewConfig": {
+    "title": "pixelwrangler42",
+    "subtitle": "WhatPulse Usage Stats",
+    "displayFields": ["username", "totalKeystrokes", "totalClicks", "uptimeHours", "downloadGB"]
+  }
+}

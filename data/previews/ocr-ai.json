@@ -1,0 +1,16 @@
+{
+  "id": "ocr-ai",
+  "previewType": "card",
+  "sampleResponse": {
+    "document_id": "doc_7b3f1e9a2c854d06",
+    "extracted_text": "Invoice #INV-2026-0042 — Total Due: $3,750.00",
+    "language": "en",
+    "confidence": 99.2,
+    "page_count": 1
+  },
+  "previewConfig": {
+    "title": "Text Extraction Result",
+    "subtitle": "OCR AI Document",
+    "displayFields": ["document_id", "extracted_text", "language", "confidence", "page_count"]
+  }
+}

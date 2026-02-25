@@ -1,0 +1,16 @@
+{
+  "id": "indianpincodes",
+  "previewType": "card",
+  "sampleResponse": {
+    "pincode": "400001",
+    "office": "Fort S.O.",
+    "district": "Mumbai",
+    "state": "Maharashtra",
+    "delivery": "Delivery"
+  },
+  "previewConfig": {
+    "title": "IndianPincodes",
+    "subtitle": "India Postal Pincode Lookup",
+    "displayFields": ["pincode", "office", "district", "state", "delivery"]
+  }
+}

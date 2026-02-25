@@ -1,0 +1,16 @@
+{
+  "id": "jokes-one",
+  "previewType": "card",
+  "sampleResponse": {
+    "joke_id": "jod_20251115",
+    "category": "Science",
+    "setup": "Why can't you trust an atom?",
+    "punchline": "Because they make up everything!",
+    "rating": 4.7
+  },
+  "previewConfig": {
+    "title": "Why can't you trust an atom?",
+    "subtitle": "Science",
+    "displayFields": ["joke_id", "category", "setup", "punchline", "rating"]
+  }
+}

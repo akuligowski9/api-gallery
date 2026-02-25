@@ -1,0 +1,16 @@
+{
+  "id": "keanu-reeves-whoa",
+  "previewType": "card",
+  "sampleResponse": {
+    "movie": "Point Break",
+    "year": 1991,
+    "character": "Johnny Utah",
+    "quote": "Whoa.",
+    "context": "Uttered after witnessing an extreme skydiving stunt for the first time."
+  },
+  "previewConfig": {
+    "title": "Keanu Reeves Whoa",
+    "subtitle": "Random Keanu Whoa Moments",
+    "displayFields": ["movie", "year", "character", "quote", "context"]
+  }
+}

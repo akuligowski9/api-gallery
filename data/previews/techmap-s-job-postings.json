@@ -1,0 +1,20 @@
+{
+  "id": "techmap-s-job-postings",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Software Engineer", "company": "Stripe", "location": "San Francisco, CA", "salary_usd": 210000, "posted_days_ago": 2 },
+      { "title": "Machine Learning Engineer", "company": "OpenAI", "location": "Remote", "salary_usd": 250000, "posted_days_ago": 1 },
+      { "title": "Backend Engineer (Go)", "company": "Cloudflare", "location": "Austin, TX", "salary_usd": 185000, "posted_days_ago": 4 },
+      { "title": "DevOps Engineer", "company": "Datadog", "location": "New York, NY", "salary_usd": 175000, "posted_days_ago": 3 },
+      { "title": "Frontend Engineer (React)", "company": "Vercel", "location": "Remote", "salary_usd": 160000, "posted_days_ago": 6 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Techmap Job Postings",
+    "subtitle": "Tech job listings with salary data",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "json2video",
+  "previewType": "card",
+  "sampleResponse": {
+    "movie_id": "mv_8xKp2Lqr9Wz",
+    "status": "done",
+    "url": "https://cdn.json2video.com/movies/mv_8xKp2Lqr9Wz.mp4",
+    "duration": 45,
+    "resolution": "1920x1080"
+  },
+  "previewConfig": {
+    "title": "movie_id",
+    "subtitle": "status",
+    "displayFields": ["movie_id", "status", "url", "duration", "resolution"]
+  }
+}

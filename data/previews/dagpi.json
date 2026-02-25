@@ -1,0 +1,16 @@
+{
+  "id": "dagpi",
+  "previewType": "card",
+  "sampleResponse": {
+    "effect": "glitch",
+    "format": "PNG",
+    "width": 512,
+    "height": 512,
+    "processing_time_ms": 143
+  },
+  "previewConfig": {
+    "title": "Dagpi",
+    "subtitle": "Image Manipulation & Processing API",
+    "displayFields": ["effect", "format", "width", "height", "processing_time_ms"]
+  }
+}

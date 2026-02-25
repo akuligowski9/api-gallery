@@ -1,0 +1,20 @@
+{
+  "id": "brave-search-api",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Rust Programming Language", "url": "https://www.rust-lang.org", "description": "A language empowering everyone to build reliable and efficient software.", "source": "rust-lang.org", "age": "2 days ago" },
+      { "title": "Rust by Example", "url": "https://doc.rust-lang.org/rust-by-example/", "description": "A collection of runnable examples that illustrate various Rust concepts.", "source": "doc.rust-lang.org", "age": "1 week ago" },
+      { "title": "The Rust Programming Language Book", "url": "https://doc.rust-lang.org/book/", "description": "The official book on the Rust programming language, written by the Rust team.", "source": "doc.rust-lang.org", "age": "3 days ago" },
+      { "title": "Rust Reddit Community", "url": "https://www.reddit.com/r/rust/", "description": "A place for all things related to the Rust programming language.", "source": "reddit.com", "age": "5 hours ago" },
+      { "title": "Awesome Rust - GitHub", "url": "https://github.com/rust-unofficial/awesome-rust", "description": "A curated list of Rust code and resources.", "source": "github.com", "age": "12 hours ago" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Brave Search",
+    "subtitle": "Privacy-focused web search results",
+    "itemKey": "title",
+    "secondaryKey": "source",
+    "badgeKey": "age"
+  }
+}

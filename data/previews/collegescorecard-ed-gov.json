@@ -1,0 +1,20 @@
+{
+  "id": "collegescorecard-ed-gov",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Massachusetts Institute of Technology", "secondary": "Cambridge, MA", "badge": 57986, "extra1": "Acceptance rate: 4%", "extra2": "Graduation rate: 94%" },
+      { "title": "Stanford University", "secondary": "Stanford, CA", "badge": 61731, "extra1": "Acceptance rate: 4%", "extra2": "Graduation rate: 95%" },
+      { "title": "University of Michigan-Ann Arbor", "secondary": "Ann Arbor, MI", "badge": 53232, "extra1": "Acceptance rate: 18%", "extra2": "Graduation rate: 93%" },
+      { "title": "Georgia Institute of Technology", "secondary": "Atlanta, GA", "badge": 33794, "extra1": "Acceptance rate: 17%", "extra2": "Graduation rate: 87%" },
+      { "title": "University of Texas at Austin", "secondary": "Austin, TX", "badge": 28026, "extra1": "Acceptance rate: 31%", "extra2": "Graduation rate: 84%" }
+    ]
+  },
+  "previewConfig": {
+    "title": "CollegeScoreCard.ed.gov",
+    "subtitle": "U.S. college and university data",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

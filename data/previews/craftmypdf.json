@@ -1,0 +1,16 @@
+{
+  "id": "craftmypdf",
+  "previewType": "card",
+  "sampleResponse": {
+    "document_id": "doc_7b2e4f891a3c",
+    "template": "invoice-professional",
+    "pages": 2,
+    "file_size_kb": 134,
+    "download_url": "https://app.craftmypdf.com/docs/doc_7b2e4f891a3c.pdf"
+  },
+  "previewConfig": {
+    "title": "CraftMyPDF",
+    "subtitle": "Generated PDF document",
+    "displayFields": ["document_id", "template", "pages", "file_size_kb", "download_url"]
+  }
+}

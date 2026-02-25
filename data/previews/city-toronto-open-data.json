@@ -1,0 +1,20 @@
+{
+  "id": "city-toronto-open-data",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "dataset": "TTC Subway Delay Data", "category": "Transportation", "last_updated": "2025-11-01", "format": "CSV", "downloads": 48231 },
+      { "dataset": "Apartment Building Evaluations", "category": "Housing", "last_updated": "2025-10-28", "format": "JSON", "downloads": 21087 },
+      { "dataset": "Toronto Beaches Water Quality", "category": "Environment", "last_updated": "2025-10-30", "format": "CSV", "downloads": 14562 },
+      { "dataset": "Business Licences", "category": "Business", "last_updated": "2025-11-02", "format": "JSON", "downloads": 37904 },
+      { "dataset": "Toronto Budget 2025", "category": "Government", "last_updated": "2025-09-15", "format": "XLSX", "downloads": 9817 }
+    ]
+  },
+  "previewConfig": {
+    "title": "City of Toronto Open Data",
+    "subtitle": "Public dataset catalogue",
+    "itemKey": "dataset",
+    "secondaryKey": "category",
+    "badgeKey": "format"
+  }
+}

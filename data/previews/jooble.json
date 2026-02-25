@@ -1,0 +1,20 @@
+{
+  "id": "jooble",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Software Engineer", "secondary": "Stripe — San Francisco, CA", "badge": 165000, "type": "Full-time", "posted": "1 day ago" },
+      { "title": "Data Scientist", "secondary": "Netflix — Los Gatos, CA", "badge": 142000, "type": "Full-time", "posted": "3 days ago" },
+      { "title": "Product Manager", "secondary": "Airbnb — Remote", "badge": 138000, "type": "Full-time", "posted": "2 days ago" },
+      { "title": "UX Designer", "secondary": "Figma — New York, NY", "badge": 115000, "type": "Contract", "posted": "5 days ago" },
+      { "title": "DevOps Engineer", "secondary": "HashiCorp — Austin, TX", "badge": 128000, "type": "Full-time", "posted": "1 day ago" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Jooble",
+    "subtitle": "Jobs — Global Job Search Engine",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

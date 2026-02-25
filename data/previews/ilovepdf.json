@@ -1,0 +1,16 @@
+{
+  "id": "ilovepdf",
+  "previewType": "card",
+  "sampleResponse": {
+    "task_id": "pdf_compress_20240315_7a3b",
+    "tool": "compress",
+    "original_size_kb": 4820,
+    "output_size_kb": 1134,
+    "download_url": "https://api.ilovepdf.com/v1/download/pdf_compress_20240315_7a3b"
+  },
+  "previewConfig": {
+    "title": "iLovePDF Compression Result",
+    "subtitle": "PDF processing task completed",
+    "displayFields": ["task_id", "tool", "original_size_kb", "output_size_kb", "download_url"]
+  }
+}

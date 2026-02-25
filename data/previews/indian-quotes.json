@@ -1,0 +1,16 @@
+{
+  "id": "indian-quotes",
+  "previewType": "card",
+  "sampleResponse": {
+    "quote": "You must be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "Inspiration",
+    "language": "English",
+    "likes": 4821
+  },
+  "previewConfig": {
+    "title": "Indian Quotes",
+    "subtitle": "Inspirational Quotes by Indian Personalities",
+    "displayFields": ["quote", "author", "category", "language", "likes"]
+  }
+}

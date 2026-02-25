@@ -1,0 +1,16 @@
+{
+  "id": "tamtam",
+  "previewType": "card",
+  "sampleResponse": {
+    "messageId": "tt_msg_00293847",
+    "chatId": "chat_11938472",
+    "senderName": "Alexei Volkov",
+    "text": "Hey, are we still meeting tomorrow at 10?",
+    "timestamp": "2025-11-14T14:05:00Z"
+  },
+  "previewConfig": {
+    "title": "TamTam Message",
+    "subtitle": "Incoming message from TamTam messenger",
+    "displayFields": ["messageId", "chatId", "senderName", "text", "timestamp"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "eden",
+  "previewType": "card",
+  "sampleResponse": {
+    "model": "eden-xl-v2",
+    "prompt": "Describe a sunset over the ocean in one sentence.",
+    "output": "The horizon blazed with amber and rose as the sun melted into the shimmering sea.",
+    "tokens_used": 48,
+    "latency_ms": 312
+  },
+  "previewConfig": {
+    "title": "Eden",
+    "subtitle": "AI Text Generation Result",
+    "displayFields": ["model", "prompt", "output", "tokens_used", "latency_ms"]
+  }
+}

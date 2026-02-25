@@ -1,0 +1,16 @@
+{
+  "id": "noctua",
+  "previewType": "card",
+  "sampleResponse": {
+    "object_name": "NGC 1300",
+    "object_type": "Barred Spiral Galaxy",
+    "right_ascension": "03h 19m 41.1s",
+    "declination": "-19° 24' 41\"",
+    "distance_light_years": 61000000
+  },
+  "previewConfig": {
+    "title": "NGC 1300",
+    "subtitle": "Barred Spiral Galaxy",
+    "displayFields": ["object_name", "object_type", "right_ascension", "declination", "distance_light_years"]
+  }
+}

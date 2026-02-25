@@ -1,0 +1,20 @@
+{
+  "id": "jobs2careers",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Software Engineer", "secondary": "Stripe – San Francisco, CA", "badge": 165000, "extra1": "Full-time", "extra2": "Posted 2 days ago" },
+      { "title": "Product Manager", "secondary": "Notion – New York, NY", "badge": 140000, "extra1": "Full-time", "extra2": "Posted 1 day ago" },
+      { "title": "Data Scientist", "secondary": "Airbnb – Remote", "badge": 148000, "extra1": "Full-time", "extra2": "Posted 3 days ago" },
+      { "title": "UX Designer", "secondary": "Figma – Austin, TX", "badge": 118000, "extra1": "Full-time", "extra2": "Posted 5 days ago" },
+      { "title": "DevOps Engineer", "secondary": "HashiCorp – Remote", "badge": 152000, "extra1": "Contract", "extra2": "Posted today" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Jobs2Careers",
+    "subtitle": "Job listings aggregator",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

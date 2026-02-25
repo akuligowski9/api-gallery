@@ -1,0 +1,16 @@
+{
+  "id": "revolt",
+  "previewType": "card",
+  "sampleResponse": {
+    "serverId": "01HQYB3XMFKZW9TNDV8C5A7E2",
+    "serverName": "Revolt Community",
+    "memberCount": 14823,
+    "online": true,
+    "defaultChannel": "general"
+  },
+  "previewConfig": {
+    "title": "serverName",
+    "subtitle": "defaultChannel",
+    "displayFields": ["serverId", "serverName", "memberCount", "online", "defaultChannel"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dungeons-and-dragons-alternate",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Beholder", "secondary": "Aberration", "badge": 13, "hitPoints": 180, "alignment": "lawful evil" },
+      { "title": "Mind Flayer", "secondary": "Aberration", "badge": 7, "hitPoints": 71, "alignment": "lawful evil" },
+      { "title": "Lich", "secondary": "Undead", "badge": 21, "hitPoints": 135, "alignment": "neutral evil" },
+      { "title": "Tarrasque", "secondary": "Monstrosity", "badge": 30, "hitPoints": 676, "alignment": "unaligned" },
+      { "title": "Aboleth", "secondary": "Aberration", "badge": 10, "hitPoints": 135, "alignment": "lawful evil" }
+    ]
+  },
+  "previewConfig": {
+    "title": "D&D Alternate API",
+    "subtitle": "Monster Compendium",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

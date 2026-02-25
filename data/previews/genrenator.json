@@ -1,0 +1,16 @@
+{
+  "id": "genrenator",
+  "previewType": "card",
+  "sampleResponse": {
+    "genre": "blackened vaporwave-adjacent lo-fi surf punk",
+    "subgenre": "post-ironic beach core",
+    "bpm_range": "85-110",
+    "mood": "nostalgic yet aggressive",
+    "origin_decade": "1990s"
+  },
+  "previewConfig": {
+    "title": "Genrenator",
+    "subtitle": "Random music genre generator",
+    "displayFields": ["genre", "subgenre", "bpm_range", "mood", "origin_decade"]
+  }
+}

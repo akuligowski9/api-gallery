@@ -1,0 +1,16 @@
+{
+  "id": "game-brain",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Wingspan",
+    "publisher": "Stonemaier Games",
+    "min_players": 1,
+    "max_players": 5,
+    "average_rating": 8.1
+  },
+  "previewConfig": {
+    "title": "Game Brain",
+    "subtitle": "Board Game Information",
+    "displayFields": ["name", "publisher", "min_players", "max_players", "average_rating"]
+  }
+}

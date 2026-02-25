@@ -1,0 +1,16 @@
+{
+  "id": "getping",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://api.example.com/health",
+    "status": "up",
+    "response_time_ms": 142,
+    "http_status": 200,
+    "checked_at": "2026-02-25T10:05:00Z"
+  },
+  "previewConfig": {
+    "title": "https://api.example.com/health",
+    "subtitle": "Website Ping / Uptime",
+    "displayFields": ["url", "status", "response_time_ms", "http_status", "checked_at"]
+  }
+}

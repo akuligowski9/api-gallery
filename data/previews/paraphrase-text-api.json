@@ -1,0 +1,16 @@
+{
+  "id": "paraphrase-text-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "original": "The quick brown fox jumps over the lazy dog.",
+    "paraphrased": "A speedy auburn fox leaps across the sluggish canine.",
+    "similarity_score": 0.82,
+    "mode": "formal",
+    "word_count": 9
+  },
+  "previewConfig": {
+    "title": "Paraphrase Text API",
+    "subtitle": "Rewritten text with adjustable tone",
+    "displayFields": ["original", "paraphrased", "similarity_score", "mode", "word_count"]
+  }
+}
