@@ -1,0 +1,26 @@
+{
+  "id": "open-states",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Alexandria Ocasio-Cortez",
+    "party": "Democratic",
+    "state": "New York",
+    "chamber": "lower",
+    "district": "14",
+    "photo_url": "https://theunitedstates.io/images/congress/225x275/O000172.jpg",
+    "committees": "Financial Services; Oversight and Accountability; Tax"
+  },
+  "previewConfig": {
+    "title": "Legislator Lookup",
+    "subtitle": "NY-14 — Alexandria Ocasio-Cortez (D)",
+    "displayFields": [
+      "name",
+      "party",
+      "state",
+      "chamber",
+      "district",
+      "photo_url",
+      "committees"
+    ]
+  }
+}

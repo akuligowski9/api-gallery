@@ -1,0 +1,16 @@
+{
+  "id": "nba-graphql",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "ppg": "25.4",
+    "rpg": "7.2",
+    "apg": "8.1"
+  },
+  "previewConfig": {
+    "title": "LeBron James",
+    "subtitle": "NBA GraphQL",
+    "displayFields": ["name", "team", "ppg", "rpg", "apg"]
+  }
+}

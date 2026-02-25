@@ -1,0 +1,16 @@
+{
+  "id": "collins",
+  "previewType": "card",
+  "sampleResponse": {
+    "word": "ephemeral",
+    "partOfSpeech": "adjective",
+    "definition": "Lasting for only a short time; transitory.",
+    "pronunciation": "ɪˈfɛmərəl",
+    "language": "English"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Collins Dictionary",
+    "displayFields": ["word", "partOfSpeech", "definition", "pronunciation", "language"]
+  }
+}

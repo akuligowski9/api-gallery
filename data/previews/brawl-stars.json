@@ -1,0 +1,16 @@
+{
+  "id": "brawl-stars",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Shelly",
+    "rarity": "Starting Brawler",
+    "class": "Damage Dealer",
+    "gadgets": "Clay Pigeons",
+    "starPowers": "Shell Shock"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Brawl Stars API",
+    "displayFields": ["name", "rarity", "class", "gadgets", "starPowers"]
+  }
+}

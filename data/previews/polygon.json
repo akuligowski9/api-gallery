@@ -2,22 +2,15 @@
   "id": "polygon",
   "previewType": "card",
   "sampleResponse": {
-    "ticker": "MSFT",
-    "close": 421.56,
-    "open": 418.90,
-    "high": 423.12,
-    "low": 417.35,
-    "volume": 22874163
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "market": "stocks",
+    "locale": "us",
+    "currency": "USD"
   },
   "previewConfig": {
-    "title": "Polygon.io",
-    "subtitle": "Financial market data for stocks, options, and crypto",
-    "displayFields": [
-      "ticker",
-      "close",
-      "open",
-      "high",
-      "volume"
-    ]
+    "title": "Apple Inc.",
+    "subtitle": "Polygon.io",
+    "displayFields": ["ticker", "name", "market", "locale", "currency"]
   }
 }

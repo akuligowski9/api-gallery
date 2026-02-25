@@ -1,50 +1,17 @@
 {
   "id": "themealdb",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      {
-        "meal": "Chicken Teriyaki",
-        "category": "Chicken",
-        "area": "Japanese",
-        "thumbnail": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
-        "tags": "Meat,Glazed"
-      },
-      {
-        "meal": "Chicken Alfredo Primavera",
-        "category": "Chicken",
-        "area": "Italian",
-        "thumbnail": "https://www.themealdb.com/images/media/meals/syqypv1486981727.jpg",
-        "tags": "Pasta,Creamy"
-      },
-      {
-        "meal": "Chicken Tikka Masala",
-        "category": "Chicken",
-        "area": "Indian",
-        "thumbnail": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg",
-        "tags": "Curry,Spicy"
-      },
-      {
-        "meal": "Chicken Enchilada Casserole",
-        "category": "Chicken",
-        "area": "Mexican",
-        "thumbnail": "https://www.themealdb.com/images/media/meals/qtuwxu1468233098.jpg",
-        "tags": "Casserole,Cheesy"
-      },
-      {
-        "meal": "Chicken Souvlaki",
-        "category": "Chicken",
-        "area": "Greek",
-        "thumbnail": "https://www.themealdb.com/images/media/meals/ryppsv1511815505.jpg",
-        "tags": "Grilled,BBQ"
-      }
-    ]
+    "meal": "Chicken Katsu Curry",
+    "category": "Chicken",
+    "area": "Japanese",
+    "instructions_preview": "Flatten chicken breasts, coat in flour, egg, and panko breadcrumbs. Deep fry until golden. Serve over rice with Japanese curry sauce.",
+    "tags": "Curry, Fried, Main",
+    "youtube_link": "https://www.youtube.com/watch?v=MWzxDFRtVbc"
   },
   "previewConfig": {
-    "title": "Meal Search",
-    "subtitle": "Search: chicken",
-    "itemKey": "meal",
-    "secondaryKey": "area",
-    "badgeKey": "category"
+    "title": "Chicken Katsu Curry",
+    "subtitle": "TheMealDB",
+    "displayFields": ["meal", "category", "area", "instructions_preview", "tags", "youtube_link"]
   }
 }

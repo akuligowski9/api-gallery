@@ -1,13 +1,22 @@
 {
   "id": "dog-ceo",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "message": "https://images.dog.ceo/breeds/samoyed/n02111889_5765.jpg",
-    "status": "success"
+    "breed": "Shiba Inu",
+    "sub_breed": "",
+    "image_url": "https://images.dog.ceo/breeds/shiba/shiba-11.jpg",
+    "status": "success",
+    "breed_group": "Non-Sporting"
   },
   "previewConfig": {
-    "title": "Random Dog Image",
-    "subtitle": "Samoyed",
-    "imageKey": "message"
+    "title": "Random Dog",
+    "subtitle": "Shiba Inu — Non-Sporting",
+    "displayFields": [
+      "breed",
+      "sub_breed",
+      "image_url",
+      "status",
+      "breed_group"
+    ]
   }
 }

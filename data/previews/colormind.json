@@ -2,19 +2,22 @@
   "id": "colormind",
   "previewType": "card",
   "sampleResponse": {
-    "result": [
-      [44, 43, 44],
-      [90, 83, 82],
-      [149, 149, 148],
-      [203, 190, 175],
-      [232, 222, 211]
-    ],
+    "color_1": "rgb(31, 48, 64)",
+    "color_2": "rgb(69, 123, 157)",
+    "color_3": "rgb(168, 218, 220)",
+    "color_4": "rgb(241, 250, 238)",
+    "color_5": "rgb(230, 57, 70)",
     "model": "default"
   },
   "previewConfig": {
-    "title": "Color Palette",
-    "subtitle": "colormind.io",
+    "title": "Generated Palette",
+    "subtitle": "5-color palette — default model",
     "displayFields": [
+      "color_1",
+      "color_2",
+      "color_3",
+      "color_4",
+      "color_5",
       "model"
     ]
   }

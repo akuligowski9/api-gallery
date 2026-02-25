@@ -1,0 +1,24 @@
+{
+  "id": "cloudflare-dns",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "api.example.com",
+    "type": "A",
+    "content": "104.21.56.78",
+    "ttl": 300,
+    "proxied": true,
+    "zone_name": "example.com"
+  },
+  "previewConfig": {
+    "title": "DNS Record",
+    "subtitle": "api.example.com — A record",
+    "displayFields": [
+      "name",
+      "type",
+      "content",
+      "ttl",
+      "proxied",
+      "zone_name"
+    ]
+  }
+}

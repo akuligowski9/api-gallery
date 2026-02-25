@@ -1,0 +1,16 @@
+{
+  "id": "mailjet",
+  "previewType": "card",
+  "sampleResponse": {
+    "messageId": "2305648903154",
+    "status": "delivered",
+    "recipient": "jane.doe@example.com",
+    "subject": "Your order has shipped",
+    "sentAt": "2025-06-14T09:32:17Z"
+  },
+  "previewConfig": {
+    "title": "Email Delivery",
+    "subtitle": "Mailjet",
+    "displayFields": ["messageId", "status", "recipient", "subject", "sentAt"]
+  }
+}

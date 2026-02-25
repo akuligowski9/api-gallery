@@ -1,0 +1,16 @@
+{
+  "id": "numbers-api",
+  "previewType": "card",
+  "sampleResponse": {
+    "number": 42,
+    "text": "42 is the answer to the Ultimate Question of Life, the Universe, and Everything.",
+    "type": "trivia",
+    "found": true,
+    "year": ""
+  },
+  "previewConfig": {
+    "title": "42",
+    "subtitle": "Numbers API",
+    "displayFields": ["number", "text", "type", "found", "year"]
+  }
+}

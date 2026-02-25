@@ -5,17 +5,12 @@
     "trackName": "Bohemian Rhapsody",
     "artistName": "Queen",
     "albumName": "A Night at the Opera",
-    "duration": 354,
-    "plainLyrics": "Is this the real life? Is this just fantasy?",
-    "syncedLyrics": "[00:00.49] Is this the real life?"
+    "duration": "5:55",
+    "syncedLyrics": "true"
   },
   "previewConfig": {
     "title": "Bohemian Rhapsody",
-    "subtitle": "Queen",
-    "displayFields": [
-      "artistName",
-      "albumName",
-      "duration"
-    ]
+    "subtitle": "LRCLIB",
+    "displayFields": ["trackName", "artistName", "albumName", "duration", "syncedLyrics"]
   }
 }

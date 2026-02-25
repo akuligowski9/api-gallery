@@ -1,0 +1,16 @@
+{
+  "id": "securitytrails",
+  "previewType": "card",
+  "sampleResponse": {
+    "domain": "google.com",
+    "alexa_rank": 1,
+    "host_provider": "Google LLC",
+    "mail_provider": "Google Workspace",
+    "nameservers": "ns1.google.com"
+  },
+  "previewConfig": {
+    "title": "google.com",
+    "subtitle": "SecurityTrails",
+    "displayFields": ["domain", "alexa_rank", "host_provider", "mail_provider", "nameservers"]
+  }
+}

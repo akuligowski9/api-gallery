@@ -1,0 +1,16 @@
+{
+  "id": "pvwatts",
+  "previewType": "card",
+  "sampleResponse": {
+    "systemCapacity": "4 kW",
+    "annualProduction": "6,245 kWh",
+    "solarRadiation": "5.16 kWh/m²/day",
+    "location": "Denver, CO, USA",
+    "tilt": "39.7°"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "PVWatts",
+    "displayFields": ["systemCapacity", "annualProduction", "solarRadiation", "location", "tilt"]
+  }
+}

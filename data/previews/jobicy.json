@@ -1,0 +1,20 @@
+{
+  "id": "jobicy",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Senior Full-Stack Engineer", "secondary": "Automattic", "badge": "$160k" },
+      { "title": "Staff Data Scientist", "secondary": "GitLab", "badge": "$185k" },
+      { "title": "DevOps Platform Engineer", "secondary": "Hashicorp", "badge": "$155k" },
+      { "title": "Product Designer", "secondary": "Zapier", "badge": "$130k" },
+      { "title": "Backend Engineer (Rust)", "secondary": "Fly.io", "badge": "$170k" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Jobicy",
+    "subtitle": "Remote Job Listings",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

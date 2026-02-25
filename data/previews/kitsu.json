@@ -1,0 +1,16 @@
+{
+  "id": "kitsu",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Cowboy Bebop",
+    "episodeCount": "26",
+    "status": "finished",
+    "averageRating": "82.38",
+    "subtype": "TV"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Kitsu API",
+    "displayFields": ["title", "episodeCount", "status", "averageRating", "subtype"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "iucn-red-list",
+  "previewType": "card",
+  "sampleResponse": {
+    "scientific_name": "Panthera tigris",
+    "common_name": "Tiger",
+    "category": "Endangered",
+    "population_trend": "Increasing",
+    "habitat": "Forest, Grassland, Shrubland",
+    "assessment_year": 2022
+  },
+  "previewConfig": {
+    "title": "Species Lookup",
+    "subtitle": "Panthera tigris — Endangered",
+    "displayFields": [
+      "scientific_name",
+      "common_name",
+      "category",
+      "population_trend",
+      "habitat",
+      "assessment_year"
+    ]
+  }
+}

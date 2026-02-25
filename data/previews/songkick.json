@@ -1,0 +1,20 @@
+{
+  "id": "songkick",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Radiohead", "secondary": "Madison Square Garden, NYC", "badge": "Mar 15" },
+      { "title": "Arctic Monkeys", "secondary": "The Forum, Los Angeles", "badge": "Mar 22" },
+      { "title": "Tame Impala", "secondary": "Red Rocks, Colorado", "badge": "Apr 03" },
+      { "title": "LCD Soundsystem", "secondary": "Brooklyn Steel, NYC", "badge": "Apr 11" },
+      { "title": "Khruangbin", "secondary": "Ryman Auditorium, Nashville", "badge": "Apr 28" }
+    ]
+  },
+  "previewConfig": {
+    "title": "Songkick",
+    "subtitle": "Upcoming Concerts",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "metropolitan-museum",
+  "previewType": "list",
+  "sampleResponse": {
+    "query": "sunflower",
+    "total_results": 38,
+    "artworks": [
+      {
+        "title": "Sunflowers",
+        "artist": "Vincent van Gogh",
+        "department": "European Paintings",
+        "medium": "Oil on canvas",
+        "date": "1887"
+      },
+      {
+        "title": "Two Cut Sunflowers",
+        "artist": "Vincent van Gogh",
+        "department": "European Paintings",
+        "medium": "Oil on canvas",
+        "date": "1887"
+      },
+      {
+        "title": "Sunflower Quilt",
+        "artist": "Anonymous",
+        "department": "American Decorative Arts",
+        "medium": "Cotton and silk",
+        "date": "ca. 1870"
+      },
+      {
+        "title": "Vase with Sunflowers",
+        "artist": "Claude Monet",
+        "department": "European Paintings",
+        "medium": "Oil on canvas",
+        "date": "1881"
+      },
+      {
+        "title": "Sunflower Pendant",
+        "artist": "Louis Comfort Tiffany",
+        "department": "Modern and Contemporary Art",
+        "medium": "Gold, enamel, and sapphire",
+        "date": "ca. 1900"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Artworks Search",
+    "subtitle": "\"sunflower\" — 38 results",
+    "itemKey": "title",
+    "secondaryKey": "artist",
+    "badgeKey": "department"
+  }
+}

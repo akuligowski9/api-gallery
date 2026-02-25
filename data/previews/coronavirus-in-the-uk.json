@@ -1,0 +1,16 @@
+{
+  "id": "coronavirus-in-the-uk",
+  "previewType": "card",
+  "sampleResponse": {
+    "date": "2023-03-09",
+    "newCases": 5218,
+    "cumCases": 24658705,
+    "newDeaths": 47,
+    "hospitalAdmissions": 612
+  },
+  "previewConfig": {
+    "title": "UK COVID-19 Statistics",
+    "subtitle": "Coronavirus in the UK",
+    "displayFields": ["date", "newCases", "cumCases", "newDeaths", "hospitalAdmissions"]
+  }
+}

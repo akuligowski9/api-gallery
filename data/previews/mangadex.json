@@ -1,0 +1,16 @@
+{
+  "id": "mangadex",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "One Piece",
+    "status": "ongoing",
+    "year": "1997",
+    "demographic": "Shounen",
+    "contentRating": "safe"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "MangaDex API",
+    "displayFields": ["title", "status", "year", "demographic", "contentRating"]
+  }
+}

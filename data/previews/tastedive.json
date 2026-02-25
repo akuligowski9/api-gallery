@@ -1,0 +1,20 @@
+{
+  "id": "tastedive",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Interstellar", "secondary": "Movie", "badge": 94 },
+      { "title": "The Prestige", "secondary": "Movie", "badge": 91 },
+      { "title": "Shutter Island", "secondary": "Movie", "badge": 88 },
+      { "title": "Memento", "secondary": "Movie", "badge": 85 },
+      { "title": "The Matrix", "secondary": "Movie", "badge": 82 }
+    ]
+  },
+  "previewConfig": {
+    "title": "TasteDive",
+    "subtitle": "Recommendations similar to Inception",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

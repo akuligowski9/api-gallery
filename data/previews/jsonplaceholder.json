@@ -1,45 +1,26 @@
 {
   "id": "jsonplaceholder",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      {
-        "id": 1,
-        "userId": 1,
-        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-        "body": "quia et suscipit suscipit recusandae consequuntur expedita..."
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "title": "qui est esse",
-        "body": "est rerum tempore vitae sequi sint nihil reprehenderit..."
-      },
-      {
-        "id": 3,
-        "userId": 1,
-        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-        "body": "et iusto sed quo iure voluptatem occaecati omnisque..."
-      },
-      {
-        "id": 4,
-        "userId": 1,
-        "title": "eum et est occaecati",
-        "body": "ullam et saepe reiciendis voluptatem adipisci sit amet..."
-      },
-      {
-        "id": 5,
-        "userId": 2,
-        "title": "nesciunt quas odio",
-        "body": "repudiandae veniam quaerat sunt sed alias aut fugiat..."
-      }
-    ]
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": "Romaguera-Crona"
   },
   "previewConfig": {
-    "title": "Posts",
-    "subtitle": "/posts",
-    "itemKey": "title",
-    "secondaryKey": "body",
-    "badgeKey": "userId"
+    "title": "Fake User",
+    "subtitle": "Leanne Graham (@Bret)",
+    "displayFields": [
+      "id",
+      "name",
+      "username",
+      "email",
+      "phone",
+      "website",
+      "company"
+    ]
   }
 }

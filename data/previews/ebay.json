@@ -1,0 +1,16 @@
+{
+  "id": "ebay",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Vintage Polaroid SX-70 Land Camera",
+    "price": "$124.99",
+    "condition": "Used - Good",
+    "seller_rating": "99.2%",
+    "bids": "17"
+  },
+  "previewConfig": {
+    "title": "Vintage Polaroid SX-70 Land Camera",
+    "subtitle": "eBay",
+    "displayFields": ["title", "price", "condition", "seller_rating", "bids"]
+  }
+}

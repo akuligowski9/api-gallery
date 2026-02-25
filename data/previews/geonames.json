@@ -1,0 +1,50 @@
+{
+  "id": "geonames",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "name": "New York City",
+        "country": "United States",
+        "population": 8336817,
+        "latitude": 40.7128,
+        "feature_class": "P"
+      },
+      {
+        "name": "Jersey City",
+        "country": "United States",
+        "population": 292449,
+        "latitude": 40.7178,
+        "feature_class": "P"
+      },
+      {
+        "name": "Newark",
+        "country": "United States",
+        "population": 311549,
+        "latitude": 40.7357,
+        "feature_class": "P"
+      },
+      {
+        "name": "Hoboken",
+        "country": "United States",
+        "population": 60419,
+        "latitude": 40.744,
+        "feature_class": "P"
+      },
+      {
+        "name": "Bayonne",
+        "country": "United States",
+        "population": 71472,
+        "latitude": 40.6687,
+        "feature_class": "P"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Cities Near 40.71, -74.00",
+    "subtitle": "GeoNames geographical database",
+    "itemKey": "name",
+    "secondaryKey": "country",
+    "badgeKey": "population"
+  }
+}

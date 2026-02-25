@@ -2,20 +2,19 @@
   "id": "cleanuri",
   "previewType": "card",
   "sampleResponse": {
-    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
-    "short_url": "https://bit.ly/4xKp9Qm",
-    "clicks": 1842,
-    "created": "Feb 20, 2026",
-    "expires": "Never"
+    "original_url": "https://example.com/blog/2026/02/understanding-rest-apis-best-practices",
+    "short_url": "https://cleanuri.com/rKz7nQ",
+    "created_at": "2026-02-24T14:32:08Z",
+    "clicks": 1247
   },
   "previewConfig": {
-    "title": "CleanURI",
-    "subtitle": "URL shortener service",
+    "title": "Shortened URL",
+    "subtitle": "cleanuri.com/rKz7nQ — 1,247 clicks",
     "displayFields": [
-      "short_url",
       "original_url",
-      "clicks",
-      "created"
+      "short_url",
+      "created_at",
+      "clicks"
     ]
   }
 }

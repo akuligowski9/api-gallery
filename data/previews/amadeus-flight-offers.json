@@ -1,0 +1,50 @@
+{
+  "id": "amadeus-flight-offers",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "carrier": "British Airways",
+        "price_eur": 412,
+        "departure": "2026-05-01T07:30",
+        "stops": 0,
+        "duration": "7h 10m"
+      },
+      {
+        "carrier": "Virgin Atlantic",
+        "price_eur": 389,
+        "departure": "2026-05-01T10:15",
+        "stops": 0,
+        "duration": "7h 25m"
+      },
+      {
+        "carrier": "Delta Air Lines",
+        "price_eur": 445,
+        "departure": "2026-05-01T17:40",
+        "stops": 0,
+        "duration": "7h 05m"
+      },
+      {
+        "carrier": "Lufthansa",
+        "price_eur": 378,
+        "departure": "2026-05-01T14:00",
+        "stops": 1,
+        "duration": "10h 30m"
+      },
+      {
+        "carrier": "Air France",
+        "price_eur": 365,
+        "departure": "2026-05-01T22:00",
+        "stops": 1,
+        "duration": "11h 15m"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Flight Offers NYC to London",
+    "subtitle": "Amadeus Flight Offers",
+    "itemKey": "carrier",
+    "secondaryKey": "duration",
+    "badgeKey": "price_eur"
+  }
+}

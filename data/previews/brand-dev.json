@@ -1,0 +1,16 @@
+{
+  "id": "brand-dev",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Vercel",
+    "domain": "vercel.com",
+    "industry": "Cloud Computing",
+    "founded": "2015",
+    "logo_url": "https://brand.dev/logos/vercel.svg"
+  },
+  "previewConfig": {
+    "title": "Vercel",
+    "subtitle": "brand.dev",
+    "displayFields": ["name", "domain", "industry", "founded", "logo_url"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "kraken",
+  "previewType": "card",
+  "sampleResponse": {
+    "pair": "BTC/USD",
+    "lastTradePrice": "97284.50",
+    "volume24h": "3412.18",
+    "high24h": "98150.00",
+    "low24h": "95620.75"
+  },
+  "previewConfig": {
+    "title": "BTC/USD",
+    "subtitle": "Kraken",
+    "displayFields": ["pair", "lastTradePrice", "volume24h", "high24h", "low24h"]
+  }
+}

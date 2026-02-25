@@ -1,0 +1,16 @@
+{
+  "id": "haveibeenpwned",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "LinkedIn",
+    "breachDate": "2012-05-05",
+    "pwnCount": 164611595,
+    "dataClasses": "Email addresses, Passwords",
+    "isVerified": true
+  },
+  "previewConfig": {
+    "title": "LinkedIn Breach",
+    "subtitle": "Have I Been Pwned",
+    "displayFields": ["name", "breachDate", "pwnCount", "dataClasses", "isVerified"]
+  }
+}

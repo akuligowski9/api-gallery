@@ -1,0 +1,22 @@
+{
+  "id": "chuck-norris",
+  "previewType": "card",
+  "sampleResponse": {
+    "value": "Chuck Norris can divide by zero.",
+    "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+    "id": "elgv2wkvt8ioag6xywykbq",
+    "categories": "dev",
+    "created_at": "2020-01-05T13:42:19.576875Z"
+  },
+  "previewConfig": {
+    "title": "Random Chuck Norris Joke",
+    "subtitle": "Chuck Norris can divide by zero.",
+    "displayFields": [
+      "value",
+      "icon_url",
+      "id",
+      "categories",
+      "created_at"
+    ]
+  }
+}

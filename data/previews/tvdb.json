@@ -1,0 +1,16 @@
+{
+  "id": "tvdb",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "The Office",
+    "network": "NBC",
+    "firstAired": "2005-03-24",
+    "status": "Ended",
+    "seasons": "9"
+  },
+  "previewConfig": {
+    "title": "The Office",
+    "subtitle": "TheTVDB",
+    "displayFields": ["name", "network", "firstAired", "status", "seasons"]
+  }
+}

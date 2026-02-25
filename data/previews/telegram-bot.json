@@ -2,23 +2,23 @@
   "id": "telegram-bot",
   "previewType": "card",
   "sampleResponse": {
-    "username": "WeatherAlertBot",
-    "first_name": "Weather Alert",
+    "id": 5834710217,
+    "first_name": "API Explorer Bot",
+    "username": "api_explorer_bot",
     "can_join_groups": true,
-    "supports_inline_queries": true,
-    "message_count": 142857,
-    "subscriber_count": 28400
+    "supports_inline_queries": false,
+    "is_bot": true
   },
   "previewConfig": {
-    "title": "Telegram Bot API",
-    "subtitle": "Bot info for @WeatherAlertBot",
+    "title": "Bot Info",
+    "subtitle": "API Explorer Bot (@api_explorer_bot)",
     "displayFields": [
-      "username",
+      "id",
       "first_name",
+      "username",
       "can_join_groups",
       "supports_inline_queries",
-      "message_count",
-      "subscriber_count"
+      "is_bot"
     ]
   }
 }

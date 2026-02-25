@@ -1,21 +1,17 @@
 {
   "id": "datamuse",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "words": [
-      {"word": "happy", "score": 97841},
-      {"word": "joyful", "score": 54230}
-    ]
+    "word": "serendipity",
+    "score": 87432,
+    "num_syllables": 5,
+    "frequency": 3.72,
+    "tags": "noun, abstract",
+    "definition": "The occurrence of events by chance in a happy way"
   },
   "previewConfig": {
-    "title": "Words like 'happy'",
-    "items": [
-      {"name": "happy", "score": 97841},
-      {"name": "joyful", "score": 54230},
-      {"name": "cheerful", "score": 48912},
-      {"name": "content", "score": 42100},
-      {"name": "blissful", "score": 38456},
-      {"name": "elated", "score": 31205}
-    ]
+    "title": "serendipity",
+    "subtitle": "Datamuse",
+    "displayFields": ["word", "score", "num_syllables", "frequency", "tags", "definition"]
   }
 }

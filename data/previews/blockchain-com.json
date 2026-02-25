@@ -1,0 +1,24 @@
+{
+  "id": "blockchain-com",
+  "previewType": "card",
+  "sampleResponse": {
+    "hash": "0000000000000000000232f640a95dd57d4f2e7b4c39fc1fb2d0bcf73c7e4d3a",
+    "height": 883241,
+    "time": "2026-02-24T18:22:14Z",
+    "n_tx": 3472,
+    "size_kb": 1643.7,
+    "total_btc": 6251.384
+  },
+  "previewConfig": {
+    "title": "BTC Block",
+    "subtitle": "Block #883,241 — 3,472 transactions",
+    "displayFields": [
+      "hash",
+      "height",
+      "time",
+      "n_tx",
+      "size_kb",
+      "total_btc"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "nasdaq-data-link",
+  "previewType": "card",
+  "sampleResponse": {
+    "indicator": "Gross Domestic Product",
+    "value": "27360.935",
+    "unit": "Billions of Dollars",
+    "frequency": "Quarterly",
+    "lastUpdated": "2024-12-20"
+  },
+  "previewConfig": {
+    "title": "GDP Indicator",
+    "subtitle": "Nasdaq Data Link",
+    "displayFields": ["indicator", "value", "unit", "frequency", "lastUpdated"]
+  }
+}

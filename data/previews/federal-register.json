@@ -2,49 +2,50 @@
   "id": "federal-register",
   "previewType": "list",
   "sampleResponse": {
-    "items": [
+    "query": "recent documents",
+    "documents": [
       {
-        "title": "Establishing the Department of Government Efficiency",
-        "document_number": "2025-02164",
-        "publication_date": "2025-01-29",
-        "type": "Executive Order",
-        "agency": "Executive Office of the President"
+        "title": "Air Quality Standards for Particulate Matter",
+        "type": "Proposed Rule",
+        "agency": "Environmental Protection Agency",
+        "publication_date": "2026-02-24",
+        "abstract": "EPA proposes to revise the national ambient air quality standards for fine particulate matter to provide increased public health protection."
       },
       {
-        "title": "Protecting the American People Against Invasion",
-        "document_number": "2025-02281",
-        "publication_date": "2025-01-25",
-        "type": "Executive Order",
-        "agency": "Executive Office of the President"
+        "title": "Federal Student Loan Repayment Program Updates",
+        "type": "Final Rule",
+        "agency": "Department of Education",
+        "publication_date": "2026-02-23",
+        "abstract": "The Department amends regulations governing income-driven repayment plans to streamline enrollment and reduce administrative burden."
       },
       {
-        "title": "Unleashing American Energy",
-        "document_number": "2025-02098",
-        "publication_date": "2025-01-24",
-        "type": "Executive Order",
-        "agency": "Executive Office of the President"
+        "title": "Cybersecurity Requirements for Critical Infrastructure",
+        "type": "Notice",
+        "agency": "Department of Homeland Security",
+        "publication_date": "2026-02-22",
+        "abstract": "DHS announces new reporting requirements for cybersecurity incidents affecting critical infrastructure operators under the CIRCIA framework."
       },
       {
-        "title": "Regulatory Freeze Pending Review",
-        "document_number": "2025-02090",
-        "publication_date": "2025-01-23",
-        "type": "Executive Order",
-        "agency": "Executive Office of the President"
+        "title": "Endangered Species Listing: Pacific Northwest Salmonids",
+        "type": "Proposed Rule",
+        "agency": "Department of the Interior",
+        "publication_date": "2026-02-21",
+        "abstract": "Fish and Wildlife Service proposes to reclassify three Pacific Northwest salmon populations from threatened to endangered under the ESA."
       },
       {
-        "title": "Restoring Accountability for Career Senior Executives",
-        "document_number": "2025-02367",
-        "publication_date": "2025-01-31",
-        "type": "Executive Order",
-        "agency": "Executive Office of the President"
+        "title": "Import Tariff Adjustments for Semiconductor Components",
+        "type": "Final Rule",
+        "agency": "Department of Commerce",
+        "publication_date": "2026-02-20",
+        "abstract": "Commerce adjusts tariff classifications and duty rates for imported semiconductor manufacturing equipment and advanced chip components."
       }
     ]
   },
   "previewConfig": {
-    "title": "Federal Register",
-    "subtitle": "Recent executive orders",
+    "title": "Federal Register Documents",
+    "subtitle": "Recent publications — 5 documents",
     "itemKey": "title",
-    "secondaryKey": "publication_date",
+    "secondaryKey": "agency",
     "badgeKey": "type"
   }
 }

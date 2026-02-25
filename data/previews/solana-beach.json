@@ -1,0 +1,24 @@
+{
+  "id": "solana-beach",
+  "previewType": "card",
+  "sampleResponse": {
+    "slot": 312847561,
+    "epoch": 724,
+    "tps": 4283,
+    "total_supply": 589312847.62,
+    "circulating_supply": 473891204.18,
+    "active_validators": 1847
+  },
+  "previewConfig": {
+    "title": "Solana Stats",
+    "subtitle": "Epoch 724 — 4,283 TPS",
+    "displayFields": [
+      "slot",
+      "epoch",
+      "tps",
+      "total_supply",
+      "circulating_supply",
+      "active_validators"
+    ]
+  }
+}

@@ -2,25 +2,15 @@
   "id": "nhtsa",
   "previewType": "card",
   "sampleResponse": {
-    "Make": "Tesla",
-    "Model": "Model 3",
-    "ModelYear": "2024",
-    "VehicleType": "Passenger Car",
-    "BodyClass": "Sedan/Saloon",
-    "DriveType": "RWD/Rear-Wheel Drive",
-    "FuelTypePrimary": "Electric",
-    "EngineKW": "208",
-    "PlantCountry": "United States (US)"
+    "manufacturer": "Tesla, Inc.",
+    "model": "Model 3",
+    "year": "2023",
+    "component": "Electrical System: Software",
+    "summary": "Rearview camera may fail to display when shifting into reverse"
   },
   "previewConfig": {
-    "title": "Tesla Model 3",
-    "subtitle": "2024 Passenger Car",
-    "displayFields": [
-      "Make",
-      "Model",
-      "ModelYear",
-      "DriveType",
-      "FuelTypePrimary"
-    ]
+    "title": "Vehicle Recall",
+    "subtitle": "NHTSA",
+    "displayFields": ["manufacturer", "model", "year", "component", "summary"]
   }
 }

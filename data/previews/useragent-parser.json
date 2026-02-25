@@ -1,0 +1,24 @@
+{
+  "id": "useragent-parser",
+  "previewType": "card",
+  "sampleResponse": {
+    "browser": "Chrome",
+    "browser_version": "122.0.6261.94",
+    "os": "macOS",
+    "os_version": "14.3.1",
+    "device": "Macintosh",
+    "device_type": "desktop"
+  },
+  "previewConfig": {
+    "title": "User-Agent Parse",
+    "subtitle": "Chrome 122 on macOS 14.3.1",
+    "displayFields": [
+      "browser",
+      "browser_version",
+      "os",
+      "os_version",
+      "device",
+      "device_type"
+    ]
+  }
+}

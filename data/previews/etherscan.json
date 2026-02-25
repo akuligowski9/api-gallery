@@ -2,21 +2,23 @@
   "id": "etherscan",
   "previewType": "card",
   "sampleResponse": {
-    "hash": "0x5c504ed432cb51138bcf09aa5e8a410dd4a1e204ef84bfed1be16dfba1b22060",
-    "blockNumber": 21948302,
-    "value": "1.5 ETH",
-    "gasUsed": "21000",
-    "status": "Success"
+    "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "balance_eth": 1532.847,
+    "txn_count": 1089,
+    "first_seen": "2017-06-09T12:00:00Z",
+    "last_seen": "2026-02-24T19:47:22Z",
+    "token_count": 47
   },
   "previewConfig": {
-    "title": "Etherscan",
-    "subtitle": "Ethereum blockchain explorer and analytics",
+    "title": "ETH Address",
+    "subtitle": "0xd8dA...6045 — 1,532.85 ETH",
     "displayFields": [
-      "hash",
-      "blockNumber",
-      "value",
-      "gasUsed",
-      "status"
+      "address",
+      "balance_eth",
+      "txn_count",
+      "first_seen",
+      "last_seen",
+      "token_count"
     ]
   }
 }

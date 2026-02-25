@@ -1,0 +1,17 @@
+{
+  "id": "zippopotamus",
+  "previewType": "card",
+  "sampleResponse": {
+    "post_code": "90210",
+    "country": "United States",
+    "state": "California",
+    "city": "Beverly Hills",
+    "latitude": "34.0901",
+    "longitude": "-118.4065"
+  },
+  "previewConfig": {
+    "title": "90210 - Beverly Hills",
+    "subtitle": "Zippopotamus",
+    "displayFields": ["post_code", "country", "state", "city", "latitude", "longitude"]
+  }
+}

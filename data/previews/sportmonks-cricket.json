@@ -1,0 +1,16 @@
+{
+  "id": "sportmonks-cricket",
+  "previewType": "card",
+  "sampleResponse": {
+    "fixture": "India vs Australia",
+    "league": "ICC Cricket World Cup",
+    "season": "2025/26",
+    "status": "Finished",
+    "venue": "Wankhede Stadium, Mumbai"
+  },
+  "previewConfig": {
+    "title": "India vs Australia",
+    "subtitle": "Sportmonks Cricket",
+    "displayFields": ["fixture", "league", "season", "status", "venue"]
+  }
+}

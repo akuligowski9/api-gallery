@@ -1,0 +1,26 @@
+{
+  "id": "unsplash-random",
+  "previewType": "card",
+  "sampleResponse": {
+    "id": "LBI7cgq3pbM",
+    "description": "A serene lake surrounded by autumn foliage",
+    "width": 5245,
+    "height": 3497,
+    "likes": 2384,
+    "photographer": "Luca Bravo",
+    "download_url": "https://unsplash.com/photos/LBI7cgq3pbM/download"
+  },
+  "previewConfig": {
+    "title": "Random Photo",
+    "subtitle": "By Luca Bravo — 2,384 likes",
+    "displayFields": [
+      "id",
+      "description",
+      "width",
+      "height",
+      "likes",
+      "photographer",
+      "download_url"
+    ]
+  }
+}

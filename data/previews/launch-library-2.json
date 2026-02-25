@@ -1,50 +1,16 @@
 {
   "id": "launch-library-2",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "items": [
-      {
-        "name": "Starlink Group 12-7",
-        "provider": "SpaceX",
-        "vehicle": "Falcon 9",
-        "pad": "SLC-40, Cape Canaveral",
-        "net_date": "2026-03-01T14:30:00Z"
-      },
-      {
-        "name": "OneWeb 20",
-        "provider": "Arianespace",
-        "vehicle": "Ariane 6",
-        "pad": "ELA-4, Kourou",
-        "net_date": "2026-03-04T22:15:00Z"
-      },
-      {
-        "name": "NROL-174",
-        "provider": "Rocket Lab",
-        "vehicle": "Electron",
-        "pad": "LC-1A, Mahia",
-        "net_date": "2026-03-08T03:00:00Z"
-      },
-      {
-        "name": "Crew-14",
-        "provider": "SpaceX",
-        "vehicle": "Falcon 9",
-        "pad": "LC-39A, Kennedy Space Center",
-        "net_date": "2026-03-12T10:45:00Z"
-      },
-      {
-        "name": "Kuiper Prototype 3",
-        "provider": "Blue Origin",
-        "vehicle": "New Glenn",
-        "pad": "LC-36, Cape Canaveral",
-        "net_date": "2026-03-18T19:00:00Z"
-      }
-    ]
+    "name": "Starlink Group 12-7",
+    "provider": "SpaceX",
+    "vehicle": "Falcon 9 Block 5",
+    "padLocation": "Cape Canaveral SFS, FL, USA",
+    "netDate": "2026-03-15T14:22:00Z"
   },
   "previewConfig": {
-    "title": "Upcoming Launches",
-    "subtitle": "Next 5 scheduled",
-    "itemKey": "name",
-    "secondaryKey": "provider",
-    "badgeKey": "vehicle"
+    "title": "Display Title",
+    "subtitle": "Launch Library 2",
+    "displayFields": ["name", "provider", "vehicle", "padLocation", "netDate"]
   }
 }

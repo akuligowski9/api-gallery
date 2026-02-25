@@ -1,0 +1,26 @@
+{
+  "id": "art-institute-chicago",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "A Sunday on La Grande Jatte",
+    "artist_display": "Georges Seurat (French, 1859–1891)",
+    "date_display": "1884–86",
+    "medium_display": "Oil on canvas",
+    "dimensions": "207.6 × 308 cm (81 3/4 × 121 1/4 in.)",
+    "department": "Painting and Sculpture of Europe",
+    "is_public_domain": true
+  },
+  "previewConfig": {
+    "title": "Artwork Details",
+    "subtitle": "A Sunday on La Grande Jatte — Georges Seurat",
+    "displayFields": [
+      "title",
+      "artist_display",
+      "date_display",
+      "medium_display",
+      "dimensions",
+      "department",
+      "is_public_domain"
+    ]
+  }
+}

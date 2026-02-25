@@ -1,0 +1,16 @@
+{
+  "id": "clash-royale",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Mega Knight",
+    "elixir": "7",
+    "rarity": "Legendary",
+    "arena": "Royal Arena",
+    "type": "Troop"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Clash Royale API",
+    "displayFields": ["name", "elixir", "rarity", "arena", "type"]
+  }
+}

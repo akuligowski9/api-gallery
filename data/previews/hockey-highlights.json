@@ -1,0 +1,20 @@
+{
+  "id": "hockey-highlights",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "McDavid OT Winner vs Flames", "secondary": "Edmonton Oilers", "badge": 84200 },
+      { "title": "Makar End-to-End Rush Goal", "secondary": "Colorado Avalanche", "badge": 72500 },
+      { "title": "Shesterkin Sprawling Glove Save", "secondary": "New York Rangers", "badge": 61300 },
+      { "title": "Matthews Hat Trick Clincher", "secondary": "Toronto Maple Leafs", "badge": 58900 },
+      { "title": "Bedard No-Look Backhand", "secondary": "Chicago Blackhawks", "badge": 47600 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Hockey Highlights",
+    "subtitle": "Recent NHL Highlight Clips",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

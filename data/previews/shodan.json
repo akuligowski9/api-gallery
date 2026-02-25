@@ -1,0 +1,16 @@
+{
+  "id": "shodan",
+  "previewType": "card",
+  "sampleResponse": {
+    "ip": "8.8.8.8",
+    "hostnames": "dns.google",
+    "org": "Google LLC",
+    "os": "Linux",
+    "open_ports": "53, 443"
+  },
+  "previewConfig": {
+    "title": "8.8.8.8",
+    "subtitle": "Shodan",
+    "displayFields": ["ip", "hostnames", "org", "os", "open_ports"]
+  }
+}

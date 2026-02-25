@@ -1,0 +1,16 @@
+{
+  "id": "iqair",
+  "previewType": "card",
+  "sampleResponse": {
+    "city": "Beijing",
+    "country": "China",
+    "aqius": 152,
+    "mainPollutant": "pm2.5",
+    "temperature": "4°C"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "IQAir",
+    "displayFields": ["city", "country", "aqius", "mainPollutant", "temperature"]
+  }
+}

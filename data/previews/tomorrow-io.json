@@ -1,0 +1,23 @@
+{
+  "id": "tomorrow-io",
+  "previewType": "card",
+  "sampleResponse": {
+    "location": "San Francisco, CA",
+    "temperature_c": 14.7,
+    "precipitation_probability": 15,
+    "cloud_cover": 72,
+    "wind_speed_kph": 22.1,
+    "visibility_km": 16.0
+  },
+  "previewConfig": {
+    "title": "Weather Data",
+    "subtitle": "San Francisco, CA — 14.7°C",
+    "displayFields": [
+      "temperature_c",
+      "precipitation_probability",
+      "cloud_cover",
+      "wind_speed_kph",
+      "visibility_km"
+    ]
+  }
+}

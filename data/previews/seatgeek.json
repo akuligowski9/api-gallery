@@ -1,0 +1,16 @@
+{
+  "id": "seatgeek",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Los Angeles Lakers vs Boston Celtics",
+    "venue": "Crypto.com Arena, Los Angeles",
+    "datetime": "2026-03-14T19:30:00",
+    "lowestPrice": "$185",
+    "type": "NBA Basketball"
+  },
+  "previewConfig": {
+    "title": "Lakers vs Celtics",
+    "subtitle": "SeatGeek",
+    "displayFields": ["title", "venue", "datetime", "lowestPrice", "type"]
+  }
+}

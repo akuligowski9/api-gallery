@@ -3,18 +3,48 @@
   "previewType": "list",
   "sampleResponse": {
     "items": [
-      { "title": "Memorial Day", "secondary": "May 25, 2026", "badge": "Federal" },
-      { "title": "Independence Day", "secondary": "July 4, 2026", "badge": "Federal" },
-      { "title": "Labor Day", "secondary": "September 7, 2026", "badge": "Federal" },
-      { "title": "Thanksgiving", "secondary": "November 26, 2026", "badge": "Federal" },
-      { "title": "Christmas Day", "secondary": "December 25, 2026", "badge": "Federal" }
+      {
+        "name": "Republic Day",
+        "date": "2026-01-26",
+        "type": "National",
+        "primary_type": "National holiday",
+        "country": "India"
+      },
+      {
+        "name": "Holi",
+        "date": "2026-03-17",
+        "type": "Gazetted",
+        "primary_type": "Hindu holiday",
+        "country": "India"
+      },
+      {
+        "name": "Independence Day",
+        "date": "2026-08-15",
+        "type": "National",
+        "primary_type": "National holiday",
+        "country": "India"
+      },
+      {
+        "name": "Diwali",
+        "date": "2026-10-20",
+        "type": "Gazetted",
+        "primary_type": "Hindu holiday",
+        "country": "India"
+      },
+      {
+        "name": "Gandhi Jayanti",
+        "date": "2026-10-02",
+        "type": "National",
+        "primary_type": "National holiday",
+        "country": "India"
+      }
     ]
   },
   "previewConfig": {
-    "title": "Calendarific",
-    "subtitle": "Upcoming US Holidays",
-    "itemKey": "title",
-    "secondaryKey": "secondary",
-    "badgeKey": "badge"
+    "title": "Indian Holidays 2026",
+    "subtitle": "Calendarific",
+    "itemKey": "name",
+    "secondaryKey": "date",
+    "badgeKey": "primary_type"
   }
 }

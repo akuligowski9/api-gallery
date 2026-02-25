@@ -1,0 +1,52 @@
+{
+  "id": "todoist",
+  "previewType": "list",
+  "sampleResponse": {
+    "project": "Work",
+    "total_tasks": 23,
+    "tasks": [
+      {
+        "content": "Review pull request #487",
+        "project": "Work",
+        "priority": 4,
+        "due_date": "2026-02-25",
+        "labels": "code-review"
+      },
+      {
+        "content": "Prepare sprint demo slides",
+        "project": "Work",
+        "priority": 3,
+        "due_date": "2026-02-26",
+        "labels": "presentation"
+      },
+      {
+        "content": "Update API documentation",
+        "project": "Work",
+        "priority": 2,
+        "due_date": "2026-02-27",
+        "labels": "docs"
+      },
+      {
+        "content": "Schedule 1:1 with team lead",
+        "project": "Work",
+        "priority": 2,
+        "due_date": "2026-02-28",
+        "labels": "meeting"
+      },
+      {
+        "content": "Fix login timeout bug",
+        "project": "Work",
+        "priority": 4,
+        "due_date": "2026-02-25",
+        "labels": "bugfix"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Active Tasks",
+    "subtitle": "Work — 23 tasks",
+    "itemKey": "content",
+    "secondaryKey": "due_date",
+    "badgeKey": "priority"
+  }
+}

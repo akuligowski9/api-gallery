@@ -2,12 +2,21 @@
   "id": "cat-facts",
   "previewType": "card",
   "sampleResponse": {
-    "fact": "Cats sleep 70% of their lives.",
-    "length": 31
+    "fact": "A group of cats is called a clowder.",
+    "length": 36,
+    "verified": true,
+    "source": "cat-facts-db",
+    "created_at": "2025-08-14T10:23:17.000Z"
   },
   "previewConfig": {
     "title": "Cat Fact",
-    "subtitle": "Did you know?",
-    "displayFields": ["fact", "length"]
+    "subtitle": "A group of cats is called a clowder.",
+    "displayFields": [
+      "fact",
+      "length",
+      "verified",
+      "source",
+      "created_at"
+    ]
   }
 }

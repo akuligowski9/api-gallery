@@ -1,0 +1,16 @@
+{
+  "id": "csgo",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "AWP | Dragon Lore",
+    "weapon": "AWP",
+    "rarity": "Covert",
+    "collection": "Cobblestone Collection",
+    "minFloat": "0.000031"
+  },
+  "previewConfig": {
+    "title": "AWP | Dragon Lore",
+    "subtitle": "CS:GO Skins",
+    "displayFields": ["name", "weapon", "rarity", "collection", "minFloat"]
+  }
+}

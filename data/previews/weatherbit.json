@@ -2,15 +2,24 @@
   "id": "weatherbit",
   "previewType": "card",
   "sampleResponse": {
-    "city": "Berlin, DE",
-    "temperature": "12.4 °C",
-    "description": "Partly Cloudy",
-    "humidity": "63%",
-    "wind": "18 km/h NW"
+    "city": "Austin, TX",
+    "temp_c": 22.5,
+    "app_temp_c": 23.1,
+    "weather_description": "Scattered clouds",
+    "wind_spd_ms": 4.8,
+    "precip_mm": 0.0,
+    "aqi": 42
   },
   "previewConfig": {
-    "title": "Weather Forecast",
-    "subtitle": "Weatherbit",
-    "displayFields": ["city", "temperature", "description", "humidity", "wind"]
+    "title": "Current Weather",
+    "subtitle": "Austin, TX — Scattered clouds",
+    "displayFields": [
+      "temp_c",
+      "app_temp_c",
+      "weather_description",
+      "wind_spd_ms",
+      "precip_mm",
+      "aqi"
+    ]
   }
 }

@@ -2,22 +2,15 @@
   "id": "hebrew-calendar",
   "previewType": "card",
   "sampleResponse": {
-    "date": "25 Adar I 5784",
-    "hebrew": "כ״ה אדר א׳ תשפ״ד",
-    "gregorian": "2024-03-05",
-    "parashat": "Vayakhel",
-    "candles": "5:32pm",
-    "havdalah": "6:33pm",
-    "holiday": null
+    "gregorian": "2025-10-02",
+    "hebrew": "29 Tishrei 5786",
+    "holiday": "Sukkot IV (CH''M)",
+    "parsha": "Bereshit",
+    "candles": "6:12pm"
   },
   "previewConfig": {
-    "title": "Hebrew Calendar",
-    "subtitle": "hebcal.com",
-    "displayFields": [
-      "date",
-      "hebrew",
-      "parashat",
-      "candles"
-    ]
+    "title": "Hebrew Date",
+    "subtitle": "Hebrew Calendar",
+    "displayFields": ["gregorian", "hebrew", "holiday", "parsha", "candles"]
   }
 }

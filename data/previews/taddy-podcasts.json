@@ -1,0 +1,20 @@
+{
+  "id": "taddy-podcasts",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "The Joe Rogan Experience", "secondary": "Comedy", "badge": 2190 },
+      { "title": "Serial", "secondary": "True Crime", "badge": 41 },
+      { "title": "Radiolab", "secondary": "Science", "badge": 652 },
+      { "title": "How I Built This", "secondary": "Business", "badge": 538 },
+      { "title": "99% Invisible", "secondary": "Design", "badge": 591 }
+    ]
+  },
+  "previewConfig": {
+    "title": "Taddy Podcasts",
+    "subtitle": "Top Podcasts by Episode Count",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

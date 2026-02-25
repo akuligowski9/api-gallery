@@ -1,0 +1,16 @@
+{
+  "id": "virustotal",
+  "previewType": "card",
+  "sampleResponse": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "detection_ratio": "0 / 72",
+    "file_type": "PE32 executable",
+    "size": "1.4 MB",
+    "scan_date": "2025-11-18"
+  },
+  "previewConfig": {
+    "title": "File Scan Result",
+    "subtitle": "VirusTotal",
+    "displayFields": ["sha256", "detection_ratio", "file_type", "size", "scan_date"]
+  }
+}

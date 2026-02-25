@@ -1,0 +1,16 @@
+{
+  "id": "trakt",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Breaking Bad",
+    "watchers": "148923",
+    "plays": "2841567",
+    "collected": "1203847",
+    "rating": "9.4"
+  },
+  "previewConfig": {
+    "title": "Breaking Bad",
+    "subtitle": "Trakt",
+    "displayFields": ["title", "watchers", "plays", "collected", "rating"]
+  }
+}

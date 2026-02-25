@@ -1,0 +1,16 @@
+{
+  "id": "shikimori",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Death Note",
+    "kind": "tv",
+    "episodes": "37",
+    "score": "8.75",
+    "status": "released"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Shikimori API",
+    "displayFields": ["name", "kind", "episodes", "score", "status"]
+  }
+}

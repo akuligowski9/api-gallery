@@ -1,0 +1,18 @@
+{
+  "id": "edamam",
+  "previewType": "card",
+  "sampleResponse": {
+    "food": "Banana",
+    "calories": 89,
+    "total_fat_g": 0.3,
+    "protein_g": 1.1,
+    "carbs_g": 22.8,
+    "fiber_g": 2.6,
+    "serving_size": "1 medium (118g)"
+  },
+  "previewConfig": {
+    "title": "Banana",
+    "subtitle": "Edamam",
+    "displayFields": ["food", "calories", "total_fat_g", "protein_g", "carbs_g", "fiber_g", "serving_size"]
+  }
+}

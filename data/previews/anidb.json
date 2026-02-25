@@ -1,0 +1,16 @@
+{
+  "id": "anidb",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "Neon Genesis Evangelion",
+    "type": "TV Series",
+    "episodes": "26",
+    "rating": "8.12",
+    "year": "1995"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "AniDB API",
+    "displayFields": ["title", "type", "episodes", "rating", "year"]
+  }
+}

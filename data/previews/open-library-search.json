@@ -1,0 +1,50 @@
+{
+  "id": "open-library-search",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "first_publish_year": 1925,
+        "isbn": "9780743273565",
+        "subject": "Fiction, Classics"
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "first_publish_year": 1960,
+        "isbn": "9780061120084",
+        "subject": "Fiction, Coming-of-age"
+      },
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "first_publish_year": 1949,
+        "isbn": "9780451524935",
+        "subject": "Fiction, Dystopian"
+      },
+      {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "first_publish_year": 1813,
+        "isbn": "9780141439518",
+        "subject": "Fiction, Romance"
+      },
+      {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "first_publish_year": 1951,
+        "isbn": "9780316769488",
+        "subject": "Fiction, Coming-of-age"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Book Search Results",
+    "subtitle": "Open Library",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "first_publish_year"
+  }
+}

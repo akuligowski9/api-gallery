@@ -1,19 +1,16 @@
 {
   "id": "isro",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "spacecrafts": [
-      {"id": "1", "name": "Aryabhata"}
-    ]
+    "name": "Chandrayaan-3",
+    "type": "Lunar Lander/Rover",
+    "launchDate": "2023-07-14",
+    "status": "Mission Successful",
+    "mission": "Lunar south pole soft landing and surface exploration"
   },
   "previewConfig": {
-    "title": "ISRO Spacecraft",
-    "items": [
-      {"name": "Aryabhata", "language": "1975"},
-      {"name": "Bhaskara-I", "language": "1979"},
-      {"name": "Chandrayaan-1", "language": "2008"},
-      {"name": "Mangalyaan", "language": "2013"},
-      {"name": "Chandrayaan-3", "language": "2023"}
-    ]
+    "title": "Display Title",
+    "subtitle": "ISRO",
+    "displayFields": ["name", "type", "launchDate", "status", "mission"]
   }
 }

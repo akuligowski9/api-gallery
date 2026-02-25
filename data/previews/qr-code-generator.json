@@ -2,23 +2,23 @@
   "id": "qr-code-generator",
   "previewType": "card",
   "sampleResponse": {
-    "data": "https://github.com",
+    "data": "https://example.com/landing-page",
     "size": 300,
     "format": "png",
     "error_correction": "M",
     "margin": 4,
-    "foreground": "#000000"
+    "encoding": "UTF-8"
   },
   "previewConfig": {
-    "title": "QR Code Generator",
-    "subtitle": "Generated QR code parameters",
+    "title": "QR Code",
+    "subtitle": "300x300 PNG with medium error correction",
     "displayFields": [
       "data",
       "size",
       "format",
       "error_correction",
       "margin",
-      "foreground"
+      "encoding"
     ]
   }
 }

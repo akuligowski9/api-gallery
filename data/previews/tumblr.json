@@ -2,15 +2,23 @@
   "id": "tumblr",
   "previewType": "card",
   "sampleResponse": {
-    "blog_name": "pixeldreams",
-    "title": "The Art of Generative Design",
-    "note_count": "1,482",
-    "type": "text",
-    "date": "2025-10-18T09:15:00Z"
+    "name": "staff",
+    "title": "Tumblr Staff",
+    "posts": 4893,
+    "followers": 47218934,
+    "description": "The official Tumblr staff blog. We share updates, tips, and news about Tumblr.",
+    "updated": 1740412800
   },
   "previewConfig": {
-    "title": "Blog Post",
-    "subtitle": "Tumblr",
-    "displayFields": ["blog_name", "title", "note_count", "type", "date"]
+    "title": "Blog Info",
+    "subtitle": "Tumblr Staff",
+    "displayFields": [
+      "name",
+      "title",
+      "posts",
+      "followers",
+      "description",
+      "updated"
+    ]
   }
 }

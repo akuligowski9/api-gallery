@@ -2,24 +2,15 @@
   "id": "magic-the-gathering",
   "previewType": "card",
   "sampleResponse": {
-    "name": "Black Lotus",
-    "manaCost": "{0}",
-    "type": "Artifact",
-    "rarity": "Rare",
-    "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
-    "set": "Limited Edition Alpha",
-    "artist": "Christopher Rush",
-    "power": null,
-    "toughness": null
+    "name": "Lightning Bolt",
+    "manaCost": "{R}",
+    "type": "Instant",
+    "rarity": "Common",
+    "set": "Alpha"
   },
   "previewConfig": {
-    "title": "Black Lotus",
-    "subtitle": "Limited Edition Alpha",
-    "displayFields": [
-      "manaCost",
-      "type",
-      "rarity",
-      "text"
-    ]
+    "title": "Display Title",
+    "subtitle": "Magic: The Gathering API",
+    "displayFields": ["name", "manaCost", "type", "rarity", "set"]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "apis-guru",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      { "title": "Stripe API", "secondary": "Financial", "badge": "v1" },
+      { "title": "Twilio API", "secondary": "Messaging", "badge": "v2" },
+      { "title": "GitHub REST API", "secondary": "Development", "badge": "v3" },
+      { "title": "Slack Web API", "secondary": "Social", "badge": "v1" },
+      { "title": "SendGrid API", "secondary": "Email", "badge": "v3" }
+    ]
+  },
+  "previewConfig": {
+    "title": "APIs.guru",
+    "subtitle": "Popular Public APIs",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
+  }
+}

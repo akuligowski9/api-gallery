@@ -1,0 +1,51 @@
+{
+  "id": "data-gov",
+  "previewType": "list",
+  "sampleResponse": {
+    "query": "climate",
+    "datasets": [
+      {
+        "title": "Global Surface Temperature Anomalies",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "format": "CSV",
+        "modified": "2026-01-15",
+        "description": "Monthly and annual global surface temperature anomalies relative to the 1901-2000 baseline average."
+      },
+      {
+        "title": "U.S. Greenhouse Gas Emissions Inventory",
+        "organization": "Environmental Protection Agency",
+        "format": "JSON",
+        "modified": "2025-12-08",
+        "description": "Annual estimates of U.S. anthropogenic greenhouse gas emissions by source and economic sector from 1990 to present."
+      },
+      {
+        "title": "Sea Level Rise Projections by Coastal County",
+        "organization": "U.S. Army Corps of Engineers",
+        "format": "GeoJSON",
+        "modified": "2025-11-22",
+        "description": "Projected sea level rise scenarios through 2100 for all U.S. coastal counties under multiple climate models."
+      },
+      {
+        "title": "National Climate Assessment Indicators",
+        "organization": "U.S. Global Change Research Program",
+        "format": "CSV",
+        "modified": "2026-02-01",
+        "description": "Key indicators tracked by the National Climate Assessment including temperature extremes, precipitation, and drought indices."
+      },
+      {
+        "title": "Renewable Energy Generation by State",
+        "organization": "Department of Energy",
+        "format": "JSON",
+        "modified": "2025-10-30",
+        "description": "Monthly electricity generation from renewable sources including solar, wind, hydroelectric, and geothermal by state."
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Datasets Search",
+    "subtitle": "\"climate\" — 5 results",
+    "itemKey": "title",
+    "secondaryKey": "organization",
+    "badgeKey": "format"
+  }
+}

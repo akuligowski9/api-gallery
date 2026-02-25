@@ -1,0 +1,16 @@
+{
+  "id": "wordnik",
+  "previewType": "card",
+  "sampleResponse": {
+    "word": "ubiquitous",
+    "definition": "Being or seeming to be everywhere at the same time; omnipresent.",
+    "partOfSpeech": "adjective",
+    "examples": "Smartphones have become ubiquitous in modern life.",
+    "frequency": "4.87 per million words"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Wordnik",
+    "displayFields": ["word", "definition", "partOfSpeech", "examples", "frequency"]
+  }
+}

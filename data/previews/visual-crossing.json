@@ -3,14 +3,23 @@
   "previewType": "card",
   "sampleResponse": {
     "location": "New York, NY",
-    "tempHigh": "75F (24C)",
-    "tempLow": "58F (14C)",
-    "precipitation": "20% chance",
-    "sunrise": "6:12 AM"
+    "temp_f": 38.2,
+    "feels_like_f": 31.4,
+    "humidity": 64,
+    "conditions": "Partly Cloudy",
+    "wind_mph": 12.3,
+    "uv_index": 2
   },
   "previewConfig": {
-    "title": "New York Forecast",
-    "subtitle": "Visual Crossing",
-    "displayFields": ["location", "tempHigh", "tempLow", "precipitation", "sunrise"]
+    "title": "Weather Forecast",
+    "subtitle": "New York, NY — Partly Cloudy",
+    "displayFields": [
+      "temp_f",
+      "feels_like_f",
+      "humidity",
+      "conditions",
+      "wind_mph",
+      "uv_index"
+    ]
   }
 }

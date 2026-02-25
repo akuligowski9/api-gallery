@@ -1,0 +1,24 @@
+{
+  "id": "usaspending",
+  "previewType": "card",
+  "sampleResponse": {
+    "fiscal_year": 2025,
+    "total_obligations": 6832417000000,
+    "total_outlays": 6514893000000,
+    "budget_authority": 7108234000000,
+    "agency_count": 73,
+    "transaction_count": 48219374
+  },
+  "previewConfig": {
+    "title": "Federal Spending",
+    "subtitle": "FY 2025 — $6.83T in obligations",
+    "displayFields": [
+      "fiscal_year",
+      "total_obligations",
+      "total_outlays",
+      "budget_authority",
+      "agency_count",
+      "transaction_count"
+    ]
+  }
+}

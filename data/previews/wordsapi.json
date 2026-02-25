@@ -1,0 +1,16 @@
+{
+  "id": "wordsapi",
+  "previewType": "card",
+  "sampleResponse": {
+    "word": "eloquent",
+    "definition": "Expressing yourself readily, clearly, and effectively.",
+    "partOfSpeech": "adjective",
+    "syllables": "el·o·quent",
+    "pronunciation": "ˈɛləkwənt"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "WordsAPI",
+    "displayFields": ["word", "definition", "partOfSpeech", "syllables", "pronunciation"]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "open-trivia-db",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "category": "Science: Computers",
+        "question": "What does HTML stand for?",
+        "correct_answer": "HyperText Markup Language",
+        "difficulty": "easy",
+        "type": "multiple"
+      },
+      {
+        "category": "History",
+        "question": "Who was the first President of the United States?",
+        "correct_answer": "George Washington",
+        "difficulty": "easy",
+        "type": "multiple"
+      },
+      {
+        "category": "Entertainment: Music",
+        "question": "Which band released the album 'Abbey Road'?",
+        "correct_answer": "The Beatles",
+        "difficulty": "easy",
+        "type": "multiple"
+      },
+      {
+        "category": "Science & Nature",
+        "question": "What planet is known as the Red Planet?",
+        "correct_answer": "Mars",
+        "difficulty": "easy",
+        "type": "multiple"
+      },
+      {
+        "category": "Geography",
+        "question": "What is the longest river in the world?",
+        "correct_answer": "Nile",
+        "difficulty": "medium",
+        "type": "multiple"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Trivia Questions",
+    "subtitle": "Open Trivia DB",
+    "itemKey": "question",
+    "secondaryKey": "category",
+    "badgeKey": "difficulty"
+  }
+}

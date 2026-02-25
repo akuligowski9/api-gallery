@@ -1,0 +1,24 @@
+{
+  "id": "gravatar",
+  "previewType": "card",
+  "sampleResponse": {
+    "display_name": "Matt Mullenweg",
+    "username": "matt",
+    "location": "Houston, TX",
+    "profile_url": "https://gravatar.com/matt",
+    "avatar_hash": "767fc9c115a1b989744c755db47feb60",
+    "verified_accounts": 4
+  },
+  "previewConfig": {
+    "title": "Gravatar Profile",
+    "subtitle": "Matt Mullenweg (@matt)",
+    "displayFields": [
+      "display_name",
+      "username",
+      "location",
+      "profile_url",
+      "avatar_hash",
+      "verified_accounts"
+    ]
+  }
+}

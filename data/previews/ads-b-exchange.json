@@ -1,0 +1,16 @@
+{
+  "id": "ads-b-exchange",
+  "previewType": "card",
+  "sampleResponse": {
+    "callsign": "SAM38",
+    "altitude": "35000 ft",
+    "speed": "461 kts",
+    "heading": "274°",
+    "aircraft_type": "Boeing VC-25A"
+  },
+  "previewConfig": {
+    "title": "Tracked Aircraft",
+    "subtitle": "ADS-B Exchange",
+    "displayFields": ["callsign", "altitude", "speed", "heading", "aircraft_type"]
+  }
+}

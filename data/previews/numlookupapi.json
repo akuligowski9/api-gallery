@@ -2,22 +2,15 @@
   "id": "numlookupapi",
   "previewType": "card",
   "sampleResponse": {
-    "number": "+44 20 7946 0958",
-    "country": "United Kingdom",
-    "region": "London",
-    "carrier": "BT Group",
-    "line_type": "Landline",
-    "valid": true
+    "number": "+1 (415) 555-0198",
+    "country": "United States",
+    "carrier": "T-Mobile USA",
+    "type": "mobile",
+    "valid": "true"
   },
   "previewConfig": {
-    "title": "NumlookupAPI",
-    "subtitle": "Worldwide Phone Number Lookup & Verification API",
-    "displayFields": [
-      "number",
-      "country",
-      "region",
-      "carrier",
-      "line_type"
-    ]
+    "title": "Phone Number Lookup",
+    "subtitle": "NumLookupAPI",
+    "displayFields": ["number", "country", "carrier", "type", "valid"]
   }
 }

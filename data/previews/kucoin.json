@@ -3,20 +3,14 @@
   "previewType": "card",
   "sampleResponse": {
     "symbol": "SOL-USDT",
-    "last": "142.35",
-    "changeRate": "+0.0389",
-    "high": "145.80",
-    "vol": "2841093.2"
+    "last": "176.42",
+    "changeRate": "0.0315",
+    "vol": "2841567.83",
+    "high": "181.90"
   },
   "previewConfig": {
-    "title": "KuCoin",
-    "subtitle": "Cryptocurrency exchange and trading platform",
-    "displayFields": [
-      "symbol",
-      "last",
-      "changeRate",
-      "high",
-      "vol"
-    ]
+    "title": "SOL Token",
+    "subtitle": "KuCoin",
+    "displayFields": ["symbol", "last", "changeRate", "vol", "high"]
   }
 }

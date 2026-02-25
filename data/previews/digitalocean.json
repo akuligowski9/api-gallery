@@ -1,0 +1,26 @@
+{
+  "id": "digitalocean",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "web-prod-01",
+    "status": "active",
+    "vcpus": 4,
+    "memory_mb": 8192,
+    "disk_gb": 160,
+    "region": "nyc3",
+    "ip_address": "164.90.132.47"
+  },
+  "previewConfig": {
+    "title": "Droplet Info",
+    "subtitle": "web-prod-01 — active",
+    "displayFields": [
+      "name",
+      "status",
+      "vcpus",
+      "memory_mb",
+      "disk_gb",
+      "region",
+      "ip_address"
+    ]
+  }
+}

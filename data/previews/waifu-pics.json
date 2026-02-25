@@ -1,12 +1,16 @@
 {
   "id": "waifu-pics",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "url": "https://i.waifu.pics/hGjKIp5.png"
+    "category": "waifu",
+    "type": "sfw",
+    "url_format": "https://i.waifu.pics/example.jpg",
+    "source": "waifu.pics",
+    "is_nsfw": "false"
   },
   "previewConfig": {
-    "title": "Anime Art",
-    "subtitle": "waifu.pics",
-    "imageKey": "url"
+    "title": "Display Title",
+    "subtitle": "Waifu Pics API",
+    "displayFields": ["category", "type", "url_format", "source", "is_nsfw"]
   }
 }

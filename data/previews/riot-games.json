@@ -2,19 +2,15 @@
   "id": "riot-games",
   "previewType": "card",
   "sampleResponse": {
-    "gameName": "Faker",
-    "tagLine": "KR1",
-    "summonerLevel": 782,
-    "tier": "CHALLENGER",
-    "rank": "I",
-    "leaguePoints": 1247,
-    "wins": 312,
-    "losses": 264,
-    "region": "KR"
+    "name": "Jinx",
+    "title": "The Loose Cannon",
+    "role": "Marksman",
+    "difficulty": "6",
+    "region": "Zaun"
   },
   "previewConfig": {
-    "title": "Faker#KR1",
-    "subtitle": "Riot Games — League of Legends",
-    "displayFields": ["tier", "leaguePoints", "summonerLevel", "wins", "losses"]
+    "title": "Display Title",
+    "subtitle": "Riot Games API",
+    "displayFields": ["name", "title", "role", "difficulty", "region"]
   }
 }

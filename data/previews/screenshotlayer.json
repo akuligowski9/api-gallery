@@ -1,0 +1,24 @@
+{
+  "id": "screenshotlayer",
+  "previewType": "card",
+  "sampleResponse": {
+    "url": "https://example.com",
+    "viewport_width": 1440,
+    "viewport_height": 900,
+    "format": "png",
+    "fullpage": false,
+    "timestamp": "2026-02-25T12:30:45.000Z"
+  },
+  "previewConfig": {
+    "title": "Screenshot Capture",
+    "subtitle": "https://example.com — 1440x900",
+    "displayFields": [
+      "url",
+      "viewport_width",
+      "viewport_height",
+      "format",
+      "fullpage",
+      "timestamp"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "trefle",
+  "previewType": "card",
+  "sampleResponse": {
+    "common_name": "Sunflower",
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae",
+    "genus": "Helianthus",
+    "year": 1753,
+    "observations": 284530,
+    "vegetable": false
+  },
+  "previewConfig": {
+    "title": "Plant Info",
+    "subtitle": "Sunflower — Helianthus annuus",
+    "displayFields": [
+      "common_name",
+      "scientific_name",
+      "family",
+      "genus",
+      "year",
+      "observations",
+      "vegetable"
+    ]
+  }
+}

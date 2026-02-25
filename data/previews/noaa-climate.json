@@ -1,0 +1,52 @@
+{
+  "id": "noaa-climate",
+  "previewType": "list",
+  "sampleResponse": {
+    "dataset": "Global Historical Climatology Network",
+    "total_results": 1247,
+    "records": [
+      {
+        "station": "USW00094728",
+        "date": "2026-02-20",
+        "datatype": "TMAX",
+        "value": 7.2,
+        "attributes": "H,,S,"
+      },
+      {
+        "station": "USW00094728",
+        "date": "2026-02-20",
+        "datatype": "TMIN",
+        "value": -1.3,
+        "attributes": "H,,S,"
+      },
+      {
+        "station": "USW00094728",
+        "date": "2026-02-20",
+        "datatype": "PRCP",
+        "value": 0.0,
+        "attributes": "H,,S,T"
+      },
+      {
+        "station": "USW00014739",
+        "date": "2026-02-20",
+        "datatype": "SNOW",
+        "value": 2.5,
+        "attributes": "H,,S,"
+      },
+      {
+        "station": "USW00014739",
+        "date": "2026-02-20",
+        "datatype": "AWND",
+        "value": 5.8,
+        "attributes": "H,,S,"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Climate Data Records",
+    "subtitle": "GHCN — 1,247 results",
+    "itemKey": "datatype",
+    "secondaryKey": "station",
+    "badgeKey": "value"
+  }
+}

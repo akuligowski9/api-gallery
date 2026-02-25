@@ -2,19 +2,15 @@
   "id": "destiny-the-game",
   "previewType": "card",
   "sampleResponse": {
-    "displayName": "Guardian_IX",
-    "class": "Warlock",
-    "race": "Awoken",
-    "light": 1820,
-    "minutesPlayedTotal": 124560,
-    "triumphScore": 78450,
-    "seasonRank": 247,
-    "titleName": "Disciple-Slayer",
-    "emblemPath": "/common/destiny2_content/icons/guardian_emblem.jpg"
+    "name": "Gjallarhorn",
+    "type": "Rocket Launcher",
+    "damage": "1,362",
+    "rarity": "Exotic",
+    "slot": "Heavy Weapon"
   },
   "previewConfig": {
-    "title": "Guardian_IX",
-    "subtitle": "Bungie — Destiny 2",
-    "displayFields": ["class", "light", "triumphScore", "seasonRank", "titleName"]
+    "title": "Display Title",
+    "subtitle": "Destiny API",
+    "displayFields": ["name", "type", "damage", "rarity", "slot"]
   }
 }

@@ -1,19 +1,16 @@
 {
   "id": "city-bikes",
-  "previewType": "list",
+  "previewType": "card",
   "sampleResponse": {
-    "networks": [
-      {"id": "velib", "name": "Vélib'", "location": {"city": "Paris", "country": "FR"}}
-    ]
+    "name": "W 21 St & 6 Ave",
+    "free_bikes": 18,
+    "empty_slots": 21,
+    "location": "40.7418, -73.9939",
+    "network": "Citi Bike NYC"
   },
   "previewConfig": {
-    "title": "Bike Share Networks",
-    "items": [
-      {"name": "Vélib'", "region": "Paris, FR"},
-      {"name": "Citi Bike", "region": "New York, US"},
-      {"name": "Santander Cycles", "region": "London, GB"},
-      {"name": "Bicing", "region": "Barcelona, ES"},
-      {"name": "Bay Wheels", "region": "San Francisco, US"}
-    ]
+    "title": "Bike Share Station",
+    "subtitle": "CityBikes",
+    "displayFields": ["name", "free_bikes", "empty_slots", "location", "network"]
   }
 }

@@ -1,0 +1,16 @@
+{
+  "id": "languagetool",
+  "previewType": "card",
+  "sampleResponse": {
+    "text": "Their going to the store tommorow.",
+    "message": "Did you mean \"They're\" (\"they are\")?",
+    "replacements": "They're",
+    "category": "Commonly Confused Words",
+    "ruleId": "THEIR_IS_THERE"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "LanguageTool",
+    "displayFields": ["text", "message", "replacements", "category", "ruleId"]
+  }
+}

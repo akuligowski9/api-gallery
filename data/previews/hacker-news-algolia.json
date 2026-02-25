@@ -1,0 +1,52 @@
+{
+  "id": "hacker-news-algolia",
+  "previewType": "list",
+  "sampleResponse": {
+    "query": "React",
+    "total_hits": 184230,
+    "hits": [
+      {
+        "title": "React 20: What's New and What's Changed",
+        "author": "danabramov",
+        "points": 1847,
+        "num_comments": 632,
+        "created_at": "2026-02-18T14:22:10.000Z"
+      },
+      {
+        "title": "Why We Migrated from React to Solid.js",
+        "author": "techblogger",
+        "points": 943,
+        "num_comments": 487,
+        "created_at": "2026-02-15T09:10:44.000Z"
+      },
+      {
+        "title": "React Server Components in Production: Lessons Learned",
+        "author": "srush_",
+        "points": 712,
+        "num_comments": 291,
+        "created_at": "2026-02-12T20:05:33.000Z"
+      },
+      {
+        "title": "Building a Real-Time Dashboard with React and WebSockets",
+        "author": "fullstackdev",
+        "points": 534,
+        "num_comments": 178,
+        "created_at": "2026-02-10T11:38:22.000Z"
+      },
+      {
+        "title": "The State of React Native in 2026",
+        "author": "mobiledev42",
+        "points": 421,
+        "num_comments": 156,
+        "created_at": "2026-02-08T16:45:09.000Z"
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Hacker News Search",
+    "subtitle": "React — 184,230 results",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "points"
+  }
+}

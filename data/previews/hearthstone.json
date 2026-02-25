@@ -1,0 +1,16 @@
+{
+  "id": "hearthstone",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Ragnaros the Firelord",
+    "cost": "8",
+    "attack": "8",
+    "health": "8",
+    "type": "Minion"
+  },
+  "previewConfig": {
+    "title": "Display Title",
+    "subtitle": "Hearthstone API",
+    "displayFields": ["name", "cost", "attack", "health", "type"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "travis-ci",
+  "previewType": "card",
+  "sampleResponse": {
+    "repository": "rails/rails",
+    "branch": "main",
+    "state": "passed",
+    "duration": "28 min 43 sec",
+    "started_at": "2025-10-02T14:32:07Z"
+  },
+  "previewConfig": {
+    "title": "Build #48291",
+    "subtitle": "Travis CI",
+    "displayFields": ["repository", "branch", "state", "duration", "started_at"]
+  }
+}

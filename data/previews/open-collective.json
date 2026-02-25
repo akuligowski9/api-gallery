@@ -4,13 +4,21 @@
   "sampleResponse": {
     "name": "webpack",
     "slug": "webpack",
-    "currency": "USD",
-    "yearlyBudget": "$415,000",
-    "backers": "835"
+    "balance_usd": 284350,
+    "backers_count": 847,
+    "yearly_budget_usd": 312000,
+    "currency": "USD"
   },
   "previewConfig": {
-    "title": "webpack",
-    "subtitle": "Open Collective",
-    "displayFields": ["name", "slug", "currency", "yearlyBudget", "backers"]
+    "title": "Collective: webpack",
+    "subtitle": "Open Collective API",
+    "displayFields": [
+      "name",
+      "slug",
+      "balance_usd",
+      "backers_count",
+      "yearly_budget_usd",
+      "currency"
+    ]
   }
 }

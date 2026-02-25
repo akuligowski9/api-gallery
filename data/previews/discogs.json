@@ -1,0 +1,16 @@
+{
+  "id": "discogs",
+  "previewType": "card",
+  "sampleResponse": {
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "year": "1973",
+    "format": "Vinyl, LP, Album",
+    "genre": "Progressive Rock"
+  },
+  "previewConfig": {
+    "title": "The Dark Side of the Moon",
+    "subtitle": "Discogs",
+    "displayFields": ["title", "artist", "year", "format", "genre"]
+  }
+}

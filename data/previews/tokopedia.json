@@ -1,0 +1,16 @@
+{
+  "id": "tokopedia",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Samsung Galaxy Buds3 Pro",
+    "price": "Rp3.299.000",
+    "shop": "Samsung Official Store",
+    "rating": "4.9",
+    "sold": "2.1rb+"
+  },
+  "previewConfig": {
+    "title": "Samsung Galaxy Buds3 Pro",
+    "subtitle": "Tokopedia",
+    "displayFields": ["name", "price", "shop", "rating", "sold"]
+  }
+}

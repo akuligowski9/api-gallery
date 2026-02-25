@@ -1,17 +1,24 @@
 {
   "id": "lorem-picsum",
-  "previewType": "media",
+  "previewType": "card",
   "sampleResponse": {
-    "url": "https://picsum.photos/id/237/800/600",
-    "id": 237,
-    "author": "Andre Spieker",
-    "width": 800,
-    "height": 600,
-    "download_url": "https://picsum.photos/id/237/800/600"
+    "id": "237",
+    "author": "André Spieker",
+    "width": 3500,
+    "height": 2095,
+    "url": "https://unsplash.com/photos/8wTPqxlnKM4",
+    "download_url": "https://picsum.photos/id/237/3500/2095"
   },
   "previewConfig": {
-    "title": "Random Photo",
-    "subtitle": "by Andre Spieker",
-    "imageKey": "url"
+    "title": "Random Image",
+    "subtitle": "Photo by André Spieker — 3500×2095",
+    "displayFields": [
+      "id",
+      "author",
+      "width",
+      "height",
+      "url",
+      "download_url"
+    ]
   }
 }

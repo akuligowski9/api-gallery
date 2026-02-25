@@ -2,18 +2,19 @@
   "id": "chronicling-america",
   "previewType": "list",
   "sampleResponse": {
-    "newspapers": [
-      {"title": "The New York Herald", "state": "New York"}
+    "items": [
+      { "title": "The San Francisco Call", "secondary": "1906-04-19", "badge": 12 },
+      { "title": "The New York Tribune", "secondary": "1912-04-16", "badge": 16 },
+      { "title": "Evening Star (Washington)", "secondary": "1865-04-15", "badge": 8 },
+      { "title": "The Times-Picayune", "secondary": "1918-11-11", "badge": 14 },
+      { "title": "Chicago Daily Tribune", "secondary": "1929-10-30", "badge": 10 }
     ]
   },
   "previewConfig": {
-    "title": "Historic Newspapers",
-    "items": [
-      {"title": "The New York Herald", "region": "New York"},
-      {"title": "The Washington Post", "region": "DC"},
-      {"title": "The San Francisco Call", "region": "California"},
-      {"title": "Chicago Daily Tribune", "region": "Illinois"},
-      {"title": "The Times-Picayune", "region": "Louisiana"}
-    ]
+    "title": "Chronicling America",
+    "subtitle": "Historic newspaper pages from the Library of Congress",
+    "itemKey": "title",
+    "secondaryKey": "secondary",
+    "badgeKey": "badge"
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "reddit-pushshift",
+  "previewType": "list",
+  "sampleResponse": {
+    "subreddit": "r/programming",
+    "total_results": 5820,
+    "posts": [
+      {
+        "title": "Why Rust is taking over systems programming in 2026",
+        "author": "dev_enthusiast",
+        "score": 4287,
+        "num_comments": 893,
+        "created_utc": 1740412800
+      },
+      {
+        "title": "SQLite is the most deployed database engine — here's why",
+        "author": "dbguru42",
+        "score": 3104,
+        "num_comments": 412,
+        "created_utc": 1740326400
+      },
+      {
+        "title": "A deep dive into the new TypeScript 6.0 type system",
+        "author": "ts_wizard",
+        "score": 2756,
+        "num_comments": 637,
+        "created_utc": 1740240000
+      },
+      {
+        "title": "How we migrated 2M lines of Python to use strict typing",
+        "author": "bigcorp_engineer",
+        "score": 1893,
+        "num_comments": 344,
+        "created_utc": 1740153600
+      },
+      {
+        "title": "Open source maintainers deserve better — a call to action",
+        "author": "oss_advocate",
+        "score": 1641,
+        "num_comments": 521,
+        "created_utc": 1740067200
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Reddit Posts",
+    "subtitle": "r/programming — 5,820 results",
+    "itemKey": "title",
+    "secondaryKey": "author",
+    "badgeKey": "score"
+  }
+}

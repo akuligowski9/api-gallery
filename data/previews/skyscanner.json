@@ -1,0 +1,50 @@
+{
+  "id": "skyscanner",
+  "previewType": "list",
+  "sampleResponse": {
+    "items": [
+      {
+        "airline": "Japan Airlines",
+        "price_usd": 847,
+        "departure": "2026-04-10T11:30",
+        "arrival": "2026-04-11T15:45",
+        "duration_hrs": 11.25
+      },
+      {
+        "airline": "ANA (All Nippon Airways)",
+        "price_usd": 892,
+        "departure": "2026-04-10T13:00",
+        "arrival": "2026-04-11T17:20",
+        "duration_hrs": 11.33
+      },
+      {
+        "airline": "Singapore Airlines",
+        "price_usd": 1024,
+        "departure": "2026-04-10T23:55",
+        "arrival": "2026-04-12T10:30",
+        "duration_hrs": 15.58
+      },
+      {
+        "airline": "United Airlines",
+        "price_usd": 763,
+        "departure": "2026-04-10T09:15",
+        "arrival": "2026-04-11T13:40",
+        "duration_hrs": 11.42
+      },
+      {
+        "airline": "Korean Air",
+        "price_usd": 935,
+        "departure": "2026-04-10T16:45",
+        "arrival": "2026-04-12T01:10",
+        "duration_hrs": 14.42
+      }
+    ]
+  },
+  "previewConfig": {
+    "title": "Flights LAX to Tokyo",
+    "subtitle": "Skyscanner",
+    "itemKey": "airline",
+    "secondaryKey": "duration_hrs",
+    "badgeKey": "price_usd"
+  }
+}

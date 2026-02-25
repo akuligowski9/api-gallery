@@ -1,0 +1,16 @@
+{
+  "id": "mailchimp",
+  "previewType": "card",
+  "sampleResponse": {
+    "name": "Spring Product Launch",
+    "subject": "Introducing Our New Collection",
+    "emails_sent": 48250,
+    "open_rate": "34.7%",
+    "click_rate": "4.2%"
+  },
+  "previewConfig": {
+    "title": "Email Campaign",
+    "subtitle": "Mailchimp",
+    "displayFields": ["name", "subject", "emails_sent", "open_rate", "click_rate"]
+  }
+}

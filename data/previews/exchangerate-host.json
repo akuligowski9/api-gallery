@@ -1,0 +1,16 @@
+{
+  "id": "exchangerate-host",
+  "previewType": "card",
+  "sampleResponse": {
+    "base": "USD",
+    "EUR": "0.9217",
+    "GBP": "0.7894",
+    "JPY": "149.85",
+    "date": "2025-02-24"
+  },
+  "previewConfig": {
+    "title": "USD Exchange Rates",
+    "subtitle": "exchangerate.host",
+    "displayFields": ["base", "EUR", "GBP", "JPY", "date"]
+  }
+}

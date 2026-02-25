@@ -2,22 +2,15 @@
   "id": "when-is-next-mcu-film",
   "previewType": "card",
   "sampleResponse": {
-    "title": "Thunderbolts*",
-    "release_date": "2025-05-02",
-    "days_until": 120,
-    "overview": "A group of antiheroes are recruited to go on a dangerous mission.",
-    "following_production": {
-      "title": "The Fantastic Four: First Steps",
-      "release_date": "2025-07-25"
-    }
+    "title": "Avengers: Doomsday",
+    "releaseDate": "2026-05-01",
+    "daysUntil": "65",
+    "phase": "Phase 6",
+    "following": "Avengers: Secret Wars"
   },
   "previewConfig": {
-    "title": "Next MCU Film",
-    "subtitle": "Thunderbolts*",
-    "displayFields": [
-      "title",
-      "release_date",
-      "days_until"
-    ]
+    "title": "Avengers: Doomsday",
+    "subtitle": "When Is Next MCU Film",
+    "displayFields": ["title", "releaseDate", "daysUntil", "phase", "following"]
   }
 }

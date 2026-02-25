@@ -1,0 +1,16 @@
+{
+  "id": "collegefootballdata-com",
+  "previewType": "card",
+  "sampleResponse": {
+    "school": "Alabama Crimson Tide",
+    "conference": "SEC",
+    "wins": "12",
+    "losses": "2",
+    "division": "FBS"
+  },
+  "previewConfig": {
+    "title": "Alabama Crimson Tide",
+    "subtitle": "College Football Data",
+    "displayFields": ["school", "conference", "wins", "losses", "division"]
+  }
+}
