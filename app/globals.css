@@ -3,25 +3,25 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  /* Warm cream/stone light theme — relaxed, inviting */
-  --background: oklch(0.975 0.005 80);
-  --foreground: oklch(0.25 0.01 60);
-  --card: oklch(0.993 0.003 80);
-  --card-foreground: oklch(0.25 0.01 60);
-  --popover: oklch(0.993 0.003 80);
-  --popover-foreground: oklch(0.25 0.01 60);
+  /* Warm stone light theme — muted, easy on the eyes */
+  --background: oklch(0.91 0.008 80);
+  --foreground: oklch(0.22 0.01 60);
+  --card: oklch(0.95 0.006 80);
+  --card-foreground: oklch(0.22 0.01 60);
+  --popover: oklch(0.95 0.006 80);
+  --popover-foreground: oklch(0.22 0.01 60);
   --primary: oklch(0.55 0.15 280);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.94 0.008 80);
-  --secondary-foreground: oklch(0.30 0.01 60);
-  --muted: oklch(0.94 0.008 80);
-  --muted-foreground: oklch(0.50 0.01 60);
-  --accent: oklch(0.94 0.02 280);
-  --accent-foreground: oklch(0.30 0.01 60);
+  --secondary: oklch(0.87 0.01 80);
+  --secondary-foreground: oklch(0.28 0.01 60);
+  --muted: oklch(0.87 0.01 80);
+  --muted-foreground: oklch(0.48 0.01 60);
+  --accent: oklch(0.88 0.02 280);
+  --accent-foreground: oklch(0.28 0.01 60);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.90 0.01 80);
-  --input: oklch(0.90 0.01 80);
+  --border: oklch(0.82 0.012 80);
+  --input: oklch(0.82 0.012 80);
   --ring: oklch(0.65 0.12 280);
   --radius: 0.625rem;
 }
