@@ -1,6 +1,7 @@
 # API Explorer
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/akuligowski9/api-explorer)](https://github.com/akuligowski9/api-explorer/releases)
 [![GitHub stars](https://img.shields.io/github/stars/akuligowski9/api-explorer?style=social)](https://github.com/akuligowski9/api-explorer)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/akuligowski9/api-explorer/blob/main/CONTRIBUTING.md)
 
@@ -12,16 +13,19 @@ A visual front-end for public API catalogs. Built on top of [marcelscruz/public-
 
 Public API catalogs are incredibly useful, but they're all tables and lists. I wanted a way to actually *see* what an API returns before reading the docs. This project takes the same catalog data and gives it a visual layer:
 
-- **1,546 APIs** with visual preview components
-- **1,500+ APIs** listed with search, filters, and category browsing
+- **1,546 APIs** with visual preview components across 40+ categories
+- ~170 hand-crafted previews with real sample data; the rest auto-generated
 - **7 preview types**: weather cards, SVG charts, geo visualizations, image displays, styled lists, code viewers, and key-value cards
+- Search, category filters, and paginated browsing (36 cards per page)
 
 ## Tech stack
 
-- **Next.js 16** - App Router, static site generation (all pages pre-built)
-- **Tailwind CSS v4** - custom design system, no component library
-- **framer-motion** - scroll animations, card transitions
-- **TypeScript** - end to end
+- **Next.js 15** (App Router, SSG) — all 1,550 pages pre-built at deploy time
+- **Tailwind CSS v4** — utility-first styling
+- **shadcn/ui** — accessible component primitives
+- **Framer Motion** — scroll animations, card transitions
+- **TypeScript** — end to end
+- **Vercel** — deployed at [public-apis-explorer.vercel.app](https://public-apis-explorer.vercel.app)
 
 ## Getting started
 
@@ -37,15 +41,15 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 app/
   page.tsx              → Homepage (search + card grid)
-  [slug]/page.tsx       → Detail page (SSG, 1,547 pages)
+  [slug]/page.tsx       → Detail page (SSG, 1,546 pages)
 components/
   previews/             → 7 visual preview components + registry
   api-card.tsx          → Card component with hover effects
   api-grid.tsx          → Responsive grid with search + filters
   search-bar.tsx        → Glass-morphism search input
 data/
-  catalog.json          → Full API catalog (1,558 entries)
-  previews/             → Sample response data (25 files)
+  catalog.json          → Full API catalog (1,546 entries)
+  previews/             → 1,546 preview JSON files (one per API)
 lib/
   api-data.ts           → Data access layer
   categories.ts         → Category definitions + emoji map
