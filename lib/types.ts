@@ -32,6 +32,9 @@ export interface PreviewData {
     displayFields?: string[];
     imageKey?: string;
     items?: Array<Record<string, unknown>>;
+    itemKey?: string;
+    secondaryKey?: string;
+    badgeKey?: string;
     chartType?: "line" | "bar";
     chartDataKey?: string;
     chartLabelKey?: string;

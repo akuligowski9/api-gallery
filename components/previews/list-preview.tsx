@@ -75,10 +75,12 @@ function resolveFlagUrl(value: unknown): string | undefined {
 }
 
 export function ListPreview({ data, compact = false }: ListPreviewProps) {
-  const { previewConfig } = data;
+  const { previewConfig, sampleResponse } = data;
   const { title, items } = previewConfig;
 
-  const allItems = items ?? [];
+  // Support items in either previewConfig.items or sampleResponse.items
+  const allItems: Record<string, unknown>[] =
+    items ?? (Array.isArray(sampleResponse?.items) ? sampleResponse.items : []);
   const visibleItems = compact ? allItems.slice(0, 3) : allItems;
   const remaining = allItems.length - visibleItems.length;
 
@@ -97,11 +99,19 @@ export function ListPreview({ data, compact = false }: ListPreviewProps) {
     );
   }
 
+  const { itemKey, secondaryKey, badgeKey } = previewConfig;
+
   // ── Row Renderer ───────────────────────────────────────────────────
   function renderRow(item: Record<string, unknown>, index: number) {
-    const primary = getPrimaryText(item);
-    const badge = findField(item, BADGE_KEYS);
-    const secondary = findField(item, SECONDARY_KEYS);
+    const primary = itemKey && typeof item[itemKey] === "string"
+      ? (item[itemKey] as string)
+      : getPrimaryText(item);
+    const badge = badgeKey && item[badgeKey] !== undefined
+      ? { key: badgeKey, value: item[badgeKey] }
+      : findField(item, BADGE_KEYS);
+    const secondary = secondaryKey && item[secondaryKey] !== undefined
+      ? { key: secondaryKey, value: item[secondaryKey] }
+      : findField(item, SECONDARY_KEYS);
     const imageField = findField(item, IMAGE_KEYS);
     const flagUrl = imageField ? resolveFlagUrl(imageField.value) : undefined;
 
