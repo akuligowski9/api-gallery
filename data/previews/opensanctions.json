@@ -2,20 +2,22 @@
   "id": "opensanctions",
   "previewType": "card",
   "sampleResponse": {
-    "api": "OpenSanctions",
-    "description": "Data on international sanctions, crime and politically exposed persons",
-    "category": "Open Data",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "OpenSanctions",
-    "subtitle": "Data on international sanctions, crime and politically…",
+    "subtitle": "Data on international sanctions, crime and politically exposed persons",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

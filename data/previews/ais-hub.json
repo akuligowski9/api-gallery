@@ -2,20 +2,23 @@
   "id": "ais-hub",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AIS Hub",
-    "description": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "AIS Hub",
-    "subtitle": "Real-time data of any marine and inland vessel equipped…",
+    "subtitle": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

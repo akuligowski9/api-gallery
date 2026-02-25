@@ -2,20 +2,22 @@
   "id": "generate-ical",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Generate iCAL",
-    "description": "Generates iCal calendar events that can be used across calendar applications",
-    "category": "Calendar",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "Generate iCAL",
-    "subtitle": "Generates iCal calendar events that can be used across…",
+    "subtitle": "Generates iCal calendar events that can be used across calendar applications",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

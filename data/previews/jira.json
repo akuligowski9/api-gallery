@@ -2,20 +2,23 @@
   "id": "jira",
   "previewType": "card",
   "sampleResponse": {
-    "api": "JIRA",
-    "description": "JIRA is a proprietary issue tracking product that allows bug tracking and agile project management",
-    "category": "Documents & Productivity",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "JIRA",
-    "subtitle": "JIRA is a proprietary issue tracking product that allows…",
+    "subtitle": "JIRA is a proprietary issue tracking product that allows bug tracking and agile project management",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

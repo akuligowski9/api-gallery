@@ -2,20 +2,23 @@
   "id": "transport-for-grenoble-france",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Grenoble, France",
-    "description": "Grenoble public transport",
-    "category": "Transportation",
-    "auth": "None",
-    "https": false,
-    "cors": "no"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Grenoble, France",
     "subtitle": "Grenoble public transport",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

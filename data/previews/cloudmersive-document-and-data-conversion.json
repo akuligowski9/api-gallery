@@ -2,20 +2,23 @@
   "id": "cloudmersive-document-and-data-conversion",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Cloudmersive Document and Data Conversion",
-    "description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Cloudmersive Document and Data Conversion",
-    "subtitle": "HTML/URL to PDF/PNG, Office documents to PDF, image…",
+    "subtitle": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

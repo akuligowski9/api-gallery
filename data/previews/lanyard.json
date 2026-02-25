@@ -2,20 +2,23 @@
   "id": "lanyard",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Lanyard",
-    "description": "Retrieve your presence on Discord through an HTTP REST API or WebSocket",
-    "category": "Social",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Lanyard",
-    "subtitle": "Retrieve your presence on Discord through an HTTP REST API…",
+    "subtitle": "Retrieve your presence on Discord through an HTTP REST API or WebSocket",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

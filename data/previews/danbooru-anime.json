@@ -2,20 +2,23 @@
   "id": "danbooru-anime",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Danbooru Anime",
-    "description": "Thousands of anime artist database to find good anime art",
-    "category": "Anime",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "Danbooru Anime",
     "subtitle": "Thousands of anime artist database to find good anime art",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

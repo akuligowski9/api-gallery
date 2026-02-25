@@ -2,20 +2,23 @@
   "id": "navitia",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Navitia",
-    "description": "The open API for building cool stuff with transport data",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Navitia",
     "subtitle": "The open API for building cool stuff with transport data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

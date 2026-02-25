@@ -2,20 +2,23 @@
   "id": "ads-b-exchange",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ADS-B Exchange",
-    "description": "Access real-time and historical data of any and all airborne aircraft",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "ADS-B Exchange",
-    "subtitle": "Access real-time and historical data of any and all…",
+    "subtitle": "Access real-time and historical data of any and all airborne aircraft",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

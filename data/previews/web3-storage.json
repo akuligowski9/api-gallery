@@ -2,20 +2,22 @@
   "id": "web3-storage",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Web3 Storage",
-    "description": "File Sharing and Storage for Free with 1TB Space",
-    "category": "Cloud Storage & File Sharing",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "filename": "project-final-v3.zip",
+    "size": "48.2 MB",
+    "uploaded": "Feb 24, 2026",
+    "downloads": 127,
+    "expires": "March 24, 2026",
+    "shared_with": 4
   },
   "previewConfig": {
     "title": "Web3 Storage",
     "subtitle": "File Sharing and Storage for Free with 1TB Space",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "filename",
+      "size",
+      "uploaded",
+      "downloads",
+      "expires"
     ]
   }
 }

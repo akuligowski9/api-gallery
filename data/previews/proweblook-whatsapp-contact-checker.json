@@ -2,20 +2,22 @@
   "id": "proweblook-whatsapp-contact-checker",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Proweblook Whatsapp Contact Checker",
-    "description": "Whatsapp number validation",
-    "category": "Phone",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "number": "+44 20 7946 0958",
+    "country": "United Kingdom",
+    "region": "London",
+    "carrier": "BT Group",
+    "line_type": "Landline",
+    "valid": true
   },
   "previewConfig": {
     "title": "Proweblook Whatsapp Contact Checker",
     "subtitle": "Whatsapp number validation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "number",
+      "country",
+      "region",
+      "carrier",
+      "line_type"
     ]
   }
 }

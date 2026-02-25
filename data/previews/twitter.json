@@ -2,20 +2,23 @@
   "id": "twitter",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Twitter",
-    "description": "Read and write Twitter data",
-    "category": "Social",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "no"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Twitter",
     "subtitle": "Read and write Twitter data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

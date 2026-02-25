@@ -2,20 +2,23 @@
   "id": "seo-tags-generator-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SEO Tags Generator API",
-    "description": "The Generate SEO Tags API generates all the most important META tags based on any content",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "SEO Tags Generator API",
-    "subtitle": "The Generate SEO Tags API generates all the most important…",
+    "subtitle": "The Generate SEO Tags API generates all the most important META tags based on any content",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

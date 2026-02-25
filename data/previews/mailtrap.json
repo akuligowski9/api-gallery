@@ -2,20 +2,23 @@
   "id": "mailtrap",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Mailtrap",
-    "description": "A service for the safe testing of emails sent from the development and staging environments",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Mailtrap",
-    "subtitle": "A service for the safe testing of emails sent from the…",
+    "subtitle": "A service for the safe testing of emails sent from the development and staging environments",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

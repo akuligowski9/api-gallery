@@ -2,20 +2,23 @@
   "id": "currency-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Currency-api",
-    "description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
-    "category": "Currency Exchange",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "base": "USD",
+    "EUR": 0.9241,
+    "GBP": 0.7892,
+    "JPY": 149.82,
+    "CAD": 1.3614,
+    "AUD": 1.5473,
+    "updated": "2026-02-25 12:00 UTC"
   },
   "previewConfig": {
     "title": "Currency-api",
-    "subtitle": "Free Currency Exchange Rates API with 150+ Currencies & No…",
+    "subtitle": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "base",
+      "EUR",
+      "GBP",
+      "JPY",
+      "CAD"
     ]
   }
 }

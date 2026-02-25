@@ -2,20 +2,23 @@
   "id": "ai-meeting-minutes-suite",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AI Meeting Minutes Suite",
-    "description": "Generate summaries, templates, and redact sensitive data from meeting notes",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "AI Meeting Minutes Suite",
-    "subtitle": "Generate summaries, templates, and redact sensitive data…",
+    "subtitle": "Generate summaries, templates, and redact sensitive data from meeting notes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "tenders-in-spain",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Tenders in Spain",
-    "description": "Get data for procurements in Spain in JSON format",
-    "category": "Business",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "Tenders in Spain",
     "subtitle": "Get data for procurements in Spain in JSON format",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

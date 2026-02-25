@@ -2,20 +2,23 @@
   "id": "kroger",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Kroger",
-    "description": "Supermarket Data",
-    "category": "Food & Drink",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "name": "Pasta Carbonara",
+    "cuisine": "Italian",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "calories": "620 kcal",
+    "servings": 2,
+    "difficulty": "Medium"
   },
   "previewConfig": {
     "title": "Kroger",
     "subtitle": "Supermarket Data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "cuisine",
+      "prep_time",
+      "cook_time",
+      "calories"
     ]
   }
 }

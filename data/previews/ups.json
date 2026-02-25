@@ -2,20 +2,23 @@
   "id": "ups",
   "previewType": "card",
   "sampleResponse": {
-    "api": "UPS",
-    "description": "Shipment and Address information",
-    "category": "Tracking",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "tracking_number": "1Z999AA10123456784",
+    "carrier": "UPS",
+    "status": "Out for Delivery",
+    "estimated_delivery": "Today by 8:00 PM",
+    "origin": "Memphis, TN",
+    "destination": "Brooklyn, NY",
+    "last_update": "9:04 AM — Arrived at facility"
   },
   "previewConfig": {
     "title": "UPS",
     "subtitle": "Shipment and Address information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "tracking_number",
+      "carrier",
+      "status",
+      "estimated_delivery",
+      "destination"
     ]
   }
 }

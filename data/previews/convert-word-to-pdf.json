@@ -2,20 +2,23 @@
   "id": "convert-word-to-pdf",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Convert Word to PDF",
-    "description": "Convert a Word document (doc, docx, or ODF formats) to a PDF document",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Convert Word to PDF",
-    "subtitle": "Convert a Word document (doc, docx, or ODF formats) to a…",
+    "subtitle": "Convert a Word document (doc, docx, or ODF formats) to a PDF document",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

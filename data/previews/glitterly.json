@@ -2,20 +2,23 @@
   "id": "glitterly",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Glitterly",
-    "description": "Image generation API",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Glitterly",
     "subtitle": "Image generation API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

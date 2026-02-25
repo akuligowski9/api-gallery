@@ -2,20 +2,24 @@
   "id": "bng2latlong",
   "previewType": "card",
   "sampleResponse": {
-    "api": "bng2latlong",
-    "description": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "bng2latlong",
-    "subtitle": "Convert British OSGB36 easting and northing (British…",
+    "subtitle": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

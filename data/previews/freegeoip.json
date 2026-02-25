@@ -2,20 +2,24 @@
   "id": "freegeoip",
   "previewType": "card",
   "sampleResponse": {
-    "api": "FreeGeoIP",
-    "description": "Free geo ip information, no registration required. 15k/hour rate limit",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "FreeGeoIP",
-    "subtitle": "Free geo ip information, no registration required. 15k/hour…",
+    "subtitle": "Free geo ip information, no registration required. 15k/hour rate limit",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

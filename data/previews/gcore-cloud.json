@@ -2,20 +2,23 @@
   "id": "gcore-cloud",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Gcore Cloud",
-    "description": "Scalable, secure, and reliable hybrid cloud services anywhere in the world.",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Gcore Cloud",
-    "subtitle": "Scalable, secure, and reliable hybrid cloud services…",
+    "subtitle": "Scalable, secure, and reliable hybrid cloud services anywhere in the world.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

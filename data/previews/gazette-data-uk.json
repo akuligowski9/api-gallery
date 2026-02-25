@@ -2,20 +2,22 @@
   "id": "gazette-data-uk",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Gazette Data, UK",
-    "description": "UK official public record API",
-    "category": "Government",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "Gazette Data, UK",
     "subtitle": "UK official public record API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

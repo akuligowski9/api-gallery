@@ -2,20 +2,23 @@
   "id": "shopify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Shopify",
-    "description": "Manage sales channels, customers, products, and discounts for a retail business",
-    "category": "Shopping",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "Shopify",
-    "subtitle": "Manage sales channels, customers, products, and discounts…",
+    "subtitle": "Manage sales channels, customers, products, and discounts for a retail business",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

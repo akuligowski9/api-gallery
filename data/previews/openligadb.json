@@ -2,20 +2,23 @@
   "id": "openligadb",
   "previewType": "card",
   "sampleResponse": {
-    "api": "OpenLigaDB",
-    "description": "Crowd sourced sports league results",
-    "category": "Sports & Fitness",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "OpenLigaDB",
     "subtitle": "Crowd sourced sports league results",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "alpha-vantage",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Alpha Vantage",
-    "description": "Realtime and historical stock data",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Alpha Vantage",
     "subtitle": "Realtime and historical stock data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "random-identity",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Random Identity",
-    "description": "Random Identity Generator with custom response format",
-    "category": "Test Data",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "name": "Alexandra Chen",
+    "email": "a.chen@fakemail.dev",
+    "phone": "+1 (415) 555-0192",
+    "address": "847 Oak St, Portland, OR 97201",
+    "username": "achen_dev",
+    "avatar": "https://i.pravatar.cc/100"
   },
   "previewConfig": {
     "title": "Random Identity",
     "subtitle": "Random Identity Generator with custom response format",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "email",
+      "phone",
+      "address",
+      "username"
     ]
   }
 }

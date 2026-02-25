@@ -2,20 +2,23 @@
   "id": "corsfix",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Corsfix",
-    "description": "Corsfix lets you fetch any resource and bypass CORS errors, free for development environment",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Corsfix",
-    "subtitle": "Corsfix lets you fetch any resource and bypass CORS errors,…",
+    "subtitle": "Corsfix lets you fetch any resource and bypass CORS errors, free for development environment",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

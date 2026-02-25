@@ -2,20 +2,22 @@
   "id": "quizapi-io",
   "previewType": "card",
   "sampleResponse": {
-    "api": "quizapi.io",
-    "description": "Access to various kind of quiz questions",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "quizapi.io",
     "subtitle": "Access to various kind of quiz questions",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

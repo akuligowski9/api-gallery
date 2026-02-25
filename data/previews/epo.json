@@ -2,20 +2,22 @@
   "id": "epo",
   "previewType": "card",
   "sampleResponse": {
-    "api": "EPO",
-    "description": "European patent search system api",
-    "category": "Patent",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "patent_number": "US10,123,456",
+    "title": "Method for Neural Network Optimization",
+    "assignee": "Acme Technologies",
+    "filed": "March 14, 2021",
+    "granted": "October 3, 2023",
+    "status": "Active"
   },
   "previewConfig": {
     "title": "EPO",
     "subtitle": "European patent search system api",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "patent_number",
+      "title",
+      "assignee",
+      "filed",
+      "status"
     ]
   }
 }

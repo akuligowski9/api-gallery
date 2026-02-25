@@ -2,20 +2,23 @@
   "id": "anidb",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AniDB",
-    "description": "Anime Database",
-    "category": "Anime",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "yes"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "AniDB",
     "subtitle": "Anime Database",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

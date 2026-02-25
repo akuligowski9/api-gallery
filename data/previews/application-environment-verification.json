@@ -2,20 +2,23 @@
   "id": "application-environment-verification",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Application Environment Verification",
-    "description": "Android library and API to verify the safety of user devices, detect rooted devices and other risks",
-    "category": "Security",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "ip": "192.168.1.1",
+    "threat_score": 12,
+    "is_malicious": false,
+    "country": "United States",
+    "isp": "Comcast",
+    "reports": 3,
+    "last_seen": "30 days ago"
   },
   "previewConfig": {
     "title": "Application Environment Verification",
-    "subtitle": "Android library and API to verify the safety of user…",
+    "subtitle": "Android library and API to verify the safety of user devices, detect rooted devices and other risks",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "ip",
+      "threat_score",
+      "is_malicious",
+      "country",
+      "reports"
     ]
   }
 }

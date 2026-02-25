@@ -2,20 +2,22 @@
   "id": "judge0-ce",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Judge0 CE",
-    "description": "Online code execution system",
-    "category": "Programming",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "language": "Python",
+    "version": "3.12.2",
+    "paradigm": "Multi-paradigm",
+    "typing": "Dynamic, Strong",
+    "first_appeared": 1991,
+    "designed_by": "Guido van Rossum"
   },
   "previewConfig": {
     "title": "Judge0 CE",
     "subtitle": "Online code execution system",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "version",
+      "paradigm",
+      "typing",
+      "first_appeared"
     ]
   }
 }

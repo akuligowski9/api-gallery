@@ -2,20 +2,22 @@
   "id": "valorant-non-official",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Valorant (non-official)",
-    "description": "An extensive API containing data of most Valorant in-game items, assets and more",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Valorant (non-official)",
-    "subtitle": "An extensive API containing data of most Valorant in-game…",
+    "subtitle": "An extensive API containing data of most Valorant in-game items, assets and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

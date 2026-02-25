@@ -2,20 +2,23 @@
   "id": "strava",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Strava",
-    "description": "Connect with athletes, activities and more",
-    "category": "Sports & Fitness",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Strava",
     "subtitle": "Connect with athletes, activities and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

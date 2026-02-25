@@ -2,20 +2,25 @@
   "id": "multilingual-ai-zodiac",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Multilingual AI Zodiac",
-    "description": "Personalized daily horoscopes and zodiac insights in 100+ languages",
-    "category": "Entertainment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "Easy",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Uranus"
+    ]
   },
   "previewConfig": {
     "title": "Multilingual AI Zodiac",
-    "subtitle": "Personalized daily horoscopes and zodiac insights in 100+…",
+    "subtitle": "Personalized daily horoscopes and zodiac insights in 100+ languages",
     "displayFields": [
-      "description",
+      "question",
+      "answer",
       "category",
-      "auth"
+      "difficulty"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "verifier",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Verifier",
-    "description": "Verifies that a given email is real",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Verifier",
     "subtitle": "Verifies that a given email is real",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

@@ -2,20 +2,24 @@
   "id": "kelley-blue-book",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Kelley Blue Book",
-    "description": "Vehicle info, pricing, configuration, plus much more",
-    "category": "Vehicle",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "vin": "1HGBH41JXMN109186",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "engine": "1.5L Turbo 4-cyl",
+    "fuel_type": "Gasoline",
+    "transmission": "CVT"
   },
   "previewConfig": {
     "title": "Kelley Blue Book",
     "subtitle": "Vehicle info, pricing, configuration, plus much more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "vin",
+      "make",
+      "model",
+      "year",
+      "engine",
+      "fuel_type"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "csgo",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CSGO",
-    "description": "An unofficial JSON API for Counter-Strike: Global Offensive",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "CSGO",
     "subtitle": "An unofficial JSON API for Counter-Strike: Global Offensive",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

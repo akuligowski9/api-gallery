@@ -2,20 +2,23 @@
   "id": "cache-horse",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Cache Horse",
-    "description": "Combine/batch & cache multiple HTTP requests to save on API quotas, speed up & simplify your app",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Cache Horse",
-    "subtitle": "Combine/batch & cache multiple HTTP requests to save on API…",
+    "subtitle": "Combine/batch & cache multiple HTTP requests to save on API quotas, speed up & simplify your app",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

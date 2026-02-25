@@ -2,20 +2,23 @@
   "id": "dynapictures",
   "previewType": "card",
   "sampleResponse": {
-    "api": "DynaPictures",
-    "description": "Generate Hundreds of Personalized Images in Minutes",
-    "category": "Photography",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "DynaPictures",
     "subtitle": "Generate Hundreds of Personalized Images in Minutes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "templated",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Templated",
-    "description": "Generate images and PDFs with a simple API. Design in a Canva-like editor and render images with code",
-    "category": "Photography",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "Templated",
-    "subtitle": "Generate images and PDFs with a simple API. Design in a…",
+    "subtitle": "Generate images and PDFs with a simple API. Design in a Canva-like editor and render images with code",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

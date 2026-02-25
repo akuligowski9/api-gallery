@@ -2,20 +2,23 @@
   "id": "ibm-text-to-speech",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IBM Text to Speech",
-    "description": "Convert text to speech",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "IBM Text to Speech",
     "subtitle": "Convert text to speech",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

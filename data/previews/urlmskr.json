@@ -2,20 +2,20 @@
   "id": "urlmskr",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Urlmskr",
-    "description": "Easy and fast masked, shortened link creation",
-    "category": "URL Shorteners",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Urlmskr",
     "subtitle": "Easy and fast masked, shortened link creation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

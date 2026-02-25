@@ -2,20 +2,23 @@
   "id": "markerapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "markerapi",
-    "description": "Trademark Search",
-    "category": "Business",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "markerapi",
     "subtitle": "Trademark Search",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

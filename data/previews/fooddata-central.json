@@ -2,20 +2,22 @@
   "id": "fooddata-central",
   "previewType": "card",
   "sampleResponse": {
-    "api": "FoodData Central",
-    "description": "National Nutrient Database for Standard Reference",
-    "category": "Health",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "FoodData Central",
     "subtitle": "National Nutrient Database for Standard Reference",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

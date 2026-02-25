@@ -2,20 +2,23 @@
   "id": "sabre-for-developers",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sabre for Developers",
-    "description": "Travel Search - Limited usage",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Sabre for Developers",
     "subtitle": "Travel Search - Limited usage",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "transport-for-sao-paulo-brazil",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Sao Paulo, Brazil",
-    "description": "SPTrans",
-    "category": "Transportation",
-    "auth": "OAuth",
-    "https": false,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Sao Paulo, Brazil",
     "subtitle": "SPTrans",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

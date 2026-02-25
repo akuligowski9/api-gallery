@@ -2,20 +2,24 @@
   "id": "geoapify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Geoapify",
-    "description": "Forward and reverse geocoding, address autocomplete",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Geoapify",
     "subtitle": "Forward and reverse geocoding, address autocomplete",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

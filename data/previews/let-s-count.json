@@ -2,20 +2,22 @@
   "id": "let-s-count",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Let's Count",
-    "description": "Create, retrieve, update, increment, and decrement counters identified by namespace and key",
-    "category": "Programming",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "language": "Python",
+    "version": "3.12.2",
+    "paradigm": "Multi-paradigm",
+    "typing": "Dynamic, Strong",
+    "first_appeared": 1991,
+    "designed_by": "Guido van Rossum"
   },
   "previewConfig": {
     "title": "Let's Count",
-    "subtitle": "Create, retrieve, update, increment, and decrement counters…",
+    "subtitle": "Create, retrieve, update, increment, and decrement counters identified by namespace and key",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "version",
+      "paradigm",
+      "typing",
+      "first_appeared"
     ]
   }
 }

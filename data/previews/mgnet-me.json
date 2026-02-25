@@ -2,20 +2,20 @@
   "id": "mgnet-me",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Mgnet.me",
-    "description": "Torrent URL shorten API",
-    "category": "URL Shorteners",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Mgnet.me",
     "subtitle": "Torrent URL shorten API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

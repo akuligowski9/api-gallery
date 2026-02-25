@@ -2,20 +2,23 @@
   "id": "brand-dev",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Brand.dev",
-    "description": "API to personalize your product with logos, colors, and company info from any domain",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Brand.dev",
-    "subtitle": "API to personalize your product with logos, colors, and…",
+    "subtitle": "API to personalize your product with logos, colors, and company info from any domain",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

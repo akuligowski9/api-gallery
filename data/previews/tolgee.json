@@ -2,20 +2,23 @@
   "id": "tolgee",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Tolgee",
-    "description": "Open-source localization (i18n) platform enabling you to translate you app fast",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Tolgee",
-    "subtitle": "Open-source localization (i18n) platform enabling you to…",
+    "subtitle": "Open-source localization (i18n) platform enabling you to translate you app fast",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

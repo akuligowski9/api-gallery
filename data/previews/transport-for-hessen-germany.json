@@ -2,20 +2,23 @@
   "id": "transport-for-hessen-germany",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Hessen, Germany",
-    "description": "RMV API (Public Transport in Hessen)",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Hessen, Germany",
     "subtitle": "RMV API (Public Transport in Hessen)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

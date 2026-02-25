@@ -1,21 +1,34 @@
 {
   "id": "newsx",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "NewsX",
-    "description": "Get or Search Latest Breaking News with ML Powered Summaries 🤖",
-    "category": "News",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Global AI regulation talks resume in Geneva",
+        "source": "Reuters"
+      },
+      {
+        "title": "SpaceX Starship completes third successful orbital test",
+        "source": "AP"
+      },
+      {
+        "title": "EU announces new climate policy framework for 2030",
+        "source": "BBC"
+      },
+      {
+        "title": "Tech stocks rally on strong earnings reports",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Scientists discover new deep-sea species off Pacific coast",
+        "source": "Nature"
+      }
+    ]
   },
   "previewConfig": {
     "title": "NewsX",
-    "subtitle": "Get or Search Latest Breaking News with ML Powered…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "Get or Search Latest Breaking News with ML Powered Summaries 🤖",
+    "itemKey": "title",
+    "secondaryKey": "source"
   }
 }

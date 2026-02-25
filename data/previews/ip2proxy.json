@@ -2,20 +2,24 @@
   "id": "ip2proxy",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IP2Proxy",
-    "description": "Detect proxy and VPN using IP address",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "IP2Proxy",
     "subtitle": "Detect proxy and VPN using IP address",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "24-pull-requests",
   "previewType": "card",
   "sampleResponse": {
-    "api": "24 Pull Requests",
-    "description": "Project to promote open source collaboration during December",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "24 Pull Requests",
     "subtitle": "Project to promote open source collaboration during December",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

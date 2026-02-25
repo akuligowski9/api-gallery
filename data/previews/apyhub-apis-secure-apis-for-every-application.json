@@ -2,20 +2,23 @@
   "id": "apyhub-apis-secure-apis-for-every-application",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ApyHub APIs: Secure APIs for Every Application",
-    "description": "Build and ship faster with 150+ APIs to connect to your application",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "ApyHub APIs: Secure APIs for Every Application",
-    "subtitle": "Build and ship faster with 150+ APIs to connect to your…",
+    "subtitle": "Build and ship faster with 150+ APIs to connect to your application",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

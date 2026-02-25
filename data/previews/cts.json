@@ -2,20 +2,23 @@
   "id": "cts",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CTS",
-    "description": "CTS Realtime API",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "CTS",
     "subtitle": "CTS Realtime API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

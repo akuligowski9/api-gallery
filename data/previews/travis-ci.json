@@ -2,20 +2,23 @@
   "id": "travis-ci",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Travis CI",
-    "description": "Sync your GitHub projects with Travis CI to test your code in minutes",
-    "category": "Continuous Integration",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "pipeline": "main-build",
+    "status": "passed",
+    "duration": "4m 12s",
+    "triggered_by": "push to main",
+    "branch": "main",
+    "commit": "a3f91bc",
+    "tests_passed": "247 / 247"
   },
   "previewConfig": {
     "title": "Travis CI",
-    "subtitle": "Sync your GitHub projects with Travis CI to test your code…",
+    "subtitle": "Sync your GitHub projects with Travis CI to test your code in minutes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "pipeline",
+      "status",
+      "duration",
+      "branch",
+      "tests_passed"
     ]
   }
 }

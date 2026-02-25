@@ -2,20 +2,23 @@
   "id": "they-said-so-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "They Said So Quotes",
-    "description": "Quotes Trusted by many fortune brands around the world",
-    "category": "Personality",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "They Said So Quotes",
     "subtitle": "Quotes Trusted by many fortune brands around the world",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

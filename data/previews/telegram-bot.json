@@ -2,20 +2,23 @@
   "id": "telegram-bot",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Telegram Bot",
-    "description": "Simplified HTTP version of the MTProto API for bots",
-    "category": "Social",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Telegram Bot",
     "subtitle": "Simplified HTTP version of the MTProto API for bots",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

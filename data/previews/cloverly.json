@@ -2,20 +2,23 @@
   "id": "cloverly",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Cloverly",
-    "description": "API calculates the impact of common carbon-intensive activities in real time",
-    "category": "Environment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "Cloverly",
-    "subtitle": "API calculates the impact of common carbon-intensive…",
+    "subtitle": "API calculates the impact of common carbon-intensive activities in real time",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

@@ -1,21 +1,35 @@
 {
   "id": "arbeitsamt",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "Arbeitsamt",
-    "description": "API for the \"Arbeitsamt\", which is a german Job board aggregator",
-    "category": "Jobs",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "Arbeitsamt",
-    "subtitle": "API for the \"Arbeitsamt\", which is a german Job board…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "API for the \"Arbeitsamt\", which is a german Job board aggregator",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

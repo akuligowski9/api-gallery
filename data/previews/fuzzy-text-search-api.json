@@ -2,20 +2,25 @@
   "id": "fuzzy-text-search-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Fuzzy Text Search API",
-    "description": "The Fuzzy Text Search API finds close matches for user queries, handling typos and partial inputs to deliver relevant results quickly and accurately",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "Fuzzy Text Search API",
-    "subtitle": "The Fuzzy Text Search API finds close matches for user…",
+    "subtitle": "The Fuzzy Text Search API finds close matches for user queries, handling typos and partial inputs to deliver relevant results quickly and accurately",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "hoppscotch",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Hoppscotch",
-    "description": "A lightweight, fast, and customizable app for testing and designing APIs. A free, fast, and beautiful",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Hoppscotch",
-    "subtitle": "A lightweight, fast, and customizable app for testing and…",
+    "subtitle": "A lightweight, fast, and customizable app for testing and designing APIs. A free, fast, and beautiful",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

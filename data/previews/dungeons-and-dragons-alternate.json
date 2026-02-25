@@ -2,20 +2,22 @@
   "id": "dungeons-and-dragons-alternate",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Dungeons and Dragons (Alternate)",
-    "description": "Includes all monsters and spells from the SRD (System Reference Document) as well as a search API",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Dungeons and Dragons (Alternate)",
-    "subtitle": "Includes all monsters and spells from the SRD (System…",
+    "subtitle": "Includes all monsters and spells from the SRD (System Reference Document) as well as a search API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

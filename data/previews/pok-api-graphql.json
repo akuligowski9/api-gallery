@@ -2,20 +2,22 @@
   "id": "pok-api-graphql",
   "previewType": "card",
   "sampleResponse": {
-    "api": "PokéAPI (GraphQL)",
-    "description": "The Unofficial GraphQL for PokeAPI",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "PokéAPI (GraphQL)",
     "subtitle": "The Unofficial GraphQL for PokeAPI",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

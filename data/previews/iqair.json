@@ -2,20 +2,23 @@
   "id": "iqair",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IQAir",
-    "description": "Air quality and weather data",
-    "category": "Environment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "IQAir",
     "subtitle": "Air quality and weather data",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

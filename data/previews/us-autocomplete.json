@@ -2,20 +2,22 @@
   "id": "us-autocomplete",
   "previewType": "card",
   "sampleResponse": {
-    "api": "US Autocomplete",
-    "description": "Enter address data quickly with real-time address suggestions",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "US Autocomplete",
-    "subtitle": "Enter address data quickly with real-time address…",
+    "subtitle": "Enter address data quickly with real-time address suggestions",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

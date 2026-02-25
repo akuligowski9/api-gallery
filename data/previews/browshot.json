@@ -2,20 +2,23 @@
   "id": "browshot",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Browshot",
-    "description": "Easily make screenshots of web pages in any screen size, as any device",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Browshot",
-    "subtitle": "Easily make screenshots of web pages in any screen size, as…",
+    "subtitle": "Easily make screenshots of web pages in any screen size, as any device",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

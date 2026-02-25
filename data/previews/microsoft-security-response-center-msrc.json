@@ -2,20 +2,23 @@
   "id": "microsoft-security-response-center-msrc",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Microsoft Security Response Center (MSRC)",
-    "description": "Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC)",
-    "category": "Security",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "ip": "192.168.1.1",
+    "threat_score": 12,
+    "is_malicious": false,
+    "country": "United States",
+    "isp": "Comcast",
+    "reports": 3,
+    "last_seen": "30 days ago"
   },
   "previewConfig": {
     "title": "Microsoft Security Response Center (MSRC)",
-    "subtitle": "Programmatic interfaces to engage with the Microsoft…",
+    "subtitle": "Programmatic interfaces to engage with the Microsoft Security Response Center (MSRC)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "ip",
+      "threat_score",
+      "is_malicious",
+      "country",
+      "reports"
     ]
   }
 }

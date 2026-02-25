@@ -2,20 +2,23 @@
   "id": "facebook",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Facebook",
-    "description": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
-    "category": "Social",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Facebook",
-    "subtitle": "Facebook Login, Share on FB, Social Plugins, Analytics and…",
+    "subtitle": "Facebook Login, Share on FB, Social Plugins, Analytics and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

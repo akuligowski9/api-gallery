@@ -2,20 +2,23 @@
   "id": "finage",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Finage",
-    "description": "Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Finage",
-    "subtitle": "Finage is a stock, currency, cryptocurrency, indices, and…",
+    "subtitle": "Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

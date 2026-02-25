@@ -2,20 +2,23 @@
   "id": "movebank",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Movebank",
-    "description": "Movement and Migration data of animals",
-    "category": "Animals",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "Movebank",
     "subtitle": "Movement and Migration data of animals",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

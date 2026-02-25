@@ -2,20 +2,22 @@
   "id": "namedays-calendar",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Namedays Calendar",
-    "description": "Provides namedays for multiple countries",
-    "category": "Calendar",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "Namedays Calendar",
     "subtitle": "Provides namedays for multiple countries",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

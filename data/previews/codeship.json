@@ -2,20 +2,23 @@
   "id": "codeship",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Codeship",
-    "description": "Codeship is a Continuous Integration Platform in the cloud",
-    "category": "Continuous Integration",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "pipeline": "main-build",
+    "status": "passed",
+    "duration": "4m 12s",
+    "triggered_by": "push to main",
+    "branch": "main",
+    "commit": "a3f91bc",
+    "tests_passed": "247 / 247"
   },
   "previewConfig": {
     "title": "Codeship",
     "subtitle": "Codeship is a Continuous Integration Platform in the cloud",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "pipeline",
+      "status",
+      "duration",
+      "branch",
+      "tests_passed"
     ]
   }
 }

@@ -2,20 +2,20 @@
   "id": "kutt",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Kutt",
-    "description": "Free Modern URL Shortener",
-    "category": "URL Shorteners",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Kutt",
     "subtitle": "Free Modern URL Shortener",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

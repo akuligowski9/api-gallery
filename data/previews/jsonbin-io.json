@@ -2,20 +2,23 @@
   "id": "jsonbin-io",
   "previewType": "card",
   "sampleResponse": {
-    "api": "JSONbin.io",
-    "description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "JSONbin.io",
-    "subtitle": "Free JSON storage service. Ideal for small scale Web apps,…",
+    "subtitle": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

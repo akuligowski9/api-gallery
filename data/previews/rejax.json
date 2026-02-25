@@ -2,20 +2,23 @@
   "id": "rejax",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Rejax",
-    "description": "Reverse AJAX service to notify clients",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Rejax",
     "subtitle": "Reverse AJAX service to notify clients",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

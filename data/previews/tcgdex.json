@@ -2,20 +2,22 @@
   "id": "tcgdex",
   "previewType": "card",
   "sampleResponse": {
-    "api": "TCGdex",
-    "description": "Multi languages Pokémon TCG Information",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "TCGdex",
     "subtitle": "Multi languages Pokémon TCG Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

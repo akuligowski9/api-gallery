@@ -2,20 +2,23 @@
   "id": "colorfulclouds",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ColorfulClouds",
-    "description": "Weather",
-    "category": "Weather",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "ColorfulClouds",
     "subtitle": "Weather",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

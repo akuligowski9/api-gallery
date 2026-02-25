@@ -2,20 +2,23 @@
   "id": "climatiq",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Climatiq",
-    "description": "Calculate the environmental footprint created by a broad range of emission-generating activities",
-    "category": "Environment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "Climatiq",
-    "subtitle": "Calculate the environmental footprint created by a broad…",
+    "subtitle": "Calculate the environmental footprint created by a broad range of emission-generating activities",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

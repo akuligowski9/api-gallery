@@ -2,20 +2,25 @@
   "id": "code-detection-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Code Detection API",
-    "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
-    "category": "Text Analysis",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "Code Detection API",
-    "subtitle": "Detect, label, format and enrich the code in your app or in…",
+    "subtitle": "Detect, label, format and enrich the code in your app or in your data pipeline",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

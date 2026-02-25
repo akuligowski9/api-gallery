@@ -2,20 +2,23 @@
   "id": "canadian-football-league-cfl",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Canadian Football League (CFL)",
-    "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Canadian Football League (CFL)",
-    "subtitle": "Official JSON API providing real-time league, team and…",
+    "subtitle": "Official JSON API providing real-time league, team and player statistics about the CFL",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

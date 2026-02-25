@@ -2,20 +2,23 @@
   "id": "chainpoint",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Chainpoint",
-    "description": "Chainpoint is a global network for anchoring data to the Bitcoin blockchain",
-    "category": "Blockchain",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "tx_hash": "0x3a4e...9f2b",
+    "block": "19,482,031",
+    "from": "0xAb5...3D1",
+    "to": "0xC8f...7E2",
+    "value": "1.284 ETH",
+    "gas_fee": "0.0024 ETH",
+    "status": "Confirmed"
   },
   "previewConfig": {
     "title": "Chainpoint",
-    "subtitle": "Chainpoint is a global network for anchoring data to the…",
+    "subtitle": "Chainpoint is a global network for anchoring data to the Bitcoin blockchain",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "tx_hash",
+      "block",
+      "value",
+      "gas_fee",
+      "status"
     ]
   }
 }

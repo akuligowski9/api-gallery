@@ -2,20 +2,24 @@
   "id": "quran-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Quran-api",
-    "description": "Free Quran API Service with 90+ different languages and 400+ translations",
-    "category": "Books",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Quran-api",
-    "subtitle": "Free Quran API Service with 90+ different languages and…",
+    "subtitle": "Free Quran API Service with 90+ different languages and 400+ translations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

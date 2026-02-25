@@ -2,20 +2,22 @@
   "id": "warface-non-official",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Warface (non-official)",
-    "description": "Official API proxy with better data structure and more features",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Warface (non-official)",
-    "subtitle": "Official API proxy with better data structure and more…",
+    "subtitle": "Official API proxy with better data structure and more features",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

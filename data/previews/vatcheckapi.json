@@ -2,20 +2,22 @@
   "id": "vatcheckapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "VatcheckAPI",
-    "description": "VAT Number Validation & Lookup REST API",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "VatcheckAPI",
     "subtitle": "VAT Number Validation & Lookup REST API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

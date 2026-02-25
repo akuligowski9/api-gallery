@@ -2,20 +2,23 @@
   "id": "domaindb-info",
   "previewType": "card",
   "sampleResponse": {
-    "api": "DomainDb Info",
-    "description": "Domain name search to find all domains containing particular words/phrases/etc",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "DomainDb Info",
-    "subtitle": "Domain name search to find all domains containing…",
+    "subtitle": "Domain name search to find all domains containing particular words/phrases/etc",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

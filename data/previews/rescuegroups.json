@@ -2,20 +2,23 @@
   "id": "rescuegroups",
   "previewType": "card",
   "sampleResponse": {
-    "api": "RescueGroups",
-    "description": "Adoption",
-    "category": "Animals",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "RescueGroups",
     "subtitle": "Adoption",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

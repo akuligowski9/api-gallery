@@ -2,20 +2,24 @@
   "id": "geoplugin",
   "previewType": "card",
   "sampleResponse": {
-    "api": "geoPlugin",
-    "description": "IP geolocation and currency conversion",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "geoPlugin",
     "subtitle": "IP geolocation and currency conversion",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

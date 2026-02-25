@@ -2,20 +2,23 @@
   "id": "api2convert",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Api2Convert",
-    "description": "Online File Conversion API",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Api2Convert",
     "subtitle": "Online File Conversion API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

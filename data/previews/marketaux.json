@@ -1,21 +1,34 @@
 {
   "id": "marketaux",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "MarketAux",
-    "description": "Live stock market news with tagged tickers + sentiment and stats JSON API",
-    "category": "News",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "items": [
+      {
+        "title": "Global AI regulation talks resume in Geneva",
+        "source": "Reuters"
+      },
+      {
+        "title": "SpaceX Starship completes third successful orbital test",
+        "source": "AP"
+      },
+      {
+        "title": "EU announces new climate policy framework for 2030",
+        "source": "BBC"
+      },
+      {
+        "title": "Tech stocks rally on strong earnings reports",
+        "source": "Bloomberg"
+      },
+      {
+        "title": "Scientists discover new deep-sea species off Pacific coast",
+        "source": "Nature"
+      }
+    ]
   },
   "previewConfig": {
     "title": "MarketAux",
-    "subtitle": "Live stock market news with tagged tickers + sentiment and…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "Live stock market news with tagged tickers + sentiment and stats JSON API",
+    "itemKey": "title",
+    "secondaryKey": "source"
   }
 }

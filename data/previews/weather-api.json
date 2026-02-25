@@ -2,20 +2,23 @@
   "id": "weather-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "weather-api",
-    "description": "A RESTful free API to check the weather",
-    "category": "Weather",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "weather-api",
     "subtitle": "A RESTful free API to check the weather",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

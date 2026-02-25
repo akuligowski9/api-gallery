@@ -2,20 +2,23 @@
   "id": "petfinder",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Petfinder",
-    "description": "Petfinder is dedicated to helping pets find homes, another resource to get pets adopted",
-    "category": "Animals",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "Petfinder",
-    "subtitle": "Petfinder is dedicated to helping pets find homes, another…",
+    "subtitle": "Petfinder is dedicated to helping pets find homes, another resource to get pets adopted",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "hockey-highlights",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Hockey Highlights",
-    "description": "Real time hockey highlights",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Hockey Highlights",
     "subtitle": "Real time hockey highlights",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

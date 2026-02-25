@@ -2,20 +2,23 @@
   "id": "swedavia-airports",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Swedavia Airports",
-    "description": "Airport and flight information of Swedish Airports operated by Swedavia",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Swedavia Airports",
-    "subtitle": "Airport and flight information of Swedish Airports operated…",
+    "subtitle": "Airport and flight information of Swedish Airports operated by Swedavia",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

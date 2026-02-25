@@ -2,20 +2,23 @@
   "id": "alienvault-open-threat-exchange-otx",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AlienVault Open Threat Exchange (OTX)",
-    "description": "IP/domain/URL reputation",
-    "category": "Anti-Malware",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "ip": "192.168.1.1",
+    "threat_score": 12,
+    "is_malicious": false,
+    "country": "United States",
+    "isp": "Comcast",
+    "reports": 3,
+    "last_seen": "30 days ago"
   },
   "previewConfig": {
     "title": "AlienVault Open Threat Exchange (OTX)",
     "subtitle": "IP/domain/URL reputation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "ip",
+      "threat_score",
+      "is_malicious",
+      "country",
+      "reports"
     ]
   }
 }

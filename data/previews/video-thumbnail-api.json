@@ -2,20 +2,24 @@
   "id": "video-thumbnail-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Video Thumbnail API",
-    "description": "Create Video Thumbnails from any video or URL",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Video Thumbnail API",
     "subtitle": "Create Video Thumbnails from any video or URL",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

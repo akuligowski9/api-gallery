@@ -2,20 +2,20 @@
   "id": "bly-to",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Bly.to",
-    "description": "URL shortening service with analytics and tracking capabilities",
-    "category": "URL Shorteners",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Bly.to",
-    "subtitle": "URL shortening service with analytics and tracking…",
+    "subtitle": "URL shortening service with analytics and tracking capabilities",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "us-extract",
   "previewType": "card",
   "sampleResponse": {
-    "api": "US Extract",
-    "description": "Extract postal addresses from any text including emails",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "US Extract",
     "subtitle": "Extract postal addresses from any text including emails",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

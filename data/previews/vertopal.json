@@ -2,20 +2,23 @@
   "id": "vertopal",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Vertopal",
-    "description": "Convert your files to a variety of formats using Vertopal API",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Vertopal",
-    "subtitle": "Convert your files to a variety of formats using Vertopal…",
+    "subtitle": "Convert your files to a variety of formats using Vertopal API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

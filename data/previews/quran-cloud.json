@@ -2,20 +2,24 @@
   "id": "quran-cloud",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Quran Cloud",
-    "description": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran",
-    "category": "Books",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Quran Cloud",
-    "subtitle": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the…",
+    "subtitle": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

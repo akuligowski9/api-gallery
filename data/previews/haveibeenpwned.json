@@ -2,20 +2,23 @@
   "id": "haveibeenpwned",
   "previewType": "card",
   "sampleResponse": {
-    "api": "HaveIBeenPwned",
-    "description": "Passwords which have previously been exposed in data breaches",
-    "category": "Security",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "ip": "192.168.1.1",
+    "threat_score": 12,
+    "is_malicious": false,
+    "country": "United States",
+    "isp": "Comcast",
+    "reports": 3,
+    "last_seen": "30 days ago"
   },
   "previewConfig": {
     "title": "HaveIBeenPwned",
-    "subtitle": "Passwords which have previously been exposed in data…",
+    "subtitle": "Passwords which have previously been exposed in data breaches",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "ip",
+      "threat_score",
+      "is_malicious",
+      "country",
+      "reports"
     ]
   }
 }

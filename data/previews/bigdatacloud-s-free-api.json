@@ -2,20 +2,24 @@
   "id": "bigdatacloud-s-free-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "BigDataCloud's Free API",
-    "description": "Get free client-side reverse geocoding API and Client Info API. No account creation and API key required.",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "BigDataCloud's Free API",
-    "subtitle": "Get free client-side reverse geocoding API and Client Info…",
+    "subtitle": "Get free client-side reverse geocoding API and Client Info API. No account creation and API key required.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

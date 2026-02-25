@@ -2,20 +2,23 @@
   "id": "sendgrid",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sendgrid",
-    "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Sendgrid",
-    "subtitle": "A cloud-based SMTP provider that allows you to send emails…",
+    "subtitle": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

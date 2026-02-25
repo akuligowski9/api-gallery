@@ -2,20 +2,23 @@
   "id": "football-soccer-videos",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Football (Soccer) Videos",
-    "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
-    "category": "Sports & Fitness",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Football (Soccer) Videos",
-    "subtitle": "Embed codes for goals and highlights from Premier League,…",
+    "subtitle": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

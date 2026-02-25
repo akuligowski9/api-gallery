@@ -2,20 +2,23 @@
   "id": "fynk",
   "previewType": "card",
   "sampleResponse": {
-    "api": "fynk",
-    "description": "Generate, update, and manage contracts from your own systems with a secure and scalable REST API",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "fynk",
-    "subtitle": "Generate, update, and manage contracts from your own…",
+    "subtitle": "Generate, update, and manage contracts from your own systems with a secure and scalable REST API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

@@ -2,20 +2,24 @@
   "id": "helipaddy-sites",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Helipaddy sites",
-    "description": "Helicopter and passenger drone landing site directory, Helipaddy data and much more",
-    "category": "Vehicle",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "vin": "1HGBH41JXMN109186",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "engine": "1.5L Turbo 4-cyl",
+    "fuel_type": "Gasoline",
+    "transmission": "CVT"
   },
   "previewConfig": {
     "title": "Helipaddy sites",
-    "subtitle": "Helicopter and passenger drone landing site directory,…",
+    "subtitle": "Helicopter and passenger drone landing site directory, Helipaddy data and much more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "vin",
+      "make",
+      "model",
+      "year",
+      "engine",
+      "fuel_type"
     ]
   }
 }

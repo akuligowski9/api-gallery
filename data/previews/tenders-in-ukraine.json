@@ -2,20 +2,23 @@
   "id": "tenders-in-ukraine",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Tenders in Ukraine",
-    "description": "Get data for procurements in Ukraine in JSON format",
-    "category": "Business",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "Tenders in Ukraine",
     "subtitle": "Get data for procurements in Ukraine in JSON format",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

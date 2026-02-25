@@ -2,20 +2,22 @@
   "id": "lowy-asia-power-index",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Lowy Asia Power Index",
-    "description": "Get measure resources and influence to rank the relative power of states in Asia",
-    "category": "Open Data",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "Lowy Asia Power Index",
-    "subtitle": "Get measure resources and influence to rank the relative…",
+    "subtitle": "Get measure resources and influence to rank the relative power of states in Asia",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

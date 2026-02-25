@@ -2,20 +2,23 @@
   "id": "earnings-feed",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Earnings Feed",
-    "description": "SEC filings, insider transactions, institutional holdings",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Earnings Feed",
     "subtitle": "SEC filings, insider transactions, institutional holdings",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

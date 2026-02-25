@@ -2,20 +2,23 @@
   "id": "brainshop-ai",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Brainshop.ai",
-    "description": "Make A Free A.I Brain",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Brainshop.ai",
     "subtitle": "Make A Free A.I Brain",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

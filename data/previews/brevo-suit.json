@@ -2,20 +2,22 @@
   "id": "brevo-suit",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Brevo Suit",
-    "description": "Connection for brevo CRM suite",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "Brevo Suit",
     "subtitle": "Connection for brevo CRM suite",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

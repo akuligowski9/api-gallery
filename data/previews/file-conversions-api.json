@@ -2,20 +2,23 @@
   "id": "file-conversions-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "File Conversions API",
-    "description": "APIs to handle all your file transformations. Word to PDF, Markdown to HTML, CSV to JSON, audio and many more",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "File Conversions API",
-    "subtitle": "APIs to handle all your file transformations. Word to PDF,…",
+    "subtitle": "APIs to handle all your file transformations. Word to PDF, Markdown to HTML, CSV to JSON, audio and many more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

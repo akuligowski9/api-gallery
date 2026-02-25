@@ -2,20 +2,23 @@
   "id": "mail-tm",
   "previewType": "card",
   "sampleResponse": {
-    "api": "mail.tm",
-    "description": "Temporary Email Service",
-    "category": "Email",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "mail.tm",
     "subtitle": "Temporary Email Service",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

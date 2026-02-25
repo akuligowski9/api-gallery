@@ -1,21 +1,30 @@
 {
   "id": "podcastindex",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "PodcastIndex",
-    "description": "Get details on podcasts & episodes, Podcast Search",
-    "category": "Podcasts",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "How AI is Reshaping Work",
+        "show": "Lex Fridman Podcast"
+      },
+      {
+        "title": "The Future of Open Source",
+        "show": "Software Unscripted"
+      },
+      {
+        "title": "Building in Public",
+        "show": "Indie Hackers"
+      },
+      {
+        "title": "Deep Dive: TypeScript 5.4",
+        "show": "Syntax.fm"
+      }
+    ]
   },
   "previewConfig": {
     "title": "PodcastIndex",
     "subtitle": "Get details on podcasts & episodes, Podcast Search",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "show"
   }
 }

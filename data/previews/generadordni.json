@@ -2,20 +2,22 @@
   "id": "generadordni",
   "previewType": "card",
   "sampleResponse": {
-    "api": "GeneradorDNI",
-    "description": "Data generator API. Profiles, vehicles, banks and cards, etc",
-    "category": "Test Data",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "name": "Alexandra Chen",
+    "email": "a.chen@fakemail.dev",
+    "phone": "+1 (415) 555-0192",
+    "address": "847 Oak St, Portland, OR 97201",
+    "username": "achen_dev",
+    "avatar": "https://i.pravatar.cc/100"
   },
   "previewConfig": {
     "title": "GeneradorDNI",
     "subtitle": "Data generator API. Profiles, vehicles, banks and cards, etc",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "email",
+      "phone",
+      "address",
+      "username"
     ]
   }
 }

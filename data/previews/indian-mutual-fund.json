@@ -2,20 +2,23 @@
   "id": "indian-mutual-fund",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Indian Mutual Fund",
-    "description": "Get complete history of India Mutual Funds Data",
-    "category": "Finance",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Indian Mutual Fund",
     "subtitle": "Get complete history of India Mutual Funds Data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

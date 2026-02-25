@@ -2,20 +2,22 @@
   "id": "databricks",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Databricks",
-    "description": "Manage Databricks workspaces, clusters, jobs, and notebooks via a Rest API",
-    "category": "Cloud Storage & File Sharing",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "filename": "project-final-v3.zip",
+    "size": "48.2 MB",
+    "uploaded": "Feb 24, 2026",
+    "downloads": 127,
+    "expires": "March 24, 2026",
+    "shared_with": 4
   },
   "previewConfig": {
     "title": "Databricks",
-    "subtitle": "Manage Databricks workspaces, clusters, jobs, and notebooks…",
+    "subtitle": "Manage Databricks workspaces, clusters, jobs, and notebooks via a Rest API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "filename",
+      "size",
+      "uploaded",
+      "downloads",
+      "expires"
     ]
   }
 }

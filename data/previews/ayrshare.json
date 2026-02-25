@@ -2,20 +2,23 @@
   "id": "ayrshare",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Ayrshare",
-    "description": "Social media APIs to post, get analytics, and manage multiple users social media accounts",
-    "category": "Social",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Ayrshare",
-    "subtitle": "Social media APIs to post, get analytics, and manage…",
+    "subtitle": "Social media APIs to post, get analytics, and manage multiple users social media accounts",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "gcore-cdn",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Gcore CDN",
-    "description": "Make your app fast and responsive for a global audience with Gcore CDN.",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Gcore CDN",
-    "subtitle": "Make your app fast and responsive for a global audience…",
+    "subtitle": "Make your app fast and responsive for a global audience with Gcore CDN.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

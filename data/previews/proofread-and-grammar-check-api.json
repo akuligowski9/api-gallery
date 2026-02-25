@@ -2,20 +2,25 @@
   "id": "proofread-and-grammar-check-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Proofread and Grammar Check API",
-    "description": "The Proofreading and Grammar Check API ensures the provided text is grammatically correct and polished by automatically proofreading and checking for errors",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "Proofread and Grammar Check API",
-    "subtitle": "The Proofreading and Grammar Check API ensures the provided…",
+    "subtitle": "The Proofreading and Grammar Check API ensures the provided text is grammatically correct and polished by automatically proofreading and checking for errors",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

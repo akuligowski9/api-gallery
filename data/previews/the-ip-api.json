@@ -2,20 +2,24 @@
   "id": "the-ip-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "The IP API",
-    "description": "IP to Location API, with data about country, region, city etc, with free plan allowing 1000 req/day",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "The IP API",
-    "subtitle": "IP to Location API, with data about country, region, city…",
+    "subtitle": "IP to Location API, with data about country, region, city etc, with free plan allowing 1000 req/day",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

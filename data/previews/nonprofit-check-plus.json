@@ -2,20 +2,22 @@
   "id": "nonprofit-check-plus",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Nonprofit Check Plus",
-    "description": "Verify charities via EIN using IRS, PUB78, BMF & OFAC data for compliance and legitimacy",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "Nonprofit Check Plus",
-    "subtitle": "Verify charities via EIN using IRS, PUB78, BMF & OFAC data…",
+    "subtitle": "Verify charities via EIN using IRS, PUB78, BMF & OFAC data for compliance and legitimacy",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

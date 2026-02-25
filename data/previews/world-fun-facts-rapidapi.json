@@ -2,20 +2,25 @@
   "id": "world-fun-facts-rapidapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "World Fun Facts (RapidAPI)",
-    "description": "Fun and interesting facts with multi-language support",
-    "category": "Entertainment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "Easy",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Uranus"
+    ]
   },
   "previewConfig": {
     "title": "World Fun Facts (RapidAPI)",
     "subtitle": "Fun and interesting facts with multi-language support",
     "displayFields": [
-      "description",
+      "question",
+      "answer",
       "category",
-      "auth"
+      "difficulty"
     ]
   }
 }

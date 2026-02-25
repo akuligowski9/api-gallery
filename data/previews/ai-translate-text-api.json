@@ -2,20 +2,25 @@
   "id": "ai-translate-text-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AI Translate text API",
-    "description": "The Text Translation API translates text into any of the 80 supported languages, providing accurate and context-aware translations",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "AI Translate text API",
-    "subtitle": "The Text Translation API translates text into any of the 80…",
+    "subtitle": "The Text Translation API translates text into any of the 80 supported languages, providing accurate and context-aware translations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

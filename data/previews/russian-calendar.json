@@ -2,20 +2,22 @@
   "id": "russian-calendar",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Russian Calendar",
-    "description": "Check if a date is a Russian holiday or not",
-    "category": "Calendar",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "Russian Calendar",
     "subtitle": "Check if a date is a Russian holiday or not",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

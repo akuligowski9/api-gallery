@@ -2,20 +2,23 @@
   "id": "ip-details-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IP Details API",
-    "description": "Geographic location of an IP address or any domain name along with some other useful information",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "IP Details API",
-    "subtitle": "Geographic location of an IP address or any domain name…",
+    "subtitle": "Geographic location of an IP address or any domain name along with some other useful information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "pythonium",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Pythonium",
-    "description": "Validate Python code syntax",
-    "category": "Programming",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "language": "Python",
+    "version": "3.12.2",
+    "paradigm": "Multi-paradigm",
+    "typing": "Dynamic, Strong",
+    "first_appeared": 1991,
+    "designed_by": "Guido van Rossum"
   },
   "previewConfig": {
     "title": "Pythonium",
     "subtitle": "Validate Python code syntax",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "version",
+      "paradigm",
+      "typing",
+      "first_appeared"
     ]
   }
 }

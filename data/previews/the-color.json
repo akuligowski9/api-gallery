@@ -2,20 +2,25 @@
   "id": "the-color",
   "previewType": "card",
   "sampleResponse": {
-    "api": "The Color",
-    "description": "Swiss army knife for color",
-    "category": "Art & Design",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "palette": "Sunset Gradient",
+    "colors": [
+      "#FF6B6B",
+      "#FFE66D",
+      "#FF8E53",
+      "#C9184A"
+    ],
+    "mood": "Warm, Energetic",
+    "usage": "UI, Marketing, Branding",
+    "contrast_ratio": 4.5
   },
   "previewConfig": {
     "title": "The Color",
     "subtitle": "Swiss army knife for color",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "palette",
+      "mood",
+      "usage",
+      "contrast_ratio"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "google-firebase",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Google Firebase",
-    "description": "Google's mobile application development platform that helps build, improve, and grow app",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Google Firebase",
-    "subtitle": "Google's mobile application development platform that helps…",
+    "subtitle": "Google's mobile application development platform that helps build, improve, and grow app",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

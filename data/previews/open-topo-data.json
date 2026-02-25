@@ -2,20 +2,24 @@
   "id": "open-topo-data",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Open Topo Data",
-    "description": "Elevation and ocean depth for a latitude and longitude",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Open Topo Data",
     "subtitle": "Elevation and ocean depth for a latitude and longitude",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

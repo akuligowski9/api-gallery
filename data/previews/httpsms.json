@@ -2,20 +2,23 @@
   "id": "httpsms",
   "previewType": "card",
   "sampleResponse": {
-    "api": "httpSMS",
-    "description": "Use your Android phone as an SMS gateway to send and receive SMS messages via a simple HTTP API",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "httpSMS",
-    "subtitle": "Use your Android phone as an SMS gateway to send and…",
+    "subtitle": "Use your Android phone as an SMS gateway to send and receive SMS messages via a simple HTTP API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

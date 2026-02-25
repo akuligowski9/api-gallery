@@ -2,20 +2,23 @@
   "id": "temporary-and-disposable-emails-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Temporary and Disposable emails API",
-    "description": "This API provides temporary & disposable email addresses",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Temporary and Disposable emails API",
     "subtitle": "This API provides temporary & disposable email addresses",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

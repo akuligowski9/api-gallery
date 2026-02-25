@@ -2,20 +2,22 @@
   "id": "warrant",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Warrant",
-    "description": "APIs for authorization and access control",
-    "category": "Authentication & Authorization",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "user_id": "usr_8Kp2xNq4mT",
+    "email": "user@example.com",
+    "role": "admin",
+    "token_expires": "3600s",
+    "mfa_enabled": true,
+    "last_login": "2026-02-25T09:41:22Z"
   },
   "previewConfig": {
     "title": "Warrant",
     "subtitle": "APIs for authorization and access control",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "user_id",
+      "email",
+      "role",
+      "mfa_enabled",
+      "last_login"
     ]
   }
 }

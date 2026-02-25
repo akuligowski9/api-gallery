@@ -2,20 +2,22 @@
   "id": "faker",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Faker",
-    "description": "Generate massive amounts of fake (but realistic) data for testing and development.",
-    "category": "Test Data",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "name": "Alexandra Chen",
+    "email": "a.chen@fakemail.dev",
+    "phone": "+1 (415) 555-0192",
+    "address": "847 Oak St, Portland, OR 97201",
+    "username": "achen_dev",
+    "avatar": "https://i.pravatar.cc/100"
   },
   "previewConfig": {
     "title": "Faker",
-    "subtitle": "Generate massive amounts of fake (but realistic) data for…",
+    "subtitle": "Generate massive amounts of fake (but realistic) data for testing and development.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "email",
+      "phone",
+      "address",
+      "username"
     ]
   }
 }

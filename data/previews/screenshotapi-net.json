@@ -2,20 +2,23 @@
   "id": "screenshotapi-net",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ScreenshotAPI.net",
-    "description": "Create pixel-perfect website screenshots",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "ScreenshotAPI.net",
     "subtitle": "Create pixel-perfect website screenshots",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

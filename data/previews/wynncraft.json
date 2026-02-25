@@ -2,20 +2,22 @@
   "id": "wynncraft",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Wynncraft",
-    "description": "Wynncraft Information",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Wynncraft",
     "subtitle": "Wynncraft Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

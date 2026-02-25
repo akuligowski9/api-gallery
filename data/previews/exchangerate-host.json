@@ -2,20 +2,23 @@
   "id": "exchangerate-host",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Exchangerate.host",
-    "description": "Free foreign exchange & crypto rates API",
-    "category": "Currency Exchange",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "base": "USD",
+    "EUR": 0.9241,
+    "GBP": 0.7892,
+    "JPY": 149.82,
+    "CAD": 1.3614,
+    "AUD": 1.5473,
+    "updated": "2026-02-25 12:00 UTC"
   },
   "previewConfig": {
     "title": "Exchangerate.host",
     "subtitle": "Free foreign exchange & crypto rates API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "base",
+      "EUR",
+      "GBP",
+      "JPY",
+      "CAD"
     ]
   }
 }

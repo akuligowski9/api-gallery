@@ -2,20 +2,23 @@
   "id": "proxmox-ve-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Proxmox VE API",
-    "description": "API of self-hosted Proxmox VE. Address: https://your.server:8006/api2/json/ (configuring in installation process)",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Proxmox VE API",
-    "subtitle": "API of self-hosted Proxmox VE. Address:…",
+    "subtitle": "API of self-hosted Proxmox VE. Address: https://your.server:8006/api2/json/ (configuring in installation process)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

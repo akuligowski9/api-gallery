@@ -2,20 +2,23 @@
   "id": "convert-speech-to-text-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Convert Speech to Text API",
-    "description": "This API converts any speech to text multiple languages and dialects",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Convert Speech to Text API",
-    "subtitle": "This API converts any speech to text multiple languages and…",
+    "subtitle": "This API converts any speech to text multiple languages and dialects",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "resmush-it",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ReSmush.it",
-    "description": "Photo optimization",
-    "category": "Photography",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "ReSmush.it",
     "subtitle": "Photo optimization",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

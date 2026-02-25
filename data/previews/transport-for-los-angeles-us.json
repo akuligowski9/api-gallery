@@ -2,20 +2,23 @@
   "id": "transport-for-los-angeles-us",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Los Angeles, US",
-    "description": "Data about positions of Metro vehicles in real time and travel their routes",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Los Angeles, US",
-    "subtitle": "Data about positions of Metro vehicles in real time and…",
+    "subtitle": "Data about positions of Metro vehicles in real time and travel their routes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

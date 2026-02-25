@@ -2,20 +2,23 @@
   "id": "mac-address-vendor-lookup",
   "previewType": "card",
   "sampleResponse": {
-    "api": "MAC address vendor lookup",
-    "description": "Retrieve vendor details and other information regarding a given MAC address or an OUI",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "MAC address vendor lookup",
-    "subtitle": "Retrieve vendor details and other information regarding a…",
+    "subtitle": "Retrieve vendor details and other information regarding a given MAC address or an OUI",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

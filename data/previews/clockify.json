@@ -2,20 +2,23 @@
   "id": "clockify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Clockify",
-    "description": "Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Clockify",
-    "subtitle": "Clockify's REST-based API can be used to push/pull data…",
+    "subtitle": "Clockify's REST-based API can be used to push/pull data to/from it & integrate it with other systems",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

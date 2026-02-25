@@ -2,20 +2,22 @@
   "id": "us-street-address",
   "previewType": "card",
   "sampleResponse": {
-    "api": "US Street Address",
-    "description": "Validate and append data for any US postal address",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "US Street Address",
     "subtitle": "Validate and append data for any US postal address",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "amadeus-for-developers",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Amadeus for Developers",
-    "description": "Travel Search - Limited usage",
-    "category": "Transportation",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Amadeus for Developers",
     "subtitle": "Travel Search - Limited usage",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

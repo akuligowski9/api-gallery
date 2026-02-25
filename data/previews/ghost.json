@@ -2,20 +2,23 @@
   "id": "ghost",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Ghost",
-    "description": "Get Published content into your Website, App or other embedded media",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Ghost",
-    "subtitle": "Get Published content into your Website, App or other…",
+    "subtitle": "Get Published content into your Website, App or other embedded media",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

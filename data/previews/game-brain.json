@@ -2,20 +2,22 @@
   "id": "game-brain",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Game Brain",
-    "description": "Search and discover video games with AI",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Game Brain",
     "subtitle": "Search and discover video games with AI",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

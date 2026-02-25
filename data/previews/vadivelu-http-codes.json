@@ -2,20 +2,23 @@
   "id": "vadivelu-http-codes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Vadivelu HTTP Codes",
-    "description": "On demand HTTP Codes with images",
-    "category": "Personality",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Vadivelu HTTP Codes",
     "subtitle": "On demand HTTP Codes with images",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

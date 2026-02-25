@@ -2,20 +2,25 @@
   "id": "logotypes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Logotypes",
-    "description": "Logotypes of the world in multiples format",
-    "category": "Art & Design",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "palette": "Sunset Gradient",
+    "colors": [
+      "#FF6B6B",
+      "#FFE66D",
+      "#FF8E53",
+      "#C9184A"
+    ],
+    "mood": "Warm, Energetic",
+    "usage": "UI, Marketing, Branding",
+    "contrast_ratio": 4.5
   },
   "previewConfig": {
     "title": "Logotypes",
     "subtitle": "Logotypes of the world in multiples format",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "palette",
+      "mood",
+      "usage",
+      "contrast_ratio"
     ]
   }
 }

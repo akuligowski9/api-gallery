@@ -2,20 +2,23 @@
   "id": "suredbits",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SuredBits",
-    "description": "Query sports data, including teams, players, games, scores and statistics",
-    "category": "Sports & Fitness",
-    "auth": "None",
-    "https": false,
-    "cors": "no"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "SuredBits",
-    "subtitle": "Query sports data, including teams, players, games, scores…",
+    "subtitle": "Query sports data, including teams, players, games, scores and statistics",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

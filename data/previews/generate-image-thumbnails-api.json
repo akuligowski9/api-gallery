@@ -2,20 +2,23 @@
   "id": "generate-image-thumbnails-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Generate Image Thumbnails API",
-    "description": "Generate and optimise Image Thumbnails from any image with this API and save hours of image editing",
-    "category": "Photography",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "Generate Image Thumbnails API",
-    "subtitle": "Generate and optimise Image Thumbnails from any image with…",
+    "subtitle": "Generate and optimise Image Thumbnails from any image with this API and save hours of image editing",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

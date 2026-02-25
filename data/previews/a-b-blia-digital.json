@@ -2,20 +2,24 @@
   "id": "a-b-blia-digital",
   "previewType": "card",
   "sampleResponse": {
-    "api": "A Bíblia Digital",
-    "description": "Do not worry about managing the multiple versions of the Bible",
-    "category": "Books",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "A Bíblia Digital",
-    "subtitle": "Do not worry about managing the multiple versions of the…",
+    "subtitle": "Do not worry about managing the multiple versions of the Bible",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

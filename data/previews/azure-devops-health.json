@@ -2,20 +2,23 @@
   "id": "azure-devops-health",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Azure DevOps Health",
-    "description": "Resource health helps you diagnose and get support when an Azure issue impacts your resources",
-    "category": "Continuous Integration",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "no"
+    "pipeline": "main-build",
+    "status": "passed",
+    "duration": "4m 12s",
+    "triggered_by": "push to main",
+    "branch": "main",
+    "commit": "a3f91bc",
+    "tests_passed": "247 / 247"
   },
   "previewConfig": {
     "title": "Azure DevOps Health",
-    "subtitle": "Resource health helps you diagnose and get support when an…",
+    "subtitle": "Resource health helps you diagnose and get support when an Azure issue impacts your resources",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "pipeline",
+      "status",
+      "duration",
+      "branch",
+      "tests_passed"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "aletheia",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Aletheia",
-    "description": "Insider trading data, earnings call analysis, financial statements, and more",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Aletheia",
-    "subtitle": "Insider trading data, earnings call analysis, financial…",
+    "subtitle": "Insider trading data, earnings call analysis, financial statements, and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

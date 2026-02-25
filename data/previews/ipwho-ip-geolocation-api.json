@@ -2,20 +2,24 @@
   "id": "ipwho-ip-geolocation-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IPWho IP Geolocation API",
-    "description": "2,000 free API calls per day. Production grade IP intelligence at non-enterprise prices. Servers in 12+ regions for low latency.",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "IPWho IP Geolocation API",
-    "subtitle": "2,000 free API calls per day. Production grade IP…",
+    "subtitle": "2,000 free API calls per day. Production grade IP intelligence at non-enterprise prices. Servers in 12+ regions for low latency.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

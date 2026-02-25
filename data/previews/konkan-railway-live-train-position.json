@@ -2,20 +2,23 @@
   "id": "konkan-railway-live-train-position",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Konkan Railway Live Train Position",
-    "description": "Realtime data for trains on India's Konkan Railway",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Konkan Railway Live Train Position",
     "subtitle": "Realtime data for trains on India's Konkan Railway",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

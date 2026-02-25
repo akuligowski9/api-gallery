@@ -2,20 +2,23 @@
   "id": "format-json-online-dummy-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Format JSON Online Dummy API",
-    "description": "A free tool to generate dummy JSON data for testing and prototyping.",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Format JSON Online Dummy API",
-    "subtitle": "A free tool to generate dummy JSON data for testing and…",
+    "subtitle": "A free tool to generate dummy JSON data for testing and prototyping.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

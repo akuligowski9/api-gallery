@@ -2,20 +2,20 @@
   "id": "free-url-shortener",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Free Url Shortener",
-    "description": "Free URL Shortener offers a powerful API to interact with other sites",
-    "category": "URL Shorteners",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Free Url Shortener",
-    "subtitle": "Free URL Shortener offers a powerful API to interact with…",
+    "subtitle": "Free URL Shortener offers a powerful API to interact with other sites",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

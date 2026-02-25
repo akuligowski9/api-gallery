@@ -2,20 +2,23 @@
   "id": "nekosia-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Nekosia API",
-    "description": "Anime API with cute random images. Dominated colors & compressed images & avoiding duplicates.",
-    "category": "Anime",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "Nekosia API",
-    "subtitle": "Anime API with cute random images. Dominated colors &…",
+    "subtitle": "Anime API with cute random images. Dominated colors & compressed images & avoiding duplicates.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

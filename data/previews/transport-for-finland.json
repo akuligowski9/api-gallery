@@ -2,20 +2,23 @@
   "id": "transport-for-finland",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Finland",
-    "description": "Finnish transport API",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Finland",
     "subtitle": "Finnish transport API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

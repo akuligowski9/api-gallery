@@ -2,20 +2,24 @@
   "id": "rules-of-acquisition",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Rules of Acquisition",
-    "description": "Ferengi Rules of Acquisition from Star Trek with episode references",
-    "category": "Video",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Rules of Acquisition",
-    "subtitle": "Ferengi Rules of Acquisition from Star Trek with episode…",
+    "subtitle": "Ferengi Rules of Acquisition from Star Trek with episode references",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "mailboxvalidator",
   "previewType": "card",
   "sampleResponse": {
-    "api": "MailboxValidator",
-    "description": "Validate email address to improve deliverability",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "MailboxValidator",
     "subtitle": "Validate email address to improve deliverability",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

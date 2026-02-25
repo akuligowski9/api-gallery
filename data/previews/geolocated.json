@@ -2,20 +2,24 @@
   "id": "geolocated",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Geolocated",
-    "description": "Free IP Geolocation API with multi-continent servers, and 60000 free requests/month",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Geolocated",
-    "subtitle": "Free IP Geolocation API with multi-continent servers, and…",
+    "subtitle": "Free IP Geolocation API with multi-continent servers, and 60000 free requests/month",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

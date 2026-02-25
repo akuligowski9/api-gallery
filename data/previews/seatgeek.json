@@ -2,20 +2,22 @@
   "id": "seatgeek",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SeatGeek",
-    "description": "Search events, venues and performers",
-    "category": "Events",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "event": "PyCon US 2026",
+    "date": "May 14–22, 2026",
+    "location": "Pittsburgh, PA",
+    "tickets": "From $125",
+    "attendees": "3,000+",
+    "category": "Technology Conference"
   },
   "previewConfig": {
     "title": "SeatGeek",
     "subtitle": "Search events, venues and performers",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "event",
+      "date",
+      "location",
+      "tickets",
+      "attendees"
     ]
   }
 }

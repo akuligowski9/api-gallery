@@ -2,20 +2,23 @@
   "id": "fitbit",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Fitbit",
-    "description": "Fitbit Information",
-    "category": "Sports & Fitness",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Fitbit",
     "subtitle": "Fitbit Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

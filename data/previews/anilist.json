@@ -2,20 +2,23 @@
   "id": "anilist",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AniList",
-    "description": "Anime discovery & tracking",
-    "category": "Anime",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "AniList",
     "subtitle": "Anime discovery & tracking",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

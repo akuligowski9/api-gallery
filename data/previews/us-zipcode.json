@@ -2,20 +2,24 @@
   "id": "us-zipcode",
   "previewType": "card",
   "sampleResponse": {
-    "api": "US ZipCode",
-    "description": "Validate and append data for any US ZipCode",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "US ZipCode",
     "subtitle": "Validate and append data for any US ZipCode",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

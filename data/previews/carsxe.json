@@ -2,20 +2,24 @@
   "id": "carsxe",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CarsXE",
-    "description": "CarsXE API provides comprehensive data on vehicles, including VIN decoding & specifications, license plate decoding, images, history and market value. It enables developers to build innovative applications for the automotive industry, such as insurance & roadside assistance tools, ride sharing & grocery delivery apps, inventory management systems, and market analysis platforms.",
-    "category": "Vehicle",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "vin": "1HGBH41JXMN109186",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "engine": "1.5L Turbo 4-cyl",
+    "fuel_type": "Gasoline",
+    "transmission": "CVT"
   },
   "previewConfig": {
     "title": "CarsXE",
-    "subtitle": "CarsXE API provides comprehensive data on vehicles,…",
+    "subtitle": "CarsXE API provides comprehensive data on vehicles, including VIN decoding & specifications, license plate decoding, images, history and market value. It enables developers to build innovative applications for the automotive industry, such as insurance & roadside assistance tools, ride sharing & grocery delivery apps, inventory management systems, and market analysis platforms.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "vin",
+      "make",
+      "model",
+      "year",
+      "engine",
+      "fuel_type"
     ]
   }
 }

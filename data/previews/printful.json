@@ -2,20 +2,23 @@
   "id": "printful",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Printful",
-    "description": "Printful's official API to manage and integrate their services",
-    "category": "Shopping",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "Printful",
-    "subtitle": "Printful's official API to manage and integrate their…",
+    "subtitle": "Printful's official API to manage and integrate their services",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

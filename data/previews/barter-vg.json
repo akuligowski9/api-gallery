@@ -2,20 +2,22 @@
   "id": "barter-vg",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Barter.VG",
-    "description": "Provides information about Game, DLC, Bundles, Giveaways, Trading",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Barter.VG",
-    "subtitle": "Provides information about Game, DLC, Bundles, Giveaways,…",
+    "subtitle": "Provides information about Game, DLC, Bundles, Giveaways, Trading",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "what-s-on-the-menu",
   "previewType": "card",
   "sampleResponse": {
-    "api": "What's on the menu?",
-    "description": "NYPL human-transcribed historical menu collection",
-    "category": "Food & Drink",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "unknown"
+    "name": "Pasta Carbonara",
+    "cuisine": "Italian",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "calories": "620 kcal",
+    "servings": 2,
+    "difficulty": "Medium"
   },
   "previewConfig": {
     "title": "What's on the menu?",
     "subtitle": "NYPL human-transcribed historical menu collection",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "cuisine",
+      "prep_time",
+      "cook_time",
+      "calories"
     ]
   }
 }

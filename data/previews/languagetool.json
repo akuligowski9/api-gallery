@@ -2,20 +2,25 @@
   "id": "languagetool",
   "previewType": "card",
   "sampleResponse": {
-    "api": "LanguageTool",
-    "description": "Style and Grammar Checker for 25+ Languages",
-    "category": "Text Analysis",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "LanguageTool",
     "subtitle": "Style and Grammar Checker for 25+ Languages",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "sent-dm",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sent.dm",
-    "description": "Sent is a unified API for messaging across SMS and apps\nlike WhatsApp",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Sent.dm",
-    "subtitle": "Sent is a unified API for messaging across SMS and apps…",
+    "subtitle": "Sent is a unified API for messaging across SMS and apps\nlike WhatsApp",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

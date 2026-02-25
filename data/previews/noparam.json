@@ -2,20 +2,23 @@
   "id": "noparam",
   "previewType": "card",
   "sampleResponse": {
-    "api": "NoParam",
-    "description": "Email validation API for real-time & bulk checking",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "NoParam",
     "subtitle": "Email validation API for real-time & bulk checking",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

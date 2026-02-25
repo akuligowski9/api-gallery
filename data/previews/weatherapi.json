@@ -2,20 +2,23 @@
   "id": "weatherapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "WeatherAPI",
-    "description": "Weather API with other stuff like Astronomy and Geolocation API",
-    "category": "Weather",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "WeatherAPI",
-    "subtitle": "Weather API with other stuff like Astronomy and Geolocation…",
+    "subtitle": "Weather API with other stuff like Astronomy and Geolocation API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "covid-19-datenhub",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Covid-19 Datenhub",
-    "description": "Maps, datasets, applications and more in the context of COVID-19",
-    "category": "Health",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "Covid-19 Datenhub",
-    "subtitle": "Maps, datasets, applications and more in the context of…",
+    "subtitle": "Maps, datasets, applications and more in the context of COVID-19",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

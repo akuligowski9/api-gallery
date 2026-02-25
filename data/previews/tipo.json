@@ -2,20 +2,22 @@
   "id": "tipo",
   "previewType": "card",
   "sampleResponse": {
-    "api": "TIPO",
-    "description": "Taiwan patent search system api",
-    "category": "Patent",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "patent_number": "US10,123,456",
+    "title": "Method for Neural Network Optimization",
+    "assignee": "Acme Technologies",
+    "filed": "March 14, 2021",
+    "granted": "October 3, 2023",
+    "status": "Active"
   },
   "previewConfig": {
     "title": "TIPO",
     "subtitle": "Taiwan patent search system api",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "patent_number",
+      "title",
+      "assignee",
+      "filed",
+      "status"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "eight-ball",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Eight Ball",
-    "description": "Fortune-telling API with random, sentiment-biased, and multi-language responses",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Eight Ball",
-    "subtitle": "Fortune-telling API with random, sentiment-biased, and…",
+    "subtitle": "Fortune-telling API with random, sentiment-biased, and multi-language responses",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

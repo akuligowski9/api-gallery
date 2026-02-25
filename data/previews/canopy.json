@@ -2,20 +2,23 @@
   "id": "canopy",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Canopy",
-    "description": "A modern API for Amazon Data",
-    "category": "Shopping",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "Canopy",
     "subtitle": "A modern API for Amazon Data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

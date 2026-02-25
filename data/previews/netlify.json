@@ -2,20 +2,23 @@
   "id": "netlify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Netlify",
-    "description": "Netlify is a hosting service for the programmable web",
-    "category": "Development",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Netlify",
     "subtitle": "Netlify is a hosting service for the programmable web",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

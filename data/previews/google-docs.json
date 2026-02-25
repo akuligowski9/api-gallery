@@ -2,20 +2,23 @@
   "id": "google-docs",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Google Docs",
-    "description": "API to read, write, and format Google Docs documents",
-    "category": "Development",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Google Docs",
     "subtitle": "API to read, write, and format Google Docs documents",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

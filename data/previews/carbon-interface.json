@@ -2,20 +2,23 @@
   "id": "carbon-interface",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Carbon Interface",
-    "description": "API to calculate carbon (C02) emissions estimates for common C02 emitting activities",
-    "category": "Environment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "Carbon Interface",
-    "subtitle": "API to calculate carbon (C02) emissions estimates for…",
+    "subtitle": "API to calculate carbon (C02) emissions estimates for common C02 emitting activities",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

@@ -2,20 +2,24 @@
   "id": "gcore-streaming",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Gcore Streaming",
-    "description": "Scale to 100+ million viewers and beyond. Stream everything from online games to online events reliably in minutes instead of months.",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Gcore Streaming",
-    "subtitle": "Scale to 100+ million viewers and beyond. Stream everything…",
+    "subtitle": "Scale to 100+ million viewers and beyond. Stream everything from online games to online events reliably in minutes instead of months.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

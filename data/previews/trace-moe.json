@@ -2,20 +2,23 @@
   "id": "trace-moe",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Trace Moe",
-    "description": "A useful tool to get the exact scene of an anime from a screenshot",
-    "category": "Anime",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "Trace Moe",
-    "subtitle": "A useful tool to get the exact scene of an anime from a…",
+    "subtitle": "A useful tool to get the exact scene of an anime from a screenshot",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

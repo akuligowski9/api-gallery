@@ -2,20 +2,24 @@
   "id": "openrouteservice-org",
   "previewType": "card",
   "sampleResponse": {
-    "api": "openrouteservice.org",
-    "description": "Directions, POIs, isochrones, geocoding (+reverse), elevation, and more",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "openrouteservice.org",
-    "subtitle": "Directions, POIs, isochrones, geocoding (+reverse),…",
+    "subtitle": "Directions, POIs, isochrones, geocoding (+reverse), elevation, and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

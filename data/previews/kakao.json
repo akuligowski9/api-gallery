@@ -2,20 +2,23 @@
   "id": "kakao",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Kakao",
-    "description": "Kakao Login, Share on KakaoTalk, Social Plugins and more",
-    "category": "Social",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Kakao",
     "subtitle": "Kakao Login, Share on KakaoTalk, Social Plugins and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

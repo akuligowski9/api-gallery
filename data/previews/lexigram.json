@@ -2,20 +2,22 @@
   "id": "lexigram",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Lexigram",
-    "description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
-    "category": "Health",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "Lexigram",
-    "subtitle": "NLP that extracts mentions of clinical concepts from text,…",
+    "subtitle": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

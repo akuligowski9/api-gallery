@@ -2,20 +2,23 @@
   "id": "tumblr",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Tumblr",
-    "description": "Read and write Tumblr Data",
-    "category": "Social",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Tumblr",
     "subtitle": "Read and write Tumblr Data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

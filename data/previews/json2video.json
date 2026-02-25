@@ -2,20 +2,24 @@
   "id": "json2video",
   "previewType": "card",
   "sampleResponse": {
-    "api": "JSON2Video",
-    "description": "Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "JSON2Video",
-    "subtitle": "Create and edit videos programmatically:…",
+    "subtitle": "Create and edit videos programmatically: watermarks,resizing,slideshows,voice-over,text animations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

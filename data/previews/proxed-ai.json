@@ -2,20 +2,23 @@
   "id": "proxed-ai",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Proxed AI",
-    "description": "Secure AI APIs in iOS - No SDK, Just Change Your API URL",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Proxed AI",
     "subtitle": "Secure AI APIs in iOS - No SDK, Just Change Your API URL",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

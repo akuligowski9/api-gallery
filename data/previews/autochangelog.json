@@ -2,20 +2,23 @@
   "id": "autochangelog",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AutoChangelog",
-    "description": "Automatically creates changelog entries from deployments by analyzing pull requests, commits, and code diffs across your GitHub repositories",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "AutoChangelog",
-    "subtitle": "Automatically creates changelog entries from deployments by…",
+    "subtitle": "Automatically creates changelog entries from deployments by analyzing pull requests, commits, and code diffs across your GitHub repositories",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

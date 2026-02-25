@@ -2,20 +2,22 @@
   "id": "graphql-pokemon",
   "previewType": "card",
   "sampleResponse": {
-    "api": "GraphQL Pokemon",
-    "description": "GraphQL powered Pokemon API. Supports generations 1 through 8",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "GraphQL Pokemon",
-    "subtitle": "GraphQL powered Pokemon API. Supports generations 1 through…",
+    "subtitle": "GraphQL powered Pokemon API. Supports generations 1 through 8",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

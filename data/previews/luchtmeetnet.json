@@ -2,20 +2,23 @@
   "id": "luchtmeetnet",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Luchtmeetnet",
-    "description": "Predicted and actual air quality components for The Netherlands (RIVM)",
-    "category": "Environment",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "Luchtmeetnet",
-    "subtitle": "Predicted and actual air quality components for The…",
+    "subtitle": "Predicted and actual air quality components for The Netherlands (RIVM)",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

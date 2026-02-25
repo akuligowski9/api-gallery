@@ -2,20 +2,23 @@
   "id": "indiepitcher",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IndiePitcher",
-    "description": "Everything email for your startup with markdown support",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "IndiePitcher",
     "subtitle": "Everything email for your startup with markdown support",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

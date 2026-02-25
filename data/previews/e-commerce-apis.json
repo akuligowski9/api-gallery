@@ -2,20 +2,23 @@
   "id": "e-commerce-apis",
   "previewType": "card",
   "sampleResponse": {
-    "api": "E-Commerce APIs",
-    "description": "All around e-commerce APIs. Generate QR codes, product categories and thumbnails, barcodes and many more.",
-    "category": "Shopping",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "E-Commerce APIs",
-    "subtitle": "All around e-commerce APIs. Generate QR codes, product…",
+    "subtitle": "All around e-commerce APIs. Generate QR codes, product categories and thumbnails, barcodes and many more.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

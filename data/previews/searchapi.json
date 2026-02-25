@@ -2,20 +2,23 @@
   "id": "searchapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SearchApi",
-    "description": "Real-Time Google SERP API",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "SearchApi",
     "subtitle": "Real-Time Google SERP API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

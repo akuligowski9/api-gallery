@@ -1,21 +1,30 @@
 {
   "id": "taddy-podcasts",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "Taddy Podcasts",
-    "description": "Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications",
-    "category": "Podcasts",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "items": [
+      {
+        "title": "How AI is Reshaping Work",
+        "show": "Lex Fridman Podcast"
+      },
+      {
+        "title": "The Future of Open Source",
+        "show": "Software Unscripted"
+      },
+      {
+        "title": "Building in Public",
+        "show": "Indie Hackers"
+      },
+      {
+        "title": "Deep Dive: TypeScript 5.4",
+        "show": "Syntax.fm"
+      }
+    ]
   },
   "previewConfig": {
     "title": "Taddy Podcasts",
-    "subtitle": "Get details on podcasts & episodes, Podcast & Episode…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications",
+    "itemKey": "title",
+    "secondaryKey": "show"
   }
 }

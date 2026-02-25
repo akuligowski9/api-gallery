@@ -2,20 +2,22 @@
   "id": "wolframalpha",
   "previewType": "card",
   "sampleResponse": {
-    "api": "WolframAlpha",
-    "description": "Provides specific answers to questions using data and algorithms",
-    "category": "Machine Learning",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "WolframAlpha",
-    "subtitle": "Provides specific answers to questions using data and…",
+    "subtitle": "Provides specific answers to questions using data and algorithms",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

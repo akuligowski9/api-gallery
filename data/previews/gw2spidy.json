@@ -2,20 +2,22 @@
   "id": "gw2spidy",
   "previewType": "card",
   "sampleResponse": {
-    "api": "GW2Spidy",
-    "description": "GW2Spidy API, Items data on the Guild Wars 2 Trade Market",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "GW2Spidy",
     "subtitle": "GW2Spidy API, Items data on the Guild Wars 2 Trade Market",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

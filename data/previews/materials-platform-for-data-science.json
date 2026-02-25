@@ -2,20 +2,23 @@
   "id": "materials-platform-for-data-science",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Materials Platform for Data Science",
-    "description": "Curated experimental data for materials science",
-    "category": "Science & Math",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "element": "Carbon",
+    "symbol": "C",
+    "atomic_number": 6,
+    "atomic_mass": "12.011 u",
+    "category": "Nonmetal",
+    "melting_point": "3,642 K",
+    "electron_config": "[He] 2s² 2p²"
   },
   "previewConfig": {
     "title": "Materials Platform for Data Science",
     "subtitle": "Curated experimental data for materials science",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "element",
+      "symbol",
+      "atomic_number",
+      "atomic_mass",
+      "category"
     ]
   }
 }

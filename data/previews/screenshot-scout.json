@@ -2,20 +2,23 @@
   "id": "screenshot-scout",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Screenshot Scout",
-    "description": "Screenshot API for developers that captures any URL in one HTTP request with predictable output",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Screenshot Scout",
-    "subtitle": "Screenshot API for developers that captures any URL in one…",
+    "subtitle": "Screenshot API for developers that captures any URL in one HTTP request with predictable output",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

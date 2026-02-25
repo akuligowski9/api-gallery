@@ -2,20 +2,23 @@
   "id": "sport-data",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sport Data",
-    "description": "Get sports data from all over the world",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Sport Data",
     "subtitle": "Get sports data from all over the world",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

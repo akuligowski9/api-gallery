@@ -2,20 +2,22 @@
   "id": "face-api-js",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Face-api.js",
-    "description": "JavaScript API for face detection, recognition, and emotion analysis using TensorFlow.js",
-    "category": "Machine Learning",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "Face-api.js",
-    "subtitle": "JavaScript API for face detection, recognition, and emotion…",
+    "subtitle": "JavaScript API for face detection, recognition, and emotion analysis using TensorFlow.js",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

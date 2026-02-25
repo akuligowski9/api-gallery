@@ -2,20 +2,23 @@
   "id": "transport-for-norway",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Norway",
-    "description": "Transport APIs and dataset for Norway",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Norway",
     "subtitle": "Transport APIs and dataset for Norway",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

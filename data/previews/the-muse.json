@@ -1,21 +1,35 @@
 {
   "id": "the-muse",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "The Muse",
-    "description": "Job board and company profiles",
-    "category": "Jobs",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "The Muse",
     "subtitle": "Job board and company profiles",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

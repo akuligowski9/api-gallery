@@ -2,20 +2,23 @@
   "id": "moov",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Moov",
-    "description": "The Moov API makes it simple for platforms to send, receive, and store money",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Moov",
-    "subtitle": "The Moov API makes it simple for platforms to send,…",
+    "subtitle": "The Moov API makes it simple for platforms to send, receive, and store money",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

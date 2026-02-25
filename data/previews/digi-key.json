@@ -2,20 +2,23 @@
   "id": "digi-key",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Digi-Key",
-    "description": "Retrieve price and inventory of electronic components as well as place orders",
-    "category": "Shopping",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "Digi-Key",
-    "subtitle": "Retrieve price and inventory of electronic components as…",
+    "subtitle": "Retrieve price and inventory of electronic components as well as place orders",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

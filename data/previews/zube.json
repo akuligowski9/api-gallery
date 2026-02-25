@@ -2,20 +2,23 @@
   "id": "zube",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Zube",
-    "description": "Full stack project management",
-    "category": "Documents & Productivity",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Zube",
     "subtitle": "Full stack project management",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

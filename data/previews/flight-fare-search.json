@@ -2,20 +2,23 @@
   "id": "flight-fare-search",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Flight Fare Search",
-    "description": "Search for realtime flight fares across destinations",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Flight Fare Search",
     "subtitle": "Search for realtime flight fares across destinations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

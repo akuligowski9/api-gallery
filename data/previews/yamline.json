@@ -2,20 +2,23 @@
   "id": "yamline",
   "previewType": "card",
   "sampleResponse": {
-    "api": "YAMLine",
-    "description": "Convert YAML to JSON (on-the-fly)",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "YAMLine",
     "subtitle": "Convert YAML to JSON (on-the-fly)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

@@ -2,20 +2,24 @@
   "id": "geocodify-com",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Geocodify.com",
-    "description": "Worldwide geocoding, geoparsing and autocomplete for addresses",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Geocodify.com",
-    "subtitle": "Worldwide geocoding, geoparsing and autocomplete for…",
+    "subtitle": "Worldwide geocoding, geoparsing and autocomplete for addresses",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

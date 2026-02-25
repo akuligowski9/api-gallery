@@ -2,20 +2,23 @@
   "id": "customjs",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CustomJS",
-    "description": "HTML to PDF or PDF to PNG/Text & PDF merging/extraction/merging APIs",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "CustomJS",
-    "subtitle": "HTML to PDF or PDF to PNG/Text & PDF…",
+    "subtitle": "HTML to PDF or PDF to PNG/Text & PDF merging/extraction/merging APIs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "football",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Football",
-    "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
-    "category": "Sports & Fitness",
-    "auth": "X-Mashape-Key",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Football",
-    "subtitle": "A simple Open Source Football API to get squads’ stats,…",
+    "subtitle": "A simple Open Source Football API to get squads’ stats, best scorers and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

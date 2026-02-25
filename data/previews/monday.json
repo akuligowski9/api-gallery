@@ -2,20 +2,23 @@
   "id": "monday",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Monday",
-    "description": "Programmatically access and update data inside a monday.com account",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Monday",
-    "subtitle": "Programmatically access and update data inside a monday.com…",
+    "subtitle": "Programmatically access and update data inside a monday.com account",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

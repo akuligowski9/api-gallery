@@ -1,21 +1,35 @@
 {
   "id": "theirstack-s-job-postings",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "TheirStack's Job Postings",
-    "description": "Access simultaneously to jobs from Linkedin, Glassdoor, Indeed and 16+ other job sites",
-    "category": "Jobs",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "TheirStack's Job Postings",
-    "subtitle": "Access simultaneously to jobs from Linkedin, Glassdoor,…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "Access simultaneously to jobs from Linkedin, Glassdoor, Indeed and 16+ other job sites",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

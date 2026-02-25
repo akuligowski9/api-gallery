@@ -2,20 +2,23 @@
   "id": "icelandic-apis",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Icelandic APIs",
-    "description": "Open APIs that deliver services in or regarding Iceland",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Icelandic APIs",
     "subtitle": "Open APIs that deliver services in or regarding Iceland",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

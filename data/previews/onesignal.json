@@ -2,20 +2,23 @@
   "id": "onesignal",
   "previewType": "card",
   "sampleResponse": {
-    "api": "OneSignal",
-    "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "OneSignal",
-    "subtitle": "Self-serve customer engagement solution for Push…",
+    "subtitle": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

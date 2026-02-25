@@ -2,20 +2,25 @@
   "id": "chatpdf",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Chatpdf",
-    "description": "Chat with pdf using GPT4 and ChatGPT",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "Chatpdf",
     "subtitle": "Chat with pdf using GPT4 and ChatGPT",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "lectserve",
   "previewType": "card",
   "sampleResponse": {
-    "api": "LectServe",
-    "description": "Protestant liturgical calendar",
-    "category": "Calendar",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "LectServe",
     "subtitle": "Protestant liturgical calendar",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

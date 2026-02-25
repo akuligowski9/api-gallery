@@ -2,20 +2,20 @@
   "id": "bitly",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Bitly",
-    "description": "URL shortener and link management",
-    "category": "URL Shorteners",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Bitly",
     "subtitle": "URL shortener and link management",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

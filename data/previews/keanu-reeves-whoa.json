@@ -2,20 +2,25 @@
   "id": "keanu-reeves-whoa",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Keanu Reeves Whoa",
-    "description": "JSON API for every \"whoa\" said by actor Keanu Reeves in his movies",
-    "category": "Entertainment",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "Easy",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Uranus"
+    ]
   },
   "previewConfig": {
     "title": "Keanu Reeves Whoa",
-    "subtitle": "JSON API for every \"whoa\" said by actor Keanu Reeves in his…",
+    "subtitle": "JSON API for every \"whoa\" said by actor Keanu Reeves in his movies",
     "displayFields": [
-      "description",
+      "question",
+      "answer",
       "category",
-      "auth"
+      "difficulty"
     ]
   }
 }

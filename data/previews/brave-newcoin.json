@@ -2,20 +2,23 @@
   "id": "brave-newcoin",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Brave NewCoin",
-    "description": "Real-time and historic crypto data from more than 200+ exchanges",
-    "category": "Cryptocurrency",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "price_usd": "$67,432.18",
+    "change_24h": "+3.41%",
+    "market_cap": "$1.33T",
+    "volume_24h": "$38.2B",
+    "circulating_supply": "19.7M BTC"
   },
   "previewConfig": {
     "title": "Brave NewCoin",
-    "subtitle": "Real-time and historic crypto data from more than 200+…",
+    "subtitle": "Real-time and historic crypto data from more than 200+ exchanges",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "price_usd",
+      "change_24h",
+      "market_cap",
+      "volume_24h"
     ]
   }
 }

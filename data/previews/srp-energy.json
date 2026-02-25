@@ -2,20 +2,23 @@
   "id": "srp-energy",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Srp Energy",
-    "description": "Hourly usage energy report for Srp customers",
-    "category": "Environment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "Srp Energy",
     "subtitle": "Hourly usage energy report for Srp customers",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "smartapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SmartAPI",
-    "description": "Gain access to set of  <SmartAPI>  and create end-to-end broking services",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "SmartAPI",
-    "subtitle": "Gain access to set of  <SmartAPI>  and create end-to-end…",
+    "subtitle": "Gain access to set of  <SmartAPI>  and create end-to-end broking services",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

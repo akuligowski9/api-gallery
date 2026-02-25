@@ -2,20 +2,24 @@
   "id": "longdo-map",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Longdo Map",
-    "description": "Interactive map with detailed places and information portal in Thailand",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Longdo Map",
-    "subtitle": "Interactive map with detailed places and information portal…",
+    "subtitle": "Interactive map with detailed places and information portal in Thailand",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

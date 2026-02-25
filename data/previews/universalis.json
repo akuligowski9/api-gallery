@@ -2,20 +2,22 @@
   "id": "universalis",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Universalis",
-    "description": "Final Fantasy XIV market board data",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Universalis",
     "subtitle": "Final Fantasy XIV market board data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

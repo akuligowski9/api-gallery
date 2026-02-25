@@ -1,21 +1,40 @@
 {
   "id": "7digital",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "7digital",
-    "description": "Api of Music store 7digital",
-    "category": "Music",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "duration": "3:20"
+      },
+      {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "duration": "3:53"
+      },
+      {
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "duration": "3:23"
+      },
+      {
+        "title": "Stay",
+        "artist": "The Kid LAROI",
+        "duration": "2:22"
+      },
+      {
+        "title": "Peaches",
+        "artist": "Justin Bieber",
+        "duration": "3:18"
+      }
+    ]
   },
   "previewConfig": {
     "title": "7digital",
     "subtitle": "Api of Music store 7digital",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "artist",
+    "badgeKey": "duration"
   }
 }

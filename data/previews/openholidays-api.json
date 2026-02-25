@@ -2,20 +2,22 @@
   "id": "openholidays-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "OpenHolidays API",
-    "description": "Public and school holidays for many countries via an open REST API",
-    "category": "Calendar",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "OpenHolidays API",
-    "subtitle": "Public and school holidays for many countries via an open…",
+    "subtitle": "Public and school holidays for many countries via an open REST API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

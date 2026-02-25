@@ -1,21 +1,35 @@
 {
   "id": "whatjobs",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "WhatJobs",
-    "description": "Job search engine",
-    "category": "Jobs",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "WhatJobs",
     "subtitle": "Job search engine",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

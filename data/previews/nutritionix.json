@@ -2,20 +2,22 @@
   "id": "nutritionix",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Nutritionix",
-    "description": "Worlds largest verified nutrition database",
-    "category": "Health",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "Nutritionix",
     "subtitle": "Worlds largest verified nutrition database",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

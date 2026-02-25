@@ -2,20 +2,23 @@
   "id": "core",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CORE",
-    "description": "Access the world's Open Access research papers",
-    "category": "Science & Math",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "element": "Carbon",
+    "symbol": "C",
+    "atomic_number": 6,
+    "atomic_mass": "12.011 u",
+    "category": "Nonmetal",
+    "melting_point": "3,642 K",
+    "electron_config": "[He] 2s² 2p²"
   },
   "previewConfig": {
     "title": "CORE",
     "subtitle": "Access the world's Open Access research papers",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "element",
+      "symbol",
+      "atomic_number",
+      "atomic_mass",
+      "category"
     ]
   }
 }

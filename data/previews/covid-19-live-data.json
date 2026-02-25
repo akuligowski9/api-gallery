@@ -2,20 +2,22 @@
   "id": "covid-19-live-data",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Covid-19 Live Data",
-    "description": "Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths",
-    "category": "Health",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "Covid-19 Live Data",
-    "subtitle": "Global and countrywise data of Covid 19 daily Summary,…",
+    "subtitle": "Global and countrywise data of Covid 19 daily Summary, confirmed cases, recovered and deaths",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

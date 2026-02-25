@@ -2,20 +2,22 @@
   "id": "numlookupapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "NumlookupAPI",
-    "description": "Worldwide Phone Number Lookup & Verification API",
-    "category": "Phone",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "number": "+44 20 7946 0958",
+    "country": "United Kingdom",
+    "region": "London",
+    "carrier": "BT Group",
+    "line_type": "Landline",
+    "valid": true
   },
   "previewConfig": {
     "title": "NumlookupAPI",
     "subtitle": "Worldwide Phone Number Lookup & Verification API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "number",
+      "country",
+      "region",
+      "carrier",
+      "line_type"
     ]
   }
 }

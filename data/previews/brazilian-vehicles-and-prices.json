@@ -2,20 +2,24 @@
   "id": "brazilian-vehicles-and-prices",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Brazilian Vehicles and Prices",
-    "description": "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe",
-    "category": "Vehicle",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "vin": "1HGBH41JXMN109186",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "engine": "1.5L Turbo 4-cyl",
+    "fuel_type": "Gasoline",
+    "transmission": "CVT"
   },
   "previewConfig": {
     "title": "Brazilian Vehicles and Prices",
-    "subtitle": "Vehicles information from Fundação Instituto de Pesquisas…",
+    "subtitle": "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "vin",
+      "make",
+      "model",
+      "year",
+      "engine",
+      "fuel_type"
     ]
   }
 }

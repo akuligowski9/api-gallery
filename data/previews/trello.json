@@ -2,20 +2,23 @@
   "id": "trello",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Trello",
-    "description": "Boards, lists and cards to help you organize and prioritize your projects",
-    "category": "Business",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "Trello",
-    "subtitle": "Boards, lists and cards to help you organize and prioritize…",
+    "subtitle": "Boards, lists and cards to help you organize and prioritize your projects",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

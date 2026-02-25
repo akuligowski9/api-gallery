@@ -2,20 +2,22 @@
   "id": "stytch",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Stytch",
-    "description": "User infrastructure for modern applications",
-    "category": "Authentication & Authorization",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "user_id": "usr_8Kp2xNq4mT",
+    "email": "user@example.com",
+    "role": "admin",
+    "token_expires": "3600s",
+    "mfa_enabled": true,
+    "last_login": "2026-02-25T09:41:22Z"
   },
   "previewConfig": {
     "title": "Stytch",
     "subtitle": "User infrastructure for modern applications",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "user_id",
+      "email",
+      "role",
+      "mfa_enabled",
+      "last_login"
     ]
   }
 }

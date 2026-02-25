@@ -2,20 +2,23 @@
   "id": "json-2-jsonp",
   "previewType": "card",
   "sampleResponse": {
-    "api": "JSON 2 JSONP",
-    "description": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "JSON 2 JSONP",
-    "subtitle": "Convert JSON to JSONP (on-the-fly) for easy cross-domain…",
+    "subtitle": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

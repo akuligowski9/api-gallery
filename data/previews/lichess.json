@@ -2,20 +2,22 @@
   "id": "lichess",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Lichess",
-    "description": "Access to all data of users, games, puzzles and etc on Lichess",
-    "category": "Games & Comics",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Lichess",
-    "subtitle": "Access to all data of users, games, puzzles and etc on…",
+    "subtitle": "Access to all data of users, games, puzzles and etc on Lichess",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

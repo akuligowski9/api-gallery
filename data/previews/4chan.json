@@ -2,20 +2,23 @@
   "id": "4chan",
   "previewType": "card",
   "sampleResponse": {
-    "api": "4chan",
-    "description": "Simple image-based bulletin board dedicated to a variety of topics",
-    "category": "Social",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "4chan",
-    "subtitle": "Simple image-based bulletin board dedicated to a variety of…",
+    "subtitle": "Simple image-based bulletin board dedicated to a variety of topics",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

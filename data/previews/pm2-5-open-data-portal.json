@@ -2,20 +2,23 @@
   "id": "pm2-5-open-data-portal",
   "previewType": "card",
   "sampleResponse": {
-    "api": "PM2.5 Open Data Portal",
-    "description": "Open low-cost PM2.5 sensor data",
-    "category": "Environment",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "PM2.5 Open Data Portal",
     "subtitle": "Open low-cost PM2.5 sensor data",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

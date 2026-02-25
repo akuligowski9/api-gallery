@@ -2,20 +2,23 @@
   "id": "nasa-ads",
   "previewType": "card",
   "sampleResponse": {
-    "api": "NASA ADS",
-    "description": "NASA Astrophysics Data System",
-    "category": "Science & Math",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "element": "Carbon",
+    "symbol": "C",
+    "atomic_number": 6,
+    "atomic_mass": "12.011 u",
+    "category": "Nonmetal",
+    "melting_point": "3,642 K",
+    "electron_config": "[He] 2s² 2p²"
   },
   "previewConfig": {
     "title": "NASA ADS",
     "subtitle": "NASA Astrophysics Data System",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "element",
+      "symbol",
+      "atomic_number",
+      "atomic_mass",
+      "category"
     ]
   }
 }

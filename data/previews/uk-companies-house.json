@@ -2,20 +2,22 @@
   "id": "uk-companies-house",
   "previewType": "card",
   "sampleResponse": {
-    "api": "UK Companies House",
-    "description": "UK Companies House Data from the UK government",
-    "category": "Government",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "UK Companies House",
     "subtitle": "UK Companies House Data from the UK government",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

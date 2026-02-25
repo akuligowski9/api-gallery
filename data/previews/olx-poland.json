@@ -2,20 +2,23 @@
   "id": "olx-poland",
   "previewType": "card",
   "sampleResponse": {
-    "api": "OLX Poland",
-    "description": "Integrate with local sites by posting, managing adverts and communicating with OLX users",
-    "category": "Shopping",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "OLX Poland",
-    "subtitle": "Integrate with local sites by posting, managing adverts and…",
+    "subtitle": "Integrate with local sites by posting, managing adverts and communicating with OLX users",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

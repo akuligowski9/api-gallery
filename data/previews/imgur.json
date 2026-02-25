@@ -2,20 +2,23 @@
   "id": "imgur",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Imgur",
-    "description": "Images",
-    "category": "Photography",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "Imgur",
     "subtitle": "Images",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

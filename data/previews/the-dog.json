@@ -2,20 +2,23 @@
   "id": "the-dog",
   "previewType": "card",
   "sampleResponse": {
-    "api": "The Dog",
-    "description": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
-    "category": "Animals",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "The Dog",
-    "subtitle": "A public service all about Dogs, free to use when making…",
+    "subtitle": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "bay-area-rapid-transit",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Bay Area Rapid Transit",
-    "description": "Stations and predicted arrivals for BART",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Bay Area Rapid Transit",
     "subtitle": "Stations and predicted arrivals for BART",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

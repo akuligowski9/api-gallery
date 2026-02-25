@@ -2,20 +2,23 @@
   "id": "quoterism",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Quoterism",
-    "description": "The Web's Largest Collection of Human Inspiration",
-    "category": "Personality",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Quoterism",
     "subtitle": "The Web's Largest Collection of Human Inspiration",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

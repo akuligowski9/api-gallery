@@ -2,20 +2,23 @@
   "id": "ebay",
   "previewType": "card",
   "sampleResponse": {
-    "api": "eBay",
-    "description": "Sell and Buy on eBay",
-    "category": "Shopping",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "eBay",
     "subtitle": "Sell and Buy on eBay",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

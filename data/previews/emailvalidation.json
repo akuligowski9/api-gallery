@@ -2,20 +2,23 @@
   "id": "emailvalidation",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Emailvalidation",
-    "description": "E-Mail address validation",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Emailvalidation",
     "subtitle": "E-Mail address validation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "mail-gw",
   "previewType": "card",
   "sampleResponse": {
-    "api": "mail.gw",
-    "description": "10 Minute Mail",
-    "category": "Email",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "mail.gw",
     "subtitle": "10 Minute Mail",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

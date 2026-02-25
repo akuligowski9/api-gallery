@@ -2,20 +2,22 @@
   "id": "fakerapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "FakerAPI",
-    "description": "APIs collection to get fake data",
-    "category": "Test Data",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "name": "Alexandra Chen",
+    "email": "a.chen@fakemail.dev",
+    "phone": "+1 (415) 555-0192",
+    "address": "847 Oak St, Portland, OR 97201",
+    "username": "achen_dev",
+    "avatar": "https://i.pravatar.cc/100"
   },
   "previewConfig": {
     "title": "FakerAPI",
     "subtitle": "APIs collection to get fake data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "email",
+      "phone",
+      "address",
+      "username"
     ]
   }
 }

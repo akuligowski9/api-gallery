@@ -2,20 +2,23 @@
   "id": "rappi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Rappi",
-    "description": "Manage orders from Rappi's app",
-    "category": "Shopping",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "Rappi",
     "subtitle": "Manage orders from Rappi's app",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

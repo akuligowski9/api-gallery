@@ -2,20 +2,23 @@
   "id": "heroku",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Heroku",
-    "description": "REST API to programmatically create apps, provision add-ons and perform other task on Heroku",
-    "category": "Development",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Heroku",
-    "subtitle": "REST API to programmatically create apps, provision add-ons…",
+    "subtitle": "REST API to programmatically create apps, provision add-ons and perform other task on Heroku",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

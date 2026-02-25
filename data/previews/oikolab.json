@@ -2,20 +2,23 @@
   "id": "oikolab",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Oikolab",
-    "description": "70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF",
-    "category": "Weather",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "Oikolab",
-    "subtitle": "70+ years of global, hourly historical and forecast weather…",
+    "subtitle": "70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

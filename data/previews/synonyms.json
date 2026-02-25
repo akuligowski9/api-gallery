@@ -2,20 +2,22 @@
   "id": "synonyms",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Synonyms",
-    "description": "Synonyms, thesaurus and antonyms information for any given word",
-    "category": "Dictionaries",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "word": "ephemeral",
+    "pronunciation": "/ɪˈfɛm.ər.əl/",
+    "part_of_speech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "Fame is ephemeral — enjoy it while it lasts.",
+    "synonyms": "fleeting, transient, momentary"
   },
   "previewConfig": {
     "title": "Synonyms",
-    "subtitle": "Synonyms, thesaurus and antonyms information for any given…",
+    "subtitle": "Synonyms, thesaurus and antonyms information for any given word",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "word",
+      "pronunciation",
+      "part_of_speech",
+      "definition",
+      "synonyms"
     ]
   }
 }

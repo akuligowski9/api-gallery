@@ -1,21 +1,35 @@
 {
   "id": "cv-job-match-score-api",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "CV - Job match score API",
-    "description": "This API use multiple criteria to evaluate how well a candidate fits a job position",
-    "category": "Jobs",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "CV - Job match score API",
-    "subtitle": "This API use multiple criteria to evaluate how well a…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "This API use multiple criteria to evaluate how well a candidate fits a job position",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

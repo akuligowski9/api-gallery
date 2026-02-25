@@ -2,20 +2,22 @@
   "id": "dedline-io-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Dedline.io API",
-    "description": "Data for US state voter registration deadlines and details, for primaries and general elections",
-    "category": "Government",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "Dedline.io API",
-    "subtitle": "Data for US state voter registration deadlines and details,…",
+    "subtitle": "Data for US state voter registration deadlines and details, for primaries and general elections",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

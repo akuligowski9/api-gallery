@@ -2,20 +2,22 @@
   "id": "covid-19-tracker-sri-lanka",
   "previewType": "card",
   "sampleResponse": {
-    "api": "COVID-19 Tracker Sri Lanka",
-    "description": "Provides situation of the COVID-19 patients reported in Sri Lanka",
-    "category": "Health",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "COVID-19 Tracker Sri Lanka",
-    "subtitle": "Provides situation of the COVID-19 patients reported in Sri…",
+    "subtitle": "Provides situation of the COVID-19 patients reported in Sri Lanka",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

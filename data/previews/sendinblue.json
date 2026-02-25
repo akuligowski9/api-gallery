@@ -2,20 +2,23 @@
   "id": "sendinblue",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sendinblue",
-    "description": "A service that provides solutions relating to marketing and/or transactional email and/or SMS",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Sendinblue",
-    "subtitle": "A service that provides solutions relating to marketing…",
+    "subtitle": "A service that provides solutions relating to marketing and/or transactional email and/or SMS",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

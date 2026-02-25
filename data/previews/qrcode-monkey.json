@@ -2,20 +2,23 @@
   "id": "qrcode-monkey",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Qrcode Monkey",
-    "description": "Integrate custom and unique looking QR codes into your system or workflow",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Qrcode Monkey",
-    "subtitle": "Integrate custom and unique looking QR codes into your…",
+    "subtitle": "Integrate custom and unique looking QR codes into your system or workflow",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

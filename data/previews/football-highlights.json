@@ -2,20 +2,23 @@
   "id": "football-highlights",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Football Highlights",
-    "description": "Real time football (soccer) highlights from over +950 leagues",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Football Highlights",
-    "subtitle": "Real time football (soccer) highlights from over +950…",
+    "subtitle": "Real time football (soccer) highlights from over +950 leagues",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

@@ -2,20 +2,24 @@
   "id": "south-park-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "South Park Quotes",
-    "description": "Get some quotes from South Park, mmkay!",
-    "category": "Video",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "South Park Quotes",
     "subtitle": "Get some quotes from South Park, mmkay!",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

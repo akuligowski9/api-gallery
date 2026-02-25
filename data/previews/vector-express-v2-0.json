@@ -2,20 +2,23 @@
   "id": "vector-express-v2-0",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Vector Express v2.0",
-    "description": "Free vector file converting API",
-    "category": "Documents & Productivity",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Vector Express v2.0",
     "subtitle": "Free vector file converting API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

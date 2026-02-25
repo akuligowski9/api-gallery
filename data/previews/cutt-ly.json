@@ -2,20 +2,20 @@
   "id": "cutt-ly",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Cutt.ly",
-    "description": "URL shortener service",
-    "category": "URL Shorteners",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Cutt.ly",
     "subtitle": "URL shortener service",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

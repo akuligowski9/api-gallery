@@ -2,20 +2,23 @@
   "id": "scrapfly",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Scrapfly",
-    "description": "Scrapfly is an enterprise-grade solution providing Web Scraping API that aims to simplify the scraping process by managing everything: real browser rendering, rotating proxies, and fingerprints (TLS, HTTP, browser) to bypass all major anti-bots.",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Scrapfly",
-    "subtitle": "Scrapfly is an enterprise-grade solution providing Web…",
+    "subtitle": "Scrapfly is an enterprise-grade solution providing Web Scraping API that aims to simplify the scraping process by managing everything: real browser rendering, rotating proxies, and fingerprints (TLS, HTTP, browser) to bypass all major anti-bots.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

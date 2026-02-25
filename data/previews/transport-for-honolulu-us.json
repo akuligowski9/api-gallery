@@ -2,20 +2,23 @@
   "id": "transport-for-honolulu-us",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Honolulu, US",
-    "description": "Honolulu Transportation Information",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Honolulu, US",
     "subtitle": "Honolulu Transportation Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

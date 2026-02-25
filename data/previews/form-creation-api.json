@@ -2,20 +2,23 @@
   "id": "form-creation-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Form Creation API",
-    "description": "Create and manage customizable forms within your applications",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Form Creation API",
-    "subtitle": "Create and manage customizable forms within your…",
+    "subtitle": "Create and manage customizable forms within your applications",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

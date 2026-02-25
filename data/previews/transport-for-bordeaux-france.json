@@ -2,20 +2,23 @@
   "id": "transport-for-bordeaux-france",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Bordeaux, France",
-    "description": "Bordeaux Métropole public transport and more (France)",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Bordeaux, France",
     "subtitle": "Bordeaux Métropole public transport and more (France)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

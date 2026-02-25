@@ -2,20 +2,24 @@
   "id": "geodatasource",
   "previewType": "card",
   "sampleResponse": {
-    "api": "GeoDataSource",
-    "description": "Geocoding of city name by using latitude and longitude coordinates",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "GeoDataSource",
-    "subtitle": "Geocoding of city name by using latitude and longitude…",
+    "subtitle": "Geocoding of city name by using latitude and longitude coordinates",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "premier-league-standings",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Premier League Standings ",
-    "description": "All Current Premier League Standings and Statistics",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Premier League Standings ",
     "subtitle": "All Current Premier League Standings and Statistics",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

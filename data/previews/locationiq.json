@@ -2,20 +2,24 @@
   "id": "locationiq",
   "previewType": "card",
   "sampleResponse": {
-    "api": "LocationIQ",
-    "description": "Provides forward/reverse geocoding and batch geocoding",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "LocationIQ",
     "subtitle": "Provides forward/reverse geocoding and batch geocoding",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

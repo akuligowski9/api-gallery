@@ -2,20 +2,22 @@
   "id": "multilingual-truth-or-dare-game",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Multilingual Truth or Dare Game ",
-    "description": "Truth or Dare party/date game with multilingual support and random challenges",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Multilingual Truth or Dare Game ",
-    "subtitle": "Truth or Dare party/date game with multilingual support and…",
+    "subtitle": "Truth or Dare party/date game with multilingual support and random challenges",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

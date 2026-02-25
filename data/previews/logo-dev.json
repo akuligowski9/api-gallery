@@ -2,20 +2,23 @@
   "id": "logo-dev",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Logo.dev",
-    "description": "Automated company logo API that updates daily. Transform any domain or company name into verified logos.",
-    "category": "Business",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "Logo.dev",
-    "subtitle": "Automated company logo API that updates daily. Transform…",
+    "subtitle": "Automated company logo API that updates daily. Transform any domain or company name into verified logos.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

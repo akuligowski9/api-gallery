@@ -2,20 +2,23 @@
   "id": "favqs-com",
   "previewType": "card",
   "sampleResponse": {
-    "api": "FavQs.com",
-    "description": "FavQs allows you to collect, discover and share your favorite quotes",
-    "category": "Personality",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "FavQs.com",
-    "subtitle": "FavQs allows you to collect, discover and share your…",
+    "subtitle": "FavQs allows you to collect, discover and share your favorite quotes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

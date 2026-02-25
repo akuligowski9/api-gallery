@@ -2,20 +2,23 @@
   "id": "animenewsnetwork",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AnimeNewsNetwork",
-    "description": "Anime industry news",
-    "category": "Anime",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "AnimeNewsNetwork",
     "subtitle": "Anime industry news",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

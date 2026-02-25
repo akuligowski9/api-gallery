@@ -2,20 +2,24 @@
   "id": "keycdn-ip-location-finder",
   "previewType": "card",
   "sampleResponse": {
-    "api": "keycdn IP Location Finder",
-    "description": "Get the IP geolocation data through the simple REST API. All the responses are JSON encoded",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "keycdn IP Location Finder",
-    "subtitle": "Get the IP geolocation data through the simple REST API.…",
+    "subtitle": "Get the IP geolocation data through the simple REST API. All the responses are JSON encoded",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

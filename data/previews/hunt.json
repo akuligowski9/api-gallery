@@ -2,20 +2,24 @@
   "id": "hunt",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Hunt",
-    "description": "Video To API. Get video or audio and metadata for all video platforms with one provider.",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Hunt",
-    "subtitle": "Video To API. Get video or audio and metadata for all video…",
+    "subtitle": "Video To API. Get video or audio and metadata for all video platforms with one provider.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

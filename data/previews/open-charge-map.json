@@ -2,20 +2,23 @@
   "id": "open-charge-map",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Open Charge Map",
-    "description": "Global public registry of electric vehicle charging locations",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Open Charge Map",
-    "subtitle": "Global public registry of electric vehicle charging…",
+    "subtitle": "Global public registry of electric vehicle charging locations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

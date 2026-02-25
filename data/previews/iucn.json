@@ -2,20 +2,23 @@
   "id": "iucn",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IUCN",
-    "description": "IUCN Red List of Threatened Species",
-    "category": "Animals",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "no"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "IUCN",
     "subtitle": "IUCN Red List of Threatened Species",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "codex",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Codex",
-    "description": "Online Compiler for Various Languages",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Codex",
     "subtitle": "Online Compiler for Various Languages",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

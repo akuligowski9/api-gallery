@@ -2,20 +2,22 @@
   "id": "dota-2",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Dota 2",
-    "description": "Provides information about Player stats, Match stats, Rankings for Dota 2",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Dota 2",
-    "subtitle": "Provides information about Player stats, Match stats,…",
+    "subtitle": "Provides information about Player stats, Match stats, Rankings for Dota 2",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

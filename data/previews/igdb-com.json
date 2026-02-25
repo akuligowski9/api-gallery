@@ -2,20 +2,22 @@
   "id": "igdb-com",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IGDB.com",
-    "description": "Video Game Database",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "IGDB.com",
     "subtitle": "Video Game Database",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

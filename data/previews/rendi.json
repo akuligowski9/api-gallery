@@ -2,20 +2,24 @@
   "id": "rendi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Rendi",
-    "description": "FFmpeg API",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Rendi",
     "subtitle": "FFmpeg API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

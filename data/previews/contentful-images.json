@@ -2,20 +2,23 @@
   "id": "contentful-images",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Contentful Images",
-    "description": "Used to retrieve and apply transformations to images",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Contentful Images",
     "subtitle": "Used to retrieve and apply transformations to images",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

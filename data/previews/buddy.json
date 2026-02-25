@@ -2,20 +2,23 @@
   "id": "buddy",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Buddy",
-    "description": "The fastest continuous integration and continuous delivery platform",
-    "category": "Continuous Integration",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "pipeline": "main-build",
+    "status": "passed",
+    "duration": "4m 12s",
+    "triggered_by": "push to main",
+    "branch": "main",
+    "commit": "a3f91bc",
+    "tests_passed": "247 / 247"
   },
   "previewConfig": {
     "title": "Buddy",
-    "subtitle": "The fastest continuous integration and continuous delivery…",
+    "subtitle": "The fastest continuous integration and continuous delivery platform",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "pipeline",
+      "status",
+      "duration",
+      "branch",
+      "tests_passed"
     ]
   }
 }

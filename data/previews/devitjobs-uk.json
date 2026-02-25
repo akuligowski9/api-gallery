@@ -1,21 +1,35 @@
 {
   "id": "devitjobs-uk",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "DevITjobs UK",
-    "description": "Jobs with GraphQL",
-    "category": "Jobs",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "DevITjobs UK",
     "subtitle": "Jobs with GraphQL",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

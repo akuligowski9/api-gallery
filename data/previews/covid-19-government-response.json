@@ -2,20 +2,22 @@
   "id": "covid-19-government-response",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Covid-19 Government Response",
-    "description": "Government measures tracker to fight against the Covid-19 pandemic",
-    "category": "Health",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "Covid-19 Government Response",
-    "subtitle": "Government measures tracker to fight against the Covid-19…",
+    "subtitle": "Government measures tracker to fight against the Covid-19 pandemic",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

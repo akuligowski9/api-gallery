@@ -2,20 +2,23 @@
   "id": "isro-statistics",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ISRO Statistics",
-    "description": "ISRO Launches and Spacecrafts details",
-    "category": "Science & Math",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "element": "Carbon",
+    "symbol": "C",
+    "atomic_number": 6,
+    "atomic_mass": "12.011 u",
+    "category": "Nonmetal",
+    "melting_point": "3,642 K",
+    "electron_config": "[He] 2s² 2p²"
   },
   "previewConfig": {
     "title": "ISRO Statistics",
     "subtitle": "ISRO Launches and Spacecrafts details",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "element",
+      "symbol",
+      "atomic_number",
+      "atomic_mass",
+      "category"
     ]
   }
 }

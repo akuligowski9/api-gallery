@@ -2,20 +2,23 @@
   "id": "vedika",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Vedika",
-    "description": "AI-powered Vedic astrology API with birth charts, compatibility, doshas, AI chatbot in 22 languages",
-    "category": "Personality",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Vedika",
-    "subtitle": "AI-powered Vedic astrology API with birth charts,…",
+    "subtitle": "AI-powered Vedic astrology API with birth charts, compatibility, doshas, AI chatbot in 22 languages",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

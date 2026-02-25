@@ -2,20 +2,24 @@
   "id": "wolne-lektury",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Wolne Lektury",
-    "description": "API for obtaining information about e-books available on the WolneLektury.pl website",
-    "category": "Books",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Wolne Lektury",
-    "subtitle": "API for obtaining information about e-books available on…",
+    "subtitle": "API for obtaining information about e-books available on the WolneLektury.pl website",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

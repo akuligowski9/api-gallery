@@ -2,20 +2,23 @@
   "id": "sweep-emails",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sweep Emails",
-    "description": "Reliable email validation API with Free tier",
-    "category": "Email",
-    "auth": "apikey",
-    "https": true,
-    "cors": "no"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Sweep Emails",
     "subtitle": "Reliable email validation API with Free tier",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

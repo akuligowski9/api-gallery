@@ -1,21 +1,35 @@
 {
   "id": "jobicy",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "Jobicy",
-    "description": "Remote Jobs API Feed",
-    "category": "Jobs",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "Jobicy",
     "subtitle": "Remote Jobs API Feed",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

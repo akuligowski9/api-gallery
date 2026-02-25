@@ -2,20 +2,25 @@
   "id": "meme-maker",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Meme Maker",
-    "description": "REST API for create your own meme",
-    "category": "Entertainment",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "category": "Science",
+    "difficulty": "Easy",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptune",
+      "Uranus"
+    ]
   },
   "previewConfig": {
     "title": "Meme Maker",
     "subtitle": "REST API for create your own meme",
     "displayFields": [
-      "description",
+      "question",
+      "answer",
       "category",
-      "auth"
+      "difficulty"
     ]
   }
 }

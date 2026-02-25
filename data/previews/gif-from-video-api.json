@@ -2,20 +2,24 @@
   "id": "gif-from-video-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "GIF from Video API",
-    "description": "This API helps you generate GIF from any video",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "GIF from Video API",
     "subtitle": "This API helps you generate GIF from any video",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

@@ -2,20 +2,25 @@
   "id": "convert-text-to-speech-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Convert Text to Speech API",
-    "description": "This API converts any text to speech automatically",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "Convert Text to Speech API",
     "subtitle": "This API converts any text to speech automatically",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

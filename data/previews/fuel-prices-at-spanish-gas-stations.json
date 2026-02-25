@@ -2,20 +2,23 @@
   "id": "fuel-prices-at-spanish-gas-stations",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Fuel Prices at Spanish Gas Stations",
-    "description": "Provides information about fuel prices at gas stations in Spain",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Fuel Prices at Spanish Gas Stations",
-    "subtitle": "Provides information about fuel prices at gas stations in…",
+    "subtitle": "Provides information about fuel prices at gas stations in Spain",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

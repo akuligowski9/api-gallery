@@ -2,20 +2,23 @@
   "id": "indian-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Indian Quotes",
-    "description": "Curated quotes from India's most successful entrepreneurs",
-    "category": "Personality",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Indian Quotes",
     "subtitle": "Curated quotes from India's most successful entrepreneurs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

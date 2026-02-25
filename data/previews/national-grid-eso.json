@@ -2,20 +2,23 @@
   "id": "national-grid-eso",
   "previewType": "card",
   "sampleResponse": {
-    "api": "National Grid ESO",
-    "description": "Open data from Great Britain’s Electricity System Operator",
-    "category": "Environment",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "National Grid ESO",
     "subtitle": "Open data from Great Britain’s Electricity System Operator",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

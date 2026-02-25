@@ -2,20 +2,24 @@
   "id": "star-wars-databank",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Star Wars Databank",
-    "description": "Info and data from the Star Wars databank in the form of an API",
-    "category": "Video",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Star Wars Databank",
-    "subtitle": "Info and data from the Star Wars databank in the form of an…",
+    "subtitle": "Info and data from the Star Wars databank in the form of an API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "wordsapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "WordsAPI",
-    "description": "An API for the English Language. Find definitions, related words, and more",
-    "category": "Dictionaries",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "word": "ephemeral",
+    "pronunciation": "/ɪˈfɛm.ər.əl/",
+    "part_of_speech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "Fame is ephemeral — enjoy it while it lasts.",
+    "synonyms": "fleeting, transient, momentary"
   },
   "previewConfig": {
     "title": "WordsAPI",
-    "subtitle": "An API for the English Language. Find definitions, related…",
+    "subtitle": "An API for the English Language. Find definitions, related words, and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "word",
+      "pronunciation",
+      "part_of_speech",
+      "definition",
+      "synonyms"
     ]
   }
 }

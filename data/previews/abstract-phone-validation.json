@@ -2,20 +2,22 @@
   "id": "abstract-phone-validation",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Abstract Phone Validation",
-    "description": "Validate phone numbers globally",
-    "category": "Phone",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "number": "+44 20 7946 0958",
+    "country": "United Kingdom",
+    "region": "London",
+    "carrier": "BT Group",
+    "line_type": "Landline",
+    "valid": true
   },
   "previewConfig": {
     "title": "Abstract Phone Validation",
     "subtitle": "Validate phone numbers globally",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "number",
+      "country",
+      "region",
+      "carrier",
+      "line_type"
     ]
   }
 }

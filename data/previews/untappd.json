@@ -2,20 +2,23 @@
   "id": "untappd",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Untappd",
-    "description": "Social beer sharing",
-    "category": "Food & Drink",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "name": "Pasta Carbonara",
+    "cuisine": "Italian",
+    "prep_time": "10 min",
+    "cook_time": "20 min",
+    "calories": "620 kcal",
+    "servings": 2,
+    "difficulty": "Medium"
   },
   "previewConfig": {
     "title": "Untappd",
     "subtitle": "Social beer sharing",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "cuisine",
+      "prep_time",
+      "cook_time",
+      "calories"
     ]
   }
 }

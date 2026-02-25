@@ -2,20 +2,22 @@
   "id": "smash",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Smash",
-    "description": "Upload large files on websites, mobile apps, SaaS solutions and custom workflows",
-    "category": "Cloud Storage & File Sharing",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "filename": "project-final-v3.zip",
+    "size": "48.2 MB",
+    "uploaded": "Feb 24, 2026",
+    "downloads": 127,
+    "expires": "March 24, 2026",
+    "shared_with": 4
   },
   "previewConfig": {
     "title": "Smash",
-    "subtitle": "Upload large files on websites, mobile apps, SaaS solutions…",
+    "subtitle": "Upload large files on websites, mobile apps, SaaS solutions and custom workflows",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "filename",
+      "size",
+      "uploaded",
+      "downloads",
+      "expires"
     ]
   }
 }

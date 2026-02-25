@@ -2,20 +2,22 @@
   "id": "dataflow-kit-covid-19",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Dataflow Kit COVID-19",
-    "description": "COVID-19 live statistics into sites per hour",
-    "category": "Health",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "condition": "Type 2 Diabetes",
+    "icd_code": "E11",
+    "category": "Endocrine disorder",
+    "prevalence": "~462M worldwide",
+    "treatment": "Lifestyle change, medication",
+    "risk_factors": "Obesity, inactivity, genetics"
   },
   "previewConfig": {
     "title": "Dataflow Kit COVID-19",
     "subtitle": "COVID-19 live statistics into sites per hour",
     "displayFields": [
-      "description",
+      "condition",
+      "icd_code",
       "category",
-      "auth"
+      "prevalence",
+      "treatment"
     ]
   }
 }

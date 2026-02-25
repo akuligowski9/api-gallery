@@ -2,20 +2,23 @@
   "id": "woocommerce",
   "previewType": "card",
   "sampleResponse": {
-    "api": "WooCommerce",
-    "description": "WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format",
-    "category": "Shopping",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "WooCommerce",
-    "subtitle": "WooCommerce REST APIS to create, read, update, and delete…",
+    "subtitle": "WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

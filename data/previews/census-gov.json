@@ -2,20 +2,22 @@
   "id": "census-gov",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Census.gov",
-    "description": "The US Census Bureau provides various APIs and data sets on demographics and businesses",
-    "category": "Government",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "Census.gov",
-    "subtitle": "The US Census Bureau provides various APIs and data sets on…",
+    "subtitle": "The US Census Bureau provides various APIs and data sets on demographics and businesses",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "gcore-dns",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Gcore DNS",
-    "description": "Fast and resilient DNS hosting service by Gcore. Improve the performance and availability of your online business.",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Gcore DNS",
-    "subtitle": "Fast and resilient DNS hosting service by Gcore. Improve…",
+    "subtitle": "Fast and resilient DNS hosting service by Gcore. Improve the performance and availability of your online business.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

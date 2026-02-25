@@ -2,20 +2,23 @@
   "id": "novadax",
   "previewType": "card",
   "sampleResponse": {
-    "api": "NovaDax",
-    "description": "NovaDAX API to access all market data, trading management endpoints",
-    "category": "Cryptocurrency",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "price_usd": "$67,432.18",
+    "change_24h": "+3.41%",
+    "market_cap": "$1.33T",
+    "volume_24h": "$38.2B",
+    "circulating_supply": "19.7M BTC"
   },
   "previewConfig": {
     "title": "NovaDax",
-    "subtitle": "NovaDAX API to access all market data, trading management…",
+    "subtitle": "NovaDAX API to access all market data, trading management endpoints",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "price_usd",
+      "change_24h",
+      "market_cap",
+      "volume_24h"
     ]
   }
 }

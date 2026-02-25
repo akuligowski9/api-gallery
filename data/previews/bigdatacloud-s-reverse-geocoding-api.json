@@ -2,20 +2,24 @@
   "id": "bigdatacloud-s-reverse-geocoding-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "BigDataCloud's Reverse Geocoding API",
-    "description": "Get rich locality information from the geographical coordinates.",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "BigDataCloud's Reverse Geocoding API",
-    "subtitle": "Get rich locality information from the geographical…",
+    "subtitle": "Get rich locality information from the geographical coordinates.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

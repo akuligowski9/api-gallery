@@ -2,20 +2,24 @@
   "id": "generate-thumbnail-from-video-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Generate Thumbnail from video API",
-    "description": "This API generates image thumbnails from any input video file, in the desired size (pixels). The API supports multiple video formats including MP4, WEBM, FLV, AVI, MKV, MOV and 3GP",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Generate Thumbnail from video API",
-    "subtitle": "This API generates image thumbnails from any input video…",
+    "subtitle": "This API generates image thumbnails from any input video file, in the desired size (pixels). The API supports multiple video formats including MP4, WEBM, FLV, AVI, MKV, MOV and 3GP",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

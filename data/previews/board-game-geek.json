@@ -2,20 +2,22 @@
   "id": "board-game-geek",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Board Game Geek",
-    "description": "Board games, RPG and videogames",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Board Game Geek",
     "subtitle": "Board games, RPG and videogames",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

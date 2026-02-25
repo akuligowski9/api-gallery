@@ -2,20 +2,23 @@
   "id": "apicagent",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ApicAgent",
-    "description": "Extract device details from user-agent string",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "ApicAgent",
     "subtitle": "Extract device details from user-agent string",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

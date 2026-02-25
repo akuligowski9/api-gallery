@@ -2,20 +2,23 @@
   "id": "kite-connect",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Kite Connect",
-    "description": "Stock market investment and trading platform",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Kite Connect",
     "subtitle": "Stock market investment and trading platform",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

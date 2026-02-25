@@ -2,20 +2,23 @@
   "id": "api-football",
   "previewType": "card",
   "sampleResponse": {
-    "api": "API-FOOTBALL",
-    "description": "Get information about Football Leagues & Cups",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "API-FOOTBALL",
     "subtitle": "Get information about Football Leagues & Cups",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

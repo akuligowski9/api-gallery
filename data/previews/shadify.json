@@ -2,20 +2,23 @@
   "id": "shadify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Shadify",
-    "description": "Service for generating data and executing logic to create various games and puzzles",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Shadify",
-    "subtitle": "Service for generating data and executing logic to create…",
+    "subtitle": "Service for generating data and executing logic to create various games and puzzles",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

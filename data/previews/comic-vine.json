@@ -2,20 +2,22 @@
   "id": "comic-vine",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Comic Vine",
-    "description": "Comics",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Comic Vine",
     "subtitle": "Comics",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

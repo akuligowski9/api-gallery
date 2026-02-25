@@ -2,20 +2,23 @@
   "id": "transport-rest",
   "previewType": "card",
   "sampleResponse": {
-    "api": "transport.rest",
-    "description": "Community maintained, developer-friendly public transport API",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "transport.rest",
-    "subtitle": "Community maintained, developer-friendly public transport…",
+    "subtitle": "Community maintained, developer-friendly public transport API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

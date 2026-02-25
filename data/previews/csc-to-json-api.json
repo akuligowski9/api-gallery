@@ -2,20 +2,23 @@
   "id": "csc-to-json-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CSC to JSON API",
-    "description": "Convert CSV files to JSON with this API. Ideal for developers who want to automate data workflows and integrate structured data",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "CSC to JSON API",
-    "subtitle": "Convert CSV files to JSON with this API. Ideal for…",
+    "subtitle": "Convert CSV files to JSON with this API. Ideal for developers who want to automate data workflows and integrate structured data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

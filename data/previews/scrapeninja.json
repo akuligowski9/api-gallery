@@ -2,20 +2,23 @@
   "id": "scrapeninja",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ScrapeNinja",
-    "description": "Scraping API with Chrome fingerprint and residential proxies",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "ScrapeNinja",
     "subtitle": "Scraping API with Chrome fingerprint and residential proxies",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

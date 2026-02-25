@@ -2,20 +2,23 @@
   "id": "sweego",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sweego",
-    "description": "Self-serve multichannel notification platform for transactional email, SMS, push web& mobile, chat, in-app",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Sweego",
-    "subtitle": "Self-serve multichannel notification platform for…",
+    "subtitle": "Self-serve multichannel notification platform for transactional email, SMS, push web& mobile, chat, in-app",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

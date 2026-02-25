@@ -2,20 +2,23 @@
   "id": "companyenrich",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CompanyEnrich",
-    "description": "API for B2B company data enrichment, domain enrichment, and website enrichment",
-    "category": "Business",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "CompanyEnrich",
-    "subtitle": "API for B2B company data enrichment, domain enrichment, and…",
+    "subtitle": "API for B2B company data enrichment, domain enrichment, and website enrichment",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "cloudbet",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Cloudbet",
-    "description": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Cloudbet",
-    "subtitle": "Official Cloudbet API provides real-time sports odds and…",
+    "subtitle": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

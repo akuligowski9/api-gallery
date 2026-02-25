@@ -2,20 +2,23 @@
   "id": "flipkart-marketplace",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Flipkart Marketplace",
-    "description": "Product listing management, Order Fulfilment in the Flipkart Marketplace",
-    "category": "Shopping",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "product": "Sony WH-1000XM5 Headphones",
+    "price": "$349.99",
+    "rating": "4.7 / 5",
+    "reviews": "12,483",
+    "in_stock": true,
+    "category": "Electronics",
+    "discount": "15% off"
   },
   "previewConfig": {
     "title": "Flipkart Marketplace",
-    "subtitle": "Product listing management, Order Fulfilment in the…",
+    "subtitle": "Product listing management, Order Fulfilment in the Flipkart Marketplace",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "product",
+      "price",
+      "rating",
+      "reviews",
+      "in_stock"
     ]
   }
 }

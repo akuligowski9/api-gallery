@@ -2,20 +2,23 @@
   "id": "iplocate",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IPLocate",
-    "description": "IP geolocation and threat data API",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "IPLocate",
     "subtitle": "IP geolocation and threat data API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

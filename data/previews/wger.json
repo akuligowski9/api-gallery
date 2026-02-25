@@ -2,20 +2,23 @@
   "id": "wger",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Wger",
-    "description": "Workout manager data as exercises, muscles or equipment",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Wger",
     "subtitle": "Workout manager data as exercises, muscles or equipment",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

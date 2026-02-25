@@ -2,20 +2,23 @@
   "id": "pdfendpoint",
   "previewType": "card",
   "sampleResponse": {
-    "api": "PDFEndpoint",
-    "description": "HTML and URL to PDF API",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "PDFEndpoint",
     "subtitle": "HTML and URL to PDF API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

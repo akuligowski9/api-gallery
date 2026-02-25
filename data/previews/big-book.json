@@ -2,20 +2,24 @@
   "id": "big-book",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Big Book",
-    "description": "The Big Book API allows you to semantically search, filter, sort, and recommend books",
-    "category": "Books",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Big Book",
-    "subtitle": "The Big Book API allows you to semantically search, filter,…",
+    "subtitle": "The Big Book API allows you to semantically search, filter, sort, and recommend books",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

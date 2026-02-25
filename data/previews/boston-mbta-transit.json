@@ -2,20 +2,23 @@
   "id": "boston-mbta-transit",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Boston MBTA Transit",
-    "description": "Stations and predicted arrivals for MBTA",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Boston MBTA Transit",
     "subtitle": "Stations and predicted arrivals for MBTA",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

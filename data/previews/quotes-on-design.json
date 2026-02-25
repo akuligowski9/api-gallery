@@ -2,20 +2,23 @@
   "id": "quotes-on-design",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Quotes on Design",
-    "description": "Inspirational Quotes",
-    "category": "Personality",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Quotes on Design",
     "subtitle": "Inspirational Quotes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

@@ -2,20 +2,20 @@
   "id": "manyapis-com",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Manyapis.com",
-    "description": "Free URL shortener API with up to 50 requests per day",
-    "category": "URL Shorteners",
-    "auth": "Yes",
-    "https": true,
-    "cors": "yes"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Manyapis.com",
     "subtitle": "Free URL shortener API with up to 50 requests per day",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

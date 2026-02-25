@@ -2,20 +2,23 @@
   "id": "sentino-personality-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sentino Personality API",
-    "description": "AI-powered personality profiling and psychology analysis using NLP and Big 5, NEO, HEXACO, DISC inventories",
-    "category": "Personality",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Sentino Personality API",
-    "subtitle": "AI-powered personality profiling and psychology analysis…",
+    "subtitle": "AI-powered personality profiling and psychology analysis using NLP and Big 5, NEO, HEXACO, DISC inventories",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

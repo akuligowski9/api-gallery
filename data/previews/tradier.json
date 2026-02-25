@@ -2,20 +2,23 @@
   "id": "tradier",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Tradier",
-    "description": "US equity/option market data (delayed, intraday, historical)",
-    "category": "Finance",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Tradier",
     "subtitle": "US equity/option market data (delayed, intraday, historical)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

@@ -2,20 +2,24 @@
   "id": "bhagavad-gita-telugu",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Bhagavad Gita telugu",
-    "description": "Bhagavad Gita API in telugu and odia languages",
-    "category": "Books",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Bhagavad Gita telugu",
     "subtitle": "Bhagavad Gita API in telugu and odia languages",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

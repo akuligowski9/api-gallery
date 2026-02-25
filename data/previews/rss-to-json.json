@@ -2,20 +2,23 @@
   "id": "rss-to-json",
   "previewType": "card",
   "sampleResponse": {
-    "api": "RSS to JSON",
-    "description": "Returns RSS feed in JSON format using feed URL",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "RSS to JSON",
     "subtitle": "Returns RSS feed in JSON format using feed URL",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

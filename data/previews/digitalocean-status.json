@@ -2,20 +2,23 @@
   "id": "digitalocean-status",
   "previewType": "card",
   "sampleResponse": {
-    "api": "DigitalOcean Status",
-    "description": "Status of all DigitalOcean services",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "DigitalOcean Status",
     "subtitle": "Status of all DigitalOcean services",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

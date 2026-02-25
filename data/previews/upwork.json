@@ -1,21 +1,35 @@
 {
   "id": "upwork",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "Upwork",
-    "description": "Freelance job board and management system",
-    "category": "Jobs",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "Upwork",
     "subtitle": "Freelance job board and management system",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

@@ -2,20 +2,22 @@
   "id": "battle-net",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Battle.net",
-    "description": "Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs",
-    "category": "Games & Comics",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Battle.net",
-    "subtitle": "Diablo III, Hearthstone, StarCraft II and World of Warcraft…",
+    "subtitle": "Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

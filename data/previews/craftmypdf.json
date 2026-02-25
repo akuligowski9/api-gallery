@@ -2,20 +2,23 @@
   "id": "craftmypdf",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CraftMyPDF",
-    "description": "Generate PDF documents from templates with a drop-and-drop editor and a simple API",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "CraftMyPDF",
-    "subtitle": "Generate PDF documents from templates with a drop-and-drop…",
+    "subtitle": "Generate PDF documents from templates with a drop-and-drop editor and a simple API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

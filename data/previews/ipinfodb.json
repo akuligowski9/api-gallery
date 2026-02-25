@@ -2,20 +2,24 @@
   "id": "ipinfodb",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IPInfoDB",
-    "description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "IPInfoDB",
-    "subtitle": "Free Geolocation tools and APIs for country, region, city…",
+    "subtitle": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

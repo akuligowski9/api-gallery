@@ -2,20 +2,24 @@
   "id": "supernatural-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Supernatural Quotes",
-    "description": "100+ Supernatural quotes",
-    "category": "Video",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Supernatural Quotes",
     "subtitle": "100+ Supernatural quotes",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

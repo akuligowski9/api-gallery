@@ -2,20 +2,23 @@
   "id": "apitemplate-io",
   "previewType": "card",
   "sampleResponse": {
-    "api": "APITemplate.io",
-    "description": "Dynamically generate images and PDFs from templates with a simple API",
-    "category": "Photography",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "APITemplate.io",
-    "subtitle": "Dynamically generate images and PDFs from templates with a…",
+    "subtitle": "Dynamically generate images and PDFs from templates with a simple API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

@@ -2,20 +2,22 @@
   "id": "lingua-robot",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Lingua Robot",
-    "description": "Word definitions, pronunciations, synonyms, antonyms and others",
-    "category": "Dictionaries",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "word": "ephemeral",
+    "pronunciation": "/ɪˈfɛm.ər.əl/",
+    "part_of_speech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "Fame is ephemeral — enjoy it while it lasts.",
+    "synonyms": "fleeting, transient, momentary"
   },
   "previewConfig": {
     "title": "Lingua Robot",
-    "subtitle": "Word definitions, pronunciations, synonyms, antonyms and…",
+    "subtitle": "Word definitions, pronunciations, synonyms, antonyms and others",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "word",
+      "pronunciation",
+      "part_of_speech",
+      "definition",
+      "synonyms"
     ]
   }
 }

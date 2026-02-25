@@ -2,20 +2,23 @@
   "id": "chatterbox",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ChatterBox",
-    "description": "One API for meeting bots on Zoom, Meet & Teams",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "ChatterBox",
     "subtitle": "One API for meeting bots on Zoom, Meet & Teams",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

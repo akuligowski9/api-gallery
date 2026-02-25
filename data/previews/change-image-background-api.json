@@ -2,20 +2,23 @@
   "id": "change-image-background-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Change Image Background API",
-    "description": "This API helps you change the background of any image",
-    "category": "Photography",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "Change Image Background API",
     "subtitle": "This API helps you change the background of any image",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

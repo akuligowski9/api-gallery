@@ -2,20 +2,24 @@
   "id": "uebermaps",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Uebermaps",
-    "description": "Discover and share maps with friends",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Uebermaps",
     "subtitle": "Discover and share maps with friends",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "football-data",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Football-Data",
-    "description": "Football data with matches info, players, teams, and competitions",
-    "category": "Sports & Fitness",
-    "auth": "X-Mashape-Key",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Football-Data",
-    "subtitle": "Football data with matches info, players, teams, and…",
+    "subtitle": "Football data with matches info, players, teams, and competitions",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

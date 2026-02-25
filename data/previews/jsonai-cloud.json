@@ -2,20 +2,22 @@
   "id": "jsonai-cloud",
   "previewType": "card",
   "sampleResponse": {
-    "api": "jsonAi.cloud",
-    "description": "Save JSON schemas as api endpoints, feed it with your data and get structured JSON responses with AI",
-    "category": "Machine Learning",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "jsonAi.cloud",
-    "subtitle": "Save JSON schemas as api endpoints, feed it with your data…",
+    "subtitle": "Save JSON schemas as api endpoints, feed it with your data and get structured JSON responses with AI",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

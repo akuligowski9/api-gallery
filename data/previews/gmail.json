@@ -2,20 +2,23 @@
   "id": "gmail",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Gmail",
-    "description": "Flexible, RESTful access to the user's inbox",
-    "category": "Business",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "company": "Acme Corp",
+    "industry": "Software",
+    "founded": 2012,
+    "employees": "501–1,000",
+    "revenue": "$48M ARR",
+    "headquarters": "Austin, TX",
+    "public": false
   },
   "previewConfig": {
     "title": "Gmail",
     "subtitle": "Flexible, RESTful access to the user's inbox",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "company",
+      "industry",
+      "founded",
+      "employees",
+      "revenue"
     ]
   }
 }

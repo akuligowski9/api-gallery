@@ -2,20 +2,23 @@
   "id": "converthub-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ConvertHub API",
-    "description": "File Conversion API for Developers - Powerful REST API for file conversion. Convert documents, images, ebooks, and more. Simple integration, dev-friendly pricing.",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "ConvertHub API",
-    "subtitle": "File Conversion API for Developers - Powerful REST API for…",
+    "subtitle": "File Conversion API for Developers - Powerful REST API for file conversion. Convert documents, images, ebooks, and more. Simple integration, dev-friendly pricing.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

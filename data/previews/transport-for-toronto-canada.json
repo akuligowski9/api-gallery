@@ -2,20 +2,23 @@
   "id": "transport-for-toronto-canada",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Toronto, Canada",
-    "description": "TTC",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Toronto, Canada",
     "subtitle": "TTC",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

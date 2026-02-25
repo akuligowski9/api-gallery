@@ -2,20 +2,22 @@
   "id": "summarize-text-with-ai",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Summarize Text with AI",
-    "description": "This API generates customizable summaries of text and web pages using AI",
-    "category": "Machine Learning",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "Summarize Text with AI",
-    "subtitle": "This API generates customizable summaries of text and web…",
+    "subtitle": "This API generates customizable summaries of text and web pages using AI",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

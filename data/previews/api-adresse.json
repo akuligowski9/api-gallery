@@ -2,20 +2,22 @@
   "id": "api-adresse",
   "previewType": "card",
   "sampleResponse": {
-    "api": "API Adresse",
-    "description": "Official French address validation service",
-    "category": "Data Validation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "API Adresse",
     "subtitle": "Official French address validation service",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

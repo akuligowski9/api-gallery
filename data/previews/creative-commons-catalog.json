@@ -2,20 +2,23 @@
   "id": "creative-commons-catalog",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Creative Commons Catalog",
-    "description": "Search among openly licensed and public domain works",
-    "category": "Open Source Projects",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "name": "VS Code",
+    "license": "MIT",
+    "stars": "162,000",
+    "contributors": "1,900+",
+    "language": "TypeScript",
+    "latest_release": "1.87.0",
+    "activity": "Very Active"
   },
   "previewConfig": {
     "title": "Creative Commons Catalog",
     "subtitle": "Search among openly licensed and public domain works",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "license",
+      "stars",
+      "contributors",
+      "latest_release"
     ]
   }
 }

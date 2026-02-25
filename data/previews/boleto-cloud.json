@@ -2,20 +2,23 @@
   "id": "boleto-cloud",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Boleto.Cloud",
-    "description": "A api to generate boletos in Brazil",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Boleto.Cloud",
     "subtitle": "A api to generate boletos in Brazil",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

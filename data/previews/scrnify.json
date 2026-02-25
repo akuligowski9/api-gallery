@@ -2,20 +2,23 @@
   "id": "scrnify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Scrnify",
-    "description": "Screenshot and video capture API to transform any URL into high-quality images and recordings",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Scrnify",
-    "subtitle": "Screenshot and video capture API to transform any URL into…",
+    "subtitle": "Screenshot and video capture API to transform any URL into high-quality images and recordings",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

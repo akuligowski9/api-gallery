@@ -2,20 +2,23 @@
   "id": "ebird",
   "previewType": "card",
   "sampleResponse": {
-    "api": "eBird",
-    "description": "Retrieve recent or notable birding observations within a region",
-    "category": "Animals",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "eBird",
-    "subtitle": "Retrieve recent or notable birding observations within a…",
+    "subtitle": "Retrieve recent or notable birding observations within a region",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

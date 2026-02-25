@@ -2,20 +2,24 @@
   "id": "smartcar",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Smartcar",
-    "description": "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars",
-    "category": "Vehicle",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "vin": "1HGBH41JXMN109186",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "engine": "1.5L Turbo 4-cyl",
+    "fuel_type": "Gasoline",
+    "transmission": "CVT"
   },
   "previewConfig": {
     "title": "Smartcar",
-    "subtitle": "Lock and unlock vehicles and get data like odometer reading…",
+    "subtitle": "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "vin",
+      "make",
+      "model",
+      "year",
+      "engine",
+      "fuel_type"
     ]
   }
 }

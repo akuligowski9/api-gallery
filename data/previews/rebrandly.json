@@ -2,20 +2,20 @@
   "id": "rebrandly",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Rebrandly",
-    "description": "Custom URL shortener for sharing branded links",
-    "category": "URL Shorteners",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "Rebrandly",
     "subtitle": "Custom URL shortener for sharing branded links",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

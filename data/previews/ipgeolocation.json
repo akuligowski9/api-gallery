@@ -2,20 +2,24 @@
   "id": "ipgeolocation",
   "previewType": "card",
   "sampleResponse": {
-    "api": "ipgeolocation",
-    "description": "IP Geolocation AP with free plan 30k requests per month",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "ipgeolocation",
     "subtitle": "IP Geolocation AP with free plan 30k requests per month",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

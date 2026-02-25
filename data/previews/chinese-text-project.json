@@ -2,20 +2,22 @@
   "id": "chinese-text-project",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Chinese Text Project",
-    "description": "Online open-access digital library for pre-modern Chinese texts",
-    "category": "Dictionaries",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "word": "ephemeral",
+    "pronunciation": "/ɪˈfɛm.ər.əl/",
+    "part_of_speech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "Fame is ephemeral — enjoy it while it lasts.",
+    "synonyms": "fleeting, transient, momentary"
   },
   "previewConfig": {
     "title": "Chinese Text Project",
-    "subtitle": "Online open-access digital library for pre-modern Chinese…",
+    "subtitle": "Online open-access digital library for pre-modern Chinese texts",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "word",
+      "pronunciation",
+      "part_of_speech",
+      "definition",
+      "synonyms"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "velib-metropolis-paris-france",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Velib metropolis, Paris, France",
-    "description": "Velib Open Data API",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Velib metropolis, Paris, France",
     "subtitle": "Velib Open Data API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

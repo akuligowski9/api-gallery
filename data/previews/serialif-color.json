@@ -2,20 +2,23 @@
   "id": "serialif-color",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Serialif Color",
-    "description": "Color conversion, complementary, grayscale and contrasted text",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Serialif Color",
-    "subtitle": "Color conversion, complementary, grayscale and contrasted…",
+    "subtitle": "Color conversion, complementary, grayscale and contrasted text",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

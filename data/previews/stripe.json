@@ -2,20 +2,23 @@
   "id": "stripe",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Stripe",
-    "description": "Payment processing, subscriptions, and financial management",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "Stripe",
     "subtitle": "Payment processing, subscriptions, and financial management",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

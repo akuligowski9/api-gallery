@@ -2,20 +2,22 @@
   "id": "steam",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Steam",
-    "description": "Steam Web API documentation",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Steam",
     "subtitle": "Steam Web API documentation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

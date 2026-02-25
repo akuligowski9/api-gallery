@@ -2,20 +2,23 @@
   "id": "wav-to-mp3-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "WAV to MP3 API",
-    "description": "This API lets you convert wav files to mp3",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "WAV to MP3 API",
     "subtitle": "This API lets you convert wav files to mp3",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

@@ -2,20 +2,25 @@
   "id": "ai-text-moderation-toxicity-sentiment-analyzer",
   "previewType": "card",
   "sampleResponse": {
-    "api": "AI Text Moderation, Toxicity & Sentiment Analyzer",
-    "description": "Detect sentiment, toxicity, and emotional aspects in text with AI moderation",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "AI Text Moderation, Toxicity & Sentiment Analyzer",
-    "subtitle": "Detect sentiment, toxicity, and emotional aspects in text…",
+    "subtitle": "Detect sentiment, toxicity, and emotional aspects in text with AI moderation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

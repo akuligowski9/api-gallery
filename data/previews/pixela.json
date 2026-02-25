@@ -2,20 +2,23 @@
   "id": "pixela",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Pixela",
-    "description": "API for recording and tracking habits or effort, routines",
-    "category": "Tracking",
-    "auth": "X-Mashape-Key",
-    "https": true,
-    "cors": "yes"
+    "tracking_number": "1Z999AA10123456784",
+    "carrier": "UPS",
+    "status": "Out for Delivery",
+    "estimated_delivery": "Today by 8:00 PM",
+    "origin": "Memphis, TN",
+    "destination": "Brooklyn, NY",
+    "last_update": "9:04 AM — Arrived at facility"
   },
   "previewConfig": {
     "title": "Pixela",
     "subtitle": "API for recording and tracking habits or effort, routines",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "tracking_number",
+      "carrier",
+      "status",
+      "estimated_delivery",
+      "destination"
     ]
   }
 }

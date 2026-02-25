@@ -2,20 +2,22 @@
   "id": "digidates",
   "previewType": "card",
   "sampleResponse": {
-    "api": "DigiDates",
-    "description": "Various date and time calculations",
-    "category": "Calendar",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "DigiDates",
     "subtitle": "Various date and time calculations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

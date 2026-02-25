@@ -2,20 +2,23 @@
   "id": "license-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "License-API",
-    "description": "Unofficial REST API for choosealicense.com",
-    "category": "Development",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "License-API",
     "subtitle": "Unofficial REST API for choosealicense.com",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

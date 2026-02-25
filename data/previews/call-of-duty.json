@@ -2,20 +2,22 @@
   "id": "call-of-duty",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Call of Duty",
-    "description": "Unofficial wrapper for the Call of Duty API with multi-language support.",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Call of Duty",
-    "subtitle": "Unofficial wrapper for the Call of Duty API with…",
+    "subtitle": "Unofficial wrapper for the Call of Duty API with multi-language support.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "euskalmet",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Euskalmet",
-    "description": "Meteorological data of the Basque Country",
-    "category": "Weather",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "Euskalmet",
     "subtitle": "Meteorological data of the Basque Country",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

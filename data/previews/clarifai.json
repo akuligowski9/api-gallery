@@ -2,20 +2,22 @@
   "id": "clarifai",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Clarifai",
-    "description": "Computer Vision",
-    "category": "Machine Learning",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "Clarifai",
     "subtitle": "Computer Vision",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

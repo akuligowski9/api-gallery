@@ -2,20 +2,23 @@
   "id": "sec-edgar-data",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SEC EDGAR Data",
-    "description": "API to access annual reports of public US companies",
-    "category": "Finance",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "SEC EDGAR Data",
     "subtitle": "API to access annual reports of public US companies",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

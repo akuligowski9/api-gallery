@@ -2,20 +2,24 @@
   "id": "ip2location",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IP2Location",
-    "description": "IP geolocation web service to get more than 55 parameters",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "IP2Location",
     "subtitle": "IP geolocation web service to get more than 55 parameters",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

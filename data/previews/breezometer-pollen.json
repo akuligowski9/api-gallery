@@ -2,20 +2,23 @@
   "id": "breezometer-pollen",
   "previewType": "card",
   "sampleResponse": {
-    "api": "BreezoMeter Pollen",
-    "description": "Daily Forecast pollen conditions data for a specific location",
-    "category": "Environment",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "location": "Los Angeles, CA",
+    "aqi": 87,
+    "category": "Moderate",
+    "pm2_5": "18.3 µg/m³",
+    "pm10": "34.1 µg/m³",
+    "o3": "0.064 ppm",
+    "updated": "2026-02-25 11:00 AM"
   },
   "previewConfig": {
     "title": "BreezoMeter Pollen",
-    "subtitle": "Daily Forecast pollen conditions data for a specific…",
+    "subtitle": "Daily Forecast pollen conditions data for a specific location",
     "displayFields": [
-      "description",
+      "location",
+      "aqi",
       "category",
-      "auth"
+      "pm2_5",
+      "pm10"
     ]
   }
 }

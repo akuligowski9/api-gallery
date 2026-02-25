@@ -1,21 +1,40 @@
 {
   "id": "napster",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "Napster",
-    "description": "Music",
-    "category": "Music",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "items": [
+      {
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "duration": "3:20"
+      },
+      {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "duration": "3:53"
+      },
+      {
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "duration": "3:23"
+      },
+      {
+        "title": "Stay",
+        "artist": "The Kid LAROI",
+        "duration": "2:22"
+      },
+      {
+        "title": "Peaches",
+        "artist": "Justin Bieber",
+        "duration": "3:18"
+      }
+    ]
   },
   "previewConfig": {
     "title": "Napster",
     "subtitle": "Music",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "itemKey": "title",
+    "secondaryKey": "artist",
+    "badgeKey": "duration"
   }
 }

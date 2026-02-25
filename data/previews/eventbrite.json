@@ -2,20 +2,22 @@
   "id": "eventbrite",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Eventbrite",
-    "description": "Find events",
-    "category": "Events",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "event": "PyCon US 2026",
+    "date": "May 14–22, 2026",
+    "location": "Pittsburgh, PA",
+    "tickets": "From $125",
+    "attendees": "3,000+",
+    "category": "Technology Conference"
   },
   "previewConfig": {
     "title": "Eventbrite",
     "subtitle": "Find events",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "event",
+      "date",
+      "location",
+      "tickets",
+      "attendees"
     ]
   }
 }

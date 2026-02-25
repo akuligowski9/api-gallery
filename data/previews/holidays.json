@@ -2,20 +2,22 @@
   "id": "holidays",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Holidays",
-    "description": "Historical data regarding holidays",
-    "category": "Calendar",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "Holidays",
     "subtitle": "Historical data regarding holidays",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

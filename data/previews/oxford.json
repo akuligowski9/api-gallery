@@ -2,20 +2,22 @@
   "id": "oxford",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Oxford",
-    "description": "Dictionary Data",
-    "category": "Dictionaries",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "word": "ephemeral",
+    "pronunciation": "/ɪˈfɛm.ər.əl/",
+    "part_of_speech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "Fame is ephemeral — enjoy it while it lasts.",
+    "synonyms": "fleeting, transient, momentary"
   },
   "previewConfig": {
     "title": "Oxford",
     "subtitle": "Dictionary Data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "word",
+      "pronunciation",
+      "part_of_speech",
+      "definition",
+      "synonyms"
     ]
   }
 }

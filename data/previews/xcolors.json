@@ -2,20 +2,25 @@
   "id": "xcolors",
   "previewType": "card",
   "sampleResponse": {
-    "api": "xColors",
-    "description": "Generate & convert colors",
-    "category": "Art & Design",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "palette": "Sunset Gradient",
+    "colors": [
+      "#FF6B6B",
+      "#FFE66D",
+      "#FF8E53",
+      "#C9184A"
+    ],
+    "mood": "Warm, Energetic",
+    "usage": "UI, Marketing, Branding",
+    "contrast_ratio": 4.5
   },
   "previewConfig": {
     "title": "xColors",
     "subtitle": "Generate & convert colors",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "palette",
+      "mood",
+      "usage",
+      "contrast_ratio"
     ]
   }
 }

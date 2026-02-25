@@ -2,20 +2,24 @@
   "id": "carapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CarAPI",
-    "description": "The developer friendly vehicle API. Make, model, trims and more via a RESTFul API",
-    "category": "Vehicle",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "vin": "1HGBH41JXMN109186",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "engine": "1.5L Turbo 4-cyl",
+    "fuel_type": "Gasoline",
+    "transmission": "CVT"
   },
   "previewConfig": {
     "title": "CarAPI",
-    "subtitle": "The developer friendly vehicle API. Make, model, trims and…",
+    "subtitle": "The developer friendly vehicle API. Make, model, trims and more via a RESTFul API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "vin",
+      "make",
+      "model",
+      "year",
+      "engine",
+      "fuel_type"
     ]
   }
 }

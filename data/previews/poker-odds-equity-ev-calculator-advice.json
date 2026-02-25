@@ -2,20 +2,22 @@
   "id": "poker-odds-equity-ev-calculator-advice",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Poker Odds Equity EV Calculator & Advice",
-    "description": "Poker odds, equity & EV calculator with hand/decision advice",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Poker Odds Equity EV Calculator & Advice",
     "subtitle": "Poker odds, equity & EV calculator with hand/decision advice",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

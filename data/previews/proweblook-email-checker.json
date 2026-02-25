@@ -2,20 +2,23 @@
   "id": "proweblook-email-checker",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Proweblook Email Checker",
-    "description": "Validate email addresses without sending",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Proweblook Email Checker",
     "subtitle": "Validate email addresses without sending",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

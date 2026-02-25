@@ -2,20 +2,23 @@
   "id": "enveloop",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Enveloop",
-    "description": "Design, host, and send emails and texts. All from one place - with a simple API",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Enveloop",
-    "subtitle": "Design, host, and send emails and texts. All from one place…",
+    "subtitle": "Design, host, and send emails and texts. All from one place - with a simple API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

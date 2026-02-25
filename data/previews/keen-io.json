@@ -2,20 +2,22 @@
   "id": "keen-io",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Keen IO",
-    "description": "Data Analytics",
-    "category": "Machine Learning",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "Keen IO",
     "subtitle": "Data Analytics",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

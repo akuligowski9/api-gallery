@@ -2,20 +2,23 @@
   "id": "markdown-to-html-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Markdown to HTML API",
-    "description": "This API lets you upload and transform a Markdown file to HTML",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Markdown to HTML API",
-    "subtitle": "This API lets you upload and transform a Markdown file to…",
+    "subtitle": "This API lets you upload and transform a Markdown file to HTML",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

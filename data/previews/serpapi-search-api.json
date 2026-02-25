@@ -2,20 +2,23 @@
   "id": "serpapi-search-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SerpApi - Search API",
-    "description": "SerpApi's Search API makes it easy and fast to scrape Google and other search engines",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "SerpApi - Search API",
-    "subtitle": "SerpApi's Search API makes it easy and fast to scrape…",
+    "subtitle": "SerpApi's Search API makes it easy and fast to scrape Google and other search engines",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

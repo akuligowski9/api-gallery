@@ -2,20 +2,22 @@
   "id": "validate-uk-postcodes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Validate UK Postcodes",
-    "description": "This API validates postal codes within UK",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "Validate UK Postcodes",
     "subtitle": "This API validates postal codes within UK",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

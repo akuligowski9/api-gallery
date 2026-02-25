@@ -2,20 +2,23 @@
   "id": "transport-for-chicago-us",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Chicago, US",
-    "description": "Chicago Transit Authority (CTA)",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": false,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Chicago, US",
     "subtitle": "Chicago Transit Authority (CTA)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

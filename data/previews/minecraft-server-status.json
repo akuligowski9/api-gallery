@@ -2,20 +2,22 @@
   "id": "minecraft-server-status",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Minecraft Server Status",
-    "description": "API to get Information about a Minecraft Server",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Minecraft Server Status",
     "subtitle": "API to get Information about a Minecraft Server",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

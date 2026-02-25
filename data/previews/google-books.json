@@ -2,20 +2,24 @@
   "id": "google-books",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Google Books",
-    "description": "Books",
-    "category": "Books",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Google Books",
     "subtitle": "Books",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

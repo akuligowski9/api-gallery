@@ -2,20 +2,23 @@
   "id": "ec2-shop-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "EC2.shop API",
-    "description": "Get AWS service price right from your terminal",
-    "category": "Continuous Integration",
-    "auth": "None",
-    "https": false,
-    "cors": "no"
+    "pipeline": "main-build",
+    "status": "passed",
+    "duration": "4m 12s",
+    "triggered_by": "push to main",
+    "branch": "main",
+    "commit": "a3f91bc",
+    "tests_passed": "247 / 247"
   },
   "previewConfig": {
     "title": "EC2.shop API",
     "subtitle": "Get AWS service price right from your terminal",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "pipeline",
+      "status",
+      "duration",
+      "branch",
+      "tests_passed"
     ]
   }
 }

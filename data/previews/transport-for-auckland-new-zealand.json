@@ -2,20 +2,23 @@
   "id": "transport-for-auckland-new-zealand",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Auckland, New Zealand",
-    "description": "Auckland Transport",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Auckland, New Zealand",
     "subtitle": "Auckland Transport",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

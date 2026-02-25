@@ -2,20 +2,22 @@
   "id": "abstract-public-holidays",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Abstract Public Holidays",
-    "description": "Data on national, regional, and religious holidays via API",
-    "category": "Calendar",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "Abstract Public Holidays",
     "subtitle": "Data on national, regional, and religious holidays via API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

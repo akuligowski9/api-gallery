@@ -2,20 +2,23 @@
   "id": "meteorologisk-institutt",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Meteorologisk Institutt",
-    "description": "Weather and climate data",
-    "category": "Weather",
-    "auth": "User-Agent",
-    "https": true,
-    "cors": "unknown"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "Meteorologisk Institutt",
     "subtitle": "Weather and climate data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

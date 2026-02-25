@@ -2,20 +2,23 @@
   "id": "whoisfreaks",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Whoisfreaks",
-    "description": "Domain and DNS related information that will equip organizaion with comprehensive threat intelligence and attack surface analysis capabilities for enhanced security",
-    "category": "Security",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "ip": "192.168.1.1",
+    "threat_score": 12,
+    "is_malicious": false,
+    "country": "United States",
+    "isp": "Comcast",
+    "reports": 3,
+    "last_seen": "30 days ago"
   },
   "previewConfig": {
     "title": "Whoisfreaks",
-    "subtitle": "Domain and DNS related information that will equip…",
+    "subtitle": "Domain and DNS related information that will equip organizaion with comprehensive threat intelligence and attack surface analysis capabilities for enhanced security",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "ip",
+      "threat_score",
+      "is_malicious",
+      "country",
+      "reports"
     ]
   }
 }

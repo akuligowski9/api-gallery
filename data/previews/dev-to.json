@@ -2,20 +2,23 @@
   "id": "dev-to",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Dev.to",
-    "description": "Access Forem articles, users and other resources via API",
-    "category": "Personality",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Dev.to",
     "subtitle": "Access Forem articles, users and other resources via API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "medium",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Medium",
-    "description": "Community of readers and writers offering unique perspectives on ideas",
-    "category": "Personality",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Medium",
-    "subtitle": "Community of readers and writers offering unique…",
+    "subtitle": "Community of readers and writers offering unique perspectives on ideas",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

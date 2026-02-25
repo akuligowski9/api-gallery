@@ -2,20 +2,23 @@
   "id": "paraphrase-text-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Paraphrase Text API",
-    "description": "The Paraphrase Text Generator API generates a paraphrased version of the provided text",
-    "category": "Documents & Productivity",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "document": "Q4 2025 Report.pdf",
+    "pages": 24,
+    "word_count": "8,420",
+    "language": "English",
+    "created": "Jan 15, 2026",
+    "author": "Jane Smith",
+    "size": "2.3 MB"
   },
   "previewConfig": {
     "title": "Paraphrase Text API",
-    "subtitle": "The Paraphrase Text Generator API generates a paraphrased…",
+    "subtitle": "The Paraphrase Text Generator API generates a paraphrased version of the provided text",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "document",
+      "pages",
+      "word_count",
+      "language",
+      "author"
     ]
   }
 }

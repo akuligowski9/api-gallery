@@ -2,20 +2,22 @@
   "id": "playerdb",
   "previewType": "card",
   "sampleResponse": {
-    "api": "PlayerDB",
-    "description": "Query Minecraft, Steam and XBox Accounts",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "PlayerDB",
     "subtitle": "Query Minecraft, Steam and XBox Accounts",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

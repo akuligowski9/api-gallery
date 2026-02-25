@@ -2,20 +2,23 @@
   "id": "sportmonks-football",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sportmonks Football",
-    "description": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
-    "category": "Sports & Fitness",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "match": "Lakers vs Warriors",
+    "score": "112 – 108",
+    "status": "Final",
+    "venue": "Chase Center, SF",
+    "date": "Feb 22, 2026",
+    "mvp": "Stephen Curry",
+    "attendance": "18,064"
   },
   "previewConfig": {
     "title": "Sportmonks Football",
-    "subtitle": "Football score/schedule, news api, tv channels, stats,…",
+    "subtitle": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "match",
+      "score",
+      "status",
+      "venue",
+      "mvp"
     ]
   }
 }

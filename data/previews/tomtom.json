@@ -2,20 +2,24 @@
   "id": "tomtom",
   "previewType": "card",
   "sampleResponse": {
-    "api": "TomTom",
-    "description": "Maps, Directions, Places and Traffic APIs",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "TomTom",
     "subtitle": "Maps, Directions, Places and Traffic APIs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

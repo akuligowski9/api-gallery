@@ -2,20 +2,23 @@
   "id": "instagram-posts-generator",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Instagram Posts Generator",
-    "description": "Generate posts with templates from popular instagram pages.",
-    "category": "Social",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "username": "@janedoe",
+    "display_name": "Jane Doe",
+    "followers": "142,803",
+    "following": 891,
+    "posts": "3,241",
+    "verified": true,
+    "bio": "Developer 👩‍💻 | Open source enthusiast"
   },
   "previewConfig": {
     "title": "Instagram Posts Generator",
     "subtitle": "Generate posts with templates from popular instagram pages.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "username",
+      "followers",
+      "following",
+      "posts",
+      "verified"
     ]
   }
 }

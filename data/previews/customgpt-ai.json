@@ -2,20 +2,22 @@
   "id": "customgpt-ai",
   "previewType": "card",
   "sampleResponse": {
-    "api": "CustomGPT.ai",
-    "description": "RAG API with RESTful endpoints, comprehensive SDKs, and enterprise-grade reliability.",
-    "category": "Machine Learning",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "input": "The movie was absolutely fantastic!",
+    "label": "POSITIVE",
+    "confidence": "98.7%",
+    "model": "distilbert-base-uncased",
+    "latency_ms": 42,
+    "tokens": 8
   },
   "previewConfig": {
     "title": "CustomGPT.ai",
-    "subtitle": "RAG API with RESTful endpoints, comprehensive SDKs, and…",
+    "subtitle": "RAG API with RESTful endpoints, comprehensive SDKs, and enterprise-grade reliability.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "label",
+      "confidence",
+      "model",
+      "latency_ms"
     ]
   }
 }

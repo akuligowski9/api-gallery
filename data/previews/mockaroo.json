@@ -2,20 +2,22 @@
   "id": "mockaroo",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Mockaroo",
-    "description": "Generate fake data to JSON, CSV, TXT, SQL and XML",
-    "category": "Test Data",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "name": "Alexandra Chen",
+    "email": "a.chen@fakemail.dev",
+    "phone": "+1 (415) 555-0192",
+    "address": "847 Oak St, Portland, OR 97201",
+    "username": "achen_dev",
+    "avatar": "https://i.pravatar.cc/100"
   },
   "previewConfig": {
     "title": "Mockaroo",
     "subtitle": "Generate fake data to JSON, CSV, TXT, SQL and XML",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "email",
+      "phone",
+      "address",
+      "username"
     ]
   }
 }

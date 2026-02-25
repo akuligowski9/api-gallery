@@ -2,20 +2,22 @@
   "id": "sakura-cardcaptor",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Sakura CardCaptor",
-    "description": "Sakura CardCaptor Cards Information",
-    "category": "Games & Comics",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Sakura CardCaptor",
     "subtitle": "Sakura CardCaptor Cards Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "stockdata",
   "previewType": "card",
   "sampleResponse": {
-    "api": "StockData",
-    "description": "Real-Time, Intraday & Historical Market Data, News and Sentiment API",
-    "category": "Finance",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "symbol": "AAPL",
+    "price": "$182.63",
+    "change": "+1.24 (0.68%)",
+    "volume": "54,823,100",
+    "market_cap": "$2.87T",
+    "pe_ratio": 28.4,
+    "week_52_high": "$198.23"
   },
   "previewConfig": {
     "title": "StockData",
-    "subtitle": "Real-Time, Intraday & Historical Market Data, News and…",
+    "subtitle": "Real-Time, Intraday & Historical Market Data, News and Sentiment API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "symbol",
+      "price",
+      "change",
+      "volume",
+      "market_cap"
     ]
   }
 }

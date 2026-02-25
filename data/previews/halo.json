@@ -2,20 +2,22 @@
   "id": "halo",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Halo",
-    "description": "Halo 5 and Halo Wars 2 Information",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Halo",
     "subtitle": "Halo 5 and Halo Wars 2 Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

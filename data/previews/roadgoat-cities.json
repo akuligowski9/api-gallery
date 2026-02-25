@@ -2,20 +2,24 @@
   "id": "roadgoat-cities",
   "previewType": "card",
   "sampleResponse": {
-    "api": "RoadGoat Cities",
-    "description": "Cities content & photos API",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "RoadGoat Cities",
     "subtitle": "Cities content & photos API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

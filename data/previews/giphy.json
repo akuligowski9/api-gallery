@@ -2,20 +2,23 @@
   "id": "giphy",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Giphy",
-    "description": "Get all your gifs",
-    "category": "Photography",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "title": "Golden Gate at Dusk",
+    "photographer": "Alex Morgan",
+    "camera": "Sony A7R V",
+    "aperture": "f/8",
+    "shutter_speed": "1/250s",
+    "iso": 200,
+    "resolution": "61 MP"
   },
   "previewConfig": {
     "title": "Giphy",
     "subtitle": "Get all your gifs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "photographer",
+      "camera",
+      "aperture",
+      "shutter_speed",
+      "iso"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "udemy-instructor",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Udemy(instructor)",
-    "description": "API for instructors on Udemy",
-    "category": "Personality",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "length": 55,
+    "tags": [
+      "work",
+      "passion",
+      "greatness"
+    ]
   },
   "previewConfig": {
     "title": "Udemy(instructor)",
     "subtitle": "API for instructors on Udemy",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "quote",
+      "author",
+      "category"
     ]
   }
 }

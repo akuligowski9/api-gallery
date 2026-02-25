@@ -2,20 +2,22 @@
   "id": "delta-lake",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Delta Lake",
-    "description": "Open-source storage framework enabling Lakehouse architecture with Spark, PrestoDB, Flink, Trino, Hive, and APIs",
-    "category": "Cloud Storage & File Sharing",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "filename": "project-final-v3.zip",
+    "size": "48.2 MB",
+    "uploaded": "Feb 24, 2026",
+    "downloads": 127,
+    "expires": "March 24, 2026",
+    "shared_with": 4
   },
   "previewConfig": {
     "title": "Delta Lake",
-    "subtitle": "Open-source storage framework enabling Lakehouse…",
+    "subtitle": "Open-source storage framework enabling Lakehouse architecture with Spark, PrestoDB, Flink, Trino, Hive, and APIs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "filename",
+      "size",
+      "uploaded",
+      "downloads",
+      "expires"
     ]
   }
 }

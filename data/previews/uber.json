@@ -2,20 +2,23 @@
   "id": "uber",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Uber",
-    "description": "Uber ride requests and price estimation",
-    "category": "Transportation",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Uber",
     "subtitle": "Uber ride requests and price estimation",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

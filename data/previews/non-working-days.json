@@ -2,20 +2,22 @@
   "id": "non-working-days",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Non-Working Days",
-    "description": "Database of ICS files for non working days",
-    "category": "Calendar",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "country": "United States",
+    "upcoming_holiday": "Memorial Day",
+    "date": "May 26, 2025",
+    "type": "Federal Holiday",
+    "days_away": 90,
+    "observed": true
   },
   "previewConfig": {
     "title": "Non-Working Days",
     "subtitle": "Database of ICS files for non working days",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "country",
+      "upcoming_holiday",
+      "date",
+      "type",
+      "days_away"
     ]
   }
 }

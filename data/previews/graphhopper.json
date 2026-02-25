@@ -2,20 +2,23 @@
   "id": "graphhopper",
   "previewType": "card",
   "sampleResponse": {
-    "api": "GraphHopper",
-    "description": "A-to-B routing with turn-by-turn instructions",
-    "category": "Transportation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "GraphHopper",
     "subtitle": "A-to-B routing with turn-by-turn instructions",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

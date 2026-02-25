@@ -2,20 +2,22 @@
   "id": "18f",
   "previewType": "card",
   "sampleResponse": {
-    "api": "18F",
-    "description": "Unofficial US Federal Government API Development",
-    "category": "Open Data",
-    "auth": "None",
-    "https": false,
-    "cors": "unknown"
+    "dataset": "US Population by State 2024",
+    "total_records": 51,
+    "last_updated": "Jan 2025",
+    "source": "U.S. Census Bureau",
+    "format": "JSON / CSV",
+    "license": "Public Domain"
   },
   "previewConfig": {
     "title": "18F",
     "subtitle": "Unofficial US Federal Government API Development",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "dataset",
+      "total_records",
+      "last_updated",
+      "source",
+      "license"
     ]
   }
 }

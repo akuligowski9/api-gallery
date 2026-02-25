@@ -2,20 +2,23 @@
   "id": "academic-email-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Academic Email API",
-    "description": "This API allows you to verify whether an email belongs to a recognized educational institution",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Academic Email API",
-    "subtitle": "This API allows you to verify whether an email belongs to a…",
+    "subtitle": "This API allows you to verify whether an email belongs to a recognized educational institution",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

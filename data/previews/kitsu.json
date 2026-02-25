@@ -2,20 +2,23 @@
   "id": "kitsu",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Kitsu",
-    "description": "Anime discovery platform",
-    "category": "Anime",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "title": "Attack on Titan",
+    "studio": "MAPPA",
+    "episodes": 87,
+    "status": "Finished",
+    "score": "9.0 / 10",
+    "genres": "Action, Drama, Fantasy",
+    "aired": "2013 – 2023"
   },
   "previewConfig": {
     "title": "Kitsu",
     "subtitle": "Anime discovery platform",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "studio",
+      "episodes",
+      "score",
+      "genres"
     ]
   }
 }

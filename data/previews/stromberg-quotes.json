@@ -2,20 +2,24 @@
   "id": "stromberg-quotes",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Stromberg Quotes",
-    "description": "Returns Stromberg quotes and more",
-    "category": "Video",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Stromberg Quotes",
     "subtitle": "Returns Stromberg quotes and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "open-page-rank",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Open Page Rank",
-    "description": "API for calculating and comparing metrics of different websites using Page Rank algorithm",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Open Page Rank",
-    "subtitle": "API for calculating and comparing metrics of different…",
+    "subtitle": "API for calculating and comparing metrics of different websites using Page Rank algorithm",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

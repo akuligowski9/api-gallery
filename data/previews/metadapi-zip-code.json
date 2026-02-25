@@ -2,20 +2,24 @@
   "id": "metadapi-zip-code",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Metadapi Zip Code",
-    "description": "Enhanced United States zip code information. Census, IRS, demographics, radius, distances and more",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Metadapi Zip Code",
-    "subtitle": "Enhanced United States zip code information. Census, IRS,…",
+    "subtitle": "Enhanced United States zip code information. Census, IRS, demographics, radius, distances and more",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

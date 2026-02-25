@@ -2,20 +2,22 @@
   "id": "file-io",
   "previewType": "card",
   "sampleResponse": {
-    "api": "File.io",
-    "description": "Super simple file sharing, convenient, anonymous and secure",
-    "category": "Cloud Storage & File Sharing",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "filename": "project-final-v3.zip",
+    "size": "48.2 MB",
+    "uploaded": "Feb 24, 2026",
+    "downloads": 127,
+    "expires": "March 24, 2026",
+    "shared_with": 4
   },
   "previewConfig": {
     "title": "File.io",
     "subtitle": "Super simple file sharing, convenient, anonymous and secure",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "filename",
+      "size",
+      "uploaded",
+      "downloads",
+      "expires"
     ]
   }
 }

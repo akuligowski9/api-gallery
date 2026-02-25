@@ -2,20 +2,23 @@
   "id": "transport-for-berlin-germany",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Transport for Berlin, Germany",
-    "description": "Third-party VBB API",
-    "category": "Transportation",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "flight": "UA 328",
+    "origin": "SFO — San Francisco",
+    "destination": "JFK — New York",
+    "departure": "08:45 AM",
+    "arrival": "05:17 PM",
+    "status": "On Time",
+    "aircraft": "Boeing 737-900"
   },
   "previewConfig": {
     "title": "Transport for Berlin, Germany",
     "subtitle": "Third-party VBB API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "flight",
+      "origin",
+      "destination",
+      "departure",
+      "status"
     ]
   }
 }

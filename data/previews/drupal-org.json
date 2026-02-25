@@ -2,20 +2,23 @@
   "id": "drupal-org",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Drupal.org",
-    "description": "Drupal.org",
-    "category": "Open Source Projects",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "name": "VS Code",
+    "license": "MIT",
+    "stars": "162,000",
+    "contributors": "1,900+",
+    "language": "TypeScript",
+    "latest_release": "1.87.0",
+    "activity": "Very Active"
   },
   "previewConfig": {
     "title": "Drupal.org",
     "subtitle": "Drupal.org",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "license",
+      "stars",
+      "contributors",
+      "latest_release"
     ]
   }
 }

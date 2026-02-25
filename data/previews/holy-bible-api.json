@@ -2,20 +2,24 @@
   "id": "holy-bible-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Holy Bible API",
-    "description": "Free Bible API serving 800+ text translations and 40+ audio translations",
-    "category": "Books",
-    "auth": "None",
-    "https": true,
-    "cors": "no"
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "isbn": "978-0-13-595705-9",
+    "published": "1999",
+    "pages": 352,
+    "genre": "Software Engineering",
+    "rating": "4.8 / 5"
   },
   "previewConfig": {
     "title": "Holy Bible API",
-    "subtitle": "Free Bible API serving 800+ text translations and 40+ audio…",
+    "subtitle": "Free Bible API serving 800+ text translations and 40+ audio translations",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "author",
+      "published",
+      "pages",
+      "genre",
+      "rating"
     ]
   }
 }

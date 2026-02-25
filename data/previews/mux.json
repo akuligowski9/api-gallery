@@ -2,20 +2,24 @@
   "id": "mux",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Mux",
-    "description": "Mux Video is an API that enables developers to build unique live and on-demand video experiences",
-    "category": "Video",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "8.8 / 10",
+    "runtime": "2h 28min",
+    "genre": "Sci-Fi, Thriller",
+    "box_office": "$836.8M"
   },
   "previewConfig": {
     "title": "Mux",
-    "subtitle": "Mux Video is an API that enables developers to build unique…",
+    "subtitle": "Mux Video is an API that enables developers to build unique live and on-demand video experiences",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "director",
+      "year",
+      "rating",
+      "runtime",
+      "genre"
     ]
   }
 }

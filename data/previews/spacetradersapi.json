@@ -2,20 +2,22 @@
   "id": "spacetradersapi",
   "previewType": "card",
   "sampleResponse": {
-    "api": "SpaceTradersAPI",
-    "description": "A playable inter-galactic space trading MMOAPI",
-    "category": "Games & Comics",
-    "auth": "OAuth",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "SpaceTradersAPI",
     "subtitle": "A playable inter-galactic space trading MMOAPI",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

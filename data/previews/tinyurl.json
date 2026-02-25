@@ -2,20 +2,20 @@
   "id": "tinyurl",
   "previewType": "card",
   "sampleResponse": {
-    "api": "TinyURL",
-    "description": "Shorten long URLs",
-    "category": "URL Shorteners",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "no"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "TinyURL",
     "subtitle": "Shorten long URLs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

@@ -2,20 +2,23 @@
   "id": "notilify",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Notilify",
-    "description": "A seamless messaging platform & API to send all types of SMS",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Notilify",
     "subtitle": "A seamless messaging platform & API to send all types of SMS",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

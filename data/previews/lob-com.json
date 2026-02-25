@@ -2,20 +2,22 @@
   "id": "lob-com",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Lob.com",
-    "description": "US Address Verification",
-    "category": "Data Validation",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "input": "+1 (415) 555-0192",
+    "type": "Phone Number",
+    "valid": true,
+    "country": "United States",
+    "carrier": "AT&T",
+    "line_type": "Mobile"
   },
   "previewConfig": {
     "title": "Lob.com",
     "subtitle": "US Address Verification",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "input",
+      "type",
+      "valid",
+      "country",
+      "carrier"
     ]
   }
 }

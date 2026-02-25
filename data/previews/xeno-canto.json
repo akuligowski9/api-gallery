@@ -2,20 +2,23 @@
   "id": "xeno-canto",
   "previewType": "card",
   "sampleResponse": {
-    "api": "xeno-canto",
-    "description": "Bird recordings",
-    "category": "Animals",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "name": "Red Fox",
+    "scientific_name": "Vulpes vulpes",
+    "habitat": "Forest, Grassland, Urban",
+    "diet": "Omnivore",
+    "lifespan": "2–5 years (wild)",
+    "weight": "2.2–14 kg",
+    "conservation_status": "Least Concern"
   },
   "previewConfig": {
     "title": "xeno-canto",
     "subtitle": "Bird recordings",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "name",
+      "scientific_name",
+      "habitat",
+      "diet",
+      "conservation_status"
     ]
   }
 }

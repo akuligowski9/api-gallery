@@ -2,20 +2,23 @@
   "id": "meteosource",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Meteosource",
-    "description": "Global weather forecasts based on machine learning and historical data",
-    "category": "Weather",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "location": "San Francisco, CA",
+    "temperature": "18°C / 64°F",
+    "condition": "Partly Cloudy",
+    "humidity": "72%",
+    "wind": "14 km/h W",
+    "uv_index": 4,
+    "forecast": "Rain expected Thursday"
   },
   "previewConfig": {
     "title": "Meteosource",
-    "subtitle": "Global weather forecasts based on machine learning and…",
+    "subtitle": "Global weather forecasts based on machine learning and historical data",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "location",
+      "temperature",
+      "condition",
+      "humidity",
+      "wind"
     ]
   }
 }

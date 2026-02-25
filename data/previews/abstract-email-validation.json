@@ -2,20 +2,23 @@
   "id": "abstract-email-validation",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Abstract Email Validation",
-    "description": "Validate email addresses for deliverability and spam",
-    "category": "Email",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Abstract Email Validation",
     "subtitle": "Validate email addresses for deliverability and spam",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

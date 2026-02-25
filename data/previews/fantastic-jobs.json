@@ -1,21 +1,35 @@
 {
   "id": "fantastic-jobs",
-  "previewType": "card",
+  "previewType": "list",
   "sampleResponse": {
-    "api": "Fantastic.jobs",
-    "description": "Access over 8 million jobs per month using our APIs. ATS, LinkedIn, Upwork, and more.",
-    "category": "Jobs",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "items": [
+      {
+        "title": "Senior Frontend Engineer",
+        "company": "Stripe",
+        "location": "Remote"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Anthropic",
+        "location": "San Francisco"
+      },
+      {
+        "title": "Product Designer",
+        "company": "Figma",
+        "location": "New York"
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Shopify",
+        "location": "Remote"
+      }
+    ]
   },
   "previewConfig": {
     "title": "Fantastic.jobs",
-    "subtitle": "Access over 8 million jobs per month using our APIs. ATS,…",
-    "displayFields": [
-      "description",
-      "category",
-      "auth"
-    ]
+    "subtitle": "Access over 8 million jobs per month using our APIs. ATS, LinkedIn, Upwork, and more.",
+    "itemKey": "title",
+    "secondaryKey": "company",
+    "badgeKey": "location"
   }
 }

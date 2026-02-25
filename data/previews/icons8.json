@@ -2,20 +2,25 @@
   "id": "icons8",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Icons8",
-    "description": "Icons (find \"search icon\" hyperlink in page)",
-    "category": "Art & Design",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "palette": "Sunset Gradient",
+    "colors": [
+      "#FF6B6B",
+      "#FFE66D",
+      "#FF8E53",
+      "#C9184A"
+    ],
+    "mood": "Warm, Energetic",
+    "usage": "UI, Marketing, Branding",
+    "contrast_ratio": 4.5
   },
   "previewConfig": {
     "title": "Icons8",
     "subtitle": "Icons (find \"search icon\" hyperlink in page)",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "palette",
+      "mood",
+      "usage",
+      "contrast_ratio"
     ]
   }
 }

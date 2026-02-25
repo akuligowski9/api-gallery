@@ -2,20 +2,23 @@
   "id": "markdown-to-json-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Markdown to JSON API",
-    "description": "Upload Markdown and get JSON with one API call",
-    "category": "Development",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "repo": "facebook/react",
+    "stars": "228,441",
+    "forks": "46,832",
+    "language": "JavaScript",
+    "open_issues": 891,
+    "license": "MIT",
+    "last_commit": "2 hours ago"
   },
   "previewConfig": {
     "title": "Markdown to JSON API",
     "subtitle": "Upload Markdown and get JSON with one API call",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "repo",
+      "stars",
+      "forks",
+      "language",
+      "open_issues"
     ]
   }
 }

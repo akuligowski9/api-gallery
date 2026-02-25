@@ -2,20 +2,24 @@
   "id": "bigdatacloud-s-phone-and-email-verification-api",
   "previewType": "card",
   "sampleResponse": {
-    "api": "BigDataCloud's Phone and Email Verification API",
-    "description": "Syntax and Format Validation of Phone Number and Email address.",
-    "category": "Geocoding",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "BigDataCloud's Phone and Email Verification API",
-    "subtitle": "Syntax and Format Validation of Phone Number and Email…",
+    "subtitle": "Syntax and Format Validation of Phone Number and Email address.",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

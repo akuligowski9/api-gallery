@@ -2,20 +2,22 @@
   "id": "jokes-one",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Jokes One",
-    "description": "Joke of the day and large category of jokes accessible via REST API",
-    "category": "Games & Comics",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "yes"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Jokes One",
-    "subtitle": "Joke of the day and large category of jokes accessible via…",
+    "subtitle": "Joke of the day and large category of jokes accessible via REST API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

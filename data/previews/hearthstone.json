@@ -2,20 +2,22 @@
   "id": "hearthstone",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Hearthstone",
-    "description": "Hearthstone Cards Information",
-    "category": "Games & Comics",
-    "auth": "X-Mashape-Key",
-    "https": true,
-    "cors": "unknown"
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo Switch",
+    "genre": "Action-Adventure",
+    "rating": "9.4 / 10",
+    "released": "March 3, 2017",
+    "developer": "Nintendo EPD"
   },
   "previewConfig": {
     "title": "Hearthstone",
     "subtitle": "Hearthstone Cards Information",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "title",
+      "platform",
+      "genre",
+      "rating",
+      "released"
     ]
   }
 }

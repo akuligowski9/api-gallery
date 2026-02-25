@@ -2,20 +2,24 @@
   "id": "cartes-io",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Cartes.io",
-    "description": "Create maps and markers for anything",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "Cartes.io",
     "subtitle": "Create maps and markers for anything",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }

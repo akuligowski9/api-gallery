@@ -2,20 +2,23 @@
   "id": "heybounce",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Heybounce",
-    "description": "Email Verification API",
-    "category": "Email",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "email": "user@example.com",
+    "valid": true,
+    "deliverable": true,
+    "domain": "example.com",
+    "mx_found": true,
+    "disposable": false,
+    "role_account": false
   },
   "previewConfig": {
     "title": "Heybounce",
     "subtitle": "Email Verification API",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "email",
+      "valid",
+      "deliverable",
+      "domain",
+      "disposable"
     ]
   }
 }

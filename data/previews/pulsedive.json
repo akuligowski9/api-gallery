@@ -2,20 +2,23 @@
   "id": "pulsedive",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Pulsedive",
-    "description": "Scan, search and collect threat intelligence data in real-time",
-    "category": "Security",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "ip": "192.168.1.1",
+    "threat_score": 12,
+    "is_malicious": false,
+    "country": "United States",
+    "isp": "Comcast",
+    "reports": 3,
+    "last_seen": "30 days ago"
   },
   "previewConfig": {
     "title": "Pulsedive",
-    "subtitle": "Scan, search and collect threat intelligence data in…",
+    "subtitle": "Scan, search and collect threat intelligence data in real-time",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "ip",
+      "threat_score",
+      "is_malicious",
+      "country",
+      "reports"
     ]
   }
 }

@@ -2,20 +2,25 @@
   "id": "aylien-text-analysis",
   "previewType": "card",
   "sampleResponse": {
-    "api": "Aylien Text Analysis",
-    "description": "A collection of information retrieval and natural language APIs",
-    "category": "Text Analysis",
-    "auth": "apiKey",
-    "https": true,
-    "cors": "unknown"
+    "text": "Elon Musk visited Tesla HQ in Austin.",
+    "language": "English",
+    "sentiment": "Neutral",
+    "entities": [
+      "Elon Musk (Person)",
+      "Tesla (Org)",
+      "Austin (Location)"
+    ],
+    "word_count": 7,
+    "reading_level": "Grade 8"
   },
   "previewConfig": {
     "title": "Aylien Text Analysis",
-    "subtitle": "A collection of information retrieval and natural language…",
+    "subtitle": "A collection of information retrieval and natural language APIs",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "language",
+      "sentiment",
+      "entities",
+      "word_count"
     ]
   }
 }

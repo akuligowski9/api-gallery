@@ -2,20 +2,20 @@
   "id": "1pt",
   "previewType": "card",
   "sampleResponse": {
-    "api": "1pt",
-    "description": "A simple URL shortener",
-    "category": "URL Shorteners",
-    "auth": "None",
-    "https": true,
-    "cors": "yes"
+    "original_url": "https://github.com/akuligowski9/api-explorer/releases/v1.0.0",
+    "short_url": "https://bit.ly/4xKp9Qm",
+    "clicks": 1842,
+    "created": "Feb 20, 2026",
+    "expires": "Never"
   },
   "previewConfig": {
     "title": "1pt",
     "subtitle": "A simple URL shortener",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "short_url",
+      "original_url",
+      "clicks",
+      "created"
     ]
   }
 }

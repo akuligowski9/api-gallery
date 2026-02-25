@@ -2,20 +2,24 @@
   "id": "ip-2-country",
   "previewType": "card",
   "sampleResponse": {
-    "api": "IP 2 Country",
-    "description": "Map an IP to a country",
-    "category": "Geocoding",
-    "auth": "None",
-    "https": true,
-    "cors": "unknown"
+    "address": "1600 Amphitheatre Pkwy",
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "postal_code": "94043",
+    "latitude": 37.4224,
+    "longitude": -122.0842
   },
   "previewConfig": {
     "title": "IP 2 Country",
     "subtitle": "Map an IP to a country",
     "displayFields": [
-      "description",
-      "category",
-      "auth"
+      "address",
+      "city",
+      "state",
+      "country",
+      "latitude",
+      "longitude"
     ]
   }
 }
