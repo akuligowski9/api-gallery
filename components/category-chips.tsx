@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { FILTER_CATEGORIES } from "@/lib/categories";
@@ -10,12 +10,14 @@ const COLLAPSED_MAX_HEIGHT = 88; // ~2 rows of chips
 interface CategoryChipsProps {
   selected: string;
   onSelect: (category: string) => void;
+  leading?: ReactNode;
   className?: string;
 }
 
 export function CategoryChips({
   selected,
   onSelect,
+  leading,
   className,
 }: CategoryChipsProps) {
   const [expanded, setExpanded] = useState(false);
@@ -33,11 +35,15 @@ export function CategoryChips({
       setOverflows(hasOverflow);
 
       if (hasOverflow && !expanded) {
-        // Count how many chips are hidden
+        // Count hidden category chips (skip leading content + divider)
         const chips = Array.from(el.children) as HTMLElement[];
         let count = 0;
         for (const chip of chips) {
-          if (chip.offsetTop + chip.offsetHeight > COLLAPSED_MAX_HEIGHT) {
+          // Only count category buttons (have data-category attribute)
+          if (
+            chip.dataset.category &&
+            chip.offsetTop + chip.offsetHeight > COLLAPSED_MAX_HEIGHT
+          ) {
             count++;
           }
         }
@@ -59,13 +65,20 @@ export function CategoryChips({
         animate={{ maxHeight: expanded ? 1000 : COLLAPSED_MAX_HEIGHT }}
         initial={false}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="flex flex-wrap gap-2 overflow-hidden"
+        className="flex flex-wrap items-center gap-2 overflow-hidden"
       >
+        {leading}
+
+        {leading && (
+          <div className="mx-1 h-6 w-px shrink-0 bg-border/60" />
+        )}
+
         {FILTER_CATEGORIES.map((category) => {
           const isActive = selected === category;
           return (
             <button
               key={category}
+              data-category={category}
               onClick={() => onSelect(category)}
               className={cn(
                 "shrink-0 rounded-full px-4 py-2 text-sm font-medium transition-all duration-200",
@@ -90,9 +103,7 @@ export function CategoryChips({
             onClick={() => setExpanded((prev) => !prev)}
             className="mt-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
-            {expanded
-              ? "Show less"
-              : `+${hiddenCount} more`}
+            {expanded ? "Show less" : `+${hiddenCount} more`}
           </motion.button>
         )}
       </AnimatePresence>

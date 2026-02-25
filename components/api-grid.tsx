@@ -87,11 +87,10 @@ export function ApiGrid({ apis, columns }: ApiGridProps) {
         resultCount={filtered.length}
       />
 
-      <FilterBar filters={filters} onChange={handleFiltersChange} />
-
       <CategoryChips
         selected={activeFilter}
         onSelect={handleFilterChange}
+        leading={<FilterBar filters={filters} onChange={handleFiltersChange} />}
       />
 
       {filtered.length === 0 ? (

@@ -45,7 +45,7 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
   const activeCount = countActiveFilters(filters);
 
   return (
-    <div className="flex flex-wrap items-center gap-2">
+    <>
       <FilterDropdown
         label="Auth"
         icon={authIcon(filters.auth)}
@@ -84,11 +84,11 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
       {activeCount > 0 && (
         <button
           onClick={() => onChange(DEFAULT_FILTERS)}
-          className="ml-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+          className="text-sm text-muted-foreground transition-colors hover:text-foreground"
         >
-          Clear filters
+          Clear
         </button>
       )}
-    </div>
+    </>
   );
 }
