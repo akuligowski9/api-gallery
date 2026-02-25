@@ -32,11 +32,11 @@ export function ApiCard({ api, index, featured }: ApiCardProps) {
         <div
           className={cn(
             "relative flex h-full flex-col overflow-hidden rounded-2xl",
-            "bg-white ring-1 ring-black/[0.06]",
+            "bg-card ring-1 ring-border/50",
             "transition-all duration-300 ease-out",
-            "hover:-translate-y-1 hover:shadow-xl hover:shadow-black/[0.08] hover:ring-black/[0.1]",
-            "dark:bg-white/[0.04] dark:ring-white/[0.06]",
-            "dark:hover:bg-white/[0.06] dark:hover:shadow-white/[0.03] dark:hover:ring-white/[0.12]",
+            "hover:-translate-y-1 hover:shadow-xl hover:shadow-black/[0.06] hover:ring-border",
+            "dark:bg-card dark:ring-border/50",
+            "dark:hover:bg-accent dark:hover:shadow-white/[0.03] dark:hover:ring-border",
           )}
         >
           {/* Preview area for featured cards */}

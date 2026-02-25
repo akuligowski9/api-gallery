@@ -102,7 +102,7 @@ export function ChartPreview({ data, compact = false }: ChartPreviewProps) {
       <div
         className={cn(
           "flex items-center justify-center rounded-xl",
-          "bg-white shadow-sm ring-1 ring-black/[0.06]",
+          "bg-card shadow-sm ring-1 ring-border/50",
           "dark:bg-neutral-800 dark:ring-white/[0.06]",
           compact ? "h-[160px]" : "h-64",
         )}
@@ -411,7 +411,7 @@ export function ChartPreview({ data, compact = false }: ChartPreviewProps) {
       <div
         className={cn(
           "flex flex-col overflow-hidden rounded-xl",
-          "bg-white shadow-sm ring-1 ring-black/[0.06]",
+          "bg-card shadow-sm ring-1 ring-border/50",
           "dark:bg-neutral-800 dark:ring-white/[0.06]",
           "h-[160px]",
         )}
@@ -443,7 +443,7 @@ export function ChartPreview({ data, compact = false }: ChartPreviewProps) {
     <div
       className={cn(
         "flex flex-col overflow-hidden rounded-xl",
-        "bg-white shadow-sm ring-1 ring-black/[0.06]",
+        "bg-card shadow-sm ring-1 ring-border/50",
         "dark:bg-neutral-800 dark:ring-white/[0.06]",
       )}
     >

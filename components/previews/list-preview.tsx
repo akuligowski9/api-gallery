@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { PreviewData } from "@/lib/types";
 
@@ -86,7 +87,7 @@ export function ListPreview({ data, compact = false }: ListPreviewProps) {
       <div
         className={cn(
           "flex items-center justify-center rounded-xl",
-          "bg-white shadow-sm ring-1 ring-black/[0.06]",
+          "bg-card shadow-sm ring-1 ring-border/50",
           "dark:bg-neutral-800 dark:ring-white/[0.06]",
           compact ? "h-[160px]" : "h-48",
         )}
@@ -115,15 +116,20 @@ export function ListPreview({ data, compact = false }: ListPreviewProps) {
       >
         {/* Optional flag / image */}
         {flagUrl && (
-          <img
-            src={flagUrl}
-            alt=""
+          <div
             className={cn(
-              "shrink-0 rounded-sm object-cover ring-1 ring-black/[0.06]",
+              "relative shrink-0 overflow-hidden rounded-sm ring-1 ring-black/[0.06]",
               compact ? "h-5 w-7" : "h-6 w-9",
             )}
-            loading="lazy"
-          />
+          >
+            <Image
+              src={flagUrl}
+              alt=""
+              fill
+              sizes="36px"
+              className="object-cover"
+            />
+          </div>
         )}
 
         {/* Text content */}
@@ -164,7 +170,7 @@ export function ListPreview({ data, compact = false }: ListPreviewProps) {
       <div
         className={cn(
           "flex flex-col overflow-hidden rounded-xl",
-          "bg-white shadow-sm ring-1 ring-black/[0.06]",
+          "bg-card shadow-sm ring-1 ring-border/50",
           "dark:bg-neutral-800 dark:ring-white/[0.06]",
         )}
       >
@@ -197,7 +203,7 @@ export function ListPreview({ data, compact = false }: ListPreviewProps) {
     <div
       className={cn(
         "flex flex-col overflow-hidden rounded-xl",
-        "bg-white shadow-sm ring-1 ring-black/[0.06]",
+        "bg-card shadow-sm ring-1 ring-border/50",
         "dark:bg-neutral-800 dark:ring-white/[0.06]",
       )}
     >

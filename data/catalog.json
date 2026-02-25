@@ -1,5 +1,5 @@
 {
-    "count": 1558,
+    "count": 1544,
     "entries": [
         {
             "API": "Cat Facts",
@@ -1469,15 +1469,6 @@
             "Category": "Calendar"
         },
         {
-            "API": "Non-Working Days",
-            "Description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "yes",
-            "Link": "https://isdayoff.ru",
-            "Category": "Calendar"
-        },
-        {
             "API": "OpenHolidays API",
             "Description": "Public and school holidays for many countries via an open REST API",
             "Auth": "",
@@ -2819,15 +2810,6 @@
             "Category": "Development"
         },
         {
-            "API": "Databricks",
-            "Description": "Service to manage your databricks account,clusters, notebooks, jobs and workspaces",
-            "Auth": "apiKey",
-            "HTTPS": true,
-            "Cors": "yes",
-            "Link": "https://docs.databricks.com/dev-tools/api/latest/index.html",
-            "Category": "Development"
-        },
-        {
             "API": "DigitalOcean Status",
             "Description": "Status of all DigitalOcean services",
             "Auth": "",
@@ -3500,15 +3482,6 @@
             "HTTPS": true,
             "Cors": "yes",
             "Link": "https://www.qrtag.net/api/",
-            "Category": "Development"
-        },
-        {
-            "API": "QR code",
-            "Description": "Generate and decode / read QR code graphics",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "unknown",
-            "Link": "http://goqr.me/api/",
             "Category": "Development"
         },
         {
@@ -6140,15 +6113,6 @@
             "Category": "Games & Comics"
         },
         {
-            "API": "JokeAPI",
-            "Description": "Programming, Miscellaneous and Dark Jokes",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "yes",
-            "Link": "https://sv443.net/jokeapi/v2/",
-            "Category": "Games & Comics"
-        },
-        {
             "API": "Jokes One",
             "Description": "Joke of the day and large category of jokes accessible via REST API",
             "Auth": "apiKey",
@@ -6284,15 +6248,6 @@
             "Category": "Games & Comics"
         },
         {
-            "API": "Pokéapi",
-            "Description": "Pokémon Information",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "unknown",
-            "Link": "https://pokeapi.co",
-            "Category": "Games & Comics"
-        },
-        {
             "API": "PokéAPI (GraphQL)",
             "Description": "The Unofficial GraphQL for PokeAPI",
             "Auth": "",
@@ -6425,15 +6380,6 @@
             "HTTPS": true,
             "Cors": "no",
             "Link": "https://steamapi.xpaw.me/",
-            "Category": "Games & Comics"
-        },
-        {
-            "API": "Steam",
-            "Description": "Internal Steam Web API documentation",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "no",
-            "Link": "https://github.com/Revadike/InternalSteamWebAPI/wiki",
             "Category": "Games & Comics"
         },
         {
@@ -7901,15 +7847,6 @@
             "HTTPS": true,
             "Cors": "unknown",
             "Link": "https://www.inegi.org.mx/datos/",
-            "Category": "Government"
-        },
-        {
-            "API": "Open Government, Mexico",
-            "Description": "Mexico Government Open Data",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "unknown",
-            "Link": "https://datos.gob.mx/",
             "Category": "Government"
         },
         {
@@ -10019,15 +9956,6 @@
             "Category": "Phone"
         },
         {
-            "API": "Cloudmersive Validate",
-            "Description": "Validate international phone numbers",
-            "Auth": "apiKey",
-            "HTTPS": true,
-            "Cors": "yes",
-            "Link": "https://cloudmersive.com/phone-number-validation-API",
-            "Category": "Phone"
-        },
-        {
             "API": "NumlookupAPI",
             "Description": "Worldwide Phone Number Lookup & Verification API",
             "Auth": "apiKey",
@@ -10361,15 +10289,6 @@
             "Category": "Podcasts"
         },
         {
-            "API": "Spotify",
-            "Description": "Get details on podcasts & episodes",
-            "Auth": "OAuth",
-            "HTTPS": true,
-            "Cors": "unknown",
-            "Link": "https://developer.spotify.com/documentation/web-api/",
-            "Category": "Podcasts"
-        },
-        {
             "API": "Taddy Podcasts",
             "Description": "Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications",
             "Auth": "apiKey",
@@ -10610,15 +10529,6 @@
             "HTTPS": true,
             "Cors": "no",
             "Link": "https://math.tools/api/numbers/",
-            "Category": "Science & Math"
-        },
-        {
-            "API": "Numbers",
-            "Description": "Facts about numbers",
-            "Auth": "",
-            "HTTPS": false,
-            "Cors": "no",
-            "Link": "http://numbersapi.com",
             "Category": "Science & Math"
         },
         {
@@ -11792,15 +11702,6 @@
             "Category": "Sports & Fitness"
         },
         {
-            "API": "NBA Stats",
-            "Description": "Postman docs for comprehensive NBA player statistics, advanced metrics, and detailed shot chart data",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "yes",
-            "Link": "https://documenter.getpostman.com/view/25652688/2sB34Zs4xZ",
-            "Category": "Sports & Fitness"
-        },
-        {
             "API": "NHL Records and Stats",
             "Description": "NHL historical data and statistics",
             "Auth": "",
@@ -12917,30 +12818,12 @@
             "Category": "Transportation"
         },
         {
-            "API": "Transport for Switzerland",
-            "Description": "Swiss public transport API",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "unknown",
-            "Link": "https://transport.opendata.ch/",
-            "Category": "Transportation"
-        },
-        {
             "API": "Transport for The Netherlands",
             "Description": "NS, only trains",
             "Auth": "apiKey",
             "HTTPS": false,
             "Cors": "unknown",
             "Link": "http://www.ns.nl/reisinformatie/ns-api",
-            "Category": "Transportation"
-        },
-        {
-            "API": "Transport for The Netherlands",
-            "Description": "OVAPI, country-wide public transport",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "unknown",
-            "Link": "https://github.com/skywave/KV78Turbo-OVAPI/wiki",
             "Category": "Transportation"
         },
         {
@@ -13562,15 +13445,6 @@
             "HTTPS": true,
             "Cors": "yes",
             "Link": "https://swapi.dev/",
-            "Category": "Video"
-        },
-        {
-            "API": "SWAPI",
-            "Description": "All things Star Wars",
-            "Auth": "",
-            "HTTPS": true,
-            "Cors": "yes",
-            "Link": "https://www.swapi.tech",
             "Category": "Video"
         },
         {

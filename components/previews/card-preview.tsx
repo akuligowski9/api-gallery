@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { PreviewData } from "@/lib/types";
 
@@ -81,7 +82,7 @@ export function CardPreview({ data, compact = false }: CardPreviewProps) {
       <div
         className={cn(
           "flex flex-col overflow-hidden rounded-xl",
-          "bg-white shadow-sm ring-1 ring-black/[0.06]",
+          "bg-card shadow-sm ring-1 ring-border/50",
           "dark:bg-neutral-800 dark:ring-white/[0.06]",
           compact ? "p-4" : "p-6",
         )}
@@ -114,7 +115,7 @@ export function CardPreview({ data, compact = false }: CardPreviewProps) {
     <div
       className={cn(
         "flex flex-col overflow-hidden rounded-xl",
-        "bg-white shadow-sm ring-1 ring-black/[0.06]",
+        "bg-card shadow-sm ring-1 ring-border/50",
         "dark:bg-neutral-800 dark:ring-white/[0.06]",
         compact ? "gap-3" : "gap-4",
       )}
@@ -129,15 +130,16 @@ export function CardPreview({ data, compact = false }: CardPreviewProps) {
         {imageUrl && (
           <div
             className={cn(
-              "shrink-0 overflow-hidden rounded-lg bg-muted",
+              "relative shrink-0 overflow-hidden rounded-lg bg-muted",
               compact ? "h-14 w-14" : "h-20 w-20",
             )}
           >
-            <img
+            <Image
               src={imageUrl}
               alt={title}
-              className="h-full w-full object-contain"
-              loading="lazy"
+              fill
+              sizes="80px"
+              className="object-contain"
             />
           </div>
         )}

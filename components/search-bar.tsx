@@ -21,11 +21,11 @@ export function SearchBar({
       <div
         className={cn(
           "relative flex items-center overflow-hidden rounded-2xl",
-          "bg-white/80 shadow-lg shadow-black/[0.04] ring-1 ring-black/[0.06]",
+          "bg-card/80 shadow-lg shadow-black/[0.03] ring-1 ring-border/50",
           "backdrop-blur-xl transition-shadow duration-300",
-          "focus-within:shadow-xl focus-within:shadow-black/[0.08] focus-within:ring-black/[0.1]",
-          "dark:bg-white/[0.06] dark:shadow-white/[0.02] dark:ring-white/[0.08]",
-          "dark:focus-within:shadow-white/[0.04] dark:focus-within:ring-white/[0.15]",
+          "focus-within:shadow-xl focus-within:shadow-black/[0.06] focus-within:ring-ring/50",
+          "dark:bg-card/80 dark:shadow-white/[0.02] dark:ring-border/50",
+          "dark:focus-within:shadow-white/[0.04] dark:focus-within:ring-ring/50",
         )}
       >
         <Search className="ml-5 h-5 w-5 shrink-0 text-muted-foreground/60" />

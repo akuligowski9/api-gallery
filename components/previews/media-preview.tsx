@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { PreviewData } from "@/lib/types";
 
@@ -47,14 +48,15 @@ export function MediaPreview({ data, compact = false }: MediaPreviewProps) {
         )}
 
         {imageUrl ? (
-          <img
+          <Image
             src={imageUrl}
             alt={title}
+            fill
+            sizes="(max-width: 640px) 100vw, 50vw"
             className={cn(
-              "h-full w-full object-cover transition-opacity duration-500",
+              "object-cover transition-opacity duration-500",
               loaded ? "opacity-100" : "opacity-0",
             )}
-            loading="lazy"
             onLoad={() => setLoaded(true)}
           />
         ) : (
@@ -83,7 +85,7 @@ export function MediaPreview({ data, compact = false }: MediaPreviewProps) {
     <div
       className={cn(
         "flex flex-col overflow-hidden rounded-xl",
-        "bg-white shadow-sm ring-1 ring-black/[0.06]",
+        "bg-card shadow-sm ring-1 ring-border/50",
         "dark:bg-neutral-800 dark:ring-white/[0.06]",
       )}
     >
@@ -95,14 +97,15 @@ export function MediaPreview({ data, compact = false }: MediaPreviewProps) {
         )}
 
         {imageUrl ? (
-          <img
+          <Image
             src={imageUrl}
             alt={title}
+            fill
+            sizes="(max-width: 640px) 100vw, 800px"
             className={cn(
-              "h-full w-full object-cover transition-opacity duration-500",
+              "object-cover transition-opacity duration-500",
               loaded ? "opacity-100" : "opacity-0",
             )}
-            loading="lazy"
             onLoad={() => setLoaded(true)}
           />
         ) : (
