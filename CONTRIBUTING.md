@@ -1,6 +1,6 @@
 # Contributing to API Explorer
 
-Thanks for your interest in contributing! This project thrives on community contributions — whether it's adding new API previews, improving existing ones, or enhancing the UI.
+Thanks for your interest in contributing! This project thrives on community contributions - whether it's adding new API previews, improving existing ones, or enhancing the UI.
 
 ## Quick start
 
@@ -71,10 +71,10 @@ Use the [issue templates](https://github.com/akuligowski9/api-explorer/issues/ne
 
 ## Development guidelines
 
-- **TypeScript** — all code is typed end-to-end
-- **No component libraries** — we use Tailwind CSS v4 with a custom design system
-- **Static generation** — all pages are pre-built at build time
-- **Keep previews realistic** — use actual sample data from the API when possible
+- **TypeScript** - all code is typed end-to-end
+- **No component libraries** - we use Tailwind CSS v4 with a custom design system
+- **Static generation** - all pages are pre-built at build time
+- **Keep previews realistic** - use actual sample data from the API when possible
 
 ## Slug format
 

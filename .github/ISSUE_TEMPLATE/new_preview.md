@@ -14,13 +14,13 @@ Name of the API (must exist in `data/catalog.json` or be a new addition).
 
 Which preview component fits best?
 
-- [ ] `weather` — Temperature + forecast bars
-- [ ] `chart` — SVG line/bar chart
-- [ ] `map` — Geo pin visualization
-- [ ] `list` — Scrollable rows
-- [ ] `media` — Image display
-- [ ] `code` — Syntax-highlighted JSON
-- [ ] `card` — Key-value pairs
+- [ ] `weather` - Temperature + forecast bars
+- [ ] `chart` - SVG line/bar chart
+- [ ] `map` - Geo pin visualization
+- [ ] `list` - Scrollable rows
+- [ ] `media` - Image display
+- [ ] `code` - Syntax-highlighted JSON
+- [ ] `card` - Key-value pairs
 
 ## Sample data
 

@@ -4,13 +4,13 @@
 [![GitHub stars](https://img.shields.io/github/stars/akuligowski9/api-explorer?style=social)](https://github.com/akuligowski9/api-explorer)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/akuligowski9/api-explorer/blob/main/CONTRIBUTING.md)
 
-A visual catalog of 1,500+ public APIs. Browse APIs through rendered sample data previews — not raw JSON, not docs links, but the data displayed as weather cards, charts, image grids, and more.
+A visual front-end for public API catalogs. This project builds on the excellent work of repos like [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) - same data, completely different experience. Instead of browsing a markdown table, you get rendered sample data displayed as weather cards, charts, image grids, and more.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fakuligowski9%2Fapi-explorer)
 
-## What makes this different
+## Why this exists
 
-Every other API catalog is a table. This one shows you what the data actually looks like:
+Public API catalogs are incredibly useful, but they're all tables and lists. I wanted a way to actually *see* what an API returns before reading the docs. This project takes the same catalog data and gives it a visual layer:
 
 - **1,546 APIs** with visual preview components
 - **1,500+ APIs** listed with search, filters, and category browsing
@@ -18,10 +18,10 @@ Every other API catalog is a table. This one shows you what the data actually lo
 
 ## Tech stack
 
-- **Next.js 16** — App Router, static site generation (all pages pre-built)
-- **Tailwind CSS v4** — custom design system, no component library
-- **framer-motion** — scroll animations, card transitions
-- **TypeScript** — end to end
+- **Next.js 16** - App Router, static site generation (all pages pre-built)
+- **Tailwind CSS v4** - custom design system, no component library
+- **framer-motion** - scroll animations, card transitions
+- **TypeScript** - end to end
 
 ## Getting started
 
@@ -108,9 +108,14 @@ npm install
 npm run dev
 ```
 
-## API catalog source
+## Standing on the shoulders of
 
-Catalog data forked from [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) (MIT license).
+This project wouldn't exist without these open-source API catalogs:
+
+- [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) - the catalog data powering this project (MIT license)
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) - the original list that started it all
+
+API Explorer is a visual layer on top of their work. If you find this useful, go star those repos too.
 
 ## License
 
