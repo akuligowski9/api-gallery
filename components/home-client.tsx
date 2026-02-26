@@ -21,12 +21,15 @@ export function HomeClient({ apis }: HomeClientProps) {
       <main className="mt-10 space-y-2">
         <div className="mb-8">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Explore public APIs
+            Shravya's version of the API Explorer
           </h2>
           <p className="mt-2 text-lg text-muted-foreground">
-            Browse {apis.length.toLocaleString()} APIs with visual previews,
-            sample data, and instant docs.
-          </p>
+  Browse
+  <span className="font-semibold text-foreground">
+    {" "}{apis.length.toLocaleString()} APIs
+  </span>
+  {" "}with visual previews, sample data, and instant docs.
+</p>
         </div>
         <ApiGrid apis={apis} columns={columns} />
       </main>
