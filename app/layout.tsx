@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://public-apis-explorer.vercel.app"),
   title: {
     default: "API Explorer — Visual API Catalog",
     template: "%s | API Explorer",
@@ -24,19 +27,21 @@ export const metadata: Metadata = {
     "developer tools",
     "API explorer",
   ],
-  authors: [{ name: "API Explorer" }],
+  authors: [{ name: "Alex Kuligowski" }],
   openGraph: {
     title: "API Explorer — Visual API Catalog",
     description:
       "Discover public APIs through beautiful visual previews. Browse 1,500+ APIs with rendered sample data.",
     type: "website",
     siteName: "API Explorer",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "API Explorer — Visual API Catalog",
     description:
       "Discover public APIs through beautiful visual previews. Browse 1,500+ APIs with rendered sample data.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -81,6 +86,8 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

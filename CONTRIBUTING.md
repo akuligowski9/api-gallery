@@ -83,7 +83,7 @@ The slug for an API is its name lowercased with spaces replaced by hyphens. For 
 - "Cat Facts" → `cat-facts`
 - "REST Countries" → `rest-countries`
 
-Check `lib/slugify.ts` for the exact logic.
+Check [`lib/slugify.ts`](lib/slugify.ts) for the exact logic.
 
 ## Pull request process
 

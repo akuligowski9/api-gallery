@@ -1,15 +1,17 @@
 # API Explorer
 
+> A visual front-end for 1,500+ public APIs — see what the data looks like before reading the docs.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/v/release/akuligowski9/api-explorer)](https://github.com/akuligowski9/api-explorer/releases)
 [![GitHub stars](https://img.shields.io/github/stars/akuligowski9/api-explorer?style=social)](https://github.com/akuligowski9/api-explorer)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/akuligowski9/api-explorer/blob/main/CONTRIBUTING.md)
 
+**[Live Demo](https://public-apis-explorer.vercel.app)** · If this is useful, consider giving it a star!
+
 ![API Explorer demo](public/demo.gif)
 
-A visual front-end for public API catalogs. Built on top of [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) and [public-apis/public-apis](https://github.com/public-apis/public-apis) - same data, completely different experience. Instead of browsing a markdown table, you get rendered sample data displayed as weather cards, charts, image grids, and more.
-
-**[public-apis-explorer.vercel.app](https://public-apis-explorer.vercel.app)**
+Built on top of [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) and [public-apis/public-apis](https://github.com/public-apis/public-apis) — same data, completely different experience. Instead of browsing a markdown table, you get rendered sample data displayed as weather cards, charts, image grids, and more.
 
 ## Why this exists
 

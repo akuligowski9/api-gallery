@@ -102,7 +102,7 @@ export function ApiCard({ api, index, featured }: ApiCardProps) {
                   "ml-auto flex h-7 w-7 items-center justify-center rounded-full transition-all",
                   selected
                     ? "bg-primary text-primary-foreground shadow-sm"
-                    : "bg-foreground/10 text-transparent ring-1 ring-foreground/20 opacity-0 group-hover:opacity-100",
+                    : "bg-foreground/10 text-foreground/40 ring-1 ring-foreground/20",
                   "hover:scale-110 active:scale-95",
                 )}
                 aria-label={

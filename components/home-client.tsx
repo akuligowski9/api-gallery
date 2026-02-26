@@ -13,7 +13,7 @@ interface HomeClientProps {
 }
 
 export function HomeClient({ apis }: HomeClientProps) {
-  const [columns, setColumns] = useState<Columns>(1);
+  const [columns, setColumns] = useState<Columns>(2);
 
   return (
     <CompareProvider>
@@ -25,7 +25,8 @@ export function HomeClient({ apis }: HomeClientProps) {
           </h2>
           <p className="mt-2 text-lg text-muted-foreground">
             Browse {apis.length.toLocaleString()} APIs with visual previews,
-            sample data, and instant docs.
+            sample data, and instant docs. Select up to 3 APIs to compare them
+            side-by-side.
           </p>
         </div>
         <ApiGrid apis={apis} columns={columns} />
