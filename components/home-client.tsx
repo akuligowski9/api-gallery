@@ -21,8 +21,8 @@ export function HomeClient({ apis }: HomeClientProps) {
       <main className="mt-10 space-y-2">
         <div className="mb-8">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Explore public APIs
-          </h2>
+  Explore Public APIs Easily
+</h2>
           <p className="mt-2 text-lg text-muted-foreground">
             Browse {apis.length.toLocaleString()} APIs with visual previews,
             sample data, and instant docs. Select up to 3 APIs to compare them
